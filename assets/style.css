@@ -274,3 +274,9 @@ footer{margin-top:48px;border-top:1px solid var(--line);padding-top:16px;
   #map{height:400px}
   #map.mini{height:280px}
 }
+
+/* Proofread notice on Rebbe pages (2026-11-22): shown until the entry has
+   been rewritten from proper sources and checked. */
+.proof-note{background:#fff7e0;border:1px solid #e8c96a;border-radius:10px;
+  padding:10px 14px;color:#6b5316;font-size:.95rem}
+html[data-theme="dark"] .proof-note{background:#3a2f10;border-color:#6b5316;color:#e8c96a}
