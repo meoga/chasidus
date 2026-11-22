@@ -41,7 +41,7 @@ a:hover{color:var(--accent2)}
   border-bottom:1px solid var(--line);
   margin:0 -18px;padding:10px 18px;
   display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
-.brand{font-family:"David Libre",serif;font-weight:700;font-size:1.6rem;
+.brand{font-family:"Rubik","David Libre",serif;font-weight:700;font-size:1.6rem;
   line-height:1;color:var(--ink);text-decoration:none}
 .brand::after{content:"";display:inline-block;width:.42em;height:.42em;
   border-radius:50%;background:var(--accent);margin-inline-start:.28em}
@@ -57,7 +57,7 @@ a:hover{color:var(--accent2)}
 
 /* ---------- homepage ---------- */
 .home-head{padding:52px 0 4px;text-align:center}
-.home-head h1{font-family:"David Libre",serif;font-size:clamp(3rem,10vw,5rem);
+.home-head h1{font-family:"Rubik","David Libre",serif;font-size:clamp(3rem,10vw,5rem);
   margin:0;line-height:1;font-weight:700;letter-spacing:-.01em}
 .searchbar{display:flex;gap:8px;max-width:560px;margin:26px auto 8px}
 .searchbar input{flex:1;padding:13px 18px;border:1.5px solid var(--line);
@@ -75,11 +75,11 @@ a:hover{color:var(--accent2)}
   color:var(--ink);box-shadow:var(--shadow-sm);
   display:inline-flex;align-items:center;gap:6px;min-height:2.75rem}
 .entries a:hover{box-shadow:var(--shadow);transform:translateY(-1px)}
-.entries a b{color:var(--accent);font-family:"David Libre",serif;font-size:1.25rem}
+.entries a b{color:var(--accent);font-family:"Rubik","David Libre",serif;font-size:1.25rem}
 .view{display:none;margin-top:26px}.view.active{display:block}
 .sec-head{border-bottom:2px solid var(--ink);padding-bottom:10px;margin:34px 0 14px;
   display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
-.sec-head h2{font-family:"David Libre",serif;font-size:clamp(1.6rem,4vw,2rem);
+.sec-head h2{font-family:"Rubik","David Libre",serif;font-size:clamp(1.6rem,4vw,2rem);
   margin:0;line-height:1.2}
 .sec-head p{margin:0;color:var(--muted);font-size:.92rem}
 .sec-head p a{font-weight:700}
@@ -98,7 +98,7 @@ a:hover{color:var(--accent2)}
   text-align:right;width:100%;color:var(--ink);text-decoration:none;
   transition:box-shadow .15s ease,transform .15s ease}
 .rrow:hover{background:var(--panel);box-shadow:var(--shadow);transform:translateY(-1px)}
-.rrow .nm{font-family:"David Libre",serif;font-size:1.32rem;font-weight:700;line-height:1.3}
+.rrow .nm{font-family:"Rubik","David Libre",serif;font-size:1.32rem;font-weight:700;line-height:1.3}
 .rrow .mt{color:var(--muted);font-size:.9rem}
 .rrow .go{align-self:center;color:var(--accent);font-weight:700;white-space:nowrap}
 .rrow .ds{grid-column:1/-1;color:var(--muted);font-size:.93rem}
@@ -112,7 +112,7 @@ a:hover{color:var(--accent2)}
 article.art{background:var(--panel);border:1px solid var(--line);
   border-radius:var(--r-lg);padding:clamp(22px,5vw,44px) clamp(20px,5vw,46px);
   box-shadow:var(--shadow)}
-.art h2{font-family:"David Libre",serif;font-size:clamp(2rem,5.5vw,2.9rem);
+.art h2{font-family:"Rubik","David Libre",serif;font-size:clamp(2rem,5.5vw,2.9rem);
   line-height:1.15;margin:0 0 6px;letter-spacing:-.01em}
 .art .subtitle{color:var(--accent);font-weight:700;font-size:1.12rem;margin:0 0 16px}
 .art .dates{font-size:1.05rem;padding-bottom:16px;margin-bottom:8px;
@@ -123,14 +123,14 @@ article.art{background:var(--panel);border:1px solid var(--line);
   background:var(--soft)}
 .facts dt{font-size:.78rem;color:var(--muted);font-weight:700;letter-spacing:.02em}
 .facts dd{margin:4px 0 0;font-weight:600;line-height:1.5}
-.art h3{font-family:"David Libre",serif;font-size:1.5rem;line-height:1.25;
+.art h3{font-family:"Rubik","David Libre",serif;font-size:1.5rem;line-height:1.25;
   margin:32px 0 10px;padding-bottom:6px;
   border-bottom:1px solid var(--line);
   border-inline-start:4px solid var(--accent);padding-inline-start:12px}
 .art p{margin:0 0 14px;font-size:1.05rem}
 blockquote{margin:20px 0;padding:20px 24px;background:var(--quote);
   border-radius:var(--r-md);border-inline-start:4px solid var(--accent2);
-  font-family:"David Libre",serif;font-size:1.2rem;line-height:1.75}
+  font-family:"Rubik","David Libre",serif;font-size:1.2rem;line-height:1.75}
 blockquote .src{display:block;margin-top:10px;font-family:Heebo,sans-serif;
   font-size:.85rem;color:var(--muted);font-weight:600}
 sup.fn{color:var(--muted);font-weight:400;font-size:.68em}
@@ -145,7 +145,7 @@ sup.fn a + a{margin-inline-start:.18em}
   box-shadow:var(--shadow-sm);transition:box-shadow .15s ease,transform .15s ease}
 .rel:hover{box-shadow:var(--shadow);transform:translateY(-1px);color:var(--ink)}
 .rel-label{font-size:.78rem;font-weight:700;color:var(--muted);letter-spacing:.02em}
-.rel-name{font-family:"David Libre",serif;font-weight:700;font-size:1.12rem;
+.rel-name{font-family:"Rubik","David Libre",serif;font-weight:700;font-size:1.12rem;
   line-height:1.35;color:var(--accent)}
 
 .unknown{background:var(--soft);border:1px dashed var(--accent2);
@@ -168,19 +168,19 @@ sup.fn a + a{margin-inline-start:.18em}
   box-shadow:var(--shadow-sm);transition:box-shadow .15s ease,transform .15s ease}
 .chip:hover{border-color:var(--accent);color:var(--accent);box-shadow:var(--shadow);
   transform:translateY(-1px)}
-figure{margin:22px 0}
+figure{margin:22px auto;max-width:420px}
 figure img{width:100%;height:auto;border-radius:var(--r-md);display:block}
 figcaption{font-size:.85rem;color:var(--muted);margin-top:8px}
 .dyn{border:1px solid var(--line);background:var(--panel);border-radius:var(--r-lg);
   padding:22px 24px;margin-bottom:16px;box-shadow:var(--shadow-sm);
   transition:box-shadow .15s ease,transform .15s ease}
 .dyn:hover{box-shadow:var(--shadow);transform:translateY(-1px)}
-.dyn h3{font-family:"David Libre",serif;font-size:1.55rem;margin:0 0 6px;line-height:1.3}
+.dyn h3{font-family:"Rubik","David Libre",serif;font-size:1.55rem;margin:0 0 6px;line-height:1.3}
 .dyn p{color:var(--muted);margin:0 0 10px;font-size:.96rem}
 .tree{display:flex;flex-direction:column;align-items:flex-start;gap:0;margin:12px 0}
 .tnode{border:1.5px solid var(--ink);background:var(--bg);border-radius:var(--r-md);
   padding:10px 16px;text-align:right;color:var(--ink);box-shadow:var(--shadow-sm)}
-.tnode b{font-family:"David Libre",serif}
+.tnode b{font-family:"Rubik","David Libre",serif}
 .tnode span{display:block;font-size:.82rem;color:var(--muted);font-weight:600}
 .tnode.root{background:var(--accent);color:#fff;border-color:var(--accent)}
 .tnode.root span{color:#d9ecdd}
@@ -201,7 +201,7 @@ figcaption{font-size:.85rem;color:var(--muted);margin-top:8px}
   color:var(--ink);text-decoration:none;display:block;box-shadow:var(--shadow-sm);
   transition:box-shadow .15s ease,transform .15s ease}
 .townrow:hover{box-shadow:var(--shadow);transform:translateY(-1px)}
-.townrow b{font-family:"David Libre",serif;font-size:1.08rem}
+.townrow b{font-family:"Rubik","David Libre",serif;font-size:1.08rem}
 .townrow span{color:var(--muted);font-size:.86rem;display:block}
 .townrow.map-selected{outline:2px solid var(--accent)}
 .pin{width:28px;height:28px;border-radius:50%;background:var(--accent);color:#fff;
@@ -210,7 +210,7 @@ figcaption{font-size:.85rem;color:var(--muted);margin-top:8px}
 .pin--on{background:var(--accent2)}
 .towncard{border:1px solid var(--line);background:var(--panel);
   border-radius:var(--r-md);padding:18px 20px;margin-top:12px;box-shadow:var(--shadow-sm)}
-.towncard h3{font-family:"David Libre",serif;margin:0 0 6px;font-size:1.45rem}
+.towncard h3{font-family:"Rubik","David Libre",serif;margin:0 0 6px;font-size:1.45rem}
 .towncard p{color:var(--muted);margin:0 0 8px}
 
 /* ---------- timeline ---------- */
@@ -223,13 +223,13 @@ figcaption{font-size:.85rem;color:var(--muted);margin-top:8px}
 .tl-card{background:var(--panel);border:1px solid var(--line);
   border-radius:var(--r-md);padding:14px 18px;margin-bottom:14px;box-shadow:var(--shadow-sm)}
 .tl-card p{margin:6px 0 8px;color:var(--muted);font-size:.94rem}
-.tl-card b{font-family:"David Libre",serif;font-size:1.1rem}
+.tl-card b{font-family:"Rubik","David Libre",serif;font-size:1.1rem}
 
 /* ---------- sources / footer / misc ---------- */
 .biblio{display:grid;grid-template-columns:1fr 1fr;gap:0 28px}
 @media(max-width:700px){.biblio{grid-template-columns:1fr}}
 .biblio div{padding:12px 0;border-bottom:1px solid var(--line)}
-.biblio h4{margin:0;font-family:"David Libre",serif;font-size:1.12rem}
+.biblio h4{margin:0;font-family:"Rubik","David Libre",serif;font-size:1.12rem}
 .biblio p{margin:4px 0 0;color:var(--muted);font-size:.9rem}
 footer{margin-top:48px;border-top:1px solid var(--line);padding-top:16px;
   color:var(--muted);font-size:.88rem;line-height:1.7}
@@ -256,7 +256,7 @@ footer{margin-top:48px;border-top:1px solid var(--line);padding-top:16px;
   font-family:Heebo,system-ui,sans-serif;white-space:nowrap;font-size:15px}
 .nopin{border:1px dashed var(--line);border-radius:var(--r-md);
   padding:12px 16px;background:var(--soft)}
-.tnode a{color:inherit;text-decoration:none;font-family:"David Libre",serif;font-weight:700}
+.tnode a{color:inherit;text-decoration:none;font-family:"Rubik","David Libre",serif;font-weight:700}
 .tnode a:hover{text-decoration:underline}
 
 /* ---------- small screens ---------- */
@@ -291,17 +291,17 @@ html[data-theme="dark"] .proof-note{background:#3a2f10;border-color:#6b5316;colo
   color:var(--ink);text-decoration:none;box-shadow:var(--shadow-sm);
   transition:box-shadow .15s ease,transform .15s ease}
 .stat-card:hover{box-shadow:var(--shadow);transform:translateY(-1px)}
-.stat-card b{display:block;font-family:"David Libre",serif;font-size:1.9rem;line-height:1.1}
+.stat-card b{display:block;font-family:"Rubik","David Libre",serif;font-size:1.9rem;line-height:1.1}
 .stat-card span{color:var(--muted);font-size:.92rem}
 .home-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin:8px 0}
 .hcard{background:var(--panel);border:1px solid var(--line);border-radius:var(--r-lg);
   padding:20px 22px;box-shadow:var(--shadow-sm)}
-.hcard h2{font-family:"David Libre",serif;font-size:1.4rem;margin:0 0 12px}
-.hcard h3{font-family:"David Libre",serif;font-size:1.5rem;margin:0 0 6px;line-height:1.3}
+.hcard h2{font-family:"Rubik","David Libre",serif;font-size:1.4rem;margin:0 0 12px}
+.hcard h3{font-family:"Rubik","David Libre",serif;font-size:1.5rem;margin:0 0 6px;line-height:1.3}
 .hcard h3 a{color:var(--ink);text-decoration:none}
 .hcard p{margin:0 0 10px}
 .hcard .fine{font-size:.82rem;color:var(--muted)}
-.hcard figure{margin:0 0 10px}
+.hcard figure{margin:0 auto 10px;max-width:320px}
 .hebrew-date{font-weight:700;font-size:1.08rem}
 .yz-list{margin:0;padding-inline-start:20px}
 .yz-list li{margin-bottom:6px}
