@@ -56,6 +56,69 @@ function initMap(){
     L.marker([lat, lon]).addTo(map).bindPopup(el.getAttribute('data-name') || '');
   }
 }
-if(document.readyState === 'loading'){ document.addEventListener('DOMContentLoaded', initMap); }
-else { initMap(); }
+function initHome(){
+  var assets = (document.currentScript && document.currentScript.getAttribute('data-assets')) || 'assets/';
+  var yz = document.getElementById('yahrtzeit');
+  if(yz){
+    var today = new Date();
+    var iso = today.getFullYear() + '-' + String(today.getMonth()+1).padStart(2,'0') + '-' + String(today.getDate()).padStart(2,'0');
+    Promise.all([
+      fetch(assets + 'hebcal.json').then(function(r){ return r.json(); }),
+      fetch(assets + 'yahrtzeit.json').then(function(r){ return r.json(); })
+    ]).then(function(pair){
+      var heb = pair[0], idx = pair[1];
+      var h = heb[iso];
+      if(!h){ yz.innerHTML = '<p>לא נמצא תאריך עברי להיום.</p>'; return; }
+      var head = '<p class="hebrew-date">היום, ' + h.dh + ' ב' + h.mh + ' ' + h.yh + '</p>';
+      var keys = [h.m + '-' + h.d];
+      if(h.m === 'Adar II') keys.push('Adar-' + h.d);
+      if((h.m === 'Cheshvan' || h.m === 'Kislev') && h.d === 29){
+        var has30 = false;
+        for(var k in heb){ var e = heb[k]; if(e.y === h.y && e.m === h.m && e.d === 30){ has30 = true; break; } }
+        if(!has30) keys.push(h.m + '-30');
+      }
+      var names = [];
+      keys.forEach(function(k){ (idx[k] || []).forEach(function(e){ names.push(e); }); });
+      if(names.length){
+        yz.innerHTML = head + '<ul class="yz-list">' + names.map(function(e){
+          return '<li><a href="rebbe/' + e.id + '.html">' + e.name + '</a>' +
+            ' <span class="muted">נפטר ' + e.dateH + '</span></li>';
+        }).join('') + '</ul>';
+      } else {
+        var found = null;
+        for(var i = 1; i <= 7 && !found; i++){
+          var d2 = new Date(today.getTime() + i*86400000);
+          var iso2 = d2.getFullYear() + '-' + String(d2.getMonth()+1).padStart(2,'0') + '-' + String(d2.getDate()).padStart(2,'0');
+          var h2 = heb[iso2];
+          if(!h2) continue;
+          var k2 = [h2.m + '-' + h2.d];
+          if(h2.m === 'Adar II') k2.push('Adar-' + h2.d);
+          var list = [];
+          k2.forEach(function(k){ (idx[k] || []).forEach(function(e){ list.push(e); }); });
+          if(list.length) found = {h: h2, list: list};
+        }
+        var html = head + '<p>היום אין יארצייטן באתר.</p>';
+        if(found){
+          html += '<p>היארצייט הקרוב: ' + found.h.dh + ' ב' + found.h.mh + ' — ' +
+            found.list.map(function(e){ return '<a href="rebbe/' + e.id + '.html">' + e.name + '</a>'; }).join(', ') + '</p>';
+        }
+        yz.innerHTML = html;
+      }
+    }).catch(function(){ yz.innerHTML = '<p>לא הצלחנו לטעון את היארצייטן.</p>'; });
+  }
+  var rb = document.getElementById('randomRebbe');
+  if(rb){
+    fetch('search.json').then(function(r){ return r.json(); }).then(function(ix){
+      var rs = ix.filter(function(e){ return e.k === 'אדמו״ר'; });
+      if(!rs.length) return;
+      rb.addEventListener('click', function(ev){
+        ev.preventDefault();
+        var pick = rs[Math.floor(Math.random()*rs.length)];
+        location.href = pick.u;
+      });
+    });
+  }
+}
+if(document.readyState === 'loading'){ document.addEventListener('DOMContentLoaded', function(){ initMap(); initHome(); }); }
+else { initMap(); initHome(); }
 })();

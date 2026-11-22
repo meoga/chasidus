@@ -1,0 +1,7167 @@
+{
+ "Tishrei-2": [
+  {
+   "id": "avraham-eisenberg-ulanow",
+   "name": "רבי אברהם אייזנברג מאולינוב",
+   "dateH": "ב׳ תשרי תקפ״ד"
+  },
+  {
+   "id": "meir-drohobycz",
+   "name": "רבי מאיר מדרוהביטש",
+   "dateH": "ב׳ תשרי תש״ד"
+  }
+ ],
+ "Tishrei-3": [
+  {
+   "id": "avry-lndmn-mpvdvl-aylvay",
+   "name": "רבי אורי לנדמן מפודול אילואי",
+   "dateH": "ג׳ תשרי תרע״ז"
+  },
+  {
+   "id": "chaim-davb-barysah-yanov",
+   "name": "רבי חיים דוּב בריש מיאנוב",
+   "dateH": "ג׳ תשרי תר״ו"
+  },
+  {
+   "id": "yekutiel-efrati-khuliov",
+   "name": "רבי יקותיאל אפרתי מחוליוב",
+   "dateH": "ג׳ תשרי תרצ״ה"
+  },
+  {
+   "id": "tzvi-aryeh-landau-alik",
+   "name": "רבי צבי אריה לנדא מאליק",
+   "dateH": "ג׳ תשרי תקע״ב"
+  }
+ ],
+ "Tishrei-4": [
+  {
+   "id": "yeshaya-yosef-wilf",
+   "name": "רבי ישעיה יוסף ווילף מדרוהוביטש",
+   "dateH": "ד׳ תשרי תרכ״ד"
+  },
+  {
+   "id": "mordechai-menachem-mendel-maramansaht",
+   "name": "רבי מרדפי מנחם מנדל מראמנשט",
+   "dateH": "ד׳ תשרי תרמ״ג"
+  }
+ ],
+ "Tishrei-5": [
+  {
+   "id": "baruch-shalom-ashlag",
+   "name": "רבי ברוך שלום הלוי אשלג",
+   "dateH": "ה׳ תשרי תשנ״ב"
+  },
+  {
+   "id": "meir-rokeach-mkvzlvb",
+   "name": "רבי מאיר רוקח מקוזלוב",
+   "dateH": "ה׳ תשרי תש״ב"
+  },
+  {
+   "id": "moshe-krosna",
+   "name": "רבי משה מקרוסנא",
+   "dateH": "ב״ג תשרי תרצ״ו"
+  }
+ ],
+ "Tishrei-6": [
+  {
+   "id": "avraham-yehuda-leib-schwarz-bergsas",
+   "name": "רבי אברהם יהודה לייב הכהן שוואר מברגסאס",
+   "dateH": "ב״ד תשרי תרמ״ד"
+  },
+  {
+   "id": "aryeh-leib-shpola",
+   "name": "רבי אריה לייבוש, הסבא משפולה",
+   "dateH": "ו׳ תשרי תקע״ב"
+  },
+  {
+   "id": "yeshaya-yosef-madravhabytassah",
+   "name": "רבי ישעיה יוסף מדרוהביטסש",
+   "dateH": "ב״ד תשרי תרכ״ד"
+  },
+  {
+   "id": "mordechai-tolna",
+   "name": "רבי מרדכי",
+   "dateH": "ו׳ תשרי תרל״ז"
+  },
+  {
+   "id": "naftali-metasheb",
+   "name": "רבי נפתלי מעטשעב",
+   "dateH": "ו׳ תשרי תשל״א"
+  }
+ ],
+ "Tishrei-7": [
+  {
+   "id": "lipa-szczekociny",
+   "name": "רבי (אליעזר) ליפא משטשעקאטשין",
+   "dateH": "ז׳ תשרי תקצ״ה"
+  },
+  {
+   "id": "alyekab-ysaha-parahler-mashatsahkashatyn",
+   "name": "רבי אליעקב ישא פארהלער משטש7קשטין",
+   "dateH": "ז׳ תשרי תקצ״ה"
+  },
+  {
+   "id": "yechiel-michel-koretz",
+   "name": "רבי יחיאל מיכל הלוי מקוריץ",
+   "dateH": "ז׳ תשרי תרע״ז"
+  },
+  {
+   "id": "meir-marvabna",
+   "name": "רבי מאיר מרובנא",
+   "dateH": "ז׳ תשרי תרע״ח"
+  },
+  {
+   "id": "menachem-bahvasham-sahbarsahky-vabvakravm",
+   "name": "רבי מנחם בהושם שברשקי ובוקרום",
+   "dateH": "ז׳ תשרי תרי״א"
+  }
+ ],
+ "Tishrei-8": [
+  {
+   "id": "eliezer-nisan-sighet",
+   "name": "רבי אליעזר ניסן טייטלבוים מסיגעט",
+   "dateH": "ח׳ תשרי תרט״ז"
+  },
+  {
+   "id": "apabrarham-yehoshua-heschel-rabinowitz-bavlavbalyn",
+   "name": "רבי אפבררהם יהושע השל רבינוביץ בולובלין",
+   "dateH": "ח׳ תשרי תרע״ג"
+  }
+ ],
+ "Tishrei-9": [
+  {
+   "id": "gershon-ravytablat-masharlytaz",
+   "name": "רבי גרשון רויטבלט משרליץ",
+   "dateH": "ט׳ תשרי תרע״ג"
+  },
+  {
+   "id": "mordechai-matysa-salka",
+   "name": "רבי מרדכי מטיסא - סלקא",
+   "dateH": "ב״ז תשרי תש״ו"
+  },
+  {
+   "id": "naftali-hertz-ratsferd",
+   "name": "רבי נפתלי הירצקי מראצפרד",
+   "dateH": "ט׳ תשרי תרנ״ח"
+  }
+ ],
+ "Tishrei-10": [
+  {
+   "id": "avraham-yosef-moshe-mahvarmylavb",
+   "name": "רבי אברהם יוסף משה מהורמילוב",
+   "dateH": "י׳ תשרי תקצ״ו"
+  },
+  {
+   "id": "moshe-bavsaherashavb",
+   "name": "רבי משה בושערשוב",
+   "dateH": "י׳ תשרי תקפ״ז"
+  }
+ ],
+ "Tishrei-11": [
+  {
+   "id": "eliezer-hager-seret-vydgy",
+   "name": "רבי אליעזר הגר מסערט וידגי",
+   "dateH": "י״א תשרי תרפ״ה"
+  },
+  {
+   "id": "alexander-sender-lipa-ziditchov",
+   "name": "רבי אלכסנדר סנדר יום טוב ליפא מזידיטשוב",
+   "dateH": "י״א תשרי תרמ״ד"
+  },
+  {
+   "id": "menachem-mendel-friedman-bohush",
+   "name": "רבי מנחם מנדל פרידמן מבוהוש",
+   "dateH": "י״א תשרי תש״ג"
+  },
+  {
+   "id": "pinchas-chaim-taub-rozdol",
+   "name": "רבי פנחס חיים טויב מרוזדול",
+   "dateH": "י״א תשרי תר״צי״ו"
+  }
+ ],
+ "Tishrei-12": [
+  {
+   "id": "avraham-hamalach",
+   "name": "רבי אברהם המלאך",
+   "dateH": "י״ב תשרי תקל״ז"
+  },
+  {
+   "id": "yechiel-michel-zvhil",
+   "name": "רבי יחיאל מיכל מזוויהל",
+   "dateH": "י״ב תשרי תרט״ז"
+  }
+ ],
+ "Tishrei-13": [
+  {
+   "id": "yisrael-friedman-sadigura",
+   "name": "רבי ישראל פרידמן מסדיגורא",
+   "dateH": "י״ג תשרי תרס״ז"
+  },
+  {
+   "id": "menachem-mendel-panet-dees",
+   "name": "רבי מנחם מנדל פאנעט מדעעש",
+   "dateH": "י״ג תשרי תרמ״ה"
+  },
+  {
+   "id": "shmuel-schneersohn-lubavitch",
+   "name": "רבי שמואל שניאורסון מליובאוויטש",
+   "dateH": "י״ג תשרי תרמ״ג"
+  }
+ ],
+ "Tishrei-14": [
+  {
+   "id": "elimelech-vavalaknaplad-malyzagsak",
+   "name": "רבי אלימלך וואלקנפלד מליז׳גסק",
+   "dateH": "י״ד תשרי תש״ב"
+  },
+  {
+   "id": "chanoch-gad-justman-pilz",
+   "name": "רבי חנוך גד יוסטמן מפילץ",
+   "dateH": "י״ד תשרי תש״ג"
+  },
+  {
+   "id": "yisrael-kozhnitz",
+   "name": "רבי ישראל המגיד מקוז׳ניץ",
+   "dateH": "י״ד תשרי תקע״ה"
+  },
+  {
+   "id": "mordechai-gavladman-zvhil",
+   "name": "רבי מרדכי גולדמן מזוויהל",
+   "dateH": "י״ד תשרי תרס״א"
+  },
+  {
+   "id": "shalom-shachna-prohovitch",
+   "name": "רבי שלום שכנא מפרוהוביטש",
+   "dateH": "י״ד תשרי תקס״ג"
+  }
+ ],
+ "Tishrei-15": [
+  {
+   "id": "chaim-yitzchak-isaac-halperin-botosani",
+   "name": "רבי חיים יצחק אייזיק הלפרין מבוטושאן",
+   "dateH": "ט״ו תשרי תרכ״ח"
+  },
+  {
+   "id": "tshmevn-yaroslav",
+   "name": "רבי טשמעון מיארוסלב",
+   "dateH": "ט״ו תשרי תר״י"
+  },
+  {
+   "id": "mordechai-nadvorna",
+   "name": "רבי מרדכי מנאדבורנה",
+   "dateH": "ט״ו תשרי תרנ״ה"
+  }
+ ],
+ "Tishrei-16": [
+  {
+   "id": "binyamin-zeev-auerbach-mavazyran",
+   "name": "רבי בנימין זאב אוירבוך מאוזיראן",
+   "dateH": "ט״ז תשרי תרנ״ט"
+  },
+  {
+   "id": "binyamin-zeev-wolf-mavazyran-gavtasman-heller",
+   "name": "רבי בנימין זאב וולף מאוז'יראן גוטסמן הלר",
+   "dateH": "ט״ז תשרי תרנ״ט"
+  },
+  {
+   "id": "nachman-kahana-spinka-bnei-brak",
+   "name": "רבי נחמן כהנא מספינקא - בני ברק",
+   "dateH": "ט״ז תשרי תשל״ז"
+  },
+  {
+   "id": "tzvi-hirsch-munkacs",
+   "name": "רבי צבי הירש שפירא ממונקאטש",
+   "dateH": "ט״ז תשרי תרע״ד"
+  },
+  {
+   "id": "shalom-dov-schneersohn-martazytaza",
+   "name": "רבי שלום דובער שניאורסון מרציצא",
+   "dateH": "ט״ז תשרי תרס״ט"
+  },
+  {
+   "id": "shmuel-shmlkh-rokeach-mtkahl",
+   "name": "רבי שמואל שמלקה רוקח מטקאהל",
+   "dateH": "ט״ז תשרי תרע״ב"
+  }
+ ],
+ "Tishrei-17": [
+  {
+   "id": "david-mordechai-tversky-tolna",
+   "name": "רבי דוד מרדכי טברסקי מטולנא",
+   "dateH": "י״ז תשרי תשי״ז"
+  },
+  {
+   "id": "yoel-mavsakvabytaz-shatz",
+   "name": "רבי יואל מוסקוביץ משאץ",
+   "dateH": "י״ז תשרי"
+  },
+  {
+   "id": "yitzchak-isaac-lentshna",
+   "name": "רבי יצחק אייזיק מלענטשנא",
+   "dateH": "י״ז תשרי תקפ״ז"
+  },
+  {
+   "id": "yeshaya-rubin-myhaypalavva",
+   "name": "רבי ישעיה הכהן רובין מיהאיפאלווא",
+   "dateH": "י״ז תשרי תרנ״ד"
+  },
+  {
+   "id": "shalom-safrin-komarno-2",
+   "name": "רבי שלום ספרין מקומרנא",
+   "dateH": "י״ז תשרי תשנ״ח"
+  }
+ ],
+ "Tishrei-18": [
+  {
+   "id": "chana-kalshitz",
+   "name": "רבי חנה הלברשטאם מקולשיץ",
+   "dateH": "י״ח תשרי תש״ג"
+  },
+  {
+   "id": "menachem-mand-ostroha",
+   "name": "רבי מנחם מנד מאוסטרהא",
+   "dateH": "י״ח תשרי תר״ט"
+  },
+  {
+   "id": "moshe-avaggar",
+   "name": "רבי משה אוגגר",
+   "dateH": "י״ח תשרי תרנ״ח"
+  },
+  {
+   "id": "nachman-breslov",
+   "name": "רבי נחמן מברסלב",
+   "dateH": "י״ח תשרי תקע״א"
+  }
+ ],
+ "Tishrei-19": [
+  {
+   "id": "yehudi-peshischa",
+   "name": "היהודי הקדוש מפשיסחא",
+   "dateH": "י״ט תשרי תקע״ד"
+  },
+  {
+   "id": "avraham-yehoshua-heshyl-mdbv",
+   "name": "רבי אברהם יהושע העשיל ממדבוו",
+   "dateH": "י״ט תשרי תרמ״א"
+  },
+  {
+   "id": "aharon-friedman-sadigura",
+   "name": "רבי אהרן פרידמן מסדיגורא",
+   "dateH": "י״ט תשרי תרע״ג"
+  },
+  {
+   "id": "alter-mordechai-saprad-ostroha",
+   "name": "רבי אלטר מרדכי ספרד מאוסטרהא",
+   "dateH": "י״ט תשרי תרצ״ו"
+  },
+  {
+   "id": "yehoshua-asher-parisov-5698",
+   "name": "רבי יהושע אשר רבינוביץ מפאריסוב",
+   "dateH": "י״ט תשרי תרצ״ח"
+  },
+  {
+   "id": "yaakov-yehuda-mablavyna",
+   "name": "רבי יעקב יהודה מבלוינא",
+   "dateH": "י״ט תשרי תר״צ"
+  },
+  {
+   "id": "yitzchak-avraham-moshe-koristyshev",
+   "name": "רבי יצחק אברהם משה מקוריסטשוב",
+   "dateH": "י״ט תשרי תשנמ״ב"
+  },
+  {
+   "id": "meir-yehuda-bukovsk",
+   "name": "רבי מאיר יהודה שפירא מבוקאווסק",
+   "dateH": "י״ט תשרי תרס״ט"
+  },
+  {
+   "id": "moshe-bardiov",
+   "name": "רבי משה הלברשטאם מבארדיוב",
+   "dateH": "י״ט תשרי תרס״ד"
+  },
+  {
+   "id": "nechemia-yechiel-bichov",
+   "name": "רבי נחמיה יחיאל מביכוב",
+   "dateH": "י״ט תשרי תרי״ג"
+  }
+ ],
+ "Tishrei-20": [
+  {
+   "id": "avraham-yissachar-englard",
+   "name": "רבי אברהם ישכר אנגלרד מראדזין",
+   "dateH": "כ׳ תשרי תשס״ו"
+  },
+  {
+   "id": "aymalk-bynarygar-mashyvava-resah",
+   "name": "רבי אימלך ב'ינריגר משיווא - רעש",
+   "dateH": "כ׳ תשרי תרע״ה"
+  },
+  {
+   "id": "eliyahu-mordechai-levinovitz",
+   "name": "רבי אליהו מרדכי לווינוביץ",
+   "dateH": "כ׳ תשרי תרצ״ג"
+  },
+  {
+   "id": "yechiel-mihalovitz",
+   "name": "רבי יחיאל ממיהלוביש",
+   "dateH": "כ׳ תשרי תרפ״ט"
+  },
+  {
+   "id": "yitzchak-meshulam-zalman-reinman-narol",
+   "name": "רבי יצחק משולם זלמן ריינמאן מנאראל",
+   "dateH": "כ׳ תשרי תרמ״ז"
+  },
+  {
+   "id": "moshe-sherishov",
+   "name": "רבי משה משערישוב",
+   "dateH": "כ׳ תשרי תקפ״ז"
+  },
+  {
+   "id": "naftali-aryeh-spiegel-ostrova",
+   "name": "רבי נפתלי אריה שפיגל מאוסטרובה",
+   "dateH": "כ׳ תשרי תש״ט"
+  },
+  {
+   "id": "shimon-skierniewice",
+   "name": "רבי שמעון קאליש מסקרנביץ",
+   "dateH": "כ׳ תשרי תרפ״ז"
+  }
+ ],
+ "Tishrei-21": [
+  {
+   "id": "yaakov-yosef",
+   "name": "רבי יעקב יוסף מפולנאה",
+   "dateH": "כ״א תשרי תקמ״ד"
+  },
+  {
+   "id": "menachem-mendel-premishlan",
+   "name": "רבי מנחם מנדל מפרמישלאן",
+   "dateH": "כ״א תשרי תקל״א"
+  },
+  {
+   "id": "ravd-aharon-tversky-mazaryk",
+   "name": "רבי רוד אהרן טברסקי מזאריק",
+   "dateH": "כ״א תשרי תש״ג"
+  }
+ ],
+ "Tishrei-22": [
+  {
+   "id": "yosef-timishvar",
+   "name": "רבי יוסף מטמישוואר",
+   "dateH": "כ״ב תשרי תשס״ג"
+  },
+  {
+   "id": "menachem-gershon-garynavvalad-krestir",
+   "name": "רבי מנחם גרשון גרינוואלד קרעסטיר",
+   "dateH": "כ״ב תשרי תרל״א"
+  },
+  {
+   "id": "azriel-makazyn",
+   "name": "רבי עזריאל מקאזין",
+   "dateH": "כ״ב תשרי תקמ״ו"
+  },
+  {
+   "id": "shraga-feivel-dancyger-gritza",
+   "name": "רבי שרגא פייבל דנציגר מגריצא",
+   "dateH": "כ״ב תשרי תר״ט"
+  }
+ ],
+ "Tishrei-23": [
+  {
+   "id": "ephraim-yitzchak-premishla",
+   "name": "רבי אפרים יצחק מפרעמישלא",
+   "dateH": "כ״ג תשרי תר״ג"
+  },
+  {
+   "id": "yechiel-michel-mahvarnysatyypavl",
+   "name": "רבי יחיאל מיכל מהורניסטייפול",
+   "dateH": "כ״ג תשרי תשמ״ב"
+  },
+  {
+   "id": "menachem-mendel-linsk",
+   "name": "רבי מנחם מנדל רובין מלינסק",
+   "dateH": "כ״ג תשרי תקס״ד"
+  },
+  {
+   "id": "moshe-elkim-baryeh-gavladbarg-mazlycahvab",
+   "name": "רבי משה אליקים בריעה גולדברג מז׳ליחוב",
+   "dateH": "כ״ג תשרי תרס״ב"
+  }
+ ],
+ "Tishrei-24": [
+  {
+   "id": "eliyahu-gutmacher",
+   "name": "רבי אליהו גוטמאכר",
+   "dateH": "כ״ד תשרי תרל״ה"
+  },
+  {
+   "id": "rabyyvashan-levi-pashashanyk-vabravbah",
+   "name": "רבייושן לוי פששניק וברובה",
+   "dateH": "כ״ד תשרי תר״ל"
+  }
+ ],
+ "Tishrei-25": [
+  {
+   "id": "binyamin-mazalavzytaz",
+   "name": "רבי בנימין מזאלוזיץ",
+   "dateH": "כ״ה תשרי תקנ״ב"
+  },
+  {
+   "id": "david-matityahu-biala",
+   "name": "רבי דוד מתתיהו רבינוביץ מביאלה – בני ברק",
+   "dateH": "כ״ה תשרי תשנ״ז"
+  },
+  {
+   "id": "chaim-vanavvyl-abramovitz-marybanysah",
+   "name": "רבי חיים ואנוויל אברמובי מריבניש",
+   "dateH": "כ״ה תשרי תשנ״ו"
+  },
+  {
+   "id": "yehuda-leib",
+   "name": "רבי יהודה לייב",
+   "dateH": "כ״ה תשרי"
+  },
+  {
+   "id": "levi-yitzchak",
+   "name": "רבי לוי יצחק מברדיטשוב",
+   "dateH": "כ״ה תשרי תק״ע"
+  },
+  {
+   "id": "rabynavyrygark-mabhararytassahvahm",
+   "name": "רבינויריגרק מבהארריטסשוהם",
+   "dateH": "כ״ה תשרי תק״ע"
+  }
+ ],
+ "Tishrei-26": [
+  {
+   "id": "aharon-mzytvmyb",
+   "name": "רבי אהרן מזיטומיב",
+   "dateH": "כ״ו תשרי תקע״ז"
+  }
+ ],
+ "Tishrei-27": [
+  {
+   "id": "moshe-david-rashkov",
+   "name": "רבי משה דוד מראשקוב",
+   "dateH": "כ״ז תשרי תש״ב"
+  },
+  {
+   "id": "pinchas-aryeh-turka",
+   "name": "רבי פנחס אריה מטורקא",
+   "dateH": "כ״ז תשרי תרי״ג"
+  },
+  {
+   "id": "shraga-sahpava-sahgabytazler",
+   "name": "רבי שרגא שפוא שגביצלער",
+   "dateH": "כ״ז תשרי"
+  }
+ ],
+ "Tishrei-28": [
+  {
+   "id": "avraham-eiger-bnei-brak",
+   "name": "רבי אברהם איגר מבני ברק",
+   "dateH": "כ״ח תשרי תשס״ג"
+  },
+  {
+   "id": "nachman-tzvi-epstein-kolomyia",
+   "name": "רבי נחמן צבי הלוי אפשטיין מקולומיא",
+   "dateH": "כ״ח תשרי תק״צ"
+  },
+  {
+   "id": "tzvi-aryeh-landau-alik-pelshtyn",
+   "name": "רבי צבי אריה לנדא מאליק פעלשטין",
+   "dateH": "כ״ח תשרי תר״נו״ד"
+  }
+ ],
+ "Tishrei-29": [
+  {
+   "id": "avraham-david-butchatch",
+   "name": "רבי אברהם דוד וואהרמן מבוטשאטש",
+   "dateH": "כ״ט תשרי תר״א"
+  },
+  {
+   "id": "meir-mapykavb",
+   "name": "רבי מאיר מפיקוב",
+   "dateH": "כ״ט תשרי תקס״ו"
+  },
+  {
+   "id": "natan-david-biala",
+   "name": "רבי נתן דוד רבינוביץ מביאלה",
+   "dateH": "כ״ט תשרי תש״ח"
+  },
+  {
+   "id": "shmuel-ashlag",
+   "name": "רבי שמואל הלוי אשלג",
+   "dateH": "כ״ט תשרי תשני״ז"
+  },
+  {
+   "id": "shmuel-tzvi-dancyger",
+   "name": "רבי שמואל צבי דנציגר מאלכסנדר",
+   "dateH": "כ״ט תשרי תרפ״ד"
+  }
+ ],
+ "Tishrei-30": [
+  {
+   "id": "moshe-mshershvb",
+   "name": "רבי משה משערשוב",
+   "dateH": "ל׳ תשרי תקפ״ז"
+  }
+ ],
+ "Cheshvan-1": [
+  {
+   "id": "chaim-hager-zablotov",
+   "name": "רבי חיים האגער מזאבלטוב",
+   "dateH": "א׳ חשון תש״ג"
+  },
+  {
+   "id": "chaim-hager-kosov-lacki-2",
+   "name": "רבי חיים האגער מקוסוב",
+   "dateH": "א׳ חשון תש״ג"
+  },
+  {
+   "id": "yehuda-tzvi-rozdol",
+   "name": "רבי יהודה צבי מרוזדול",
+   "dateH": "א׳ חשון תרמ״ו"
+  }
+ ],
+ "Cheshvan-2": [
+  {
+   "id": "baruch-hager-msertzvyzn-chyph",
+   "name": "רבי ברוך הגר מסערטזויזנ חיפה",
+   "dateH": "ב׳ חשון תשכ״ד"
+  },
+  {
+   "id": "chaim-meshulam-feivish-stratin",
+   "name": "רבי חיים משולם פייביש לנגנר מסטרטין",
+   "dateH": "ב׳ חשון תשי״ג"
+  },
+  {
+   "id": "yosef-unger-dombrova",
+   "name": "רבי יוסף אונגר מדומברובה",
+   "dateH": "ב׳ חשון תרכ״ז"
+  },
+  {
+   "id": "yechiel-michel-berger",
+   "name": "רבי יחיאל מיכל ברגר",
+   "dateH": "ב׳ חשון תרנ״ה"
+  },
+  {
+   "id": "mordechai-chodorov-kolomyia",
+   "name": "רבי מרדכי חודורוב מקולומיה",
+   "dateH": "ב׳ חשון תרצ״ז"
+  },
+  {
+   "id": "mordechai-cahvadravb-tolna-kolomyia",
+   "name": "רבי מרדכי חודרוב מטולנא-קולומייא",
+   "dateH": "ב׳ חשון תרעצ״ח"
+  },
+  {
+   "id": "moshe-leib-strizhov",
+   "name": "רבי משה ליב שפירא מסטריז׳וב",
+   "dateH": "ב׳ חשון תרע״ז"
+  }
+ ],
+ "Cheshvan-3": [
+  {
+   "id": "eliyahu-hershovski-drohobycz",
+   "name": "רבי אליהו הרשובסקי מדרוהוביטש",
+   "dateH": "ג׳ חשון תרנ״ד"
+  },
+  {
+   "id": "eliezer-horowitz-mdzykvb",
+   "name": "רבי אליעזר הורוויץ מדזזיקוב",
+   "dateH": "ג׳ חשון תרכ״א"
+  },
+  {
+   "id": "binyamin-yosef-lublin",
+   "name": "רבי בנימין יוסף מלובלין",
+   "dateH": "ג׳ חשון תרי״ט"
+  },
+  {
+   "id": "yehuda-leib-schneersohn-makvapvatt",
+   "name": "רבי יהודה ליב שניאורסון מקופוטט",
+   "dateH": "ג׳ חשון תרכ״ז"
+  },
+  {
+   "id": "yitzchak-zelig-sokolov",
+   "name": "רבי יצחק זליג מורגנשטרן מסוקולוב",
+   "dateH": "ג׳ חשון ת״ש"
+  },
+  {
+   "id": "yisrael-friedman-ruzhin",
+   "name": "רבי ישראל פרידמן מרוז׳ין",
+   "dateH": "ג׳ חשון תרי״א"
+  },
+  {
+   "id": "moshe-simcha-alfasi-mavapvatsahnah",
+   "name": "רבי משה שמחה אלפסי מאופוטשנה",
+   "dateH": "ג׳ חשון תרכ״ב"
+  }
+ ],
+ "Cheshvan-4": [
+  {
+   "id": "yehuda-mavdarn-matyget",
+   "name": "רבי יהודה מודרן מטיגעט",
+   "dateH": "ד׳ חשון תרנ״ד"
+  },
+  {
+   "id": "yosef-landa-litin",
+   "name": "רבי יוסף לנדא, אב״ד ליטין ויאסי",
+   "dateH": "ד׳ חשון תרי״ד"
+  },
+  {
+   "id": "yaakov-tshakova",
+   "name": "רבי יעקב הלברשטאם מטשאקובה",
+   "dateH": "ד׳ חשון תשכ״ח"
+  },
+  {
+   "id": "klvnymvts-klmysh-mpyatzna",
+   "name": "רבי קלונימוטס קלמיש מפיאטצנא",
+   "dateH": "ד׳ חשון תש״ד"
+  }
+ ],
+ "Cheshvan-5": [
+  {
+   "id": "yosef-rotenberg-kasan-kasan-kasnya",
+   "name": "רבי יוסף רוטנברג מקאסאן קאסאן קסניא",
+   "dateH": "ב״ג חשון תרע״ב"
+  },
+  {
+   "id": "meshulam-velman-hachasyr-maprankapvart",
+   "name": "רבי משולם ולמן החסיר מפרנקפורט",
+   "dateH": "ה׳ חשון תקנ״א"
+  }
+ ],
+ "Cheshvan-6": [
+  {
+   "id": "yechiel-menachem-zinger",
+   "name": "רבי יחיאל מנחם זינגר",
+   "dateH": "ו׳ חשון תשמ״ט"
+  },
+  {
+   "id": "shlomo-david-yehoshua-weinberg",
+   "name": "רבי שלמה דוד יהושע וינברג מסלונים־ברנוביץ",
+   "dateH": "ו׳ חשון תש״ד"
+  }
+ ],
+ "Cheshvan-7": [
+  {
+   "id": "aharon-moshe-mazelyn-anatzahyt",
+   "name": "רבי אהרן משה מזעלין-אנצהיט",
+   "dateH": "ז׳ חשון תרפ״ו"
+  },
+  {
+   "id": "david-savran",
+   "name": "רבי דוד מסווראן",
+   "dateH": "ז׳ חשון תרע״ג"
+  },
+  {
+   "id": "yehuda-tzvi-ayykpnshtyn-rozdol",
+   "name": "רבי יהודה צבי אייכפנשטין מרוזדול",
+   "dateH": "ז׳ חשון תר״ח"
+  },
+  {
+   "id": "yerachmiel-tzvi-biala-siedlce",
+   "name": "רבי ירחמיאל צבי רבינוביץ מביאלה־שדליץ",
+   "dateH": "ז׳ חשון תרס״ו"
+  },
+  {
+   "id": "natan-david-shidlovtza",
+   "name": "רבי נתן דוד משידלובצה",
+   "dateH": "ז׳ חשון תרכ״ו"
+  },
+  {
+   "id": "tzvi-hirsch-yybam-bavsahvabvashavb",
+   "name": "רבי צבי הירש ייבם בושובושוב",
+   "dateH": "ז׳ חשון תרל״א"
+  },
+  {
+   "id": "shalom-altr-chaim-koidanov",
+   "name": "רבי שלום אלתר חיים מקוידנוב",
+   "dateH": "ז׳ חשון תש״א"
+  },
+  {
+   "id": "shimon-ashkenazi-dobromil",
+   "name": "רבי שמעון בן אברהם אשכנזי מדוברומיל",
+   "dateH": "ז׳ חשון תקס״ב"
+  },
+  {
+   "id": "shimon-madvabravnyl",
+   "name": "רבי שמעון מדוברוניל",
+   "dateH": "ז׳ חשון תקס״ב"
+  }
+ ],
+ "Cheshvan-9": [
+  {
+   "id": "yehuda-horowitz-mstvtshyn",
+   "name": "רבי יהודה הורוויץ מסטוטשין",
+   "dateH": "ט׳ חשון תש״מו״ב"
+  },
+  {
+   "id": "shlomo-yekm-zyyda-ayyknshtyyn-borshtin-yvrk",
+   "name": "רבי שלמה יעקם זיידא אייכנשטיין מבורשטין יורק",
+   "dateH": "ט׳ חשון תשב״ד"
+  },
+  {
+   "id": "shmuel-gorlitz",
+   "name": "רבי שמואל טייטלבוים מגורליץ",
+   "dateH": "ט׳ חשון תרנ״ט"
+  }
+ ],
+ "Cheshvan-11": [
+  {
+   "id": "avraham-weinberg-slonim",
+   "name": "רבי אברהם וינברג מסלונים",
+   "dateH": "י״א חשון תרמ״ד"
+  },
+  {
+   "id": "avraham-shlomo-ozharov",
+   "name": "רבי אברהם שלמה אפשטיין מאוז׳רוב",
+   "dateH": "י״א חשון תרע״ח"
+  },
+  {
+   "id": "david-shlomo-kobrin",
+   "name": "רבי דוד שלמה רבינוביץ מקוברין",
+   "dateH": "י״א חשון תרע״ט"
+  },
+  {
+   "id": "nachum-chernobyl",
+   "name": "רבי מנחם נחום מצ׳רנוביל",
+   "dateH": "י״א חשון תקנ״ח"
+  },
+  {
+   "id": "mordechai-bra-alik",
+   "name": "רבי מרדכי ברא מאליק",
+   "dateH": "י״א חשון תרמ״ה"
+  },
+  {
+   "id": "klonimus-kalman-sambor",
+   "name": "רבי קלונימוס קלמן מסאמבור",
+   "dateH": "י״א חשון תש״ג"
+  },
+  {
+   "id": "shimon-sahatyn",
+   "name": "רבי שמעון הכהן שאטין",
+   "dateH": "י״א חשון תרכ״א"
+  }
+ ],
+ "Cheshvan-12": [
+  {
+   "id": "avraham-yitzchak-vavylyynargar-kalyynavvaradyyn",
+   "name": "רבי אברהם יצחק וויליינרגר קליינווארדיין",
+   "dateH": "י״ב חשון תרמ״ה"
+  },
+  {
+   "id": "yshpr-ber-mvadyslb-gyd-yvrk",
+   "name": "רבי ישפר בער מוואדיסלב גיד יורק",
+   "dateH": "י״ב חשון תשמ״ז"
+  },
+  {
+   "id": "yisrael-dov-mastepyn",
+   "name": "רבי ישראל דב הלוי מסטעפין",
+   "dateH": "י״ב חשון תרי״ב"
+  },
+  {
+   "id": "ysahsahr-ravb-ber-rotenberg-waidslav",
+   "name": "רבי יששר רוב בער רוטנברג מוואידסלב",
+   "dateH": "י״ב חשון תשמו״ז"
+  },
+  {
+   "id": "moshe-shinova",
+   "name": "רבי משה הלברשטאם משיניווא",
+   "dateH": "י״ב חשון תרע״ט"
+  }
+ ],
+ "Cheshvan-13": [
+  {
+   "id": "avraham-pinchas-shalom-apta",
+   "name": "רבי אברהם פנחס שלום מאפטא",
+   "dateH": "י״ג חשון תרצ״ח"
+  },
+  {
+   "id": "by-hyrsh-mpshshgyyn",
+   "name": "רבי בי הירש מפששגיין",
+   "dateH": "י״ג חשון תרנ״ז"
+  },
+  {
+   "id": "baruch-kosov-ben-avraham",
+   "name": "רבי ברוך מקוסוב בן רבי אברהם",
+   "dateH": "י״ג חשון תקמ״ב"
+  }
+ ],
+ "Cheshvan-14": [
+  {
+   "id": "avraham-elimelech-parlavb-karlin",
+   "name": "רבי אברהם אלימלך פרלוב מקרלין",
+   "dateH": "י״ד חשון תש״ג"
+  },
+  {
+   "id": "aharon-weiss-mabnadykavbytaz",
+   "name": "רבי אהרן ווייס מבנדיקוביץ",
+   "dateH": "י״ד חשון תרצ״ג"
+  }
+ ],
+ "Cheshvan-15": [
+  {
+   "id": "yaakov-yisrael-biala-mahratvan",
+   "name": "רבי יעקב ישראל רבינוביץ מהרטון",
+   "dateH": "ט״ו חשון תש״ב"
+  },
+  {
+   "id": "natan-mamakavbam",
+   "name": "רבי נתן ממאקובם",
+   "dateH": "ט״ו חשון תקפ״ו"
+  },
+  {
+   "id": "shmuel-frankel-kamadka",
+   "name": "רבי שמואל פרנקל - קאמאדך",
+   "dateH": "ט״ו חשון תרמ״ב"
+  }
+ ],
+ "Cheshvan-17": [
+  {
+   "id": "yehoshua-rosenfeld-kaminka",
+   "name": "רבי יהושע רוזנפלד מקאמינקא",
+   "dateH": "י״ז חשון תרנ״ז"
+  },
+  {
+   "id": "yeshaya-mavarzytastashavb",
+   "name": "רבי ישעיה מאורזיטסטשוב",
+   "dateH": "י״ז חשון תרע״ט"
+  },
+  {
+   "id": "menachem-mendel-kosov",
+   "name": "רבי מנחם מנדל מקוסוב",
+   "dateH": "י״ז חשון תקפ״ו"
+  },
+  {
+   "id": "meshulam-feivish-faltishan",
+   "name": "רבי משולם פייביש מפאלטישאן",
+   "dateH": "י״ז חשון תש״ז"
+  }
+ ],
+ "Cheshvan-18": [
+  {
+   "id": "yechezkel-radomsk",
+   "name": "רבי יחזקאל הכהן רבינוביץ מראדומסק",
+   "dateH": "י״ח חשון תרע״א"
+  },
+  {
+   "id": "yaakov-friedman-husiatyn",
+   "name": "רבי יעקב פרידמן מהוסיאטין",
+   "dateH": "י״ח חשון תשי״ג"
+  },
+  {
+   "id": "moshe-roigenfish",
+   "name": "רבי משה רויגנפיש מטומשוב",
+   "dateH": "י״ח חשון תר״מ"
+  },
+  {
+   "id": "moshe-ravygenapysah-tomashov",
+   "name": "רבי משה רויגענפיש אב\"ד טומשוב",
+   "dateH": "י״ח חשון תר״מ"
+  },
+  {
+   "id": "meshulam-feivish-heller-mabravrashyn",
+   "name": "רבי משולם פייביש הלר מברורשין",
+   "dateH": "י״ח חשון תקצ״ט"
+  }
+ ],
+ "Cheshvan-19": [
+  {
+   "id": "avraham-mordechai-klingberg",
+   "name": "רבי אברהם מרדכי קלינגברג",
+   "dateH": "י״ט חשון תרע״ה"
+  },
+  {
+   "id": "avraham-mordechai-klyngbrg-mvalvtsytz",
+   "name": "רבי אברהם מרדכי קלינגברג מואלוטסיץ",
+   "dateH": "י״ט חשון תרע״ה"
+  },
+  {
+   "id": "aharon-elimelech-tversky-makravsanh",
+   "name": "רבי אהרן אלימלך טברסקי מקרוסנה",
+   "dateH": "י״ט חשון תרפ״ד"
+  },
+  {
+   "id": "moshe-mypal-biala",
+   "name": "רבי משה מיפל מביאלה",
+   "dateH": "י״ט חשון תרט״ו"
+  },
+  {
+   "id": "shimshon-mavazyran",
+   "name": "רבי שמשון מאוז'יראן",
+   "dateH": "י״ט חשון תר״ח"
+  }
+ ],
+ "Cheshvan-20": [
+  {
+   "id": "yisrael-yitzchak-skierniewice",
+   "name": "רבי ישראל יצחק קאליש מסקרנביץ",
+   "dateH": "כ׳ חשון תש״ב"
+  },
+  {
+   "id": "shalom-rosenfeld-kaminka",
+   "name": "רבי שלום הלוי רוזנפלד מקאמינקא",
+   "dateH": "כ׳ חשון תרי״ב"
+  }
+ ],
+ "Cheshvan-21": [
+  {
+   "id": "avraham-narol",
+   "name": "רבי אברהם מנארול",
+   "dateH": "כ״א חשון תר״ב"
+  },
+  {
+   "id": "asher-anshyl-ashkenazi-olesko-stanislaw",
+   "name": "רבי אשר אנשיל אשכנזי מאלעסק סטאניסלב",
+   "dateH": "כ״א חשון תרנ״ז"
+  },
+  {
+   "id": "meir-mavsakvabytaz-mavbavravb",
+   "name": "רבי מאיר מוסקוביץ מובורוב",
+   "dateH": "כ״א חשון תרע״ה"
+  },
+  {
+   "id": "mordechai-cahna-fuchs-mavvylachavbysah",
+   "name": "רבי מרדכי חנא פוקס מווילחוביש",
+   "dateH": "כ״א חשון"
+  }
+ ],
+ "Cheshvan-22": [
+  {
+   "id": "ytasheyhav-tversky-mamakarvab",
+   "name": "רבי יטשעיהו טברסקי ממאקרוב",
+   "dateH": "כ״ב חשון תר״פ"
+  },
+  {
+   "id": "yissachar-db-rokeach-belz",
+   "name": "רבי ישכר דב רוקח מבעלוא",
+   "dateH": "כ״ב חשון תרפ״ז"
+  }
+ ],
+ "Cheshvan-23": [
+  {
+   "id": "avraham-narol-narol",
+   "name": "רבי אברהם מנאראל נארול",
+   "dateH": "כ״ג חשון תר״ב"
+  },
+  {
+   "id": "chaim-yosef-postein",
+   "name": "רבי חיים יוסף מפוסטיין",
+   "dateH": "כ״ג חשון תרכ״ה"
+  },
+  {
+   "id": "moshe-myydanr",
+   "name": "רבי משה מיידנר",
+   "dateH": "כ״ג חשון"
+  }
+ ],
+ "Cheshvan-24": [
+  {
+   "id": "david-tversky-mamakarvabm",
+   "name": "רבי דוד טברסקי ממאקרובם",
+   "dateH": "כ״ד חשון תרס״ג"
+  },
+  {
+   "id": "hillel-moshe-meishl-mabyalysatvak",
+   "name": "רבי הלל משה מעשיל מביאליסטוק",
+   "dateH": "כ״ד חשון תרס״ה"
+  },
+  {
+   "id": "yaakov-ravvanbarg",
+   "name": "רבי יעקב רוונברג",
+   "dateH": "כ״ד חשון תרמ״ד"
+  },
+  {
+   "id": "yitzchak-tzvi-modzhitz",
+   "name": "רבי יצחק צבי טאוב ממודז׳יץ",
+   "dateH": "כ״ד חשון תשכ״ה"
+  },
+  {
+   "id": "yitzchak-katn-matysamnytaz",
+   "name": "רבי יצחק קטן מטיסמניץ",
+   "dateH": "כ״ד חשון תרס״ז"
+  },
+  {
+   "id": "matityahu-chaim-kalalyynarg-mavvarasha",
+   "name": "רבי מתתיהו חיים קאלליינרג מווארשא",
+   "dateH": "כ״ד חשון תקצ״ו"
+  }
+ ],
+ "Cheshvan-25": [
+  {
+   "id": "ephraim-eliezer-stary-philadelphia",
+   "name": "רבי אפרים אליעזר מסמבור-פילדלפיה",
+   "dateH": "כ״ה חשון תשמ״ט"
+  },
+  {
+   "id": "yitzchak-yoel-linitz",
+   "name": "רבי יצחק יואל מליניץ",
+   "dateH": "כ״ה חשון תקפ״ח"
+  },
+  {
+   "id": "mordechai-rokeach-mbylgvryy",
+   "name": "רבי מרדכי רוקח מבילגוריי",
+   "dateH": "כ״ה חשון תש״י"
+  },
+  {
+   "id": "tzvi-hirsch-reinman-kretsinif",
+   "name": "רבי צבי הירש ריינמאן קרעטסיניף",
+   "dateH": "כ״ה חשון תרעי״ט"
+  },
+  {
+   "id": "tzvi-yehoshua-trebitsch",
+   "name": "רבי צבי יהושע מטרייביטש",
+   "dateH": "כ״ה חשון תקע״ז"
+  }
+ ],
+ "Cheshvan-26": [
+  {
+   "id": "asher-stolin",
+   "name": "רבי אשר מסטולין",
+   "dateH": "כ״ו חשון תקפ״ז"
+  },
+  {
+   "id": "shvm-chaim-prvb-br-ahyn",
+   "name": "רבי שום חיים פרוב בבר אהין",
+   "dateH": "כ״ו חשון תרפ״ו"
+  }
+ ],
+ "Cheshvan-27": [
+  {
+   "id": "aharon-menachem-nachum-kishinev-azaranytaz",
+   "name": "רבי אהרן מנחם נחום מקישנוב-אזארניץ",
+   "dateH": "כ״ז חשון תש״א"
+  },
+  {
+   "id": "aryeh-leibush-mordechai-shinova",
+   "name": "רבי אריה לייבוש מרדכי הלברשטאם משיניווא",
+   "dateH": "כ״ז חשון תרצ״א"
+  },
+  {
+   "id": "david-friedman-ploiesti",
+   "name": "רבי דוד פרידמן מפלוישט",
+   "dateH": "כ״ז חשון תש״א"
+  },
+  {
+   "id": "yaakov-lyyzar-manatvavrapn",
+   "name": "רבי יעקב לייזר מאנטוורפן",
+   "dateH": "כ״ז חשון תשנ״ז"
+  },
+  {
+   "id": "moshe-mordechai-heshyl-medzhybizh-vrth",
+   "name": "רבי משה מרדכי העשיל ממזבוז וורטה",
+   "dateH": "כ״ז חשון תרע״ג"
+  }
+ ],
+ "Cheshvan-28": [
+  {
+   "id": "aryeh-yehuda-leib-kishinev",
+   "name": "רבי אריה יהודה לייב מלאנצוט וקישינוב",
+   "dateH": "כ״ח חשון תקפ״ו"
+  }
+ ],
+ "Cheshvan-29": [
+  {
+   "id": "avraham-david-miropol",
+   "name": "רבי אברהם דוד מרבינו ממירופול",
+   "dateH": "כ״ט חשון תרע״א"
+  },
+  {
+   "id": "ytazvak-shlomo-havlarbarh-vanydavdam",
+   "name": "רבי יצוק שלמה הולרברה ונידודם",
+   "dateH": "כ״ט חשון תרל״ב"
+  }
+ ],
+ "Cheshvan-30": [
+  {
+   "id": "tzvi-hirsch-kohen-rimanov",
+   "name": "רבי צבי הירש הכהן מרימנוב",
+   "dateH": "ל׳ חשון תר״ז"
+  }
+ ],
+ "Kislev-2": [
+  {
+   "id": "yissachar-rvb-mstrvdnytz",
+   "name": "רבי ישכר רוב מסטרודניץ",
+   "dateH": "ב׳ כסלו תשכ״ח"
+  },
+  {
+   "id": "yisrael-yitzchak-radoshitz",
+   "name": "רבי ישראל יצחק ברון מראדושיץ",
+   "dateH": "ב׳ כסלו תרי״ח"
+  }
+ ],
+ "Kislev-3": [
+  {
+   "id": "avraham-yehoshua-heschel-tversky-skvira",
+   "name": "רבי אברהם יהושע השל טברסקי מסקווירא",
+   "dateH": "ג׳ כסלו תרמ״ז"
+  },
+  {
+   "id": "meshulam-yshpkr-ashkenazi-mstanyslm-avlsk",
+   "name": "רבי משולם ישפךר אשכנזי מסטאניסלם אולסק",
+   "dateH": "ג׳ כסלו תשנ״ח"
+  },
+  {
+   "id": "nachahmyh-sahlyt-matasavbam",
+   "name": "רבי נחהמיה שליט מטאסובם",
+   "dateH": "ג׳ כסלו תר״ו"
+  },
+  {
+   "id": "nchmyh-shlyt-tasvb",
+   "name": "רבי נחמיה שליט אבד טאסוב",
+   "dateH": "ג׳ כסלו תר״י"
+  }
+ ],
+ "Kislev-4": [
+  {
+   "id": "yaakov-david-amshinov",
+   "name": "רבי יעקב דוד קאליש מאמשינוב",
+   "dateH": "ד׳ כסלו תרל״ח"
+  }
+ ],
+ "Kislev-5": [
+  {
+   "id": "elimelech-segal-lowy-tash",
+   "name": "רבי אלימלך סג״ל לאווי מטאש",
+   "dateH": "ב״ג כסלו תטש״ג"
+  },
+  {
+   "id": "ephraim-fishel-feldman",
+   "name": "רבי אפרים פישל פלדמן",
+   "dateH": "ב״ג כסלו תרס״ה"
+  },
+  {
+   "id": "yehuda-leib-valkygad",
+   "name": "רבי יהודה ליב ולקיגד",
+   "dateH": "ב״ג כסלו תרי״ח"
+  },
+  {
+   "id": "yaakov-yehuda-nadrzin",
+   "name": "רבי יעקב יהודה טננבוים מנאדרזין",
+   "dateH": "ה׳ כסלו תרמ״ח"
+  },
+  {
+   "id": "nachum-dov-mavavravsash",
+   "name": "רבי נחום דובער מאוורוסש",
+   "dateH": "ה׳ כסלו תרנ״ו"
+  }
+ ],
+ "Kislev-6": [
+  {
+   "id": "yehoshua-shraga-lifshitz-stropkov",
+   "name": "רבי יהושע שרגא ליפשיץ מסטרופקוב",
+   "dateH": "ו׳ כסלו תשנ״ה"
+  },
+  {
+   "id": "yechezkel-shraga-stropkov",
+   "name": "רבי יחזקאל שרגא ליפשיץ מסטרופקוב (בירושלים)",
+   "dateH": "ו׳ כסלו תשנ״ה"
+  },
+  {
+   "id": "ykar",
+   "name": "רבי יקר",
+   "dateH": "ו׳ כסלו תקל״ג"
+  },
+  {
+   "id": "moshe-meir-mavsakvabytaz-shatz-mavnatryal",
+   "name": "רבי משה מאיר מוסקוביץ משאץ - מונטריאל",
+   "dateH": "ו׳ כסלו תרצ״ב"
+  },
+  {
+   "id": "shmuel-polansky",
+   "name": "רבי שמואל פולנסקי",
+   "dateH": "ב״ד כסלו תקע״ב"
+  }
+ ],
+ "Kislev-7": [
+  {
+   "id": "aharon-hlvl-epshtyyn-mkraka",
+   "name": "רבי אהרן הלול עפשטיין מקראקא",
+   "dateH": "ז׳ כסלו תרמ״ב"
+  },
+  {
+   "id": "shlomo-binyamin-pashalh",
+   "name": "רבי שלמה בנימין פשלה",
+   "dateH": "ז׳ כסלו"
+  }
+ ],
+ "Kislev-8": [
+  {
+   "id": "avraham-mordechai-safrin-mbvryslb",
+   "name": "רבי אברהם מרדכי ספרין מבוריסלב",
+   "dateH": "ח׳ כסלו תש״ב"
+  },
+  {
+   "id": "david-sokhatchov",
+   "name": "רבי דוד מסוכאטשוב",
+   "dateH": "ח׳ כסלו תש״ג"
+  },
+  {
+   "id": "yisrael-avabhar",
+   "name": "רבי ישרא אובהר",
+   "dateH": "ח׳ כסלו תרצ״ז"
+  },
+  {
+   "id": "nachum-moshe-david-brandwein-stratin-bgr-brk",
+   "name": "רבי נחום משה דוד ברנדוויין מסטרטין בגר ברק",
+   "dateH": "ח׳ כסלו תשמ״ח"
+  },
+  {
+   "id": "pinchas-david-horowitz-boston",
+   "name": "רבי פנחס דוד הורוויץ מבוסטון",
+   "dateH": "ח׳ כסלו תש״ב"
+  },
+  {
+   "id": "shaul-margolies-lublin",
+   "name": "רבי שאול מרגליות לובלין",
+   "dateH": "ח׳ כסלו תקמ״ח"
+  }
+ ],
+ "Kislev-9": [
+  {
+   "id": "dov-ber-lubavitch",
+   "name": "רבי דובער שניאורסון מליובאוויטש",
+   "dateH": "ט׳ כסלו תקפ״ח"
+  },
+  {
+   "id": "yosef-yochanan-bennet",
+   "name": "רבי יוסף יוחנן בנעט מקאליב",
+   "dateH": "ט׳ כסלו תקפ״ג"
+  },
+  {
+   "id": "moshe-slavita",
+   "name": "רבי משה שפירא מסלאוויטה",
+   "dateH": "ט׳ כסלו ת״ר"
+  }
+ ],
+ "Kislev-10": [
+  {
+   "id": "yosef-lypatag",
+   "name": "רבי יוסף ליפטאג",
+   "dateH": "י׳ כסלו תרי״ז"
+  },
+  {
+   "id": "yaakov-meir-fried-kapish",
+   "name": "רבי יעקב מאיר הכהן פריד מקאפיט",
+   "dateH": "י׳ כסלו תרע״ה"
+  },
+  {
+   "id": "pinchas-menachem-justman-pilz",
+   "name": "רבי פנחס מנחם אלעזר יוסטמן מפילץ",
+   "dateH": "י׳ כסלו תרפ״א"
+  }
+ ],
+ "Kislev-11": [
+  {
+   "id": "yoel-tzvi-ratah-avypalan",
+   "name": "רבי יואל צבי ראטה אויפאלן",
+   "dateH": "י״א כסלו תרנ״ג"
+  },
+  {
+   "id": "yitzchak-friedman-rimanov-sadigura",
+   "name": "רבי יצחק פרידמן מרימנוב - סדיגורא",
+   "dateH": "י״א כסלו תרפ״ה"
+  }
+ ],
+ "Kislev-12": [
+  {
+   "id": "menachem-nachum-friedman-husiatyn",
+   "name": "רבי מנחם נחום פרידמן מהוסיאטין",
+   "dateH": "י״ב כסלו תש״ג"
+  }
+ ],
+ "Kislev-13": [
+  {
+   "id": "yisrael-modzhitz",
+   "name": "רבי ישראל טאוב ממודז׳יץ",
+   "dateH": "י״ג כסלו תרפ״א"
+  },
+  {
+   "id": "yisrael-friedman-tshortkov",
+   "name": "רבי ישראל פרידמן מטשורטקוב",
+   "dateH": "י״ג כסלו תרצ״ד"
+  },
+  {
+   "id": "shlomo-zalman-frankel-wielopole",
+   "name": "רבי שלמה זלמן פרנקל מוויליפולי",
+   "dateH": "י״ג כסלו תרי״ח"
+  }
+ ],
+ "Kislev-14": [
+  {
+   "id": "yaakov-yitzchak-unger-zhabne",
+   "name": "רבי יעקב יצחק אונגר מז׳בנה",
+   "dateH": "י״ד כסלו תרנ״ב"
+  },
+  {
+   "id": "yaakov-yitzchak-alchn-rvtnbrg-czestochowa",
+   "name": "רבי יעקב יצחק אלחנן רוטנברג ממצנסטוכוב",
+   "dateH": "י״ד כסלו תש״ג"
+  },
+  {
+   "id": "yitzchak-mabel-azaranytaz",
+   "name": "רבי יצחק מבעל -אזארניץ",
+   "dateH": "י״ד כסלו תש״א"
+  },
+  {
+   "id": "menachem-nachum-friedman-shtefanesht",
+   "name": "רבי מנחם נחום פרידמן משטפינשט",
+   "dateH": "י״ד כסלו תרכ״ט"
+  },
+  {
+   "id": "mordechai-tversky-mavlavyebam",
+   "name": "רבי מרדכי טברסקי מולויעבם",
+   "dateH": "י״ד כסלו תרס״ו"
+  }
+ ],
+ "Kislev-15": [
+  {
+   "id": "david-tversky-skvira",
+   "name": "רבי דוד טברסקי מסקווירא",
+   "dateH": "ט״ו כסלו"
+  },
+  {
+   "id": "yehoshua-asher-ravytablat-mashedalysah",
+   "name": "רבי יהושע אשר רויטבלט משעדליש",
+   "dateH": "ט״ו כסלו תש״ב"
+  },
+  {
+   "id": "yechiel-michel-patzanyk-mabraznah",
+   "name": "רבי יחיאל מיכל פצ'ניק מברזנה",
+   "dateH": "ט״ו כסלו תר״ט"
+  },
+  {
+   "id": "yisrael-ephraim-fishel-sofer-nagasah",
+   "name": "רבי ישראל אפרים פישל סופר נאגאש",
+   "dateH": "ט״ו כסלו תרנ״ט"
+  }
+ ],
+ "Kislev-16": [
+  {
+   "id": "menachem-amshinov",
+   "name": "רבי מנחם קאליש מאמשינוב",
+   "dateH": "ט״ז כסלו תרע״ח"
+  },
+  {
+   "id": "shaul-yedidya-elazar-modzhitz",
+   "name": "רבי שאול ידידיה אלעזר טאוב ממודז׳יץ",
+   "dateH": "ט״ז כסלו תש״ח"
+  }
+ ],
+ "Kislev-18": [
+  {
+   "id": "aharon-chernobyl",
+   "name": "רבי אהרן טברסקי מטשרנובל",
+   "dateH": "ח״י כסלו תרל״ב"
+  },
+  {
+   "id": "baruch-mezhibuzh",
+   "name": "רבי ברוך ממז׳יבוז׳",
+   "dateH": "ח״י כסלו תקע״ב"
+  },
+  {
+   "id": "yekutiel-shmelke-sasov",
+   "name": "רבי יקותיאל שמלקה מסאסוב",
+   "dateH": "י״ח כסלו תרכ״ב"
+  },
+  {
+   "id": "yisrael-makrasylavb",
+   "name": "רבי ישראל מקרסילוב",
+   "dateH": "י״ח כסלו תרנ״ו"
+  },
+  {
+   "id": "pinchas-yissachar-finkler",
+   "name": "רבי פנחס ישכר פינקלר מסוסנוביץ",
+   "dateH": "י״ח כסלו תש״ג"
+  }
+ ],
+ "Kislev-19": [
+  {
+   "id": "maggid",
+   "name": "המגיד ממזריטש",
+   "dateH": "י״ט כסלו תקל״ג"
+  },
+  {
+   "id": "menachem-nachum-tversky-tolna",
+   "name": "רבי מנחם נחום טברסקי מטולנא",
+   "dateH": "י״ט כסלו תרע״ו"
+  },
+  {
+   "id": "natan-chaim-ravvaznabvym-mabravdatsahyn",
+   "name": "רבי נתן חיים רווזנבוים מברודטשין",
+   "dateH": "י״ט כסלו תש״ג"
+  },
+  {
+   "id": "shmuel-yehuda-leib-linitz",
+   "name": "רבי שמואל יהודה ליב מליניץ",
+   "dateH": "י״ט כסלו תקע״ח"
+  }
+ ],
+ "Kislev-20": [
+  {
+   "id": "baruch-hager-mvydnytz",
+   "name": "רבי ברוך האגער מוידניץ",
+   "dateH": "כ׳ כסלו תרנ״ג"
+  },
+  {
+   "id": "dov-ber-frumer-oshpitzin",
+   "name": "רבי דב בעריש פרומר מאושפיצין",
+   "dateH": "כ׳ כסלו תקצ״ח"
+  },
+  {
+   "id": "chaim-moshe-sahbarsahky-marhamtatvarybakh",
+   "name": "רבי היים משה שברשקי מרהמטטוריבקה",
+   "dateH": "כ׳ כסלו תרצ״ד"
+  },
+  {
+   "id": "rabyyvahrann-sahbartaky-marhamtatrybakh",
+   "name": "רבייוהרנן שברטקי מרהמטטריבקה",
+   "dateH": "כ׳ כסלו תשמ״ב"
+  }
+ ],
+ "Kislev-21": [
+  {
+   "id": "yochanan-parlavb-lutsk-jerusalem",
+   "name": "רבי יוחנן פרלוב מלוצק -ירושלים",
+   "dateH": "כ״א כסלו תשט״ז"
+  },
+  {
+   "id": "yaakov-anipoli",
+   "name": "רבי יעקם מהאניפולי",
+   "dateH": "כ״א כסלו תקע״ד"
+  },
+  {
+   "id": "meshulam-feivish-zbarazh",
+   "name": "רבי משולם פייביש מזבארז׳",
+   "dateH": "כ״א כסלו תקנ״ה"
+  },
+  {
+   "id": "refael-gavladsahtyn",
+   "name": "רבי רפאל גולדשטין",
+   "dateH": "כ״א כסלו תשי״ג"
+  }
+ ],
+ "Kislev-22": [
+  {
+   "id": "baptaly-hasharhan-schwarz",
+   "name": "רבי בפתלי השרהן שוואר",
+   "dateH": "ייב כסלו תרנ״ז"
+  },
+  {
+   "id": "yechezkel-panet-dees",
+   "name": "רבי יחזקאל פאנעט מדעעש",
+   "dateH": "כ״ב כסלו"
+  },
+  {
+   "id": "pinchas-ostroha",
+   "name": "רבי פנחס מאוסטרהא",
+   "dateH": "כ״ב כסלו תקס״ו"
+  }
+ ],
+ "Kislev-24": [
+  {
+   "id": "yosef-natan-rvtnbrg-mvlbram",
+   "name": "רבי יוסף נתן הלוי רוטנברג מוולבראם",
+   "dateH": "כ״ד כסלו תרע״ח"
+  },
+  {
+   "id": "moshe-panet-dees",
+   "name": "רבי משה פאנעט מדעעש",
+   "dateH": "כ״ד כסלו תרס״ג"
+  }
+ ],
+ "Kislev-25": [
+  {
+   "id": "chaim-hager-ottynia",
+   "name": "רבי חיים האגער מאטיניע",
+   "dateH": "כ״ה כסלו תרצ״ב"
+  },
+  {
+   "id": "yochanan-tversky-tolna",
+   "name": "רבי יוחנן טברסקי מטולנא",
+   "dateH": "כ״ה כסלו תשנ״ט"
+  },
+  {
+   "id": "meshulam-vazvasya-vavysablavm-mavnadbavrana",
+   "name": "רבי משולם וזוסיא וויסבלום מונדבורנא",
+   "dateH": "כ״ה כסלו"
+  }
+ ],
+ "Kislev-26": [
+  {
+   "id": "avraham-palysakvab",
+   "name": "רבי אברהם אב\"ד פליסקוב",
+   "dateH": "כ״ו כסלו תרל״א"
+  },
+  {
+   "id": "avraham-palysakvab-2",
+   "name": "רבי אברהם אב\"ד פליסקוב",
+   "dateH": "כ״ו כסלו תרל״א"
+  },
+  {
+   "id": "elazar-kozhnitz",
+   "name": "רבי אלעזר מקוז׳ניץ",
+   "dateH": "כ״ו כסלו תרכ״ב"
+  },
+  {
+   "id": "yechiel-mavykal-bavgalyna",
+   "name": "רבי יחיאל מויכל בוגלינא",
+   "dateH": "כ״ו כסלו תרכ״ז"
+  },
+  {
+   "id": "shlomo-yaakov-ayyknstyn-mvydytshvb",
+   "name": "רבי שלמה יעקב אייכנסטין מוידיטשוב",
+   "dateH": "כ״ו כסלו תרמ״ו"
+  }
+ ],
+ "Kislev-27": [
+  {
+   "id": "baruch-yehoshua-rabinowitz",
+   "name": "רבי ברוך יהושע ירחמיאל רבינוביץ ממונקאטש",
+   "dateH": "כ״ז כסלו תשנ״ח"
+  },
+  {
+   "id": "yeshaya-chanoch-henich-barber",
+   "name": "רבי ישעיה חנוך העניך בארבר",
+   "dateH": "כ״ז כסלו תרצ״ג"
+  }
+ ],
+ "Kislev-28": [
+  {
+   "id": "baruch-david-tversky-maklynakvaby",
+   "name": "רבי ברוך דוד טברסקי מקלינקובי",
+   "dateH": "כ״ח כסלו תרפ״ו"
+  },
+  {
+   "id": "david-khmelnik",
+   "name": "רבי דוד",
+   "dateH": "כ״ח כסלו תק״צ"
+  },
+  {
+   "id": "yaakov-shlomo-shmerler-sahgavv-havmavr",
+   "name": "רבי יעקבם שלמה שמרלר שגוו א-הומור",
+   "dateH": "כ״ח כסלו תרפ״ח"
+  },
+  {
+   "id": "evazyal-myyzalt-tzvi-hirsch",
+   "name": "רבי עוזיאל מייזלט ב״ר צבי הירש",
+   "dateH": "כ״ח כסלו תקמ״ו"
+  },
+  {
+   "id": "shlomo-dov-shpikovka",
+   "name": "רבי שלמה דוב משפיטובקא",
+   "dateH": "כ״ח כסלו תשנ״ז"
+  }
+ ],
+ "Kislev-29": [
+  {
+   "id": "baruch-hager-mvyshyva",
+   "name": "רבי ברוך האגער מווישיווא",
+   "dateH": "כ״ט כסלו תש״ח"
+  },
+  {
+   "id": "baruch-matsahytatsahlanyk",
+   "name": "רבי ברוך מטשיטטשלניק",
+   "dateH": "כ״ט כסלו תשי״א"
+  },
+  {
+   "id": "gedaliah-linitz",
+   "name": "רבי גדליה מליניץ",
+   "dateH": "כ״ט כסלו תקס״ד"
+  },
+  {
+   "id": "moshe-david-mabravgav-parvagr",
+   "name": "רבי משה דוד מברוגו-פרוגר",
+   "dateH": "כ״ט כסלו תשמ״ג"
+  },
+  {
+   "id": "tzvi-mordechai",
+   "name": "רבי צבי מרדכי",
+   "dateH": "כ״ט כסלו תרכ״ז"
+  }
+ ],
+ "Tevet-1": [
+  {
+   "id": "avraham-moshe-peshischa",
+   "name": "רבי אברהם משה בונהרד מפשיסחא",
+   "dateH": "א׳ טבת תקפ״ט"
+  },
+  {
+   "id": "baruch-rubin-mbryzdvbytz-gerla",
+   "name": "רבי ברוך רובין מבריזדוביץ גערלא",
+   "dateH": "א׳ טבת תרצ״ח"
+  },
+  {
+   "id": "chaim-lerman-krushnovitz",
+   "name": "רבי חיים לרמן מקרושנוביץ",
+   "dateH": "א׳ טבת תרע״א"
+  }
+ ],
+ "Tevet-2": [
+  {
+   "id": "yitzchak-isaac-langner-toronto",
+   "name": "רבי יצחק אייזיק לנגנר מסטרטין–טורונטו",
+   "dateH": "ב׳ טבת תש״מ"
+  },
+  {
+   "id": "tzvi-frankel-teomim",
+   "name": "רבי צבי פרנקל-תאומים",
+   "dateH": "ב׳ טבת תרט״ז"
+  }
+ ],
+ "Tevet-3": [
+  {
+   "id": "avraham-brandwein-stratin",
+   "name": "רבי אברהם ברנדווין מסטרטין",
+   "dateH": "ג׳ טבת תרכ״ה"
+  },
+  {
+   "id": "eliezer-zeev-buchach",
+   "name": "רבי אליעזר זאב רבין מבוצ׳צ׳א",
+   "dateH": "ג׳ טבת תרי״ב"
+  },
+  {
+   "id": "mordechai-radvil-brod",
+   "name": "רבי מרדכי מראדויל-ברוד",
+   "dateH": "ג׳ טבת תרס״ה"
+  },
+  {
+   "id": "shlomo-friedlander-liska",
+   "name": "רבי שלמה פרידלנדר מליסקא",
+   "dateH": "ב״א טבת תש״ס"
+  }
+ ],
+ "Tevet-4": [
+  {
+   "id": "avraham-elchanan-unger-kalushin",
+   "name": "רבי אברהם אלחנן אונגר מקאלושין",
+   "dateH": "ד׳ טבת תרנ״ג"
+  },
+  {
+   "id": "gershon-henoch-radzin",
+   "name": "רבי גרשון חנוך ליינר מראדזין",
+   "dateH": "ד׳ טבת תרנ״א"
+  },
+  {
+   "id": "chaim-shneur-zalman-schneersohn-malady",
+   "name": "רבי היים שניאור זלמן שניאורסון מלאדי",
+   "dateH": "ד׳ טבת"
+  },
+  {
+   "id": "mordechai-lerner-shumsk",
+   "name": "רבי מרדכי לרנר משומסק",
+   "dateH": "ד׳ טבת תרס״ד"
+  }
+ ],
+ "Tevet-5": [
+  {
+   "id": "chaim-tavbamn-mabrazgah",
+   "name": "רבי חיים טובמן מברזגה",
+   "dateH": "ה׳ טבת תרנ״ד"
+  }
+ ],
+ "Tevet-6": [
+  {
+   "id": "aharon-yeshaya-fish-hadas",
+   "name": "רבי אהרן ישעיה פיש מהאדאס",
+   "dateH": "ו׳ טבת תרפ״ה"
+  },
+  {
+   "id": "eliezer-yisrael-shimon-perlov-novominsk",
+   "name": "רבי אליעזר ישראל שמעון פרלוב מנובומינסק",
+   "dateH": "ו׳ טבת תרצ״ג"
+  },
+  {
+   "id": "chaim-shlomo-rotenberg-kasan",
+   "name": "רבי חיים שלמה רוטנברג מקאסאן",
+   "dateH": "ו׳ טבת"
+  },
+  {
+   "id": "yechezkel-shraga-shinova",
+   "name": "רבי יחזקאל שרגא הלברשטאם משיניווא",
+   "dateH": "ו׳ טבת תרנ״ט"
+  },
+  {
+   "id": "menachem-manish-safrin",
+   "name": "רבי מנחם מאניש ספרין מקומרנא",
+   "dateH": "ו׳ טבת תרע״ג"
+  },
+  {
+   "id": "menachem-mendel-kotzk-yitzchak-meir-ger",
+   "name": "רבי מנחם מנדל מקוצק רבי יצחק מאיר מגור",
+   "dateH": "ו׳ טבת תרל״ז"
+  },
+  {
+   "id": "mordechai-yosef-izbitza",
+   "name": "רבי מרדכי יוסף ליינר מאיז׳ביצא",
+   "dateH": "ו׳ טבת תרי״ד"
+  },
+  {
+   "id": "tzvi-yehuda-biala",
+   "name": "רבי צבי יהודה רבינוביץ מביאלה־פשיסחא",
+   "dateH": "ו׳ טבת תשס״ד"
+  }
+ ],
+ "Tevet-7": [
+  {
+   "id": "david-lublin-safed",
+   "name": "רבי דוד מלובין",
+   "dateH": "ז׳ טבת תרנ״ד"
+  },
+  {
+   "id": "yekutiel-yhavdah",
+   "name": "רבי יקותיאל יהודהּ",
+   "dateH": "ז׳ טבת תרי״ג"
+  },
+  {
+   "id": "menachem-mendel-jaslo",
+   "name": "רבי מנחם מאנדיל ברון מיאסלו",
+   "dateH": "ז׳ טבת תש״ב"
+  },
+  {
+   "id": "tzvi-hirsch-ben-besht",
+   "name": "רבי צבי הירש בן הבעש״ט",
+   "dateH": "ז׳ טבת"
+  }
+ ],
+ "Tevet-9": [
+  {
+   "id": "eliezer-finkler-pinczow",
+   "name": "רבי אליעזר פינקלר מפינטשוב",
+   "dateH": "ט׳ טבת תרצ״ז"
+  },
+  {
+   "id": "menachem-zeev-vavysabrag-tarakany",
+   "name": "רבי מנחם זאב וויסברג טארקאני",
+   "dateH": "ט׳ טבת תרנ״ה"
+  },
+  {
+   "id": "naftali-tzvi-glickman-sosnowiec",
+   "name": "רבי נפתלי צבי גליקמן מסוסנוביץ",
+   "dateH": "ט׳ טבת תשנ״ה"
+  }
+ ],
+ "Tevet-10": [
+  {
+   "id": "avraham-yosef-naftali-tzvi",
+   "name": "רבי אברהם יוסף חתן רבי נפתלי צבי",
+   "dateH": "י׳ טבת תרי״ב"
+  },
+  {
+   "id": "natan-bavbarsah",
+   "name": "רבי נתן בוברש ב",
+   "dateH": "י׳ טבת תר״ה"
+  }
+ ],
+ "Tevet-11": [
+  {
+   "id": "asher-anshel-kraus-maratazperat-brooklyn",
+   "name": "רבי אשר אנשיל קראוס מראצפערט - ברוקלין",
+   "dateH": "ב״ט טבת תש״ז"
+  },
+  {
+   "id": "yehoshua-horowitz-mdzykvbm",
+   "name": "רבי יהושע הורוויץ מדזיקובם",
+   "dateH": "י״א טבת תרע״ג"
+  },
+  {
+   "id": "yaakov-yosef-shlomo-halperin-vaslui",
+   "name": "רבי יעקב יוסף שלמה הלפרין מוואסלוי",
+   "dateH": "י״א טבת תשמ״ה"
+  },
+  {
+   "id": "yaakov-raknar-delyatin",
+   "name": "רבי יעקם רכנר מדליטין",
+   "dateH": "י״א טבת תרע״א"
+  },
+  {
+   "id": "meir-shalom-kalushin",
+   "name": "רבי מאיר שלום רבינוביץ מקאלושין",
+   "dateH": "י״א טבת תרס״ג"
+  },
+  {
+   "id": "shlomo-leib-tabak-1944",
+   "name": "רבי שלמה לייב טאבאק מסיגעט",
+   "dateH": "י״א טבת תרס״ה"
+  }
+ ],
+ "Tevet-12": [
+  {
+   "id": "yaakov-david-baruch-palenitz",
+   "name": "רבי יעקב דוד ברוך קאליש מוורקא־פאלניץ",
+   "dateH": "י״ב טבת תשמ״ג"
+  },
+  {
+   "id": "yaakov-shapira-teratzal",
+   "name": "רבי יעקבם הלוי שפירא טערצאל",
+   "dateH": "י״ב טבת תרס״ו"
+  },
+  {
+   "id": "mordechai-chaim-slonim",
+   "name": "רבי מרדכי חיים סלונים־קסטלניץ",
+   "dateH": "י״ב טבת תשי״ד"
+  },
+  {
+   "id": "mashavv-sahvapr-mapsahvavratk",
+   "name": "רבי משוו שופר מפשוורטק",
+   "dateH": "י״ב טבת תקס״ו"
+  }
+ ],
+ "Tevet-13": [
+  {
+   "id": "alter-biederman-bnei-brak",
+   "name": "רבי אלטר אלעזר מנחם בידרמן מלעלוב",
+   "dateH": "י״ג טבת תשס״א"
+  },
+  {
+   "id": "alter-biederman-lelov",
+   "name": "רבי אלטר בידרמן מלעלוב",
+   "dateH": "י״ג טבת תשס״א"
+  },
+  {
+   "id": "chaim-avraham-polak-bergsas",
+   "name": "רבי חיים אברהם פולק מברגטאס",
+   "dateH": "י״ג טבת תרצ״ז"
+  },
+  {
+   "id": "yom-tov-netil-tshchoiv",
+   "name": "רבי יום טוב נעטיל מטשכויב",
+   "dateH": "י״ג טבת תקע״ז"
+  },
+  {
+   "id": "yitzchak-huberman-marenanh",
+   "name": "רבי יצחק הוברמן מרעננה",
+   "dateH": "י״ג טבת תשל״ז"
+  },
+  {
+   "id": "menachem-mendel-hager-mvyshyva",
+   "name": "רבי מנחם מנדל האגער מווישיווא",
+   "dateH": "י״ג טבת תש״א"
+  },
+  {
+   "id": "moshe-heshy-vybkvb",
+   "name": "רבי משה העשי ויבקוב",
+   "dateH": "י״ג טבת תרפ״ג"
+  },
+  {
+   "id": "moshe-lelov",
+   "name": "רבי משה מלעלוב",
+   "dateH": "י״ג טבת תרי״א"
+  },
+  {
+   "id": "tzvi-hirsch-sahmavalaks-ostroha",
+   "name": "רבי צבי הירש ר' שמואל'קס מאוסטרהא",
+   "dateH": "י״ג טבת תקמ״ט"
+  }
+ ],
+ "Tevet-14": [
+  {
+   "id": "vy-yitzchak-katzenellenbogen-mstepyn",
+   "name": "רבי וי יצחק קצנלנבוגן מסטעפין",
+   "dateH": "י״ד טבת תרל״ד"
+  },
+  {
+   "id": "yosef-kotzk",
+   "name": "רבי יוסף מורגנשטרן מקוצק",
+   "dateH": "י״ד טבת תרצ״ט"
+  }
+ ],
+ "Tevet-15": [
+  {
+   "id": "aharon-titiev",
+   "name": "רבי אהרן מטיטיוב",
+   "dateH": "ט״ו טבת"
+  },
+  {
+   "id": "elazar-rubin-sasov",
+   "name": "רבי אלעזר רובין מסאסוב",
+   "dateH": "ט״ו טבת תרצ״ג"
+  },
+  {
+   "id": "chaim-mardakpy-rozenboim-nadvorna-bnei-brak",
+   "name": "רבי חיים מרדכפי רוזנבוים מנאדבורנה - בני ברק",
+   "dateH": "ט״ו טבת תשל״ח"
+  },
+  {
+   "id": "refael-mabrashad",
+   "name": "רבי רפאל מברשד",
+   "dateH": "ט״ו טבת תקפ״ז"
+  },
+  {
+   "id": "sahmaryharv-gach-schneersohn-bavbavbarvysahtak",
+   "name": "רבי שמריהרו גח שניאורסון בובוברוישטק",
+   "dateH": "ט״ו טבת תרפ״ג"
+  }
+ ],
+ "Tevet-16": [
+  {
+   "id": "ephraim-karkavbasky",
+   "name": "רבי אפרים קרקובסקי",
+   "dateH": "ט״ז טבת תש״ו"
+  },
+  {
+   "id": "hangyh-yom-tov-ypa-mavvalavba-nyr-batavb",
+   "name": "רבי הנגיה יום טוב יפא מוואלובא - ניר באטוב",
+   "dateH": "ט״ז טבת תש״ט"
+  },
+  {
+   "id": "chananya-yom-tov-lipa-nirbator",
+   "name": "רבי חנניה יום טוב ליפא טייטלבוים מוואלובא־נירבאטור",
+   "dateH": "ט״ז טבת תשמ״ג"
+  }
+ ],
+ "Tevet-17": [
+  {
+   "id": "aharon-moshe-leifer-machavsat",
+   "name": "רבי אהרן משה לייפר מחוסט",
+   "dateH": "י״ז טבת תשנ״א"
+  },
+  {
+   "id": "aryeh-leib-vizhnitz",
+   "name": "רבי אריה ליב ליפשיץ מוויזשניץ",
+   "dateH": "י״ז טבת תר״ו"
+  },
+  {
+   "id": "aryeh-leib-zmigrod",
+   "name": "רבי אריה לייבוש הלברשטאם מז׳מיגרוד",
+   "dateH": "י״ז טבת תשס״ז"
+  },
+  {
+   "id": "yitzchak-kvsvbr-myaglnytza",
+   "name": "רבי יצחק קוסובר מיאגלניצא",
+   "dateH": "י״ז טבת תקפ״ג"
+  }
+ ],
+ "Tevet-18": [
+  {
+   "id": "bptly-gvldbrg-msheln",
+   "name": "רבי בפתלי גולדברג משעלן",
+   "dateH": "י״ח טבת תרס״ז"
+  },
+  {
+   "id": "yaakov-apta",
+   "name": "רבי יעקב מאפטא",
+   "dateH": "י״ח טבת תרי״ח"
+  },
+  {
+   "id": "moshe-koristyshev",
+   "name": "רבי משה טברסקי מקוריסטשוב",
+   "dateH": "י״ח טבת תרכ״ו"
+  },
+  {
+   "id": "tzvi-elimelech-dinov",
+   "name": "רבי צבי אלימלך שפירא מדינוב",
+   "dateH": "ח״י טבת תר״א"
+  }
+ ],
+ "Tevet-19": [
+  {
+   "id": "elimelech-rudnik",
+   "name": "רבי אלימלך מרודניק",
+   "dateH": "י״ט טבת תר״ט"
+  },
+  {
+   "id": "yaakov-horowitz-mielec",
+   "name": "רבי יעקב הורוויץ ממעליץ",
+   "dateH": "י״ט טבת תק״צי״ז"
+  },
+  {
+   "id": "yaakov-landau-jezow",
+   "name": "רבי יעקב לנדוי מיעז׳וב",
+   "dateH": "י״ט טבת תרנ״ד"
+  },
+  {
+   "id": "yitzchak-eizik-friedman-bayam-vanyredahaz",
+   "name": "רבי יצחק אייזיק פרידמן באיאם ונירעדהאז",
+   "dateH": "י״ט טבת תרני״ד"
+  },
+  {
+   "id": "shlomo-zalman-frankel-debica",
+   "name": "רבי שלמה זלמן פרנקל מדמביץ",
+   "dateH": "י״ט טבת תרצ״ח"
+  }
+ ],
+ "Tevet-20": [
+  {
+   "id": "aharon-tzvi-tavyb-mabryd",
+   "name": "רבי אהרן צבי טויב מבריד",
+   "dateH": "כ׳ טבת תרנו״ג"
+  },
+  {
+   "id": "moshe-mordechai-tversky-mamakarvabm",
+   "name": "רבי משה מרדכי טברסקי ממאקרובם",
+   "dateH": "כ׳ טבת תור״פ"
+  },
+  {
+   "id": "shalom-brod",
+   "name": "רבי שלום מברוד",
+   "dateH": "כ׳ טבת תשמו״ה"
+  },
+  {
+   "id": "shlomo-sadigura",
+   "name": "רבי שלמה מסדיגורא",
+   "dateH": "כ׳ טבת תרמ״א"
+  },
+  {
+   "id": "sahmahh-yissachar-ber-halberstam-navtazekashygavb",
+   "name": "רבי שמהה ישכר בער הלברשטאם נוצעקשיגוב",
+   "dateH": "כ׳ טבת תרע״ד"
+  },
+  {
+   "id": "simcha-yissachar-ber-cieszanow",
+   "name": "רבי שמחה ישכר בער הלברשטאם מצעשינוב",
+   "dateH": "כ׳ טבת תרע״ד"
+  }
+ ],
+ "Tevet-21": [
+  {
+   "id": "yisrael-avraham-matsahrany-ostroha",
+   "name": "רבי ישראל אברהם מטשרני-אוסטרהא",
+   "dateH": "כ״א טבת תקע״ד"
+  },
+  {
+   "id": "yisrael-dov-vilednik",
+   "name": "רבי ישראל דב בער מוילדניק",
+   "dateH": "כ״א טבת תר״י"
+  },
+  {
+   "id": "yisrael-dov-mavylargyk",
+   "name": "רבי ישראל דוב מוילרגיק",
+   "dateH": "כ״א טבת תר״י"
+  },
+  {
+   "id": "moshe-elkim-unger-dombrova",
+   "name": "רבי משה אליקים בריעה אונגר מדומברובה",
+   "dateH": "כ״א טבת תרע״ז"
+  }
+ ],
+ "Tevet-22": [
+  {
+   "id": "avraham-eiger-lublin",
+   "name": "רבי אברהם איגר מלובלין",
+   "dateH": "כ״ב טבת תרע״ד"
+  },
+  {
+   "id": "uri-halevi-eisen-bobrka",
+   "name": "רבי אורי הלוי אייזן מסטרטין–בוברקא",
+   "dateH": "כ״ב טבת תרע״ו"
+  },
+  {
+   "id": "yosef-mordechai-kahana-madragamyrashat",
+   "name": "רבי יוסף מרדכי כהנא מדראגמירשט",
+   "dateH": "כ״ב טבת תרע״ד"
+  },
+  {
+   "id": "levi-yitzchak-sirotshin",
+   "name": "רבי לוי יצחק גוטרמן מסיראטשין",
+   "dateH": "כ״ב טבת תרס״ה"
+  },
+  {
+   "id": "levi-yitzchak-klvghvypt-london",
+   "name": "רבי לוי יצחק קלוגהויפט מלונדון",
+   "dateH": "כ״ב טבת תשמ״א"
+  },
+  {
+   "id": "pinchas-eliyahu-spiegel",
+   "name": "רבי פנחס אליהו שפיגל מאוסטרובה",
+   "dateH": "כ״ב טבת תשמ״ד"
+  },
+  {
+   "id": "shalom-mavsahkavbytaz-shatz",
+   "name": "רבי שלום מושקוביץ משאץ",
+   "dateH": "כ״ב טבת תשי״ח"
+  }
+ ],
+ "Tevet-23": [
+  {
+   "id": "aryeh-leibush-ozharov",
+   "name": "רבי אריה לייבוש מאוז׳רוב",
+   "dateH": "כ״ג טבת תקצ״ז"
+  }
+ ],
+ "Tevet-24": [
+  {
+   "id": "avraham-pinchas",
+   "name": "רבי אברהם פנחס",
+   "dateH": "כ״ד טבת תקצ״ז"
+  },
+  {
+   "id": "abarm-pinchas",
+   "name": "רבי אברם פנחס",
+   "dateH": "כ״ד טבת תקצ״ז"
+  },
+  {
+   "id": "yosef-yampol",
+   "name": "רבי יוסף מיאמפולה",
+   "dateH": "כ״ד טבת תקע״ב"
+  },
+  {
+   "id": "yisrael-aryeh-margolies-premishlan-london",
+   "name": "רבי ישראל אריה מרגליות מפרמישלאן - לונדון",
+   "dateH": "כ״ד טבת תשט״ו"
+  },
+  {
+   "id": "lapydavt",
+   "name": "רבי לפידות",
+   "dateH": "כ״ד טבת תקצ״ז"
+  },
+  {
+   "id": "mordechai-bushtina-new-york",
+   "name": "רבי מרדכי מבושטינא-ניו יורק",
+   "dateH": "כ״ד טבת תשנ״ב"
+  },
+  {
+   "id": "moshe-yosef-ujhely",
+   "name": "רבי משה יוסף טייטלבוים מאיהל",
+   "dateH": "כ״ד טבת תרנ״ז"
+  },
+  {
+   "id": "moshe-mordechai-biederman",
+   "name": "רבי משה מרדכי בידרמן",
+   "dateH": "כ״ד טבת תשמ״ז"
+  },
+  {
+   "id": "moshe-mordechai-byrn-kv-evbm",
+   "name": "רבי משה מרדכי ביררן כו עובם",
+   "dateH": "כ״ד טבת תש״נו״ז"
+  },
+  {
+   "id": "shmuel-bornstein-sokhatchov",
+   "name": "רבי שמואל בורנשטין מסוכאטשוב",
+   "dateH": "כ״ד טבת תרפ״ו"
+  },
+  {
+   "id": "sahmamey-yissachar-ber",
+   "name": "רבי שממעי ר ישכר בער",
+   "dateH": "כ״ד טבת תקצי״ו"
+  },
+  {
+   "id": "shneur-zalman",
+   "name": "רבי שניאור זלמן מלאדי",
+   "dateH": "כ״ד טבת תקע״ג"
+  }
+ ],
+ "Tevet-25": [
+  {
+   "id": "eliezer-zeev-marilus",
+   "name": "רבי אליעזר זאב מארילוס",
+   "dateH": "כ״ה טבת תש״ו"
+  },
+  {
+   "id": "moshe-tzvi-savran",
+   "name": "רבי משה צבי מסווראן",
+   "dateH": "כ״ה טבת תקצ״ח"
+  }
+ ],
+ "Tevet-26": [
+  {
+   "id": "avraham-chaim-mazlavtashavb",
+   "name": "רבי אברהם חיים מזלוטשוב",
+   "dateH": "כ״ו טבת תקע״ו"
+  },
+  {
+   "id": "hillel-finkler",
+   "name": "רבי הלל פינקלר מראדושיץ",
+   "dateH": "כ״ו טבת תרס״א"
+  },
+  {
+   "id": "yekusiel-velman-landau",
+   "name": "רבי יקותיאל ולמן לנדא",
+   "dateH": "כ״ו טבת תרנ״ה"
+  },
+  {
+   "id": "shalom-leifer-satmar-nadabvargah-baryysahyn",
+   "name": "רבי שלום לייפר מסטמר - נאדבורגה = בריישין",
+   "dateH": "כ״ו טבת"
+  }
+ ],
+ "Tevet-27": [
+  {
+   "id": "mgsh-yak-meir-ziditchov",
+   "name": "רבי מגשה יאק מאיר מזידיטשוב",
+   "dateH": "כ״ז טבת תשל״א"
+  },
+  {
+   "id": "menashe-yitzchak-meir-eichenstein",
+   "name": "רבי מנשה יצחק מאיר אייכנשטיין מזידיטשוב",
+   "dateH": "כ״ז טבת תשל״א"
+  }
+ ],
+ "Tevet-28": [
+  {
+   "id": "ben-tzion-yehuda-leib-tversky-mahvarnavsatyypal",
+   "name": "רבי בן ציון יהודה ליב טברסקי מהורנוסטייפל",
+   "dateH": "כ״ח טבת תשי״א"
+  },
+  {
+   "id": "chanokh-hakohen-warsaw",
+   "name": "רבי חנוך בן טוביה הכהן מוורשה",
+   "dateH": "כ״ח טבת ת״ר"
+  },
+  {
+   "id": "yaakov-yitzchak-koidanov",
+   "name": "רבי יעקב יצחק מקוידנוב",
+   "dateH": "כ״ח טבת תרע״ט"
+  },
+  {
+   "id": "yissachar-ber-ravvanbavym-mastarvadnysah",
+   "name": "רבי ישכר בער רוונבוים מסטרודניש",
+   "dateH": "כ״ח טבת תשמ״א"
+  }
+ ],
+ "Tevet-29": [
+  {
+   "id": "yerachmiel-yisrael-yitzchak-dancyger",
+   "name": "רבי ירחמיאל ישראל יצחק דנציגר מאלכסנדר",
+   "dateH": "כ״ט טבת תר״ע"
+  },
+  {
+   "id": "moshe-tzvi-hager-savran-stanovitz",
+   "name": "רבי משה צבי הגר מסאווראן-סטאנוביץ",
+   "dateH": "כ״ט טבת תרנ״ו"
+  },
+  {
+   "id": "nach-shmuel-lifshitz-turbin",
+   "name": "רבי נח שמואל ליפשיץ מטורבין",
+   "dateH": "כ״ט טבת תקצ״ב"
+  }
+ ],
+ "Shevat-1": [
+  {
+   "id": "bshe-mrhlm",
+   "name": "רבי בשע מרהלם",
+   "dateH": "א׳ שבט תקע״ב"
+  },
+  {
+   "id": "moshe-yechiel-ozharov",
+   "name": "רבי משה יחיאל אפשטיין מאוז׳רוב",
+   "dateH": "א׳ שבט תשל״א"
+  }
+ ],
+ "Shevat-2": [
+  {
+   "id": "zusha",
+   "name": "רבי זושא מהאניפולי",
+   "dateH": "ב׳ שבט תק״ס"
+  },
+  {
+   "id": "simcha-bunim-otwock",
+   "name": "רבי שמחה בונים קאליש מאוטווצק",
+   "dateH": "ב׳ שבט תרס״ז"
+  }
+ ],
+ "Shevat-3": [
+  {
+   "id": "avraham-hershkovitz-munkacs",
+   "name": "רבי אברהם ב״ר דוד הרשקוביץ ממונקאטש",
+   "dateH": "ג׳ שבט תרנ״ז"
+  },
+  {
+   "id": "david-sahyk-takay",
+   "name": "רבי דוד שיק טאקאי",
+   "dateH": "ג׳ שבט תרנ״א"
+  },
+  {
+   "id": "yosef-amshinov",
+   "name": "רבי יוסף קאליש מאמשינוב",
+   "dateH": "ג׳ שבט תרצ״ו"
+  },
+  {
+   "id": "yechezkel-shraga-cieszanow",
+   "name": "רבי יחזקאל שרגא הלברשטאם מצעשינוב",
+   "dateH": "ג׳ שבט תש״ב"
+  },
+  {
+   "id": "mordechai-yosef-leiner",
+   "name": "רבי מרדכי יוסף ליינר מראדזין",
+   "dateH": "ג׳ שבט תשנ״א"
+  },
+  {
+   "id": "shalom-flam-stratin",
+   "name": "רבי שלום פלאם מסטרטין",
+   "dateH": "ג׳ שבט תשס״ג"
+  },
+  {
+   "id": "shalom-rokeach-vbashshvbm",
+   "name": "רבי שלום רוקח ובאששובם",
+   "dateH": "ג׳ שבט תטש״ב"
+  }
+ ],
+ "Shevat-4": [
+  {
+   "id": "avraham-makalysak-ben-alaktandar",
+   "name": "רבי אברהם הכהן מקאליסק בן רבי אלכטנדר",
+   "dateH": "ד׳ שבט תק״ע"
+  },
+  {
+   "id": "avraham-manadyl-mavarvysahtatkab",
+   "name": "רבי אברהם מאנדיל מאורוישטטקב",
+   "dateH": "ד׳ שבט תר״ע"
+  },
+  {
+   "id": "yosef-madyalatytash",
+   "name": "רבי יוסף מדיאלטיטש",
+   "dateH": "ד׳ שבט תרי״ט"
+  },
+  {
+   "id": "menachem-nachum-tversky-mabrysak",
+   "name": "רבי מנהם נחום טברסקי מבריסק",
+   "dateH": "ד׳ שבט תרמ״ז"
+  },
+  {
+   "id": "moshe-lyb-mtatvb",
+   "name": "רבי משה ליב מטאטוב",
+   "dateH": "ד׳ שבט תקס״ז"
+  },
+  {
+   "id": "moshe-leib-sasov",
+   "name": "רבי משה ליב מסאסוב",
+   "dateH": "ד׳ שבט תקס״ז"
+  }
+ ],
+ "Shevat-5": [
+  {
+   "id": "david-bohush",
+   "name": "רבי דוד מבוחוש",
+   "dateH": "ה׳ שבט תרמ״ה"
+  },
+  {
+   "id": "yehuda-aryeh-leib-ger",
+   "name": "רבי יהודה אריה ליב אלטר מגור",
+   "dateH": "ה׳ שבט תרס״ה"
+  },
+  {
+   "id": "yosef-meir-kahana-spinka-jerusalem",
+   "name": "רבי יוסף מאיר כהנא מספינקא - ירושלים",
+   "dateH": "ה׳ שבט תשל״ח"
+  },
+  {
+   "id": "tzvi-elimelech-panet-kasan",
+   "name": "רבי צבי אלימלך פאנעט מקאסאן",
+   "dateH": "ה׳ שבט תרע״ט"
+  },
+  {
+   "id": "shmuel-mashynyvavh",
+   "name": "רבי שמואל משיניווה",
+   "dateH": "ה׳ שבט תרל״ג"
+  }
+ ],
+ "Shevat-6": [
+  {
+   "id": "david-yitzchak-biala-maskalyh",
+   "name": "רבי דוד יצחק רבינוביץ מסקאליה",
+   "dateH": "ו׳ שבט תשל״ט"
+  },
+  {
+   "id": "chaim-tzvi-sighet",
+   "name": "רבי חיים צבי טייטלבוים מסיגעט",
+   "dateH": "ו׳ שבט תרפ״ו"
+  },
+  {
+   "id": "yitzchak-kalush",
+   "name": "רבי יצחק מקאלוש",
+   "dateH": "ו׳ שבט ת״ר"
+  },
+  {
+   "id": "menachem-nachum-ephraim-sambor",
+   "name": "רבי מנחם נחום אפרים מטמבור",
+   "dateH": "ו׳ שבט תר״ס"
+  }
+ ],
+ "Shevat-7": [
+  {
+   "id": "david-lelov",
+   "name": "רבי דוד מלעלוב",
+   "dateH": "ז׳ שבט תקע״ד"
+  },
+  {
+   "id": "yissachar-dov-babad-bavsaka",
+   "name": "רבי ישכר דוב באב״ד בוסקא",
+   "dateH": "ז׳ שבט"
+  },
+  {
+   "id": "yisrael-haryp-matatanvab",
+   "name": "רבי ישראל הריף מטאטנוב",
+   "dateH": "ז׳ שבט תקמ״א"
+  },
+  {
+   "id": "menachem-nachum-chernobyl",
+   "name": "רבי מנחם נחום",
+   "dateH": "ז׳ שבט תרל״א"
+  },
+  {
+   "id": "mordechai-david-unger-dombrova",
+   "name": "רבי מרדכי דוד אונגר מדומברובה",
+   "dateH": "ז׳ שבט תר״ו"
+  },
+  {
+   "id": "natan-david-parczew",
+   "name": "רבי נתן דוד רבינוביץ מפארצוב",
+   "dateH": "ז׳ שבט"
+  },
+  {
+   "id": "pybhvt-heshy-b-ybkvbm",
+   "name": "רבי פיבהוט העשי ב יבקובם",
+   "dateH": "ז׳ שבט תרע״ו"
+  }
+ ],
+ "Shevat-8": [
+  {
+   "id": "avraham-alfasi-dazevavytaza",
+   "name": "רבי אברהם אלפסי דזעוויצא",
+   "dateH": "ח׳ שבט תרע״ב"
+  }
+ ],
+ "Shevat-9": [
+  {
+   "id": "yosef-yvaskah-mavvalatsahysak",
+   "name": "רבי יוסף-יוסקה מוואלטשיסק",
+   "dateH": "ט׳ שבט תקס״ז"
+  },
+  {
+   "id": "yaakov-katyna-khust",
+   "name": "רבי יעקם קטינא מחוסט",
+   "dateH": "ט׳ שבט"
+  },
+  {
+   "id": "yisrael-yaakov-banv-menachem-mendel-kavrypavbavm",
+   "name": "רבי ישרא יעקב, בנו ש רבי מנהם מנדל כוריפובום",
+   "dateH": "ט׳ שבט תק״פ"
+  },
+  {
+   "id": "shraga-feivel-shalom-dembinsky",
+   "name": "רבי שרגא פייבל שלום דעמבינסקי",
+   "dateH": "ט׳ שבט תשי״ד"
+  }
+ ],
+ "Shevat-10": [
+  {
+   "id": "yosef-yitzchak-schneersohn-lubavitch",
+   "name": "רבי יוסף יצחק שניאורסון מליובאוויטש",
+   "dateH": "י׳ שבט תש״י"
+  },
+  {
+   "id": "yosef-friedlander-liska",
+   "name": "רבי יוסף פרידלנדר מליסקא",
+   "dateH": "ב״ח שבט תשל״א"
+  }
+ ],
+ "Shevat-12": [
+  {
+   "id": "david-yehuda-leib-tversky-skvira-kazatyn",
+   "name": "רבי דוד יהודה ליב טברסקי מסקווירא - קאזאטין",
+   "dateH": "י״ב שבט תר״פ"
+  },
+  {
+   "id": "chaim-shlomo-segal-lowy",
+   "name": "רבי חיים שלמה סג״ל לאווי",
+   "dateH": "י״ב שבט תשנו״א"
+  },
+  {
+   "id": "ylakb-yahak-zbarizh",
+   "name": "רבי ילקב יאהק מז'באריז",
+   "dateH": "י״ב שבט תרמ״ה"
+  },
+  {
+   "id": "yaakov-yitzchak-zbarizh",
+   "name": "רבי יעקב יצחק מז׳באריז׳",
+   "dateH": "י״ב שבט תרמ״ה"
+  }
+ ],
+ "Shevat-13": [
+  {
+   "id": "avigdor-polak-pollak",
+   "name": "רבי אביגדור פולק - פאללאק",
+   "dateH": "י״ג שבט תרצ״ז"
+  },
+  {
+   "id": "avraham-shlomo-biederman",
+   "name": "רבי אברהם שלמה בידרמן מלעלוב",
+   "dateH": "י״ג שבט תש״ס"
+  },
+  {
+   "id": "avraham-shlomo-biederman-lelov-2",
+   "name": "רבי אברהם שלמה בידרמן מלעלוב",
+   "dateH": "י״ג שבט תש״ס"
+  },
+  {
+   "id": "avraham-shmuel-mapalatysahn",
+   "name": "רבי אברהם שמואל מפאלטישן",
+   "dateH": "י״ג שבט תשמ״ה"
+  },
+  {
+   "id": "yosef-menachem-ganash",
+   "name": "רבי יוסף מנחם גאנאש",
+   "dateH": "י״ג שבט תקפ״ט"
+  },
+  {
+   "id": "moshe-dan-skvira",
+   "name": "רבי משה דן מסקווירא",
+   "dateH": "י״ג שבט תר״פ"
+  },
+  {
+   "id": "shlomo-lutsk",
+   "name": "רבי שלמה מלוצק",
+   "dateH": "י״ג שבט תקע״ג"
+  }
+ ],
+ "Shevat-14": [
+  {
+   "id": "aharon-aryeh-leib-nadvorna",
+   "name": "רבי אהרן אריה ליב מנאדבורנה",
+   "dateH": "י״ד שבט תרנ״ז"
+  },
+  {
+   "id": "aryeh-leibush-apta",
+   "name": "רבי אריה לייבוש ליפשיץ מאפטא",
+   "dateH": "י״ד שבט תרפ״ט"
+  },
+  {
+   "id": "chaim-shimon-mashalvashash",
+   "name": "רבי היים שמעקון משלושש",
+   "dateH": "י״ד שבט תרס״א"
+  },
+  {
+   "id": "yechiel-dancyger-alexander",
+   "name": "רבי יחיאל דנציגר מאלכסנדר",
+   "dateH": "י״ד שבט תרנ״ד"
+  },
+  {
+   "id": "yitzchak-yechiel-michel-panet-marelash",
+   "name": "רבי יצחק יחיאל מיכל פאנעט מרעלש",
+   "dateH": "י״ד שבט ת״ש"
+  }
+ ],
+ "Shevat-15": [
+  {
+   "id": "bvnym-menachem-mendel-mrylvs-yaroslav",
+   "name": "רבי בונים מנחם מנדל מרילוס מיארוסלב",
+   "dateH": "ט״ו שבט תרע״ה"
+  },
+  {
+   "id": "gedalya-aharon-linitz-savkavlavbakh",
+   "name": "רבי גדליה אהרן מליניץ - סוקולובקה",
+   "dateH": "ט״ו שבט תרל״ח"
+  },
+  {
+   "id": "yisrael-mabrashad",
+   "name": "רבי ישראל מברשד",
+   "dateH": "ט״ו שבט תרע״ח"
+  },
+  {
+   "id": "nechemia-gynazbavrag-dubrovna",
+   "name": "רבי נחמיה גינזבורג מדובראוונה",
+   "dateH": "ט״ו שבט תרי״ב"
+  },
+  {
+   "id": "shlomo-yehoshua-david-radzimin",
+   "name": "רבי שלמה יהושע דוד גוטרמן מראדזימין",
+   "dateH": "ט״ו שבט תרס״ג"
+  }
+ ],
+ "Shevat-16": [
+  {
+   "id": "aryeh-yehuda-leib-mavastarah",
+   "name": "רבי אריה יהודה ליב מאוסטראה",
+   "dateH": "ט״ז שבט תקפ״ט"
+  },
+  {
+   "id": "asher-tzvi-ostroha-ben-david",
+   "name": "רבי אשר צבי מאוסטרהא בן רבי דוד",
+   "dateH": "ט״ז שבט תקע״ז"
+  },
+  {
+   "id": "baruch-shalom",
+   "name": "רבי ברוך שלום",
+   "dateH": "ט״ז שבט תרכ״ט"
+  },
+  {
+   "id": "david-makvalvamyya",
+   "name": "רבי דוד מקולומייא",
+   "dateH": "ט״ז שבט תצ״ב"
+  },
+  {
+   "id": "ylakb-yitzchak-unger-kalushin-vengrov",
+   "name": "רבי ילקב יאחק אונגר מקאלושין - וונגרוב",
+   "dateH": "ט״ז שבט תר״פ"
+  },
+  {
+   "id": "yaakov-hager-zablotov",
+   "name": "רבי יעקב האגער מזאבלטוב",
+   "dateH": "ט״ז שבט תרמ״א"
+  },
+  {
+   "id": "yaakov-yitzchak-kalushin-wengrov",
+   "name": "רבי יעקב יצחק אונגר מקאלושין־ווענגראוו",
+   "dateH": "ט״ז שבט"
+  },
+  {
+   "id": "yaakov-shimon-sofer-makraka",
+   "name": "רבי יעקב שמעון \"סופר\" מקראקא",
+   "dateH": "ט״ז שבט תקצ״ז"
+  }
+ ],
+ "Shevat-17": [
+  {
+   "id": "bavbn-zbnh-vabd-vlashtzvh",
+   "name": "רבי באובן הכהן אבד זבנה ואבד וולאשצווה",
+   "dateH": "י״ז שבט תקס״ח"
+  },
+  {
+   "id": "david-aryeh-leib-nadvorna",
+   "name": "רבי דוד אריה ליב מנאדבורנה",
+   "dateH": "י״ז שבט תר״ט"
+  },
+  {
+   "id": "yechezkel-taub-kuzmir",
+   "name": "רבי יחזקאל טאוב מקוזמיר",
+   "dateH": "י״ז שבט תרט״ז"
+  },
+  {
+   "id": "moshe-makytavbam",
+   "name": "רבי משה מקיטובם",
+   "dateH": "י״ז שבט תצ״ח"
+  },
+  {
+   "id": "reuven-vavlasahtazvavya",
+   "name": "רבי ראובן אב\"ד וולאשצוויא",
+   "dateH": "י״ז שבט תקס״ה"
+  }
+ ],
+ "Shevat-18": [
+  {
+   "id": "yosef-lichtenstein-mavsyget",
+   "name": "רבי יוסף ליכטנשטיין מוסיגעט",
+   "dateH": "י״ח שבט תרצ״ט"
+  },
+  {
+   "id": "shlomo-stratin-toronto",
+   "name": "רבי שלמה מסטרטין - טורונטו",
+   "dateH": "י״ח שבט תשל״ג"
+  }
+ ],
+ "Shevat-19": [
+  {
+   "id": "elimelech-menachem-mendel-strykov",
+   "name": "רבי אלימלך מנחם מנדל לנדוי מסטריקוב",
+   "dateH": "י״ט שבט תרצ״ו"
+  },
+  {
+   "id": "eliezer-dolina",
+   "name": "רבי אליעזר מדולינא",
+   "dateH": "י״ט שבט"
+  },
+  {
+   "id": "shmuel-weinberg-slonim",
+   "name": "רבי שמואל וינברג מסלונים",
+   "dateH": "י״ט שבט תרע״ו"
+  }
+ ],
+ "Shevat-20": [
+  {
+   "id": "chaim-david-bernhard-piotrkow",
+   "name": "רבי חיים דוד ברנהרד (׳בעל התשובה׳) מפיעטריקוב",
+   "dateH": "כ׳ שבט תרי״ח"
+  }
+ ],
+ "Shevat-21": [
+  {
+   "id": "eliezer-lipman-rozhniativ",
+   "name": "רבי אליעזר ליפמן קנאפל מרוז׳ניאטוב",
+   "dateH": "כ״א שבט תרל״ו"
+  },
+  {
+   "id": "yechiel-yehoshua-biala",
+   "name": "רבי יחיאל יהושע רבינוביץ מביאלה",
+   "dateH": "כ״א שבט תשמ״ז"
+  },
+  {
+   "id": "yechiel-meir-gostynin",
+   "name": "רבי יחיאל מאיר ליפשיץ מגוסטנין",
+   "dateH": "כ״א שבט תרמ״ח"
+  },
+  {
+   "id": "yechiel-mavykal-navsahepas",
+   "name": "רבי יחיאל מויכל נושעפס",
+   "dateH": "כ״א שבט תרע״ח"
+  },
+  {
+   "id": "yaakov-yitzchak-elchanan-peshischa",
+   "name": "רבי יעקב יצחק אלחנן מפשיסחא",
+   "dateH": "כ״א שבט תרל״ג"
+  },
+  {
+   "id": "yisrael-masahal",
+   "name": "רבי ישראל מסאהל",
+   "dateH": "כ״א שבט תרע״א"
+  }
+ ],
+ "Shevat-22": [
+  {
+   "id": "yehuda-leib-eiger-lublin",
+   "name": "רבי יהודה לייב איגר מלובלין",
+   "dateH": "כ״ב שבט תרמ״ח"
+  },
+  {
+   "id": "mancahham-mendel-kotzk",
+   "name": "רבי מנחהם מנדל מקוצק",
+   "dateH": "כ״ב שבט תרי״ט"
+  },
+  {
+   "id": "menachem-mendel-kotzk",
+   "name": "רבי מנחם מנדל מורגנשטרן מקוצק",
+   "dateH": "כ״ב שבט תרי״ט"
+  }
+ ],
+ "Shevat-23": [
+  {
+   "id": "yehoshua-rokeach-belz",
+   "name": "רבי יהושע רוקח מבעלזא",
+   "dateH": "כ״ג שבט תרנ״ד"
+  }
+ ],
+ "Shevat-24": [
+  {
+   "id": "natan-david-rabinowitz-matydalvabtazh",
+   "name": "רבי נתן דוד רבינוביץ מטידלובצה",
+   "dateH": "כ״ד שבט תרע״ט"
+  }
+ ],
+ "Shevat-25": [
+  {
+   "id": "david-mamykavlyym-hashaby",
+   "name": "רבי דוד ממיקוליים - השבי",
+   "dateH": "כ״ה שבט תק״ס"
+  },
+  {
+   "id": "yosef-david-sasov",
+   "name": "רבי יוסף דוד מסאסוב",
+   "dateH": "כ״ה שבט"
+  },
+  {
+   "id": "yitzchak-moshe-azriel-lipa-belzitz",
+   "name": "רבי יצחק משה עזריאל ליפא מבלזיץ",
+   "dateH": "כ״ה שבט תקצ״א"
+  },
+  {
+   "id": "moshe-azriel-lift",
+   "name": "רבי משה עזריאל ליפט",
+   "dateH": "כ״ה שבט תקצ״א"
+  },
+  {
+   "id": "shalom-yvassahp-sahbartaky-masharytak-gyryvark",
+   "name": "רבי שלום יוסשף שברטקי משריטק - גיריורק",
+   "dateH": "כ״ה שבט תש״ה"
+  }
+ ],
+ "Shevat-26": [
+  {
+   "id": "chaim-yaakov-yechiel-nayshtat",
+   "name": "רבי חיים יעקב יחיאל מניישטאט",
+   "dateH": "כ״ו שבט תרנו״ד"
+  },
+  {
+   "id": "mordechai-yosef-elazar-radzin",
+   "name": "רבי מרדכי יוסף אלעזר ליינר מראדזין",
+   "dateH": "כ״ו שבט תרפ״ט"
+  },
+  {
+   "id": "natan-neta-dov-vilipoli",
+   "name": "רבי נתן נטע דוב מוויליפולי",
+   "dateH": "כ״ו שבט תרע״ה"
+  }
+ ],
+ "Shevat-27": [
+  {
+   "id": "avraham-yehoshua-heshel-chelm",
+   "name": "רבי אברהם יהושע העשל ליינר מחלם",
+   "dateH": "כ״ז שבט תר״פ"
+  },
+  {
+   "id": "tuvia-gavtamn-rappaport-kielce",
+   "name": "רבי טוביה הכהן גוטמן-רפפורט קילץ",
+   "dateH": "כ״ז שבט תרס״ב"
+  },
+  {
+   "id": "yaakov-vaydama",
+   "name": "רבי יעקב מוידאמא",
+   "dateH": "כ״ז שבט תרמ״ו"
+  },
+  {
+   "id": "yravham-pysahl-avyerabvak-mavamn",
+   "name": "רבי ירוהם פישל אויערבוך מאומן",
+   "dateH": "כ״ז שבט תרכ״ז"
+  },
+  {
+   "id": "emanuel-pshedborz",
+   "name": "רבי עמנואל וולטפרייד מפשדבורז",
+   "dateH": "כ״ז שבט תרכ״ה"
+  }
+ ],
+ "Shevat-28": [
+  {
+   "id": "avraham-yehoshua-heschel-kavbarrysahsahvam",
+   "name": "רבי אברהם יהושע הש כוברריששום",
+   "dateH": "כ״ח שבט תרס״ט"
+  },
+  {
+   "id": "david-charif-piotrkow",
+   "name": "רבי דוד חריף מפיעטריקוב",
+   "dateH": "כ״ח שבט תקפ״ז"
+  },
+  {
+   "id": "yehoshua-margaliyot",
+   "name": "רבי יהושע מרגליות",
+   "dateH": "כ״ח שבט תר״ח"
+  },
+  {
+   "id": "magramb-gahvam-sahbartaky-marhamytatrybakh",
+   "name": "רבי מגרםב גהום שברטקי מרהמיטטריבקה",
+   "dateH": "כ״ח שבט תרצ״ו"
+  },
+  {
+   "id": "shalom-yosef-chernovitz",
+   "name": "רבי שלום יוסף מטשרנוביץ",
+   "dateH": "ייח שבט תרפ״ג"
+  }
+ ],
+ "Shevat-29": [
+  {
+   "id": "david-bukovsk",
+   "name": "רבי דוד שפירא מבוקאווסק",
+   "dateH": "כ״ט שבט תרפ״ד"
+  },
+  {
+   "id": "chaim-meir-pinczow",
+   "name": "רבי חיים מאיר פינקלר מפינטשוב",
+   "dateH": "כ״ט שבט תרע״ז"
+  },
+  {
+   "id": "chananya-yom-tov-lipa-sighet",
+   "name": "רבי חנניה יום טוב ליפא טייטלבוים מסיגעט",
+   "dateH": "כ״ט שבט תרס״ד"
+  },
+  {
+   "id": "naftali-rokeach-mnavrya",
+   "name": "רבי נפתלי רוקח מנאווריא",
+   "dateH": "כ״ט שבט תרס״ה"
+  },
+  {
+   "id": "tzvi-hirsch-likov",
+   "name": "רבי צבי הירש מורגנשטרן מליקוב",
+   "dateH": "כ״ט שבט"
+  }
+ ],
+ "Shevat-30": [
+  {
+   "id": "avraham-horowitz-mshendyshvb",
+   "name": "רבי אברהם הורוויץ משענדישוב",
+   "dateH": "ל׳ שבט תרס״ה"
+  },
+  {
+   "id": "yitzchak-shatz-radvabytaz",
+   "name": "רבי יצחק משאץ-רדוביץ",
+   "dateH": "ל׳ שבט תשי״ח"
+  }
+ ],
+ "Adar-1": [
+  {
+   "id": "baruch-gorlitz",
+   "name": "רבי ברוך הלברשטאם מגורליץ",
+   "dateH": "א׳ אדר תרס״ו"
+  },
+  {
+   "id": "chaim-sanz-sanz",
+   "name": "רבי חיים מצאנז",
+   "dateH": "א׳ אדר תרס״ז"
+  },
+  {
+   "id": "yosef-tzvi-skierniewice",
+   "name": "רבי יוסף צבי קאליש מבני ברק־סקרנביץ",
+   "dateH": "א׳ אדר תשי״ז"
+  },
+  {
+   "id": "yosef-reinman-istrisk",
+   "name": "רבי יוסף ריינמאן איסטריק",
+   "dateH": "א׳ אדר תרע״ד"
+  },
+  {
+   "id": "yitzchak-meir-heshyl-zinkov",
+   "name": "רבי יצחק מאיר העשיל מזינקוב",
+   "dateH": "א׳ אדר תרט״ו"
+  },
+  {
+   "id": "yrshn-shrvk-epshshyykn",
+   "name": "רבי ירשן שרוך עפששייךן",
+   "dateH": "א׳ אדר תרכ״ז"
+  },
+  {
+   "id": "mardakpy-sabratky-makvarytatsahvabm",
+   "name": "רבי מרדכפי סברטקי מקוריטטשובם",
+   "dateH": "א׳ אדר תרע״ו"
+  },
+  {
+   "id": "meshulam-velman-mashashysahvavar",
+   "name": "רבי משולם ולמן מששישוואר",
+   "dateH": "א׳ אדר תשנו״ז"
+  },
+  {
+   "id": "shmuel-piler",
+   "name": "רבי שמואל פילר",
+   "dateH": "א׳ אדר תקפ״ז"
+  }
+ ],
+ "Adar-2": [
+  {
+   "id": "aharon-aryeh-leib-premishlan",
+   "name": "רבי אהרן אריה ליב מפרמישלאן",
+   "dateH": "ב׳ אדר תקע״ג"
+  },
+  {
+   "id": "chaim-yoel-sambor",
+   "name": "רבי חיים יואל מטמבור",
+   "dateH": "ב׳ אדר תש״א"
+  },
+  {
+   "id": "chaim-yitzchak-yanov",
+   "name": "רבי חיים יצחק מיאנוב",
+   "dateH": "ב׳ אדר תרל״ט"
+  },
+  {
+   "id": "yosef-mordechai-kahana-davm-matygesah",
+   "name": "רבי יוסף מרדכי כהנא דומ\"+ מטיגעש",
+   "dateH": "ב׳ אדר תקצ״ד"
+  },
+  {
+   "id": "yaakov-ycahzakyhav-grunwald-papa",
+   "name": "רבי יעקב יחזקיהו גרינוולד מפאפא",
+   "dateH": "ב׳ אדר תש״א"
+  },
+  {
+   "id": "yisrael-alter-ger",
+   "name": "רבי ישראל אלטר מגור",
+   "dateH": "ב׳ אדר תשל״ז"
+  },
+  {
+   "id": "meshulam-zusha-mzbv",
+   "name": "רבי משולם זושא ממזבו",
+   "dateH": "ב׳ אדר"
+  }
+ ],
+ "Adar-3": [
+  {
+   "id": "ephraim-zalman-margolies",
+   "name": "רבי אפרים זלמן מרגליות",
+   "dateH": "ג׳ אדר תקע״ג"
+  },
+  {
+   "id": "sahmava-vanbarry-mavsahsahrashynakn",
+   "name": "רבי שמוא ונבררי מוששרשיןךן",
+   "dateH": "ג׳ אדר תר״מ"
+  },
+  {
+   "id": "shmuel-madrylytassah",
+   "name": "רבי שמואל מדריליטסש",
+   "dateH": "ג׳ אדר"
+  }
+ ],
+ "Adar-5": [
+  {
+   "id": "zeev-wolf-matsahrany-ostroha-ben-naftali-tzvi",
+   "name": "רבי זאב וולף מטשרני-אוסטרהא בן רבי נפתלי עבי",
+   "dateH": "ה׳ אדר תקפ״ג"
+  },
+  {
+   "id": "chaim-rabinzon",
+   "name": "רבי חיים רבינזון מדורוהוי",
+   "dateH": "ה׳ אדר תרצ״ה"
+  },
+  {
+   "id": "yosef-rashkov",
+   "name": "רבי יוסף מראשקוב",
+   "dateH": "ה׳ אדר"
+  },
+  {
+   "id": "yeshaya-mavsahkat-praga",
+   "name": "רבי ישעיה מושקאט מפראגה",
+   "dateH": "ה׳ אדר תרכ״ח"
+  },
+  {
+   "id": "mordechai-shlomo-friedman-boyan",
+   "name": "רבי מרדכי שלמה פרידמן מבויאן",
+   "dateH": "ה׳ אדר תשל״א"
+  }
+ ],
+ "Adar-6": [
+  {
+   "id": "moshe-stenzitz",
+   "name": "רבי משה מסטענזיץ",
+   "dateH": "ו׳ אדר תר״ד"
+  }
+ ],
+ "Adar-7": [
+  {
+   "id": "avraham-tzvi-hirsh-piotrkow",
+   "name": "רבי אברהם צבי הירש פצנובסקי מפיעטריקוב",
+   "dateH": "ז׳ אדר תקע״ט"
+  },
+  {
+   "id": "yechiel-yosef-rashkov",
+   "name": "רבי יחיאל יוסף מראשקוב",
+   "dateH": "ז׳ אדר תרנ״ו"
+  },
+  {
+   "id": "yitzchak-isaac-kaliv",
+   "name": "רבי יצחק אייזיק מקאליב",
+   "dateH": "ז׳ אדר"
+  }
+ ],
+ "Adar-8": [
+  {
+   "id": "moshe-frisherman-tomashov",
+   "name": "רבי משה פרישרמן מטומשוב־ניו יורק",
+   "dateH": "ח׳ אדר תשל״ד"
+  },
+  {
+   "id": "shmuel-shmlkh-rubin-mseres",
+   "name": "רבי שמואל שמלקה רובין מסערעס",
+   "dateH": "ח׳ אדר תרס״א"
+  }
+ ],
+ "Adar-9": [
+  {
+   "id": "elazar-adalr-mavzavvyhal",
+   "name": "רבי אלעזר אדלר מוזוויהל",
+   "dateH": "ט׳ אדר תשט״ז"
+  }
+ ],
+ "Adar-10": [
+  {
+   "id": "avraham-yosef-yvaskah-mabrahylavb-yassy",
+   "name": "רבי אברהם יוסף יוסקה מבראהילוב - יאסי",
+   "dateH": "י׳ אדר תש״ח"
+  }
+ ],
+ "Adar-11": [
+  {
+   "id": "hnyh-yvm-tvb-lypa-teitelbaum-sasov",
+   "name": "רבי הנניה יום טוב ליפא טייטלבוים מסאסוב",
+   "dateH": "י״א אדר תשכ״ו"
+  },
+  {
+   "id": "yitzchak-natan-lypashy-mad",
+   "name": "רבי יצחק נתן ליפשי מאד",
+   "dateH": "י״א אדר תרל״ד"
+  },
+  {
+   "id": "shalom-yissachar-ber-makelaknya",
+   "name": "רבי שלום ישכר בער מקעלכניא",
+   "dateH": "י״א אדר תשיי״ז"
+  }
+ ],
+ "Adar-12": [
+  {
+   "id": "menachem-zeev-yravzalymasky-kotzk",
+   "name": "רבי מנחם זאב ירוזלימסקי מקוצק",
+   "dateH": "י״ב אדר תר״ו"
+  },
+  {
+   "id": "moshe-ravtagbarg-vavladavba-vakvazmyb",
+   "name": "רבי משה רוטגברג אב\"ד וולאדובא וקוזמיב",
+   "dateH": "י״ב אדר תקפ״ו"
+  }
+ ],
+ "Adar-13": [
+  {
+   "id": "yitzchak-yaakov-david-hager-mtrvdgyn",
+   "name": "רבי יצחק יעקב דוד האגער מטטרודגין",
+   "dateH": "י״ג אדר תרע״ב"
+  },
+  {
+   "id": "meir-yehoshua-unger-mastabanysah",
+   "name": "רבי מאיר יהושע אונגר מסטאבניש",
+   "dateH": "י״ג אדר תרמ״א"
+  },
+  {
+   "id": "moshe-kozova",
+   "name": "רבי משה מקוזובה",
+   "dateH": "י״ג אדר"
+  },
+  {
+   "id": "pnhs-hager-warsaw",
+   "name": "רבי פנהס האגער מבורשה",
+   "dateH": "י״ג אדר תש״א"
+  },
+  {
+   "id": "shmuel-avraham-abba-zychlin",
+   "name": "רבי שמואל אברהם אבא מזיכלין",
+   "dateH": "י״ג אדר תש״ב"
+  }
+ ],
+ "Adar-14": [
+  {
+   "id": "moshe-mordechai-pilov",
+   "name": "רבי משה מרדכי מורגנשטרן מפילוב",
+   "dateH": "י״ד אדר תרפ״ט"
+  },
+  {
+   "id": "shaul-yechezkel-malytashyk",
+   "name": "רבי שאול יחזקאל מליטשיק",
+   "dateH": "י״ד אדר תור״ט"
+  }
+ ],
+ "Adar-15": [
+  {
+   "id": "asher-yeshaya-rubin-radekhov",
+   "name": "רבי אשר ישעיה רובין מראדיחוב",
+   "dateH": "ט״ו אדר תרע״ו"
+  },
+  {
+   "id": "yosef-leifer-mavpytasbavrag",
+   "name": "רבי יוסף לייפר מופיטסבורג",
+   "dateH": "ט״ו אדר תשכ״ו"
+  },
+  {
+   "id": "moshe-barvakazash-piotrkow",
+   "name": "רבי משה הכהן ברוקאזש מפיוטריקוב",
+   "dateH": "ט״ו אדר תרמ״א"
+  },
+  {
+   "id": "moshe-velman-ber-matsahmysah",
+   "name": "רבי משה ולמן שניאורסון מטשמיש א",
+   "dateH": "ט״ו אדר תרע״ו"
+  }
+ ],
+ "Adar-16": [
+  {
+   "id": "aharon-zylbrprb-mkvyrgvb",
+   "name": "רבי אהרן זילברפרב מקוירגוב",
+   "dateH": "ט״ז אדר תשנ״ד"
+  },
+  {
+   "id": "elazar-menachem-mendel-biederman",
+   "name": "רבי אלעזר מנחם מנדל בידרמן",
+   "dateH": "ט״ז אדר תרמ״ג"
+  },
+  {
+   "id": "elazar-menachem-mendel-biederman-elvb",
+   "name": "רבי אלעזר מנחם מנדל בידרמן עלוב",
+   "dateH": "ט״ז אדר תרמ״ג"
+  },
+  {
+   "id": "pinchas-menachem-alatr-magvab",
+   "name": "רבי פנחס מנהם אלתר מגוב",
+   "dateH": "ט״ז אדר תשנ״ו"
+  },
+  {
+   "id": "pinchas-menachem-alter-ger",
+   "name": "רבי פנחס מנחם אלטר מגור",
+   "dateH": "ט״ז אדר תשנ״ו"
+  }
+ ],
+ "Adar-17": [
+  {
+   "id": "avraham-prohovitch",
+   "name": "רבי אברהם מפרוהוביטש",
+   "dateH": "י״ז אדר תקע״ג"
+  },
+  {
+   "id": "avraham-tzvi-hvrvyp-pmvbyytshsh",
+   "name": "רבי אברהם צבי הורוויף פמובייטשש",
+   "dateH": "י״ז אדר תשכ״א"
+  },
+  {
+   "id": "yosef-shapira-madynavbam",
+   "name": "רבי יוסף שפירא מדינובם",
+   "dateH": "י״ז אדר"
+  },
+  {
+   "id": "yitzchak-friedman-boyan",
+   "name": "רבי יצחק פרידמן מבויאן",
+   "dateH": "י״ז אדר תרע״ז"
+  },
+  {
+   "id": "meir-shlomo-mezritch",
+   "name": "רבי מאיר שלמה יהודה רבינוביץ ממזריטש",
+   "dateH": "י״ז אדר תש״ב"
+  }
+ ],
+ "Adar-18": [
+  {
+   "id": "avigdor-shapira-czestochowa",
+   "name": "רבי אביגדור שפירא מצנסטוכוב",
+   "dateH": "י״ח אדר תרפ״ח"
+  },
+  {
+   "id": "michel-malekavbytash",
+   "name": "רבי מיכל מלעכוביטש",
+   "dateH": "ח״י אדר תקפ״ז"
+  },
+  {
+   "id": "menachem-mendel-skierniewice",
+   "name": "רבי מנחם מנדל קאליש מסקרנביץ־וורשה",
+   "dateH": "ח״י אדר תרפ״ט"
+  },
+  {
+   "id": "marrashy-menachem-kalish-mavsahkarvavyn-varsahh",
+   "name": "רבי מררשי מנחם קאליש מושקרווין - ורשה",
+   "dateH": "י״ח אדר תרפ״ט"
+  }
+ ],
+ "Adar-19": [
+  {
+   "id": "avraham-david-naftali-parisov",
+   "name": "רבי אברהם דוד נפתלי רבינוביץ מפאריסוב",
+   "dateH": "י״ט אדר"
+  },
+  {
+   "id": "david-dinov",
+   "name": "רבי דוד שפירא מדינוב",
+   "dateH": "י״ט אדר תרל״ד"
+  },
+  {
+   "id": "yaakov-shmshvn-hager-mkvtvb",
+   "name": "רבי יעקב שמשון האגער מקוטוב",
+   "dateH": "י״ט אדר"
+  },
+  {
+   "id": "yitzchak-amshinov-ny",
+   "name": "רבי יצחק קאליש מאמשינוב־ניו יורק",
+   "dateH": "י״ט אדר תשנ״ג"
+  },
+  {
+   "id": "yisrael-radomsk",
+   "name": "רבי ישראל מראדומסק",
+   "dateH": "י״ט אדר תרצ״ט"
+  }
+ ],
+ "Adar-20": [
+  {
+   "id": "yelakb-david-vysahygarad",
+   "name": "רבי יעלקב דוד וישיגראד",
+   "dateH": "כ׳ אדר תרב״ג"
+  },
+  {
+   "id": "yaakov-moshe-yravsahlamtaky-gavvavrash",
+   "name": "רבי יעקב משה ירושלמטקי גווורש",
+   "dateH": "כ׳ אדר תרל״ט"
+  }
+ ],
+ "Adar-21": [
+  {
+   "id": "elimelech",
+   "name": "רבי אלימלך מליז׳נסק",
+   "dateH": "כ״א אדר תקמ״ז"
+  },
+  {
+   "id": "betzalel-yair-dancyger",
+   "name": "רבי בצלאל יאיר דנציגר מאלכסנדר",
+   "dateH": "כ״א אדר תרצ״ד"
+  },
+  {
+   "id": "yehuda-lalybysah-havrabsahtyyn",
+   "name": "רבי יהודה לליביש הורבשטיין",
+   "dateH": "כ״א אדר תרמו״ט"
+  },
+  {
+   "id": "menachem-mendel-frysztak",
+   "name": "רבי מנחם מנדל הלברשטאם מפריסטיק",
+   "dateH": "כ״א אדר תרפ״ו"
+  }
+ ],
+ "Adar-22": [
+  {
+   "id": "avraham-yaakov-shapira-mdrvhbyt",
+   "name": "רבי אברהם יעקב שפירא מדרוהביטט",
+   "dateH": "כ״ב אדר תשכ״ב"
+  },
+  {
+   "id": "eliezer-david-finkler",
+   "name": "רבי אליעזר דוד פינקלר מראדושיץ",
+   "dateH": "כ״ב אדר תרפ״ז"
+  },
+  {
+   "id": "yosef-balvak-malatk-vashatnavbam",
+   "name": "רבי יוסף בלוך מאלטק ושטנובם",
+   "dateH": "כ״ב אדר"
+  }
+ ],
+ "Adar-23": [
+  {
+   "id": "chaim-chaikel-mahmadvara",
+   "name": "רבי היים חייקא מהמדורא",
+   "dateH": "כ״ג אדר תקמ״ז"
+  },
+  {
+   "id": "chaim-chaikel-amdur",
+   "name": "רבי חיים חייקא מאמדור",
+   "dateH": "כ״ג אדר תקמ״ז"
+  },
+  {
+   "id": "yosef-yvaskah-shpikovka",
+   "name": "רבי יוסף יוסקה משיפיטובקה",
+   "dateH": "כ״ג אדר תקס״ז"
+  },
+  {
+   "id": "yechiel-michel-brandwein-turka-stratin",
+   "name": "רבי יחיאל מיכל ברנדוויין מטורקא סטרטין",
+   "dateH": "כ״ג אדר תרע״ט"
+  },
+  {
+   "id": "yaakov-shimon-mkvlvshyk",
+   "name": "רבי יעקב שמעון מקולושיק",
+   "dateH": "כ״ג אדר תש״א"
+  },
+  {
+   "id": "yitzchak-yaakov-biala",
+   "name": "רבי יצחק יעקב רבינוביץ מביאלה",
+   "dateH": "כ״ג אדר תרס״ח"
+  },
+  {
+   "id": "yitzchak-meir-ger",
+   "name": "רבי יצחק מאיר אלטר מגור",
+   "dateH": "כ״ג אדר תרכ״ו"
+  },
+  {
+   "id": "menachem-nachum-biala-machypah",
+   "name": "רבי מנחם נחום רבינוביץ מחיפה",
+   "dateH": "כ״ג אדר"
+  },
+  {
+   "id": "pinchas",
+   "name": "רבי פנחס",
+   "dateH": "כ״ג אדר תקפ״ו"
+  }
+ ],
+ "Adar-24": [
+  {
+   "id": "avraham-mordechai-shalom-taub-mpvmryn",
+   "name": "רבי אברהם מרדכי שלום טויב מפומרין",
+   "dateH": "כ״ד אדר תרע״ז"
+  },
+  {
+   "id": "chaim-asher-radoshitz",
+   "name": "רבי חיים אשר מראדושיץ",
+   "dateH": "כ״ד אדר תש״א"
+  },
+  {
+   "id": "yosef-david-rubin-sasov-gyd-yvrk",
+   "name": "רבי יוסף דוד רובין מסאסוב גיד יורק",
+   "dateH": "כ״ד אדר תשמ״ג"
+  },
+  {
+   "id": "yitzchak-olesko",
+   "name": "רבי יצחק מאלעסק",
+   "dateH": "כ״ד אדר תרס״ד"
+  }
+ ],
+ "Adar-25": [
+  {
+   "id": "yisrael-kalush",
+   "name": "רבי ישראל מקאלוש",
+   "dateH": "כ״ה אדר"
+  }
+ ],
+ "Adar-26": [
+  {
+   "id": "eliezer-lipa-chmielnik",
+   "name": "רבי אליעזר ליפא מחמלניק",
+   "dateH": "כ״ו אדר תקע״ג"
+  },
+  {
+   "id": "dov-berish-shapira-tluste",
+   "name": "רבי דב בעריש שפירא מטלוסט",
+   "dateH": "כ״ו אדר תר״י"
+  },
+  {
+   "id": "chaim-david-manzon-brody",
+   "name": "רבי חיים דוד מנזון מברודי",
+   "dateH": "כ״ו אדר תרצ״ב"
+  },
+  {
+   "id": "shalom-safrin-mkvmvrga",
+   "name": "רבי שלום ספרין מקומורגא",
+   "dateH": "כ״ו אדר תרע״ז"
+  }
+ ],
+ "Adar-27": [
+  {
+   "id": "eliezer-meir-rvrd-rvshnbrg-mvlbrvm",
+   "name": "רבי אליעזר מאיר רורד הלוי רושנברג מוולברום",
+   "dateH": "כ״ז אדר תרע״א"
+  },
+  {
+   "id": "elazar-meir-rotenberg-wolbrom",
+   "name": "רבי אלעזר מאיר רוטנברג מוולברום",
+   "dateH": "כ״ז אדר תרע״א"
+  },
+  {
+   "id": "yeshayahu-shor-yassy",
+   "name": "רבי ישעיהו שור מיאסי",
+   "dateH": "כ״ז אדר תרל״ט"
+  },
+  {
+   "id": "mordechai-zavsya-tversky-mahvatzalat-yaty",
+   "name": "רבי מרדכי זוסיא טברסקי מהוצאלאט - יאטי",
+   "dateH": "כ״ז אדר תרצ״ט"
+  },
+  {
+   "id": "naftali-mordechai-shmerler-madvarvahvy-shatz",
+   "name": "רבי נפתלי מרדפי שמרלר מדורוהוי-שאץ",
+   "dateH": "כ״ז אדר תשכ״ט"
+  }
+ ],
+ "Adar-28": [
+  {
+   "id": "chaim-meir-mamvashalv",
+   "name": "רבי חיים מאיר ממושלו",
+   "dateH": "כ״ח אדר תשס״א"
+  }
+ ],
+ "Adar-29": [
+  {
+   "id": "yehoshua-asher-parisov-5695",
+   "name": "רבי יהושע אשר רבינוביץ מפאריסוב",
+   "dateH": "כ״ט אדר תרצ״ה"
+  },
+  {
+   "id": "shlomo-radomsk",
+   "name": "רבי שלמה הכהן רבינוביץ מראדומסק",
+   "dateH": "כ״ט אדר תרכ״ו"
+  }
+ ],
+ "Adar I-2": [
+  {
+   "id": "levi-moshe-yehuda-mykalvabytaz-brod-klausenburg",
+   "name": "רבי לוי משה יהודה מיכלוביץ מברוד-קלויזנבורג",
+   "dateH": "ב׳ אדר א׳ תרע״ט"
+  }
+ ],
+ "Adar I-5": [
+  {
+   "id": "avraham-landau-tshenov",
+   "name": "רבי אברהם לנדא מטשכנוב",
+   "dateH": "ה׳ אדר א׳ תרל״ה"
+  }
+ ],
+ "Adar I-6": [
+  {
+   "id": "alexander-zusha-siedlce",
+   "name": "רבי אלכסנדר זושא הכהן משדליץ",
+   "dateH": "ו׳ אדר א׳ תקע״ז"
+  }
+ ],
+ "Adar I-12": [
+  {
+   "id": "yehoshua-blazowa",
+   "name": "רבי יהושע שפירא מבלאז׳וב",
+   "dateH": "י״ב אדר א׳ תרע״ב"
+  }
+ ],
+ "Adar I-13": [
+  {
+   "id": "yitzchak-isaac-podhajce",
+   "name": "רבי יצחק אייזיק מנחם אייכנשטיין מפודהייץ",
+   "dateH": "י״ג אדר א׳ תש״ג"
+  }
+ ],
+ "Adar I-21": [
+  {
+   "id": "aryeh-leibush-grobov",
+   "name": "רבי אריה לייבוש הלברשטאם מגריבוב־צאנז",
+   "dateH": "כ״א אדר א׳ תרצ״ה"
+  }
+ ],
+ "Adar I-23": [
+  {
+   "id": "yehuda-moshe-dancyger",
+   "name": "רבי יהודה משה דנציגר מאלכסנדר",
+   "dateH": "כ״ג אדר א׳ תשל״ג"
+  }
+ ],
+ "Adar I-25": [
+  {
+   "id": "avraham-gershon-kitov",
+   "name": "רבי אברהם גרשון מקיטוב",
+   "dateH": "כ״ה אדר א׳ תקכ״א"
+  },
+  {
+   "id": "baruch-binyamin-zeev-vavyynashatvak-jerusalem",
+   "name": "רבי ברוך בנימין זאב וויינשטוק מירושלים",
+   "dateH": "כ״ה אדר א׳ תרל״ב"
+  }
+ ],
+ "Adar I-27": [
+  {
+   "id": "moshe-meir-rosenstein",
+   "name": "רבי משה מאיר הלוי רוזנשטיין מברדיטשוב־צפת",
+   "dateH": "כ״ז אדר א׳ תרס״ב"
+  }
+ ],
+ "Adar I-29": [
+  {
+   "id": "naftali-meshulam-feivish-matnyatyn-lasahkavbytaz",
+   "name": "רבי נפתלי משולם פייביש מטניאטין לאשקוביץ",
+   "dateH": "כ״ט אדר א׳ תרע״ג"
+  }
+ ],
+ "Adar I-30": [
+  {
+   "id": "natan-eichenstein-tel-aviv",
+   "name": "רבי נתן אייכנשטיין מזידיטשוב־תל אביב",
+   "dateH": "ל׳ אדר א׳ תשל״ו"
+  }
+ ],
+ "Adar II-1": [
+  {
+   "id": "shalom-reinman-narol",
+   "name": "רבי שלום ריינמאן נאראל",
+   "dateH": "א׳ אדר ב׳ תרפ״ז"
+  }
+ ],
+ "Adar II-4": [
+  {
+   "id": "chaim-yosef-gottlieb-stropkov",
+   "name": "רבי חיים יוסף גוטליב מסטרופקוב",
+   "dateH": "ד׳ אדר ב׳ תרכ״ז"
+  }
+ ],
+ "Adar II-7": [
+  {
+   "id": "avraham-menachem-dancyger",
+   "name": "רבי אברהם מנחם דנציגר מאלכסנדר",
+   "dateH": "ז׳ אדר ב׳ תשס״ה"
+  },
+  {
+   "id": "menachem-mendel-chaim-zawiercie",
+   "name": "רבי מנחם מענדל חיים לנדוי מזאווירטשע",
+   "dateH": "ז׳ אדר ב׳ תרע״ה"
+  }
+ ],
+ "Adar II-12": [
+  {
+   "id": "naftali-tzvi-bobov",
+   "name": "רבי נפתלי צבי הלברשטאם מבובוב",
+   "dateH": "י״ב אדר ב׳ תשס״ה"
+  }
+ ],
+ "Adar II-15": [
+  {
+   "id": "mordechai-frankel",
+   "name": "רבי מרדכי פרנקל מבוטושאן",
+   "dateH": "ט״ו אדר ב׳ תשמ״ד"
+  },
+  {
+   "id": "naftali-sofer-petashy-ganydararap",
+   "name": "רבי נפתלי סופר פעטשי-גנידרארף",
+   "dateH": "ט״ו אדר ב׳ תרנ״ט"
+  }
+ ],
+ "Adar II-18": [
+  {
+   "id": "chanokh-henich-alexander",
+   "name": "רבי חנוך העניך הכהן לוין מאלכסנדר",
+   "dateH": "י״ח אדר ב׳ תר״ל"
+  }
+ ],
+ "Adar II-23": [
+  {
+   "id": "yosef-mabenadrak",
+   "name": "רבי יוסף מבענדרך",
+   "dateH": "כ״ג אדר ב׳ תש״ו"
+  }
+ ],
+ "Adar II-25": [
+  {
+   "id": "yosef-aryeh-leibush-tomashov",
+   "name": "רבי יוסף אריה לייבוש מטומשוב",
+   "dateH": "כ״ה אדר ב׳ תרע״ו"
+  }
+ ],
+ "Nissan-1": [
+  {
+   "id": "elimelech-shapira-grodzisk",
+   "name": "רבי אלימלך שפירא מגרודזיסק",
+   "dateH": "א׳ ניסן תרנ״ב"
+  },
+  {
+   "id": "yehuda-leibish-vavbavny-mahravravytak",
+   "name": "רבי יהודה לייביש וובוני מהרורויטק",
+   "dateH": "א׳ ניסן תקע״ה"
+  },
+  {
+   "id": "menachem-nachum-mashapykavb",
+   "name": "רבי מנחם נחום משפיקוב",
+   "dateH": "א׳ ניסן תרנו״ז"
+  },
+  {
+   "id": "moshe-kiev",
+   "name": "רבי משה קיוב",
+   "dateH": "א׳ ניסן תרפ״ג"
+  }
+ ],
+ "Nissan-2": [
+  {
+   "id": "yaakov-shapira-humen",
+   "name": "רבי יעקב שפירא מהומנא",
+   "dateH": "ב׳ ניסן תקפ״ח"
+  },
+  {
+   "id": "yisrael-dov-ber-shumsk",
+   "name": "רבי ישראל דוב בער משומסק",
+   "dateH": "ב׳ ניסן תרע״ז"
+  },
+  {
+   "id": "mordechai-efrati-khuliov",
+   "name": "רבי מרדכי אפרתי מחוליוב",
+   "dateH": "ב׳ ניסן"
+  },
+  {
+   "id": "shalom-dov-schneersohn-lubavitch",
+   "name": "רבי שלום דובער שניאורסון מליובאוויטש",
+   "dateH": "ב׳ ניסן"
+  }
+ ],
+ "Nissan-3": [
+  {
+   "id": "eliezer-yerucham-radoshitz",
+   "name": "רבי אליעזר ירוחם ברון מראדושיץ",
+   "dateH": "ג׳ ניסן"
+  },
+  {
+   "id": "binyamin-tzvi-zeev-wolf-zbarazh",
+   "name": "רבי בנימין צבי זאב וואלף מזבארז'",
+   "dateH": "ג׳ ניסן תקפ״ב"
+  },
+  {
+   "id": "moshe-yaakov-scharf",
+   "name": "רבי משה יעקב שארף מאושפיצק",
+   "dateH": "ג׳ ניסן תרכ״ט"
+  }
+ ],
+ "Nissan-4": [
+  {
+   "id": "aharon-shmuel-satepyn",
+   "name": "רבי אהרן שמואל הכהן אב״ד סטעפין",
+   "dateH": "ד׳ ניסן תקע״ד"
+  },
+  {
+   "id": "yehoshua-rokeach-yaroslav",
+   "name": "רבי יהושע רוקח מיארוסלב",
+   "dateH": "ד׳ ניסן תש״ג"
+  },
+  {
+   "id": "yochanan-rachmastrivka",
+   "name": "רבי יוחנן טברסקי מרחמסטריבקה",
+   "dateH": "ד׳ ניסן תרג״ה"
+  }
+ ],
+ "Nissan-5": [
+  {
+   "id": "avraham-yehoshua-heshyl-apta-2",
+   "name": "רבי אברהם יהושע העשיל מאפטא",
+   "dateH": "ה׳ ניסן תקפ״ח"
+  },
+  {
+   "id": "avraham-yehoshua-heschel-apta",
+   "name": "רבי אברהם יהושע העשיל מאפטא",
+   "dateH": "ה׳ ניסן תקפ״ה"
+  },
+  {
+   "id": "aharon-kalyynaman-dyyn-bakmynytaz",
+   "name": "רבי אהרן קליינמאן דיין בקמיניץ",
+   "dateH": "ה׳ ניסן תרכ״ו"
+  },
+  {
+   "id": "yosef-masarany",
+   "name": "רבי יוסף מסארני",
+   "dateH": "ה׳ ניסן תר״פ"
+  },
+  {
+   "id": "shneur-zalman-ladyer-lublin",
+   "name": "רבי שניאור זלמן לאדיער לובלין",
+   "dateH": "ה׳ ניסן"
+  }
+ ],
+ "Nissan-6": [
+  {
+   "id": "aharon-ratah-bergsas-jerusalem",
+   "name": "רבי אהרן ראטה מברגטאט - ירושלים",
+   "dateH": "ו׳ ניסן תש״ז"
+  },
+  {
+   "id": "yitzchak-vavratzabragr-borsha",
+   "name": "רבי יצחק וורצברגר מבורשא",
+   "dateH": "ב״ד ניסן תרס״ג"
+  },
+  {
+   "id": "shlomo-david-eliyahu-eiger",
+   "name": "רבי שלמה דוד אליהו איגר מלובלין",
+   "dateH": "ו׳ ניסן תשפ״ג"
+  }
+ ],
+ "Nissan-7": [
+  {
+   "id": "aryeh-leibush-ozharov-2",
+   "name": "רבי אריה לייבוש מאוז׳רוב",
+   "dateH": "ז׳ ניסן תרע״ד"
+  },
+  {
+   "id": "yechiel-natan-mabradyvab",
+   "name": "רבי יחיאל נתן מברדיוב",
+   "dateH": "ז׳ ניסן תרצ״ד"
+  },
+  {
+   "id": "yaakov-rubin-mbarnvb-tvrna",
+   "name": "רבי יעקב רובין מבארנוב טורנא",
+   "dateH": "ז׳ ניסן תרט״ח"
+  },
+  {
+   "id": "yitzchak-madrahabysash",
+   "name": "רבי יצחק מדראהביסש",
+   "dateH": "ז׳ ניסן תקי״ב"
+  },
+  {
+   "id": "moshe-tytalbavym-sighet-satmar",
+   "name": "רבי משה טיטלבוים מסיגעט-סטמאר",
+   "dateH": "ז׳ ניסן תשס״ו"
+  }
+ ],
+ "Nissan-8": [
+  {
+   "id": "yaakov-velman-malvabyn",
+   "name": "רבי יעקב ולמן מלובין",
+   "dateH": "ח׳ ניסן תר״ד"
+  },
+  {
+   "id": "moshe-mavvytabtak-sahbavyh",
+   "name": "רבי משה מוויטבטק - שבויה",
+   "dateH": "ח׳ ניסן תקנ״ט"
+  },
+  {
+   "id": "natan-david-makynatzak",
+   "name": "רבי נתן דוד מקינצק",
+   "dateH": "ח׳ ניסן תרפ״ח"
+  },
+  {
+   "id": "tzvi-elimelech-blazowa",
+   "name": "רבי צבי אלימלך שפירא מבלאז׳וב",
+   "dateH": "ח׳ ניסן תרפ״ד"
+  }
+ ],
+ "Nissan-9": [
+  {
+   "id": "alekavr-bialystok",
+   "name": "רבי אלעקור מביאלישטוק",
+   "dateH": "ט׳ ניסן תרל״א"
+  },
+  {
+   "id": "chaim-meir-hager-mzyznytz",
+   "name": "רבי חיים מאיר הגר מזיזניץ",
+   "dateH": "ט׳ ניסן תשל״ב"
+  },
+  {
+   "id": "yaakov-tzvi-yalis-dinov",
+   "name": "רבי יעקב צבי יאליס מדינוב",
+   "dateH": "ט׳ ניסן תקפ״ה"
+  },
+  {
+   "id": "menachem-mendel-rimanov",
+   "name": "רבי מנחם מנדל מרימנוב",
+   "dateH": "ט׳ ניסן תקפ״ה"
+  },
+  {
+   "id": "mordechai-shpikovka",
+   "name": "רבי מרדכי משיפיטובקה",
+   "dateH": "ב״ז ניסן תרפ״ז"
+  }
+ ],
+ "Nissan-11": [
+  {
+   "id": "tzvi-hirsch-marvatna",
+   "name": "רבי צבי הירש מרוטנא",
+   "dateH": "ב״ט ניסן תקע״ח"
+  },
+  {
+   "id": "shlomo-mahbarvan",
+   "name": "רבי שלמה מהברון",
+   "dateH": "י״א ניסן תרכ״ח"
+  }
+ ],
+ "Nissan-12": [
+  {
+   "id": "bavsahvav-sahg",
+   "name": "רבי בושוו שג",
+   "dateH": "י״ב ניסן תקע״ג"
+  },
+  {
+   "id": "menachem-mendel-mabar",
+   "name": "רבי מנהם מנדל מבאר",
+   "dateH": "י״ב ניסן תקנ״ד"
+  },
+  {
+   "id": "mordechai-zysakynad-landau-mastanytalamab-vastary",
+   "name": "רבי מרדכי זיסקינד לנדא מסטניטלאםב וסטרי",
+   "dateH": "י״ב ניסן תרט״ו"
+  },
+  {
+   "id": "naftali-bolekhiv",
+   "name": "רבי נפתלי מבולחוב",
+   "dateH": "י״ב ניסן תרע״ח"
+  },
+  {
+   "id": "shlomo-valmyna-rashkov",
+   "name": "רבי שלמה ולמינא מראשקוב",
+   "dateH": "י״ב ניסן תרי״ב"
+  }
+ ],
+ "Nissan-13": [
+  {
+   "id": "avraham-abba-weingarten-yanov",
+   "name": "רבי אברהם אבא וינגרטן מיאנוב",
+   "dateH": "י״ג ניסן תרפ״ו"
+  },
+  {
+   "id": "yehuda-leib-katz",
+   "name": "רבי יהודה ליב כץ",
+   "dateH": "י״ג ניסן תקס״ב"
+  },
+  {
+   "id": "yehuda-leibish-bavlachavbam-vatsahtary",
+   "name": "רבי יהודה לייביש כ\" אב\"ד בולחובם וטשטרי",
+   "dateH": "י״ג ניסן תקס״ב"
+  },
+  {
+   "id": "yehoshua-kavk-makvashavm",
+   "name": "רבי יהושע קוך מקושום",
+   "dateH": "י״ג ניסן תקס״ט"
+  },
+  {
+   "id": "yoel-mavsahkavbytaz-shatz",
+   "name": "רבי יואל מושקוביץ משאץ",
+   "dateH": "י״ג ניסן תרמ״ו"
+  },
+  {
+   "id": "yisrael-aryeh-leib-premishlan",
+   "name": "רבי ישראל אריה לייב מפרמיטלאן",
+   "dateH": "י״ג ניסן תרנ״א"
+  },
+  {
+   "id": "menachem-mendel-lubavitch",
+   "name": "רבי מנחם מענדל שניאורסון מליובאוויטש",
+   "dateH": "י״ג ניסן תרכ״ו"
+  }
+ ],
+ "Nissan-14": [
+  {
+   "id": "avraham-abba-avish-kavnaskavvala",
+   "name": "רבי אברהם אבא אביש אב\"ד קונסקוולא",
+   "dateH": "י״ד ניסן תקצ״ב"
+  },
+  {
+   "id": "aharon-aryeh-leib-timishvar",
+   "name": "רבי אהרן אריה לייב מטמישוואר",
+   "dateH": "י״ד ניסן תשב״ג"
+  },
+  {
+   "id": "yisrael-lerman-kosov",
+   "name": "רבי ישראל לרמן מקוסוב",
+   "dateH": "י״ד ניסן תרפ״ב"
+  },
+  {
+   "id": "mordechai-aryeh-leib-sahtyyn-grosswardein",
+   "name": "רבי מרדכי אריה לייב שטיין ראב״ד גרוסווארדיין",
+   "dateH": "י״ד ניסן תרכ״א"
+  }
+ ],
+ "Nissan-15": [
+  {
+   "id": "elisha-gorlitz",
+   "name": "רבי אלישע הלברשטאם מגורליץ",
+   "dateH": "ט״ו ניסן תש״א"
+  },
+  {
+   "id": "yaakov-yehoshua-kotzk",
+   "name": "רבי יעקב יהושע מורגנשטרן מקוצק",
+   "dateH": "ט״ו ניסן תרס״ט"
+  },
+  {
+   "id": "yaakov-kyby",
+   "name": "רבי יעקב כיבי",
+   "dateH": "ט״ו ניסן תר״פ"
+  },
+  {
+   "id": "yaakov-yharsahe",
+   "name": "רבי יעקבם יהרשע",
+   "dateH": "ט״ו ניסן תרס״ט"
+  }
+ ],
+ "Nissan-16": [
+  {
+   "id": "elkim-getz-mavarzysahtashateb",
+   "name": "רבי אליקים געץ מאורזישטשטעב",
+   "dateH": "ט״ז ניסן תרנ״ה"
+  },
+  {
+   "id": "meir-medz",
+   "name": "רבי מאיר מהערץ",
+   "dateH": "ט״ז ניסן תרח״צ"
+  },
+  {
+   "id": "mordechai-dov-tversky-tomaszpol",
+   "name": "רבי מרדכי דב טברסקי מטומאשפול",
+   "dateH": "ט״ז ניסן"
+  }
+ ],
+ "Nissan-17": [
+  {
+   "id": "yehuda-fechter-dembitz",
+   "name": "רבי יהודה פכטר מדמביץ",
+   "dateH": "י״ז ניסן תרנ״ג"
+  },
+  {
+   "id": "yitzchak-skvira",
+   "name": "רבי יצחק טברסקי מסקווירא",
+   "dateH": "י״ז ניסן תרמ״ה"
+  },
+  {
+   "id": "moshe-mordechai-heshyl-mkvpytzynytz",
+   "name": "רבי משה מרדכי העשיל מקופיציניץ",
+   "dateH": "י״ז ניסן תשל״ה"
+  }
+ ],
+ "Nissan-18": [
+  {
+   "id": "david-shlomo-tulchin",
+   "name": "רבי דוד שלמה מטולטשין",
+   "dateH": "י״ח ניסן ת״ר"
+  },
+  {
+   "id": "chaim-avraham-radlyk-mikolayev",
+   "name": "רבי חיים אברהם רדליך ממיקולייב",
+   "dateH": "י״ח ניסן תרל״א"
+  },
+  {
+   "id": "mordechai-mashapykavb",
+   "name": "רבי מרדכי משפיקוב",
+   "dateH": "י״ח ניסן תרע״ד"
+  }
+ ],
+ "Nissan-19": [
+  {
+   "id": "aharon-karlin",
+   "name": "רבי אהרן הגדול מקרלין",
+   "dateH": "י״ט ניסן תקל״ב"
+  },
+  {
+   "id": "shlomo-leib-lantshna",
+   "name": "רבי שלמה ליב מלנטשנא",
+   "dateH": "י״ט ניסן תר״ג"
+  }
+ ],
+ "Nissan-20": [
+  {
+   "id": "yitzchak-dov-schneersohn-malady",
+   "name": "רבי יצחק דובער שניאורסון מלאדי",
+   "dateH": "כ׳ ניסן תר״ע"
+  }
+ ],
+ "Nissan-21": [
+  {
+   "id": "yshbr-brysh-ayybnshtyyn-mzydytshvbm-vorotsky",
+   "name": "רבי ישבר בריש אייבנשטיין מזידיטשובם וורצקי",
+   "dateH": "כ״א ניסן תרפ״ד"
+  },
+  {
+   "id": "yissachar-berish-eichenstein-vorotsky",
+   "name": "רבי יששכר בעריש אייכנשטיין מזידיטשוב־וורצקי",
+   "dateH": "כ״א ניסן תרפ״ד"
+  }
+ ],
+ "Nissan-22": [
+  {
+   "id": "shmuel-dov-asher-leiner",
+   "name": "רבי שמואל דב אשר ליינר מביסקופיצה",
+   "dateH": "כ״ב ניסן תרס״ה"
+  }
+ ],
+ "Nissan-23": [
+  {
+   "id": "chaim-acahran",
+   "name": "רבי חיים אחרן",
+   "dateH": "כ״ג ניסן תקל״ג"
+  },
+  {
+   "id": "yisrael-shalom-yosef-friedman-bohush",
+   "name": "רבי ישראל שלום יוסף פרידמן מבוהוש",
+   "dateH": "כ״ג ניסן תרפ״ג"
+  },
+  {
+   "id": "menachem-ben-tzion-halberstam-rotenberg-mavaydaslab",
+   "name": "רבי מנהם בן ציון הלברשטאם - רוטנברג מואידסלב",
+   "dateH": "כ״ג ניסן תשי״ז"
+  },
+  {
+   "id": "menachem-ben-zion-waidslav",
+   "name": "רבי מנחם בן ציון הלברשטאם־רוטנברג מוואידסלב",
+   "dateH": "כ״ג ניסן תשי״ז"
+  }
+ ],
+ "Nissan-24": [
+  {
+   "id": "avraham-yehoshua-heshel-weinberg",
+   "name": "רבי אברהם יהושע השל וינברג מסלונים",
+   "dateH": "כ״ד ניסן תשל״ח"
+  },
+  {
+   "id": "chaim-ytazhak-tversky-malvyeb",
+   "name": "רבי חיים יצהק טברסקי מלויעב",
+   "dateH": "כ״ד ניסן תש״ג"
+  },
+  {
+   "id": "yosef-kohen-rimanov",
+   "name": "רבי יוסף הכהן מרימנוב",
+   "dateH": "כ״ד ניסן תרע״ג"
+  },
+  {
+   "id": "moshe-aryeh-leib-masha-chernovitz",
+   "name": "רבי משה אריה לייב משא-טשרנוביץ",
+   "dateH": "כ״ד ניסן תשי״ד"
+  }
+ ],
+ "Nissan-25": [
+  {
+   "id": "dan-radvil",
+   "name": "רבי דן מראדוויל",
+   "dateH": "כ״ה ניסן תקצ״ח"
+  },
+  {
+   "id": "chaim-sanz",
+   "name": "רבי חיים הלברשטאם מצאנז",
+   "dateH": "כ״ה ניסן תרל״ו"
+  },
+  {
+   "id": "yehuda-lentshna",
+   "name": "רבי יהודה מלענטשנא",
+   "dateH": "כ״ה ניסן תר״פ"
+  },
+  {
+   "id": "yosef-garyn-frisherman-yarichov-tomashov",
+   "name": "רבי יוסף גרין-פרישרמן מיאריטשוב - טומשוב",
+   "dateH": "כ״ה ניסן תקע״ט"
+  },
+  {
+   "id": "yosef-grin-frisherman-tomashov",
+   "name": "רבי יוסף גרין־פרישרמן מיאריטשוב־טומשוב",
+   "dateH": "כ״ה ניסן תקע״ט"
+  },
+  {
+   "id": "moshe-klingberg-zalushitz",
+   "name": "רבי משה קלינגברג מזאלושיץ",
+   "dateH": "כ״ה ניסן תשנ״ה"
+  },
+  {
+   "id": "shlomo-alaksandary-sofer",
+   "name": "רבי שלמה אלכסנדרי סופר",
+   "dateH": "כ״ה ניסן תרפ״ד"
+  }
+ ],
+ "Nissan-26": [
+  {
+   "id": "yehoshua-heschel-biala-mamvangattarysah",
+   "name": "רבי יהושע השיל רבינוביץ ממונגטטריש",
+   "dateH": "כ״ו ניסן תרצ״ה"
+  },
+  {
+   "id": "yissachar-beratsahe-leifer-ungvar",
+   "name": "רבי ישכר בערטשע לייפר מאונגוואר",
+   "dateH": "כ״ו ניסן תרפ״ג"
+  },
+  {
+   "id": "nachman-tulchin",
+   "name": "רבי נחמן מטולטשין",
+   "dateH": "כ״ו ניסן תרמ״ד"
+  },
+  {
+   "id": "reuven-haratnashatyyn-zhitomir",
+   "name": "רבי ראובן הארטנשטיין אב\"ד זיטומיר",
+   "dateH": "כ״ו ניסן תקצ״ה"
+  },
+  {
+   "id": "reuven-hartenstein",
+   "name": "רבי ראובן הרטנשטיין ב״ר יוסף",
+   "dateH": "כ״ו ניסן תקצ״ה"
+  }
+ ],
+ "Nissan-27": [
+  {
+   "id": "yosef-shmuel-moriah-brandwein-stratin",
+   "name": "רבי יוסף שמואל מוריה־ברנדווין מסטרטין",
+   "dateH": "כ״ז ניסן תשל״ד"
+  },
+  {
+   "id": "yitzchak-meir-savran-stanovitz",
+   "name": "רבי יצחק מאיר מסאווראן-סטאנוביץ",
+   "dateH": "כ״ז ניסן תרפ״ו"
+  },
+  {
+   "id": "tzvi-hirsch-lublin",
+   "name": "רבי שבי הירש מלובלין",
+   "dateH": "כ״ז ניסן תקפ״ח"
+  }
+ ],
+ "Nissan-28": [
+  {
+   "id": "yehoshua-ostrova",
+   "name": "רבי יהושע מאוסטרובה",
+   "dateH": "כ״ח ניסן תרל״ג"
+  },
+  {
+   "id": "yissachar-leib-weinberg-slonim",
+   "name": "רבי ישכר ליב וינברג מסלונים",
+   "dateH": "כ״ח ניסן תרפ״ח"
+  },
+  {
+   "id": "moshe-jerusalem",
+   "name": "רבי משה הלברשטאם מירושלים",
+   "dateH": "כ״ח ניסן תשס״ו"
+  },
+  {
+   "id": "shem-klingberg-zalushitz",
+   "name": "רבי שם קלינגברג מזאלושיץ",
+   "dateH": "כ״ח ניסן תש״ג"
+  }
+ ],
+ "Nissan-29": [
+  {
+   "id": "mordechai-shalom-yosef-friedman-sadigura",
+   "name": "רבי מרדכי שלום יוסף פרידמן מסדיגורא",
+   "dateH": "כ״ט ניסן תשל״ט"
+  },
+  {
+   "id": "moshe-kobrin",
+   "name": "רבי משה פאליער מקוברין",
+   "dateH": "כ״ט ניסן תרי״ח"
+  }
+ ],
+ "Nissan-30": [
+  {
+   "id": "chaim-meir-yechiel-shapira-drohobycz",
+   "name": "רבי חיים מאיר יחיאל שפירא מדרוהוביטש",
+   "dateH": "ל׳ ניסן תרפ״ד"
+  },
+  {
+   "id": "nachum-topor-matapavy-havnagryh",
+   "name": "רבי נחום טופר מטאפאוי הונגריה",
+   "dateH": "ל׳ ניסן תקע״ה"
+  }
+ ],
+ "Iyar-1": [
+  {
+   "id": "avraham-weinberg-baranovichi",
+   "name": "רבי אברהם וינברג מסלונים־ברנוביץ",
+   "dateH": "א׳ אייר תרצ״ג"
+  },
+  {
+   "id": "yosef-meir-weiss-spinka",
+   "name": "רבי יוסף מאיר ווייס מספינקא",
+   "dateH": "א׳ אייר תרס״ט"
+  },
+  {
+   "id": "yaakov-yitzchak-tversky-mamakarvabm",
+   "name": "רבי יעקב יצחק טברסקי ממאקרובם",
+   "dateH": "א׳ אייר תרנ״ב"
+  }
+ ],
+ "Iyar-2": [
+  {
+   "id": "avraham-dov-chmielnik",
+   "name": "רבי אברהם דב מחמלניק",
+   "dateH": "ב׳ אייר תקע״א"
+  },
+  {
+   "id": "yisrael-mabvapvaly",
+   "name": "רבי ישראל מבופולי",
+   "dateH": "ב׳ אייר תר״ז"
+  },
+  {
+   "id": "shmuel-mordechai-shapira-admvr-stavichov",
+   "name": "רבי שמואל מרדכי שפירא אדמור מסטאביכוב",
+   "dateH": "ב׳ אייר תר״פ"
+  }
+ ],
+ "Iyar-3": [
+  {
+   "id": "gabpatly-gatn-gate-hirsch-davmyny",
+   "name": "רבי גבפתלי גתן גטע הירש דומיני",
+   "dateH": "ג׳ אייר תקפ״ז"
+  },
+  {
+   "id": "dov-berish-lvov",
+   "name": "רבי דוב בעריש מלבוב",
+   "dateH": "ג׳ אייר תק״ל"
+  },
+  {
+   "id": "yehuda-leib-mapysatyn",
+   "name": "רבי יהודה ליב מפיסטין",
+   "dateH": "ג׳ אייר תק״ה"
+  },
+  {
+   "id": "yeshaya-steiner-krestir",
+   "name": "רבי ישעיהו שטיינר מקרעסטיר",
+   "dateH": "ג׳ אייר תרפ״ה"
+  },
+  {
+   "id": "shalom-rashkov",
+   "name": "רבי שלום מראשקוב",
+   "dateH": "ב״א אייר"
+  }
+ ],
+ "Iyar-4": [
+  {
+   "id": "shmuel-eliyahu-modzhitz",
+   "name": "רבי שמואל אליהו טאוב ממודז׳יץ",
+   "dateH": "ד׳ אייר תשמ״ד"
+  }
+ ],
+ "Iyar-5": [
+  {
+   "id": "eliezer-chaim-biala-maskalyh",
+   "name": "רבי אליעזר חיים רבינוביץ מסקאליה",
+   "dateH": "ה׳ אייר תרע״ו"
+  },
+  {
+   "id": "baruch-meir-tversky-mazaranytaz",
+   "name": "רבי ברוך מאיר טברסקי מאזארניץ",
+   "dateH": "ה׳ אייר תרע״א"
+  },
+  {
+   "id": "hachyym-tannabvym-magadarzyn-varsahh",
+   "name": "רבי החיים טננבוים מגאדרזין - ורשה",
+   "dateH": "ה׳ אייר תרצ״א"
+  },
+  {
+   "id": "chaim-nadrzin",
+   "name": "רבי חיים טננבוים מנאדרזין־וורשה",
+   "dateH": "ה׳ אייר תרצ״א"
+  },
+  {
+   "id": "yaakov-leiner-boro-park",
+   "name": "רבי יעקב ליינר מראדזין (בורו פארק)",
+   "dateH": "ה׳ אייר תשס״ט"
+  }
+ ],
+ "Iyar-6": [
+  {
+   "id": "yaakov-chaim-parlavbam-makralynabravkalyn",
+   "name": "רבי יעקב חיים פרלובם מקרליןברוקלין",
+   "dateH": "ו׳ אייר תש״ו"
+  },
+  {
+   "id": "leib-kesaler",
+   "name": "רבי ליב קעסלער",
+   "dateH": "ו׳ אייר תקל״ה"
+  },
+  {
+   "id": "menachem-mendel-stropkov",
+   "name": "רבי מנחם מנדל הלברשטאם מסטרופקוב",
+   "dateH": "ו׳ אייר תשי״ד"
+  },
+  {
+   "id": "evaryal-garyn-munkacs",
+   "name": "רבי עוריאל גרין אב\"ד מונקאטש",
+   "dateH": "ו׳ אייר תר״א"
+  }
+ ],
+ "Iyar-7": [
+  {
+   "id": "chaim-gedalya-bichov",
+   "name": "רבי חיים גדליה רבינוביץ מביכוב",
+   "dateH": "ז׳ אייר תרס״ד"
+  }
+ ],
+ "Iyar-8": [
+  {
+   "id": "david-stashov",
+   "name": "רבי דוד מסטאשוב",
+   "dateH": "ח׳ אייר תרפ״ה"
+  },
+  {
+   "id": "yerachmiel-peshischa",
+   "name": "רבי ירחמיאל מפשיסחא",
+   "dateH": "ח׳ אייר תקע״ט"
+  },
+  {
+   "id": "moshe-mardakpy-tversky-trisk",
+   "name": "רבי משה מרדכפי טברסקי מטריסק",
+   "dateH": "ח׳ אייר תש״ג"
+  }
+ ],
+ "Iyar-9": [
+  {
+   "id": "chaim-friedlander-liska",
+   "name": "רבי חיים פרידלנדר מליסקא",
+   "dateH": "ט׳ אייר תרס״ד"
+  },
+  {
+   "id": "ytaral-aryeh-leib-halperin-lviv",
+   "name": "רבי יטראל אריה לייב הלפרין מלבוב",
+   "dateH": "ט׳ אייר תשב״ב"
+  },
+  {
+   "id": "moshe-hager-seret-vyznysh",
+   "name": "רבי משה הגר מסערט ויזניש",
+   "dateH": "ט׳ אייר תשנ״ט"
+  }
+ ],
+ "Iyar-10": [
+  {
+   "id": "yitzchak-isaac-komarno",
+   "name": "רבי יצחק אייזיק ספרין מקומרנא",
+   "dateH": "י׳ אייר תרל״ד"
+  },
+  {
+   "id": "meir-margolies-ostroha",
+   "name": "רבי מאיר מרגליות מאוסטרהא",
+   "dateH": "י׳ אייר תק״נ"
+  },
+  {
+   "id": "mordechai-matel-tshenov",
+   "name": "רבי מרדכי מאטל לנדוי מטשכנוב",
+   "dateH": "י׳ אייר תרע״ז"
+  },
+  {
+   "id": "moshe-zvhil",
+   "name": "רבי משה מזוויהל",
+   "dateH": "י׳ אייר תקצ״א"
+  },
+  {
+   "id": "refael-moshe-wongband",
+   "name": "רבי רפאל משה וונגבאנד",
+   "dateH": "י׳ אייר תרס״ה"
+  },
+  {
+   "id": "shmuel-kaminka-2",
+   "name": "רבי שמואל מרבינו מקאמינקא",
+   "dateH": "י׳ אייר תר״ג"
+  }
+ ],
+ "Iyar-11": [
+  {
+   "id": "chaim-yehuda-meir-hager-mvyshyva-tl-abyb",
+   "name": "רבי חיים יהודה מאיר הגר מווישיווא תל אביב",
+   "dateH": "י״א אייר תשכ״ט"
+  },
+  {
+   "id": "yehuda-tzvi-stratin",
+   "name": "רבי יהודה צבי מסטרטין",
+   "dateH": "י״א אייר תר״ד"
+  },
+  {
+   "id": "yitzchak-radvil",
+   "name": "רבי יצחק מראדוויל",
+   "dateH": "י״א אייר תקצ״ה"
+  },
+  {
+   "id": "menachem-mendel-eichenstein-ziditchov",
+   "name": "רבי מנחם מנדל אייכנשטין מזידיטשוב",
+   "dateH": "י״א אייר תרס״א"
+  },
+  {
+   "id": "naftali-tzvi-hvrvyn-ropshitz",
+   "name": "רבי נפתלי צבי הורווין מרופשיץ",
+   "dateH": "י״א אייר תקפ״ז"
+  },
+  {
+   "id": "naftali-tzvi-ropshitz",
+   "name": "רבי נפתלי צבי הורוויץ מרופשיץ",
+   "dateH": "י״א אייר תקפ״ז"
+  },
+  {
+   "id": "shmuel-horowitz-varchenivka",
+   "name": "רבי שמואל הורביץ מווארחניבקה",
+   "dateH": "י״א אייר תר״ה"
+  },
+  {
+   "id": "shmuel-horowitz-mavvarcahnavbaka",
+   "name": "רבי שמואל הלוי הורביץ מוורחנובקא",
+   "dateH": "י״א אייר תר״ד"
+  }
+ ],
+ "Iyar-12": [
+  {
+   "id": "eliezer-karati",
+   "name": "רבי אליעזר מקראט",
+   "dateH": "י״ב אייר תרכו״ב"
+  },
+  {
+   "id": "yehuda-tzvi-hyrsh-eichenstein-dolina",
+   "name": "רבי יהודה צבי הירש אייכנשטין מדולינא",
+   "dateH": "י״ב אייר תרס״ט"
+  },
+  {
+   "id": "yisrael-rotenberg-magnuszew",
+   "name": "רבי ישראל רוטנברג ממגנישוב וגור",
+   "dateH": "י״ב אייר תקפ״ז"
+  }
+ ],
+ "Iyar-13": [
+  {
+   "id": "yosef-radvil",
+   "name": "רבי יוסף מראדוויל",
+   "dateH": "י״ג אייר תרל״ה"
+  },
+  {
+   "id": "ylakb-yosef-tversky-mastanysalab",
+   "name": "רבי ילקב יוסף טברסקי מסטאניסלאב",
+   "dateH": "י״ג אייר תרצ״א"
+  },
+  {
+   "id": "mordechai-mastarbatyn-toronto",
+   "name": "רבי מרדכי מסטרבטין - טורונטו",
+   "dateH": "י״ג אייר תש״ח"
+  }
+ ],
+ "Iyar-14": [
+  {
+   "id": "david-moshe-shapira-mgbvzdytz-sdygvra",
+   "name": "רבי דוד משה שפירא מגבוזדיץ סדיגורא",
+   "dateH": "י״ד אייר תשמ״ח"
+  },
+  {
+   "id": "yehuda-tzvi-ii-stratin",
+   "name": "רבי יהודה צבי לנגנר מסטרטין (השני)",
+   "dateH": "י״ד אייר תרס״ז"
+  }
+ ],
+ "Iyar-15": [
+  {
+   "id": "david-tolna",
+   "name": "רבי דוד טברסקי מטולנא",
+   "dateH": "ט״ו אייר תרמ״ב"
+  },
+  {
+   "id": "chaim-meir-yechiel-shapira-hshrp-mogelnitza",
+   "name": "רבי חיים מאיר יחיאל שפירא השרף ממוגלניצא",
+   "dateH": "ט״ו אייר תר״ט"
+  },
+  {
+   "id": "nachum-reuven-ryysaha",
+   "name": "רבי נחום ראובן ריישא",
+   "dateH": "ט״ו אייר תרל״ב"
+  },
+  {
+   "id": "shmuel-mkarvbm",
+   "name": "רבי שמואל מקארובם",
+   "dateH": "ט״ו אייר"
+  }
+ ],
+ "Iyar-16": [
+  {
+   "id": "maghacham-nachum-pavbavkarvavvaryrav",
+   "name": "רבי מגהחם נחום פובוקרווורירו",
+   "dateH": "ט״ז אייר תרפ״ה"
+  },
+  {
+   "id": "moshe-shmuel-kisvarda",
+   "name": "רבי משה שמואל מקליינוורדיין",
+   "dateH": "ט״ז אייר תש״ו"
+  }
+ ],
+ "Iyar-17": [
+  {
+   "id": "elazar-reuven-bukovsk",
+   "name": "רבי אלעזר ראובן שפירא מבוקאווסק",
+   "dateH": "י״ז אייר תש״ה"
+  },
+  {
+   "id": "mordechai-marhamtatrybakh",
+   "name": "רבי מרדכי מרהמטטריבקה",
+   "dateH": "י״ז אייר תר״פ"
+  },
+  {
+   "id": "marvarpy-yehuda-manralbavym",
+   "name": "רבי מרורפי יהודה ׳י מנרלבוים",
+   "dateH": "י״ז אייר תרס״ה"
+  },
+  {
+   "id": "moshe-chaim-ephraim-sadilkov",
+   "name": "רבי משה חיים אפרים מסדילקוב",
+   "dateH": "י״ז אייר תק״ס"
+  },
+  {
+   "id": "panhat-tversky-mavastylah",
+   "name": "רבי פנהט טברסקי מאוסטילה",
+   "dateH": "י״ז אייר תש״ג"
+  }
+ ],
+ "Iyar-18": [
+  {
+   "id": "uri-langner-rohatyn",
+   "name": "רבי אורי לנגנר מרוהטין",
+   "dateH": "י״ח אייר תרמ״ט"
+  },
+  {
+   "id": "yechezkel-makvadnytaz",
+   "name": "רבי יחזקאל מקודניץ",
+   "dateH": "י״ח אייר תקפ״א"
+  },
+  {
+   "id": "yechezkel-kozhnitz",
+   "name": "רבי יחזקאל מקוז׳ניץ",
+   "dateH": "ח״י אייר תקפ״א"
+  },
+  {
+   "id": "menachem-mendel-otwock",
+   "name": "רבי מנחם מנדל קאליש מאוטווצק",
+   "dateH": "י״ח אייר תרע״ט"
+  }
+ ],
+ "Iyar-19": [
+  {
+   "id": "yechiel-lentshna",
+   "name": "רבי יחיאל מלענטשנא",
+   "dateH": "י״ט אייר תש״ל"
+  },
+  {
+   "id": "yaakov-havravbyn-katleburg",
+   "name": "רבי יעקבם הורובין מקאטלבורג",
+   "dateH": "י״ט אייר תקע״ו"
+  },
+  {
+   "id": "mnhchm-mendel-bvrybgvb",
+   "name": "רבי מנהחם מנדל בוריבגוב",
+   "dateH": "י״ט אייר תקע״ה"
+  },
+  {
+   "id": "moshe-taub-kaliv",
+   "name": "רבי משה טויב מקאליב",
+   "dateH": "י״ט אייר תרע״ו"
+  }
+ ],
+ "Iyar-21": [
+  {
+   "id": "yaakov-yosef-kalbutsk",
+   "name": "רבי יעקב יוסף הכהן רבינוביץ מקאלבוצק",
+   "dateH": "כ״א אייר תרס״ב"
+  },
+  {
+   "id": "shimon-shlomo-savran",
+   "name": "רבי שמעון שלמה מסווראן",
+   "dateH": "כ״א אייר"
+  }
+ ],
+ "Iyar-22": [
+  {
+   "id": "yeshaya-madynavby",
+   "name": "רבי ישעיה מדינובי",
+   "dateH": "כ״ב אייר תקנ״ד"
+  },
+  {
+   "id": "mordechai-shraga-friedman-husiatyn",
+   "name": "רבי מרדכי שרגא פרידמן מהוסיאטין",
+   "dateH": "כ״ב אייר תרנ״ד"
+  }
+ ],
+ "Iyar-23": [
+  {
+   "id": "yom-tov-menachem-napkor-kaliv",
+   "name": "רבי יום טוב מנחם נאפקור-קאליב",
+   "dateH": "כ״ג אייר תש״ד"
+  },
+  {
+   "id": "yaakov-shimon-ashkenazi-zhelychov",
+   "name": "רבי יעקב שמעון אשכנזי מזעליחוב",
+   "dateH": "כ״ג אייר תקפ״ו"
+  }
+ ],
+ "Iyar-24": [
+  {
+   "id": "eliezer-tzvi-safrin-komarno-2",
+   "name": "רבי אליעזר צבי ספרין מקומרנא",
+   "dateH": "כ״ד אייר תרנ״ח"
+  },
+  {
+   "id": "eliezer-tzvi-komarno",
+   "name": "רבי אליעזר צבי ספרין מקומרנא",
+   "dateH": "כ״ד אייר תרנ״ח"
+  },
+  {
+   "id": "elazar-kveshad",
+   "name": "רבי אלעזר שפירא מקווישאד־ניו יורק",
+   "dateH": "כ״ד אייר תשל״ג"
+  },
+  {
+   "id": "yitzchak-pyyganbavym",
+   "name": "רבי יצחק פייגנבוים",
+   "dateH": "כ״ד אייר תרע״א"
+  },
+  {
+   "id": "ozer-avraham-rakov",
+   "name": "רבי עוזר אברהם מראקוב",
+   "dateH": "כ״ד אייר תרפ״ח"
+  }
+ ],
+ "Iyar-25": [
+  {
+   "id": "baruch-hmgyd-mryka",
+   "name": "רבי ברוך המגיד מריקא",
+   "dateH": "כ״ה אייר תקצ״א"
+  },
+  {
+   "id": "chaim-hager-kosov-lacki",
+   "name": "רבי חיים האגער מקוסוב",
+   "dateH": "כ״ה אייר תר״ד"
+  },
+  {
+   "id": "yekutiel-yehuda-sighet-1944",
+   "name": "רבי יקותיאל יהודה טייטלבוים מסיגעט",
+   "dateH": "כ״ה אייר תש״ד"
+  },
+  {
+   "id": "yissachar-dov-ungvar",
+   "name": "רבי ישכר דוב ליפשיץ מאונגוואר",
+   "dateH": "כ״ה אייר תש״ד"
+  }
+ ],
+ "Iyar-26": [
+  {
+   "id": "aryeh-lybvt-rubin-mtzshynvb",
+   "name": "רבי אריה ליבוט רובין מצשינוב",
+   "dateH": "כ״ו אייר תש״ב"
+  },
+  {
+   "id": "yitzchak-eizik-epashatyn-mahvagval",
+   "name": "רבי יצחק אייזיק הלוי עפשטין מהוגול",
+   "dateH": "כ״ו אייר תרי״ז"
+  },
+  {
+   "id": "marrakpy-yosef-sahbarsahky-mavzalatapvalh",
+   "name": "רבי מררכפי יוסף שברשקי מוזלאטפולה",
+   "dateH": "כ״ו אייר תרפ״ט"
+  },
+  {
+   "id": "meshulam-zusha-tolna-boston",
+   "name": "רבי משולם זושא מטולנא-בוסטון",
+   "dateH": "כ״ו אייר תשל״ב"
+  },
+  {
+   "id": "pancaht-biala-bavkantykavvabh",
+   "name": "רבי פנחט רבינוביץ בוקנטיקוובה",
+   "dateH": "כ״ו אייר תרפ״ב"
+  },
+  {
+   "id": "tzvi-hirsch-ziditchov-gavan-vamkavbal",
+   "name": "רבי צבי הירש מזידיטשוב גאון ומקובל",
+   "dateH": "כ״ו אייר תרי״ד"
+  },
+  {
+   "id": "shlomo-gavladman-zvhil",
+   "name": "רבי שלמה גולדמן מזוויהל",
+   "dateH": "כ״ו אייר תש״ה"
+  },
+  {
+   "id": "shmuel-eliyahu-zvolin",
+   "name": "רבי שמואל אליהו טאוב מזוואלין",
+   "dateH": "כ״ו אייר תרמ״ח"
+  }
+ ],
+ "Iyar-27": [
+  {
+   "id": "aharon-aryeh-heller-gavtasman-malasahkavbytaz",
+   "name": "רבי אהרן אריה הלוי הלר-גוטסמן מלאשקוביץ",
+   "dateH": "כ״ז אייר תרנ״ה"
+  },
+  {
+   "id": "eliezer-zeev-rozenboim-makretashanyp",
+   "name": "רבי אליעזר זאב רוזנבוים מקרעטשניף",
+   "dateH": "כ״ז אייר תש״ד"
+  },
+  {
+   "id": "yitzchak-meir-kretzki-sasov",
+   "name": "רבי יצחק מאיר מקרעצקי סאסוב",
+   "dateH": "כ״ז אייר תש״ה"
+  },
+  {
+   "id": "yerachmiel-yehuda-meir-amshinov",
+   "name": "רבי ירחמיאל יהודה מאיר קאליש מאמשינוב",
+   "dateH": "כ״ז אייר תשל״ו"
+  },
+  {
+   "id": "noach-pinchas-mamagarvab-brod",
+   "name": "רבי נח פנחס ממאגרוב-ברוד",
+   "dateH": "כ״ז אייר תרל״ח"
+  },
+  {
+   "id": "tzvi-hirsch-friedlander-liska-2",
+   "name": "רבי צבי הירש פרידלנדר השני מליסקא",
+   "dateH": "כ״ז אייר תש״ד"
+  },
+  {
+   "id": "shlomo-zalman-sahnyavartavn-makvapvatt",
+   "name": "רבי שלמה זלמן שניאורטון מקופוטט",
+   "dateH": "כ״ז אייר תר״ס"
+  }
+ ],
+ "Iyar-28": [
+  {
+   "id": "yehoshua-asher-parisov",
+   "name": "רבי יהושע אשר רבינוביץ מפאריסוב",
+   "dateH": "כ״ח אייר תרכ״ב"
+  }
+ ],
+ "Iyar-29": [
+  {
+   "id": "avraham-moshe-biala",
+   "name": "רבי אברהם משה רבינוביץ",
+   "dateH": "כ״ט אייר"
+  },
+  {
+   "id": "aharon-aryeh-yehuda-leib-myyvalyt",
+   "name": "רבי אהרן אריה יהודה ליב מייוליט",
+   "dateH": "כ״ט אייר תר״ח"
+  },
+  {
+   "id": "yisrael-chaim-weiss-spinka",
+   "name": "רבי ישראל חיים ווייס מספינקא",
+   "dateH": "כ״ט אייר תש״ד"
+  },
+  {
+   "id": "shmuel-shlomo-leiner",
+   "name": "רבי שמואל שלמה ליינר מראדזין",
+   "dateH": "כ״ט אייר תש״ב"
+  }
+ ],
+ "Sivan-1": [
+  {
+   "id": "aharon-yechiel-banya",
+   "name": "רבי אהרן יחיאל מבאניה",
+   "dateH": "א׳ סיון תש״ס"
+  },
+  {
+   "id": "yosef-aharon-buchach",
+   "name": "רבי יוסף אהרן רבין מבוצ׳צ׳א",
+   "dateH": "א׳ סיון תרע״ג"
+  }
+ ],
+ "Sivan-2": [
+  {
+   "id": "vam-tversky-marhamsatrybakh",
+   "name": "רבי ואם טברסקי מרהמסטריבקה",
+   "dateH": "ב׳ סיון תרצ״ז"
+  },
+  {
+   "id": "chaim-elazar-munkacs",
+   "name": "רבי חיים אלעזר שפירא ממונקאטש",
+   "dateH": "ב׳ סיון תרצ״ז"
+  },
+  {
+   "id": "yehuda-aryeh-leibush-frankel",
+   "name": "רבי יהודה אריה לייבוש פרנקל מבוטושאן",
+   "dateH": "ב׳ סיון תרע״ז"
+  },
+  {
+   "id": "yaakov-ostroha",
+   "name": "רבי יעקב מאוסטרהא",
+   "dateH": "ב׳ סיון תקנ״ו"
+  },
+  {
+   "id": "yisrael-hager-mvyrgytz",
+   "name": "רבי ישראל האגער מוירגיץ",
+   "dateH": "ב׳ סיון תרע״ו"
+  },
+  {
+   "id": "meshulam-zusha-yitzchak-avarbavk-matlavmatash",
+   "name": "רבי משולם זושא יצחק אורבוך מטלומאטש",
+   "dateH": "ב׳ סיון תרמ״ב"
+  }
+ ],
+ "Sivan-3": [
+  {
+   "id": "aharon-nirbator",
+   "name": "רבי אהרן טייטלבוים מנירבאטור",
+   "dateH": "ג׳ סיון תש״ד"
+  },
+  {
+   "id": "yehoshua-heschel-fried-kapish",
+   "name": "רבי יהושע השל פריד מקאפיש",
+   "dateH": "ב״א סיון תרפ״א"
+  },
+  {
+   "id": "yaakov-shimshon-mashapytavbakh",
+   "name": "רבי יעקב שמשון משפיטובקה",
+   "dateH": "ג׳ סיון תקס״א"
+  },
+  {
+   "id": "yisrael-tzvi-rotenberg-kasan",
+   "name": "רבי ישראל צבי רוטנברג מקאסאן",
+   "dateH": "ג׳ סיון תש״ד"
+  },
+  {
+   "id": "mordechai-rachov",
+   "name": "רבי מרדכי מראחוב",
+   "dateH": "ג׳ סיון תש״ד"
+  },
+  {
+   "id": "mordechai-birtch",
+   "name": "רבי מרדכי שפירא מבירטש",
+   "dateH": "ג׳ סיון"
+  },
+  {
+   "id": "moshe-eichenstein-vorotsky",
+   "name": "רבי משה אייכנשטיין מזידיטשוב־וורצקי",
+   "dateH": "ג׳ סיון תש״ד"
+  },
+  {
+   "id": "moshe-eichenstein-ziditchov",
+   "name": "רבי משה אייכנשטין מזידיטשוב",
+   "dateH": "ג׳ סיון תש״ד"
+  },
+  {
+   "id": "pinchas-shapira-makakanyh",
+   "name": "רבי פנחס שפירא מקאכניה",
+   "dateH": "ג׳ סיון תש״ד"
+  },
+  {
+   "id": "pinchas-shapira-makekanya",
+   "name": "רבי פנחס שפירא מקעכניא",
+   "dateH": "ג׳ סיון תש״ד"
+  }
+ ],
+ "Sivan-4": [
+  {
+   "id": "yosef-yoske-malasahkavbytaz",
+   "name": "רבי יוסף יוסקא מלאשקוביץ",
+   "dateH": "ד׳ סיון תרצ״ג"
+  },
+  {
+   "id": "yitzchak-husakov",
+   "name": "רבי יצחק טייטלבוים מהוסאקוב",
+   "dateH": "ד׳ סיון תש״ד"
+  },
+  {
+   "id": "yeshaya-naftali-hertz-dinov",
+   "name": "רבי ישעיה נפתלי הירץ שפירא מדינוב",
+   "dateH": "ד׳ סיון תרמ״ח"
+  }
+ ],
+ "Sivan-5": [
+  {
+   "id": "ze-ev-wolf-zhitomir",
+   "name": "רבי זאב וואלף מז׳יטומיר",
+   "dateH": "ה׳ סיון תקנ״ז"
+  },
+  {
+   "id": "yitzchak-berezna",
+   "name": "רבי יצחק מברזנא",
+   "dateH": "ב״ג סיון תרצ״ט"
+  },
+  {
+   "id": "meir-menachem-piotrkow",
+   "name": "רבי מאיר מנחם פינקלר מראדושיץ־פיעטריקוב",
+   "dateH": "ה׳ סיון תרע״ב"
+  }
+ ],
+ "Sivan-6": [
+  {
+   "id": "avraham-mordechai-alter-ger",
+   "name": "רבי אברהם מרדכי אלטר מגור",
+   "dateH": "ו׳ סיון תש״ח"
+  },
+  {
+   "id": "avraham-shalom-stropkov",
+   "name": "רבי אברהם שלום הלברשטאם מסטרופקוב",
+   "dateH": "ו׳ סיון ת״ש"
+  },
+  {
+   "id": "aharon-aryeh-mayyr-marvaznysavbam",
+   "name": "רבי אהרן אריה מאייר מרוז'ניסובם",
+   "dateH": "ו׳ סיון תרמ״ג"
+  },
+  {
+   "id": "yehuda-lym-berger",
+   "name": "רבי יהודה לים ברגר",
+   "dateH": "ו׳ סיון תרע״א"
+  },
+  {
+   "id": "yitzchak-vavrathyym-mabgadry",
+   "name": "רבי יצחק וורטהיים מבגדרי",
+   "dateH": "ו׳ סיון תרע״א"
+  },
+  {
+   "id": "besht",
+   "name": "רבי ישראל בעל שם טוב (הבעש״ט)",
+   "dateH": "ו׳ סיון"
+  }
+ ],
+ "Sivan-7": [
+  {
+   "id": "aharon-moshe-leifer-satmar-grosswardein",
+   "name": "רבי אהרן משה לייפר מסטמר - גרוסוורדיין",
+   "dateH": "ז׳ סיון תש״ד"
+  },
+  {
+   "id": "aharon-tzvi-biala",
+   "name": "רבי אהרן צבי לנדוי מביאלה",
+   "dateH": "ז׳ סיון תר״ע"
+  },
+  {
+   "id": "yaakov-shimshon-kanir",
+   "name": "רבי יעקב שמשון קאניר מטשחויב",
+   "dateH": "ז׳ סיון תש״ב"
+  },
+  {
+   "id": "yerachmiel-fromer-ostrowiec",
+   "name": "רבי ירחמיאל פרומר מאוסטרובצה",
+   "dateH": "ז׳ סיון תרס״ט"
+  }
+ ],
+ "Sivan-8": [
+  {
+   "id": "itamar-bushtina",
+   "name": "רבי איתמר מבושטינא",
+   "dateH": "ח׳ סיון תש״ד"
+  },
+  {
+   "id": "chaim-yaakov-tpryn-komarno",
+   "name": "רבי חיים יעקב טפרין מקומרנא",
+   "dateH": "ח׳ סיון תשכ״ט"
+  },
+  {
+   "id": "chaim-yaakov-safrin",
+   "name": "רבי חיים יעקב ספרין מקומרנא",
+   "dateH": "ח׳ סיון תשכ״ט"
+  },
+  {
+   "id": "yehoshua-heshel-efrati-khuliov",
+   "name": "רבי יהושע השל אפרתי מחוליוב",
+   "dateH": "ח׳ סיון תרי״ב"
+  },
+  {
+   "id": "nachum-malvyab-myravpavl",
+   "name": "רבי נחום מלויאב - מירופול",
+   "dateH": "ח׳ סיון תשל״ג"
+  }
+ ],
+ "Sivan-9": [
+  {
+   "id": "yehoshua-chaim-matsahenastakvabytaz",
+   "name": "רבי יהושע חיים מטשענסטקוביץ",
+   "dateH": "ט׳ סיון תשכ״א"
+  },
+  {
+   "id": "ycahvakal-shraga-medz",
+   "name": "רבי יחוקאל שרגא מערץ",
+   "dateH": "ט׳ סיון תשל״ב"
+  },
+  {
+   "id": "yitzchak-isaac-ziditchov",
+   "name": "רבי יצחק אייזיק אייכנשטין מזידיטשוב",
+   "dateH": "ט׳ סיון תרל״ג"
+  },
+  {
+   "id": "menachem-mvnysh-tpryn-komarno-bgr-brk",
+   "name": "רבי מנחם מוניש טפרין מקומרנא בגר ברק",
+   "dateH": "ט׳ סיון"
+  },
+  {
+   "id": "menachem-munish-safrin-bnei-brak",
+   "name": "רבי מנחם מוניש ספרין מקומרנא–בני ברק",
+   "dateH": "ט׳ סיון"
+  },
+  {
+   "id": "tzvi-hirsch-timishvar",
+   "name": "רבי צבי הירש מטמישוואר",
+   "dateH": "ב״ז סיון תשנ״ג"
+  }
+ ],
+ "Sivan-10": [
+  {
+   "id": "eliezer-paltyal-ravytablat-mashenytaza",
+   "name": "רבי אליעזר פלטיאל רויטבלאט משעניצא",
+   "dateH": "י׳ סיון תשנ״ח"
+  },
+  {
+   "id": "moshe-horowitz-rozvadov",
+   "name": "רבי משה הורוויץ מרוזבדוב",
+   "dateH": "י׳ סיון תרנ״ד"
+  },
+  {
+   "id": "meshulam-zalman-mamvarytash",
+   "name": "רבי משולם זלמן ממוריטש",
+   "dateH": "י׳ סיון תקכ״ז"
+  },
+  {
+   "id": "klonimus-kalman-vidama",
+   "name": "רבי קלונימוס קלמן מוידאמא",
+   "dateH": "י׳ סיון תרפ״ה"
+  }
+ ],
+ "Sivan-11": [
+  {
+   "id": "yehuda-hvrvy-mvrvykvbm-ybrvshym-rvykvhm",
+   "name": "רבי יהודה הורוי מורויקובם יברושים רויקוהם",
+   "dateH": "י״א סיון תש״נו״ט"
+  },
+  {
+   "id": "mordechai-yosef-moshe-masvalytaza",
+   "name": "רבי מרדפי יוסף משה מסוליצא",
+   "dateH": "י״א סיון תרפ״ט"
+  }
+ ],
+ "Sivan-12": [
+  {
+   "id": "avraham-weinberg-jerusalem",
+   "name": "רבי אברהם וינברג מסלונים־ירושלים",
+   "dateH": "י״ב סיון תשמ״א"
+  },
+  {
+   "id": "berachia-ujhely",
+   "name": "רבי ברכיה טייטלבוים מאיהל",
+   "dateH": "י״ב סיון תרע״ז"
+  },
+  {
+   "id": "chaim-yisrael-pilov",
+   "name": "רבי חיים ישראל מורגנשטרן מפילוב",
+   "dateH": "י״ב סיון תרס״ה"
+  }
+ ],
+ "Sivan-13": [
+  {
+   "id": "zeev-wolf-goldberger",
+   "name": "רבי זאב וואלף גולדברגר",
+   "dateH": "י״ג סיון תר״י"
+  },
+  {
+   "id": "yosef-goldberger-liska",
+   "name": "רבי יוסף גולדברגר מליסקא",
+   "dateH": "י״ג סיון תרס״ח"
+  },
+  {
+   "id": "yitzchak-eizik-weiss-spinka",
+   "name": "רבי יצחק אייזיק ווייס מספינקא",
+   "dateH": "י״ג סיון תש״ד"
+  },
+  {
+   "id": "shraga-yair-bialobrzeg",
+   "name": "רבי שרגא יאיר רבינוביץ מביאלובזשעג",
+   "dateH": "י״ג סיון תרע״ב"
+  }
+ ],
+ "Sivan-14": [
+  {
+   "id": "tashamval-betzalel-lubavitch",
+   "name": "רבי טשמואל בצלאל מליובאוויטש",
+   "dateH": "י״ד סיון תרס״ה"
+  },
+  {
+   "id": "yechiel-michel-mushkovitz",
+   "name": "רבי יחיאל מיכל",
+   "dateH": "י״ד סיון תשט״ז"
+  },
+  {
+   "id": "yaakov-yisrael-vyshvrvn-rubin-msasregyn",
+   "name": "רבי יעקב ישראל וישורון רובין מסאסרעגין",
+   "dateH": "י״ד סיון תש״ד"
+  },
+  {
+   "id": "yerachmiel-yehuda-meir-peshischa",
+   "name": "רבי ירחמיאל יהודה מאיר מפשיסחא",
+   "dateH": "י״ד סיון תרנ״ה"
+  },
+  {
+   "id": "moshe-hvrvyn-boston-nyv-yvrk",
+   "name": "רבי משה הורווין מבוסטון ניו יורק",
+   "dateH": "י״ד סיון תשמ״ה"
+  },
+  {
+   "id": "moshe-horowitz-boston",
+   "name": "רבי משה הורוויץ מבוסטון־ניו יורק",
+   "dateH": "י״ד סיון תשמ״ה"
+  },
+  {
+   "id": "shmuel-avraham-abba-tversky-mamakarvab",
+   "name": "רבי שמואל אברהם אבא טברסקי ממאקרוב",
+   "dateH": "י״ד סיון תש״ז"
+  }
+ ],
+ "Sivan-15": [
+  {
+   "id": "avraham-mshpytvbka",
+   "name": "רבי אברהם משפיטובקא",
+   "dateH": "ט״ו סיון תרפ״ד"
+  },
+  {
+   "id": "meir-yosef-rubin-krestir",
+   "name": "רבי מאיר יוסף רובין מקרעסטיב",
+   "dateH": "ט״ו סיון תש״ד"
+  },
+  {
+   "id": "shalom-matsahpar",
+   "name": "רבי שלום מטשפר",
+   "dateH": "ט״ו סיון תש״ד"
+  }
+ ],
+ "Sivan-16": [
+  {
+   "id": "baruch-yosef-zak-kobrin",
+   "name": "רבי ברוך יוסף ז'ק מקוברין",
+   "dateH": "ט״ז סיון תש״ט"
+  },
+  {
+   "id": "david-leifer-banya",
+   "name": "רבי דוד לייפר מבאניה",
+   "dateH": "ט״ז סיון תש״ד"
+  },
+  {
+   "id": "yehuda-zavnadl-savran",
+   "name": "רבי יהודה זונדל מסאווראן",
+   "dateH": "ט״ז סיון תשנ״ג"
+  },
+  {
+   "id": "yehoshua-eichenstein-grosswardein",
+   "name": "רבי יהושע אייכנשטיין מזידיטשוב־גרוסוורדיין",
+   "dateH": "ט״ז סיון תש״ה"
+  },
+  {
+   "id": "yehoshua-ayyknshtyyn-mzydytshvm-grvtvrdyyn",
+   "name": "רבי יהושע אייכנשטיין מזידיטשום גרוטורדיין",
+   "dateH": "ט״ז סיון תש״ה"
+  },
+  {
+   "id": "menachem-mendel-vurka",
+   "name": "רבי מנחם מנדל קאליש מוורקא",
+   "dateH": "ט״ז סיון תרכ״ח"
+  },
+  {
+   "id": "shalom-eliezer-ratzfert",
+   "name": "רבי שלום אליעזר הלברשטאם מראצפרט",
+   "dateH": "ט״ז סיון תש״ד"
+  }
+ ],
+ "Sivan-17": [
+  {
+   "id": "aharon-karlin-2",
+   "name": "רבי אהרן מקרלין",
+   "dateH": "י״ז סיון תרל״ב"
+  },
+  {
+   "id": "yehuda-unger-sokolov-ryysaha",
+   "name": "רבי יהודה אונגר מסוקולוב - ריישא",
+   "dateH": "י״ז סיון תרצ״ט"
+  }
+ ],
+ "Sivan-18": [
+  {
+   "id": "baruch-tzvi-ravzanbalvam",
+   "name": "רבי ברוך צבי רוזנבלום",
+   "dateH": "י״ח סיון תרמו״ה"
+  },
+  {
+   "id": "yosef-aryeh-leib-levavnakvapp-mavvarasha",
+   "name": "רבי יוסף אריה לייב הלוי לעוונקופף מווארשא",
+   "dateH": "י״ח סיון תרפ״ז"
+  },
+  {
+   "id": "yaakov-elimelech-panet-dees",
+   "name": "רבי יעקב אלימלך פאנעט מדעעש",
+   "dateH": "י״ח סיון תש״ד"
+  },
+  {
+   "id": "yissachar-dov-radoshitz",
+   "name": "רבי ישכר דוב בער ברון מראדושיץ — הסבא הקדוש",
+   "dateH": "ח״י סיון תר״ג"
+  },
+  {
+   "id": "levi-yitzchak-manzon-ozerna",
+   "name": "רבי לוי יצחק מנזון מאוזרנה",
+   "dateH": "י״ח סיון תרע״ח"
+  }
+ ],
+ "Sivan-19": [
+  {
+   "id": "ben-tzion-rabynavbyn-ostrova",
+   "name": "רבי בן ציון רבינובין מאוסטרובה",
+   "dateH": "י״ט סיון תרפ״ו"
+  },
+  {
+   "id": "chaim-yehuda-leib-kuzmir",
+   "name": "רבי חיים יהודה ליב מקוזמיר",
+   "dateH": "י״ט סיון תרע״ו"
+  },
+  {
+   "id": "chanokh-henich-frankel",
+   "name": "רבי חנוך העניך פרנקל מדורוהוי",
+   "dateH": "י״ט סיון תשכ״ד"
+  },
+  {
+   "id": "menachem-nachum-matkavvyra-machahnavbaka",
+   "name": "רבי מנחם נחום מטקווירא-מחהנובקא",
+   "dateH": "י״ט סיון תש״ו"
+  },
+  {
+   "id": "simcha-yayr-piotrkow",
+   "name": "רבי שמחה יאיר מפיעטריקוב",
+   "dateH": "י״ט סיון תרע״א"
+  }
+ ],
+ "Sivan-20": [
+  {
+   "id": "eliezer-fish-biksad",
+   "name": "רבי אליעזר פיש מביקסאד",
+   "dateH": "כ׳ סיון תש״ד"
+  },
+  {
+   "id": "yisrael-dan-modzhitz",
+   "name": "רבי ישראל דן טאוב ממודז׳יץ",
+   "dateH": "כ׳ סיון תשס״ו"
+  },
+  {
+   "id": "menachem-nachum-friedman-itzkany",
+   "name": "רבי מנחם נחום פרידמן מאיצקאני",
+   "dateH": "כ׳ סיון תרצ״ג"
+  },
+  {
+   "id": "shmuel-kaufman-miropol",
+   "name": "רבי שמואל קויפמן ממירופול",
+   "dateH": "כ׳ סיון תרח״צ"
+  }
+ ],
+ "Sivan-21": [
+  {
+   "id": "aharon-mlvbytzky-lechovitch",
+   "name": "רבי אהרן מלוביצקי מלעכוביטש",
+   "dateH": "כ״א סיון תר״נו״א"
+  },
+  {
+   "id": "shlomo-munkacs",
+   "name": "רבי שלמה שפירא מסטריז׳וב־מונקאטש",
+   "dateH": "כ״א סיון תרנ״ג"
+  }
+ ],
+ "Sivan-22": [
+  {
+   "id": "itamar-rozenboim-manadabvargah",
+   "name": "רבי איתמר רוזנבוים מנאדבורגה",
+   "dateH": "כ״ב סיון תשל״ג"
+  },
+  {
+   "id": "baruch-asher-tversky-matsahranvabl",
+   "name": "רבי ברוך אשר טברסקי מטשרנובל",
+   "dateH": "כ״ב סיון תרס״ה"
+  },
+  {
+   "id": "chaim-dov-halperin-vaslui",
+   "name": "רבי חיים דב הלפרין מוואסלוי",
+   "dateH": "כ״ב סיון תשי״ז"
+  }
+ ],
+ "Sivan-23": [
+  {
+   "id": "naftali-unger-manyymarkat",
+   "name": "רבי נפתלי אונגר מניימרקט",
+   "dateH": "כ״ג סיון תש״ב"
+  }
+ ],
+ "Sivan-24": [
+  {
+   "id": "chaim-menachem-heshyl-mzynkvbm",
+   "name": "רבי חיים מנחם העשיל מזינקובם",
+   "dateH": "כ״ד סיון תרנ״ד"
+  },
+  {
+   "id": "yechiel-michel-yanov",
+   "name": "רבי יחיאל מיכל מיאנוב",
+   "dateH": "כ״ד סיון תרכ״ה"
+  },
+  {
+   "id": "yisrael-chaim-friedman-rachov",
+   "name": "רבי ישראל חיים פרידמן ראחוב",
+   "dateH": "כ״ד סיון תרפ״ב"
+  }
+ ],
+ "Sivan-25": [
+  {
+   "id": "eliyahu-lerman-pilov",
+   "name": "רבי אליהו לרמן מפילוב",
+   "dateH": "כ״ה סיון תרמ״ז"
+  },
+  {
+   "id": "dov-berish-biala",
+   "name": "רבי דוב בעריש לנדוי מביאלה",
+   "dateH": "כ״ה סיון תרל״ח"
+  },
+  {
+   "id": "yechiel-michel-avarbavk-makvaryma",
+   "name": "רבי יחיאל מיכל אורבוך מקורימא",
+   "dateH": "כ״ה סיון תרט״ז"
+  },
+  {
+   "id": "menachem-brody-kaliv",
+   "name": "רבי מנחם ברודי קאליב",
+   "dateH": "כ״ה סיון תרל״ג"
+  },
+  {
+   "id": "moshe-tzvi-sabrasky-tolna",
+   "name": "רבי משה צבי סברסקי מטולנא",
+   "dateH": "כ״ה סיון תשל״ב"
+  },
+  {
+   "id": "pinchas-mavkna",
+   "name": "רבי פנחס מאוקנא",
+   "dateH": "כ״ה סיון תרפ״ט"
+  },
+  {
+   "id": "tzvi-hirsch-nadvorna",
+   "name": "רבי צבי הירש מנאדבורנה",
+   "dateH": "כ״ה סיון תקס״ב"
+  }
+ ],
+ "Sivan-26": [
+  {
+   "id": "aharon-biala-bielitz",
+   "name": "רבי אהרן הלברשטאם מביאלה־ביליץ",
+   "dateH": "כ״ו סיון תש״ב"
+  },
+  {
+   "id": "mordecai-zev-grobov",
+   "name": "רבי מרדכי זאב הלברשטאם מגריבוב־צאנז",
+   "dateH": "כ״ו סיון תש״ב"
+  }
+ ],
+ "Sivan-28": [
+  {
+   "id": "mordechai-menachem",
+   "name": "רבי מרדכי מנחם",
+   "dateH": "כ״ח סיון תק״ט"
+  }
+ ],
+ "Sivan-29": [
+  {
+   "id": "elimelech-stashov",
+   "name": "רבי אלימלך מסטאשוב",
+   "dateH": "כ״ט סיון תש״ב"
+  },
+  {
+   "id": "shmuel-shmaria-heine-ostrovtza",
+   "name": "רבי שמואל שמריה היינה מאוסטרובצה",
+   "dateH": "כ״ט סיון תר״ז"
+  }
+ ],
+ "Sivan-30": [
+  {
+   "id": "uri-mansahcah-yebatz-sanytyn",
+   "name": "רבי אורי מנשח יעבץ אב\"ד סניטין",
+   "dateH": "ל׳ סיון תרע״ג"
+  },
+  {
+   "id": "yosef-yehuda-unger",
+   "name": "רבי יוסף יהודה אונגר",
+   "dateH": "ל׳ סיון תש״ב"
+  },
+  {
+   "id": "meir-unger",
+   "name": "רבי מאיר אונגר",
+   "dateH": "ל׳ סיון תש״ב"
+  },
+  {
+   "id": "moshe-aharon-kobrin",
+   "name": "רבי משה אהרן רבינוביץ מקוברין",
+   "dateH": "בכ״ח סיון"
+  }
+ ],
+ "Tammuz-1": [
+  {
+   "id": "yechiel-yaakov-hvpshtyn-kozhnitz",
+   "name": "רבי יחיאל יעקב הופשטין מקוז׳ניץ",
+   "dateH": "א׳ תמוז תרכ״ו"
+  },
+  {
+   "id": "meir-makretashanyp",
+   "name": "רבי מאיר מקרעטשניף",
+   "dateH": "א׳ תמוז תרס״ח"
+  },
+  {
+   "id": "klonimus-klmysh-mkraka-mavr-vshmt",
+   "name": "רבי קלונימוס קלמיש מקראקא מאור ושמט",
+   "dateH": "א׳ תמוז תקפ״ג"
+  },
+  {
+   "id": "shlomo-bobov",
+   "name": "רבי שלמה הלברשטאם מבאבוב",
+   "dateH": "א׳ תמוז תרס״ה"
+  }
+ ],
+ "Tammuz-2": [
+  {
+   "id": "avraham-trisk",
+   "name": "רבי אברהם טברסקי מטריסק",
+   "dateH": "ב׳ תמוז תרמ״ט"
+  },
+  {
+   "id": "elimelech-sokolov-malopolski",
+   "name": "רבי אלימלך מסוקולוב",
+   "dateH": "ב׳ תמוז תרכ״ב"
+  },
+  {
+   "id": "nachman-mahvarvadgaka",
+   "name": "רבי נחמן מהורודגקא",
+   "dateH": "ב׳ תמוז תקכ״ה"
+  },
+  {
+   "id": "nachman-horodenka",
+   "name": "רבי נחמן מהורודנקא",
+   "dateH": "ב׳ תמוז תקכ״ה"
+  },
+  {
+   "id": "tzvi-meir-panet",
+   "name": "רבי צבי מאיר פאנעט",
+   "dateH": "ב׳ תמוז תשס״ג"
+  },
+  {
+   "id": "shlomo-karlin",
+   "name": "רבי שלמה מקרלין",
+   "dateH": "ב׳ תמוז תקנ״ב"
+  }
+ ],
+ "Tammuz-3": [
+  {
+   "id": "aryeh-leib-bendery",
+   "name": "רבי אריה ליב מבנדרי",
+   "dateH": "ג׳ תמוז תרי״ד"
+  },
+  {
+   "id": "aryeh-leibush-mordechai-tarnow",
+   "name": "רבי אריה לייבוש מרדכי הלברשטאם מטורנא",
+   "dateH": "ג׳ תמוז"
+  },
+  {
+   "id": "aryeh-mordechai-jerusalem",
+   "name": "רבי אריה מרדכי רבינוביץ מירושלים",
+   "dateH": "ג׳ תמוז תרמ״ה"
+  },
+  {
+   "id": "yitzchak-mordechai-mgbvdvytz",
+   "name": "רבי יצחק מרדכי מגבוודויץ",
+   "dateH": "ג׳ תמוז"
+  },
+  {
+   "id": "menachem-mendel-schneersohn-malyvabavavytassah",
+   "name": "רבי מנחם מנדל שניאורסון מליובאוויטסש",
+   "dateH": "ג׳ תמוז תשנ״ד"
+  },
+  {
+   "id": "shlomo-eiger-lublin",
+   "name": "רבי שלמה איגר מלובלין",
+   "dateH": "ג׳ תמוז ת״ש"
+  }
+ ],
+ "Tammuz-4": [
+  {
+   "id": "avraham-yitzchak-mattasahvabm",
+   "name": "רבי אברהם יצחק מטטאשובם",
+   "dateH": "ד׳ תמוז תשנ״א"
+  },
+  {
+   "id": "baruch-matsahcahvyb",
+   "name": "רבי ברוך מטשחויב",
+   "dateH": "ד׳ תמוז תשי״ג"
+  },
+  {
+   "id": "yaakov-narol",
+   "name": "רבי יעקב ריינמן מנארול",
+   "dateH": "ד׳ תמוז תקע״ד"
+  },
+  {
+   "id": "paghash-havravyn-mapraglakpavrash",
+   "name": "רבי פגהש הורוין מפרגלקפורש",
+   "dateH": "ד׳ תמוז תקס״ה"
+  },
+  {
+   "id": "shalom-yosef-sara-ben",
+   "name": "רבי שלום יוסף משרה- בן",
+   "dateH": "ד׳ תמוז תש״ג"
+  },
+  {
+   "id": "shlomo-zalman-frankel-usa",
+   "name": "רבי שלמה זלמן פרנקל מוויליפולי־ארה״ב",
+   "dateH": "ד׳ תמוז תשל״ה"
+  }
+ ],
+ "Tammuz-5": [
+  {
+   "id": "yehoshua-heshel-frankel-komarno",
+   "name": "רבי יהושע העשיל תאומים־פרנקל מקומרנא",
+   "dateH": "ה׳ תמוז תר״ג"
+  },
+  {
+   "id": "yissachar-dov-berish-istrisk",
+   "name": "רבי ישכר דוב בעריש מאיסטריק",
+   "dateH": "ה׳ תמוז תרי״ט"
+  },
+  {
+   "id": "yisrael-rotenberg-stashov",
+   "name": "רבי ישראל רוטנברג מסטאשוב",
+   "dateH": "ה׳ תמוז תר״ב"
+  },
+  {
+   "id": "azriel-meir-eiger-lublin",
+   "name": "רבי עזריאל מאיר (אלתר עזריאל מאיר) איגר מלובלין",
+   "dateH": "ה׳ תמוז תש״א"
+  }
+ ],
+ "Tammuz-6": [
+  {
+   "id": "aharon-vavladn-warsaw",
+   "name": "רבי אהרן וולדן מוורשה",
+   "dateH": "ב״ד תמוז תרע״ב"
+  },
+  {
+   "id": "david-tzvi-taub-nayshtat",
+   "name": "רבי דוד צבי טאוב מניישטאט",
+   "dateH": "ו׳ תמוז תרמ״ג"
+  },
+  {
+   "id": "moshe-hager-mkvtvbm",
+   "name": "רבי משה האגער מקוטובם",
+   "dateH": "ו׳ תמוז תרפ״ה"
+  },
+  {
+   "id": "reuven-david-efrati-khuliov",
+   "name": "רבי ראובן דוד אפרתי מחוליוב",
+   "dateH": "ו׳ תמוז תרס״ג"
+  }
+ ],
+ "Tammuz-7": [
+  {
+   "id": "aharon-moshe-brody",
+   "name": "רבי אהרן משה מגזע צבי מבראד",
+   "dateH": "ז׳ תמוז תר״ה"
+  },
+  {
+   "id": "simcha-bunim-alter-ger",
+   "name": "רבי שמחה בונם אלטר מגור",
+   "dateH": "ז׳ תמוז תשנ״ב"
+  }
+ ],
+ "Tammuz-8": [
+  {
+   "id": "yechiel-chaim-ozharov",
+   "name": "רבי יחיאל חיים אפשטיין מאוז׳רוב",
+   "dateH": "ח׳ תמוז תרמ״ח"
+  },
+  {
+   "id": "meir-horowitz-mdykvb",
+   "name": "רבי מאיר הורוויץ מדדיקוב",
+   "dateH": "ח׳ תמוז תרל״ז"
+  },
+  {
+   "id": "mordechai-tversky-kuzmir",
+   "name": "רבי מרדכי טברסקי מקוזמיר",
+   "dateH": "ח׳ תמוז תרע״ז"
+  }
+ ],
+ "Tammuz-9": [
+  {
+   "id": "yosef-mabvartashah",
+   "name": "רבי יוסף מבורטשה",
+   "dateH": "ט׳ תמוז תרפ״ז"
+  },
+  {
+   "id": "yechiel-mkrylvby",
+   "name": "רבי יחיאל מקרילובי",
+   "dateH": "ט׳ תמוז תרע״ו"
+  },
+  {
+   "id": "yekutiel-yehuda-klausenburg",
+   "name": "רבי יקותיאל יהודה הלברשטאם מצאנז־קלויזנבורג",
+   "dateH": "ט׳ תמוז תשנ״ד"
+  }
+ ],
+ "Tammuz-11": [
+  {
+   "id": "tzvi-hirsch-ziditchov",
+   "name": "רבי צבי הירש מזידיטשוב",
+   "dateH": "י״א תמוז תקצ״א"
+  },
+  {
+   "id": "shlmhr-chaim-perlov-bnvlyhvm",
+   "name": "רבי שלמהר חיים פרלוב בבןוליהום",
+   "dateH": "י״א תמוז תש״ג"
+  }
+ ],
+ "Tammuz-12": [
+  {
+   "id": "avraham-chaim-medz",
+   "name": "רבי אברהם חיים מהערץ",
+   "dateH": "י״ב תמוז תש״א"
+  },
+  {
+   "id": "eliyahu-yosef-rivlin-madrybyn",
+   "name": "רבי אליהו יוסף ריבלין מדריבין",
+   "dateH": "י״ב תמוז תרכ״ה"
+  },
+  {
+   "id": "dov-berish-panet",
+   "name": "רבי דוב בעריש פאנעט",
+   "dateH": "י״ב תמוז תשס״ח"
+  }
+ ],
+ "Tammuz-13": [
+  {
+   "id": "david-mkryptsh",
+   "name": "רבי דוד מקריפטש",
+   "dateH": "י״ג תמוז תקפ״ר"
+  }
+ ],
+ "Tammuz-14": [
+  {
+   "id": "chaim-avraham-aransahtyyn-bardyvab",
+   "name": "רבי היים אברהם ארנשטיין ברדיוב",
+   "dateH": "י״ד תמוז תרל״א"
+  },
+  {
+   "id": "yitzchak-eizik-rozenboim-mazvatsahka",
+   "name": "רבי יצחק אייזיק רוזנבוים מזוטשקא",
+   "dateH": "י״ד תמוז תש״ס"
+  },
+  {
+   "id": "pinchas-shapira-slavita",
+   "name": "רבי פנחס שפירא מסלאוויטה",
+   "dateH": "י״ד תמוז תרל״ב"
+  }
+ ],
+ "Tammuz-15": [
+  {
+   "id": "elazar-vyysablavm-risha",
+   "name": "רבי אלעזר וייסבלום מרישא",
+   "dateH": "ט״ו תמוז תר״ע"
+  },
+  {
+   "id": "david-moshe-ravvanbavym-makretashanyp",
+   "name": "רבי דוד משה רוונבוים מקרעטשניף",
+   "dateH": "ט״ו תמוז תשכ״ט"
+  },
+  {
+   "id": "ylakb-yosef-tversky-skvira",
+   "name": "רבי ילקב יוסף טברסקי מסקווירא",
+   "dateH": "ט״ו תמוז תרנ״ט"
+  },
+  {
+   "id": "yaakov-moshe-safrin-komarno",
+   "name": "רבי יעקב משה ספרין מקומרנא",
+   "dateH": "ט״ו תמוז תרפ״ט"
+  },
+  {
+   "id": "yaakov-moshe-safrin-komarno-2",
+   "name": "רבי יעקב משה ספרין מקומרנא",
+   "dateH": "ט״ו תמוז תרפ״ט"
+  }
+ ],
+ "Tammuz-16": [
+  {
+   "id": "avraham-yehoshua-heshyl-kopychyntsi",
+   "name": "רבי אברהם יהושע העשיל מקופיציני",
+   "dateH": "ט״ז תמוז תש״מי״ז"
+  },
+  {
+   "id": "david-halperin-ostroha",
+   "name": "רבי דוד הלפרין מאוסטרהא",
+   "dateH": "ט״ז תמוז תקכ״ז"
+  },
+  {
+   "id": "menashe-eichenstein-risha",
+   "name": "רבי מנשה אייכנשטיין מזידיטשוב־רישא",
+   "dateH": "ט״ז תמוז תרצ״ה"
+  }
+ ],
+ "Tammuz-17": [
+  {
+   "id": "avraham-pinchas-kinov-arahb",
+   "name": "רבי אברהם פנחס מקיניוב-ארה״ב",
+   "dateH": "י״ז תמוז תש״י"
+  },
+  {
+   "id": "chanoch-henich",
+   "name": "רבי חנוך העניך",
+   "dateH": "י״ז תמוז תרפ״ט"
+  },
+  {
+   "id": "yosef-havlandar-amasana",
+   "name": "רבי יוסף הכהן הולנדר אמסאנא",
+   "dateH": "י״ז תמוז תרנו״ב"
+  },
+  {
+   "id": "moshe-efraim-ashkenazi-kalisz",
+   "name": "רבי משה אפרים אשכנזי מקאליש",
+   "dateH": "י״ז תמוז תקע״א"
+  }
+ ],
+ "Tammuz-18": [
+  {
+   "id": "avraham-abba-yosef-yanov",
+   "name": "רבי אברהם אבא יוסף מיאנוב",
+   "dateH": "י״ח תמוז תרכ״א"
+  },
+  {
+   "id": "yaakov-aryeh-radzimin",
+   "name": "רבי יעקב אריה גוטרמן מראדזימין",
+   "dateH": "י״ח תמוז תרל״ד"
+  },
+  {
+   "id": "moshe-david-ashkenazi-tolcsva",
+   "name": "רבי משה דוד אשכנזי מטולטשווא",
+   "dateH": "י״ח תמוז תרט״ז"
+  }
+ ],
+ "Tammuz-19": [
+  {
+   "id": "elazar-malanatzahvat",
+   "name": "רבי אלעזר מלאנצהוט",
+   "dateH": "י״ט תמוז תר״צ"
+  },
+  {
+   "id": "elazar-lancut-5625",
+   "name": "רבי אלעזר שפירא מלאנצוט (השני)",
+   "dateH": "י״ט תמוז תרצ״ג"
+  },
+  {
+   "id": "yehoshua-frisherman-tomashov",
+   "name": "רבי יהושע פרישרמן מטומשוב",
+   "dateH": "י״ט תמוז תרס״ו"
+  },
+  {
+   "id": "meir-vanavamym",
+   "name": "רבי מאיר ונאומים",
+   "dateH": "י״ט תמוז תקל״ג"
+  }
+ ],
+ "Tammuz-20": [
+  {
+   "id": "moshe-yehuda-leib-tversky-chelm",
+   "name": "רבי משה יהודה ליב טברסקי מחלם",
+   "dateH": "כ׳ תמוז תרצ״ז"
+  },
+  {
+   "id": "shlomo-aryeh-leib-vavybashylabvym-bavsahytashyn",
+   "name": "רבי שלמה אריה ליב וויבשילבוים בושיטשין",
+   "dateH": "י״י תמוז תרפ״ז"
+  }
+ ],
+ "Tammuz-21": [
+  {
+   "id": "avraham-matityahu-friedman-shtefanesht",
+   "name": "רבי אברהם מתתיהו פרידמן משטפינשט",
+   "dateH": "כ״א תמוז תרצ״ג"
+  },
+  {
+   "id": "elazar-tversky-mapalatysahn",
+   "name": "רבי אלעזר טברסקי מפאלטישן",
+   "dateH": "כ״א תמוז תשל״ו"
+  },
+  {
+   "id": "ghmyh-prlv-pmvkvyrbvm",
+   "name": "רבי גהמיה פרלו פמוקוירבום",
+   "dateH": "כ״א תמוז תרפ״ז"
+  },
+  {
+   "id": "yitzchak-isaac-langner-stratin",
+   "name": "רבי יצחק אייזיק לנגנר מסטרטין",
+   "dateH": "כ״א תמוז תש״ז"
+  },
+  {
+   "id": "levi-yitzchak-arad",
+   "name": "רבי לוי יצחק מאראד",
+   "dateH": "כ״א תמוז תשב״ב"
+  },
+  {
+   "id": "moshe-mazalasahyn",
+   "name": "רבי משה מזאלאשין",
+   "dateH": "כ״א תמוז תקצ״א"
+  },
+  {
+   "id": "tzvi-hirsch-kaminka",
+   "name": "רבי צבי הירש מקאמינקא",
+   "dateH": "כ״א תמוז תקכ״ט"
+  }
+ ],
+ "Tammuz-22": [
+  {
+   "id": "avraham-eichenstein-chicago",
+   "name": "רבי אברהם אייכנשטיין מזידיטשוב־שיקאגו",
+   "dateH": "כ״ב תמוז תשכ״ז"
+  },
+  {
+   "id": "avraham-eichenstein-ziditchov-chicago",
+   "name": "רבי אברהם אייכנשטין מזידיטשוב שיקאגו",
+   "dateH": "כ״ב תמוז תשכ״ז"
+  },
+  {
+   "id": "aryeh-leibush-kolbasov-5628",
+   "name": "רבי אריה לייבוש טייטלבוים מקולבסוב (הזקן)",
+   "dateH": "כ״ב תמוז תש״ג"
+  },
+  {
+   "id": "david-kotzk",
+   "name": "רבי דוד מורגנשטרן מקוצק",
+   "dateH": "כ״ב תמוז תרל״ג"
+  },
+  {
+   "id": "yechiel-mkvlbsvp",
+   "name": "רבי יחיאל מקולבסוף",
+   "dateH": "כ״ב תמוז תר״ב"
+  },
+  {
+   "id": "yitzchak-horowitz-mielec",
+   "name": "רבי יצחק הורוויץ ממעליץ",
+   "dateH": "כ״ב תמוז תשל״ח"
+  },
+  {
+   "id": "yisrael-yosef-finkler",
+   "name": "רבי ישראל יוסף פינקלר מראדושיץ",
+   "dateH": "כ״ב תמוז תרצ״ז"
+  },
+  {
+   "id": "tzvi-hirsch-rudnik-rudnik",
+   "name": "רבי צבי הירש מרודניק",
+   "dateH": "כ״ב תמוז תשמ״א"
+  }
+ ],
+ "Tammuz-23": [
+  {
+   "id": "eliezer-shlomo-volomin",
+   "name": "רבי אליעזר שלמה טאוב מוולומין",
+   "dateH": "כ״ג תמוז תרצ״ה"
+  },
+  {
+   "id": "yaakov-yosef-ostroha-2",
+   "name": "רבי יעקב יוסף מאוסטרהא (השני)",
+   "dateH": "כ״ג תמוז תר״ט"
+  },
+  {
+   "id": "mordechai-berger",
+   "name": "רבי מרדכי ברגר",
+   "dateH": "כ״ג תמוז ת״ש"
+  }
+ ],
+ "Tammuz-24": [
+  {
+   "id": "yerachmiel-tzvi-shenna",
+   "name": "רבי ירחמיאל צבי טאוב משיננא",
+   "dateH": "כ״ד תמוז תרע״ו"
+  },
+  {
+   "id": "mordechai-david-kahana",
+   "name": "רבי מרדכי דוד כהנא",
+   "dateH": "כ״ד תמוז תשע״א"
+  },
+  {
+   "id": "pinchas-shalom",
+   "name": "רבי פנחס שלום",
+   "dateH": "כ״ד תמוז תטכ״ו"
+  }
+ ],
+ "Tammuz-25": [
+  {
+   "id": "shimon-shlomo-landau-alik",
+   "name": "רבי שמעון שלמה לנדא מאליק",
+   "dateH": "כ״ה תמוז תרנ״ז"
+  }
+ ],
+ "Tammuz-26": [
+  {
+   "id": "yisrael-ashkny-mshlvm-ashsh",
+   "name": "רבי ישראל אשכני משלומ אשש",
+   "dateH": "כ״ו תמוז תש״א"
+  },
+  {
+   "id": "noach-karov",
+   "name": "רבי נח מקארוב",
+   "dateH": "כ״ו תמוז תרט״ו"
+  },
+  {
+   "id": "nachman-maskalyt",
+   "name": "רבי נחמן מסקאליט",
+   "dateH": "כ״ו תמוז תרכ״ו"
+  },
+  {
+   "id": "sini-zmigrod",
+   "name": "רבי סיני הלברשטאם מז׳מיגראד",
+   "dateH": "כ״ו תמוז תש״א"
+  },
+  {
+   "id": "shmuel-yitzchak-tshenkov",
+   "name": "רבי שמואל יצחק לנדוי מטשכנוב",
+   "dateH": "כ״ו תמוז"
+  }
+ ],
+ "Tammuz-27": [
+  {
+   "id": "yisrael-kalisz",
+   "name": "רבי ישראל מקאליש",
+   "dateH": "כ״ז תמוז תשי״ז"
+  },
+  {
+   "id": "mordechai-eliezer-vavebar-ada",
+   "name": "רבי מרדכי אליעזר וועבר אדא",
+   "dateH": "כ״ז תמוז"
+  },
+  {
+   "id": "shmuel-aharon-rubin-karatsahyn",
+   "name": "רבי שמואל אהרן רובין קארטשין",
+   "dateH": "כ״ז תמוז תרל״ז"
+  }
+ ],
+ "Tammuz-28": [
+  {
+   "id": "avraham-langagr-maknyyhanytat",
+   "name": "רבי אברהם לנגגר מקנייהניטט",
+   "dateH": "כ״ח תמוז תרע״ז"
+  },
+  {
+   "id": "avraham-langner-knihinichi",
+   "name": "רבי אברהם לנגנר מקניהיניטש",
+   "dateH": "כ״ח תמוז תרע״ז"
+  },
+  {
+   "id": "elazar-lizhensk",
+   "name": "רבי אלעזר מליז'נסק",
+   "dateH": "כ״ח תמוז תקס״ו"
+  },
+  {
+   "id": "yeshaya-meshulam-zusha-tversky-matsahranvabl",
+   "name": "רבי ישעיה משולם זושא טברסקי מטשרנובל",
+   "dateH": "כ״ח תמוז תרמ״א"
+  },
+  {
+   "id": "moshe-teitelbaum-ujhely",
+   "name": "רבי משה טייטלבוים מאיהל",
+   "dateH": "כ״ח תמוז תר״א"
+  }
+ ],
+ "Tammuz-29": [
+  {
+   "id": "moshe-philadelphia",
+   "name": "רבי משה ליפשיץ מפילדלפיה",
+   "dateH": "כ״ט תמוז תשל״ה"
+  }
+ ],
+ "Av-1": [
+  {
+   "id": "shlomo-bobov-ny",
+   "name": "רבי שלמה הלברשטאם מבאבוב",
+   "dateH": "א׳ אב תש״ס"
+  }
+ ],
+ "Av-3": [
+  {
+   "id": "gadlyhav-aharon-mamvantatrysahtaz",
+   "name": "רבי גדליהו אהרן ממונטטרישץ",
+   "dateH": "ג׳ אב תרע״ט"
+  },
+  {
+   "id": "chaim-yechezkel-mavarvab",
+   "name": "רבי חיים יחזקאל מאורוב",
+   "dateH": "ג׳ אב תרע״ח"
+  },
+  {
+   "id": "ytazhak-tversky-skvira",
+   "name": "רבי יצהק טברסקי מסקווירא",
+   "dateH": "ג׳ אב תש״א"
+  }
+ ],
+ "Av-4": [
+  {
+   "id": "ephraim-taub-kuzmir",
+   "name": "רבי אפרים טאוב מקוזמיר",
+   "dateH": "ד׳ אב תרס״ד"
+  },
+  {
+   "id": "ben-zion-bobov",
+   "name": "רבי בן ציון הלברשטאם מבאבוב",
+   "dateH": "ד׳ אב תש״א"
+  },
+  {
+   "id": "tzvi-meir-radomsk",
+   "name": "רבי צבי מאיר הכהן רבינוביץ מראדומסק",
+   "dateH": "ד׳ אב תרס״ב"
+  }
+ ],
+ "Av-5": [
+  {
+   "id": "aryeh-lyybvsh-rokeach-magrvb",
+   "name": "רבי אריה לייבוש רוקח ממאגרוב",
+   "dateH": "ה׳ אב תרצ״ב"
+  }
+ ],
+ "Av-6": [
+  {
+   "id": "yosef-chaim-frankel-wielopole",
+   "name": "רבי יוסף חיים פרנקל מוויליפולי",
+   "dateH": "ו׳ אב תש״ב"
+  },
+  {
+   "id": "mordechai-shmerler-mikolayev",
+   "name": "רבי מרדכי שמרלר ממיקולייב",
+   "dateH": "ו׳ אב תרכ״ד"
+  }
+ ],
+ "Av-7": [
+  {
+   "id": "yissachar-dov-mazlavtashavb",
+   "name": "רבי ישכר דב מזלוטשוב",
+   "dateH": "ז׳ אב תקנ״ה"
+  },
+  {
+   "id": "moshe-madeesaht-tashata",
+   "name": "רבי משה מדעעשט-טשטא",
+   "dateH": "ז׳ אב תש״ל"
+  },
+  {
+   "id": "pinchas-biala-masvakvalvabkah",
+   "name": "רבי פנחס רבינוביץ מסוקולובקה",
+   "dateH": "ז׳ אב תרע״ט"
+  },
+  {
+   "id": "shalom-noach-berezovsky",
+   "name": "רבי שלום נח ברזובסקי מסלונים",
+   "dateH": "ז׳ אב תש״ס"
+  }
+ ],
+ "Av-8": [
+  {
+   "id": "aharon-haryp-pytarykavbasky-davmatz-balasak",
+   "name": "רבי אהרן \"הריף\" פיטריקובסקי דומ\"צ בלאסק",
+   "dateH": "ח׳ אב תקצ״א"
+  },
+  {
+   "id": "baruch-mordechai-ashvar",
+   "name": "רבי ברוך מרדכי מאשוואר",
+   "dateH": "ח׳ אב תרט״ו"
+  },
+  {
+   "id": "mikhael-ganash",
+   "name": "רבי מיכאל גאנאש",
+   "dateH": "ח׳ אב תר״ט"
+  },
+  {
+   "id": "menachem-shlomo-bornstein-sokhatchov",
+   "name": "רבי מנחם שלמה בורנשטין מסוכאטשוב",
+   "dateH": "ב״ו אב תשכ״ט"
+  },
+  {
+   "id": "naftali-tzvi-glickman-sosnowiec-2",
+   "name": "רבי נפתלי צבי גליקמן מסוסנוביץ",
+   "dateH": "ח׳ אב תשל״ח"
+  },
+  {
+   "id": "sahlampah-habrashatsam-bobov",
+   "name": "רבי שלמפה הברשטסאם מבובוב",
+   "dateH": "ח׳ אב תש״ס"
+  }
+ ],
+ "Av-9": [
+  {
+   "id": "chozeh-lublin",
+   "name": "החוזה מלובלין",
+   "dateH": "ט׳ אב תקע״ה"
+  },
+  {
+   "id": "gavriel-malach-warsaw",
+   "name": "רבי גבריאל ׳מלאך׳ הורוויץ מוורשה",
+   "dateH": "ט׳ אב תרי״ג"
+  },
+  {
+   "id": "moshe-david-vizhnitz",
+   "name": "רבי משה דוד מוויזשניץ",
+   "dateH": "ט׳ אב תקפ״ח"
+  },
+  {
+   "id": "moshe-ror-yra-mavysahnytaz",
+   "name": "רבי משה רור ירא מוישניצ",
+   "dateH": "ט׳ אב תק״פ"
+  }
+ ],
+ "Av-10": [
+  {
+   "id": "david-pavrakes",
+   "name": "רבי דוד פורקעס",
+   "dateH": "י׳ אב תקל״א"
+  },
+  {
+   "id": "yaakov-aryeh-msmyla",
+   "name": "רבי יעקב אריה מסמילא",
+   "dateH": "י׳ אב תקפ״ז"
+  },
+  {
+   "id": "yaakov-yisrael-tversky-mahvarnysatyypavl-mylavvaky",
+   "name": "רבי יעקב ישראל טברסקי מהורניסטייפול - מילוואקי",
+   "dateH": "י׳ אב תשל״ג"
+  },
+  {
+   "id": "shalom-sambor-stryi",
+   "name": "רבי שלום הכהן מסאמבור - סטרי",
+   "dateH": "י׳ אב תרפ״ה"
+  }
+ ],
+ "Av-11": [
+  {
+   "id": "aharon-stolin",
+   "name": "רבי אהרן",
+   "dateH": "י״א אב תש״ב"
+  },
+  {
+   "id": "elazar-sambor",
+   "name": "רבי אלעזר מסאמבור",
+   "dateH": "י״א אב תשל״ו"
+  },
+  {
+   "id": "maparysahsah-vabvabravysahtashak",
+   "name": "רבי ה מפארישש ובוברוישטשק",
+   "dateH": "י״א אב תרכ״ד"
+  },
+  {
+   "id": "yosef-panet-dees",
+   "name": "רבי יוסף פאנעט מדעעש",
+   "dateH": "י״א אב תשכ״ב"
+  },
+  {
+   "id": "tzvi-aryeh-avraham-landau-alik",
+   "name": "רבי צבי אריה אברהם לנדא מאליק",
+   "dateH": "י״א אב תשכ״ו"
+  }
+ ],
+ "Av-12": [
+  {
+   "id": "ephraim-zalman-margolies-mamatazyvab",
+   "name": "רבי אפרים זלמן מרגליות ממאציוב",
+   "dateH": "י״ב אב תרמ״ו"
+  },
+  {
+   "id": "yosef-yaakov-yitzchak-tapyvavak",
+   "name": "רבי יוסף יעקב יצחק הלוי טפיוואק",
+   "dateH": "י״ב אב תר״ז"
+  },
+  {
+   "id": "yissachar-dov-eichenstein-petach-tikva",
+   "name": "רבי ישכר דב אייכנשטיין מזידיטשוב־פתח תקוה",
+   "dateH": "י״ב אב תשמ״ט"
+  },
+  {
+   "id": "yissachar-db-eichenstein-ziditchov-ptch-tkvh",
+   "name": "רבי ישכר דב אייכנשטין מזידיטשוב פתח תקוה",
+   "dateH": "י״ב אב תשמ״ט"
+  },
+  {
+   "id": "yisrael-shmuel-tomashov",
+   "name": "רבי ישראל שמואל נייהויז מטומשוב",
+   "dateH": "י״ב אב תרע״א"
+  },
+  {
+   "id": "naftali-hertz-weinberg-manmyravb",
+   "name": "רבי נפתלי הירץ וליינרג מנמירוב",
+   "dateH": "י״ב אב"
+  }
+ ],
+ "Av-13": [
+  {
+   "id": "henoch-henich-eichenstein-olesko-busk",
+   "name": "רבי העניך אייכנשטיין מאלעסק־בוסק",
+   "dateH": "י״ג אב תרפ״ט"
+  },
+  {
+   "id": "chanoch-henich-dov-eichenstein-olesko",
+   "name": "רבי חנוך העניך דוב אייכנשטין מאלעסק",
+   "dateH": "י״ג אב תרפ״ט"
+  },
+  {
+   "id": "yehuda-pesach-lipsk",
+   "name": "רבי יהודה פסח מליפסק",
+   "dateH": "י״ג אב תרכ״ה"
+  },
+  {
+   "id": "yosef-grunwald-papa",
+   "name": "רבי יוסף גרינוולד מפאפא",
+   "dateH": "י״ג אב תשמ״ד"
+  }
+ ],
+ "Av-14": [
+  {
+   "id": "chaim-krasne",
+   "name": "רבי חיים מקראסנה",
+   "dateH": "י״ד אב תקנ״ג"
+  },
+  {
+   "id": "yehoshua-pylyynarg-mavavrytash",
+   "name": "רבי יהושע פיליינרג מאווריטש",
+   "dateH": "י״ד אב תרנ״ב"
+  }
+ ],
+ "Av-15": [
+  {
+   "id": "asher-stolin-2",
+   "name": "רבי אשר השני מסטולין",
+   "dateH": "ט״ו אב תרל״ג"
+  },
+  {
+   "id": "baruch-ben-elisha-gorlitz",
+   "name": "רבי ברוך הלברשטאם מגורליץ",
+   "dateH": "ט״ו אב תשמ״ב"
+  },
+  {
+   "id": "yaakov-leiner",
+   "name": "רבי יעקב ליינר מאיז׳ביצא",
+   "dateH": "ט״ו אב תרל״ח"
+  },
+  {
+   "id": "tzvi-hirsch-rudnik",
+   "name": "רבי צבי הירש הלברשטאם מרודניק",
+   "dateH": "ט״ו אב תרע״ח"
+  }
+ ],
+ "Av-16": [
+  {
+   "id": "menachem-mendel-lazar-strizhov",
+   "name": "רבי מנחם מנדל לזר מסטריז׳וב",
+   "dateH": "ט״ז אב תקצ״א"
+  },
+  {
+   "id": "tzvi-aryeh-hakpahn-rappaport-mabvatysahan",
+   "name": "רבי צבי אריה הכפהן רפפורט מבוטישאן",
+   "dateH": "ט״ז אב תרמ״ז"
+  },
+  {
+   "id": "shlomo",
+   "name": "רבי שלמה",
+   "dateH": "ט״ז אב תקס״ז"
+  }
+ ],
+ "Av-17": [
+  {
+   "id": "avraham-mordechai-horowitz-pinczow",
+   "name": "רבי אברהם מרדכי הורוויץ מפינטשוב",
+   "dateH": "י״ז אב תקפ״ד"
+  },
+  {
+   "id": "yehuda-meir-mzytvmyr-kvnstntyn",
+   "name": "רבי יהודה מאיר מזיטומיר קונסטנטין",
+   "dateH": "י״ז אב תרע״ט"
+  },
+  {
+   "id": "yosef-menachem-shapira-blendov",
+   "name": "רבי יוסף מנחם שפירא מבלנדוב",
+   "dateH": "י״ז אב תרפ״ז"
+  },
+  {
+   "id": "shlomo-chaim-perlov-koidanov",
+   "name": "רבי שלמה חיים פרלוב מקוידנוב",
+   "dateH": "י״ז אב תרכ״ב"
+  },
+  {
+   "id": "shmuel-apta",
+   "name": "רבי שמואל מאפטא",
+   "dateH": "י״ז אב ת״ר"
+  }
+ ],
+ "Av-18": [
+  {
+   "id": "david-moshe-krimilov",
+   "name": "רבי דוד משה הכהן רבינוביץ",
+   "dateH": "י״ח אב תש״ב"
+  },
+  {
+   "id": "tzvi-aryeh-tversky-mazlatapvalh",
+   "name": "רבי צבי אריה טברסקי מזלאטפולה",
+   "dateH": "י״ח אב תשכ״ח"
+  },
+  {
+   "id": "shlomo-chanoch-radomsk",
+   "name": "רבי שלמה חנוך הכהן רבינוביץ מראדומסק",
+   "dateH": "י״ח אב תש״ב"
+  }
+ ],
+ "Av-19": [
+  {
+   "id": "aby-evra-vyh-kbvhnygt",
+   "name": "רבי אבי עורא ויה כבוהניגת",
+   "dateH": "י״ט אב תרמ״ה"
+  },
+  {
+   "id": "aharon-menachem-eichenstein-maletk",
+   "name": "רבי אהרן מנחם אייכנשטין מאלעטק",
+   "dateH": "י״ט אב תרפ״ג"
+  },
+  {
+   "id": "eliezer-shalom-sokolov-tashycahvab",
+   "name": "רבי אליעזר שלום מורגנשטרן טשיחוב",
+   "dateH": "י״ט אב תרכ״ז"
+  },
+  {
+   "id": "yehuda-yechiel-taub-mrvdvl",
+   "name": "רבי יהודה יחיאל טויב מרוודול",
+   "dateH": "י״ט אב תר״צי״ז"
+  },
+  {
+   "id": "yitzchak-meir-heshyl-medzhybizh-hyph",
+   "name": "רבי יצחק מאיר העשיל ממזבוז היפה",
+   "dateH": "י״ט אב תשמ״ה"
+  },
+  {
+   "id": "menachem-nachum-friedman-chernovitz",
+   "name": "רבי מנחם נחום פרידמן מטשרנוביץ",
+   "dateH": "י״ט אב תרצי״ו"
+  },
+  {
+   "id": "refael-hamgyd-mavvenagravb",
+   "name": "רבי רפאל ה\"מגיד3\" מווענגרוב",
+   "dateH": "י״ט אב תקצ״ד"
+  },
+  {
+   "id": "shimon-sholom-amshinov",
+   "name": "רבי שמעון שלום קאליש מאמשינוב־אוטווצק",
+   "dateH": "י״ט אב תשי״ד"
+  }
+ ],
+ "Av-20": [
+  {
+   "id": "aharon-skvira-kiev",
+   "name": "רבי אהרן מסקווירא-קיוב",
+   "dateH": "כ׳ אב תרע״ז"
+  },
+  {
+   "id": "yerucham-radzin",
+   "name": "רבי ירוחם ליינר מראדזין",
+   "dateH": "כ׳ אב תשכ״ד"
+  },
+  {
+   "id": "levi-ytazsahcahk-ber-ykatrynavsalb",
+   "name": "רבי לוי יצשחק שניאורסון יקטרינוסלב",
+   "dateH": "כ׳ אב תש״ד"
+  },
+  {
+   "id": "shaul-engel-kaliv",
+   "name": "רבי שאול אנגיל מקאליב",
+   "dateH": "כ׳ אב ת״ר"
+  }
+ ],
+ "Av-21": [
+  {
+   "id": "aharon-rokeach-belz",
+   "name": "רבי אהרן רוקח מבעלזא",
+   "dateH": "כ״א אב תשי״ז"
+  },
+  {
+   "id": "alexander-sender-komarno",
+   "name": "רבי אלכסנדר סנדר מקומרנא",
+   "dateH": "כ״א אב תקע״ח"
+  },
+  {
+   "id": "david-hager-zablotov",
+   "name": "רבי דוד האגער מזאבלטוב",
+   "dateH": "כ״א אב תר״ח"
+  },
+  {
+   "id": "yaakov-david-friedman-pashkan",
+   "name": "רבי יעקב דוד פרידמן מפשקאן",
+   "dateH": "כ״א אב תשט״ו"
+  }
+ ],
+ "Av-22": [
+  {
+   "id": "baruch-shapira-czyzew",
+   "name": "רבי ברוך שפירא מסטוטשין",
+   "dateH": "כ״ב אב תרל״ז"
+  },
+  {
+   "id": "meir-premishlan",
+   "name": "רבי מאיר הגדול מפרמישלאן",
+   "dateH": "כ״ב אב תקל״ג"
+  },
+  {
+   "id": "shlomo-roman-raman",
+   "name": "רבי שלמה מרומאן ראמאן",
+   "dateH": "ייב אב תש״ז"
+  }
+ ],
+ "Av-23": [
+  {
+   "id": "avraham-shapira-tluste",
+   "name": "רבי אברהם שפירא מטלוסט",
+   "dateH": "כ״ג אב תשל״ב"
+  }
+ ],
+ "Av-24": [
+  {
+   "id": "baruch-pinchas-biala-maskalyh",
+   "name": "רבי ברוך פנחס רבינוביץ מסקאליה",
+   "dateH": "כ״ד אב תר״פ"
+  },
+  {
+   "id": "yechiel-meir-kotzk",
+   "name": "רבי יחיאל מאיר מורגנשטרן מקוצק",
+   "dateH": "כ״ד אב תשכ״ב"
+  }
+ ],
+ "Av-25": [
+  {
+   "id": "eliezer-aynagralyyb-radvil",
+   "name": "רבי אליעזר אינגרלייב מראדוויל",
+   "dateH": "כ״ה אב תרנ״ח"
+  },
+  {
+   "id": "chaim-davr-haktan",
+   "name": "רבי חיים דור הקטן",
+   "dateH": "כ״ה אב תרס״ה"
+  }
+ ],
+ "Av-26": [
+  {
+   "id": "yoel-satmar",
+   "name": "רבי יואל טייטלבוים מסטמר",
+   "dateH": "כ״ו אב תשל״ט"
+  },
+  {
+   "id": "yosef-david-lutsk",
+   "name": "רבי יוסף דוד מלוצק",
+   "dateH": "כ״ו אב תרנ״ג"
+  },
+  {
+   "id": "noach-naftali-kobrin",
+   "name": "רבי נח נפתלי מקוברין",
+   "dateH": "כ״ו אב תרמ״ט"
+  }
+ ],
+ "Av-27": [
+  {
+   "id": "yaakov-tzvi-vavaladman-borsha",
+   "name": "רבי יעקם צבי וואלדמן בורשא",
+   "dateH": "כ״ז אב תרמו״ג"
+  },
+  {
+   "id": "menachem-nachum-sadigura",
+   "name": "רבי מנחם נחום מטדיגורא",
+   "dateH": "כ״ז אב תרנו״ג"
+  }
+ ],
+ "Av-29": [
+  {
+   "id": "avraham-dam-varby-david-tversky-marhamsatrybakh",
+   "name": "רבי אברהם דם ורבי דוד טברסקי מרהמסטריבקה",
+   "dateH": "כ״ט אב תש״ה"
+  },
+  {
+   "id": "tzvi-hirsch-ataknazy",
+   "name": "רבי צבי הירש אטכנזי",
+   "dateH": "כ״ט אב תקס״ח"
+  }
+ ],
+ "Elul-1": [
+  {
+   "id": "baruch-avraham-bynadyger-hanysahvabytaz",
+   "name": "רבי ברוך אברהם בינדיגער האנישוביץ",
+   "dateH": "א׳ אלול תרל״ה"
+  },
+  {
+   "id": "chanoch-hnyr-db-olesko",
+   "name": "רבי חנוך הניר דב מאלעסק",
+   "dateH": "א׳ אלול תרמ״ד"
+  },
+  {
+   "id": "mgbhm-mbr-rubin-kbvh-agvm",
+   "name": "רבי מגבהם מבר רובין כבוה אגום",
+   "dateH": "א׳ אלול תרל״ג"
+  },
+  {
+   "id": "menachem-mendel-prushkov",
+   "name": "רבי מנחם מענדל ליפשיץ מפרושקוב",
+   "dateH": "א׳ אלול תרצ״ד"
+  },
+  {
+   "id": "meshulam-zalman-yehonatan-mabrygal",
+   "name": "רבי משולם זלמן יהונתן מבריגל",
+   "dateH": "א׳ אלול תרט״ו"
+  },
+  {
+   "id": "pinchas-yosef-daknar",
+   "name": "רבי פנחס יוסף דכנר",
+   "dateH": "א׳ אלול תרל״ד"
+  }
+ ],
+ "Elul-2": [
+  {
+   "id": "eliezer-hager-mvyznytz",
+   "name": "רבי אליעזר הגר מויזניץ",
+   "dateH": "ב׳ אלול תש״ו"
+  },
+  {
+   "id": "elazar-unger-zhabne-tarnow",
+   "name": "רבי אלעזר אונגר מז׳בנה־טארנוב",
+   "dateH": "ב׳ אלול תש״ג"
+  },
+  {
+   "id": "yisrael-yitzchak-kalish",
+   "name": "רבי ישראל יצחק קאליש מקאליש",
+   "dateH": "ב׳ אלול תרע״ח"
+  },
+  {
+   "id": "menachem-mendel-biala",
+   "name": "רבי מנחם מענדל לנדוי מביאלה",
+   "dateH": "ב׳ אלול תרצ״ח"
+  },
+  {
+   "id": "moshe-4",
+   "name": "רבי משה",
+   "dateH": "ב׳ אלול תרנ״ה"
+  },
+  {
+   "id": "shalom-eichenstein-safed",
+   "name": "רבי שלום אייכנשטיין מזידיטשוב",
+   "dateH": "ב׳ אלול תשמ״ז"
+  },
+  {
+   "id": "shalom-eichenstein-ziditchov",
+   "name": "רבי שלום אייכנשטין מזידיטשוב",
+   "dateH": "ב׳ אלול תשמ״ז"
+  },
+  {
+   "id": "shalom-eichenstein-ziditchov-safed-gnyr-yvrk",
+   "name": "רבי שלום אייכנשטין מזידיטשוב צפת גניר יורק",
+   "dateH": "ב׳ אלול תשמ״ז"
+  }
+ ],
+ "Elul-3": [
+  {
+   "id": "baruch-katzenellenbogen-mkvnstntyn",
+   "name": "רבי ברוך קצנלנבוגן מקונסטנטין",
+   "dateH": "ג׳ אלול תרנ״א"
+  },
+  {
+   "id": "yecahk-vilipoli",
+   "name": "רבי יעחק מוויליפולי",
+   "dateH": "ג׳ אלול תש״ג"
+  },
+  {
+   "id": "yaakov-yosef-koristyshev",
+   "name": "רבי יעקב יוסף מאורזיסטשוב",
+   "dateH": "ג׳ אלול תש״א"
+  },
+  {
+   "id": "yitzchak-yeshaya-tshchoiv",
+   "name": "רבי יצחק ישעיה הלברשטאם מטשכויב־קראקא",
+   "dateH": "ג׳ אלול תש״ג"
+  },
+  {
+   "id": "yitzchak-wielopoli",
+   "name": "רבי יצחק ליפשיץ מוויליפולי",
+   "dateH": "ג׳ אלול תש״ג"
+  },
+  {
+   "id": "yissachar-dov-beratsahe-magadabvarnah",
+   "name": "רבי ישכר דב בערטשע מגאדבורנה",
+   "dateH": "ג׳ אלול תר״ח"
+  },
+  {
+   "id": "menachem-david-kuzmir",
+   "name": "רבי מנחם דוד טאוב מקוזמיר",
+   "dateH": "אב אלול תש״ב"
+  },
+  {
+   "id": "moshe-friedman-boyan-krakow",
+   "name": "רבי משה פרידמן מבויאן - קראקא",
+   "dateH": "ג׳ אלול תש״ג"
+  },
+  {
+   "id": "meshulam-zvsya-zinkov",
+   "name": "רבי משולם זוסיא מזינקוב",
+   "dateH": "ג׳ אלול תרכ״ד"
+  },
+  {
+   "id": "tzvi-hirsch-lomza",
+   "name": "רבי צבי הירש מורגנשטרן מלומאז׳ה",
+   "dateH": "ג׳ אלול תרפ״ו"
+  }
+ ],
+ "Elul-4": [
+  {
+   "id": "chaim-meir-yechiel-mryndzdvb",
+   "name": "רבי חיים מאיר יחיאל מרינדזדוב",
+   "dateH": "ד׳ אלול תש״ב"
+  },
+  {
+   "id": "yosef-meir-polak-bergsas",
+   "name": "רבי יוסף מאיר פולק מברגסאס",
+   "dateH": "ד׳ אלול תש״א"
+  },
+  {
+   "id": "yeshaya-pshedborz",
+   "name": "רבי ישעיה וולטפרייד מפשדבורז",
+   "dateH": "ד׳ אלול תקע״א"
+  },
+  {
+   "id": "tzvi-elimelech-rokeach-dynow-byrsh",
+   "name": "רבי צבי אלימלך רוקח מדינוב בירסש",
+   "dateH": "ד׳ אלול תשכ״ד"
+  }
+ ],
+ "Elul-5": [
+  {
+   "id": "david-tzvi-shlomo-biederman",
+   "name": "רבי דוד צבי שלמה בידרמן מלעלוב",
+   "dateH": "ה׳ אלול תרע״ח"
+  },
+  {
+   "id": "david-tzvi-shlomo-biederman-mlklvb",
+   "name": "רבי דוד צבי שלמה בידרמן מלקלוב",
+   "dateH": "ה׳ אלול תרע״ח"
+  }
+ ],
+ "Elul-6": [
+  {
+   "id": "yekutiel-yehuda-sighet",
+   "name": "רבי יקותיאל יהודה טייטלבוים מסיגעט",
+   "dateH": "ו׳ אלול תרמ״ג"
+  },
+  {
+   "id": "meir-iasi",
+   "name": "רבי מאיר מיאס",
+   "dateH": "ו׳ אלול תרע״ז"
+  }
+ ],
+ "Elul-7": [
+  {
+   "id": "alter-aharon-aryeh-mavsahkavbytaz-shatz",
+   "name": "רבי אלטר אהרן אריה מושקוביץ משאץ",
+   "dateH": "ז׳ אלול תרע״א"
+  },
+  {
+   "id": "yisrael-aylak-unger-bagv",
+   "name": "רבי ישרא אילך אונגר !ו בגו",
+   "dateH": "ז׳ אלול תרכ״ז"
+  }
+ ],
+ "Elul-9": [
+  {
+   "id": "aharon-menachem-mendel-radzimin",
+   "name": "רבי אהרן מנחם מנדל גוטרמן מראדזימין",
+   "dateH": "ט׳ אלול תרצ״ד"
+  },
+  {
+   "id": "yitzchak-husiatyn",
+   "name": "רבי יצחק מהוסיאטין",
+   "dateH": "ט׳ אלול תשכ״ח"
+  },
+  {
+   "id": "nhvm-mordechai-perlov-mnvbvbvybsh-k",
+   "name": "רבי נהום מרדכי פרלוב מנובובויבש ק",
+   "dateH": "ט׳ אלול תשל״ו"
+  },
+  {
+   "id": "edavk-biala-lublin",
+   "name": "רבי עדוק הכהן רבינוביץ מלובלין",
+   "dateH": "ט׳ אלול תר״ס"
+  }
+ ],
+ "Elul-10": [
+  {
+   "id": "yehuda-aryeh-perlov-novominsk-wlodawa",
+   "name": "רבי יהודה אריה פרלוב מנובומינסק וולאדובה",
+   "dateH": "י׳ אלול תשכ״א"
+  },
+  {
+   "id": "yitzchak-friedman-bohush",
+   "name": "רבי יצחק פרידמן מבוהוש",
+   "dateH": "י׳ אלול תרנ״ו"
+  },
+  {
+   "id": "moshe-leib-friedman-pashkan",
+   "name": "רבי משה ליב פרידמן מפשקאן",
+   "dateH": "י׳ אלול תש״ז"
+  }
+ ],
+ "Elul-11": [
+  {
+   "id": "avraham-yehoshua-heschel-freund-nasod",
+   "name": "רבי אברהם יהושע השל פריינד מנאסויב",
+   "dateH": "י״א אלול תרע״ב"
+  },
+  {
+   "id": "avraham-yaakov-friedman-sadigura",
+   "name": "רבי אברהם יעקב פרידמן מסדיגורא",
+   "dateH": "י״א אלול תרמ״ג"
+  },
+  {
+   "id": "zeev-wolf-strykov",
+   "name": "רבי זאב וואלף לנדוי מסטריקוב",
+   "dateH": "י״א אלול תרנ״ח"
+  },
+  {
+   "id": "chaim-moshe-yehoshua-matvamasahpy-kavydynavm",
+   "name": "רבי חיים משה יהושע מטומאשפי-קוידינום",
+   "dateH": "י״א אלול תשי״ט"
+  },
+  {
+   "id": "pinchas-koretz",
+   "name": "רבי פנחס מקוריץ",
+   "dateH": "י״א אלול תקנ״א"
+  },
+  {
+   "id": "shalom-yosef-friedman-ruzhin",
+   "name": "רבי שלום יוסף פרידמן מרוז׳ין",
+   "dateH": "י״א אלול תרי״א"
+  }
+ ],
+ "Elul-12": [
+  {
+   "id": "avraham-menachem-nachum-tversky-chelm",
+   "name": "רבי אברהם מנחם נחום טברסקי מחלם",
+   "dateH": "י״ב אלול תש״ב"
+  },
+  {
+   "id": "elazar-lancut",
+   "name": "רבי אלעזר שפירא מלאנצוט",
+   "dateH": "י״ב אלול תרכ״ה"
+  },
+  {
+   "id": "moshe-elkim-bryeh-mkvdnytz",
+   "name": "רבי משה אליקים בריעה מקודניץ",
+   "dateH": "י״ב אלול תקפ״ח"
+  },
+  {
+   "id": "simcha-bunim-peshischa",
+   "name": "רבי שמחה בונים מפשיסחא",
+   "dateH": "י״ב אלול תקפ״ז"
+  }
+ ],
+ "Elul-13": [
+  {
+   "id": "avraham-yissachar-radomsk",
+   "name": "רבי אברהם ישכר הכהן רבינוביץ מראדומסק",
+   "dateH": "י״ג אלול תרנ״ב"
+  },
+  {
+   "id": "chaim-shapira-plock",
+   "name": "רבי חיים שפירא מפלאצק",
+   "dateH": "י״ג אלול תר״פ"
+  },
+  {
+   "id": "yaakov-yisrael-cherkasy",
+   "name": "רבי יעקב ישראל טברסקי מטשרקס",
+   "dateH": "י״ג אלול תרל״ו"
+  }
+ ],
+ "Elul-14": [
+  {
+   "id": "avraham-aharon-makvalbasvap",
+   "name": "רבי אברהם אהרן מקולבסוף",
+   "dateH": "י״ד אלול תר״ע"
+  },
+  {
+   "id": "uri-langner-knihinichi",
+   "name": "רבי אורי לנגנר מקניהיניטש–ניו יורק",
+   "dateH": "י״ד אלול תש״ל"
+  },
+  {
+   "id": "baruch-mordechai-atynagr-mabvabravysak",
+   "name": "רבי ברוך מרדכי אטינגר מבוברויסק",
+   "dateH": "י״ד אלול תרי״ז"
+  }
+ ],
+ "Elul-15": [
+  {
+   "id": "avraham-yehoshua-heschel-adjud",
+   "name": "רבי אברהם יהושע השל מאדזשוד",
+   "dateH": "ט״ו אלול ת״ש"
+  },
+  {
+   "id": "yisrael-yaakov-yokel-volova",
+   "name": "רבי ישראל יעקב יוקל טייטלבוים מוואלאווא",
+   "dateH": "ט״ו אלול תרפ״ד"
+  },
+  {
+   "id": "menachem-mendel-lyser-mavdavnaskavvalah",
+   "name": "רבי מנחם מנדל ליסער מודונסקוואלה",
+   "dateH": "ט״ו אלול תרל״ג"
+  },
+  {
+   "id": "nachum-brandwein-borshtin",
+   "name": "רבי נחום ברנדווין מבורשטין",
+   "dateH": "ט״ו אלול תרע״ה"
+  },
+  {
+   "id": "pinchas-horowitz-kosov",
+   "name": "רבי פנחס הורביץ קוסוב",
+   "dateH": "ט״ו אלול תרע״ח"
+  }
+ ],
+ "Elul-16": [
+  {
+   "id": "avraham-avigdor-nachum-strikov",
+   "name": "רבי אברהם אביגדור נחום לנדא מסטריקוב",
+   "dateH": "ט״ז אלול תשס״א"
+  },
+  {
+   "id": "yaakov-kavpal-makvalvamvya",
+   "name": "רבי יעקב קופל מקולומויא",
+   "dateH": "ט״ז אלול תקמ״ז"
+  }
+ ],
+ "Elul-17": [
+  {
+   "id": "chaim-yehuda-sahyynaplab",
+   "name": "רבי חיים יהודה שיינפלב",
+   "dateH": "י״ז אלול תשכ״ח"
+  },
+  {
+   "id": "yosef-yvaskah-konstantin-varvabgah",
+   "name": "רבי יוסף-יוסקה הלוי מקונסטנטין ורובגה",
+   "dateH": "י״ז אלול תק״ס"
+  }
+ ],
+ "Elul-18": [
+  {
+   "id": "avraham-shimshon-rashkov",
+   "name": "רבי אברהם שמשון מראשקוב",
+   "dateH": "י״ח אלול תקנ״ט"
+  },
+  {
+   "id": "yosef-katzenellenbogen-ostila",
+   "name": "רבי יוסף קצנלנבוגן מאוסטילה",
+   "dateH": "י״ח אלול"
+  },
+  {
+   "id": "yisrael-moshe-lifshitz-prushkov",
+   "name": "רבי ישראל משה ליפשיץ מפרושקוב",
+   "dateH": "י״ח אלול תרע״ה"
+  },
+  {
+   "id": "moshe-meir-shatz",
+   "name": "רבי משה מאיר משאץ - ארצות הברית",
+   "dateH": "ח״י אלול תשס״ו"
+  }
+ ],
+ "Elul-19": [
+  {
+   "id": "mshvmbm-feivish-halperin-bvbrvn",
+   "name": "רבי משוםבם פייביש הלפרין בוברון",
+   "dateH": "י״ט אלול תרל״ד"
+  }
+ ],
+ "Elul-20": [
+  {
+   "id": "avraham-alter-polak-bergsas-petach-tikva",
+   "name": "רבי אברהם אלטר פולק מברגטאט - פתח תקוה",
+   "dateH": "כ׳ אלול תשס״ו"
+  },
+  {
+   "id": "yitzchak-rubin-brody",
+   "name": "רבי יצחק רובין מבראד",
+   "dateH": "כ׳ אלול תרל״ד"
+  }
+ ],
+ "Elul-21": [
+  {
+   "id": "asher-yeshaya-rubin-mkvlbtvb",
+   "name": "רבי אשר ישעיה רובין מקולבטוב",
+   "dateH": "כ״א אלול תרע״ד"
+  },
+  {
+   "id": "dov-berish-malask",
+   "name": "רבי דב בעריש מאלסק",
+   "dateH": "כ״א אלול תר״י"
+  }
+ ],
+ "Elul-22": [
+  {
+   "id": "avraham-moshe-rospsha",
+   "name": "רבי אברהם משה וולטפרייד מרוספשה",
+   "dateH": "כ״ב אלול תרע״ה"
+  },
+  {
+   "id": "elimelech-yaakov-yecahk-rabinowitz-masvakdanyvab",
+   "name": "רבי אלימלך יעקב יעחק רבינוביץ מסוכדניוב",
+   "dateH": "כ״ב אלול תרצ״ח"
+  },
+  {
+   "id": "chaim-rabinowitz-bucharest",
+   "name": "רבי חיים רבינוביץ מבוקרשט",
+   "dateH": "כ״ב אלול תשי״א"
+  },
+  {
+   "id": "chanoch-henich-twersky",
+   "name": "רבי חנוך העניך טווערסקי",
+   "dateH": "כ״ב אלול תשל״א"
+  },
+  {
+   "id": "ysahpar-berashashe-nadvorna-satamr",
+   "name": "רבי ישפר רב בערששע מנאדבורנה - סאטמר",
+   "dateH": "כ״ב אלול תרס״ו"
+  },
+  {
+   "id": "mordechai-tversky-mahvarnysatyypavl",
+   "name": "רבי מרדכי רב טברסקי מהורניסטייפול",
+   "dateH": "כ״ב אלול תרס״ג"
+  },
+  {
+   "id": "pinchas-kinsk",
+   "name": "רבי פנחס רבינוביץ מקינסק",
+   "dateH": "כ״ב אלול תרס״א"
+  }
+ ],
+ "Elul-23": [
+  {
+   "id": "avry-hshrp-strelisk",
+   "name": "רבי אורי השרף מסטרליסק",
+   "dateH": "כ״ג אלול תקפ״ו"
+  },
+  {
+   "id": "yosef-moshe-mazalavzytaz",
+   "name": "רבי יוסף משה מזאלוזיץ",
+   "dateH": "כ״ג אלול תקע״ה"
+  },
+  {
+   "id": "yaakov-yitzchak-biederman",
+   "name": "רבי יעקב יצחק בידרמן",
+   "dateH": "כ״ג אלול תשמ״א"
+  }
+ ],
+ "Elul-24": [
+  {
+   "id": "avraham-yosef-aygara-maktanavb-vylyn-karaka",
+   "name": "רבי אברהם יוסף איגרא מקטאנוב וילין קראקא",
+   "dateH": "כ״ד אלול תרע״ח"
+  },
+  {
+   "id": "dov-ber-friedman-tshortkov",
+   "name": "רבי דוב בער פרידמן מטשורטקוב",
+   "dateH": "כ״ד אלול תרצ״ו"
+  }
+ ],
+ "Elul-25": [
+  {
+   "id": "david-chshanow",
+   "name": "רבי דוד הלברשטאם מקשאנוב",
+   "dateH": "כ״ה אלול תרנ״ד"
+  },
+  {
+   "id": "yechiel-michel-zlotchov",
+   "name": "רבי יחיאל מיכל מזלאטשוב",
+   "dateH": "כ״ה אלול תקמ״א"
+  },
+  {
+   "id": "yechiel-mypal-mavlavtashavb",
+   "name": "רבי יחיאל מיפל מולוטשוב",
+   "dateH": "כ״ה אלול תקמ״א"
+  },
+  {
+   "id": "yitzchak-menachem-dancyger",
+   "name": "רבי יצחק מנחם מענדל דנציגר מאלכסנדר",
+   "dateH": "כ״ה אלול תש״ג"
+  }
+ ],
+ "Elul-26": [
+  {
+   "id": "aharon-koidanov",
+   "name": "רבי אהרן מקוידנוב",
+   "dateH": "כ״ו אלול תרנ״ז"
+  },
+  {
+   "id": "elikim-getz-ostroha",
+   "name": "רבי אליקים געץ מאוסטרהא",
+   "dateH": "כ״ו אלול תקפ״ד"
+  },
+  {
+   "id": "binyamin-sheinblum-lviv",
+   "name": "רבי בנימין שענבלום מלבוב",
+   "dateH": "כ״ו אלול ת״ר"
+  },
+  {
+   "id": "chanoch-henich-bornstein-sokhatchov",
+   "name": "רבי חנוך הניך בורנשטין מסוכאטשוב",
+   "dateH": "כ״ו אלול תשכ״ה"
+  },
+  {
+   "id": "yisrael-zmigrod",
+   "name": "רבי ישראל מזמיגראד",
+   "dateH": "כ״ו אלול תשמ״א"
+  },
+  {
+   "id": "naftali-gross-krestir",
+   "name": "רבי נפתלי גרוס מקרעסטיר",
+   "dateH": "כ״ו אלול תשמ״ח"
+  },
+  {
+   "id": "shmuel-abba-zychlin",
+   "name": "רבי שמואל אבא מזיכלין",
+   "dateH": "כ״ו אלול תרל״ט"
+  }
+ ],
+ "Elul-27": [
+  {
+   "id": "yechiel-michel-horodenka",
+   "name": "רבי יחיאל מיכל מהורודנקא",
+   "dateH": "כ״ז אלול תש״ג"
+  },
+  {
+   "id": "yisrael-tversky-skvira",
+   "name": "רבי ישראל טברסקי מסקווירא",
+   "dateH": "כ״ז אלול תרע״ט"
+  },
+  {
+   "id": "moshe-natan-neta-segal-yvangaryyd-tysapyred",
+   "name": "רבי משה נתן נטע סגל יונגרייד טיסאפירעד",
+   "dateH": "כ״ז אלול תרמ״ט"
+  },
+  {
+   "id": "nachman-radvil",
+   "name": "רבי נחמן מראדוויל",
+   "dateH": "כ״ז אלול תקנ״ו"
+  },
+  {
+   "id": "naftali-tzvi-stolin-tiberias",
+   "name": "רבי נפתלי צבי מסטולין-טבריה",
+   "dateH": "כ״ז אלול תרכ״ד"
+  }
+ ],
+ "Elul-28": [
+  {
+   "id": "avraham-leib-mabravk",
+   "name": "רבי אברהם ליב מברוק",
+   "dateH": "ייח אלול תרנ״ה"
+  },
+  {
+   "id": "alter-avraham-btzlal-natan-nte-biederman-sosnowiec-2",
+   "name": "רבי אלטר אברהם בצלאל נתן נטע בידרמן מסוסנוביץ",
+   "dateH": "כ״ח אלול תרצ״ג"
+  },
+  {
+   "id": "alter-avraham-betzalel-biederman",
+   "name": "רבי אלטר אברהם בצלאל נתן נטע בידרמן מסוסנוביץ",
+   "dateH": "כ״ח אלול תרצ״ג"
+  },
+  {
+   "id": "eliezer-vagsahl-zlotchov",
+   "name": "רבי אליעזר וגשל מזלוטשוב",
+   "dateH": "כ״ח אלול תרפ״ט"
+  },
+  {
+   "id": "tzvi-hirsch-warsaw",
+   "name": "רבי צבי הירש",
+   "dateH": "כ״ח אלול תקס״ד"
+  }
+ ],
+ "Elul-29": [
+  {
+   "id": "yisrael-biala-kishinev-myamy",
+   "name": "רבי ישראל רבינוביץ מקישינוב - מיאמי",
+   "dateH": "כ״ט אלול תשל״א"
+  },
+  {
+   "id": "mashavv-parlavbam-mashashavlykan",
+   "name": "רבי משוו פרלובם מששוליךן",
+   "dateH": "כ״ט אלול תש״ב"
+  }
+ ]
+}

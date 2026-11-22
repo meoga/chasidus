@@ -282,3 +282,30 @@ footer{margin-top:48px;border-top:1px solid var(--line);padding-top:16px;
 .proof-note{background:#fff7e0;border:1px solid #e8c96a;border-radius:10px;
   padding:10px 14px;color:#6b5316;font-size:.95rem}
 html[data-theme="dark"] .proof-note{background:#3a2f10;border-color:#6b5316;color:#e8c96a}
+
+/* ---------- homepage cards (2026-11-22) ---------- */
+.home-sub{color:var(--muted);font-size:1.05rem;margin:6px 0 0}
+.stat-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:22px 0}
+.stat-card{display:block;background:var(--panel);border:1px solid var(--line);
+  border-radius:var(--r-md);padding:16px 12px;text-align:center;
+  color:var(--ink);text-decoration:none;box-shadow:var(--shadow-sm);
+  transition:box-shadow .15s ease,transform .15s ease}
+.stat-card:hover{box-shadow:var(--shadow);transform:translateY(-1px)}
+.stat-card b{display:block;font-family:"David Libre",serif;font-size:1.9rem;line-height:1.1}
+.stat-card span{color:var(--muted);font-size:.92rem}
+.home-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin:8px 0}
+.hcard{background:var(--panel);border:1px solid var(--line);border-radius:var(--r-lg);
+  padding:20px 22px;box-shadow:var(--shadow-sm)}
+.hcard h2{font-family:"David Libre",serif;font-size:1.4rem;margin:0 0 12px}
+.hcard h3{font-family:"David Libre",serif;font-size:1.5rem;margin:0 0 6px;line-height:1.3}
+.hcard h3 a{color:var(--ink);text-decoration:none}
+.hcard p{margin:0 0 10px}
+.hcard .fine{font-size:.82rem;color:var(--muted)}
+.hcard figure{margin:0 0 10px}
+.hebrew-date{font-weight:700;font-size:1.08rem}
+.yz-list{margin:0;padding-inline-start:20px}
+.yz-list li{margin-bottom:6px}
+.recent-row{border-top:1px solid var(--line);padding:10px 0}
+.recent-row:first-of-type{border-top:0;padding-top:0}
+.recent-row .muted{font-size:.85rem;display:block}
+.recent-row p{margin:4px 0 0}
