@@ -116,3 +116,27 @@ itself says, based on Wodziński's Historical Atlas of Hasidism.
 - The generator was already present as `build.py`; this task patched it
   (unlocated-town stubs, null-safe town pages, tree-node links, era map
   layers) and added `build_site.py` as the documented entry point.
+
+## UI modernization — 2026-11-21/22 (presentation only, no content changes)
+
+- `site/assets/style.css` rewritten (277 lines): refined Hebrew type scale
+  (David Libre headings / Heebo body, 1.06rem/1.75 body), warmer paper
+  background, layered soft shadows, 8–16px radii, card treatment for
+  list rows / dynasty cards / town rows / timeline cards, pill search bar,
+  segmented era control, sticky blurred header, focus-visible rings,
+  44px+ tap targets, mobile nav scrolls horizontally under 640px,
+  `overflow-x: clip` safety net. Light/dark (prefers-color-scheme) kept
+  and audited — all colours via variables; fixed the too-dark
+  `.tnode.root span` in dark mode. No words, slogans or copy added.
+- `build.py` (design layer only, 3 small edits): Rebbe pages get a
+  `<nav class="relations">` strip (town / dynasty / teacher as labelled
+  cards, same links/targets) and the dates line gets class `dates`;
+  list pages get a breadcrumbs line. No data logic, entry rendering or
+  `render_full_text` touched.
+- Rebuilt with `build_site.py`: 1,108 HTML pages (696 Rebbes, 77
+  dynasties, 328 towns incl. unlocated stubs). Verification: 0 broken
+  internal links (all pages scanned); relations nav on 696/696 Rebbe
+  pages; 8 sample pages parse clean; CSS braces balanced; site.js /
+  search.js pass `node --check`; no fixed widths that could overflow on
+  phones. Map and timeline behaviour unchanged, only their chrome
+  restyled. No push to GitHub in this pass (parent pushes).
