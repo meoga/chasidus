@@ -133,8 +133,9 @@ blockquote{margin:20px 0;padding:20px 24px;background:var(--quote);
   font-family:"David Libre",serif;font-size:1.2rem;line-height:1.75}
 blockquote .src{display:block;margin-top:10px;font-family:Heebo,sans-serif;
   font-size:.85rem;color:var(--muted);font-weight:600}
-sup.fn{color:var(--accent);font-weight:700;font-size:.72em}
+sup.fn{color:var(--muted);font-weight:400;font-size:.68em}
 sup.fn a{color:inherit;text-decoration:none}
+sup.fn a + a{margin-inline-start:.18em}
 
 /* relations strip: teacher / town / dynasty — real navigation, not plain text */
 .relations{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 6px}
