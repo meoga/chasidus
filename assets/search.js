@@ -1,16 +1,20 @@
 (function(){
+var HE = {'js_search_empty':'כתבו מונח חיפוש — רבי, עיר, שושלת או ספר.', 'js_search_none':'לא נמצא דבר עבור', 'js_search_results':'תוצאות עבור', 'js_search_open':'פתיחה ←'};
+function T(k){ return (typeof window.chsT === 'function') ? window.chsT(k) : (HE[k] || ''); }
+function LG(){ return (typeof window.chsLang === 'function') ? window.chsLang() : 'he'; }
 function getQ(){ var m = location.search.match(/[?&]q=([^&]*)/); return m ? decodeURIComponent(m[1].replace(/\+/g, ' ')) : ''; }
 function render(q, idx){
   var box = document.getElementById('results');
   if(!box) return;
   q = (q || '').trim();
-  if(!q){ box.innerHTML = '<p class="empty">כתבו מונח חיפוש — רבי, עיר, שושלת או ספר.</p>'; return; }
+  if(!q){ box.innerHTML = '<p class="empty">' + T('js_search_empty') + '</p>'; return; }
   var hits = idx.filter(function(e){ return (e.t + ' ' + e.x).indexOf(q) !== -1; });
-  if(!hits.length){ box.innerHTML = '<p class="empty">לא נמצא דבר עבור ״' + q.replace(/</g, '&lt;') + '״.</p>'; return; }
-  box.innerHTML = '<p>' + hits.length + ' תוצאות עבור ״' + q.replace(/</g, '&lt;') + '״:</p>' +
+  if(!hits.length){ box.innerHTML = '<p class="empty">' + T('js_search_none') + ' “' + q.replace(/</g, '&lt;') + '”.</p>'; return; }
+  box.innerHTML = '<p>' + hits.length + ' ' + T('js_search_results') + ' “' + q.replace(/</g, '&lt;') + '”:</p>' +
     hits.map(function(e){
+      var kind = (LG() === 'en' && e.ke) ? e.ke : e.k;
       return '<a class="rrow" href="' + e.u + '"><span><span class="nm">' + e.t.replace(/</g, '&lt;') +
-        '</span><br><span class="mt">' + e.k + '</span></span><span class="go">פתיחה ←</span></a>';
+        '</span><br><span class="mt">' + kind + '</span></span><span class="go">' + T('js_search_open') + '</span></a>';
     }).join('');
 }
 var input = document.getElementById('q');

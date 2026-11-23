@@ -13,23 +13,25 @@
 <body>
 <div class="wrap">
 <header class="topbar">
-<a class="brand" href="../index.html">חסידות</a>
-<nav class="nav"><a href="../index.html">ראשי</a><a href="../rebbes.html">אדמו״רים</a><a href="../dynasties.html">שושלות</a><a href="../towns.html">ערים</a><a href="../timeline.html">ציר זמן</a><a href="../sources.html">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש"><button type="submit">חיפוש</button></form>
+<a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
+<nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
+<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<button id="langToggle" class="lang-toggle" type="button">EN</button>
 </header>
-<p class="crumbs"><a href="../index.html">ראשי</a> / <a href="../towns.html">ערים</a> / פלאצק</p>
+<p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../towns.html" data-i18n="nav_towns">ערים</a> / פלאצק</p>
 <article class="art">
 <h2>פלאצק</h2>
 <p>פולין</p>
 <p>פלאצק (Płock); רבי אלכסנדר זושא הכהן כיהן בה כרב וסבל בה ממחלוקת. קואורדינטות לפי ויקיפדיה האנגלית.</p>
-<p><b>קואורדינטות:</b> 52.55, 19.7</p>
+<p><b data-i18n="coords">קואורדינטות:</b> 52.55, 19.7</p>
 <div id="map" class="mini" data-lat="52.55" data-lon="19.7" data-name="פלאצק"></div>
-<p class="map-credit"><a href="https://www.openstreetmap.org/?mlat=52.55&mlon=19.7#map=12/52.55/19.7">פתיחה ב־OpenStreetMap</a> · <a href="https://www.google.com/maps/search/?api=1&query=פלאצק">פתיחה בגוגל מפות</a> · מפה: © תורמי OpenStreetMap</p>
-<h3>אדמו״רים בעיר</h3>
+<p class="map-credit"><a href="https://www.openstreetmap.org/?mlat=52.55&mlon=19.7#map=12/52.55/19.7" data-i18n="osm_open">פתיחה ב־OpenStreetMap</a> · <a href="https://www.google.com/maps/search/?api=1&query=פלאצק" data-i18n="gmaps_open">פתיחה בגוגל מפות</a> · <span data-i18n="map_credit_short">מפה: © תורמי OpenStreetMap</span></p>
+<h3 data-i18n="town_rebbes">אדמו״רים בעיר</h3>
 <div class="rlist"><a class="rrow" href="../rebbe/ysahtaral-mapalatazk-ben-peretz.html"><span><span class="nm">רבי ישטראל מפאלאצק בן רבי פרץ</span><br><span class="mt">מפאלאצק</span></span><span class="go">1783 — 1784</span></a><a class="rrow" href="../rebbe/azriel-mapalatazk.html"><span><span class="nm">רבי עזריאל מפאלאצק</span><br><span class="mt">מפאלאצק</span></span><span class="go"></span></a><a class="rrow" href="../rebbe/chaim-shapira-plock.html"><span><span class="nm">רבי חיים שפירא מפלאצק</span><br><span class="mt">בנו של שלום שפירא מפשיטיק</span></span><span class="go">5639 — 27 August 1920</span></a><a class="rrow" href="../rebbe/ranyal-mapalatazk.html"><span><span class="nm">רבי רניאל מפאלאצק</span><br><span class="mt">בנו של אברהם מצפת. ייתכן שהם שני אנשים. · אדמו״ר בפאלאצק</span></span><span class="go"></span></a><a class="rrow" href="../rebbe/natan-palatazk.html"><span><span class="nm">רבי נתן פאלאצק</span><br><span class="mt">ערך באלפסי, כרך ד׳, עמ׳ 438</span></span><span class="go"></span></a></div>
 </article>
-<footer>חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול <a href="../sources.html">המקורות</a>.</footer>
+<footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
+<script src="../assets/lang.js"></script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script src="../assets/site.js" data-assets="../assets/"></script>
 </body>
 </html>

@@ -57,6 +57,9 @@ function initMap(){
   }
 }
 function initHome(){
+  var HE = {'js_yz_nohebrew':'לא נמצא תאריך עברי להיום.', 'js_yz_today':'היום', 'js_yz_died':'נפטר', 'js_yz_none':'היום אין יארצייטן באתר.', 'js_yz_next':'היארצייט הקרוב:', 'js_yz_fail':'לא הצלחנו לטעון את היארצייטן.'};
+  function T(k){ return (typeof window.chsT === 'function') ? window.chsT(k) : (HE[k] || ''); }
+  function LG(){ return (typeof window.chsLang === 'function') ? window.chsLang() : 'he'; }
   var assets = (document.currentScript && document.currentScript.getAttribute('data-assets')) || 'assets/';
   var yz = document.getElementById('yahrtzeit');
   if(yz){
@@ -68,8 +71,8 @@ function initHome(){
     ]).then(function(pair){
       var heb = pair[0], idx = pair[1];
       var h = heb[iso];
-      if(!h){ yz.innerHTML = '<p>לא נמצא תאריך עברי להיום.</p>'; return; }
-      var head = '<p class="hebrew-date">היום, ' + h.dh + ' ב' + h.mh + ' ' + h.yh + '</p>';
+      if(!h){ yz.innerHTML = '<p>' + T('js_yz_nohebrew') + '</p>'; return; }
+      var head = '<p class="hebrew-date">' + T('js_yz_today') + ', ' + h.dh + (LG() === 'he' ? ' ב' : ' ') + h.mh + ' ' + h.yh + '</p>';
       var keys = [h.m + '-' + h.d];
       if(h.m === 'Adar II') keys.push('Adar-' + h.d);
       if((h.m === 'Cheshvan' || h.m === 'Kislev') && h.d === 29){
@@ -82,7 +85,7 @@ function initHome(){
       if(names.length){
         yz.innerHTML = head + '<ul class="yz-list">' + names.map(function(e){
           return '<li><a href="rebbe/' + e.id + '.html">' + e.name + '</a>' +
-            ' <span class="muted">נפטר ' + e.dateH + '</span></li>';
+            ' <span class="muted">' + T('js_yz_died') + ' ' + e.dateH + '</span></li>';
         }).join('') + '</ul>';
       } else {
         var found = null;
@@ -97,14 +100,14 @@ function initHome(){
           k2.forEach(function(k){ (idx[k] || []).forEach(function(e){ list.push(e); }); });
           if(list.length) found = {h: h2, list: list};
         }
-        var html = head + '<p>היום אין יארצייטן באתר.</p>';
+        var html = head + '<p>' + T('js_yz_none') + '</p>';
         if(found){
-          html += '<p>היארצייט הקרוב: ' + found.h.dh + ' ב' + found.h.mh + ' — ' +
+          html += '<p>' + T('js_yz_next') + ' ' + found.h.dh + (LG() === 'he' ? ' ב' : ' ') + found.h.mh + ' — ' +
             found.list.map(function(e){ return '<a href="rebbe/' + e.id + '.html">' + e.name + '</a>'; }).join(', ') + '</p>';
         }
         yz.innerHTML = html;
       }
-    }).catch(function(){ yz.innerHTML = '<p>לא הצלחנו לטעון את היארצייטן.</p>'; });
+    }).catch(function(){ yz.innerHTML = '<p>' + T('js_yz_fail') + '</p>'; });
   }
   var rb = document.getElementById('randomRebbe');
   if(rb){

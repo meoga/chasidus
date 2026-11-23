@@ -13,23 +13,25 @@
 <body>
 <div class="wrap">
 <header class="topbar">
-<a class="brand" href="../index.html">חסידות</a>
-<nav class="nav"><a href="../index.html">ראשי</a><a href="../rebbes.html">אדמו״רים</a><a href="../dynasties.html">שושלות</a><a href="../towns.html">ערים</a><a href="../timeline.html">ציר זמן</a><a href="../sources.html">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש"><button type="submit">חיפוש</button></form>
+<a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
+<nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
+<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<button id="langToggle" class="lang-toggle" type="button">EN</button>
 </header>
-<p class="crumbs"><a href="../index.html">ראשי</a> / <a href="../towns.html">ערים</a> / יורוביץ</p>
+<p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../towns.html" data-i18n="nav_towns">ערים</a> / יורוביץ</p>
 <article class="art">
 <h2>יורוביץ</h2>
 <p>בלארוס, מחוז הומל</p>
 <p>כאן נפטר ונטמן רבי ישראל מיורוביץ, נכד הבעש״ט; הסידור של הבעש״ט עבר מכאן לרבי מרדכי מטשרנובל.</p>
-<p><b>קואורדינטות:</b> 51.95, 29.533</p>
+<p><b data-i18n="coords">קואורדינטות:</b> 51.95, 29.533</p>
 <div id="map" class="mini" data-lat="51.95" data-lon="29.533" data-name="יורוביץ"></div>
-<p class="map-credit"><a href="https://www.openstreetmap.org/?mlat=51.95&mlon=29.533#map=12/51.95/29.533">פתיחה ב־OpenStreetMap</a> · <a href="https://www.google.com/maps/search/?api=1&query=יורוביץ">פתיחה בגוגל מפות</a> · מפה: © תורמי OpenStreetMap</p>
-<h3>אדמו״רים בעיר</h3>
+<p class="map-credit"><a href="https://www.openstreetmap.org/?mlat=51.95&mlon=29.533#map=12/51.95/29.533" data-i18n="osm_open">פתיחה ב־OpenStreetMap</a> · <a href="https://www.google.com/maps/search/?api=1&query=יורוביץ" data-i18n="gmaps_open">פתיחה בגוגל מפות</a> · <span data-i18n="map_credit_short">מפה: © תורמי OpenStreetMap</span></p>
+<h3 data-i18n="town_rebbes">אדמו״רים בעיר</h3>
 <div class="rlist"><a class="rrow" href="../rebbe/yisrael-yuravitz.html"><span><span class="nm">רבי ישראל מיורוביץ</span><br><span class="mt">נכד הבעש״ט · חברו של רבי מרדכי מטשרנובל</span></span><span class="go">? — ?</span></a><a class="rrow" href="../rebbe/avraham-yitzchak-madvarvabytaz.html"><span><span class="nm">רבי אברהם יצחק מדורוביץ</span><br><span class="mt">ערך באלפסי, כרך ד׳, עמ׳ 393</span></span><span class="go"></span></a></div>
 </article>
-<footer>חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול <a href="../sources.html">המקורות</a>.</footer>
+<footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
+<script src="../assets/lang.js"></script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script src="../assets/site.js" data-assets="../assets/"></script>
 </body>
 </html>

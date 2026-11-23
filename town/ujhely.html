@@ -13,23 +13,25 @@
 <body>
 <div class="wrap">
 <header class="topbar">
-<a class="brand" href="../index.html">חסידות</a>
-<nav class="nav"><a href="../index.html">ראשי</a><a href="../rebbes.html">אדמו״רים</a><a href="../dynasties.html">שושלות</a><a href="../towns.html">ערים</a><a href="../timeline.html">ציר זמן</a><a href="../sources.html">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש"><button type="submit">חיפוש</button></form>
+<a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
+<nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
+<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<button id="langToggle" class="lang-toggle" type="button">EN</button>
 </header>
-<p class="crumbs"><a href="../index.html">ראשי</a> / <a href="../towns.html">ערים</a> / איהל</p>
+<p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../towns.html" data-i18n="nav_towns">ערים</a> / איהל</p>
 <article class="art">
 <h2>איהל</h2>
 <p>הונגריה</p>
 <p>איהל (Sátoraljaújhely); רבי משה טייטלבוים, בעל ישמח משה, כיהן בה כרב ואדמו״ר.</p>
-<p><b>קואורדינטות:</b> 48.39667, 21.64972</p>
+<p><b data-i18n="coords">קואורדינטות:</b> 48.39667, 21.64972</p>
 <div id="map" class="mini" data-lat="48.39667" data-lon="21.64972" data-name="איהל"></div>
-<p class="map-credit"><a href="https://www.openstreetmap.org/?mlat=48.39667&mlon=21.64972#map=12/48.39667/21.64972">פתיחה ב־OpenStreetMap</a> · <a href="https://www.google.com/maps/search/?api=1&query=איהל">פתיחה בגוגל מפות</a> · מפה: © תורמי OpenStreetMap</p>
-<h3>אדמו״רים בעיר</h3>
+<p class="map-credit"><a href="https://www.openstreetmap.org/?mlat=48.39667&mlon=21.64972#map=12/48.39667/21.64972" data-i18n="osm_open">פתיחה ב־OpenStreetMap</a> · <a href="https://www.google.com/maps/search/?api=1&query=איהל" data-i18n="gmaps_open">פתיחה בגוגל מפות</a> · <span data-i18n="map_credit_short">מפה: © תורמי OpenStreetMap</span></p>
+<h3 data-i18n="town_rebbes">אדמו״רים בעיר</h3>
 <div class="rlist"><a class="rrow" href="../rebbe/moshe-teitelbaum-ujhely.html"><span><span class="nm">רבי משה טייטלבוים מאיהל</span><br><span class="mt">מייסד שושלת טייטלבוים (איהל, סיגעט, סטמר) · תלמידו המובחק של החוזה מלובלין</span></span><span class="go">1759 — 1841</span></a><a class="rrow" href="../rebbe/moshe-yosef-ujhely.html"><span><span class="nm">רבי משה יוסף טייטלבוים מאיהל</span><br><span class="mt">בן רבי יקותיאל יהודה · דרשן מפורסם · רב בזבורוב, סטרופקוב ואיהל</span></span><span class="go">1845 — 1897</span></a><a class="rrow" href="../rebbe/berachia-ujhely.html"><span><span class="nm">רבי ברכיה טייטלבוים מאיהל</span><br><span class="mt">בן רבי משה יוסף מאיהל · דור חמישי לרבי משה טייטלבוים מאיהל</span></span><span class="go">— 1917</span></a><a class="rrow" href="../rebbe/elimelech-klausenburg.html"><span><span class="nm">רבי אלימלך</span><br><span class="mt">בן רבי טשמעון מקלויזנבורג (2975)</span></span><span class="go"></span></a></div>
 </article>
-<footer>חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול <a href="../sources.html">המקורות</a>.</footer>
+<footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
+<script src="../assets/lang.js"></script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script src="../assets/site.js" data-assets="../assets/"></script>
 </body>
 </html>
