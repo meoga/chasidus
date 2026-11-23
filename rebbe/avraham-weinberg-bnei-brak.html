@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי אברהם וינברג מסלונים־בני ברק</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">תורתו</a></li><li><a href="#sec-3">מה שלא ידוע</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי אברהם וינברג מסלונים־בני ברק</h2>
 <p class="subtitle">האדמו״ר מסלאנים בבני ברק · ענף סלאנים</p>
@@ -27,17 +33,19 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי מיכל אהרן וינברג — צאצא בן אחרי בן מהאדמו״ר רבי אברהם מסלונים (על פי ויקיפדיה העברית)</dd></div><div><dt>לידתו</dt><dd>נולד בכ״ט בחשון תש״ה (15 בנובמבר 1944), על פי ויקיפדיה העברית</dd></div><div><dt>חותנו</dt><dd>רבי שמואל וינברג, בנו של רבי אברהם מסלונים־ירושלים (בעל &#x27;ברכת אברהם&#x27;)</dd></div><div><dt>אדמו״רות</dt><dd>בשנת תשמ״א, כחודש לפני פטירת האדמו״ר רבי אברהם, הכתירו רוב החסידים את חתנו רבי שלום נח ברזובסקי לאדמו״ר; קבוצה מהחסידים התנגדו להכתרה, ולאחר פטירת רבי אברהם פרשו מן החסידות והכתירו את הרב וינברג לאדמו״ר (על פי ויקיפדיה העברית)</dd></div><div><dt>מרכזיו</dt><dd>הקים מרכזים חשובים בבני ברק ובירושלים, הכוללים ישיבות מפוארות</dd></div><div><dt>השם</dt><dd>חסידיו קוראים לעצמם &#x27;סלאנים&#x27;, כפי שנקראה העיר בחוץ לארץ, כדי להבדילם מהשושלת של סלונים־ירושלים</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/bnei-brak.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">בני ברק</span></a><a class="rel" href="../dynasty/slonim.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">שושלת סלונים</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>דור חמישי לרבי אברהם הראשון מסלונים. חתן רבי שמואל וינברג, בנו של רבי אברהם מסלונים־ירושלים (בעל 'ברכת אברהם'). לאחר פטירת רבי אברהם מסלונים־ירושלים בשנת תשמ״א דבקה בו קבוצה נכבדה של חסידי סלונים, והכתירוהו לאדמו״ר. הקים מרכזים חשובים בבני ברק ובירושלים, הכוללים ישיבות מפוארות.<sup class='fn'><a href="#note-1">1</a><a href="#note-2">2</a></sup></p>
-<h3>תורתו</h3>
+<h3 id="sec-2">תורתו</h3>
 <p>על 'בהעלותך' (במדבר ח׳ ב׳) דרש, על פי רש״י: למה נסמכה פרשת המנורה לפרשת הנשיאים? לפי שכשראה אהרן חנוכת הנשיאים, חלשה אז דעתו, כשלא היה עמהם בחנוכה, לא הוא ולא שבטו. אמר לו הקב״ה: חייך, שלך גדולה משלהם, שאתה מדליק ומטיב את הנרות. וצריך להבין: מה היתה חולשת דעתו? והלא לא היה ציווי שהנשיאים יקריבו, אלא הם נדבו מעצמם. אלא שאהרן היה שפל בדעתו והחזיק עצמו שאינו ראוי להקריב יחד עם הנשיאים, שהיו חשובי הדור. וזהו שאמר לו הקב״ה 'שלך גדולה משלהם' — שאתה שפל בעיניך, וכאילו הקרבת כל הקרבנות כולם. (מתוך דברים בפרשת בהעלותך)<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>בשם הרה״ק רבי אורי מסטרעליסק אמר, שאת כל מדותיו לא קנה על ידי עבודה ועמל, אלא על ידי תפלה: כי בשבירת היצר יש שתי דרכים — עבודה ועמל, והרבות בתפלה, כדכתיב 'אבנים שחקו מים' (איוב י״ד י״ט). משה רבנו עשה 'ויך את הסלע' — עבודה בכח ועמל; והקב״ה רצה שיורה לבני ישראל לדורות שיש עוד דרך קלה יותר — 'ודברתם אל הסלע' (במדבר כ׳ ח׳), כלומר על ידי תפלה. ואפילו שלבו קשה כסלע, על ידי דיבור ותפלה אפשר לשבור את הסלע. (מתוך דברים בפרשת חקת, תשמ״ג)<sup class='fn'><a href="#note-1">1</a></sup></p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>הערך נכתב בעודו בחיים (&#x27;שליט״א&#x27;) — לא נמסרו תאריכי פטירה, כמובן.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3006 (עמ׳ 70): &#x27;רבי אברהם וינברג מסלונים־בני ברק / דור חמישי לרבי אברהם הראשון מסלונים (2996) / האדמו״ר מסלאנים שליט״א / חתן רבי שמואל וינברג בן רבי אברהם מסלונים־ירושלים (3003)&#x27;. &#x27;ועבוג&#x27; ב־OCR הוא קריאה משובשת של &#x27;וינברג&#x27;.</li><li id="note-2">ויקיפדיה העברית, ערך &#x27;אברהם וינברג (בני ברק)&#x27;: נולד בכ״ט בחשוון ה׳תש״ה, נובמבר 1944; נישא לבתו של שמואל וינברג, בנו של האדמו״ר רבי אברהם וינברג ה&#x27;ברכת אברהם&#x27;; האדמו״ר מסלאנים הנוכחי; מתגורר בבני ברק. כ״ט חשון תש״ה = 15 בנובמבר 1944 (convertdate).</li><li id="note-3">חי בעת כתיבת קובץ זה (נובמבר 2026) — לכן datesH/datesG הם None, כדוגמת רבי דוד ברנדר בחלק א׳.</li></ol></div>
+<div class="unknown"><h3 id="sec-3" data-i18n="unknown">מה שלא ידוע</h3><p>הערך נכתב בעודו בחיים (&#x27;שליט״א&#x27;) — לא נמסרו תאריכי פטירה, כמובן.</p></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3006 (עמ׳ 70): &#x27;רבי אברהם וינברג מסלונים־בני ברק / דור חמישי לרבי אברהם הראשון מסלונים (2996) / האדמו״ר מסלאנים שליט״א / חתן רבי שמואל וינברג בן רבי אברהם מסלונים־ירושלים (3003)&#x27;. &#x27;ועבוג&#x27; ב־OCR הוא קריאה משובשת של &#x27;וינברג&#x27;.</li><li id="note-2">ויקיפדיה העברית, ערך &#x27;אברהם וינברג (בני ברק)&#x27;: נולד בכ״ט בחשוון ה׳תש״ה, נובמבר 1944; נישא לבתו של שמואל וינברג, בנו של האדמו״ר רבי אברהם וינברג ה&#x27;ברכת אברהם&#x27;; האדמו״ר מסלאנים הנוכחי; מתגורר בבני ברק. כ״ט חשון תש״ה = 15 בנובמבר 1944 (convertdate).</li><li id="note-3">חי בעת כתיבת קובץ זה (נובמבר 2026) — לכן datesH/datesG הם None, כדוגמת רבי דוד ברנדר בחלק א׳.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

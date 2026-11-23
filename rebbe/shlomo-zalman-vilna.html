@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי שלמה זלמן הכהן מוילנא</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מכתביו</a></li><li><a href="#sec-3">תלמידיו</a></li><li><a href="#sec-4">מה שלא ידוע</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי שלמה זלמן הכהן מוילנא</h2>
 <p class="subtitle">מראשי עליית החסידים לארץ בשנת תקל״ז; שד״ר החסידים; ׳ראשון במעלה בין החסידים שבארץ ישראל׳; נפטר ד׳ באדר שני תקנ״ט</p>
@@ -27,22 +33,24 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>מוצאו</dt><dd>מוילנא</dd></div><div><dt>עלייתו</dt><dd>מראשי עליית החסידים לארץ בשנת תקל״ז (1777)</dd></div><div><dt>שליחותו</dt><dd>יצא כמה פעמים בשליחות החסידים לחוץ לארץ; בשנת תקמ״א (1781) שב משליחותו שלם בגופו ושלם בממונו</dd></div><div><dt>מעמדו</dt><dd>נחשב לראשון במעלה בין החסידים שבארץ ישראל</dd></div><div><dt>בנו</dt><dd>רבי יצחק בן רבי שלמה זלמן, ׳ר׳ יצחק דער שווארצער׳ (ערך 1779 בפרק העולים)</dd></div><div><dt>פטירתו</dt><dd>ד׳ באדר שני תקנ״ט (11 במרץ 1799)</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/tiberias.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">טבריה</span></a><a class="rel" href="../dynasty/vitebsk.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">ויטבסק — עליית תקל״ז</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>מראשי עליית החסידים לארץ בשנת תקל״ז (1777). יצא כמה פעמים בשליחות החסידים לחוץ לארץ, ונחשב לראשון במעלה בין החסידים שבארץ ישראל. בשנת תקמ״א (1781) שב משליחותו, ורבי מנחם מנדל מויטבסק כתב לאחינו שבגולה על שובו: הודינו לאלקים עליון, ברוך ה׳ אשר לא השבית לנו גואל, פדה בשלום נפשינו — בעת בא חביבי הרבני המופלא רבי שלמה זלמן הכהן, משולח שלנו, שלם בגופו, שלם בממונו, ומי יוכל לספר עוזו ונפלאותיו אשר עשה עמנו.</p>
 <p>עוד קודם לכן כתב עליו רבי מנחם מנדל, באגרת לחוץ לארץ, כי הוא ציר אמונים היוצא למחיה, וכי מוטל עליו לפרוע חוב של מצוות כהן משוח — לעבור ממקום למקום ולאסוף את זהב התנופה ואת כסף התרומה.</p>
 <blockquote>ציר אמונים שולח למחיה לפנינו, ולשם פריעת חוב מצות כהן משוח, עובר ממקום למקום, הוא כבוד רב כהנא קדישא, שר התורה, אחד מאריות שבחבורה הרב הכולל... שלמה זלמן הכהן... האי כהנא שלוחא דרחמנא ושלוחא דידן, מקבלה ואילך ידיו תביאנה את כל זהב התנופה וכל כסף התרומה.<span class="src">מאגרת רבי מנחם מנדל מויטבסק, שנת תקמ״א — לקוטי אמרים, סימן א׳ (אלפסי, כרך ג׳, ערך 1789 בפרק העולים)</span></blockquote>
-<h3>מכתביו</h3>
+<h3 id="sec-2">מכתביו</h3>
 <p>במכתביו לחסידים שברוסיה הוא כותב על אהבת הארץ ועל העלייה: ׳פותחין בשלום הארץ... אף נחלת שפרה עלינו... ויצאנו מדירת קבע לדירת ארעה דישראל, קהל גדול עלו ויבואו גדודים גדודים... משום חיבת הקודש... ונשב בקדש ימים רבים ויהיו בעינינו כימים אחדים באהבה׳.</p>
 <p>באגרתו לרבי יעקב מסמוליאן הוא כותב על הקשר בין החסידים שבארץ לאדמו״ר, ועל חלקם של אלו שבחוץ לארץ: ׳יאמינו לי כי קשורים אתם ודבוקים באדמו״ר כאזור במתניו, וקורא אתכם אנשי לבבי, כאשר שמעתי מפיו הקדוש, יפרוש כנפיו עליכם ובצלו תחיו בגויים... ואנחנו קרובים אליו בגופנו ואתם בנשמתכם׳.</p>
 <blockquote>יאמין לי... כי טוב חלקו בחיים, כי הנה גופו עומד בחוץ ונופו נוטה לפנים, שדי נופא בתר עיקרא, כי הכל הולך אחר המחשבה, והמחשבה הוא האדם האמיתי, ואנו ושכמונו עומדים גופנו בפנים ונופו נוטה לחוץ. שלו גדול משלנו.<span class="src">מאגרתו לרבי יעקב מסמוליאן — חיבת הארץ, דף ל״ז (אלפסי, כרך ג׳, ערך 1789 בפרק העולים)</span></blockquote>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-3" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/yitzchak-shvartzer.html">רבי יצחק בן רבי שלמה זלמן</a><a class="chip" href="../rebbe/avraham-pinchas.html">רבי אברהם פנחס</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>בערך זה אין מצוטטת תורה מפיו; במקומה הובאו מכתביו ומכתבים עליו. בערך נדפסת גם קינה מלקוטי אמרים (ח״ב, מכתב כ״ה) על הסתלקות ׳אדמו״ר׳, שככל הנראה נוגעת לרבי מנחם מנדל מויטבסק ולא לרבי שלמה זלמן, ולכן לא הובאה כאן כעדות עליו.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1789 בפרק העולים, עמ׳ 384–385 — תולדותיו ומכתביו.</li><li id="note-2">רבי מנחם מנדל מויטבסק, אגרתו משנת תקמ״א — לקוטי אמרים, סימן א׳; וראה שלום, ארץ ישראל, עמ׳ 619, הערה 6.</li><li id="note-3">מכתבו לחסידים שברוסיה — חיבת הארץ, דף נ״ט.</li><li id="note-4">אגרתו לרבי יעקב מסמוליאן — חיבת הארץ, דף ל״ז.</li></ol></div>
+<div class="unknown"><h3 id="sec-4" data-i18n="unknown">מה שלא ידוע</h3><p>בערך זה אין מצוטטת תורה מפיו; במקומה הובאו מכתביו ומכתבים עליו. בערך נדפסת גם קינה מלקוטי אמרים (ח״ב, מכתב כ״ה) על הסתלקות ׳אדמו״ר׳, שככל הנראה נוגעת לרבי מנחם מנדל מויטבסק ולא לרבי שלמה זלמן, ולכן לא הובאה כאן כעדות עליו.</p></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1789 בפרק העולים, עמ׳ 384–385 — תולדותיו ומכתביו.</li><li id="note-2">רבי מנחם מנדל מויטבסק, אגרתו משנת תקמ״א — לקוטי אמרים, סימן א׳; וראה שלום, ארץ ישראל, עמ׳ 619, הערה 6.</li><li id="note-3">מכתבו לחסידים שברוסיה — חיבת הארץ, דף נ״ט.</li><li id="note-4">אגרתו לרבי יעקב מסמוליאן — חיבת הארץ, דף ל״ז.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

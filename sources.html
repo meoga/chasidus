@@ -9,19 +9,24 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="index.html" data-i18n="nav_home">ראשי</a><a href="rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="towns.html" data-i18n="nav_towns">ערים</a><a href="timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
-<p class="crumbs"><a href="index.html" data-i18n="nav_home">ראשי</a> / <span data-i18n="nav_sources">מקורות</span></p><div class="sec-head"><h2 data-i18n="nav_sources">מקורות</h2><p><span data-i18n="list_biblio">הביבליוגרפיה של האתר</span></p></div><div class="biblio"><div><h4>תורת החסידות, כרכים א׳–ד׳</h4><p>יצחק אלפסי · מוסד הרב קוק · 2,135 עמודים, למעלה מ־1,600 אישי החסידות. כרך א׳: הבעש״ט והמגיד, תלמידיהם ושושלתם.</p></div><div><h4>Hasidism: A New History</h4><p>דוד ביאלה ואחרים · הוצאת פרינסטון, 2017 · 891 עמודים. סקירה מחקרית לרקע ולכרונולוגיה.</p></div><div><h4>Founder of Hasidism</h4><p>משה רוזמן · הבעש״ט ההיסטורי, על פי רשומות קהילת מז׳יבוז׳.</p></div><div><h4>The Hasidic Tale</h4><p>גדליה ניגל · ליטמן, 2008 · הסיפור החסידי, הצדיק, ומפתח שמות המקומות.</p></div><div><h4>חסידים ומתנגדים</h4><p>מרדכי וילנסקי · מוסד ביאליק, 1990 · המחלוקת תקל״ב–תקע״ה, ממסמכי שני הצדדים.</p></div><div><h4>בית קרלין־סטולין</h4><p>יעקב ישראל קולא · 406 עמודים · שושלת קרלין־סטולין לעומקה.</p></div><div><h4>תפארת שבמלכות</h4><p>אלפסי · בית קוסוב–ויז׳ניץ, חלקים א׳–ב׳ (718 עמודים) · לשושלות המסתעפות בהמשך.</p></div><div><h4>חסידות פולין · חסידות ברסלב</h4><p>מנדל פיאקרז · מוסד ביאליק · לעובדות ולמקורות, בבדיקה מול מקור שני.</p></div><div><h4>הניגון והריקוד בחסידות</h4><p>מאיר שמעון גשורי · נצח, 1955 · ניגון וריקוד, עם תמונות ותווי נגינה.</p></div><div><h4>Historical Atlas of Hasidism</h4><p>מרצ׳ין וודז׳ינסקי · הוצאת פרינסטון, 2018 · אטלס היסטורי: מפות, חצרות, ערים ושושלות — מקור למפות ולערים.</p></div></div>
+<p class="crumbs"><a href="index.html" data-i18n="nav_home">ראשי</a> / <span data-i18n="nav_sources">מקורות</span></p><div class="sec-head"><h2 data-i18n="nav_sources">מקורות</h2><p><span data-i18n="list_biblio">הביבליוגרפיה של האתר</span></p></div><div class="biblio"><div><h4>תורת החסידות, כרכים א׳–ד׳</h4><p>יצחק אלפסי · מוסד הרב קוק · 2,135 עמודים, למעלה מ־1,600 אישי החסידות. כרך א׳: הבעש״ט והמגיד, תלמידיהם ושושלתם.</p></div><div><h4>Hasidism: A New History</h4><p>דוד ביאלה ואחרים · הוצאת פרינסטון, 2017 · 891 עמודים. סקירה מחקרית לרקע ולכרונולוגיה.</p></div><div><h4>Founder of Hasidism</h4><p>משה רוזמן · הבעש״ט ההיסטורי, על פי רשומות קהילת מז׳יבוז׳.</p></div><div><h4>The Hasidic Tale</h4><p>גדליה ניגל · ליטמן, 2008 · הסיפור החסידי, הצדיק, ומפתח שמות המקומות.</p></div><div><h4>חסידים ומתנגדים</h4><p>מרדכי וילנסקי · מוסד ביאליק, 1990 · המחלוקת תקל״ב–תקע״ה, ממסמכי שני הצדדים.</p></div><div><h4>בית קרלין־סטולין</h4><p>יעקב ישראל קולא · 406 עמודים · שושלת קרלין־סטולין לעומקה.</p></div><div><h4>תפארת שבמלכות</h4><p>אלפסי · בית קוסוב–ויז׳ניץ, חלקים א׳–ב׳ (718 עמודים) · לשושלות המסתעפות בהמשך.</p></div><div><h4>חסידות פולין · חסידות ברסלב</h4><p>מנדל פיאקרז · מוסד ביאליק · לעובדות ולמקורות, בבדיקה מול מקור שני.</p></div><div><h4>הניגון והריקוד בחסידות</h4><p>מאיר שמעון גשורי · נצח, 1955 · ניגון וריקוד, עם תמונות ותווי נגינה.</p></div><div><h4>Historical Atlas of Hasidism</h4><p>מרצ׳ין וודז׳ינסקי · הוצאת פרינסטון, 2018 · אטלס היסטורי: מפות, חצרות, ערים ושושלות — מקור למפות ולערים.</p></div><div><h4>Jewish History Soundbites — &#x27;Screaming &amp; Singing in Karlin&#x27;</h4><p>יהודה גברר · פודקאסט, 21 בנובמבר 2026 · רשמים ממסע לבלארוס; פרק על קרלין־סטולין — מקור לתוספות בערכי קרלין.</p></div></div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="assets/lang.js"></script>
+<script src="assets/ui.js"></script>
 
 </body>
 </html>

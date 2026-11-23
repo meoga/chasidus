@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי בנימין גוטשאל מראדושיץ</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו</a></li><li><a href="#sec-3">הסכמות</a></li><li><a href="#sec-4">סיפורים</a></li><li><a href="#sec-5">מה שלא ידוע</a></li><li><a href="#sec-6">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי בנימין גוטשאל מראדושיץ</h2>
 <p class="subtitle">בן רבי אשר אנשיל · אדמו״ר בראדושיץ, נספה בשואה</p>
@@ -27,24 +33,26 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי אשר אנשיל גוטשאל מלודז׳</dd></div><div><dt>סבו</dt><dd>רבי הלל פינקלר מראדושיץ</dd></div><div><dt>כיהן</dt><dd>אדמו״ר בראדושיץ, והקים בה בית מדרש גדול</dd></div><div><dt>הנהגתו</dt><dd>הרבה בסיגופים ובצומות; המונים התכנסו להדלקת נר חנוכה אצלו, שארכה שעות מרובות</dd></div><div><dt>בניו</dt><dd>רבי משה גוטשאל מפאביאניץ, רבי יעקב יצחק ורבי שלום — ניספו בשואה</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/radoshitz.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">ראדושיץ</span></a><a class="rel" href="../dynasty/radoshitz.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">ראדושיץ</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן רבי אשר אנשיל גוטשאל מלודז׳, ונכד רבי הלל מראדושיץ. היה אדמו״ר בראדושיץ, והקים בה בית מדרש גדול. הרבה בסיגופים ובצומות, והמונים היו מתכנסים להדלקת נר חנוכה אצלו, שארכה שעות מרובות.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>בניו היו רבי משה גוטשאל מפאביאניץ, רבי יעקב יצחק ורבי שלום; כולם ניספו בשואה, וגם הוא עצמו ניספה בשואה.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>מתורתו</h3>
+<h3 id="sec-2">מתורתו</h3>
 <p>מסר בשם זקנו, הסבא הקדוש מראדושיץ, שדרכו בעבודת הבורא היתה בחמימות גדולה ובפשיטות גמורה, וכך ציוה לכל צאצאיו ולכל המסתופפים בצל קדשו; ושנא מאד את המתחכמים בדרכי החסידות, והתרחק מאד מעניני חקירה.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <p>עוד סיפר בשם סבו רבי הלל מראדושיץ, שהסבא הקדוש, בעת שהיה מזכיר שמותיהם של אביי ורבא, היה רואה את צורת אביי ממש עומדת לפניו.<sup class='fn'><a href="#note-3">3</a></sup></p>
-<h3>הסכמות</h3>
+<h3 id="sec-3">הסכמות</h3>
 <p>נתן הסכמה לספר 'נפלאות הסבא קדישא', וכן הסכמה לספר 'קהל צדיקים' (בנדין תרפ״ז), שנחתמה בפאביאניץ, אור ליום ו׳ ערב שבת קודש פרשת תשא תרפ״ו.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <blockquote>ספורים נוראים, חידושים נפלאים, אשר מלהיבים לב הקורא בהם לאביהם שבשמים לעבודתו יתברך שמו, וגם מכניסים אמונת צדיקים בתוך לבבות בני ישראל.<span class="src">הסכמתו לספר &#x27;נפלאות הסבא קדישא&#x27; (מובאת באלפסי כרך ג׳, עמ׳ 1469–1470)</span></blockquote>
-<h3>סיפורים</h3>
+<h3 id="sec-4">סיפורים</h3>
 <p>שמעו ממנו, שפעם אחת בימי ילדותו בא לפני זקנו הרב הקדוש רבי הלל, ורצה לשאלו שיאמר לו כללים בעבודת ה׳ יתברך. מיד הרגיש בזה רבי הלל, ועוד בטרם שמע את השאלה אמר לנכדו: סבי, הסבא קדישא מראדושיץ, שאל את החוזה מלובלין שיאמר לו כללים בעבודת השם יתברך, והשיב לו כדלהלן.<sup class='fn'><a href="#note-4">4</a></sup></p>
 <blockquote>יש דרכים בתורה ויש דרכים בתפילה ויש באמירת תהלים, יש באכילה ויש בתענית. וכולם דרכים נכונות בעבודת ה׳, אך כל אחד צריך לראות לאיזה דרך לבו מושך ובדרך זו יעשה בכל כחו.<span class="src">דברי החוזה מלובלין, כפי שמסרם רבי בנימין בשם זקנו רבי הלל; &#x27;נפלאות הסבא קדישא&#x27; עמ׳ 21 (מובא באלפסי כרך ג׳, עמ׳ 1471)</span></blockquote>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שנות חייו אינן נזכרות בערך; ניספה בשואה, בלא תאריך נקוב.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, עמ׳ 1469–1472 (קובץ OCR p0133–p0134) — ערכו של רבי בנימין גוטשאל מראדושיץ.</li><li id="note-2">דרכו של הסבא הקדוש כפי שמסר רבי בנימין: &#x27;נפלאות הסבא קדישא&#x27; ח״ב עמ׳ 57.</li><li id="note-3">סיפור אביי ורבא: &#x27;נפלאות הסבא קדישא&#x27; ח״א עמ׳ 114.</li><li id="note-4">סיפור הכללים בעבודת ה׳: &#x27;נפלאות הסבא קדישא&#x27; עמ׳ 21.</li></ol></div>
+<div class="unknown"><h3 id="sec-5" data-i18n="unknown">מה שלא ידוע</h3><p>שנות חייו אינן נזכרות בערך; ניספה בשואה, בלא תאריך נקוב.</p></div>
+<div class="notes"><h3 id="sec-6" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, עמ׳ 1469–1472 (קובץ OCR p0133–p0134) — ערכו של רבי בנימין גוטשאל מראדושיץ.</li><li id="note-2">דרכו של הסבא הקדוש כפי שמסר רבי בנימין: &#x27;נפלאות הסבא קדישא&#x27; ח״ב עמ׳ 57.</li><li id="note-3">סיפור אביי ורבא: &#x27;נפלאות הסבא קדישא&#x27; ח״א עמ׳ 114.</li><li id="note-4">סיפור הכללים בעבודת ה׳: &#x27;נפלאות הסבא קדישא&#x27; עמ׳ 21.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

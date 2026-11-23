@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי ברוך האגער מוידניץ</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מה שלא ידוע</a></li><li><a href="#sec-3">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי ברוך האגער מוידניץ</h2>
 <p class="subtitle"></p>
@@ -27,15 +33,17 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>דור</dt><dd>דור רביעי</dd></div><div><dt>תאריכים</dt><dd>תר״ה — כ׳ בכסלו תרנ״ג</dd></div><div><dt>חתן</dt><dd>רבי אריה לייב שפירא מזיטומיר. בית קוריץ. נשואיו -. לזה - כל איש * יבי . רק טכסיס חדבר ואימו</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/vidnits.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">וידניץ</span></a><a class="rel" href="../dynasty/kosov.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">קוסוב</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>רבי ברוך האגער מוידניץ בו רבי מנחם מנדל מויז'ניץ (664) דור רביעי לרבי מנחם מנדל מקוסוב (659) תר"ה - כ' בכסלו תרנ"ג > תולדותיו: חבריהם. מלחמה זו לצורך אימונים נעשית, למען ידעו להלחסם כדבעי בבוא מועד. אדם מהצד חושב שהללו שונאים חתן רבי אריה לייב שפירא מז'יטומיר. בית קוריץ. נשואיו -. לזה - כל איש * יבי . רק טכסיס חדבר ואימו החיילים. גם "זה לעומת זה" - היצר הטוב והיצר הרע - נקרא בשם ברוך, לבקשת סבו - רבי ישראל מריז'ין על | הנראים נוגדים ולוחמים זה בזה עשה אלקים. שמו של רבי ברוך ממז'בוז'. (שם ע' 35-34) משנת תרמ"ה מילא את מקום אביו כאדמו"ר לאלפי חסידי "כל שהוא תלמיד חכם ובנו תלמיד חכם ובן בנו תלמיד ויז'ניץ. בתחילה סירב לקבל "פתקאות" מאת החסידים ולנהוג כם שו ְ יז תורה פוסקת מזרעו לעולם - רבי ירמיה…<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>תורת התחסידות / שושלת רבי מנחם מנדל מקוסוב (ויז'ניץ) 15 להיות אלא אם תהיה בו גם השלמות הרוחנית, השלמות ‏ (הקב"ה לדוד) בשבת תמות. אם כן בכל מוצאי שבת ידע דוד העיונית והמחשבתית - שלמות ה"לב", וגם השלמות במצוות | כי יש לו עוד ששה ימים לחיות, לפחות עד לשבת הבאה, מעשיות "ידיו". ואז עשה סעודת הודיה לה' שיוכל לעבדו עוד ששה ימים, שם ע 67 | כמאמרו (תהלים פד, יא): "כי טוב יום בחצריך". בילדותו שמע לחסיד שהתנצל בפני אביו הצדיק שאין הוא "כלי" היכול לקבל השפעות טובות. התערב רבי ברוך בשיחה ואמר: שמו של כלי עליו תמיד אלא אם נפחת משיעקב קל לי להתפלל שלש פעמים ביום הכפורים מלקחת פעם "מוציא רימונים" (שבת צה, ב). על ישראל אמרו: "אפילו אחת אתרוג.. ריקנין שבך מלאים מצוות כרימון" (עירובין יט, א) א"כ אפילו ריק…<sup class='fn'><a href="#note-1">1</a></sup></p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>מיקומה של וידניץ לא אומת. שם אביו לא נמסר בערך.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך 669 (עמ׳ 169).</li><li id="note-2">הערך ארוך ודו־טורי ב־OCR; הקטעים כאן מובאים כלשונם מהמקור, וייתכן שהסדר משובש.</li></ol></div>
+<div class="unknown"><h3 id="sec-2" data-i18n="unknown">מה שלא ידוע</h3><p>מיקומה של וידניץ לא אומת. שם אביו לא נמסר בערך.</p></div>
+<div class="notes"><h3 id="sec-3" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך 669 (עמ׳ 169).</li><li id="note-2">הערך ארוך ודו־טורי ב־OCR; הקטעים כאן מובאים כלשונם מהמקור, וייתכן שהסדר משובש.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

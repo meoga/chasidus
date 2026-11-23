@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי שמואל רוב הודורום מוקולומי א</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מה שלא ידוע</a></li><li><a href="#sec-3">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי שמואל רוב הודורום מוקולומי א</h2>
 <p class="subtitle">בנו של יהושע אלעזר</p>
@@ -27,15 +33,17 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>יהושע אלעזר</dd></div><div><dt>דור</dt><dd>דור חמישי</dd></div><div><dt>תאריכים</dt><dd>— תרמ״ג</dd></div><div><dt>חתן</dt><dd>ורבי ברוך מוויזניץ (669)</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/kolomyia.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">קולומיא</span></a><a class="rel" href="../dynasty/kosov.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">קוסוב</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>רבי שמוא רוב הודורום מוקולומי א בן רבי יהושע אלעזר וחתן רבי ברוך מוויז'ניץ (669) דור חמישי לרבי מנחם מנדל מקוסוב (659) נפטר בי"ז תטרי תרפ"ט % תולדותיו; | בימים ההם היה נוהג ששואב המים הנכרי חילק את המים בבתים, ברם הרה"צ זי"ע החמיר ע"ע ונהג שלא ליטול ידיו נכד הגביר המפורסם מברדיטשוב, רבי משה יוסף חודורוב: ‏ מ המים ששאב הנכרי 4 ל נהג חדיר להבוא אבו - ר' יהושע אלעזר היה חתנו של רבי חיים מקוסוב לרבן מים מ הבאר באחד הימים חפ - . הי"ו לבוא (660). בשנת תרמ"ג נשא את חוה בתו של שאר-בשרו רבי [ הבאר. ה 0 ברוך מוויז'ניץ לעזרת אביו והקדים לרוץ אל הבאר ולדלות ממנה מים והיות \ שהיה אז נער קטן בשנים ויכל ליפול חלילה לתוך הבאר, לאחר פטירת חותנו בשנת תרנ"ב, היה לאדמו"ר בעיר | נחלץ גוי אחד שעמד לעזרתו, וסייע…<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>יווהה ההההההההטההההההההוההההה..ה .= יהודי ממאסיעף בשם ר' בערל מרדכי גוטמן ז"ל נתקף | פעטרווא וזו שמשמאל ובה קבודים תושבי הכפר הסמוך בגיהוק קשה עד שלא יכל לדבר, ניסה ע"י תרופות שונות אך | קראסנא. על קברו של הרבי מפעטרווא הוקם אהל מעץ וגג לא הועילו, בצר לו פנה ונסע לרבו מפעטאיווע לבקש ברכתו. | רעפים שהיה קיים עד לערך שנת תשמ"ח. באותה שנה נהרס בהכנסו פנה אליו הרבי בפנים צוהלות "שלום עליכם בערל | האהל כתוצאה מחורף קשה במיוחד. הכפריים בסביבה מיהרו מרדכי, מה נשמע עם הבנייה" - כשהמכוון אודות בנין. ליטול את קורות העץ להסקה ביתית. הקבר שהיה נתון לפגעי של הסתלקות הרבי הנערץ בי"ז בתשרי תרפ"ט, אף השמים ל - משה | במרכז בית החיים - הש : גורלו של ביכו את פטירת הצדיק, וכל חיום ירד גשם שוסף ושיטפון = | ל…<sup class='fn'><a href="#note-1">1</a></sup></p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>מיקומה של וקולומי לא אומת. שורת השם ב־OCR משובשת; השם כאן הוא קריאה מתוקנת שלה — ראה הערות.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך 680 (עמ׳ 180).</li><li id="note-2">שורת השם ב־OCR: &#x27;רבי שמוא רוב הודורום מוקולומי א&#x27;.</li><li id="note-3">הערך ארוך ודו־טורי ב־OCR; הקטעים כאן מובאים כלשונם מהמקור, וייתכן שהסדר משובש.</li></ol></div>
+<div class="unknown"><h3 id="sec-2" data-i18n="unknown">מה שלא ידוע</h3><p>מיקומה של וקולומי לא אומת. שורת השם ב־OCR משובשת; השם כאן הוא קריאה מתוקנת שלה — ראה הערות.</p></div>
+<div class="notes"><h3 id="sec-3" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך 680 (עמ׳ 180).</li><li id="note-2">שורת השם ב־OCR: &#x27;רבי שמוא רוב הודורום מוקולומי א&#x27;.</li><li id="note-3">הערך ארוך ודו־טורי ב־OCR; הקטעים כאן מובאים כלשונם מהמקור, וייתכן שהסדר משובש.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

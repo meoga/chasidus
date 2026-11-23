@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי יחזקאל פאנעט מדעעש</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו</a></li><li><a href="#sec-3">תלמידיו</a></li><li><a href="#sec-4">מה שלא ידוע</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי יחזקאל פאנעט מדעעש</h2>
 <p class="subtitle">בן רבי משה מדעעש · אדמו״ר בדעעש · בעל &#x27;כנסת יחזקאל&#x27;</p>
@@ -28,24 +34,26 @@
 <dl class="facts"><div><dt>אביו</dt><dd>רבי משה פאנעט מדעעש</dd></div><div><dt>ילדותו</dt><dd>נתפרסם כעילוי וחריף; בן שש כבר רשם בפנקסים דברי תורה; סבו רבי מנחם מנדל התיר לקנות לו תפילין בהיותו בן שבע</dd></div><div><dt>רבו בנגלה</dt><dd>רבי משה שפיצר, הדיין במונקאטש; למד בצוותא עם רבי חיים אלעזר שפירא ממונקאטש</dd></div><div><dt>רבנות</dt><dd>רב במורושויבר שבטרנסילבניה; החל מתרס״ג (1903) אדמו״ר וממלא מקום אביו ברבנות דעעש</dd></div><div><dt>מעמדו</dt><dd>עד מלחמת העולם הראשונה היו כמעט רוב חסידי טרנסילבניה נוסעים לדעעש; רק לאחר המלחמה התפזרו החסידים לדינסטיות שונות</dd></div><div><dt>בניו</dt><dd>רבי יעקב אלימלך פאנעט מדעעש; רבי יוסף פאנעט מדעעש</dd></div><div><dt>נסתלק</dt><dd>כ״ב כסלו תר״ץ (1930)</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> ״כנסת יחזקאל״ על התורה ודרושים</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/dees.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">דעעש</span></a><a class="rel" href="../dynasty/karlsburg-panet.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">שושלת קארלסבורג־פאנעט</span></a><a class="rel" href="../rebbe/moshe-panet-dees.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי משה פאנעט מדעעש</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן רבי משה פאנעט מדעעש. מילדותו נתפרסם כעילוי וחריף; בן שש כבר רשם בפנקסים דברי תורה. סבו, רבי מנחם מנדל מדעעש, התיר לקנות לו תפילין בהיותו בן שבע. בנגלה קיבל מרבי משה שפיצר, הדיין במונקאטש; אתו למד בצוותא הרבי ממונקאטש, רבי חיים אלעזר שפירא. רב במורושויבר שבטרנסילבניה, והחל מתרס״ג שימש כאדמו״ר וכממלא מקום אביו ברבנותה של דעעש. עד למלחמת העולם הראשונה היו כמעט רוב חסידי טרנסילבניה נוסעים לדעעש; רק לאחר המלחמה התפזרו החסידים לדינסטיות שונות.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <blockquote>כאשר נשמע קולו בבואו אל הקודש לדרוש לעם ד׳ באמירה נעימה, להלהיב לבות בני ישראל לעוררם בתשובה ולקרבם לאביהם שבשמים — היו מורידים כנחל דמעה מתוך ניצוצי אור הרהורי תשובה שנתעורר בלבם.<span class="src">אמר בנו בלב נשבר, מתוך ההקדמה לספרו ׳כנסת יחזקאל׳, כמובא באלפסי כרך ג׳, עמ׳ 1544</span></blockquote>
 <p>בנו כתב בהקדמה, בלב נשבר, על ימי הזוהר שחלפו: הן מה נהדר היה ביומא דכיפורים בפרט, כאשר נשמע קולו בבואו אל הקודש לדרוש לעם ד׳. ועל פטירתו, בכ״ב כסלו תר״ץ, כתב שאביו אמר בפיו הקדוש שני ימים לפני פטירתו שכעת הוא שנת תר״ץ, וצריך להתפלל שיתהפך מצר״ת לרצ״ת.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>מתורתו</h3>
+<h3 id="sec-2">מתורתו</h3>
 <p>״אף ידי יסדה ארץ וימיני טפחה שמים״ (ישעיה מח, יג) — היינו שהקדוש ברוך הוא ברא שמים וארץ בשתי מידות אלה: במידת הרחמים ובמידת הדין. ״אף ידי״ — השמאלית, שהיא בבחינת דין — ״יסדה ארץ״; וימיני, שהיא מידת הרחמים — ״טפחה שמים״.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <p>ועוד: אם ישראל עוסקים בתורה ובמצוות לשמה, הם במדריגה גבוהה מן המלאכים; ואם הם עוסקים שלא לשמה, אזי המלאכים מעולים מהם — על כל פנים בזה שמעשיהם שלמים.<sup class='fn'><a href="#note-3">3</a></sup></p>
 <p>״אשירה לה׳ כי גאה גאה״ (שמות טו, א). יש לתמוה על שירת עם ישראל לאחר שמצרים טבעו בים סוף, והרי נאמר (משלי כד, יז): ״בנפול אויבך אל תשמח״, ובפרט שישראל היו במדריגה פחותה, עד שהשטן יכל לומר: ״הללו עובדי עבודה זרה והללו עובדי עבודה זרה״. אלא שהשמחה בנפילת האויב אסורה אם הוא שמח על טובת עצמו; מה שאין כן אם השמחה היא על כבוד ה׳ יתברך — והשירה במצרים היתה שירה לה׳.<sup class='fn'><a href="#note-4">4</a></sup></p>
 <blockquote>שמחה שכזו לא רק שמותר לשמוח, אלא מצוה לשמוח!<span class="src">׳כנסת יחזקאל׳, דף ל״ד, ע״א, כמובא באלפסי כרך ג׳, עמ׳ 1544</span></blockquote>
 <p>כדי להשיג את הארת התורה, צריך הלימוד להיות לשמה, בלי שום פניה אחרת. מי שלומד את התורה לשם כבוד וגדולה — לא תהיה לו הארת התורה; ואדרבא, גדול עוונו מנשוא, אם במקום קדוש שכזה הוא מתכוון רק להנאתו ולכבודו.<sup class='fn'><a href="#note-5">5</a></sup></p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-3" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/yaakov-elimelech-panet-dees.html">רבי יעקב אלימלך פאנעט מדעעש</a><a class="chip" href="../rebbe/yosef-panet-dees.html">רבי יוסף פאנעט מדעעש</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שם העיר מורושויבר, שבה כיהן כרב לפני דעעש, כך נדפס בערך; לא זוהתה בוודאות, ולכן לא נפתח לה דף עיר.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, עמ׳ 1544: תולדותיו, דברי בנו עליו, ותורתו.</li><li id="note-2">׳אף ידי יסדה ארץ׳ — ׳כנסת יחזקאל׳ על התורה ודרושים, קלוז׳ תרצ״א, דף ב, ע״א, כמובא שם.</li><li id="note-3">׳המורם מזה׳ (תורה לשמה) — שם, דף י״ד, ע״א, כמובא שם.</li><li id="note-4">שירת הים — שם, דף ל״ד, ע״א, כמובא שם.</li><li id="note-5">הארת התורה בלימוד לשמה — שם, דף מ״ז, ע״א, כמובא שם.</li></ol></div>
+<div class="unknown"><h3 id="sec-4" data-i18n="unknown">מה שלא ידוע</h3><p>שם העיר מורושויבר, שבה כיהן כרב לפני דעעש, כך נדפס בערך; לא זוהתה בוודאות, ולכן לא נפתח לה דף עיר.</p></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, עמ׳ 1544: תולדותיו, דברי בנו עליו, ותורתו.</li><li id="note-2">׳אף ידי יסדה ארץ׳ — ׳כנסת יחזקאל׳ על התורה ודרושים, קלוז׳ תרצ״א, דף ב, ע״א, כמובא שם.</li><li id="note-3">׳המורם מזה׳ (תורה לשמה) — שם, דף י״ד, ע״א, כמובא שם.</li><li id="note-4">שירת הים — שם, דף ל״ד, ע״א, כמובא שם.</li><li id="note-5">הארת התורה בלימוד לשמה — שם, דף מ״ז, ע״א, כמובא שם.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

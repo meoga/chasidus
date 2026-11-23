@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי משה ברוך מורגנשטרן מוולאדובה</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו</a></li><li><a href="#sec-3">תלמידיו</a></li><li><a href="#sec-4">מה שלא ידוע</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי משה ברוך מורגנשטרן מוולאדובה</h2>
 <p class="subtitle">דור חמישי לרבי מנחם מנדל מקוצק; רב ואדמו״ר בקוצק</p>
@@ -27,20 +33,22 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי צבי הירש מורגנשטרן מליקוב (ערך 1656)</dd></div><div><dt>דורו</dt><dd>דור חמישי לרבי מנחם מנדל מקוצק (ערך 1652)</dd></div><div><dt>רבנותו</dt><dd>משנת תר״פ (1920) אדמו״ר; רב בגרובוב, בלוקוב, בוולאדובה</dd></div><div><dt>קוצק</dt><dd>משנת תרצ״ט (1939) רב ואדמו״ר בקוצק על מקום דודו רבי יוסף מקוצק (ערך 1659)</dd></div><div><dt>בציבור</dt><dd>היה גדול בתורה וחכם מופלג; כיהן כסגן יו״ר אגודת ישראל בפולין</dd></div><div><dt>ספר אביו</dt><dd>הוציא לאור את ספרו של אביו &#x27;עטרת צבי&#x27; על בראשית (ורשה תרצ״ד)</dd></div><div><dt>פטירתו</dt><dd>ניספה בשואה; תאריך פטירתו המדויק לא נזכר בערך</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/wlodawa.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">וולאדובה</span></a><a class="rel" href="../dynasty/kotzk.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">שושלת קוצק</span></a><a class="rel" href="../rebbe/tzvi-hirsch-likov.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי צבי הירש מורגנשטרן מליקוב</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן רבי צבי הירש מליקוב, דור חמישי לרבי מנחם מנדל מקוצק. משנת תר״פ אדמו״ר. רב בגרובוב, בלוקוב, בוולאדובה. משנת תרצ״ט רב ואדמו״ר בקוצק על מקום דודו רבי יוסף מקוצק. היה גדול בתורה וחכם מופלג. כיהן כסגן יו״ר אגודת ישראל בפולין. הוציא לאור את ספרו של אביו 'עטרת צבי'.</p>
-<h3>מתורתו</h3>
+<h3 id="sec-2">מתורתו</h3>
 <p>בהקדמה לספרו של אביו, 'עטרת צבי', הביא מה ששמע מפי אביו, שאמר בשם זקנו, אדמו״ר הראשון מקוצק, על מה שנאמר בגמרא שהתירו חז״ל לכתוב את התורה שבעל פה משום 'עת לעשות לה׳ הפרו תורתך' (גיטין ס, א): הקשה זקנו, הייתכן לומר שכל תורת חז״ל בגמרא — בהלכה ובאגדה — היא רק משום 'הפרו תורתך'? והשיב שנראה שבאמת לא הכל נכתב עדיין; וכתוב 'ארוכה מארץ מדה ורחבה מני ים' (איוב יא, ט), ופירשו חז״ל שכל העולם הוא אחד משלשת אלפים ומאתיים בתורה (עירובין כא, א), והאריכות היא בעומק ובפנימיות התורה וחז״ל, אשר כל רז לא נסתר מהם. ועל כן, אף שכל מה שעתיד תלמיד ותיק לחדש עד ביאת הגואל נכלל בשם 'תורה שבעל פה', חידושי התורה הם רק שמתייגעים בדברי חז״ל; ואם לא היתה נכתבת תורה שבעל פה, לא היינו מוצאים ידינו ורגלינו לדלות מעומק התורה הקדושה.</p>
 <blockquote>באמת לא נכתב הכל עדיין, רק העיקר הוא להתייגע ולמצוא.<span class="src">מתוך ההקדמה לספרו של אביו — &#x27;עטרת צבי&#x27;, ורשה תרצ״ד (אלפסי, כרך ג׳, ערך 1663)</span></blockquote>
 <p>ובסיום ההקדמה כתב: 'לכן העלו דברי תורה וחסידות על הכתב כפי סדר פרשת השבוע ועל מועדי קודש, למען יהיה ביכולת כל אחד ואחד, בימי השבתות והמועדים, אלו הימים אשר זיכה אותנו ה׳ יתברך לנות מטרדת עבודת הגוף... לימוד התורה בשבת קודש יחזק את האדם לעבוד את ה׳ בשמחה גם באמצע השבוע'.</p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-3" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/menachem-mendel-wlodawa.html">רבי מנחם מנדל מורגנשטרן מוולאדובה</a><a class="chip" href="../rebbe/maghabm-gad-katzavn-aravbah.html">רבי מגהבם מגד כצון ארובה</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שנת לידתו ותאריך פטירתו בשואה לא נזכרו בערך. כותרת העמוד ב־OCR נדפסה &#x27;- 1668 -&#x27; (p0279) — שיבוש של 1663; מספר הערך מאושר מהצלב בערך 1670: &#x27;בן רבי משה ברוך מוולאדובה (1663)&#x27;.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1663, עמ׳ 1663–1664 (קובץ OCR p0279–p0280) — תולדותיו ותורתו מתוך הקדמתו ל&#x27;עטרת צבי&#x27;.</li><li id="note-2">הצלב בערך 1656: &#x27;בשנת תרצ״ד הוציאו בניו רבי משה ברוך ורבי יוסף אהרן את ספרו עטרת צבי&#x27;.</li></ol></div>
+<div class="unknown"><h3 id="sec-4" data-i18n="unknown">מה שלא ידוע</h3><p>שנת לידתו ותאריך פטירתו בשואה לא נזכרו בערך. כותרת העמוד ב־OCR נדפסה &#x27;- 1668 -&#x27; (p0279) — שיבוש של 1663; מספר הערך מאושר מהצלב בערך 1670: &#x27;בן רבי משה ברוך מוולאדובה (1663)&#x27;.</p></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1663, עמ׳ 1663–1664 (קובץ OCR p0279–p0280) — תולדותיו ותורתו מתוך הקדמתו ל&#x27;עטרת צבי&#x27;.</li><li id="note-2">הצלב בערך 1656: &#x27;בשנת תרצ״ד הוציאו בניו רבי משה ברוך ורבי יוסף אהרן את ספרו עטרת צבי&#x27;.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי מרדכי דוד אונגר מדומברובה</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו: מות בהר</a></li><li><a href="#sec-3">הסכמתו לבנו, מוציא ׳עבודת ישראל׳ לאור</a></li><li><a href="#sec-4">תלמידיו</a></li><li><a href="#sec-5">מה שלא ידוע</a></li><li><a href="#sec-6">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי מרדכי דוד אונגר מדומברובה</h2>
 <p class="subtitle">מייסד שושלת דומברובה · תלמידו המובהק של החוזה מלובלין</p>
@@ -28,23 +34,25 @@
 <dl class="facts"><div><dt>אביו</dt><dd>הרב ר׳ צבי הירש</dd></div><div><dt>רבותיו</dt><dd>החוזה מלובלין; המגיד מקוז׳ניץ</dd></div><div><dt>נולד</dt><dd>תק״ל (1770)</dd></div><div><dt>נסתלק</dt><dd>ז׳ שבט תר״ו (1846)</dd></div><div><dt>בניו</dt><dd>רבי יוסף; רבי מנחם מנדל, אב״ד סטאשוב; רבי משה, חתן רבי חיים מצאנז; רבי אברהם אלחנן; רבי יחיאל צבי הירש; רבי נפתלי</dd></div><div><dt>חתנו</dt><dd>רבי נחום צבי טייטלבוים מדרוהוביטש</dd></div><div><dt>ספרו</dt><dd>שובע שמחות — תשובותיו בהלכה</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> שובע שמחות (שו״ת)</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/dombrova.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">דומברובה (טארנובסקה)</span></a><a class="rel" href="../dynasty/dombrova.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">דומברובה</span></a><a class="rel" href="../rebbe/chozeh-lublin.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">החוזה מלובלין</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן הרב ר׳ צבי הירש. בילדותו היה אצל רבי אלימלך מליז׳נסק, שהתלהב מהילד. היה תלמיד ישיבתו של המגיד מקוז׳ניץ, כאשר העיד בעצמו, ואחר כך תלמידו המובהק של החוזה מלובלין.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>רבים מגדולי החסידות שוחרו לפתחו. תשובותיו בהלכה נדפסו בספר ׳שובע שמחות׳. בניו שישה, ומהם יצאה שושלת דומברובה והמסתעף: רבי יוסף ממלא מקומו בדומברובה, רבי אברהם אלחנן בקאלושין, רבי יחיאל צבי בדומברובה, ועוד.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>מתורתו: מות בהר</h3>
+<h3 id="sec-2">מתורתו: מות בהר</h3>
 <p>על הפסוק ׳מות בהר אשר אתה עולה שמה והאסף אל עמך כאשר מת אהרן אחיך בהור ההר׳ (דברים לב, נ) פירש רש״י שחמד משה ואמר אשרי מי שמת במיתה זו. ותמה: מדוע כפל הלשון ׳מות בהר׳ — ׳והאסף אל עמך׳, והלא גם באהרן נאמר ׳ויאסף אל עמיו׳? והרמז הוא שביום שחלה מיתת אהרן בראש חודש אב, אותו יום בשבוע חל בכל שנה שלאחריו יום האושפיזא שלו — היום החמישי של סוכות. על כן נתאווה משה וחמד לאותה מיתה, שסימן טוב הוא שיום מיתתו יחול ביום האושפיזא שלו בחג האסיף, זמן שמחתנו; והבטיח לו הקב״ה שגם יום פטירתו, ז׳ באדר, יהיה באותו יום בשבוע שחל בו האושפיזא שלו בחג הסוכות — היום הרביעי של סוכות.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <blockquote>הרמז הוא שביום שחלה מיתת אהרן בראש חודש אב — אותו יום בשבוע חל בכל שנה שלאחריו יום האושפיזא דיליה — ה׳ בסוכות.<span class="src">כרך ג׳, ערך 1492 (מתוך ׳מבשר טוב׳)</span></blockquote>
-<h3>הסכמתו לבנו, מוציא ׳עבודת ישראל׳ לאור</h3>
+<h3 id="sec-3">הסכמתו לבנו, מוציא ׳עבודת ישראל׳ לאור</h3>
 <p>כשיצא בנו רבי אברהם אלחנן להוציא לאור את ספר ׳עבודת ישראל׳ על התורה של המגיד מקוז׳ניץ, כתב לו אביו הסכמה, ובה בירכו שיזכה לגמור את שאר ספרי רבו. ההסכמה נדפסה בשער הספר.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <blockquote>הבן יקיר לי, בני מחמדי, הרב המאור הגדול, החריף ובקי, מושלם במעלות... אברהם אלחנן נ״י לעד. תחזקנה ידיך, בני יקירי, במלאכתך, מלאכת שמים, כאשר החילות כן תגמור בעדך, ותזכה עוד לגמור שאר ספרי דבי רב, רבינו הקדוש.<span class="src">הסכמתו, נדפסה בשער ׳עבודת ישראל׳ (כרך ג׳, ערך 1492)</span></blockquote>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-4" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/yosef-unger-dombrova.html">רבי יוסף אונגר מדומברובה</a><a class="chip" href="../rebbe/avraham-elchanan-unger-kalushin.html">רבי אברהם אלחנן אונגר מקאלושין</a><a class="chip" href="../rebbe/yechiel-tzvi-unger-dombrova.html">רבי יחיאל צבי אונגר מדומברובה</a><a class="chip" href="../rebbe/ben-tzion-unger-sanz.html">רבי בן ציון אונגר מצאנז</a><a class="chip" href="../rebbe/menachem-mendel-unger-mattabanytaz.html">רבי מנהם מנדל אונגר מטטאבניץ</a><a class="chip" href="../rebbe/moshe-avaggar.html">רבי משה אוגגר</a><a class="chip" href="../rebbe/naftali-unger-mazabanh.html">רבי נפתלי אונגר מז&#x27;אבנה</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>הערך אינו מציין את מקום לידתו. מספר הערך שעל גליונו נדפס 1499 — טעות קריאה של ה־OCR; המספר הנכון הוא 1492, כפי שמצוין בהפניות אליו בכל ערכי בניו.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, ערך 1492, עמ׳ 1492 (קובץ OCR p0154–p0155) — תולדותיו, תורתו והסכמתו לבנו.</li><li id="note-2">התורה על ׳מות בהר׳ מובאת שם מתוך ׳מבשר טוב׳ לגרשון קמלהר.</li><li id="note-3">ההסכמה נדפסה בשער הספר ׳עבודת ישראל׳ על התורה של המגיד מקוז׳ניץ.</li></ol></div>
+<div class="unknown"><h3 id="sec-5" data-i18n="unknown">מה שלא ידוע</h3><p>הערך אינו מציין את מקום לידתו. מספר הערך שעל גליונו נדפס 1499 — טעות קריאה של ה־OCR; המספר הנכון הוא 1492, כפי שמצוין בהפניות אליו בכל ערכי בניו.</p></div>
+<div class="notes"><h3 id="sec-6" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, ערך 1492, עמ׳ 1492 (קובץ OCR p0154–p0155) — תולדותיו, תורתו והסכמתו לבנו.</li><li id="note-2">התורה על ׳מות בהר׳ מובאת שם מתוך ׳מבשר טוב׳ לגרשון קמלהר.</li><li id="note-3">ההסכמה נדפסה בשער הספר ׳עבודת ישראל׳ על התורה של המגיד מקוז׳ניץ.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

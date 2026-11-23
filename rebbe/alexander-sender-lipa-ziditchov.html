@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי אלכסנדר סנדר יום טוב ליפא מזידיטשוב</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">סיפור</a></li><li><a href="#sec-3">תלמידיו</a></li><li><a href="#sec-4">מה שלא ידוע</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי אלכסנדר סנדר יום טוב ליפא מזידיטשוב</h2>
 <p class="subtitle">דור שלישי לשושלת זידיטשוב · בעל תפילה מפורסם</p>
@@ -27,21 +33,23 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי יצחק אייזיק מזידיטשוב</dd></div><div><dt>קיבל בחסידות</dt><dd>מאביו ומקרובו רבי יהודה צבי מרוזדול</dd></div><div><dt>הוסמך להוראה</dt><dd>על ידי רבי יוסף שאול נתנזון, אב״ד לבוב</dd></div><div><dt>כיהן כאב״ד זידיטשוב</dt><dd>בחיי אביו; נתמנה לממלא מקומו בשנת תרל״ג (1873)</dd></div><div><dt>בניו</dt><dd>רבי יהושע השל מחודורוב; רבי ישכר בריש מוורצקי; רבי אהרן מנחם מנדל מאולסק; רבי יוסף מטרנופול; רבי יהודה מסאנוק; רבי פנחס מסטרי</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/ziditchov.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">זידיטשוב (ז׳ידאצ׳וב)</span></a><a class="rel" href="../dynasty/ziditchov.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">זידיטשוב־קומרנא</span></a><a class="rel" href="../rebbe/yitzchak-isaac-ziditchov.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי יצחק אייזיק אייכנשטין מזידיטשוב</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>קיבל בחסידות מאביו ומקרובו רבי יהודה צבי מרוזדול. היה גדול בתורה והוסמך להוראה על ידי רבי יוסף שאול נתנזון מלבוב, שהביע תמיהה שבן אדמו״ר יהיה גדול כל כך בהלכה. בחיי אביו כיהן כאב״ד זידיטשוב, וכל צדיקי החסידות שבאו אל אביו היו מתאכסנים בביתו. בשנת תרל״ג נתמנה לממלא מקום אביו בזידיטשוב.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>נעימות תפילתו היתה לשם ולתהילה בכל הארץ. קולו היה חזק וצלול, וכל דיבור שיצא מפיו היה כפטיש מפוצץ סלע, נוקב ויורד אל תוך תוכו של לב השומע. הוא היה תלמיד מובהק של רבי יהודה צבי מרוזדול והתפלל בניגון התפילה שלו, שהיה נעים ומחריד כאחד.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>ביום הכפורים של שנת תרמ״ד עמדה מיטתו בבית המדרש. אף על פי שהיה כבר גוסס למחצה, אמר בליל יום הכפורים את ׳לדוד מזמור לה׳ הארץ ומלואה׳ (תהלים כד, א), וביום הכפורים שחרית את ׳שיר המעלות ממעמקים׳ (תהלים קל, א), וינועו כותלי בית המדרש מקולו המחריד. ובמוצאי יום הכפורים קידש את הלבנה בהתלהבות גדולה, וממחרת שבה נפשו הגדולה לאלקים.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>סיפור</h3>
+<h3 id="sec-2">סיפור</h3>
 <p>פעם אחת נזדמן רבי אלכסנדר ליפא לעיר אחת, וכל חסידי זידיטשוב נהרו בהמונים לראותו. בתוך הבאים היה גם חסיד ששמו היה יהודה יצחק בן אסתר פיניא. אף הוא הגיש ׳פתקא׳ כנהוג, ובשעת מסירת ה׳פתקא׳ סיפר לרבי שבכל פעם שהיה נותן ׳פתקא׳ לאביו הצדיק, היה רגיל אביו לומר בבת צחוק: ׳כל פינות שאתה פונה לא יהיו אלא דרך ימין׳. השיב לו רבי אלכסנדר ליפא: כלום חושב אתה שאבי הקדוש היה מרדף אמרים ריקים ולא אמר את דבריו אלא לשם מילתא דבדיחותא? בזוהר (פרשת תרומה, דף קס״ו ע״ב) על הפסוק ׳להנחיל אוהבי יש׳ כתוב שר״ץ עולמות הם מצד הימין — חסדים, וק״ג מהם הם מצד השמאל — דינים. אבי הקדוש, כשהציץ בפתקא שראשי התיבות של שמך ׳יהודה יצחק בן אסתר פיניא׳ עולים במספר ק״ג, מספר שהוא מצד השמאל, רצה להמתיק את הדינים מעליך, וברכך שכל פינות שאתה פונה יהיו לימין ולא לשמאל — אלא שהסתיר את כוונתו כאילו אמר דברי צחות בלשון נופל על לשון על שם אמך.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <blockquote>׳כל פינות שאתה פונה לא יהיו אלא דרך ימין׳<span class="src">דברי אביו רבי יצחק אייזיק מזידיטשוב, כפי שפירשם בנו — הרב ש״י זוין, ׳מספרי חסידים׳ מועדים מס׳ 194, לפי ׳פאר יצחק׳, כמובא באלפסי, כרך ב׳, עמ׳ 777 (קובץ OCR מס׳ 281)</span></blockquote>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-3" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/yissachar-berish-eichenstein-vorotsky.html">רבי יששכר בעריש אייכנשטיין מזידיטשוב־וורצקי</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שנת לידתו אינה מצוינת בערך אצל אלפסי.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך ׳רבי אלכסנדר סנדר יום טוב ליפא מזידיטשוב׳, עמ׳ 777 (קובץ OCR מס׳ 280–281): תולדותיו, תפילתו, פטירתו ביום הכפורים.</li><li id="note-2">סיפור ה׳פתקא׳: הרב ש״י זוין, ׳מספרי חסידים׳ מועדים מס׳ 194, לפי ׳פאר יצחק׳, כמובא שם.</li></ol></div>
+<div class="unknown"><h3 id="sec-4" data-i18n="unknown">מה שלא ידוע</h3><p>שנת לידתו אינה מצוינת בערך אצל אלפסי.</p></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך ׳רבי אלכסנדר סנדר יום טוב ליפא מזידיטשוב׳, עמ׳ 777 (קובץ OCR מס׳ 280–281): תולדותיו, תפילתו, פטירתו ביום הכפורים.</li><li id="note-2">סיפור ה׳פתקא׳: הרב ש״י זוין, ׳מספרי חסידים׳ מועדים מס׳ 194, לפי ׳פאר יצחק׳, כמובא שם.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

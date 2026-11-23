@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי משה אייכנשטיין מזידיטשוב־וורצקי</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">השידוך</a></li><li><a href="#sec-3">מתורתו</a></li><li><a href="#sec-4">מה שלא ידוע</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי משה אייכנשטיין מזידיטשוב־וורצקי</h2>
 <p class="subtitle">דור חמישי לשושלת זידיטשוב · אב״ד זידיטשוב · בעל ׳זכרון משה׳</p>
@@ -28,20 +34,22 @@
 <dl class="facts"><div><dt>אביו</dt><dd>רבי יששכר בעריש אייכנשטיין מוורצקי</dd></div><div><dt>חתן</dt><dd>בזיווג ראשון רבי צבי הירש ערליך; בזיווג שני דודו רבי אליהו מזידיטשוב</dd></div><div><dt>כיהן</dt><dd>משנת תרנ״ב אב״ד זידיטשוב; אחר כך בוורצקי, ואחר כך במונקאטש</dd></div><div><dt>ספרו</dt><dd>׳זכרון משה׳ (ברוקלין תשמ״ה); כתב היד ניצל בנס</dd></div><div><dt>בנו</dt><dd>רבי אליהו מזידיטשוב</dd></div><div><dt>נספה</dt><dd>ג׳ בסיון תש״ד (1944), באושוויץ</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> זכרון משה</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/vorotsky.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">וורצקי (ניז׳ני וורוטה)</span></a><a class="rel" href="../dynasty/ziditchov.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">זידיטשוב־קומרנא</span></a><a class="rel" href="../rebbe/yissachar-berish-eichenstein-vorotsky.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי יששכר בעריש אייכנשטיין מזידיטשוב־וורצקי</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>חתן רבי צבי הירש ערליך, ובזיווג שני חתן דודו רבי אליהו מזידיטשוב. מזיווג זה נולדו בניו, בהם רבי אליהו מזידיטשוב. משנת תרנ״ב בערך אב״ד זידיטשוב, תוך מחלוקת חריפה עם גיסו רבי נפתלי ערליך. מזידיטשוב עבר לוורצקי ומשם למונקאטש. גדול בתורה ובמידות. בקיאותו היתה ממש מדהימה. בימי השואה נתפס ועונה.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>במיוחד הצטיין באהבת ישראל שלו ובחיבתו לכל יהודי, ומכוח זה נהג בכל הזדמנות להמליץ טוב על כלל ישראל.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>השידוך</h3>
+<h3 id="sec-2">השידוך</h3>
 <p>שמעתי מפה קדשו של האדמו״ר רבי משה מזידיטשוב, כי בהיותו צעיר לימים הציעו לו שידוכים רבים עם רבנים ואדמו״רים מפורסמים. פעם אחת קרא לו אביו, רבי יששכר בעריש, ואמר לו: ״שמע בני, עתה היה אצלי דודי רבי אליהו מזידיטשוב, ואמר לי: הזיווג של בנך היא בתי, אף על פי שהיא יותר מבוגרת וגם גרושה, אבל אני מבטיח לך שיהיה לכם בנים גאוני עולם. עכשיו אני שואל אותך מה דעתך על כך?״ ענה לו רבי משה: ״באם כבוד אבא אומר כך, הרי זה אומר כי הזיווג הוא מן השמים ואני מסכים״. אז קשרו את השידוך, ואין לתאר איך הרבי נהג בה כבוד כל ימיו.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>מתורתו</h3>
+<h3 id="sec-3">מתורתו</h3>
 <p>פעם בעת אמירת תורה התבטא ואמר: אנו אומרים בתפילת ׳אנא בכח׳: ״ברכם טהרם״ — היינו רבונו של עולם, ״ברכם״: ברך את עמך ישראל בשפע ברכה והצלחה, של חס לחם מאומה, ואז תראה ותיווכח ״טהרם״ — תראה כיצד ואיך יטהרו עצמם בניך מכל חטא ועוון, ויחזרו לעבדך באהבה וביראה.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <blockquote>״ברכם טהרם״ — היינו רבונו של עולם, ׳ברכם׳: ברך את עמך ישראל בשפע ברכה והצלחה... ואז תראה ותיווכח ׳טהרם׳ — תראה כיצד ואיך יטהרו עצמם בניך מכל חטא ועוון.<span class="src">׳זכרון משה׳, עמ׳ תי״ב, כמובא באלפסי, כרך ב׳, ערך רבי משה אייכנשטיין, עמ׳ 799 (קובץ OCR מס׳ 302)</span></blockquote>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שם בנו השני מזיווגו השני לא נשתמר בקריאה ברורה בכרך.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך ׳רבי משה אייכנשטין כוויוריששום׳, עמ׳ 799 (קובץ OCR מס׳ 302): תולדותיו, סיפור השידוך, אהבת ישראל.</li><li id="note-2">שם, עמ׳ 799–800 (קובץ OCR מס׳ 302–303): תורתו מ׳זכרון משה׳, ומכתביו והסכמותיו.</li></ol></div>
+<div class="unknown"><h3 id="sec-4" data-i18n="unknown">מה שלא ידוע</h3><p>שם בנו השני מזיווגו השני לא נשתמר בקריאה ברורה בכרך.</p></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך ׳רבי משה אייכנשטין כוויוריששום׳, עמ׳ 799 (קובץ OCR מס׳ 302): תולדותיו, סיפור השידוך, אהבת ישראל.</li><li id="note-2">שם, עמ׳ 799–800 (קובץ OCR מס׳ 302–303): תורתו מ׳זכרון משה׳, ומכתביו והסכמותיו.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

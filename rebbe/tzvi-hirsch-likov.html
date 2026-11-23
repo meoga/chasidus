@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי צבי הירש מורגנשטרן מליקוב</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו</a></li><li><a href="#sec-3">תלמידיו</a></li><li><a href="#sec-4">מה שלא ידוע</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי צבי הירש מורגנשטרן מליקוב</h2>
 <p class="subtitle">בן רבי חיים ישראל מפילוב; אדמו״ר בליקוב; בעל &#x27;עטרת צבי&#x27;</p>
@@ -28,19 +34,21 @@
 <dl class="facts"><div><dt>אביו</dt><dd>רבי חיים ישראל מורגנשטרן מפילוב (ערך 1654)</dd></div><div><dt>הכתרתו</dt><dd>משנת תרס״ה (1905) אדמו״ר בליקוב לחלק לא גדול מחסידי אביו, בהסכמתו של דודו רבי אברהם מסוכטשוב</dd></div><div><dt>ספרו</dt><dd>בשנת תרצ״ד (1934) הוציאו בניו, רבי משה ברוך ורבי יוסף אהרן, את ספרו &#x27;עטרת צבי&#x27; על בראשית</dd></div><div><dt>פטירתו</dt><dd>נסתלק בכ״ט בשבט תר״ף (1920)</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> עטרת צבי</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/likov.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">ליקוב (לוקוב)</span></a><a class="rel" href="../dynasty/kotzk.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">שושלת קוצק</span></a><a class="rel" href="../rebbe/chaim-yisrael-pilov.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי חיים ישראל מורגנשטרן מפילוב</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן רבי חיים ישראל מפילוב. משנת תרס״ה אדמו״ר בליקוב, לחלק לא גדול מחסידי אביו, בהסכמתו של דודו — רבי אברהם מסוכטשוב. בשנת תרצ״ד הוציאו בניו, רבי משה ברוך ורבי יוסף אהרן, את ספרו 'עטרת צבי' על בראשית.</p>
-<h3>מתורתו</h3>
+<h3 id="sec-2">מתורתו</h3>
 <p>על (בראשית א, א) 'בראשית ברא אלקים' דרש, על פי רש״י שם, שאמר רבי יצחק: לא היה צריך להתחיל את התורה אלא מ'החודש הזה לכם', שהיא מצוה ראשונה, אלא משום 'כח מעשיו הגיד לעמו לתת להם נחלת גויים'. והסביר: בריאת העולם היתה תחילה חשך ואחר כך אור, תחילה תהו ובהו ואחר כך 'יהי אור'; וכן 'אחור וקדם צרתני' — שעל ידי כך מתגלה יותר גבורתו של הקב״ה, כאמור בפסיקתא: בשר ודם מדליק נר מתוך נר, אבל הקב״ה אינו כן. ולכן השלמת ישראל היתה אחרי שבעים האומות, כי הצורה היא תמיד התהליך האחרון של החומר; וכן ארץ ישראל צריכה להגיע אלינו בבחינת אור מחשך, ועל כן גם מסתלקת טענת הגויים 'לסטים אתם', שהרי ארץ ישראל מלכתחילה היא שלנו, אלא שהיא צריכה לעבור את התהליך של מחשך לאור.</p>
 <p>ועל מה שנקרא יום השמיני 'זאת חנוכה' דרש: עיקר ההארה שנשאר לנו מימי חנוכה לדורות הוא משמונת הימים; ויום השמיני מרומז על מה שלמעלה מסדר העולם והטבע, וזו ההארה שנשארת לנו לדורות — כרמז 'אל מול פני המנורה יאירו שבעת הנרות' (במדבר ח, ב), שכל הקנים פונים אל מול פני המנורה הטהורה, שממנה יוצא האור אל כל הנמצאים.</p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-3" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/moshe-baruch-wlodawa.html">רבי משה ברוך מורגנשטרן מוולאדובה</a><a class="chip" href="../rebbe/yosef-aharon-likov.html">רבי יוסף אהרן מורגנשטרן מליקובה</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>הערך אינו נוקט את מקום לידתו; שנת הכתרתו תרס״ה (1905) לפי הערך, ואילו סקירת פארדס על קוצק נוקטת 1906.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1656, עמ׳ 1656–1657 (קובץ OCR p0272–p0273) — תולדותיו ותורתו.</li><li id="note-2">פארדס, הרב ד״ר לוי קופר, &#x27;Hasidic Lore: Kotzk&#x27;: רבי צבי הירש (1858–1920) כיהן כאדמו״ר בלוקוב; בניו הוציאו לאור את &#x27;עטרת צבי&#x27; בשנת 1934.</li></ol></div>
+<div class="unknown"><h3 id="sec-4" data-i18n="unknown">מה שלא ידוע</h3><p>הערך אינו נוקט את מקום לידתו; שנת הכתרתו תרס״ה (1905) לפי הערך, ואילו סקירת פארדס על קוצק נוקטת 1906.</p></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1656, עמ׳ 1656–1657 (קובץ OCR p0272–p0273) — תולדותיו ותורתו.</li><li id="note-2">פארדס, הרב ד״ר לוי קופר, &#x27;Hasidic Lore: Kotzk&#x27;: רבי צבי הירש (1858–1920) כיהן כאדמו״ר בלוקוב; בניו הוציאו לאור את &#x27;עטרת צבי&#x27; בשנת 1934.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי אברהם דב מחמלניק</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">סיפור: המקוה וההתקרבות</a></li><li><a href="#sec-3">סיפור: ערב ראש חודש אצל רבי ברוך</a></li><li><a href="#sec-4">סיפור: המלבין פני חבירו</a></li><li><a href="#sec-5">מתורתו: זה הדבר אשר ציוה ה׳</a></li><li><a href="#sec-6">תלמידיו</a></li><li><a href="#sec-7">מה שלא ידוע</a></li><li><a href="#sec-8">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי אברהם דב מחמלניק</h2>
 <p class="subtitle">חתן רבי יעקב יוסף מפולנאה · תלמיד הבעש״ט</p>
@@ -27,30 +33,32 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>שם מלא</dt><dd>רבי אברהם דב (דוב) אויערבך</dd></div><div><dt>חותנו</dt><dd>רבי יעקב יוסף הכהן מפולנאה</dd></div><div><dt>רבו</dt><dd>הבעש״ט · חותנו · המגיד ממזריטש</dd></div><div><dt>רבנות</dt><dd>חמלניק · פולנאה</dd></div><div><dt>בניו</dt><dd>רבי משה זאב · רבי יעקב פנחס · רבי יוסקה (חתן רבי נחמן מברסלב) · רבי דוד (עלה לטבריה)</dd></div><div><dt>נפטר</dt><dd>ב׳ אייר תקע״א (1811)</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/chmielnik.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">חמלניק</span></a><a class="rel" href="../dynasty/polonne.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">פולנאה — הספר הראשון</span></a><a class="rel" href="../rebbe/besht.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי ישראל בעל שם טוב (הבעש״ט)</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>קיבל בחסידות מהבעש״ט, מחותנו רבי יעקב יוסף ומרבי דב בער המגיד הגדול ממזריטש. כיהן כרב בחמלניק שברוסיה, ולאחר פטירת חותנו מילא את מקומו בפולנאה.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>השתדך שלש פעמים בבית הבעש״ט. בנו רבי משה זאב היה חתן רבי צבי בן הבעש״ט, בנו רבי יעקב פנחס היה חתן רבי ברוך ממז׳יבוז׳, בנו רבי יוסקה היה חתן רבי נחמן מברסלב, ובנו רבי דוד עלה לארץ ישראל והתיישב בטבריה.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>הוציא לאור, יחד עם גיסו רבי אברהם שמשון מראשקוב, את הספר 'תולדות יעקב יוסף'. בהסכמתו לספר 'מאור עינים', מיום ג׳ ט״ו תמוז תק״ע, חתם: 'הקטן אברהם דוב אויערבך'.<sup class='fn'><a href="#note-2">2</a></sup></p>
-<h3>סיפור: המקוה וההתקרבות</h3>
+<h3 id="sec-2">סיפור: המקוה וההתקרבות</h3>
 <p>כשנלקח לחתן לרבי יעקב יוסף הכהן מפולנאה, הצטיין בלמדנותו הגדולה אבל לא היה חסיד. ביקש רבי יעקב יוסף מהבעש״ט שיקרב את חתנו וילמדו את תורת החסידות. אמר לו הבעש״ט: אברך, בוא עמי למקוה. הלך עם הבעש״ט וראה את טבילותיו בקדושה ובטהרה, אבל לא התפעל.<sup class='fn'><a href="#note-3">3</a></sup></p>
 <p>אמר רבי אברהם דב: גם אני אעשה זאת — והחל טובל בכל יום כבעש״ט, אבל הצטנן וחלה. ציוה הבעש״ט עליו שיחדל מטבילותיו, ולקחו אליו הביתה עם הרבנית למשך חצי שנה — ומאז היה לחסיד נלהב, והוא שהוציא לאור, עם גיסו רבי אברהם שמשון, את הספר 'תולדות יעקב יוסף'.<sup class='fn'><a href="#note-3">3</a></sup></p>
-<h3>סיפור: ערב ראש חודש אצל רבי ברוך</h3>
+<h3 id="sec-3">סיפור: ערב ראש חודש אצל רבי ברוך</h3>
 <p>פעם נסע על קברו של הבעש״ט, ומשחזר הלך לבקר אצל מחותנו רבי ברוך ממז׳יבוז׳, נכד הבעש״ט. היה זה בערב ראש חודש. כיבדו רבי ברוך בסעודה, אבל הוא סירב לנטול ידים: 'קבלתי מהבעש״ט שלא לאכול עד לצאת המולד'. אמר לו רבי ברוך: אם כך תוכל לנטול את ידיך — שכן הבעש״ט היה אצלי והזהירני שלא אתן לך לצום. מיד נטל רבי אברהם דב את ידיו ואכל.<sup class='fn'><a href="#note-3">3</a></sup></p>
-<h3>סיפור: המלבין פני חבירו</h3>
+<h3 id="sec-4">סיפור: המלבין פני חבירו</h3>
 <p>דרכו של רבי ברוך ממז׳יבוז׳ לזרוק מרה בתלמידים. פעם ישב בסעודה, ומצד אחד ישב אצלו מחותנו רבי אברהם דב מחמלניק ומהצד השני מחותנו רבי יוסף מיאמפולה. נכנס עשיר אחד, ורבי ברוך התחיל לחרף ולגדף אותו וציוה לאנשיו שידחפו אותו החוצה. אמר לו מחותנו הרב מחמלניק: מה יעשה מחותני עם 'המלבין פני חבירו ברבים'? החזיר רבי ברוך פניו אליו ואמר: למה אינו מסיים את המאמר — 'אין לו חלק לעולם הבא'? אבל כשראיתי שעל האיש הזה יש קטרוג, ובזה שביזיתי אותו בטלתי מעליו את כל הדינים.<sup class='fn'><a href="#note-4">4</a></sup></p>
 <blockquote>כלום אפשר היה לי שלא להפקיר את העולם הבא שלי, למען אדם מישראל?<span class="src">רבי ברוך ממז׳יבוז׳ לרבי אברהם דב, כמובא ב&#x27;סיפורי חסידים&#x27;, עמ׳ 398 — אלפסי, כרך א׳, עמ׳ 177</span></blockquote>
 <p>התנצל הרב מחמלניק ואמר שלא ידע מזה.<sup class='fn'><a href="#note-4">4</a></sup></p>
-<h3>מתורתו: זה הדבר אשר ציוה ה׳</h3>
+<h3 id="sec-5">מתורתו: זה הדבר אשר ציוה ה׳</h3>
 <p>׳וידבר משה אל ראשי המטות לבני ישראל לאמר זה הדבר אשר ציוה ה׳׳ (במדבר ל, ב) —</p>
 <blockquote>אם אדם מישראל אינו מצליח, בל יזעף לבו ובל יהיו לו טענות אל הקדוש ברוך הוא, אלא יאמר &#x27;זה הדבר אשר ציוה ה׳&#x27; — כך היא גזירת המקום ברוך הוא, וצריך לקבלו באהבה רבה, ולברך על הרע כשם שמברך על הטוב, ואז יצליח בדרכו.<span class="src">׳ארץ החיים׳, עמ׳ 25, כמובא באלפסי, תורת החסידות כרך א׳, עמ׳ 176</span></blockquote>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-6" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/david-khmelnik.html">רבי דוד</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שנת לידתו לא נמסרה; לפי גירסא אחת היה חתן בתו של רבי יעקב יוסף.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">תולדותיו: אלפסי, תורת החסידות כרך א׳, עמ׳ 176 — חתן רבי יעקב יוסף; חמלניק ופולנאה; ב׳ אייר תקע״א.</li><li id="note-2">הסכמתו ל&#x27;מאור עינים&#x27;: שם, עמ׳ 177 (ט״ו תמוז תק״ע).</li><li id="note-3">סיפורי המקוה וערב ראש חודש: שם, עמ׳ 176 (מקור: &#x27;ארץ החיים&#x27;, עמ׳ 25).</li><li id="note-4">סיפור המלבין פני חבירו: שם, עמ׳ 177 (מקור: &#x27;סיפורי חסידים&#x27;, עמ׳ 398).</li><li id="note-5">מתורתו — &#x27;זה הדבר&#x27;: שם, עמ׳ 176.</li></ol></div>
+<div class="unknown"><h3 id="sec-7" data-i18n="unknown">מה שלא ידוע</h3><p>שנת לידתו לא נמסרה; לפי גירסא אחת היה חתן בתו של רבי יעקב יוסף.</p></div>
+<div class="notes"><h3 id="sec-8" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">תולדותיו: אלפסי, תורת החסידות כרך א׳, עמ׳ 176 — חתן רבי יעקב יוסף; חמלניק ופולנאה; ב׳ אייר תקע״א.</li><li id="note-2">הסכמתו ל&#x27;מאור עינים&#x27;: שם, עמ׳ 177 (ט״ו תמוז תק״ע).</li><li id="note-3">סיפורי המקוה וערב ראש חודש: שם, עמ׳ 176 (מקור: &#x27;ארץ החיים&#x27;, עמ׳ 25).</li><li id="note-4">סיפור המלבין פני חבירו: שם, עמ׳ 177 (מקור: &#x27;סיפורי חסידים&#x27;, עמ׳ 398).</li><li id="note-5">מתורתו — &#x27;זה הדבר&#x27;: שם, עמ׳ 176.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

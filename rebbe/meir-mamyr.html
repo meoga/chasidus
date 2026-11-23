@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי מאיר ממיר</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מה שלא ידוע</a></li><li><a href="#sec-3">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי מאיר ממיר</h2>
 <p class="subtitle">ערך באלפסי, כרך ד׳, עמ׳ 385</p>
@@ -27,17 +33,19 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>עיר</dt><dd>מיר</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/mir.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">מיר</span></a><a class="rel" href="../dynasty/root.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">הבעש״ט והמגיד — מעגל השורש</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>מתלמידיו הקרובים של רבי מרדכי מלעכוביטש דרכו של רבי מאירקה ממיר היתה להיות בכל ראש השנה | והסתפק בכעך שאינו משביע. הוא ניגש לאיש שהגיש את בלייפציג, שאתה היה מנהל מסחרים גדולים. בדלית ברירה הלחם בדבר הלחם שהוגש לעניים ואז הוברר שהאשה התפלל בבית כנסת של "אשכנזים", היינו אלה שאינם | שכחה להפריש חלה מן הלחם שאפתה. אז הבין רבי מאירקה חסידים. היתה זו תפילה קרה, רשמית. הוא, רבי מאירקה | שאותו זקן הוא איש קדוש ובעל רוח הקודש. רתם רבי שהיה רגיל לתפילה הסוערת ומלאת ההתלהבות של | מאירקה את העגלה שלו המהירה והחל לרדוף אחר שיירת לעכוביטש, חש עצמו בודד ועזוב. נפלה עליו מרה שחורה, | העניים. משהשיגם החל לחקור בדבר הזקן הפלאי ואז ספרו עד שלא יכול היה להתפלל. כך עמד כאבן על מקומו ללא | לו העניים כי הזקן איש מוזר הוא ומעשיו תמוהים. אמנם תנועה והיה סר וזעף. פתאום הדהד באזניו קולו של רבו | נוסע הוא בשיירה שלנו, אבל מפעם לפעם הוא עוזב את<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>כשהוא אומר "המלך" בהתלהבות ובהתרגשות ואז התעורר | השיירה ורץ אל תוך היער ושוהה בו זמן מה וחוזר אלינו. ונתלהב והיתה לו התעוררות גדולה והתל מתפלל כדרכו | לפעמים בראותו אגם מים, הוא רץ וטובל בו. גם כשהקרח בנוסח קרלין-לעכוביטש ויגבה לבו בדרכי ה' וחזרה ההארה | נראה במים שקפאו מתוך קור. הוא שובר את הקרח וטובל. אליו, כאילו עומד היה בבית המדרש בלעכוביטש. כאשר בא | ביקש רבי מאירקה לדעת את הכוון שאותו זקן מוזר הלך ללעכוביטש לאחר ראש השנה, קדמו רבו בבבת שחוק ואמר: | בו והלך אף הוא לשם. הוא מצאו עומד ליד עץ אחד, שקוע "ונשמע פתגם המלך" (אסתר א, כ), כאשר יהודי אומר | ברעיונותיו. מראה פניו היה כאש לוהטת. ניגש אליו רבי "המלך" כראוי, אז נשמע קולו גם בלייפציג והוסיף: מאירל, | מאירקה ואמר: רבי, ברכני! בקשו הזקן סכום של כסף ורבי האמת הוא. מאירקה נתן לו ברצון. לאחר מכן ברכו הזקן. כשבא רבי ('אור ישרים" ע' 28) | מאירקה, ללעכוביטש' סיפר לרבו את כל אשר קדה לו. ברכו</p>
 <p>רבו על טוב-דעתו ואמר לו: זכית שנתברכת מהקדוש ובי פעם אחת כשהיה רבי מאירקה בדרכו, ראה שיירה גדולה | ליב שרה'ס. לימים, אירע לרבי מאירקה שנתפס בידי שודדים של עניים הנוסעים עם בני ביתם לאסוף נדבות. בתוך | באמצע יער. לא היה כל סיכוי לברוח או למצוא מפלט. עמד השיירה הבחין רבי מאירקה בעני אחד שהיה בעל צורה | רבי מאיר בחדר שהביאוהו לשם והחל בוכה. הוא אמר את ומלא חן. ניכר היה על העני שמנקיי הדעת הוא ואין הוא | הודוי והיה מוכן לגרוע מכל. פתאום נשמע קול מצהלות אוסף נדבות רגיל. רבי מאירקה החליט לבחון את מעשי | סוסים. שיירה גדולה של חיילים פרצה ובאה. הם שמעו את האיש. הוא ראה כיצד העניים מתנפלים על הלחם שהוגש | סיפור לכידתו של רבי מאירקה, עצרו את חבורת להם מחמת רעבונם. הזקן לא נהג כמוהם. הוא נטל ידים | הגזלנים-רוצחים ושחררו את רבי מאירקה. החיילים בעצמם תתילה, לאחר שבדק שהספל אמנם כשר הוא. אתר בירך | אמרו לרבי מאירקה: אכן בר מזל אתה כי אין זו הדרך</p>
 <p>בדביקות על חתיכת כעך, ביגל בלעז, משום שסירב לברך | שהיעו צריכים ללכת בה. אין זאת כי אם מעשי אלקים. על הלחם. לאחר מכן בירך ברכת המזון כדין. לאחר מכן | בבואו ללעכוביטש, קדמו רבו ואמר: כל הלילה לא ישנתי נסעו העניים לדרכם, אולם הזקן המשיך להעסיק את רבי מחרדה לגורלך. בעבור נדבתך לרבי ליב שרה'ס זכית ונצלת. מאירקה. הוא לא הבין מדוע סירב הזקן לאכול מן הלחם ("אור ישרים" ע' 28)</p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>לא נמסרו תאריכים; מיקום העיר מיר לא אומת; שם הערך שוחזר מקריאה משובשת ב־OCR; המזהה מכיל תעתיק אוטומטי (לא מאומת) של: ממיר; הערך ארוך וה־OCR מערבב טורים — הסדר המקורי עלול להיות משובש</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3714 (עמ׳ 385).</li><li id="note-2">שם הערך כפי שנקרא ב־OCR: &#x27;רבי מאיר ממיר&#x27; — תוקן לפי כללי ה־OCR והקשר הערך.</li><li id="note-3">פרק הכרך: חסידות ליטא.</li></ol></div>
+<div class="unknown"><h3 id="sec-2" data-i18n="unknown">מה שלא ידוע</h3><p>לא נמסרו תאריכים; מיקום העיר מיר לא אומת; שם הערך שוחזר מקריאה משובשת ב־OCR; המזהה מכיל תעתיק אוטומטי (לא מאומת) של: ממיר; הערך ארוך וה־OCR מערבב טורים — הסדר המקורי עלול להיות משובש</p></div>
+<div class="notes"><h3 id="sec-3" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3714 (עמ׳ 385).</li><li id="note-2">שם הערך כפי שנקרא ב־OCR: &#x27;רבי מאיר ממיר&#x27; — תוקן לפי כללי ה־OCR והקשר הערך.</li><li id="note-3">פרק הכרך: חסידות ליטא.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

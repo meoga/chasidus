@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי אברהם המלאך</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו</a></li><li><a href="#sec-3">תלמידיו</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי אברהם המלאך</h2>
 <p class="subtitle">בן המגיד ממזריטש · מגיד מישרים בפאסטוב</p>
@@ -28,19 +34,21 @@
 <dl class="facts"><div><dt>אביו ורבו</dt><dd>רבי דוב בער, המגיד ממזריטש</dd></div><div><dt>חתנו של</dt><dd>רבי משולם פייביש מקרמניץ, בעל משנת חכמים</dd></div><div><dt>בניו</dt><dd>רבי שלום שכנא מפרוהוביטש · רבי ישראל חיים מלודמיר</dd></div><div><dt>נפטר</dt><dd>בן שלושים ושש</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> חסד לאברהם (טשרנוביץ תרי״א)</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/fastov.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">פאסטוב</span></a><a class="rel" href="../dynasty/root.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">הבעש״ט והמגיד — מעגל השורש</span></a><a class="rel" href="../rebbe/maggid.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">המגיד ממזריטש</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>מנעוריו פרוש וקדוש בהליכותיו, עד שהפך למעין אגדה בחייו ונקרא בפי החסידים בשם ״המלאך״; בפי חסידי חב״ד נקרא ״הקדוש״. הרבה בסיגופים ובצומות, וכל היום ישב עטוף בטלית ובתפילין, סגור בחדרו ועסק בלימוד.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>שימש כרבו של רבי שניאור זלמן מלאדי בקבלה, ואילו הוא למד מרבי שניאור זלמן את תורת הנגלה. בהשפעתו של רבי נחום מטשרנוביל נתקבל רבי אברהם למגיד מישרים בפאסטוב, הסמוכה לקיוב, בה חי בבדידות עד יומו האחרון. נפטר צעיר לימים, בהיותו בן שלושים ושש. רבי פנחס מקוריץ אמר, שאם היה מאריך ימים היו כל צדיקי הדור נכנעים לפניו.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>מתורתו</h3>
+<h3 id="sec-2">מתורתו</h3>
 <blockquote>הצדיק הוא יסוד העולם, שעל ידו בא כל הטוב והשלימות לעולמות התחתונים, כי אי אפשר לבוא שום התגלות לעולם שלא תבוא תחילה אל הצדיק.<span class="src">חסד לאברהם, פרשת וישב — כמובא באלפסי, כרך א׳, עמ׳ 47</span></blockquote>
 <p>סיפור: בחול המועד סוכות גילה איש אחד, לפי תומו, לרבי נחום מטשרנובל שנסתלק רבי אברהם המלאך. התחיל רבי נחום להכות את ראשו בכותל ובכה בכיה גדולה כשעתיים, ולא יכלו להרגיעו עד שלקחו אותו אל הסוכה ואמרו לו: רבינו, הלא היום יום טוב. ואז נרגע והחל לספר בשבחיו (שבחי הבעש״ט, עמ׳ פ׳ — כמובא שם).<sup class='fn'><a href="#note-2">2</a></sup></p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-3" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/shneur-zalman.html">רבי שניאור זלמן מלאדי</a><a class="chip" href="../rebbe/shalom-shachna-prohovitch.html">רבי שלום שכנא מפרוהוביטש</a><a class="chip" href="../rebbe/yisrael-chaim-ludmir.html">רבי ישראל חיים מלודמיב</a></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך א׳, עמ׳ 46–47: בן המגיד; תק״א – י״ב תשרי תקל״ז; חתן רבי משולם פייביש מקרמניץ; מגיד בפאסטוב; נפטר בן 36; בניו.</li><li id="note-2">לימוד הקבלה עם רבי שניאור זלמן והנגלה ממנו: שם, עמ׳ 46.</li><li id="note-3">הציטוט ׳הצדיק הוא יסוד העולם׳: חסד לאברהם פ׳ וישב, כמובא שם, עמ׳ 47.</li><li id="note-4">סיפור רבי נחום מטשרנובל: שבחי הבעש״ט עמ׳ פ׳, כמובא שם.</li><li id="note-5">נוסח מלא מאלפסי, תורת החסידות כרך א׳ (ערך רבי אברהם המלאך) — הושלם בשלב 0 של אצווה 72; הערך באתר נכתב קודם בלא נוסח מלא. שים לב: שנת פטירתו בערך י״ב תשרי תקל״ח (1777), ואילו בערך שבאתר י״ב תשרי תקל״ז (1776) — הפרש של שנה אחת, לא הוכרע.</li></ol></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך א׳, עמ׳ 46–47: בן המגיד; תק״א – י״ב תשרי תקל״ז; חתן רבי משולם פייביש מקרמניץ; מגיד בפאסטוב; נפטר בן 36; בניו.</li><li id="note-2">לימוד הקבלה עם רבי שניאור זלמן והנגלה ממנו: שם, עמ׳ 46.</li><li id="note-3">הציטוט ׳הצדיק הוא יסוד העולם׳: חסד לאברהם פ׳ וישב, כמובא שם, עמ׳ 47.</li><li id="note-4">סיפור רבי נחום מטשרנובל: שבחי הבעש״ט עמ׳ פ׳, כמובא שם.</li><li id="note-5">נוסח מלא מאלפסי, תורת החסידות כרך א׳ (ערך רבי אברהם המלאך) — הושלם בשלב 0 של אצווה 72; הערך באתר נכתב קודם בלא נוסח מלא. שים לב: שנת פטירתו בערך י״ב תשרי תקל״ח (1777), ואילו בערך שבאתר י״ב תשרי תקל״ז (1776) — הפרש של שנה אחת, לא הוכרע.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

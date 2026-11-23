@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי יצחק אייזיק לנגנר מסטרטין–טורונטו</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מה שלא ידוע</a></li><li><a href="#sec-3">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי יצחק אייזיק לנגנר מסטרטין–טורונטו</h2>
 <p class="subtitle">בן רבי משה מסטרטין–טורונטו · אדמו״ר בטורונטו</p>
@@ -27,18 +33,20 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי משה לנגנר מסטרטין–קוזובה–טורונטו (ערך 1578)</dd></div><div><dt>סבו</dt><dd>רבי יהודה צבי מסטרטין (השני) (ערך 1569)</dd></div><div><dt>עלייה לקנדה</dt><dd>בשנת תר״פ עזב אביו את גליציה והיגר לקנדה עם כל משפחתו; בטורונטו פתח אביו את בית מדרשו</dd></div><div><dt>פרישות</dt><dd>מגיל י״ג התנזר ממאכלים; לא ישן במיטה אלא נרדם שעות מספר על כסאו; מאומה לא בא אל פיו עד השעות המאוחרות של הלילה</dd></div><div><dt>תפילה</dt><dd>תפילותיו בקעו רקיעים ורבים נושעו בתפילותיו; לימד לקהל הרחב שיעורים כסדרם במשנה ובש״ס</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/toronto.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">טורונטו</span></a><a class="rel" href="../dynasty/stratin.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">שושלת סטרטין</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן רבי משה מסטרטין–קוזובה–טורונטו, נכד רבי יהודה צבי מסטרטין (השני), דור שישי לרבי יהודה צבי מסטרטין. אחותו, הרבנית מטאלנא, סיפרה כי מגיל שלוש־עשרה החל להתנזר ממאכלים בצורה מופלגת, ואת תפילותיו כבר בגיל זה היה מסיים בשעה מאוחרת בלילה, ורק אז היה מתפנה לטעימה קלה. לאחד ממקורביו סיפר בערוב ימיו כי מיום שעמד על דעתו לא ישן במיטה; נרדם היה למספר שעות על כסאו ומיד שב לעבודת בוראו.</p>
 <p>בשנת תר״פ עזב אביו את גליציה מפני חמת המציק והיגר לקנדה עם כל משפחתו. בעיר טורונטו פתח אביו את בית מדרשו, אשר היה אבן שואבת לכל. בבית מדרשו של אביו התבלט האח הצעיר ר׳ אייזיקל, כפי שנקרא בשם החיבה, על פני אחיו בקדושתו ובטהרתו. תפילותיו בקעו רקיעים ורבים נושעו בתפילותיו, ולימד לקהל הרחב שיעורים כסדרם במשנה ובש״ס. עד יומו האחרון התנהג בפרישות נוראה.</p>
 <p>אנשי טורונטו הקרובים אהבוהו מאד, בשל חיבתו לכל יהודי באשר הוא, ועדיין זוכרים אותם יהודים מספר חתונות שהיה נוכח בהן, ואומר ׳בדחנות׳ בנוסח החסידי הישן, אשר כל מילה בו הוותה תוכחה מסותרת. חיבבוהו מאד גדולי הדור בחוץ לארץ, כאדמו״ר מסקווירא והאדמו״ר מבויאן, ובביקוריו בארץ זכה להוקרה מאת גדולי דורנו כאן. בהיותו נוכח פעם בתפילת מנחה אצל האדמו״ר בעל ׳בית ישראל׳ מגור, נעמד מול ארון הקודש ופתח בתפילה כדרכו בקודש עד שנעו אמות הסיפים, והפטיר האדמו״ר מגור לסובבים אותו, שלא הורגלו לנוסח זה:</p>
 <blockquote>״לאזט עהם אפ הערט אייך אמאל צו אַן עהרליכע תפילה״ — הניחו לו, שישמעו נא פעם תפילה כנה.<span class="src">המודיע, טבת תש״מ, כמצוטט בערך</span></blockquote>
 <p>הוקרה מרובה הוקירו האדמו״ר מוויז׳ניץ, וכששהה בקרבת האדמו״ר מאמשינוב בתקופת הפורים ביקשוהו מאד שיקרא לפניו את המגילה. ומסופר כי קודם מותו ביקש להביא לפניו מיני תרגימא, באמרו שכל ימיו מנע טובה מגופו והוא רוצה לפייס את גופו לפני מותו — ולא התפשר עם גופו אף ברגעיו האחרונים.</p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>בערך זה בכרך ג׳ לא הובאה תורה מפיו; הקטע המובא כאן הוא דברי האדמו״ר מגור על תפילתו, לא תורה מפיו. ב׳ טבת תש״מ חל בדצמבר 1979.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1588 (עמ׳ 212–213 בקובץ ה־OCR).</li><li id="note-2">הדברים עליו: ׳המודיע׳, טבת תש״מ, כמצוטט בערך.</li></ol></div>
+<div class="unknown"><h3 id="sec-2" data-i18n="unknown">מה שלא ידוע</h3><p>בערך זה בכרך ג׳ לא הובאה תורה מפיו; הקטע המובא כאן הוא דברי האדמו״ר מגור על תפילתו, לא תורה מפיו. ב׳ טבת תש״מ חל בדצמבר 1979.</p></div>
+<div class="notes"><h3 id="sec-3" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1588 (עמ׳ 212–213 בקובץ ה־OCR).</li><li id="note-2">הדברים עליו: ׳המודיע׳, טבת תש״מ, כמצוטט בערך.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

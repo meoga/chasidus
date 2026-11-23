@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי ירחמיאל פרומר מאוסטרובצה</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">תורתו</a></li><li><a href="#sec-3">הסתלקותו</a></li><li><a href="#sec-4">תלמידיו</a></li><li><a href="#sec-5">מה שלא ידוע</a></li><li><a href="#sec-6">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי ירחמיאל פרומר מאוסטרובצה</h2>
 <p class="subtitle">בנו של מייסד ליפסק · בעל &#x27;אמרי שפר&#x27;</p>
@@ -28,21 +34,23 @@
 <dl class="facts"><div><dt>אביו</dt><dd>רבי יהודה פסח מליפסק, מייסד חסידות ליפסק</dd></div><div><dt>חותנו</dt><dd>רבי יצחק שלמה מזעליחוב</dd></div><div><dt>לידתו</dt><dd>נולד בשנת תקצ״ז (1837)</dd></div><div><dt>רבותיו</dt><dd>קיבל בחסידות מרבי יוסף ברוך &#x27;היהודי הטוב&#x27; מניישטאט, רבי יצחק מנעשכיז, רבי נתן דוד משידלובצה</dd></div><div><dt>אדמו״רות</dt><dd>משנת תרכ״ח (1868) אדמו״ר בליפסק; בזקנותו עבר לאוסטרובצה; כיהן גם כאב״ד מגנישוב</dd></div><div><dt>ספרו</dt><dd>&#x27;אמרי שפר&#x27;</dd></div><div><dt>פטירה</dt><dd>נפטר בב׳ דשבועות תרס״ט — ז׳ סיון תרס״ט (27 במאי 1909); ברגעים האחרונים קודם פטירתו התחיל לומר &#x27;אני מאמין&#x27;</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> אמרי שפר</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/ostrowiec.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">אוסטרובצה</span></a><a class="rel" href="../dynasty/lipsk.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">שושלת ליפסק</span></a><a class="rel" href="../rebbe/yehuda-pesach-lipsk.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי יהודה פסח מליפסק</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בנו של רבי יהודה פסח מליפסק, דור שני לרבי יהודה פסח. חתן רבי יצחק שלמה מזעליחוב. קיבל בחסידות מרבי יוסף ברוך 'היהודי הטוב' מניישטאט, רבי יצחק מנעשכיז, רבי נתן דוד משידלובצה. משנת תרכ״ח (1868) אדמו״ר בליפסק; בזקנותו עבר לאוסטרובצה. ספרו 'אמרי שפר'. נפטר בב׳ דשבועות תרס״ט — ז׳ סיון תרס״ט (27 במאי 1909).<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>תורתו</h3>
+<h3 id="sec-2">תורתו</h3>
 <p>על 'ויענו כל העם יחדיו ויאמרו כל אשר דבר ה׳ נעשה' (שמות י״ט ח׳) דרש: התיבה 'יחדיו' נראית כמיותרת. אלא הענין הוא שאין לאדם מישראל כל אפשרות לקיים את כל התרי״ג מצוות — שהרי יש מצוות שרק כהנים יכולים לקיימן, ויש מצוות התלויות בארץ ישראל, וכיוצא בזה — אלא על ידי הערבות ההדדית שבין יהודי ליהודי, שהרי 'כל ישראל ערבין זה בזה', כולם כגוף אחד וכאיש אחד. וכיצד אפשרי הדבר? אם יהיו היהודים אוהבים זה את זה ויש שלום ביניהם. אבל אם יש פירוד ביניהם, הרי שאין אהבה שרויה ביניהם, ואין הערבות ההדדית פועלת, ואזי אי אפשר לקיים את המצוות. וזה שאמר הכתוב 'ויענו כל העם יחדיו' — היינו, נהיה כולנו באחדות ובאהבה, ואז נוכל לקיים את המצוות כולן, 'וכל אשר דבר ה׳ נעשה!'. ('מליצי אש' ח״ב, לאחר חודש אלול, ע׳ קי״ז)<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>על 'כה תאמר לבית יעקב ותגיד לבני ישראל' (שמות י״ט ג׳) דרש: פירש רש״י, 'בית יעקב' — אלה הנשים, תאמר להם בלשון רכה; 'בני ישראל' — אלה האנשים, תאמר להם עונשים ודקדוקים, דברים הקשים כגידין. ויש להבין, הלא נאמר 'אלה הדברים אשר תדבר אל בני ישראל' (שמות י״ט ו׳), ופירש רש״י 'לא פחות ולא יותר' — אם יאמר לאנשים בלשון קשה ולנשים בלשון רכה, הרי לא יהיו 'אלה הדברים'. אפשר לתרץ על פי הנאמר ב'בכור שור' על האמור בחז״ל, 'איזהו חכם הרואה את הנולד' (תמיד ל״ב א׳): כי לכל עבירה ומצוה יש אב ויש תולדות. כמו עכו״ם — האב הוא זה העובד עבודה זרה ממש, והתולדות הם בעלי הגאוה, שעליהם אומרים חז״ל 'כל המתגאה כאילו עובד עבודה זרה'; וכן כל המחליף שם בדבורו כאילו עובד עבודה זרה. בגילוי עריות התולדה היא המתקרב אל האשה בקריצת עין וברמזים, והמסתכל בבגדים צבעוניים של האשה, וכיוצא בזה. בשפיכות דמים התולדה היא 'כל המלבין פני חבירו כאילו שופך דמים' (בבא מציעא נ״ח ב׳). העולה מדבריו הוא שלאיש ההמון קל לקיים את כל התורה, לפי הבנתו שלו את התורה, משום שאינו יודע את התולדות של כל מצוה ושל כל עבירה. אבל לאנשים בעלי מדרגה, קשה מאד לקיים את התורה בשלימות, על האבות והתולדות, שהרי יודעים הם שאינם יוצאים ידי חובתם. ועתה יובן הפירוש: 'כה תאמר לבית יעקב' — הם פתותי העם, בבחינת נשים, והנשים עצמן; 'בני ישראל' — הם גדולי ישראל ותלמידי חכמים. הדבור שנאמר לשניהם הוא שוה, אבל לבני ישראל, מבחינת מדרגתם הגדולה, הם 'קשים כגידים', שהרי יודעים הם את גודל האחריות המוטל עליהם; לעומתם — 'בית יעקב', הדברים אצלם רכים, שהרי אינם יודעים את התולדות; וזהו 'איזהו חכם הרואה את הנולד' — שהוא יודע לא רק את האבות של המצוות, אלא גם את התולדות — את המסתעף מקיום המצוות, ומכאן הדברים 'הקשים כגידים'. (שם, ע׳ 118, קי״ז ע״ב)<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>הסתלקותו</h3>
+<h3 id="sec-3">הסתלקותו</h3>
 <p>שמענו שברגעים האחרונים קודם פטירתו התחיל לומר 'אני מאמין', ובעודו אומרו עלה למרום ושבק חיים לכל חי. (נכדו, רבי יעקב משה הלוי אב״ד סובוטא, בקונטרס 'שלשלת היוחסין' שבסוף הספר 'שמע שלמה', ירושלים תשט״ז — מהדורה שניה)<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-4" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/moshe-elikim-beria-fromer.html">רבי משה אליקים בריעה פרומר מראדום</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>יום לידתו המדויק אינו נמסר — רק שנת תקצ״ז (1837).</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3015 (עמ׳ 78): &#x27;רבי ירחמיאל פרומר מאוסטרובצה / בן רבי יהודה פסח מליפסק (3014) / אב״ד מגנישוב ואדמו״ר בליפסק ובאוסטרובצה / תקצ״ז — ב׳ דשבועות תרס״ט&#x27;. (2914) ב־OCR הוא קריאה משובשת של 3014.</li><li id="note-2">ב׳ דשבועות = ז׳ סיון תרס״ט = 27 במאי 1909 (convertdate).</li><li id="note-3">הדרשות — מתוך &#x27;מליצי אש&#x27; ח״ב, כמובא בערך אלפסי.</li></ol></div>
+<div class="unknown"><h3 id="sec-5" data-i18n="unknown">מה שלא ידוע</h3><p>יום לידתו המדויק אינו נמסר — רק שנת תקצ״ז (1837).</p></div>
+<div class="notes"><h3 id="sec-6" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3015 (עמ׳ 78): &#x27;רבי ירחמיאל פרומר מאוסטרובצה / בן רבי יהודה פסח מליפסק (3014) / אב״ד מגנישוב ואדמו״ר בליפסק ובאוסטרובצה / תקצ״ז — ב׳ דשבועות תרס״ט&#x27;. (2914) ב־OCR הוא קריאה משובשת של 3014.</li><li id="note-2">ב׳ דשבועות = ז׳ סיון תרס״ט = 27 במאי 1909 (convertdate).</li><li id="note-3">הדרשות — מתוך &#x27;מליצי אש&#x27; ח״ב, כמובא בערך אלפסי.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

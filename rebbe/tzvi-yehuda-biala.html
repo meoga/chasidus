@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי צבי יהודה רבינוביץ מביאלה־פשיסחא</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו: מוסיף והולך</a></li><li><a href="#sec-3">מה שלא ידוע</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי צבי יהודה רבינוביץ מביאלה־פשיסחא</h2>
 <p class="subtitle">בנו הבכור של רבי יחיאל יהושע מביאלה · אדמו״ר בירושלים</p>
@@ -27,18 +33,20 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי יחיאל יהושע רבינוביץ מביאלה</dd></div><div><dt>נתגדל אצל</dt><dd>רבי עמנואל וולטפיד מפשדבורז׳־לודז׳</dd></div><div><dt>מבאי ביתם של</dt><dd>רבי דוד מסוכאטשוב · רבי אהרן יחיאל מקוז׳ניץ · רבי אלטר מטשימלוב</dd></div><div><dt>ניצל מהשואה</dt><dd>בריחה עם בית אבא לברנוביץ, ומשם גלות לסיביר</dd></div><div><dt>מפעלו</dt><dd>ההדיר את ספרי סביו מביאלה ומלענטשנה</dd></div><div><dt>בית מדרשו</dt><dd>שכונת הר נוף, ירושלים</dd></div><div><dt>בניו</dt><dd>רבי אלימלך בירושלים · רבי ברוך ליב בלונדון · רבי מנדל · רבי פנחס יאיר · רבי צמח דוד · רבי שמחה · רבי אהרן משה</dd></div><div><dt>חתנו</dt><dd>רבי ישראל חיים מספינקא</dd></div><div><dt>נפטר</dt><dd>ו׳ טבת תשס״ד (2004)</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/jerusalem.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">ירושלים</span></a><a class="rel" href="../dynasty/biala.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">ביאלה</span></a><a class="rel" href="../rebbe/yechiel-yehoshua-biala.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי יחיאל יהושע רבינוביץ מביאלה</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בנו הבכור של אביו. זכה להכיר עוד רבים מצדיקי הדור הקודם — דודיו זקניו, בני רבי יצחק יעקב מביאלה. נתגדל אצל רבי עמנואל וולטפיד מפשדבורז׳־לודז׳. היה מבאי ביתו של רבי דוד מסוכאטשוב, רבי אהרן יחיאל מקוז׳ניץ ורבי אלטר מטשימלוב. ניצל מהשואה על ידי בריחה עם בית אבא לברנוביץ, שממנה הוגלה לסיביר. ההדיר את ספרי סביו מביאלה ומלענטשנה. בית מדרשו בשכונת הר נוף בירושלים.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>מתורתו: מוסיף והולך</h3>
+<h3 id="sec-2">מתורתו: מוסיף והולך</h3>
 <p>על הגמרא בשבת (כא, ב) גבי נר חנוכה — בית שמאי אומרים פוחת והולך, ובית הלל אומרים מוסיף והולך — לימד בשם זקנו:</p>
 <blockquote>שבדורות הקודמים היה דרך התשובה על ידי סיגופים ותעניות, והבעש״ט הקדוש ותלמידיו ראו שהדורות נחלשים, ותקנו דרך התשובה על ידי חרטה גמורה ועזיבת החטא, ובמקום הסיגופים להרבות בעשיית הטוב בחסד ובצדקה ולהוסיף בתורה ותפלה, ועל ידי זה החטאים והרע בטלים ממילא. וזה מרומז: בית שמאי אומרים פוחת והולך — דהיינו פוחת מהגוף על ידי דרך התשובה של תעניות וסיגופים; ובית הלל אומרים מוסיף והולך — דרך התשובה הוא על ידי תוספות של תורה ומעשים טובים ותורה ותפלה. והלכה הוא כבית הלל, להיות מוסיף והולך בעשיית הטוב, וזה דרך התשובה שישכון בו אור.<span class="src">כמובא באלפסי, כרך ג׳, עמ׳ 1355</span></blockquote>
 <p>ועל ״וכבסו שמלותם״ (שמות יט, י) לימד: אפשר לרמז בזה ״וכבסו שמלותם״ — מרומז על בגדיו המלוכלכים בעבירות; ומרומז בזה ״וקדשתם היום ומחר״ — להתחיל מקודם בעשיית הטוב ולעסוק בדברים שבקדושה, ואחרי כן ״וכבסו שמלותם״, שעל ידי זה גם תתבטל ממנו העבירות ולא יעשו רושם, והכל יתהפך לטובה. (כמובא שם.)<sup class='fn'><a href="#note-1">1</a></sup></p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>דברי תורה מבניו לא הובאו בערך (״לא קיבלנו מהם דברי תורה״).</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, עמ׳ 1355 (קובץ OCR p0042) — פרק ״רבי צבי יהודה רבינוביץ מביאלה־פשיסחא״: בן רבי יחיאל יהושע; תרפ״ה — ו׳ טבת תשס״ד; נתגדל אצל רבי עמנואל וולטפיד; ניצל בבריחה לברנוביץ וגלות לסיביר; ההדיר ספרי סביו; בית מדרש בהר נוף; בניו וחתנו.</li><li id="note-2">״מוסיף והולך״ ו״וכבסו שמלותם״: כמובא שם.</li></ol></div>
+<div class="unknown"><h3 id="sec-3" data-i18n="unknown">מה שלא ידוע</h3><p>דברי תורה מבניו לא הובאו בערך (״לא קיבלנו מהם דברי תורה״).</p></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, עמ׳ 1355 (קובץ OCR p0042) — פרק ״רבי צבי יהודה רבינוביץ מביאלה־פשיסחא״: בן רבי יחיאל יהושע; תרפ״ה — ו׳ טבת תשס״ד; נתגדל אצל רבי עמנואל וולטפיד; ניצל בבריחה לברנוביץ וגלות לסיביר; ההדיר ספרי סביו; בית מדרש בהר נוף; בניו וחתנו.</li><li id="note-2">״מוסיף והולך״ ו״וכבסו שמלותם״: כמובא שם.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

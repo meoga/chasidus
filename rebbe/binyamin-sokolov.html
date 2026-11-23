@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי בנימין מורגנשטרן מסוקולוב</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מכתבו</a></li><li><a href="#sec-3">מה שלא ידוע</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי בנימין מורגנשטרן מסוקולוב</h2>
 <p class="subtitle">דור חמישי לרבי מנחם מנדל מקוצק; אדמו״ר מסוקולוב</p>
@@ -27,18 +33,20 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי יצחק זליג מורגנשטרן מסוקולוב (ערך 1658)</dd></div><div><dt>דורו</dt><dd>דור חמישי לרבי מנחם מנדל מקוצק (ערך 1652)</dd></div><div><dt>נישואיו</dt><dd>חתן רבי יוסף מאמשינוב — שושלת וורקא</dd></div><div><dt>רבנותו</dt><dd>בשנת תרצ״ד (1934) נבחר לרב בסטרדין הסמוכה לסוקולוב; אחרי פטירת אביו, בעיצומם של ימי המלחמה, נבחר לאדמו״ר מסוקולוב</dd></div><div><dt>בנו</dt><dd>בנו רבי אברהם, חתן רבי ראובן זעהמן, רבו של אוטווצק</dd></div><div><dt>פטירתו</dt><dd>נולד בשנת תרנ״ה (1895); נפטר באושוויץ בתחילת שנת תש״ה</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/sokolov.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">סוקולוב</span></a><a class="rel" href="../dynasty/kotzk.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">שושלת קוצק</span></a><a class="rel" href="../rebbe/yitzchak-zelig-sokolov.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי יצחק זליג מורגנשטרן מסוקולוב</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן רבי יצחק זליג מסוקולוב, דור חמישי לרבי מנחם מנדל מקוצק. נולד בשנת תרנ״ה. חתן רבי יוסף מאמשינוב — שושלת וורקא. בשנת תרצ״ד נבחר לרב בסטרדין הסמוכה לסוקולוב. אחרי פטירת אביו, בעיצומם של ימי המלחמה, נבחר לאדמו״ר מסוקולוב. בנו רבי אברהם, חתן רבי ראובן זעהמן, רבו של אוטווצק. נפטר באושוויץ בתחילת שנת תש״ה.</p>
-<h3>מכתבו</h3>
+<h3 id="sec-2">מכתבו</h3>
 <p>ביום ג׳, ט״ז באדר תרצ״ט (7 במרץ 1939), מסוקולוב, כתב בשם אביו לחסידים שבניו יורק ובברוקלין, באמעריקא, לבקש תמיכה הגונה לצרכי רפואותיו של אביו ולכל אנשי החסידים: 'הנה כאשר כ״ק אאמו״ר [הרה״ק רבי יצחק זליג מסאקלוב] שליט״א אינו בבריאות השלימות ל״ע, ומאוד קשה עליו המשך הכתיבה, בקש ממני לכתוב לכם בשמו ולבקשכם שתזכרו נא האהבה וההתקשרות הישינה... ובריחוק מקום, בעת שאין באפשרות לקבל פני רבכם בראות פנים, צריכים אתם התחזקות יתירה על ידי דיבוק חברים וסעודת מרעים, בכל פעם לשמוע דברי לקח, ואיש את רעהו יאמר חזק'.</p>
 <blockquote>הנה כאשר כ״ק אאמו״ר [הרה״ק רבי יצחק זליג מסאקלוב] שליט״א אינו בבריאות השלימות ל״ע, ומאוד קשה עליו המשך הכתיבה, בקש ממני לכתוב לכם בשמו.<span class="src">מכתבו מסוקולוב, יום ג׳ ט״ז אדר תרצ״ט, בשם אביו, אל החסידים באמריקה (אלפסי, כרך ג׳, ערך 1664)</span></blockquote>
 <p>ובמכתב ביקש גם שיזכרו את הסובלים בפולין: 'ידידים, עליכם לדעת כי למה שלח אתכם השי״ת לשם לדור במדינה שלוה ושקטה? לזכור בנו הסובלים כל כך עול הצרות ומחכים לרחמי שמים בכל יום ויום; המצב נורא ואיום, קמו עלינו שונאים ונוטלים ממנו את הלחם צר, וגוזרים עלינו גזירות קשות; עם ישראל נאנחים ומבקשים לחם'. המכתב נחתם: 'דברי הכותב בשם כ״ק בנימין בהרה״ק שליט״א מסאקלוב מארגענשטערן, האבד״ק סטערדין'.</p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>בערך זה בכרך ג׳ לא הובאה תורה מפיו; הערך מביא את תולדותיו ואת המכתב שכתב בשם אביו אל החסידים באמריקה. תאריך פטירתו המדויק באושוויץ לא נזכר, אלא &#x27;בתחילת שנת תש״ה&#x27; — תחילת שנת תש״ה היא סתיו 1944.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1664, עמ׳ 1664–1665 (קובץ OCR p0280–p0281) — תולדותיו ומכתבו.</li><li id="note-2">כותרת העמוד ב־OCR נדפסה &#x27;- 16684 -&#x27; (p0280) — שיבוש של 1664; מספר הערך מאושר מסדר הסריקה (בין 1663 ל־1665) ומהצלב בערך 1658 (&#x27;בנו רבי בנימין&#x27;).</li></ol></div>
+<div class="unknown"><h3 id="sec-3" data-i18n="unknown">מה שלא ידוע</h3><p>בערך זה בכרך ג׳ לא הובאה תורה מפיו; הערך מביא את תולדותיו ואת המכתב שכתב בשם אביו אל החסידים באמריקה. תאריך פטירתו המדויק באושוויץ לא נזכר, אלא &#x27;בתחילת שנת תש״ה&#x27; — תחילת שנת תש״ה היא סתיו 1944.</p></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1664, עמ׳ 1664–1665 (קובץ OCR p0280–p0281) — תולדותיו ומכתבו.</li><li id="note-2">כותרת העמוד ב־OCR נדפסה &#x27;- 16684 -&#x27; (p0280) — שיבוש של 1664; מספר הערך מאושר מסדר הסריקה (בין 1663 ל־1665) ומהצלב בערך 1658 (&#x27;בנו רבי בנימין&#x27;).</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

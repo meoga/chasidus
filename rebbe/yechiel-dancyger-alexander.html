@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי יחיאל דנציגר מאלכסנדר</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">עליו</a></li><li><a href="#sec-3">תורתו</a></li><li><a href="#sec-4">תלמידיו</a></li><li><a href="#sec-5">מה שלא ידוע</a></li><li><a href="#sec-6">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי יחיאל דנציגר מאלכסנדר</h2>
 <p class="subtitle">מייסד שושלת אלכסנדר · &#x27;האדמו״ר הזקן&#x27;</p>
@@ -27,23 +33,25 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי שרגא פייבל דנציגר מגריצא, אבי השושלת</dd></div><div><dt>רבותיו</dt><dd>רבי יצחק מווארקא, רבי מנחם מענדל מווארקא ורבי דוב בעריש מביאלה; גודל בילדותו אצל רבי יצחק מווארקא</dd></div><div><dt>רבנותו</dt><dd>כיהן כרב בטורטשין, גריצא, פילץ, אלכסנדר</dd></div><div><dt>הכתרתו</dt><dd>משנת תרל״ת (1873) אדמו״ר — על פי אלפסי; ויקיפדיה העברית והיידית: משנת תרל״ו (1876), לאחר פטירת רבי דוב בעריש מביאלה</dd></div><div><dt>הנהגתו</dt><dd>הגדיל והאדיר את חסידות אלכסנדר, שמנתה עשרות אלפי חסידים, והיתה השניה בגודלה בפולין; ענוותן אמת, שראה עצמו שפל יותר מכל האנשים; דמות מופת של אוהב ישראל, שצרתו של כל אדם נגעה אל לבו ממש; הרבה בסיגופים ובתעניות</dd></div><div><dt>בניו</dt><dd>רבי ירחמיאל יצחק, רבי שמואל ורבי בצלאל יאיר</dd></div><div><dt>חתניו</dt><dd>רבי אלעזר ליפשיץ, רבי בצלאל דמבינסקי ורבי ישעיה וולטפרייד מרוספשה־וואלה</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/alexander.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">אלכסנדר</span></a><a class="rel" href="../dynasty/alexander.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">שושלת אלכסנדר</span></a><a class="rel" href="../rebbe/shraga-feivel-dancyger-gritza.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי שרגא פייבל דנציגר מגריצא</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>גודל בילדותו אצל רבי יצחק מווארקא, והיה גדול בתורה. כיהן כרב בטורטשין, גריצא, פילץ, אלכסנדר. משנת תרל״ת אדמו״ר; הגדיל והאדיר את חסידות אלכסנדר, שמנתה עשרות אלפי חסידים, והיתה השניה בגודלה בפולין. ענוותן אמת, שראה עצמו שפל יותר מכל האנשים. דמות מופת של אוהב ישראל, שצרתו של כל אדם נגעה אל לבו ממש. הרבה בסיגופים ובתעניות.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>עליו</h3>
+<h3 id="sec-2">עליו</h3>
 <p>פעם האריך מאד בתפילתו; שאלו חסיד אחד: והלא נאמר 'ונשמרתם מאד לנפשותיכם' (דברים ד׳, ט״ו)? השיב: ממה נפשך — אם הקדוש ברוך הוא עוזר שהתפילה תהיה כראי, מי צריך לאכול? ואם, חלילה, התפילה אינה כראוי — מי יכול לאכול? (סיפורי חסידים על התורה, מס׳ 286)<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>כשלמד ב'חדר', חזר הביתה בוכה בדמעות שליש. לאחר בירור הוברר: הוא למד בחדר איך שהפלשתים לקחו את ארון ה׳ בשבי, ואז פרץ בבכי ולא יכול להרגע מחלול ה׳ שאירע. (גן הדסים, עמ׳ 57)<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>תורתו</h3>
+<h3 id="sec-3">תורתו</h3>
 <p>׳ואלה תולדות יצחק בן אברהם, אברהם הוליד את יצחק׳ (פרשת תולדות; בראשית כ״ה, י״ט) — בא וראה ענותנותו של הבן ושל האב: בקש הכתוב להדגיש שיצחק חשב שמצד עצמו אין לו כל זכות, אלא זאת שהוא בנו של אברהם — היינו שיש לו אב צדיק כאברהם; ואילו אברהם לא החשיב את עצמו כלל, אלא בזאת שהוא 'הוליד את יצחק'.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>׳אם אני כאן הכל כאן׳ (סוכה נ״ג, א) — לא די שאני לבדי עובד את ה׳, אלא צריך ש'הכל כאן', שכולנו נעבוד את הבורא.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>׳בקשו מלאכי השרת לפגוע במשה, עשה לו הקדוש ברוך הוא קלסתרין של משה דומה לאברהם׳ (מדרש רבה, פרשת יתרו) — אמר להם הקדוש ברוך הוא: אי אתם מתביישים הימנו? לא זהו שירדתם אצלו ואכלתם בתוך ביתו? תמוה: מה הבושה שאכלו אצל אברהם? ועוד — משום שאכלו אצלו מגיעה למשה התורה? אלא: את התורה יש לתת למי שמקבל את האורחים בסבר פנים יפות ונותן להם לאכול בעין טובה, כראוי להכנסת אורחים — לאברהם, אשר קיבל את המלאכים בסבר פנים יפות ונתן להם לאכול בעין טובה.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-4" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/yerachmiel-yisrael-yitzchak-dancyger.html">רבי ירחמיאל ישראל יצחק דנציגר מאלכסנדר</a><a class="chip" href="../rebbe/shmuel-tzvi-dancyger.html">רבי שמואל צבי דנציגר מאלכסנדר</a><a class="chip" href="../rebbe/betzalel-yair-dancyger.html">רבי בצלאל יאיר דנציגר מאלכסנדר</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שנת ההכתרה: אלפסי — משנת תרל״ת (1873); ויקיפדיה העברית והיידית — תרל״ו (1876), לאחר פטירת רבי דוב בעריש מביאלה. שנת הלידה תקפ״ח (1828) לקוחה מויקיפדיה — אלפסי נותן רק את תאריך הפטירה. &#x27;טורטשין&#x27; — כנראה טורצ׳ין (Torchyn) בוואהלין, כיום אוקראינה; לא נרשמה כעיירה, שכן אינה מושבו של שום ערך כאן.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3085 (עמ׳ 135): &#x27;רבי יחיאל דנציגר מאלכסנדר / בן רבי שרגא פייבל מגריצא (3084) / תלמידם המובהק של רבי יצחק מווארקא, רבי מנחם מענדל מווארקא ורבי דוב בעריש מביאלה / נפטר י״ד בשבט תרנ״ד&#x27;.</li><li id="note-2">י״ד שבט תרנ״ד = 21 בינואר 1894 (convertdate). תקפ״ח = 1828.</li><li id="note-3">ויקיפדיה העברית, ערך &#x27;יחיאל דנציגר&#x27;: נולד בגריצא תקפ״ח (1828); לאחר פטירת רבי דוב בעריש מביאלה בשנת תרל״ו (1876) נבחר לשמש כאדמו״ר; נפטר י״ד שבט תרנ״ד. ויקיפדיה היידית, ערך &#x27;יחיאל דאנציגער&#x27;, נותנת אף היא תרל״ו. אלפסי כותב &#x27;משנת תרל״ת&#x27; — המחלוקת צוינה ב&#x27;unknown&#x27;.</li></ol></div>
+<div class="unknown"><h3 id="sec-5" data-i18n="unknown">מה שלא ידוע</h3><p>שנת ההכתרה: אלפסי — משנת תרל״ת (1873); ויקיפדיה העברית והיידית — תרל״ו (1876), לאחר פטירת רבי דוב בעריש מביאלה. שנת הלידה תקפ״ח (1828) לקוחה מויקיפדיה — אלפסי נותן רק את תאריך הפטירה. &#x27;טורטשין&#x27; — כנראה טורצ׳ין (Torchyn) בוואהלין, כיום אוקראינה; לא נרשמה כעיירה, שכן אינה מושבו של שום ערך כאן.</p></div>
+<div class="notes"><h3 id="sec-6" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3085 (עמ׳ 135): &#x27;רבי יחיאל דנציגר מאלכסנדר / בן רבי שרגא פייבל מגריצא (3084) / תלמידם המובהק של רבי יצחק מווארקא, רבי מנחם מענדל מווארקא ורבי דוב בעריש מביאלה / נפטר י״ד בשבט תרנ״ד&#x27;.</li><li id="note-2">י״ד שבט תרנ״ד = 21 בינואר 1894 (convertdate). תקפ״ח = 1828.</li><li id="note-3">ויקיפדיה העברית, ערך &#x27;יחיאל דנציגר&#x27;: נולד בגריצא תקפ״ח (1828); לאחר פטירת רבי דוב בעריש מביאלה בשנת תרל״ו (1876) נבחר לשמש כאדמו״ר; נפטר י״ד שבט תרנ״ד. ויקיפדיה היידית, ערך &#x27;יחיאל דאנציגער&#x27;, נותנת אף היא תרל״ו. אלפסי כותב &#x27;משנת תרל״ת&#x27; — המחלוקת צוינה ב&#x27;unknown&#x27;.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

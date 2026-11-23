@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי אליעזר זאב מארילוס</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מה שלא ידוע</a></li><li><a href="#sec-3">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי אליעזר זאב מארילוס</h2>
 <p class="subtitle">בנו של רבי יוסף אהרן מבוצ׳צ׳א · אדמו״ר בבוצ׳צ׳א־בוטושאן</p>
@@ -27,15 +33,17 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי יוסף אהרן רבין מבוצ׳צ׳א</dd></div><div><dt>חותנו</dt><dd>רבי יעקב מרדכי ליברמן מטופורוב</dd></div><div><dt>שם המשפחה</dt><dd>חי שתים־עשרה שנה אצל חותן־זקנו רבי יצחק מארילוס מרופשיץ, ונטל את שם משפחתו מארילוס</dd></div><div><dt>רבו</dt><dd>רבי חיים מצאנז</dd></div><div><dt>רבנות</dt><dd>רב ב&#x27;פשצלוב&#x27; עד שנת תרע״ג (1913), ואז מילא את מקום אביו בבוצ׳צ׳א־בוטושאן</dd></div><div><dt>בניו</dt><dd>רבי מנשה, רבי חיים, רבי אשר, רבי מאיר, רבי שלום</dd></div><div><dt>חתניו</dt><dd>רבי שמעון אפרים גוטסמן מלשקוביץ, רבי משולם זושא לאנדמן, רבי יעקב שמוקלר</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/bucecea.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">בוצ׳צ׳א</span></a><a class="rel" href="../dynasty/buchach.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">שושלת בוצ׳צ׳א (רומניה)</span></a><a class="rel" href="../rebbe/yosef-aharon-buchach.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי יוסף אהרן רבין מבוצ׳צ׳א</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן רבי יוסף אהרן מבוצ׳צ׳א. נשא את בת רבי יעקב מרדכי ליברמן מטופורוב, וחי שתים־עשרה שנה אצל חותן־זקנו רבי יצחק מארילוס מרופשיץ, ונטל את שם משפחתו מארילוס. היה תלמידו של רבי חיים מצאנז.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>כיהן כרב ב'פשצלוב' עד שנת תרע״ג (1913), ואז מילא את מקום אביו בבוצ׳צ׳א־בוטושאן. בניו: מנשה, חיים, אשר, מאיר ושלום; חתניו: שמעון אפרים גוטסמן מלשקוביץ, משולם זושא לאנדמן ויעקב שמוקלר. נפטר בכ״ה טבת תש״ו (29 בדצמבר 1945).<sup class='fn'><a href="#note-1">1</a></sup></p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>לא נמסר יום לידתו המדויק — רק שנת תרי״ג (1853). מקום רבנותו הראשון, &#x27;פשצלוב&#x27; ב־OCR, לא זוהה.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3034 (עמ׳ 91): &#x27;רבי אליעזר זאב מארילוס / תרי״ג — כ״ה בטבת תש״ו&#x27;.</li><li id="note-2">ויקיפדיה העברית, &#x27;חסידות בוצ׳צ׳אה־בוטושאן&#x27;: נולד תרי״ג; חתן יעקב מרדכי ליברמן מטופורוב; חי 12 שנה אצל יצחק מארילוס מרופשיץ ונטל את שמו; תלמיד חיים מצאנז; רב ב&#x27;פשצלוב&#x27; עד 1913, אז ירש את אביו; נפטר כ״ה טבת תש״ו.</li><li id="note-3">כ״ה טבת תש״ו = 29 בדצמבר 1945 (convertdate). תרי״ג = 1853.</li></ol></div>
+<div class="unknown"><h3 id="sec-2" data-i18n="unknown">מה שלא ידוע</h3><p>לא נמסר יום לידתו המדויק — רק שנת תרי״ג (1853). מקום רבנותו הראשון, &#x27;פשצלוב&#x27; ב־OCR, לא זוהה.</p></div>
+<div class="notes"><h3 id="sec-3" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3034 (עמ׳ 91): &#x27;רבי אליעזר זאב מארילוס / תרי״ג — כ״ה בטבת תש״ו&#x27;.</li><li id="note-2">ויקיפדיה העברית, &#x27;חסידות בוצ׳צ׳אה־בוטושאן&#x27;: נולד תרי״ג; חתן יעקב מרדכי ליברמן מטופורוב; חי 12 שנה אצל יצחק מארילוס מרופשיץ ונטל את שמו; תלמיד חיים מצאנז; רב ב&#x27;פשצלוב&#x27; עד 1913, אז ירש את אביו; נפטר כ״ה טבת תש״ו.</li><li id="note-3">כ״ה טבת תש״ו = 29 בדצמבר 1945 (convertdate). תרי״ג = 1853.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

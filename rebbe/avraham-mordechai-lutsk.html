@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי אברהם מרדכי מלוצק</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו</a></li><li><a href="#sec-3">מה שלא ידוע</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי אברהם מרדכי מלוצק</h2>
 <p class="subtitle">תלמידו המובהק של רבי אברהם יהושע העשיל מאפטא; בעל ׳תורת חסד׳; נפטר בשנת תרי״ח–תרי״ט</p>
@@ -28,19 +34,21 @@
 <dl class="facts"><div><dt>רבו המובהק</dt><dd>רבי אברהם יהושע העשיל מאפטא</dd></div><div><dt>חסידותו</dt><dd>קיבל בחסידות גם מיתר צדיקי הדור, ובראשם רבי יעקב יצחק הורוויץ, החוזה מלובלין</dd></div><div><dt>ספרו</dt><dd>׳תורת חסד׳ על התורה וביאורי תפילה</dd></div><div><dt>עליו</dt><dd>צדיק, העובד את ה׳ באמת, וכל מעשיו היו לשם שמים; לא מש מאוהל של תורה ימים ולילות ולא נתן לעיניו תנומה; חסידא ופרישא</dd></div><div><dt>פטירתו</dt><dd>בשנת תרי״ח–תרי״ט (1858–1859)</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> תורת חסד על התורה וביאורי תפילה</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/lutsk.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">לוצק</span></a><a class="rel" href="../dynasty/apta.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">אפטא</span></a><a class="rel" href="../rebbe/avraham-yehoshua-heschel-apta.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי אברהם יהושע העשיל מאפטא</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>תלמידו המובהק של רבי אברהם יהושע העשיל מאפטא. קיבל בחסידות גם מיתר צדיקי הדור, ובראשם רבי יעקב יצחק הורוויץ, החוזה מלובלין. ספרו ׳תורת חסד׳ על התורה וביאורי תפילה.</p>
 <p>בשער הקובץ ׳תורת חסד׳ על התורה נכתב עליו: צדיק, העובד את ה׳ באמת, וכל מעשיו היו לשם שמים; לא מש מאוהל של תורה ימים ולילות ולא נתן לעיניו תנומה; חסידא ופרישא.</p>
 <blockquote>גאה דורש ונאה מקיים, כי היה ממש מופשט מגשמיות העולם הזה, חסיד גדול!<span class="src">מהסכמת רבי ישעיה לספרו ׳תורת חסד׳ (אלפסי, כרך ג׳, ערך 1965 בפרק תלמידי החוזה מלובלין)</span></blockquote>
-<h3>מתורתו</h3>
+<h3 id="sec-2">מתורתו</h3>
 <p>על ׳וירא אליו ה׳ באלוני ממרא׳ (בראשית י״ח, א׳): צריך להבין מדוע פירטה התורה את המקום שבו נגלה אליו — יש לפרש שבזה מורה לנו התורה את הדרך בעבודת ה׳, שצריך כל אדם לזכך את החומר שלו, להטהר ולהתקדש, עד שתהיה התגלות ה׳ אליו תמיד, ללא הפסק של רגע, ושום דבר לא יוכל לבלבל אותו מחמת רוב הקדושה המצויה בו. ועל כן ההדגשה של ׳אלוני ממרא׳ — שאף על פי שהיה אברהם במקום טומאה, עם כל זה, מחמת המשכיות הקדושה שבו, היתה לו גם שם השראת השכינה.</p>
 <p>על ׳הנני ממטיר לכם לחם מן השמים׳ (שמות ט״ז, ד׳): ידוע שהתורה היא החיות לכל העולמות ולכל הברואים — ׳הסתכל באורייתא וברא עלמא, בר נש עסיק באורייתא ומקיים עלמא׳ — שעל ידי עסק התורה ממשיכים חיות ומזון רוחני לכל העולמות ולכל הברואים. וזה ׳הנני ממטיר לכם לחם מן השמים׳, שמרומז למזון רוחני; ׳ולקטו העם דבר יום ביומו׳ — שבכל יום הוא בחינה חדשה, שציורו של היום אינו דומה לאתמול.</p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שנת פטירתו ניתנת בערך כטווח בלבד (תרי״ח–תרי״ט), ולכן אין אירוע ציר זמן לפטירתו. שנת לידתו אינה נזכרת. בערך נזכר קשר חיתון עם רבי משה דוב בן רבי אהרן מזעליחוב; המלה נדפסה בערך בכתיב משובש (׳מתותנו׳) ונקראה כאן ׳מחותנו׳. שם מסכים הספר, ׳רבי ישעיה׳, אינו קריא בשלמותו בערך.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1965 בפרק תלמידי החוזה מלובלין, עמ׳ 425–426 — תולדותיו, הסכמת רבי ישעיה ותורתו.</li><li id="note-2">ספרו ׳תורת חסד׳ על התורה וביאורי תפילה — פרשת בראשית (׳אלוני ממרא׳); פרשת בשלח (׳לחם מן השמים׳).</li></ol></div>
+<div class="unknown"><h3 id="sec-3" data-i18n="unknown">מה שלא ידוע</h3><p>שנת פטירתו ניתנת בערך כטווח בלבד (תרי״ח–תרי״ט), ולכן אין אירוע ציר זמן לפטירתו. שנת לידתו אינה נזכרת. בערך נזכר קשר חיתון עם רבי משה דוב בן רבי אהרן מזעליחוב; המלה נדפסה בערך בכתיב משובש (׳מתותנו׳) ונקראה כאן ׳מחותנו׳. שם מסכים הספר, ׳רבי ישעיה׳, אינו קריא בשלמותו בערך.</p></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1965 בפרק תלמידי החוזה מלובלין, עמ׳ 425–426 — תולדותיו, הסכמת רבי ישעיה ותורתו.</li><li id="note-2">ספרו ׳תורת חסד׳ על התורה וביאורי תפילה — פרשת בראשית (׳אלוני ממרא׳); פרשת בשלח (׳לחם מן השמים׳).</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

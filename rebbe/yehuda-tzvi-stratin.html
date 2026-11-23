@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי יהודה צבי מסטרטין</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו</a></li><li><a href="#sec-3">תלמידיו</a></li><li><a href="#sec-4">מה שלא ידוע</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי יהודה צבי מסטרטין</h2>
 <p class="subtitle">בן רבי שמואל זנוויל · תלמיד רבי אורי מסטרליסק · מייסד שושלת סטרטין</p>
@@ -28,22 +34,24 @@
 <dl class="facts"><div><dt>אביו</dt><dd>רבי שמואל זנוויל מזוואליב</dd></div><div><dt>רבותיו</dt><dd>רבי אהרן לייב מפרמישלאן ורבי אורי מסטרליסק</dd></div><div><dt>חתן</dt><dd>רבי אליעזר כהנא מרוזדול</dd></div><div><dt>אדמו״ר</dt><dd>משנת תקפ״ו אדמו״ר לרוב חסידי סטרליסק, ורבים אחרים הצטרפו אליו</dd></div><div><dt>בניו</dt><dd>רבי אברהם, רבי אליעזר מאוזיפולי, רבי חיים, רבי שמואל זנוויל; רייזל אשת ר׳ חיים קרייטנר</dd></div><div><dt>נסתלק</dt><dd>י״א אייר תר״ד (1844)</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> שארית יהודה, דרך חיים, תוכחת מוסר</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/stratin.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">סטרטין</span></a><a class="rel" href="../dynasty/stratin.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">שושלת סטרטין</span></a><a class="rel" href="../rebbe/aharon-aryeh-leib-premishlan.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי אהרן אריה ליב מפרמישלאן</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן רבי שמואל זנוויל מזוואליב. תלמידם של רבי אהרן לייב מפרמישלאן ורבי אורי מסטרליסק. חתן רבי אליעזר כהנא מרוזדול. משנת תקפ״ו אדמו״ר לרוב חסידי סטרליסק, ורבים אחרים הצטרפו אליו. הצטיין בנועם תפילותיו ובהתלהבותו הגדולה. מורו החשיבו מאד, ובכל מקום התפאר בו; אף צדיקי הדור הרבו מאד בשבחיו. דברי תורתו בספר ׳שארית יהודה׳, ׳דרך חיים׳, ׳תוכחת מוסר׳; תולדותיו בספר ׳דגל מחנה יהודה׳.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>מתורתו</h3>
+<h3 id="sec-2">מתורתו</h3>
 <p>״הייתי ביום אכלני חורב וקרח בלילה״ (בראשית לא, מ). דהיינו הקב״ה ברא חום וקור, והכל לעבודת ה׳, כאמור (אבות ו, יא): כל מה שברא הקב״ה לכבודו ברא. חום וחמימות — לדבר מצוה, לעשותה בהתלהבות; וקרירות — לדבר עבירה, להמנע ממנה. יעקב אבינו אמר: ביום — היינו למצוות הנקראות ׳יום׳ — אכלני חורב, היינו חמימות, עשיתי אותה בהתלהבות; אבל בלילה — הכוונה לעבירות — הייתי בבחינת ׳קרח׳.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <p>אצל עשו נאמר: ׳הנה משמני הארץ יהיה מושבך ומטל השמים׳ (בראשית כז, לט), וליעקב נאמר ׳מטל השמים ומשמני הארץ׳ (שם כז, כח) — כי לעשו רק הגשמיות שלו, אבל ליעקב מטל השמים קודם. ׳ראה נתתי בידך את סיחון מלך חשבון האמורי׳ (דברים ב, כד) — סיחון זהו הדיבור, מלשון שיחה: יש לך האפשרות לדבר כרצונך, טוב ורע, כמו שכתוב ׳מות וחיים ביד לשון׳ (משלי יח, כא); אבל תדע ׳מלך חשבון האמורי׳ — שמלך מלכי המלכים יקח חשבון מכל אמירה ואמירה שלך, מכל דיבור ודיבור.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <p>״אם לא ירד אחיכם הקטן אתכם לא תוסיפון לראות פני״ (בראשית מד, כג). ידוע שעיקר המידות היא מידת הענוה, ומכל המידות לא נשתבח משה רבנו אלא במידת הענוה; וזהו ׳אם לא ירד אחיכם הקטן׳ — אם לא תהיו במדרגה כזו שהענוה, אחיכם הקטן, יהיה ׳אתכם׳ — ׳לא תוסיפון לראות פני׳, היינו פני השכינה הקדושה, על דרך ׳אני שוכן את דכא׳.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <p>״ויסתר משה פניו כי ירא מהביט אל האלהים״ (שמות ג, ו). פעם הפציר בו רבי צבי הירש מזידיטשוב שיאמר דברי תורה, ולאחר שחזר וביקש אמר: בפסוק זה היה צריך לומר ׳כי ירא להביט׳; אלא כידוע, צדיק הוא בבחינת משה — ׳אתפשטותא דמשה בכל דרא ודרא׳. הצדיק הסתיר פניו, את הפנימיות שלו, כי ׳ירא מהביט׳ — שהחסידים יביטו עליו ויאמרו עליו: ׳הנה איש האלהים׳, ועל כן הסתיר את פניו מהם.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <blockquote>ביום — היינו למצוות הנקראות ׳יום׳ — אכלני חורב, היינו חמימות, עשיתי אותה בהתלהבות; אבל בלילה — הכוונה לעבירות — הייתי בבחינת ׳קרח׳.<span class="src">׳דגל מחנה יהודה׳, לבוב תרע״ב, פרשת ויצא עמ׳ נ״ט, כמובא באלפסי כרך ג׳, עמ׳ 1562</span></blockquote>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-3" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/avraham-brandwein-stratin.html">רבי אברהם ברנדווין מסטרטין</a><a class="chip" href="../rebbe/eliezer-brandwein-ozhipoli.html">רבי אליעזר ברנדווין מאוזיפולי</a><a class="chip" href="../rebbe/sahmava-vanbarry-mavsahsahrashynakn.html">רבי שמוא ונבררי מוששרשיןךן</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>אלפסי מדפיס את יום פטירתו י״א אייר תר״ד (1844); האנציקלופדיה יודאיקה נוקבת 1854 — הפער אינו מיושב כאן.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, עמ׳ 1562: תולדותיו ותורתו.</li><li id="note-2">שנת הפטירה החלופית 1854 — Encyclopaedia Judaica, ערך Stretyn, Judah Zevi Hirsch (Brandwein) of.</li></ol></div>
+<div class="unknown"><h3 id="sec-4" data-i18n="unknown">מה שלא ידוע</h3><p>אלפסי מדפיס את יום פטירתו י״א אייר תר״ד (1844); האנציקלופדיה יודאיקה נוקבת 1854 — הפער אינו מיושב כאן.</p></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, עמ׳ 1562: תולדותיו ותורתו.</li><li id="note-2">שנת הפטירה החלופית 1854 — Encyclopaedia Judaica, ערך Stretyn, Judah Zevi Hirsch (Brandwein) of.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

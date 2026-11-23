@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי אברהם דוד נפתלי רבינוביץ מפאריסוב</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">סיפור</a></li><li><a href="#sec-3">תורתו</a></li><li><a href="#sec-4">תלמידיו</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי אברהם דוד נפתלי רבינוביץ מפאריסוב</h2>
 <p class="subtitle">בן רבי יהושע אשר מפאריסוב · חסיד קוצק בלב ונפש</p>
@@ -27,24 +33,26 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>נולד</dt><dd>תר״ג (1843)</dd></div><div><dt>נפטר</dt><dd>י״ט אדר שני תרע״ב (1912)</dd></div><div><dt>אביו</dt><dd>רבי יהושע אשר מזעליחוב ופאריסוב</dd></div><div><dt>רבו</dt><dd>הרבי מקוצק; לאחריו — הרי״ם מגור, רבי חנוך הניך מאלכסנדר, ובעל שפת אמת</dd></div><div><dt>כיהן</dt><dd>רב בניישטאט, סטאשוב ופאריסוב</dd></div><div><dt>בנו</dt><dd>רבי יהושע אשר מפאריסוב; בתו — אשת רבי אברהם ישכר אלטר מפאביניץ</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/parisov.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">פאריסוב</span></a><a class="rel" href="../dynasty/peshischa.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">פשיסחא</span></a><a class="rel" href="../rebbe/yehoshua-asher-parisov.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי יהושע אשר רבינוביץ מפאריסוב</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בהיותו בן י״ד, בשנת תרי״ז, נסע בפעם הראשונה לקוצק. רבי מנדלי דחה אותו בראשונה באומרו: ״שוב יש לי מיוחס!״ — אולם לאחר מכן קרא לו לשיחה ארוכה. הדבר עורר התרגשות עמוקה, שכן רבי מנדלי כבר היה בתקופת ההסתגרות שלו וסירב לקבל אנשים. למרות גילו הצעיר היה רבי אברהם לחסיד קוצק בלב ונפש.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>בעודנו צעיר לימים החל לכהן ברבנות: תחילה בעיירה ניישטאט, וממנה עבר לסטאשוב. בשתיהן לא שבע נחת, שכן תקיפותו והנהגתו בדרך קוצק לא נראתה לבני העיר. הונח לו כשעבר לכהן ברבנות פאריסוב, בה ישב אחיו רבי יעקב צבי כאדמו״ר. בחסידות המשיך להיות נאמן לדרך קוצק, וקיבל עליו ללא עוררין את הנהגתו של הרי״ם מגור; כך המשיך עם חסידי גור אל רבי חנוך הניך מאלכסנדר, ושוב, בשנת תר״ל, אל רבי יהודה ליב מגור בעל שפת אמת.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>נסיעתו אל בעל שפת אמת, שהיה צעיר ממנו לימים, עוררה את התמרמרותם של חסידי פאריסוב, אולם ר׳ אברהם לא נסוג, ואף שיכנע את רבי פנחס מנחם מפילץ, קרובו של השפת אמת, שיקבל את מרותו. בעל השפת אמת נהג בו כבוד רב, וכשבא אליו בפעם הראשונה אמר: ״אני אלמד ממך ואתה תלמד ממני!״ למרות שחסידים סבבוהו, והוא נכדו של היהודי הקדוש, הסכים לקבל את החסידים רק לאחר פטירתו של השפת אמת בשנת תרס״ה. גם אז נהג בדרך קוצק. חסידי פאריסוב דבקו בו בחום רב, והוא קיבל גם את המוני העם שבאו אליו. המעיט באמירת דברי תורה למרות למדנותו הגדולה.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>סיפור</h3>
+<h3 id="sec-2">סיפור</h3>
 <p>כשבא בפעם הראשונה לקוצק והוצג בפני הרבי כנכדו של היהודי הקדוש, פטר אותו הרבי בתנועת ביטול: ״חנה עוד יחסן גדול״. משחזר נדהם לאכסניה שלו, נקרא שוב אל הרבי. ״מהיכן אתה?״ — שאל הרבי. ״מרישאש״ — השיב. שוב שאל: ״מה אתה לומד?״ — ״גמרא ותוספות״ — השיב. ״מה אתה לומד?״ — חזר הרבי ושאל. ״גמרא ותוספות״ — השיב, וכך חזרו הדברים שמונה פעמים. משראה הרבי מקוצק כי עקשן הוא ועומד על דעתו, נחה דעתו ואמר: ״אברכים כאלה אני צריך!״ אמר רבי אברהמ׳לה: ״הרגשתי שבכל שאלה הוא נופח בי נשמה יתירה להבין ולהשכיל בתורה הקדושה, ולבי התחיל בוער לעבודתו יתברך.״<sup class='fn'><a href="#note-2">2</a></sup></p>
-<h3>תורתו</h3>
+<h3 id="sec-3">תורתו</h3>
 <p>על איחורו את זמן התפילה אמר: באמת, לפי דין השולחן ערוך יש להתפלל בזמן; אולם דיני השולחן ערוך נאמרו לאדם ההולך בדרך הישר ומקיים את כל דיני השולחן ערוך. אולם לי, שעלי להלחם עם יצר הרע ומצוי אני במלחמה עמו, עלי להציל את עצמי בדרך הנראית לי. והמשיל על זה משל, כדרכו בקודש: לאנשי צבא המלומדים מתי לרוץ ומתי ללכת בנחת, בסדר נכון וישר — אבל בשעת נסיגה, כל אחד מציל את נפשו בדרך הנראית לו, אפילו שלא בהתאם לחוקי המלחמה.<sup class='fn'><a href="#note-3">3</a></sup></p>
 <p>נשאל: למה לא מצינו שנתן אליעזר תודה לקדוש ברוך הוא על קפיצת הדרך שהיתה לו בשליחותו של אברהם? והשיב: אכן נתן תודה באומרו ״ואברך את ה׳... אשר הנחני בדרך אמת״ (בראשית כד, מח) — וזהו רמז על קפיצת הדרך, אבל הם לא הבינו את דבריו וחשבו שרק סיפור הוא מספר להם.<sup class='fn'><a href="#note-4">4</a></sup></p>
 <blockquote>״על הכל: אם אמר שהכל נהיה בדברו — יצא!״ (ברכות מ, א). היינו: על כל מה שעובר על אדם — ״אם אמר שהכל נהיה בדברו״, ומה׳ יצא הדבר, הרי ״צא״ — יצא מכל רע, והוא מתהפך לטוב.<span class="src">הרבי מקוצק וששים גבורים, חלק א׳, עמ׳ רמ״ט</span></blockquote>
 <p>״לעשות רצונך אלהי חפצתי״ (תהלים מ, ט). גם אם נגזר עלי לקבל עונש בעד מצוה ושכר בעד עבירה, הרי לא אשנה דרכי ואוסיף לעבוד את ה׳ ולקיים מצוות.<sup class='fn'><a href="#note-5">5</a></sup></p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-4" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/yehoshua-asher-parisov-5695.html">רבי יהושע אשר רבינוביץ מפאריסוב</a><a class="chip" href="../rebbe/yosef-yehoshua.html">רבי יוסף יהושע</a></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, עמ׳ 1313–1314 (קובצי OCR p0011–p0012) — פרק ״רבי אברהם דוד נפתלי רבינוביץ מפאריסוב״.</li><li id="note-2">הרבי מקוצק וששים גבורים, חלק א׳, עמ׳ רמ״ב (כמובא אצל אלפסי, שם).</li><li id="note-3">כתר היהודי, עמ׳ ס׳ (כמובא אצל אלפסי, שם).</li><li id="note-4">זכותא דאברהם, עמ׳ י״ח (כמובא אצל אלפסי, שם).</li><li id="note-5">שם, עמ׳ ר׳ (כמובא אצל אלפסי, שם).</li></ol></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, עמ׳ 1313–1314 (קובצי OCR p0011–p0012) — פרק ״רבי אברהם דוד נפתלי רבינוביץ מפאריסוב״.</li><li id="note-2">הרבי מקוצק וששים גבורים, חלק א׳, עמ׳ רמ״ב (כמובא אצל אלפסי, שם).</li><li id="note-3">כתר היהודי, עמ׳ ס׳ (כמובא אצל אלפסי, שם).</li><li id="note-4">זכותא דאברהם, עמ׳ י״ח (כמובא אצל אלפסי, שם).</li><li id="note-5">שם, עמ׳ ר׳ (כמובא אצל אלפסי, שם).</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

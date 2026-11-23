@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי נתן נטע ב״ר אליהו</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">איגרתו</a></li><li><a href="#sec-3">מה שלא ידוע</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי נתן נטע ב״ר אליהו</h2>
 <p class="subtitle">מחסידי טבריה; משרת אדמו״ר רבי אברהם מקאליסק; אגרותיו לווידז נשתמרו</p>
@@ -27,20 +33,22 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי אליהו</dd></div><div><dt>בטבריה</dt><dd>היה בארץ בשנת תקנ״ט (1799); אגרתו לקהילת ווידז מחורף תקנ״ד (1793/94) נשתמרה, וחתימותיו על אגרות הכולל משנות תקמ״ט (1789) ותקנ״ה (1795)</dd></div><div><dt>תפקידו</dt><dd>משרת אדמו״ר רבי אברהם מקאליסק — כך הוא חותם באגרת הכולל משנת תקנ״ה</dd></div><div><dt>בנו</dt><dd>רבי דוד אליהו, שנפטר בח׳ כסלו תרכ״ט (1868)</dd></div><div><dt>הסתלקותו</dt><dd>נפטר בערב יום הכיפורים ונטמן בטבריה; שנת פטירתו אינה נזכרת בערך</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/tiberias.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">טבריה</span></a><a class="rel" href="../dynasty/vitebsk.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">ויטבסק — עליית תקל״ז</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן רבי אליהו. היה בארץ בשנת תקנ״ט (1799), ואגרותיו מעידות שהיה בטבריה כבר שנים קודם לכן: אגרת משנת תקמ״ט (1789) חתומה ׳נתן נטע במו׳ אליהו׳, ואגרת הכולל משנת תקנ״ה (1795) חתומה ׳נתן נטע בלא״א אליהו ז״ל, משרת אדומו״ר שיחי׳׳. בחורף תקנ״ד (1793/94) כתב מטבריה אגרת לקהילת ווידז, ובה ברכות ותודות לנדיבי הקהילה המחזיקים את ישיבת החסידים בארץ.</p>
 <p>נשתמר במסורה סיפור מופלא על סדר הסתלקותו מן העולם. זמן קצר לפני כן, בהיותו חולה, הרגיש כי קרב קיצו. ביומו האחרון, ערב יום הכיפורים, בא רבו רבי אברהם מקאליסק לבקר אותו, והתמרמר רבי נתן נטע לפניו על שכך עלתה לו להיפטר ביום זה — ואמרו חז״ל (כתובות ק״ג ע״ב) המת בערב יום הכיפורים סימן וכו׳ — ואמר לו רבי אברהם: ׳מבטיחך אני שעד הלילה, ליל יום הקדוש, כבר תגיע נשמתך למנוחה נכונה׳. נתמלא שמחה עד שהתבטא שרוצה עכשיו מנגנים וכלי זמר שינגנו לפניו, ואחר כך יצאה נשמתו והובא לקבורה שעה קלה לפני התקדש יום הכיפורים.</p>
 <p>כעבור ימים אחדים התראה בחזון לילה לרבי מאיר מביחוב (ערך 1781 בפרק העולים), וגילה לו כי אכן רבו גמל חסד עם נשמתו, ובזכותו בא עוד בליל יום הכיפורים עצמו למנוחתו.</p>
 <blockquote>מבטיחך אני שעד הלילה, ליל יום הקדוש, כבר תגיע נשמתך למנוחה נכונה.<span class="src">דברי רבי אברהם מקאליסק לרבי נתן נטע ביומו האחרון — יסוד המעלה, חלק א׳, עמ׳ ק״נ (אלפסי, כרך ג׳, ערך 1784 בפרק העולים)</span></blockquote>
-<h3>איגרתו</h3>
+<h3 id="sec-2">איגרתו</h3>
 <p>אגרתו לקהילת ווידז, מחורף תקנ״ד, היא אגרת כולל טיפוסית: ברכות לנדיבים, תודות על נדבתם והתאמצותם, ובקשה שיוסיפו להחזיק את הישיבה בחצרות בית ה׳. באגרת הכולל משנת תקנ״ה הוא חותם כמשרתו של האדמו״ר, רבי אברהם מקאליסק.</p>
 <blockquote>נתן נטע בלא״א אליהו ז״ל, משרת אדומו״ר שיחי׳.<span class="src">חתימתו על אגרת הכולל משנת תקנ״ה (אלפסי, כרך ג׳, ערך 1784 בפרק העולים)</span></blockquote>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>בערך זה אין מצוטטת תורה מפיו; במקומה הובאו אגרותיו וסיפור הסתלקותו. שנת פטירתו אינה נזכרת בערך; מן הסיפור עולה שנסתלק עוד בחיי רבו רבי אברהם מקאליסק (נסתלק תק״ע, 1810). כותרת הערך כפי שנדפסה, ׳היה בארץ בשנת תקג״ט׳, היא קריאה משובשת של תקנ״ט — ג/נ מתחלפים בדפוס זה, כפי שהוער בבאטש 52 (׳גיסן׳ תחת ׳ניסן׳).</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1784 בפרק העולים, עמ׳ 379–380 — תולדותיו, אגרותיו וסיפור הסתלקותו.</li><li id="note-2">יסוד המעלה, חלק א׳, עמ׳ ק״נ–קנ״א (סיפור הסתלקותו; בנו רבי דוד אליהו נפטר בח׳ כסלו תרכ״ט).</li><li id="note-3">הישוב היהודי בטבריה, עמ׳ 154 (חתימתו על אגרת משנת תקמ״ט).</li><li id="note-4">כרם חב״ד 4, עמ׳ 302 (אגרת הכולל משנת תקנ״ה).</li></ol></div>
+<div class="unknown"><h3 id="sec-3" data-i18n="unknown">מה שלא ידוע</h3><p>בערך זה אין מצוטטת תורה מפיו; במקומה הובאו אגרותיו וסיפור הסתלקותו. שנת פטירתו אינה נזכרת בערך; מן הסיפור עולה שנסתלק עוד בחיי רבו רבי אברהם מקאליסק (נסתלק תק״ע, 1810). כותרת הערך כפי שנדפסה, ׳היה בארץ בשנת תקג״ט׳, היא קריאה משובשת של תקנ״ט — ג/נ מתחלפים בדפוס זה, כפי שהוער בבאטש 52 (׳גיסן׳ תחת ׳ניסן׳).</p></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1784 בפרק העולים, עמ׳ 379–380 — תולדותיו, אגרותיו וסיפור הסתלקותו.</li><li id="note-2">יסוד המעלה, חלק א׳, עמ׳ ק״נ–קנ״א (סיפור הסתלקותו; בנו רבי דוד אליהו נפטר בח׳ כסלו תרכ״ט).</li><li id="note-3">הישוב היהודי בטבריה, עמ׳ 154 (חתימתו על אגרת משנת תקמ״ט).</li><li id="note-4">כרם חב״ד 4, עמ׳ 302 (אגרת הכולל משנת תקנ״ה).</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

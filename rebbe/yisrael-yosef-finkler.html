@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי ישראל יוסף פינקלר מראדושיץ</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">הסכמה</a></li><li><a href="#sec-3">תלמידיו</a></li><li><a href="#sec-4">מה שלא ידוע</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי ישראל יוסף פינקלר מראדושיץ</h2>
 <p class="subtitle">בן רבי אליעזר דוד מראדושיץ · אדמו״ר בראדושיץ</p>
@@ -27,22 +33,24 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי אליעזר דוד פינקלר מראדושיץ</dd></div><div><dt>כיהן</dt><dd>אדמו״ר בראדושיץ</dd></div><div><dt>תורתו ונגינתו</dt><dd>בקי נפלא בכל מקצועות התורה; יודע נגן ובעל קול נפלא, חיבר בעצמו מנגינות; מוסף ראש השנה אצלו ארך למעלה מארבע שעות</dd></div><div><dt>בניו</dt><dd>רבי קלמיש, שמילא את מקומו ברבנות ראדושיץ וניספה עם כל עדתו; רבי יצחק, שניספה כפרטיזן בכ״ח שבט; רבי אברהם ורבי בעריל — ניצלו</dd></div><div><dt>אשתו</dt><dd>הרבנית חוה, נכדת הגביר ר׳ יעקב טננוורצל; נפטרה כ״ו כסלו תש״ג, שבועיים לפני ה&#x27;אויסזידלונג&#x27;, וזכתה לבוא לקבר ישראל</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/radoshitz.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">ראדושיץ</span></a><a class="rel" href="../dynasty/radoshitz.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">ראדושיץ</span></a><a class="rel" href="../rebbe/eliezer-david-finkler.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי אליעזר דוד פינקלר מראדושיץ</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן רבי אליעזר דוד פינקלר מראדושיץ, דור חמישי לסבא הקדוש מראדושיץ. היה בקי נפלא בכל מקצועות התורה, והיה ממש שופע תורה. יודע נגן ובעל קול נפלא, ואף חיבר בעצמו מנגינות; תפילתו היתה נערכת ברגש ובהתלהבות, ומוסף ראש השנה היה אורך אצלו למעלה מארבע שעות. לאחר התפילה היה ה'קיטל' ממש שחור מרוב זיעה.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>במלחמת העולם הראשונה ניתנה הוראה ליהודי ראדושיץ לעזוב את העיר תוך עשרים וארבע שעות. הגויים הפולנים סירבו להשכיר עגלות, תוך מחשבה שלאחר שיעזבו היהודים הם יוכלו לשדוד את רכושם. רבי ישראל יוסף נסע, תוך כדי סכנת נפשות, אל הגוברנטור הראדומי, והצליח לדחות את הגזירה לכמה ימים. בינתיים התקשר עם הרב מקינצק, רבי יואב יהושע, בעל 'חלקת יואב', והוא שלח מספר עגלות מתאים להעמסת הרכוש של יהודי ראדושיץ. חדשים רבים נאלץ רבי ישראל יוסף להסתתר, מפחד רודפיו.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>אגדה היתה מהלכת בראדושיץ, שרבי ישראל יוסף נתפס במלחמת העולם הראשונה על ידי הקוזקים, ורק לאחר שמיעת נגינותיו שוחרר. בעל לב טוב ורחום, עזר לכל נצרך בכל כוחותיו ואפשרויותיו.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>נסתלק כ״ב בתמוז תרצ״ז. בנו רבי קלמיש מילא את מקומו ברבנותה של ראדושיץ, וניספה יחד עם כל עדתו על ידי הנאצים.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>הסכמה</h3>
+<h3 id="sec-2">הסכמה</h3>
 <p>נתן הסכמה לספר 'נפלאות הסבא קדישא', ובה כתב על האמונה והנסים שעשה הסבא הקדוש, ועל כך שגאולת מצרים היתה על ידי האמונה וזכות אבות.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <blockquote>כאשר ידוע שגאולת מצרים היתה על ידי האמונה וזכות אבות, כן יעזר לנו השי״ת בזמננו שישתרש האמונה בלב כל ישראל, ויקוים בנו הכתוב &#x27;וכימי צאתנו ממצרים יראנו נפלאות&#x27;.<span class="src">הסכמתו לספר &#x27;נפלאות הסבא קדישא&#x27; (מובאת באלפסי כרך ג׳, עמ׳ 1475–1476)</span></blockquote>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-3" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/kalmysah-radoshitz.html">רבי קלמיש מראדושיץ</a><a class="chip" href="../rebbe/reuven-unger-kuzmir.html">רבי ראובן אונגר מקוזמיר</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שנת פטירתו נדפסה ב־OCR כ&#x27;תרעצ&quot;ז&#x27;; לפי ההסכמה החתומה על ידו בשנת תרפ״ט, הכוונה לתרצ״ז (1937). שנת לידתו אינה נזכרת בערך.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, עמ׳ 1475–1476 (קובץ OCR p0137–p0138) — ערכו של רבי ישראל יוסף פינקלר מראדושיץ.</li><li id="note-2">עליו: &#x27;הסבא הקדוש&#x27; עמ׳ 152 — כמובא בערך.</li></ol></div>
+<div class="unknown"><h3 id="sec-4" data-i18n="unknown">מה שלא ידוע</h3><p>שנת פטירתו נדפסה ב־OCR כ&#x27;תרעצ&quot;ז&#x27;; לפי ההסכמה החתומה על ידו בשנת תרפ״ט, הכוונה לתרצ״ז (1937). שנת לידתו אינה נזכרת בערך.</p></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, עמ׳ 1475–1476 (קובץ OCR p0137–p0138) — ערכו של רבי ישראל יוסף פינקלר מראדושיץ.</li><li id="note-2">עליו: &#x27;הסבא הקדוש&#x27; עמ׳ 152 — כמובא בערך.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי אברהם צבי הירש פצנובסקי מפיעטריקוב</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">סיפור</a></li><li><a href="#sec-3">מתורתו</a></li><li><a href="#sec-4">מה שלא ידוע</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי אברהם צבי הירש פצנובסקי מפיעטריקוב</h2>
 <p class="subtitle">בן רבי אלעזר; תלמידו של החוזה מלובלין; בעל שו״ת ׳ברית אברהם׳; תקל״ז – ז׳ אדר תקע״ט</p>
@@ -28,22 +34,24 @@
 <dl class="facts"><div><dt>אביו</dt><dd>רבי אלעזר; אביו היה חתן רבי צבי הירש בעל ׳גאון צבי׳</dd></div><div><dt>חותנו</dt><dd>רבי יהודה ליב ליפשיץ אב״ד אופוטשנה</dd></div><div><dt>סבו ומורו</dt><dd>רבי שלמה זלמן אב״ד פצאנוב, שעל ברכיו נתגדל; ממוריו בתורה גם רבי משה, ראב״ד פיעטריקוב</dd></div><div><dt>רבנותו</dt><dd>רבנותו הראשונה, והוא בן כ״ג, היתה בפילץ; בהיותו בן שלשים וחמש, בשנת תקע״ב (1812), נבחר לרבה של פיעטריקוב</dd></div><div><dt>חסידותו</dt><dd>בשנותיו האחרונות של החוזה היה מחסידיו הנלהבים</dd></div><div><dt>קשרי שו״ת</dt><dd>עמד בקשרי שו״ת עם גאוני דורו — רבי עקיבא איגר, ה׳חמדת שלמה׳, ה׳חות דעת׳, ה׳ישועות יעקב׳ ועוד</dd></div><div><dt>ימיו</dt><dd>מעטים ורעים היו ימי חייו; בניו מתו לו בחייו; ידע סבל ויסורים, ומת בהיותו בן מ״ב</dd></div><div><dt>פטירתו</dt><dd>נסתלק בברסלוי בשאלו ברופאים; ארונו הובא לפיעטריקוב. ז׳ באדר תקע״ט (4 במרץ 1819)</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> שו״ת ברית אברהם</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/piotrkow.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">פיעטריקוב (פיעטרקוב טריבונלסקי)</span></a><a class="rel" href="../dynasty/lublin.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">לובלין — תלמידי החוזה</span></a><a class="rel" href="../rebbe/chozeh-lublin.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">החוזה מלובלין</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן רבי אלעזר; חתן רבי יהודה ליב ליפשיץ אב״ד אופוטשנה. קיבל בתורה מסבו רבי שלמה זלמן אב״ד פצאנוב; נתגדל בילדותו על ברכיו, ואף כי היה זקן ושבע ימים, קרוב לשבעים שנה, לא זכה לשאוב מי בורו כראוי — ועם כל זה העמיס עליו עול התורה. סבו ורבי משה, ראב״ד פיעטריקוב, היו המורים לו דרכי התורה — ללמוד בעיון ש״ס ופוסקים, ראשונים, טור ובית יוסף, וגם להרגילו בדרכי עומק הפלפול. בנעוריו כבר נתפרסם בלמדנותו.</p>
 <p>רבנותו הראשונה, והוא בן כ״ג, היתה בפילץ. בהיותו בן שלשים וחמש, בשנת תקע״ב, נבחר לרבה של פיעטריקוב. בשנותיו האחרונות של החוזה היה מחסידיו הנלהבים. מעטים ורעים היו ימי חייו: בניו מתו לו בחייו, והוא עצמו ידע סבל ויסורים, ומת בהיותו בן מ״ב. בהיותו בברסלוי לשאול ברופאים נסתלק, וארונו הובא לפיעטריקוב. בהספד בחרוזים בראש ספרו נכתב: ׳אבל כבד על מות נשיא אלקים בתוכנו, הגאון הגדול המפורסם פאר הדור׳.</p>
-<h3>סיפור</h3>
+<h3 id="sec-2">סיפור</h3>
 <p>בשעה שהיה רבי אברהם צבי הירש בלובלין, היה בלובלין גם רבי לייביש אב״ד בולחוב. ביקשם הרופא רבי בריש מזאמושטש, הנזכר בספר ׳מאיר נתיבים׳ סימן ע״ה, שידברו עם החוזה לבל יאריך בתפילת ׳שמונה עשרה׳, שכן הדבר מזיק לבריאותו. אמרו לו שאין הרבי מתכונן לעמידה בשמונה עשרה, אלא שהדבר מתארך מעצמו, מרוב תפילותיו על הדברים ההכרחיים.</p>
 <blockquote>אין הרבי מתכונן לעמידה בשמונה עשרה, אלא שהדבר מתארך מעצמו, מרוב תפילותיו על הדברים ההכרחיים.<span class="src">דברי רבי אברהם צבי הירש ורבי לייביש מבולחוב לרופא רבי בריש מזאמושטש — ׳נפלאות הרבי׳, עמ׳ 84, אות רס״ו (אלפסי, כרך ג׳, ערך 1966 בפרק תלמידי החוזה מלובלין)</span></blockquote>
-<h3>מתורתו</h3>
+<h3 id="sec-3">מתורתו</h3>
 <p>בהקדמתו לספרו ׳ברית אברהם׳ הוא מספר כי לילות כימים שם, ועד מקום שידו מגעת טרח, וכמעט קרן זוית לא עזב אשר בו עיונו לא שם; וכך עשה וכתב על הסדר חבילות כתבים, והגדיל ה׳ חסדו עמו לפרסם שמו במקהלות.</p>
 <p>על ספרי האחרונים כתב: מעולם אין דרכי לעיין במפרשים שחוברו אחרי הטורי זהב והש״ך, זולת בספר ׳תבואות שור׳, שהוא פוסק נפלא וחביב עלי מאד. ועל צער הדור כתב בתשובה משנת תקע״ט: ׳וידי כבדה אנחתי השוברת גופו של אדם, בפקודות המתחדשות על אחינו בני ישראל; ה׳ ירחם עלינו ויטה לב מלכים ושרים עלינו לטובה׳.</p>
 <blockquote>מעולם אין דרכי לעיין במפרשים שחוברו אחרי הטורי זהב והש״ך, זולת בספר ׳תבואות שור׳ שהוא פוסק נפלא וחביב עלי מאד.<span class="src">מספרו ׳ברית אברהם׳, חלק יורה דעה, סימן כ׳ (אלפסי, כרך ג׳, ערך 1966 בפרק תלמידי החוזה מלובלין)</span></blockquote>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>בערך נדפס שם עיר רבנותו הראשונה ׳פילץ׳ ושם עיר סבו ׳פצאנוב׳ — לא זוהו בוודאות, ולכן לא נרשמו כערים. אין לבלבל בינו לבין רבי אברהם משה בונהרד מפשיסחא, בנו של רבי שמחה בונים.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1966 בפרק תלמידי החוזה מלובלין, עמ׳ 426–427 — תולדותיו, סיפור על החוזה ותורתו.</li><li id="note-2">ספרו שו״ת ׳ברית אברהם׳ — הקדמתו, וחלק יורה דעה סימן כ׳; ותשובה משנת תקע״ט.</li><li id="note-3">׳נפלאות הרבי׳, עמ׳ 84, אות רס״ו (מעשה תפילת החוזה).</li></ol></div>
+<div class="unknown"><h3 id="sec-4" data-i18n="unknown">מה שלא ידוע</h3><p>בערך נדפס שם עיר רבנותו הראשונה ׳פילץ׳ ושם עיר סבו ׳פצאנוב׳ — לא זוהו בוודאות, ולכן לא נרשמו כערים. אין לבלבל בינו לבין רבי אברהם משה בונהרד מפשיסחא, בנו של רבי שמחה בונים.</p></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1966 בפרק תלמידי החוזה מלובלין, עמ׳ 426–427 — תולדותיו, סיפור על החוזה ותורתו.</li><li id="note-2">ספרו שו״ת ׳ברית אברהם׳ — הקדמתו, וחלק יורה דעה סימן כ׳; ותשובה משנת תקע״ט.</li><li id="note-3">׳נפלאות הרבי׳, עמ׳ 84, אות רס״ו (מעשה תפילת החוזה).</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי ישראל הורוויץ מבארנוב</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מה שלא ידוע</a></li><li><a href="#sec-3">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי ישראל הורוויץ מבארנוב</h2>
 <p class="subtitle">בנו של אליעזר מדזיקוב</p>
@@ -27,15 +33,17 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>אליעזר מדזיקוב</dd></div><div><dt>דור</dt><dd>דור שליטי</dd></div><div><dt>תאריכים</dt><dd>תקע״ד — תקע״ד</dd></div><div><dt>חתן</dt><dd>רבי דוד האגר מזאבלטוב. בזווגו השני חתן דודו רבי בתחילה חשב שזו הכמה של אחד הבדחנים שהוזמן לשמת</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/barnob.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">בארנוב</span></a><a class="rel" href="../dynasty/ropshitz.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">רופשיץ</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>רבי ישראל הורוויץ מבארנוב בן רבי אליעזר מדז'יקוב (827) דור שליטי לשושלת רופשיץ תקע"ד - ר"ח ניסן תר"ל + תולדותיו: ליב מסאסוב, חש לפתע כי ידים מונחות על ראשו בברכה. חתן רבי דוד האגר מזאבלטוב. בזווגו השני חתן דודו רבי בתחילה חשב שזו "הכמה" של אחד הבדחנים שהוזמן לשמת ו \ / חתן וכלה, אולם משהרים את עיניו ראה והנה סבו הקדוש אברהם חיים מלינסק. נולד בשנת תקע"ד והיה הרב הראשון בא מעולם העליון לברכו ביום חופתו. הפעם התריש רבי של בארנוב שנתפרסמה בלמדניה. ישראל, כי זכר שבצעקתו בימי ילדותו גרם להעלמו של בנו: רבי אברהם שמחה מילא את מקומו בבארנוב. חתנו: | הסבא. רבי צבי הירש הלברשטם מרודניק. שם וכבר הובא ב"אהל נפתלי" עי 103 אות רציג) + סיפורים: דודו של רבי ישראל היה רבי יקותיאל שמלקה מסאסוב, בנו של רבי משה…<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>שנים רבות לאחר נשואיו לא נפקד רבי ישראל מבארנוב | התעכב בברכתו שלא כדרכו. לאחר כמה רגעים, אמר: הרי בבנים. סבר רבי ישראל לגרש את אשתו ואמר לה כי יחכה | את כבר בהריון ותפקדי בבן זכר. חזרה הרבנית וספרה את עד שימלא עשר שנים מיום נשואיהם ואם לא יפקדו בבנים | הדברים כמות שהם לאישה ולחמיה. השתומם רבי אליעזר יגרשה בגט פטורין. כשבא רבי הירש מרימנוב לבקר את | על כחו הגדול של רבי הירש ואמר: אל ירע בעיניכם רבי אליעזר מדז'יקוב, רצה אליו הרבנית בבכיה ובקשה כי | ששלמתם פדיון כה גדול להריון שכבר קיים. עתה מובטח תפקד בבן ולא תצטרך להפרד ממשפחה קדושה זו. אמר | לכם שהכל יעבור בשלום. מברכה זו נולד בנו רבי אברהם לה רבי הירש: את תתני לי ק"נ ריניש כסף, אברך אותך | שמחה, רבי הירש ביקש שיזמינוהו לפדיון הבן, אבל עד…<sup class='fn'><a href="#note-1">1</a></sup></p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>מיקומה של בארנוב לא אומת.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, עמ׳ 343; מספר הערך (850) משוער לפי סדר הכותרות ואינו ודאי.</li><li id="note-2">בערך: בן רבי אליעזר מדזיקוב (827).</li><li id="note-3">הערך ארוך ודו־טורי ב־OCR; הקטעים כאן מובאים כלשונם מהמקור, וייתכן שהסדר משובש.</li></ol></div>
+<div class="unknown"><h3 id="sec-2" data-i18n="unknown">מה שלא ידוע</h3><p>מיקומה של בארנוב לא אומת.</p></div>
+<div class="notes"><h3 id="sec-3" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, עמ׳ 343; מספר הערך (850) משוער לפי סדר הכותרות ואינו ודאי.</li><li id="note-2">בערך: בן רבי אליעזר מדזיקוב (827).</li><li id="note-3">הערך ארוך ודו־טורי ב־OCR; הקטעים כאן מובאים כלשונם מהמקור, וייתכן שהסדר משובש.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

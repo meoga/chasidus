@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי אברהם שמחה הורוויץ מבארנובם</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מה שלא ידוע</a></li><li><a href="#sec-3">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי אברהם שמחה הורוויץ מבארנובם</h2>
 <p class="subtitle">בנו של ישראל מבארנוב</p>
@@ -27,15 +33,17 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>ישראל מבארנוב</dd></div><div><dt>דור</dt><dd>דור רביעי</dd></div><div><dt>תאריכים</dt><dd>תר״ו — תר״ל</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/barnobm.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">בארנובם</span></a><a class="rel" href="../dynasty/ropshitz.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">רופשיץ</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>רבי אברהם שמחה הורוויץ מבארנובם בן רבי ישראל מבארנוב (850) דור רביעי לשושלת רופשיץ אלול תר"ו - ט"ו באדר א' תרע"ו > תולדותיו: הראשון. היינו כיצד נדע שאכן נח היה צדיק משום ש"את חתו ר' מרדכי צבי הירש וויליינרגר מדוקלא האלקים התהלך נח ויולד נח". גם בשעה שהיה נח צריך | | - לקיים את המין האנושי, בשעה של "ויולד נח" גם אז "את בשנת תר"ל, בהיותו בן כ"ד, נתקבל לרבנות בארנוב | האלקים התהלך נח" - היו מחשבותיו דבוקות באלקים חיים במקום אביו. ארבעים שנה כיהן ברבנות. והנמצא במעלה כזו הוא הנקרא צדיק תמים. ("מגדיל ישועות מלכו" ע: י"ט) בשנת תרס"ט עזב את העיר ולאחר נדודים שונים הגיע לארץ ישראל. בירושלים נעשה למנהיג החסידים מגאליציה. "על כן אנכי מצוך לאמור פתח תפתח את ידך לאחיך" (פרשת ראה, דברים טו, *א) ולכאורה…<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>תורת התחסידות / רבי מנחם מנדל רובין מלינסק - שושלת רופשיץ 9 ויוסף להקבר בארץ ישראל כדי שלא יצטרכו ל"גלגול מורי ורבי הרב מבארנוב זצוק"ל בא לירושלים סוף מחילות" (רש"י בראשית מז, מט ד"ה אל נא) ועל כן התפלל = שנת תרס"ט והביא עמו מחו"ל ארגז גדול עם כתבי יד הכהן הגדול שכל יהודי חו"ל יבואו לארץ בחייהם - קוממיות | שלו מדרשותיו ותורותיו הנעימות והמשעשעות ממה - ולא בצורה של גלגול מחילות. שאמר בכל שבתות ומועדים... ואמר לי אשר דרשותיו של טיק" ברוקלין תשכ"ה, ע' קס"א עשי 6 סא ישאלו אותו בעולם העלון: ואתה עשית כן אבל מובא בזהר הקדוש (ח"א דף כ"ד ובזוהר חדש ג' רס"א) הפשעטליך וגימטראות הנפלאות זאת הוא מברך ‏ כי שמי שיוצא לדרד יחק עצמו - דברים פד , לח = הקב"ה חדי בפלפולא דאורייתא. ויהיו אמרותיו לרצון לפני…<sup class='fn'><a href="#note-1">1</a></sup></p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>מיקומה של בארנובם לא אומת.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך 881 (עמ׳ 365).</li><li id="note-2">בערך: בן רבי ישראל מבארנוב (850).</li><li id="note-3">הערך ארוך ודו־טורי ב־OCR; הקטעים כאן מובאים כלשונם מהמקור, וייתכן שהסדר משובש.</li></ol></div>
+<div class="unknown"><h3 id="sec-2" data-i18n="unknown">מה שלא ידוע</h3><p>מיקומה של בארנובם לא אומת.</p></div>
+<div class="notes"><h3 id="sec-3" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך 881 (עמ׳ 365).</li><li id="note-2">בערך: בן רבי ישראל מבארנוב (850).</li><li id="note-3">הערך ארוך ודו־טורי ב־OCR; הקטעים כאן מובאים כלשונם מהמקור, וייתכן שהסדר משובש.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

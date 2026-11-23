@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי נחמיה יחיאל מביכוב</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">תורתו</a></li><li><a href="#sec-3">תלמידיו</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי נחמיה יחיאל מביכוב</h2>
 <p class="subtitle">בנו של היהודי הקדוש · אדמו״ר בביכוב</p>
@@ -28,21 +34,23 @@
 <dl class="facts"><div><dt>נולד</dt><dd>תקס״ח (1808)</dd></div><div><dt>נפטר</dt><dd>י״ט תשרי תרי״ג (1852)</dd></div><div><dt>אביו</dt><dd>היהודי הקדוש מפשיסחא</dd></div><div><dt>גודל בידי</dt><dd>רבי ירחמיאל מפשיסחא</dd></div><div><dt>רבותיו</dt><dd>רבי ישכר דב מראדושיץ; חסידו המובהק של רבי ישראל מרוז׳ין</dd></div><div><dt>ספרו</dt><dd>מעשה נחמיה</dd></div><div><dt>בניו</dt><dd>רבי חיים גדליה, רבי יעקב יצחק, רבי דוד, רבי בצלאל</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> מעשה נחמיה</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/bichov.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">ביכוב</span></a><a class="rel" href="../dynasty/peshischa.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">פשיסחא</span></a><a class="rel" href="../rebbe/yehudi-peshischa.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">היהודי הקדוש מפשיסחא</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>נתייתם בילדותו וגודל על ידי רבי ירחמיאל מפשיסחא. קיבל בחסידות מרבי ישכר דב מראדושיץ, והיה חסידו המובהק של רבי ישראל מרוז׳ין. כבן עשרים נתמנה לאדמו״ר בביכוב, מחוז לובלין. תורותיו ומופתיו בספר מעשה נחמיה.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>היתה לו מקטרת שירש מאביו היהודי הקדוש, וקרה פעם שהמקטרת נגנבה ממנו ונצטער על כך צער גדול, כי בעת שהיה מעשן בה היה פועל ישועות להוריד שפע לישראל. הוא קבע בוודאות: מקטרת זו תוחזר לי תוך שנה. המקטרת נתגלגלה ממקום למקום עד שנמכרה לשר הפלך של ראדום; חייט יהודי, שהיה יוצא ונכנס בבית השר, קנה אותה ממנו, כי השר ניסה לעשן בה ובכל פעם באו לו פצעים על לשונו — ״אין הוא יכול לעשן בה כי היא מקטרת של יהודי״ — והחייט נתנה תשורה לרבי.<sup class='fn'><a href="#note-2">2</a></sup></p>
-<h3>תורתו</h3>
+<h3 id="sec-2">תורתו</h3>
 <p>על ״כלתה רוחי, אל תסתר פניך ממני״ (תהלים קמג, ז) לימד, כי דוד המלך ראה ברוח קדשו שיבואו דורות שלא יוכלו להתעורר מעצמם לעבודת ה׳ — זו תפילה — ועל כן אמר ״נפשי כארץ עיפה לך״, כמו דומם, בלי שום התעוררות מלמטה; אך ״ענני ה׳ כלתה רוחי״ — לשון השתוקקות, כי נכספה וגם כלתה נפשי, אך איננו מוצאים את דרך העבודה, ועל כן ״ענני ה׳״ שתהיה ההתעוררות הרצויה.<sup class='fn'><a href="#note-3">3</a></sup></p>
 <p>בכיה מחמת עצבות גרועה היא מאד, וצריך להתרחק ממנה. אולם כשאדם חושב על שפלות עצמו וגדלותו של הבורא, ובכל זאת הוא יכול להתפלל לפני הבורא — הריהו משתוקק לומר דבורים לפני הבורא, וככל שהוא מתקרב יותר כך הוא מרגיש יותר את שפלות עצמו וגדלות הבורא, עד כלות הנפש ממש, ומזה הוא בא לבכיה — וזו בכיה של השתוקקות נפש, בכיה טובה, ואז תפילתו בוודאי רצויה ומקובלת.<sup class='fn'><a href="#note-4">4</a></sup></p>
 <blockquote>בקבלת שבת צריך כל איש לשפוך את שיחו ולבו לפני השי״ת, כמו בן שזה זמן רב לא ראה את פני אביו.<span class="src">מעשה נחמיה, עמ׳ 18 אות ט״ז</span></blockquote>
 <p>על ״ותתפשהו בבגדו לאמור שכבה עמי״ (בראשית לט, יב) לימד, כי דרכו של יצר הרע להסית את האדם לאמור: ראה כי חטאתך כה רבה, עד שאם יהיו ימיך כימי מתושלח לא תספוק לחזור בתשובה, ואי לכך — המשך לחטוא. ״ותתפשהו בבגדו״ — מלשון ״בגד בוגדים בגדו״ (ישעיה כד, טז): הרי חטאת כבר, ואם כך תיהנה מן העולם והמשך לחטוא. והעצה לכך היא: ״ויעזב בגדו בידה״ — מה שעבר אין, מה שחטאתי כבר אין.<sup class='fn'><a href="#note-5">5</a></sup></p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-3" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/chaim-gedalya-bichov.html">רבי חיים גדליה רבינוביץ מביכוב</a><a class="chip" href="../rebbe/yaakov-yitzchak-bichov.html">רבי יעקב יצחק רבינוביץ מביכוב</a><a class="chip" href="../rebbe/yekutiel.html">רבי יקותיאל</a></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, עמ׳ 1309–1310 (קובצי OCR p0007–p0008) — פרק ״רבי נחמיה יחיאל מביכוב״.</li><li id="note-2">סיפורי חסידים, עמ׳ 302 — מעשה המקטרת (כמובא אצל אלפסי, שם).</li><li id="note-3">תפארת היהודי, דף א׳ ע״ב אות ת׳ (כמובא אצל אלפסי, שם).</li><li id="note-4">שם, עמ׳ 4 (כמובא אצל אלפסי, שם).</li><li id="note-5">קונטרס תפארת בנים שבסוף תפארת היהודי, עמ׳ 9 (כמובא אצל אלפסי, שם).</li></ol></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, עמ׳ 1309–1310 (קובצי OCR p0007–p0008) — פרק ״רבי נחמיה יחיאל מביכוב״.</li><li id="note-2">סיפורי חסידים, עמ׳ 302 — מעשה המקטרת (כמובא אצל אלפסי, שם).</li><li id="note-3">תפארת היהודי, דף א׳ ע״ב אות ת׳ (כמובא אצל אלפסי, שם).</li><li id="note-4">שם, עמ׳ 4 (כמובא אצל אלפסי, שם).</li><li id="note-5">קונטרס תפארת בנים שבסוף תפארת היהודי, עמ׳ 9 (כמובא אצל אלפסי, שם).</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

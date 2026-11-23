@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי יעקב שפירא מהומנא</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">סיפור</a></li><li><a href="#sec-3">מתורתו</a></li><li><a href="#sec-4">מה שלא ידוע</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי יעקב שפירא מהומנא</h2>
 <p class="subtitle">תלמידו המובהק של רבי מנחם מנדל מרימנוב; צאצא לבעל ׳מגלה עמוקות׳; בעל ׳שפתי צדיקים׳; נפטר ב׳ בניסן תקפ״ח</p>
@@ -28,20 +34,22 @@
 <dl class="facts"><div><dt>רבו</dt><dd>רבי מנחם מנדל מרימנוב</dd></div><div><dt>ייחוסו</dt><dd>צאצא ישיר לבעל ׳מגלה עמוקות׳</dd></div><div><dt>בניו</dt><dd>רבי אברהם, אב״ד ווראנוב; רבי אביש אריה, אב״ד הומנא</dd></div><div><dt>ספרו</dt><dd>׳שפתי צדיקים׳, פרעמשלא תרמ״ב</dd></div><div><dt>הסכמה לספרו</dt><dd>רבי יהושע העשיל מרימנוב</dd></div><div><dt>פטירתו</dt><dd>ב׳ בניסן תקפ״ח (17 במרס 1828)</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> ׳שפתי צדיקים׳ (פרעמשלא תרמ״ב)</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/humen.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">הומנא</span></a><a class="rel" href="../dynasty/rimanov.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">רימנוב</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>תלמידו המובהק של רבי מנחם מנדל מרימנוב. צאצא ישיר לבעל ׳מגלה עמוקות׳. ישב על כס הרבנות בהומנא. בניו: רבי אברהם, אב״ד ווראנוב, ורבי אביש אריה, אב״ד הומנא.</p>
 <p>חיבר את הספר ׳שפתי צדיקים׳, מחברת על התורה ונ״ך ומדרשים ואגדות, מן הדברים ששמע מפי הקדושים, כדי להאיר עיני ישראל. רבי יהושע העשיל מרימנוב כתב בהסכמתו לספר כי הדברים עתיקים יצאו מפי קדושים, צדיקים מפורסמים, אשר דבריהם מיוסדים על יסודי אמת, וכי כל המעיין בספר הקדוש הזה ימצא מרגוע ונחת רוח לנפשו, רוחו ונשמתו.</p>
-<h3>סיפור</h3>
+<h3 id="sec-2">סיפור</h3>
 <p>פעם אחת, בבוא רבי יעקב שפירא לקבל את פני רבו רבי מנחם מנדל מרימנוב, כיבד אותו רבו לומר תורה בסעודת שבת, ולא רצה, עד שהפציר בו רבו מאוד ומרוב הפצרות לא יכול לסרב. (מתוך הערה בערכו בספר ׳שם הגדולים מארץ הגר׳, מלואים והשמטות, מערכת גדולים, אות י׳, סימן קס״ו)</p>
-<h3>מתורתו</h3>
+<h3 id="sec-3">מתורתו</h3>
 <p>׳שאלה אשה משכנתה... ושמלות ושמתם על בניכם ועל בנותיכם׳ (שמות ג, כב): קשה, למה היה לכתוב לומר שישימו את הלבוש על הבנים, והלא הדבר מובן מאליו. אלא שבזכות ארבעה דברים נגאלו ישראל ממצרים, ואחד מארבעת הדברים הוא שלא שינו את לבושם. לבושי המצרים היו בוודאי לבוש של שחץ ופריצות, שלא נאה לבני ישראל ולבנות ישראל ללובשם; ואם כן, מה הטעם לשאול בגדים שכאלה? על כן אומר הפסוק לשאול את השמלות, אבל יש לתקן אותן כראוי, כדי שיהיו מתאימים לשים אותם ׳על בניכם ועל בנותיכם׳. כאשר שמע רבי מנדל את הדברים, קם ממקומו ונשק לרבי יעקב על מצחו; שכן, כידוע, היה רבי מנדל מקפיד מאוד על מלבושיהם של בני ישראל. (׳מליצי אש׳, חלק א׳, בערכו)</p>
 <p>׳ואתחנן אל ה׳ בעת ההיא לאמור ה׳ אלקים׳ (דברים ג, כג): על פי מאמרם ז״ל, אילו בא משה רבינו לארץ ישראל היה מעביר יצר הרע של עבודה זרה, ולא היה חורבן בית המקדש. בעבודה זרה יש נ״א לאוין. בבית המקדש קראו את השם ככתבו, ולאחר החורבן קראו בשם אדנ״י. אם היה נכנס משה לארץ ישראל ולא היה חורבן, ממילא היה השם נקרא ככתבו. וזהו ׳ואתחנן אל ה׳ בעת ההיא לאמור׳ — שיאמרו בשם הוי־ה, ולא בשם אדנות. (׳מליצי אש׳, חלק א׳, בערכו)</p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שנת לידתו אינה נזכרת בערך. כותרת הערך ב־OCR נדפסה ׳- 2009 -׳, והיא טעות קריאה של 2002 — הערך בא אחרי 2001 ולפני 2003 בסדר הסריקה. רבו, רבי מנחם מנדל מרימנוב, אין לו עדיין ערך באתר, ולכן לא נרשם כאן כרב מקושר.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 2002 בפרק תלמידי החוזה מלובלין, עמ׳ 459–460 — תולדותיו ותורתו.</li><li id="note-2">רבי יהושע העשיל מרימנוב, הסכמתו לספר ׳שפתי צדיקים׳, פרעמשלא תרמ״ב.</li><li id="note-3">ב׳ בניסן תקפ״ח = 17 במרס 1828.</li></ol></div>
+<div class="unknown"><h3 id="sec-4" data-i18n="unknown">מה שלא ידוע</h3><p>שנת לידתו אינה נזכרת בערך. כותרת הערך ב־OCR נדפסה ׳- 2009 -׳, והיא טעות קריאה של 2002 — הערך בא אחרי 2001 ולפני 2003 בסדר הסריקה. רבו, רבי מנחם מנדל מרימנוב, אין לו עדיין ערך באתר, ולכן לא נרשם כאן כרב מקושר.</p></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 2002 בפרק תלמידי החוזה מלובלין, עמ׳ 459–460 — תולדותיו ותורתו.</li><li id="note-2">רבי יהושע העשיל מרימנוב, הסכמתו לספר ׳שפתי צדיקים׳, פרעמשלא תרמ״ב.</li><li id="note-3">ב׳ בניסן תקפ״ח = 17 במרס 1828.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

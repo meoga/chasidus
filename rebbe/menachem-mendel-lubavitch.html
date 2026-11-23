@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי מנחם מענדל שניאורסון מליובאוויטש</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">סיפורים</a></li><li><a href="#sec-3">מתורתו</a></li><li><a href="#sec-4">תלמידיו</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי מנחם מענדל שניאורסון מליובאוויטש</h2>
 <p class="subtitle">הצמח צדק · נכד בעל התניא וחתן האדמו״ר האמצעי</p>
@@ -28,23 +34,25 @@
 <dl class="facts"><div><dt>שם מלא</dt><dd>רבי מנחם מענדל שניאורסון</dd></div><div><dt>סבו ורבו</dt><dd>רבי שניאור זלמן מלאדי</dd></div><div><dt>נולד</dt><dd>תקמ״ט (1789)</dd></div><div><dt>נפטר</dt><dd>י״ג ניסן תרכ״ו (1866), בליובאוויטש</dd></div><div><dt>חתנו</dt><dd>רבי דובער מליובאוויטש — האדמו״ר האמצעי</dd></div><div><dt>ספרו</dt><dd>צמח צדק</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> צמח צדק; דרך מצותיך; אור התורה</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/lubavitch.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">ליובאוויטש</span></a><a class="rel" href="../dynasty/chabad.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">חב״ד־ליובאוויטש</span></a><a class="rel" href="../rebbe/shneur-zalman.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי שניאור זלמן מלאדי</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן דבורה לאה, בת רבי שניאור זלמן מלאדי. נתיתם בילדותו וגודל על ידי הסבא הגדול, שלימדו לא רק תורת הנגלה אלא גם תורת הנסתר. כבר בחיי הסבא, בעודנו עלם, היה ׳חוזר׳ על תורת סבו, והספיק לחדש חידושי תורה שזכו לתשבחות הסבא.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>כשבאו חסידי חב״ד, בשנת תקפ״ח, אל רבי מנחם מענדל וביקשו למנותו כאדמו״ר במקום חותנו — האדמו״ר האמצעי — לא רצה לקבל את המשרה ואמר שלדודו הקדוש רבי חיים אברהם משפט הבכורה. באו החסידים אל רבי חיים אברהם וביקשו למנותו לאדמו״ר. אמר להם: לכו אל בן אחותי, רבי מנחם מענדל, ואמרו לו שהכל יודעים ששלונאה ויאה הרבנות, ואל יגנוב את דעת הבריות — אני אבוא ואשלים. עשו כן החסידים. כשבא רבי חיים אברהם, קם רבי מנחם מענדל מלפניו. אמר לו רבי חיים אברהם: ישב נא על מקומו. אני אמנם הדוד, אבל כבודו הוא הרבי. משנתמנה רבי מנחם מענדל לאדמו״ר, קיבל רבי חיים אברהם את מרותו והיה הולך לשמוע ממנו דרושי חסידות כאחד התלמידים.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <p>היה סופר פורה ומתמיד בלתי רגיל; עושרו הספרותי רב ביותר ומגוון ביותר.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>סיפורים</h3>
+<h3 id="sec-2">סיפורים</h3>
 <p>בסוף ימיו חלה ולא יכול עוד ללכת לבית המדרש, ועשה לו מנין משלו. פעם אחת בראש השנה, לאחר שגמר את התקיעות בבית מדרשו שלו, הלך לאט לאט לבית המדרש של הצמח צדק, ועלתה לו ההליכה בקושי רב. אמר לו אחד מבניו של הצמח צדק: למה היה צריך הדוד לטרוח כה הרבה? השיב לו רבי חיים אברהם בהכנעה ובלב נשבר: הרי לא כתוב ׳אשרי העם תוקעי תרועה׳ אלא ׳אשרי העם יודעי תרועה׳.<sup class='fn'><a href="#note-3">3</a></sup></p>
 <p>בליל ראשון של שבועות נכנס פעם רבי שמואל מליובאוויטש לדודו — רבי חיים אברהם — לברכו בברכת החג, ומצא אותו יושב ועיניו זולגות דמעות. שאלו מהר״ש: הרי יום טוב היום, ולמה הוא בוכה? השיבו: שמעתי מאבי תורה על הפסוק ׳וספרתם לכם ממחרת השבת׳ — ש׳ממחרת השבת׳ צריך להיספר, ועל ידי זה ׳תספרו חמשים יום׳ נעשה יום (׳תספרו׳ מלשון אבן ספיר), ורואים ׳חמשים יום׳ — היינו שער הנו״ן (חמשים שערי בינה) — ואני אינני רואה, ועל כך בוכה אני. הרבי מהר״ש התפעל ואמר: עד היכן הדברים מגיעים! דודו בן שבעים ושבע, בנו של אדמו״ר הזקן, והוא מופשט לגמרי מעניני העולם הזה, והוא יושב ובוכה על גילוי שער הנו״ן.<sup class='fn'><a href="#note-4">4</a></sup></p>
-<h3>מתורתו</h3>
+<h3 id="sec-3">מתורתו</h3>
 <p>בהקדמתו לשולחן ערוך של אביו־סבו כתב: ״מאז ועד עתה טעמו העוסקים בהם טעמם וריבם. עתה ראו אור בהיר אשר התנוצצו מלשונו הזהב, ואמרותיו יזחירו אור נערב — בדבור אחד קולע אל השערה, אשר שערו רבותינו הקדושים בפוסקים, גדולי הראשונים והאחרונים, מן המשנה וגמרא עד אחרון שבאחרונים... ולנמוכי רוח והמוני עם, צוף אמרותיו ילהיבו הלבבות, כי ערוך לפניהם השולחן, הלכה למעשה, בשפה ברורה.״<sup class='fn'><a href="#note-5">5</a></sup></p>
 <blockquote>כל חיך הטועמו אומר לי לי הוא. לא הספיקו הספרים הנמצאים לרוות צמאון המשתוקקים להשתעשע בפניניו, והנמצאים ספו — תמו...<span class="src">הקדמת הצמח צדק לשולחן ערוך של אביו, ז׳יטאמיר תרי״ז; מובא באלפסי, כרך א׳, עמ׳ 417</span></blockquote>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-4" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/baruch-shalom.html">רבי ברוך שלום</a><a class="chip" href="../rebbe/yaakov-mavarsaha.html">רבי יעקב מאורשא</a></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">תולדותיו: אלפסי, תורת החסידות כרך א׳, עמ׳ 417.</li><li id="note-2">סיפור המינוי ורבי חיים אברהם: שם, עמ׳ 417 (מקור: ׳בית רבי׳, עמ׳ 112).</li><li id="note-3">סיפור התקיעות בראש השנה: שם, עמ׳ 417 (מקור: ׳סיפורי חסידים׳, מועדים, מס׳ כ״ט).</li><li id="note-4">סיפור שבועות עם רבי שמואל: שם, עמ׳ 417 (מקור: ׳סיפורי חסידים׳, מס׳ שס״ט).</li><li id="note-5">הקדמתו לשולחן ערוך: שם, עמ׳ 417.</li></ol></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">תולדותיו: אלפסי, תורת החסידות כרך א׳, עמ׳ 417.</li><li id="note-2">סיפור המינוי ורבי חיים אברהם: שם, עמ׳ 417 (מקור: ׳בית רבי׳, עמ׳ 112).</li><li id="note-3">סיפור התקיעות בראש השנה: שם, עמ׳ 417 (מקור: ׳סיפורי חסידים׳, מועדים, מס׳ כ״ט).</li><li id="note-4">סיפור שבועות עם רבי שמואל: שם, עמ׳ 417 (מקור: ׳סיפורי חסידים׳, מס׳ שס״ט).</li><li id="note-5">הקדמתו לשולחן ערוך: שם, עמ׳ 417.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי אברהם שלמה אפשטיין מאוז׳רוב</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו: חנוכה — ראש השנה</a></li><li><a href="#sec-3">תלמידיו</a></li><li><a href="#sec-4">מה שלא ידוע</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי אברהם שלמה אפשטיין מאוז׳רוב</h2>
 <p class="subtitle">דור רביעי לאוז׳רוב · בעל שארית ברכה</p>
@@ -28,22 +34,24 @@
 <dl class="facts"><div><dt>אביו</dt><dd>רבי אריה לייבוש מאוז׳רוב, בעל ברכת טוב</dd></div><div><dt>נולד</dt><dd>כ״ה תשרי תרכ״ה (1864), בחמלניק</dd></div><div><dt>חתן</dt><dd>רבי חיים שמואל הורוויץ מחנטשין, משושלת החוזה מלובלין</dd></div><div><dt>הוסמך להוראה</dt><dd>על ידי רבי ישראל יהושע טרונק מקוטנא ועל ידי רבי חיים אלעזר וואקס מפיוטרקוב</dd></div><div><dt>רב באוז׳רוב</dt><dd>משנת תרמ״ח (1888), בהיותו בן עשרים ושלש</dd></div><div><dt>אדמו״ר</dt><dd>משנת תרע״ד (1914), על מקום אביו</dd></div><div><dt>בניו</dt><dd>רבי אליעזר יהושע; רבי משה יחיאל</dd></div><div><dt>נפטר</dt><dd>י״א חשון תרע״ח (1917), באפטא, בן חמשים ושלש</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> שארית ברכה</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/ozharov.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">אוז׳רוב</span></a><a class="rel" href="../dynasty/ozharov.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">אוז׳רוב</span></a><a class="rel" href="../rebbe/aryeh-leibush-ozharov-2.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי אריה לייבוש מאוז׳רוב</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>חתן רבי חיים שמואל הורוויץ מחנטשין, משושלת החוזה מלובלין. קיבל בתורה ובחסידות מאביו ומחותנו. הוסמך להוראה על ידי רבי ישראל יהושע טרונק מקוטנא ועל ידי רבי חיים אלעזר וואקס מפיוטרקוב. בשנת תרמ״ח (1888), בהיותו בן עשרים ושלש, נתקבל לרבנות אוז׳רוב.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>העיד על עצמו: ״כמעט רוב גדולי וגאוני וצדיקי וקדושי הדור שהיו בזמני הכרתי אותם ושימשתי אותם״. חסידים החלו לבוא אליו עוד בחיי אביו, ומשנת תרע״ד (1914) מילא את מקומו כאדמו״ר. במלחמת העולם הראשונה חרבה אוז׳רוב; הוא עבר לאפטא, ושם נסתלק בהיותו בן חמשים ושלש בלבד. תורתו בספר שארית ברכה.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>מתורתו: חנוכה — ראש השנה</h3>
+<h3 id="sec-2">מתורתו: חנוכה — ראש השנה</h3>
 <p>מקובל מצדיקים שחנוכה הוא בחינת ראש השנה, והוא ההשלמה של ימים נוראים. בית שמאי אומרים: יום ראשון מדליק שמונה, מכאן ואילך פוחת והולך; ובית הלל אומרים: יום ראשון מדליק אחת, מכאן ואילך מוסיף והולך. ובמסכת ראש השנה (יז, א) — בית הלל אומרים ״ורב חסד מטה כלפי חסד״: רבי אלעזר אומר כובש, שנאמר ״יכבוש עוונותינו״ (מיכה ז, יט); רבי יוסי בר חנינא אומר נושא, שנאמר ״נושא עון״ (שם, יח).<sup class='fn'><a href="#note-2">2</a></sup></p>
 <p>״כובש״ — הקב״ה כובש ומסתיר עוונות תחת כסא הכבוד, כדי שיכריעו הזכויות; ״נושא״ — מגביה כף העוונות למעלה, כדי שיכריעו הזכויות. יש שני דרכים בעבודת ה׳: ״סור מרע ועשה טוב״ (תהלים לד, טו). ״סור מרע״ הוא לעקור הרע ולשרש אחריו — מדרגה גדולה, ולא כל אדם זוכה לה; הדרך השניה היא לעזוב את הרע ולעשות טוב על ידי עשיית תורה ומצוות, ועל ידי זה יתבטל הרע — ולזה יכול כל אדם להגיע. בית שמאי, שהם מידת הגבורה, אומרים ״פוחת והולך״ — מקודם לעקור ולשרש את הרע, ואחר כך יהיה בבחינת ״עשה טוב״; ובית הלל, שהם מידת החסד, אומרים שיוסיף אומץ בתורה ובמצוות, ועל ידו יתבטל הרע.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <blockquote>נרות חנוכה הם כנגד נר הנשמה, כמו שמובא בבמדבר רבה: נמשלו הנפשות לנר, ונשמתו של אדם קרויה נר, דכתיב ״נר ה׳ נשמת אדם״. וכיון ש״מוסיף והולך״ בעשיית הטוב, מעלה נשמתו להיות מוסיף והולך ממדרגה למדרגה.<span class="src">שארית ברכה, כמובא בספר אש דת, חלק שמיני, עמ׳ תקנ״ג (כמובא באלפסי, כרך ג׳, עמ׳ 1488)</span></blockquote>
 <p>ולכן חנוכה הוא הגמר של הימים הנוראים — שנוכל להיות בהם ״מוסיף והולך״ בטוב, ו״פוחת והולך״ ברע. וכן במעמד הר סיני היה ערפל, חשך, ענן וערפל, להראות לישראל שיעמדו בתוקף האמונה למרות כל הנסיונות וערפלי החשך וההסתר שיעמדו לפניהם ביום מן הימים.<sup class='fn'><a href="#note-2">2</a></sup></p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-3" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/eliezer-yehoshua-ozharov.html">רבי אליעזר יהושע אפשטיין מאוז׳רוב</a><a class="chip" href="../rebbe/moshe-yechiel-ozharov.html">רבי משה יחיאל אפשטיין מאוז׳רוב</a><a class="chip" href="../rebbe/ayekab-yehoshua-halv-epashashyk-bavravbar-by.html">רבי איעקב יהושע הלו&quot; עפששיך בורובר בי ק</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>מקורות משניים גורסים שנת לידה 1864, פטירה 1917 והכתרה 1913; אלפסי נוקט תאריכים עבריים מדויקים (כ״ה תשרי תרכ״ה — י״א חשון תרע״ח; אדמו״ר מתרע״ד), והשנים הלועזיות כאן לפי המרתם.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, עמ׳ 1487–1488 (קובצי OCR p0147–p0148) — פרק ״רבי אברהם שלמה אפשטיין מאוז׳רוב״: חמלניק, כ״ה תשרי תרכ״ה — אפטא, י״א חשון תרע״ח; חתן רבי חיים שמואל הורוויץ מחנטשין; רב באוז׳רוב מתרמ״ח; אדמו״ר מתרע״ד; נסתלק באפטא בן נ״ג; תורתו בשארית ברכה.</li><li id="note-2">שארית ברכה, כמובא בספר אש דת, חלק שמיני, עמ׳ תקנ״ג, תנ״ה, תכ״ו — תורת החנוכה (כמובא באלפסי, שם).</li></ol></div>
+<div class="unknown"><h3 id="sec-4" data-i18n="unknown">מה שלא ידוע</h3><p>מקורות משניים גורסים שנת לידה 1864, פטירה 1917 והכתרה 1913; אלפסי נוקט תאריכים עבריים מדויקים (כ״ה תשרי תרכ״ה — י״א חשון תרע״ח; אדמו״ר מתרע״ד), והשנים הלועזיות כאן לפי המרתם.</p></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, עמ׳ 1487–1488 (קובצי OCR p0147–p0148) — פרק ״רבי אברהם שלמה אפשטיין מאוז׳רוב״: חמלניק, כ״ה תשרי תרכ״ה — אפטא, י״א חשון תרע״ח; חתן רבי חיים שמואל הורוויץ מחנטשין; רב באוז׳רוב מתרמ״ח; אדמו״ר מתרע״ד; נסתלק באפטא בן נ״ג; תורתו בשארית ברכה.</li><li id="note-2">שארית ברכה, כמובא בספר אש דת, חלק שמיני, עמ׳ תקנ״ג, תנ״ה, תכ״ו — תורת החנוכה (כמובא באלפסי, שם).</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי יוסף החריף מזבאָרוב</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">המופת האמיתי</a></li><li><a href="#sec-3">מתורתו</a></li><li><a href="#sec-4">מה שלא ידוע</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי יוסף החריף מזבאָרוב</h2>
 <p class="subtitle">מנכבדי תלמידי החוזה מלובלין; לאחר פטירת החוזה נתמנה אדמו״ר, ובסוף ימיו נסע לרבי שלום מבעלזא</p>
@@ -27,21 +33,23 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>רבותיו</dt><dd>החוזה מלובלין; בסוף ימיו נסע לרבי שלום מבעלזא</dd></div><div><dt>בלובלין</dt><dd>בבואו ללובלין היה החוזה מכבדו לשבת בראש המסובים</dd></div><div><dt>אדמו״רותו</dt><dd>לאחר פטירת החוזה נתמנה אף הוא אדמו״ר</dd></div><div><dt>נסיעתו לבעלזא</dt><dd>בסוף ימיו, כשהיה בן למעלה משמונים, נסע עם מאה מחסידיו החשובים אל רבי שלום מבעלזא</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/zborov.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">זבאָרוב (זבורוב)</span></a><a class="rel" href="../dynasty/lublin.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">לובלין — תלמידי החוזה</span></a><a class="rel" href="../rebbe/chozeh-lublin.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">החוזה מלובלין</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>רבי יוסף החריף מנכבדי תלמידיו של החוזה מלובלין היה. בבואו ללובלין היה החוזה מכבדו לשבת בראש המסובים. לאחר פטירתו של החוזה נתמנה אף הוא אדמו״ר.</p>
 <p>בסוף ימיו, כשהיה בן למעלה משמונים, נסע עם מאה מחסידיו החשובים אל רבי שלום מבעלזא. רבי שלום שמח לקראתו והשתעשע עמו באהבה וחיבה עצומה, ואמר לו: אל יחשוב כבודו שרק זה עתה הוא בא אלינו; עוד בהיותנו בלובלין, וכבודו ישב בראש המסובים ואני ישבתי שמונה־עשר אנשים אחריו, כבר אז משכתי את כבודו אלי וידעתי שיבוא לחסות בצלי, ועכשיו שבא אלי, עשיתי לכבודו טובה לדורי־דורות.</p>
-<h3>המופת האמיתי</h3>
+<h3 id="sec-2">המופת האמיתי</h3>
 <p>רבי שלום מבעלזא, שהיה בעצמו גדול בעלי המופת בדורו, אמר: יש מופתים ויש מופתים אמיתיים. מופת אמיתי הוא מה שעשה רבי יוסף מזבאָרוב. מעשה שהיה כך היה: בעת מלחמת נפוליון ברוסיה הגיעו חיילים רוסים עד לזבאָרוב. בתוך החיילים היו גם שלושים חיילים יהודים. חלק מהם הלך אל רבי יוסף כדי לבקש את ברכתו שיחזרו בשלום מן המלחמה, והאחרים לעגו להם על מחשבתם זו. כשבאו אל רבי יוסף, סירב לברכם, שאינו רבי. הפצירו בו רבות, ונענה להם. הקרבות הגיעו עד לזבאָרוב, ומאבק קשה היה בין החילות, וצבא רוסיה ניגף לפני צבא צרפת. כל אותם חיילים שקיבלו את ברכתו של רבי יוסף ניצלו, והאחרים ניספו. בתום הקרבות באו כל הניצולים להודות לרבי יוסף על ברכתו שנתקיימה. על זה אמר רבי שלום מבעלזא: זהו מופת אמיתי.</p>
 <blockquote>יש מופתים ויש מופתים אמיתיים. מופת אמיתי הוא מה שעשה רבי יוסף מזברוב.<span class="src">רבי שלום מבעלזא, על המעשה בזבאָרוב (ישראל קלפהולץ, ׳אדמו״רי בעלזא׳, חלק ראשון, תל אביב תשל״ב, עמ׳ רכ״ח; אלפסי, כרך ג׳, ערך 1992 בפרק תלמידי החוזה מלובלין)</span></blockquote>
-<h3>מתורתו</h3>
+<h3 id="sec-3">מתורתו</h3>
 <p>כשנפרד רבי יוסף מרבי שלום מבעלזא, ביקש רבי שלום מאורחו שיאמר דברי תורה. נענה רבי יוסף ואמר: אמרו בגמרא ׳אל יפטור אדם מחברו אלא מתוך דבר הלכה שמתוך כך זוכרהו׳ (ברכות לא, א). ׳חברו׳ — אמרו חז״ל, זה הקדוש ברוך הוא, שנאמר ׳רעך ורע אביך אל תעזוב׳ (משלי כז, י). אפשר שזו היא הכוונה: אל יפטור אדם עצמו מדביקות הבורא יתברך, מלקיים את ׳שוויתי ה׳ לנגדי תמיד׳ (תהלים טז, ח), רק מתוך דבר הלכה — כי כשרוצה אדם לברר הלכה ברורה לאמיתה של תורה, אז בשעת עומק העיון והבירור, אם לא יסיח דעת מדביקות, בוודאי לא יכוונו מחשבותיו לברר הלכה לאמיתה של תורה, שהרי ׳הלכתא בעי צילותא׳ (עירובין סה, א), שלא תהיה דעתו נתונה אף לדברים הגבוהים ביותר; ועל כן ברצותו לברר דבר הלכה, פוטר את עצמו לרגע מחברו, היינו מהקב״ה, ולא יחשוב לו לחטא לעוון, ואדרבא, על ידי שלומד תורה לשמה, לכוון לדבר אמת — יסייע לו הקדוש ברוך הוא.</p>
 <p>הוסיף על כך רבי שלום מבעלזא: בזה מובנים דברי חז״ל בפתיחתא דאיכה על הפסוק ׳אותי עזבו ואת תורתי לא שמרו׳ (ירמיה טז, יא) — ׳הלואי אותי עזבו ואת תורתי שמרו׳: היינו בעת שמעמיקים בעיון בירור הלכה.</p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שנות חייו אינן נזכרות בערך; לא נזכר בו ספר משלו, ותורתו הובאה כאן רק מן הדברים שאמר בעת פרידתו מרבי שלום מבעלזא. המעשה עם החיילים והדברים עליו נמסרים כאן על פי ספרו של ישראל קלפהולץ, כפי שהובאו בערך.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1992 בפרק תלמידי החוזה מלובלין, עמ׳ 450 — תולדותיו, עליו ותורתו.</li><li id="note-2">ישראל קלפהולץ, ׳אדמו״רי בעלזא׳, חלק ראשון, תל אביב תשל״ב, עמ׳ רכ״ח (המעשה עם החיילים; דברי רבי שלום מבעלזא על נסיעתו לבעלזא).</li></ol></div>
+<div class="unknown"><h3 id="sec-4" data-i18n="unknown">מה שלא ידוע</h3><p>שנות חייו אינן נזכרות בערך; לא נזכר בו ספר משלו, ותורתו הובאה כאן רק מן הדברים שאמר בעת פרידתו מרבי שלום מבעלזא. המעשה עם החיילים והדברים עליו נמסרים כאן על פי ספרו של ישראל קלפהולץ, כפי שהובאו בערך.</p></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1992 בפרק תלמידי החוזה מלובלין, עמ׳ 450 — תולדותיו, עליו ותורתו.</li><li id="note-2">ישראל קלפהולץ, ׳אדמו״רי בעלזא׳, חלק ראשון, תל אביב תשל״ב, עמ׳ רכ״ח (המעשה עם החיילים; דברי רבי שלום מבעלזא על נסיעתו לבעלזא).</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

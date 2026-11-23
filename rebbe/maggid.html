@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / המגיד ממזריטש</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">על ביתו — מעדות תלמידו</a></li><li><a href="#sec-3">ספריו</a></li><li><a href="#sec-4">תלמידיו</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>המגיד ממזריטש</h2>
 <p class="subtitle">רבי דוב בער בן אברהם · יורש הבעש״ט</p>
@@ -28,21 +34,23 @@
 <dl class="facts"><div><dt>שם מלא</dt><dd>רבי דוב בער בן אברהם</dd></div><div><dt>נולד</dt><dd>תס״ד (1704)</dd></div><div><dt>נפטר</dt><dd>י״ט כסלו תקל״ג (1772), באניפולי</dd></div><div><dt>רבו</dt><dd>הבעש״ט</dd></div><div><dt>למד אצל</dt><dd>רבי שלמה דב בער מלוקאטש · רבי יעקב יהושע, בעל פני יהושע</dd></div><div><dt>עיר</dt><dd>מזריטש</dd></div><div><dt>ספריו</dt><dd>מגיד דבריו ליעקב · אור תורה · אור האמת</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> מגיד דבריו ליעקב (תקמ״א) · אור תורה · אור האמת</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/mezritch.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">מזריטש</span></a><a class="rel" href="../dynasty/root.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">הבעש״ט והמגיד — מעגל השורש</span></a><a class="rel" href="../rebbe/besht.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי ישראל בעל שם טוב (הבעש״ט)</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בנעוריו נתפרסם בכישרונותיו ולמד אצל רבי שלמה דב בער, הרב מלוקאטש, ואצל רבי יעקב יהושע, בעל פני יהושע. בשל מחלתו נסע אל הבעש״ט להתרפא — ושם היה לתלמידו המובהק. הבעש״ט לימד אותו, כעדותו: «שיחת עופות ודקלים וגם סודות שמות הקדושים וייחודים».<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>תרומתו להפצת החסידות מכריעה, והוא המנהיג הגדול של התנועה בדורו. נסתלק בי״ט כסלו תקל״ג באניפולי, ושם נקבר.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>על ביתו — מעדות תלמידו</h3>
+<h3 id="sec-2">על ביתו — מעדות תלמידו</h3>
 <p>רבי שניאור זלמן מלאדי העיד על בית רבו:</p>
 <blockquote>בבית המגיד היו שואבים רוח הקודש במידות גדולות, והמופתים היו מונחים תחת הספסלים ולא היה פנאי להגביהם.<span class="src">רבי שניאור זלמן מלאדי, בית רבי, עמ׳ ג׳ — כמובא באלפסי, כרך א׳, עמ׳ 14</span></blockquote>
-<h3>ספריו</h3>
+<h3 id="sec-3">ספריו</h3>
 <p>תורתו נדפסה במגיד דבריו ליעקב (תקמ״א), באור תורה ובאור האמת, ובדורנו קובצו הדברים לספר תורת המגיד.<sup class='fn'><a href="#note-2">2</a></sup></p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-4" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/aharon-karlin.html">רבי אהרן הגדול מקרלין</a><a class="chip" href="../rebbe/elimelech.html">רבי אלימלך מליז׳נסק</a><a class="chip" href="../rebbe/zusha.html">רבי זושא מהאניפולי</a><a class="chip" href="../rebbe/levi-yitzchak.html">רבי לוי יצחק מברדיטשוב</a><a class="chip" href="../rebbe/shneur-zalman.html">רבי שניאור זלמן מלאדי</a><a class="chip" href="../rebbe/menachem-mendel-vitebsk.html">רבי מנחם מענדל מוויטבסק</a><a class="chip" href="../rebbe/nachum-chernobyl.html">רבי מנחם נחום מצ׳רנוביל</a><a class="chip" href="../rebbe/yechiel-michel-zlotchov.html">רבי יחיאל מיכל מזלאטשוב</a><a class="chip" href="../rebbe/chaim-chaikel-amdur.html">רבי חיים חייקא מאמדור</a><a class="chip" href="../rebbe/shlomo-lutsk.html">רבי שלמה מלוצק</a><a class="chip" href="../rebbe/meshulam-feivish-zbarazh.html">רבי משולם פייביש מזבארז׳</a><a class="chip" href="../rebbe/tzvi-hirsch-nadvorna.html">רבי צבי הירש מנאדבורנה</a><a class="chip" href="../rebbe/shimon-shlomo-savran.html">רבי שמעון שלמה מסווראן</a><a class="chip" href="../rebbe/yaakov-yosef-ostroha.html">רבי יעקב יוסף מאוסטרהא</a><a class="chip" href="../rebbe/yisrael-kozhnitz.html">רבי ישראל המגיד מקוז׳ניץ</a><a class="chip" href="../rebbe/ze-ev-wolf-zhitomir.html">רבי זאב וואלף מז׳יטומיר</a><a class="chip" href="../rebbe/aharon-yitzchak-isaac.html">רבי אהרן ב״ר יצחק אייזיק</a></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך א׳, עמ׳ 14 (פרק המגיד): תס״ד — י״ט כסלו תקל״ג; רבותיו בנגלה; בואו אל הבעש״ט; «שיחת עופות ודקלים» — בית רבי, עמ׳ ו׳.</li><li id="note-2">ספריו: שם, עמ׳ 14.</li><li id="note-3">על מצבתו: «הגאון בנגלה ובנסתר, כל רז לא אנס לו… הנשר האלהי, בוצינא קדישא, איש מופת» — שם.</li></ol></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך א׳, עמ׳ 14 (פרק המגיד): תס״ד — י״ט כסלו תקל״ג; רבותיו בנגלה; בואו אל הבעש״ט; «שיחת עופות ודקלים» — בית רבי, עמ׳ ו׳.</li><li id="note-2">ספריו: שם, עמ׳ 14.</li><li id="note-3">על מצבתו: «הגאון בנגלה ובנסתר, כל רז לא אנס לו… הנשר האלהי, בוצינא קדישא, איש מופת» — שם.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

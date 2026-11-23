@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי ישכר דוב בער ברון מראדושיץ — הסבא הקדוש</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו</a></li><li><a href="#sec-3">סיפורים</a></li><li><a href="#sec-4">תלמידיו</a></li><li><a href="#sec-5">מה שלא ידוע</a></li><li><a href="#sec-6">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי ישכר דוב בער ברון מראדושיץ — הסבא הקדוש</h2>
 <p class="subtitle">תלמיד החוזה מלובלין · מייסד שושלת ראדושיץ · בעל מופת, &#x27;בעל שם טוב הקטן&#x27;</p>
@@ -27,11 +33,11 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>נולד</dt><dd>תקכ״ה (1765)</dd></div><div><dt>נסתלק</dt><dd>ח״י סיון תר״ג (1843)</dd></div><div><dt>רבותיו</dt><dd>החוזה מלובלין; המגיד מקוז׳ניץ; רבי אברהם יהושע השל מאפטא</dd></div><div><dt>כיהן</dt><dd>אדמו״ר בראדושיץ ובפשעדבורז׳</dd></div><div><dt>בניו</dt><dd>רבי ישראל יצחק מראדושיץ; רבי מאיר מראדושיץ</dd></div><div><dt>חתניו</dt><dd>רבי יצחק, אב״ד ראדושיץ; רבי חיים יוסף (שם משפחתו אינו קריא ב־OCR)</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/radoshitz.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">ראדושיץ</span></a><a class="rel" href="../dynasty/radoshitz.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">ראדושיץ</span></a><a class="rel" href="../rebbe/chozeh-lublin.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">החוזה מלובלין</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>מגדולי בעלי המופת בחסידות, ותואר 'בעל שם טוב הקטן', ובפי העם 'סבא קדישא'. כל צדיקי החסידות שלחו אליו את אלה שנזקקו למופתים, ונחשב לראש צדיקי הדור שלא מהזרם של חסידות פשיסחא. עד לאדמו״רותו סבל חרפת רעב, והיה נקרא בפי הבריות 'בערל בטלן', כי כל עיסוקו היה ללכת מצדיק לצדיק. בעצמו העיד ששימש מאה ועשרים בעלי רוח הקודש; רבותיו העיקרים היו החוזה מלובלין, המגיד מקוז׳ניץ, ורבי אברהם יהושע השל מאפטא, שאת תודתו רשם ונדפסה לאחר מכן בשם 'תורת אמת'.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>תולדותיו בספרים 'נפלאות הסבא קדישא' ו'הסבא הקדוש'. רבי מנדלי מקוצק אמר עליו: 'הוא היה יסודו של עולם'. בהקדמת הספר 'תורת אמת' כתב עליו הרבי מאפטא: 'אביר האבירים, מופת דורנו, שמש צדקת ומרפא, חמדת לבבנו, ארי שבחבורה, עוטה אורה, הקדוש האלקי, אדמו״ר הרב מהרי״ב אב״ד פשעדבורז׳ וראדושיץ'.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>המלקט של 'הסבא הקדוש' כותב שזכה לעלות על קברו בראדושיץ; למרבה הכאב אין מצבה ואין קבר, וזכור לטוב זה שהקים מחדש אוהל על קברו, אף שאין ציוני מצבות בתוכו. באוהל קבורים גם צאצאיו, ונמצאו הקברים של הרבניות, הסמוכים לאוהל.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>מתורתו</h3>
+<h3 id="sec-2">מתורתו</h3>
 <p>על 'אל נא אחי תרעו' (בראשית יט, ז) ביאר: 'נא' לשון תפילה ובקשה, 'תרעו' לשון אחוה ורעות — את אשר אי אפשר להשיג בתפילות ובבקשות, אפשר להשיג באהבה, אחוה ורעות.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <p>על 'ויסעו מחרדה ויחנו במקהלות' (במדבר לג, כה) ביאר: אם רוצים לברוח, לנסוע 'מחרדה', מהפחד והאימה — העצה היעוצה היא 'יחנו במקהלות', להתקבץ, להתדבק בדיבוק חברים מקשיבים, באחדות.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <p>על 'מכלל לאו אתה שומע הן' (נדרים יא, א) ביאר: מכלל לאו — מי שמשים עצמו כאין, כ'לאו', כפחות ערך, 'אתה שומע' — אפשר להבין ולהסיק 'הן', שהוא משהו חיובי; ולהיפך, 'מכלל הן אתה שומע לאו' — מי שמשים עצמו שלם המידות, שאין לו צורך בעלייה ובהשתלמות, 'אתה שומע' — אתה מסיק 'לאו', שהוא פחות ערך, שהוא אין.<sup class='fn'><a href="#note-2">2</a></sup></p>
@@ -39,16 +45,18 @@
 <p>על 'כי אשא אל שמים ידי ואמרתי חי אנכי לעולם' (דברים לב, מ) ביאר: כשאני נושא כפי ועומד להתפלל, 'ואמרתי' — כשאני מתפלל, 'חי' — אני נותן חיות ל'אנכי', לה׳ יתברך שהוא יחידו של עולם, ומזה נובעת טובה לעולם, כי הקב״ה מתאווה לתפילתם של צדיקים (חולין ס, ב).<sup class='fn'>4</sup></p>
 <p>דרכים שונות לעבודת ה׳: יש דרך בתורה, יש דרך בתפילה, יש דרך באמירת תהלים ויש דרך בתעניות — וכולם דרכים הם, ובלבד שיעשו במסירת נפש.<sup class='fn'>5</sup></p>
 <blockquote>את אשר אי אפשר להשיג בתפילות ובבקשות — אפשר להשיג באהבה, אחוה ורעות.<span class="src">הסבא הקדוש, עמ׳ 222 (מובא באלפסי כרך ג׳, עמ׳ 1457)</span></blockquote>
-<h3>סיפורים</h3>
+<h3 id="sec-3">סיפורים</h3>
 <p>חסיד בכפר התלונן: הוא לבדו בכפר ואין לו עם מי להתחבר. אמר לו הסבא הקדוש: תתחבר עם הגמרא — אביי ורבא ידידים טובים הם!<sup class='fn'><a href="#note-2">2</a></sup></p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-4" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/yisrael-yitzchak-radoshitz.html">רבי ישראל יצחק ברון מראדושיץ</a><a class="chip" href="../rebbe/yaakov-apta.html">רבי יעקב מאפטא</a><a class="chip" href="../rebbe/yitzchak-radoshitz.html">רבי יצחק מראדושיץ</a><a class="chip" href="../rebbe/meir-barvan-radoshitz.html">רבי מאיר ברון מראדושיץ</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שם משפחתו של חתנו השני, רבי חיים יוסף, אינו קריא ב־OCR של כרך ג׳. בערך נאמר שהסבא שימש &#x27;מאה ועשרים בעלי רוח הקודש&#x27; — כך לשון הערך.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, עמ׳ 1457 (קובץ OCR p0123–p0124) — ערכו של רבי ישכר דוב בער ברון מראדושיץ, הסבא הקדוש.</li><li id="note-2">תורתו: &#x27;הסבא הקדוש&#x27;, עמ׳ 222, 224, 228, 230, 233; &#x27;נפלאות הסבא קדישא&#x27; ח״א; &#x27;אמרי אלימלך&#x27; פרשת לך.</li><li id="note-3">מכתב רבי משה יעקב שארף מאושפיצין נדפס בראש ספרו &#x27;דרכי יושר&#x27; (כך בערך; ב־OCR &#x27;דרכי יושכי&#x27;).</li></ol></div>
+<div class="unknown"><h3 id="sec-5" data-i18n="unknown">מה שלא ידוע</h3><p>שם משפחתו של חתנו השני, רבי חיים יוסף, אינו קריא ב־OCR של כרך ג׳. בערך נאמר שהסבא שימש &#x27;מאה ועשרים בעלי רוח הקודש&#x27; — כך לשון הערך.</p></div>
+<div class="notes"><h3 id="sec-6" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, עמ׳ 1457 (קובץ OCR p0123–p0124) — ערכו של רבי ישכר דוב בער ברון מראדושיץ, הסבא הקדוש.</li><li id="note-2">תורתו: &#x27;הסבא הקדוש&#x27;, עמ׳ 222, 224, 228, 230, 233; &#x27;נפלאות הסבא קדישא&#x27; ח״א; &#x27;אמרי אלימלך&#x27; פרשת לך.</li><li id="note-3">מכתב רבי משה יעקב שארף מאושפיצין נדפס בראש ספרו &#x27;דרכי יושר&#x27; (כך בערך; ב־OCR &#x27;דרכי יושכי&#x27;).</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

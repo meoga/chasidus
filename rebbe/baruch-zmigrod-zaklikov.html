@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי ברוך הלברשטאם מז׳מיגרוד־זאקילקוב</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו</a></li><li><a href="#sec-3">מה שלא ידוע</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי ברוך הלברשטאם מז׳מיגרוד־זאקילקוב</h2>
 <p class="subtitle">בן רבי סיני מז׳מיגרוד; רב בזאקילקוב</p>
@@ -27,18 +33,20 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי סיני הלברשטאם מז׳מיגרוד (ערך 1689)</dd></div><div><dt>נישואיו</dt><dd>חתן רבי דוב בעריש ווידנפלד מטשעבין, ונודע כלמדן מופלג</dd></div><div><dt>רבנותו</dt><dd>בשנת תרצ״ד (1934) נבחר לרב בזאקילקוב, וחותנו המיועד, הרב מטשעבין, נסע אתו לטקס ההכתרה</dd></div><div><dt>פטירתו</dt><dd>נספה בשואה; גם הרבנית לאה ובנם נספו בשואה</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/zaklikov.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">זאקילקוב</span></a><a class="rel" href="../dynasty/sanz.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">שושלת סאנז</span></a><a class="rel" href="../rebbe/sini-zmigrod.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי סיני הלברשטאם מז׳מיגראד</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן רבי סיני הלברשטאם מז׳מיגרוד, נכד רבי ברוך מגורליץ, דור חמישי לרבי חיים מצאנז. חתן רבי דוב בעריש ווידנפלד מטשעבין, ונודע כלמדן מופלג. בשנת תרצ״ד נבחר לרב בזאקילקוב, וחותנו המיועד, הרב מטשעבין, נסע אתו לטקס ההכתרה. נספה בשואה; גם הרבנית לאה ובנם נספו בשואה.</p>
-<h3>מתורתו</h3>
+<h3 id="sec-2">מתורתו</h3>
 <p>בזמירות של שבת קודש, 'ויזכו לראות בנים ובני בנים עוסקים בתורה ובמצות', דקדק: לכאורה היה די שיאמר 'ויזכו לבנים', ותיבת 'לראות' היא לכאורה מיותרת. ואפשר שכוונת בעל הפיוט היא לפי מה דאיתא בש״ס, בבא מציעא (פה, א): אמר רבי יוחנן, כל שהוא תלמיד חכם ובנו תלמיד חכם ובן בנו תלמיד חכם, שוב אין תורה פוסקת מזרעו לעולם, שנאמר 'לא ימושו מפיך' וגו׳. וכתבו התוספות בבבא בתרא (נט, א) ד״ה 'והחיט' ובכתובות (סב, ב) דזה דוקא בשראו זה את זה. וזה שאמר 'ויזכו לראות בנים ובני בנים עוסקים בתורה' — ואז לא ימושו התורה מפיהם לעולם.</p>
 <blockquote>ואז לא ימושו התורה מפיהם לעולם.<span class="src">ספרו &#x27;הבאר&#x27;, כרך ראשון (אלפסי, כרך ג׳, ערך 1702)</span></blockquote>
 <p>ובתוספת 'הדלי' לחלק השלישי של 'הבאר' דן בענין תפילה יחף: בתוספות שבת ד״ה 'רמי פוזמקי' כתבו שמכאן יש להוכיח שאין להתפלל יחף אלא בתשעה באב; וקשה ממשנה במגילה (כז, ב), האומרת שאינו עובר לפני התיבה בטנדל, ואף יחף לא יעבור — הרי מבואר להדיא שדוקא מטעם שחוששים שמא מינות נזרקה בו הוא דאינו רשאי להתפלל יחף, הא לאו הכי מותר להתפלל יחף אף בכל השנה. והשיב על פי הרמב״ם בהלכות תפילה (פרק ה, הלכה ה), שלא יתפלל ברגלים מגולות אם דרך אנשי המקום שלא יעמדו בפני גדולים אלא בבתי הרגלים — שגם כוונת התוספות היא רק אותן מקומות שאין דרך לעמוד בפני גדולים ברגלים מגולות, אבל בשאר מקומות מותר להתפלל גם יחף; ואפילו הכי, אם אמר בסנדל אינו עובר, אף יחף לא יעבור, משום שחוששים לשמא מינות נזרקה בו.</p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שנות לידתו ופטירתו אינן נזכרות בערך, ולפיכך אין לערך אירוע בציר הזמן. כותרת העמוד ב־OCR נדפסה נכון: &#x27;- 1702 -&#x27; (p0319).</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1702, עמ׳ 1702 (קובץ OCR p0319–p0320) — תולדותיו ותורתו.</li><li id="note-2">תורתו: ספרו &#x27;הבאר&#x27;, כרך ראשון; &#x27;הדלי&#x27;, תוספת ל&#x27;הבאר&#x27; חלק שלישי.</li></ol></div>
+<div class="unknown"><h3 id="sec-3" data-i18n="unknown">מה שלא ידוע</h3><p>שנות לידתו ופטירתו אינן נזכרות בערך, ולפיכך אין לערך אירוע בציר הזמן. כותרת העמוד ב־OCR נדפסה נכון: &#x27;- 1702 -&#x27; (p0319).</p></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1702, עמ׳ 1702 (קובץ OCR p0319–p0320) — תולדותיו ותורתו.</li><li id="note-2">תורתו: ספרו &#x27;הבאר&#x27;, כרך ראשון; &#x27;הדלי&#x27;, תוספת ל&#x27;הבאר&#x27; חלק שלישי.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

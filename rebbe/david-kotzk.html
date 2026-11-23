@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי דוד מורגנשטרן מקוצק</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו</a></li><li><a href="#sec-3">תלמידיו</a></li><li><a href="#sec-4">מה שלא ידוע</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי דוד מורגנשטרן מקוצק</h2>
 <p class="subtitle">בן רבי מנחם מנדל מקוצק; האדמו״ר השני מקוצק</p>
@@ -27,20 +33,22 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי מנחם מנדל מקוצק (ערך 1652)</dd></div><div><dt>נישואיו</dt><dd>חתן רבי צבי הירש גרינוואלד־דישקס מטומשוב; אשתו חיה־טויבה</dd></div><div><dt>שמו</dt><dd>נקרא על שם סביו, רבי דוד הלפרין מאוסטרהא ורבי דוד סגל</dd></div><div><dt>רבותיו</dt><dd>קיבל בחסידות מרבי שמחה בונים מפשיסחא, ובעיקר מאביו</dd></div><div><dt>פרנסתו</dt><dd>התפרנס מחנות שנוהלה בידי אשתו, והוא עסק בתורה ובעבודה</dd></div><div><dt>הכתרתו</dt><dd>בשנת תרי״ט (1859), לאחר פטירת אביו, דבק בו חלק נכבד מהחסידים; הרוב הגדול הכתיר את רבי יצחק מאיר מגור, ובין החסידים פרצה מחלוקת קשה</dd></div><div><dt>בניו</dt><dd>בניו: רבי יעקב יהושע מקוצק; רבי חיים ישראל מפילוב; רבי צבי הירש מלומאז׳ה; רבי ברוך מרדכי, שמת בבחרותו</dd></div><div><dt>פטירתו</dt><dd>נסתלק בכ״ב בתמוז תרל״ג (1873)</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/kotzk.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">קוצק</span></a><a class="rel" href="../dynasty/kotzk.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">שושלת קוצק</span></a><a class="rel" href="../rebbe/menachem-mendel-kotzk.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי מנחם מנדל מורגנשטרן מקוצק</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן רבי מנחם מנדל מקוצק. קיבל בחסידות מרבי שמחה בונים מפשיסחא ובעיקר מאביו. ימי ילדותו עברו עליו בלחץ כלכלי וברעב. כשעבר אביו לקוצק, יצא לשם גם רבי דוד, ומאז לא זזה ידו מידי אביו. הוא התפרנס מחנות שנוהלה בידי אשתו והוא עסק בתורה ובעבודה. בשנת תרי״ט, לאחר שנפטר רבי מנדלי מקוצק, הכתיר הרוב הגדול של החסידים את רבי יצחק מאיר מגור לממלא מקומו; אולם חלק נכבד של החסידים דבק ברבי דוד. לפי המסופר, הסכים הרי״מ מגור למתן הנהגה גם לרבי דוד, אולם בין החסידים פרצה מחלוקת קשה. רבי דוד היה ממשיך אופייני של אביו. תורותיו היו קצרות וחריפות ביותר, יורדות לעומקה של נפש; ניהל חסידות של הבנה והכרה עמוקה. היה סופר ומליץ, אולם לא כתב את דבריו; רבים מתורותיו הובאו בספרים 'לקוטים חדשים' ו'נפלאות חדשות' של בן־גיסו רבי יחיאל משה מיאדימוב.</p>
-<h3>מתורתו</h3>
+<h3 id="sec-2">מתורתו</h3>
 <p>על הפסוק (תהלים קו, ז–יב) 'אבותינו במצרים לא השכילו נפלאותיך... ויאמינו בדבריו ישירו תהלתו' דרש: המופת מעורר התפעלות רק לשעה קלה, ולבסוף הוא נשכח; ואילו התורה הקדושה משרישה את האמונה בלב האדם לתמיד — 'לא השכילו נפלאותיך', שעל ידי המופתים לא הגיעו אבותינו במצרים להשכלת האמונה, ולעומת זאת 'ויאמינו בדבריו', שהודות לדברי ה׳, דהיינו התורה, 'ישירו תהלתו'. ועל (בראשית לב, ג) 'וישלח יעקב מלאכים לפניו' דרש, שהמלה 'לפניו' מיותרת לכאורה, אלא הכוונה שיעקב שילח אותם מלפניו, דהיינו ממנו, להודיעך שאין יעקב זקוק למלאכים, באמונתו העמוקה שהשם יכול לעזור לו גם בלי מלאכים.</p>
 <blockquote>וכל מעשיך יהיו לשם שמים (אבות ב, יב). היינו גם &#x27;לשם שמים&#x27; צריך להיות לשם שמים!<span class="src">&#x27;מקדש מעט&#x27; ע׳ ש״י (אלפסי, כרך ג׳, ערך 1653)</span></blockquote>
 <p>ועל (שמואל ב כב, כב) 'כי שמרתי דרכי ה׳ ולא רשעתי מאלוקי' דרש: אם שמר דרכי ה׳, הלא מובן מאליו שלא רשע מאלקיו; אלא כאשר שמרתי על יהדותי, לא אמרתי שעשיתי זאת בכחי ובהשגתי, אלא 'דרכי מאלוקי' — בעזרת אלקים הגעתי עד הלום; ו'לא רשעתי מאלוקי' — כאשר נהגתי שלא כשורה, לא טענתי כי 'רשעתי מאלוקי', והודיתי שאני אשם בעוון, ולא 'כך היה רצונו של הקב״ה'.</p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-3" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/chaim-yisrael-pilov.html">רבי חיים ישראל מורגנשטרן מפילוב</a><a class="chip" href="../rebbe/tzvi-hirsch-lomza.html">רבי צבי הירש מורגנשטרן מלומאז׳ה</a><a class="chip" href="../rebbe/yaakov-yehoshua-kotzk.html">רבי יעקב יהושע מורגנשטרן מקוצק</a><a class="chip" href="../rebbe/yaakov-yharsahe.html">רבי יעקבם יהרשע</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שם עירו של רבי דוד סגל, סבו השני שעל שמו נקרא, שובש ב־OCR (&#x27;מגוריי&#x27;) ולא פוענח. תאריך פטירתו: הערך נוקט כ״ב בתמוז תרל״ג (1873); ויקיפדיה האנגלית נוקטת בטעות 1893, והיא נסתרת מן הערך ומן העובדה שבנו רבי חיים ישראל הוכתר כבר בשנת תרל״ג.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1653, עמ׳ 1653–1654 (קובץ OCR p0269–p0270) — תולדותיו ותורתו.</li><li id="note-2">ויקיפדיה העברית, &#x27;חיים ישראל מורגנשטרן&#x27;: אביו רבי דוד נפטר בתמוז תרל״ג (1873).</li><li id="note-3">פארדס, הרב ד״ר לוי קופר, &#x27;Hasidic Lore: Kotzk&#x27;: רבי דוד מורגנשטרן (1809–1873) מילא את מקום אביו בקוצק.</li></ol></div>
+<div class="unknown"><h3 id="sec-4" data-i18n="unknown">מה שלא ידוע</h3><p>שם עירו של רבי דוד סגל, סבו השני שעל שמו נקרא, שובש ב־OCR (&#x27;מגוריי&#x27;) ולא פוענח. תאריך פטירתו: הערך נוקט כ״ב בתמוז תרל״ג (1873); ויקיפדיה האנגלית נוקטת בטעות 1893, והיא נסתרת מן הערך ומן העובדה שבנו רבי חיים ישראל הוכתר כבר בשנת תרל״ג.</p></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1653, עמ׳ 1653–1654 (קובץ OCR p0269–p0270) — תולדותיו ותורתו.</li><li id="note-2">ויקיפדיה העברית, &#x27;חיים ישראל מורגנשטרן&#x27;: אביו רבי דוד נפטר בתמוז תרל״ג (1873).</li><li id="note-3">פארדס, הרב ד״ר לוי קופר, &#x27;Hasidic Lore: Kotzk&#x27;: רבי דוד מורגנשטרן (1809–1873) מילא את מקום אביו בקוצק.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

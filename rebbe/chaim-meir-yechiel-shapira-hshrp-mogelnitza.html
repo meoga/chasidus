@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי חיים מאיר יחיאל שפירא השרף ממוגלניצא</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מה שלא ידוע</a></li><li><a href="#sec-3">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי חיים מאיר יחיאל שפירא השרף ממוגלניצא</h2>
 <p class="subtitle"></p>
@@ -27,15 +33,17 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>יחס</dt><dd>בתו של המגיד מקוזניץ ותלמידו</dd></div><div><dt>דור</dt><dd>דור שלישי</dd></div><div><dt>תאריכים</dt><dd>תקמ״ט — ט״ו באייר תר״ט</dd></div><div><dt>חתן</dt><dd>עזרא זליג שפירא אבד גרעניץ. רבי אלעזר בן רבי ,</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/mogelnitza.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">מוגלניצא</span></a><a class="rel" href="../dynasty/kozhnitz.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">קוז׳ניץ</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>רבי חיים מאיר יחיאל שפירא ה"שרף" ממוגלניצא בן בתו של המגיד מקוז'ניץ ותלמידו (583) דור שלישי למגיד מקוזזניץ תקמ"ט - ט"ו באייר תר"ט > תולדותיו: בשנת תקפ"ה נתמנה לאדמו"ר. הוא התיישב במוגלניצא וקהל נכבד של חסידים קיבל את מרותו. לאחר פטירת דודו, בן פערל - בתו המפורסמת של המגיד מקוז'ניץ ורבי אבי , הצדיק מקוזניץ, קיבלו רוב חסידיו את מרותו. נתפרסם עזרא זליג שפירא אב"ד גרעניץ. חתן רבי אלעזר בן רבי , , בעיקר בקדושתו הרבה, עד שנתכנה בפי הציבור בשם "השרף אלימלך מליז'נסק. ממוגלניצא". עוד בהולדו אמר רבי לוי יצחק מברדיטשוב שהוא יאיר / ל / את העולם ועל כן הורה לקרוא לו מאיר. חונך בילדותו בבית גם כאדמו ד הרבה בקר ב אדמו רים. במיוחד - ץ סבו - רבי ישראל מקוז'ניץ והתרועע עם רבי יצחק מאו- | את רבי ישכר דב ה"סבא…<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>מרדומסק, ר' ישכר דב מוולבראזש, רבי לייבוש פסח מליפסק, | געים זמירות ישראל "אשא עיני אל ההרים" (תהלים קכא, א) רבי הלל מראדושיץ, רבי גבריאל "מלאך" מווארשה ואחרים. כאשר אני מסתכל אל הצדיקים הגדולים, תמה אני "מאין בין אלה שהספידוהו היה רבי משה מללוב, רבי יוסף יבוא עזרי" - כי מה אני ומי אני לעומתם. אבל "עזרי מעם ה' עושה שמים וארץ" כלומר, בשעת בריאת העולם עלה מדומברובה, רבי נתן דוד משידלובצה. ברצונו של הבורא שיהיו שני מיני צדיקים: צדיקים גדולים בניו: רבי יעקב יצחק מבלנדוב; רבי אלימלך מגרודז'יסק; | אשר ראשם מגי השמימה וצדיקים אשר בארץ, בעלי רבי אבי עזרא זליג ממוגלניצא; רבי משה יוסף מגרויצא; רבי | מדרגות נמוכות ומכולם יקבל השי"ת תענוג ונחת רוח ואני אברהם יהושע השיל ממוגלניצא. חתניו היו: רבי יהודה |…<sup class='fn'><a href="#note-1">1</a></sup></p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>מיקומה של מוגלניצא לא אומת. שם אביו לא נמסר בערך.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך 586 (עמ׳ 80).</li><li id="note-2">הערך ארוך ודו־טורי ב־OCR; הקטעים כאן מובאים כלשונם מהמקור, וייתכן שהסדר משובש.</li></ol></div>
+<div class="unknown"><h3 id="sec-2" data-i18n="unknown">מה שלא ידוע</h3><p>מיקומה של מוגלניצא לא אומת. שם אביו לא נמסר בערך.</p></div>
+<div class="notes"><h3 id="sec-3" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך 586 (עמ׳ 80).</li><li id="note-2">הערך ארוך ודו־טורי ב־OCR; הקטעים כאן מובאים כלשונם מהמקור, וייתכן שהסדר משובש.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

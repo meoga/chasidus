@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי חיים ירחמיאל שלום טאוב מזוואלין</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו</a></li><li><a href="#sec-3">מה שלא ידוע</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי חיים ירחמיאל שלום טאוב מזוואלין</h2>
 <p class="subtitle">בן רבי משה אהרן מזוואלין; מלחין ומנגן</p>
@@ -27,20 +33,22 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי משה אהרן טאוב מזוואלין (ערך 1602), בן רבי שמואל אליהו (ערך 1597)</dd></div><div><dt>חותנו</dt><dd>רבי פנחס מקינצק</dd></div><div><dt>רבו</dt><dd>רבי יואב יהושע וינגרטן, הרב מקינצק, בעל ׳חלקת יואב׳</dd></div><div><dt>אדמו״רות</dt><dd>הוכתר לאדמו״ר בחיי אביו; ישב בזיכלין, ואחר כך במלאווה, ומשנת תרע״ד בוורשה</dd></div><div><dt>אשתו ובניו</dt><dd>אשתו הרבנית חיה־אלטה; בניו רבי שמואל יצחק ורבי פנחס אליהו; חתניו רבי בן ציון סוקולבר ורבי אלימלך ליפשיץ</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/zvolin.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">זוואלין</span></a><a class="rel" href="../dynasty/zvolin.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">שושלת זוואלין</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן רבי משה אהרן מזוואלין, בן רבי שמואל אליהו מזוואלין. חתן רבי פנחס מקינצק. הוכתר לאדמו״ר בחיי אביו. תחילה ישב בזיכלין, וממנה עבר למלאווה, ולאחר פטירת אביו עבר לוורשה, בה היה הריכוז הגדול של חסידי זוואלין. בכל המקומות נקרא על שם עירו של אביו — זוואלין.</p>
 <p>כאביו היה מנגן בעל יכולת רבה ומלחין רב ערך. חיבר גם ניגונים ארוכים שהגיעו לעשרים בבות, והיה בהם כוח עז ודמיון רב. היה גדול בתורה, ותלמיד מובהק לרבי יואב יהושע וינגרטן, הרב מקינצק, בעל 'חלקת יואב'. בעמדו לפני התיבה ונפשו השתפכה בתפילה ובזמרה, שכח את עצמו כליל. בהיכנס הנאצים לפולין היה בגיטו וורשה, ועבד בבית מלאכה לכובעים יחד עם רבי קלונימוס קלמיש מפייסצ׳נה, עד שנשלח לטרבלינקה. אשתו הרבנית חיה־אלטה, בניו וחתניו ושאר בני משפחתו נספו כולם בשואה.</p>
 <p>כשעזב אביו את זוואלין לאחר השריפה הגדולה ששרפה את ביתו, נתאספו כל תושבי העיר לבקשו שלא יעזוב; הסיר רבי משה אהרן את כובעו מעל ראשו ונתנו על ראש בנו ואמר: הריני משאיר אצלכם את בני, אשר ידו כידי, ולבו כלבי.</p>
-<h3>מתורתו</h3>
+<h3 id="sec-2">מתורתו</h3>
 <p>ב׳שולחן׳ של ראש השנה ת״ש דרש על 'ידיד נפש':</p>
 <blockquote>ב׳ידיד נפש׳ אנו אומרים ׳וחוסה נא על בן אהובך׳, ואחר כך מוסיפים ׳וחוסה נא ואל תתעלם׳. למה כפל הלשון? כי חז״ל אומרים על הפסוק ׳לא תוכל להתעלם׳ — פעמים שאתה מתעלם, כגון זקן ואינו לפי כבודו. ולפיכך אנו אומרים ׳וחוסה נא על בן אהובך׳ — וכלום יש אב שאין זה מכבודו לטפל בבניו — ועל כן אנו מבקשים ׳ואל תתעלם׳.<span class="src">מתוך ׳אלה אזכרה׳, חלק ג׳, עמ׳ 254 (כמובא אצל אלפסי)</span></blockquote>
 <p>בי״ז באלול ת״ש אמר דברים נוראים על הגזירה התלויה ועומדת מעל ראש ישראל זה למעלה משנה, שנדחתה מיום ליום ומחודש לחודש תודות לתפילותיהם של הצדיקים; ובראש השנה תרצ״ט אמר בבכייה למקורביו, כי יצאנו מכלל כרת, ועלינו להתעורר ולהתפלל שנזכה לחיים.</p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>אלפסי נותן את מעברו לוורשה לאחר פטירת אביו בשנת תרע״ד (1914), ואילו ויקיפדיה העברית ואחרים נותנים את פטירת אביו רבי משה אהרן בד׳ בניסן תרע״ח (1918); הובאה כאן גרסת אלפסי. שמו נדפס בערך &#x27;חיים ירחמיאל שלום&#x27;; במקורות אחרים הוא נקרא &#x27;חיים ירחמיאל&#x27; בלבד.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1607, עמ׳ 1607 (קובץ OCR p0230–p0231) — פרק ׳רבי חיים ירחמיאל שלום מזוואלין׳: תולדותיו, דברי שבח עליו וטיחותיו.</li><li id="note-2">הקטעים על נגינתו מתוך המאמר ׳קול רינה וישועה באהלי צדיקים׳, בספר ׳נגינה וחסידות בבית קוזמיר ובנותיה׳, עמ׳ 43–47 (כמובא שם); דבריו בראש השנה תרצ״ט ובי״ז באלול ת״ש מתוך ׳אלה אזכרה׳, חלק ג׳, עמ׳ 252 ו־254 (כמובא שם).</li><li id="note-3">פטירת אביו רבי משה אהרן בד׳ בניסן תרע״ח: ויקיפדיה העברית, ׳חסידות קוזמיר׳.</li></ol></div>
+<div class="unknown"><h3 id="sec-3" data-i18n="unknown">מה שלא ידוע</h3><p>אלפסי נותן את מעברו לוורשה לאחר פטירת אביו בשנת תרע״ד (1914), ואילו ויקיפדיה העברית ואחרים נותנים את פטירת אביו רבי משה אהרן בד׳ בניסן תרע״ח (1918); הובאה כאן גרסת אלפסי. שמו נדפס בערך &#x27;חיים ירחמיאל שלום&#x27;; במקורות אחרים הוא נקרא &#x27;חיים ירחמיאל&#x27; בלבד.</p></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1607, עמ׳ 1607 (קובץ OCR p0230–p0231) — פרק ׳רבי חיים ירחמיאל שלום מזוואלין׳: תולדותיו, דברי שבח עליו וטיחותיו.</li><li id="note-2">הקטעים על נגינתו מתוך המאמר ׳קול רינה וישועה באהלי צדיקים׳, בספר ׳נגינה וחסידות בבית קוזמיר ובנותיה׳, עמ׳ 43–47 (כמובא שם); דבריו בראש השנה תרצ״ט ובי״ז באלול ת״ש מתוך ׳אלה אזכרה׳, חלק ג׳, עמ׳ 252 ו־254 (כמובא שם).</li><li id="note-3">פטירת אביו רבי משה אהרן בד׳ בניסן תרע״ח: ויקיפדיה העברית, ׳חסידות קוזמיר׳.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

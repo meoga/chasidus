@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי חיים האגער מקוסוב</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי חיים האגער מקוסוב</h2>
 <p class="subtitle">בנו של משה וקוסוב · מחבר  חורבן בית המקדש, הנה לפניכם אמרות טהורות מי</p>
@@ -28,14 +34,16 @@
 <dl class="facts"><div><dt>אביו</dt><dd>משה וקוסוב</dd></div><div><dt>דור</dt><dd>דור חמישי</dd></div><div><dt>תאריכים</dt><dd>— א׳ חשון תש״ג</dd></div><div><dt>חתן</dt><dd>רבי משולם פייבש וואהרמן מיאסי. התחנך בבית סבו (שם ע 156</dd></div><div><dt>ספרו</dt><dd> חורבן בית המקדש, הנה לפניכם אמרות טהורות מי</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b>  חורבן בית המקדש, הנה לפניכם אמרות טהורות מי</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/kosov-lacki.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">קוסוב (הפולנית)</span></a><a class="rel" href="../dynasty/kosov.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">קוסוב</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>רבי חיים האגער מקוסוב בן רבי משה וקוסוב (667) דור חמישי לרבי מנחם מנדל מקוסוב (659) נספה בשואה ביום א' דר"ח חשון תש"ג + תולדותיו: ומה אגיד לך ממש לא האמנתי שבן יחיד יהיה מלא וגדוש בתורה". חתן רבי משולם פייבש וואהרמן מיאסי. התחנך בבית סבו (שם ע 156 - רבי אברהם מנחם שטיליינרג, רבה של ברודי שאף הסמיכו, בשנת תר"ף, להוראה. נסמך גם על ידי רבי פייבל וויליג. היה יפה תואר. משכמו גבוה מכל העם. קירב את כל | * הקדמה: האדם בסבר פנים יפות. ניגן בעצמו בכינור והיה יודע נגן. יתברך הבורא וישתבח חיוצר, אשר שם דמות לאדס נברא היה גם עסקן ציבור חשוב. בצלמו, הוא ית"ש חנן את עבדו לקיים מילי דאבות ולהוציא בשנת תרצ"ה ביקר בארץ ישראל וחזר נלהב ממראה עיניו. לאור עולם אור הגנוז להנות בו בני אדם, להורות 3 הדרך היה בדעתו…<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>דבוק לכ"ק אאמו"ר זצללה"ה כתלמיד לרבו יש לו רגש | בכתובים ויזכנו מרן די בשמיא שאוכל להוציאם לאור עולם הבנה ברמזי דחוכמתא של אמרותיו הק', וע"פ רוב הוא | במהרה לזכות בהם את הרבים וזכות תורתו הקדושה יגן מכון את כונת קדשו זצללה"ה. גם טרח בסידורם של עלעו שנזכרה לישועה שלימה ובא לציון גואל במהרה הספרים הקדושים של כ"ק אאמו"ר "לקט עני" ו"אזור | בימינו. האמונה" שכבר יצאו לאור בלי שום קבלת פרס ח"ו. ישלם ד' פעלו ותהי משכורתו שלמה והשוכן שמים יעזור לו ידידם הדוש"ת וחה"צ המעתיר בעד הרמת קרן התורה להגות בתורת ד' תמימה, בהרחבת הדעת והזמן ולסדר עוד | וישראל. את שאר כתבי הקדש של כ"ק אאמו"ר זצללה"ה אשר עודם (מתוך ההקדמה לספר הצוואה, קולמיאה חש"ד)<sup class='fn'><a href="#note-1">1</a></sup></p>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, עמ׳ 171; מספר הערך (671) משוער לפי סדר הכותרות ואינו ודאי.</li><li id="note-2">בערך: בן רבי משה וקוסוב (667).</li><li id="note-3">הערך ארוך ודו־טורי ב־OCR; הקטעים כאן מובאים כלשונם מהמקור, וייתכן שהסדר משובש.</li></ol></div>
+<div class="notes"><h3 id="sec-2" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, עמ׳ 171; מספר הערך (671) משוער לפי סדר הכותרות ואינו ודאי.</li><li id="note-2">בערך: בן רבי משה וקוסוב (667).</li><li id="note-3">הערך ארוך ודו־טורי ב־OCR; הקטעים כאן מובאים כלשונם מהמקור, וייתכן שהסדר משובש.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

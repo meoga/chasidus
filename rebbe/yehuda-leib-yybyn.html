@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי יהודה לייב ייבין</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">תורתןו</a></li><li><a href="#sec-3">מה שלא ידוע</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי יהודה לייב ייבין</h2>
 <p class="subtitle">בן רכי יעקב יוסף מאוסטרחא (358)</p>
@@ -27,17 +33,19 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רכי יעקב יוסף מאוסטרחא</dd></div><div><dt>עיר</dt><dd>בארדיטשוב</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/berditchev.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">ברדיטשוב</span></a><a class="rel" href="../dynasty/ostroha.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">אוסטרהא</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>תלמיד חכם ועשיר מופלג. גר בבארדיטשוב, וכינה שם משפחתו "ייבין" על שם ספרו של אביו. רבי משה מאורזישטשב בן רבי יעקב יוסף מאוסטרהא (361) נפטר י"ט באלול<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>שמקיימים את העולם שנברא בעשרה מאמרות, היינו למרות שנברא בעשרה צמצומים, וזה מגדיל שכרם. והכל לטובת חתן רבי אברהס מסאדילקוב בן רבי בנימין זאב מבאלטא. ישראל, כי חפץ חסד הוא. נתייתם בילדותו וגודל בבית רבי אריה ליב משפולה. (*אמרי אמת" פי חקת) בנו: רבי יעקב יוסף מאורזישטשב, מחבר 'אמרי אמת' . . "טוב טעם ודעת למדני כי במצוותיך האמנתי" - תהלים<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>תורתןו</h3>
+<h3 id="sec-2">תורתןו</h3>
 <p>בעשרה מאמרות - -- וכו" להפרע - - ראשית יש לעבוד את ה' באמונה פשוטה וללא השגות. וכו - פ"ה מ"א). ו ד הלא דרך - / ואיך רק בזכות האמונה התמימה אפשר להגיע להשגות גבוהות 3-ו 1 4 6 מאמרות להגד - וזה שאמר דוד: "טוב טעם ודעת למדני" - למה "כי הרשעים. אלא הכי פירושו: בעשרה מאמרות נברא העולם במצוותיך האמנתי" היינו בעשרה צמצומים, צמצום בתר צמצום, עד שנברא עוה"ז הגשמי. וזה ששאל התנא והלא במאמר אחד יכול (שם, לשבועות) להברות, ולא היתה כל כך הסתרה, אלא להפרע מן הרשעים שמאבדין את העולם שבנרא בעשרה מאמרות הלנו כדי שבת הגדול הוא בבחעת יום הכפורים, שנקרא למעט עונשם, שאין חידוש כ"כ אם נכשל בעבירה בעוהיץ | שבת-שבתון, פעמים שבת. הגשמי שנברא בעשרה צמצומים. וליתן שכר טוב לצדיקים (שם, פ' מצורע ושבת הגדול)<sup class='fn'><a href="#note-1">1</a></sup></p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>לא נמסרו תאריכים; שם הערך שוחזר מקריאה משובשת ב־OCR; המזהה מכיל תעתיק אוטומטי (לא מאומת) של: ייבין; הערך ארוך וה־OCR מערבב טורים — הסדר המקורי עלול להיות משובש; בגוף הערך מופיעה כותרת נוספת (&#x27;רבי ...&#x27;) — ייתכן שמדובר בערך נוסף שדורש פיצול; לא נוצר עבורו ערך נפרד בקובץ זה</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3646 (עמ׳ 361).</li><li id="note-2">שם הערך כפי שנקרא ב־OCR: &#x27;רבי יהודה ליים ייבין&#x27; — תוקן לפי כללי ה־OCR והקשר הערך.</li><li id="note-3">פרק הכרך: השלמות 6 שושלת קרלין -- אוסטרהא.</li></ol></div>
+<div class="unknown"><h3 id="sec-3" data-i18n="unknown">מה שלא ידוע</h3><p>לא נמסרו תאריכים; שם הערך שוחזר מקריאה משובשת ב־OCR; המזהה מכיל תעתיק אוטומטי (לא מאומת) של: ייבין; הערך ארוך וה־OCR מערבב טורים — הסדר המקורי עלול להיות משובש; בגוף הערך מופיעה כותרת נוספת (&#x27;רבי ...&#x27;) — ייתכן שמדובר בערך נוסף שדורש פיצול; לא נוצר עבורו ערך נפרד בקובץ זה</p></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3646 (עמ׳ 361).</li><li id="note-2">שם הערך כפי שנקרא ב־OCR: &#x27;רבי יהודה ליים ייבין&#x27; — תוקן לפי כללי ה־OCR והקשר הערך.</li><li id="note-3">פרק הכרך: השלמות 6 שושלת קרלין -- אוסטרהא.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

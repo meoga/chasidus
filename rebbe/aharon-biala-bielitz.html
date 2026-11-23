@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי אהרן הלברשטאם מביאלה־ביליץ</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו</a></li><li><a href="#sec-3">תלמידיו</a></li><li><a href="#sec-4">מה שלא ידוע</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי אהרן הלברשטאם מביאלה־ביליץ</h2>
 <p class="subtitle">בן רבי יוסף זאב מקשאנוב; אב״ד ביאלה־ביליץ</p>
@@ -28,20 +34,22 @@
 <dl class="facts"><div><dt>אביו</dt><dd>רבי יוסף זאב הלברשטאם מקשאנוב, בן רבי דוד מקשאנוב (ערך 1673) — לאביו אין ערך משלו בכרך</dd></div><div><dt>לידתו</dt><dd>נולד בקשאנוב</dd></div><div><dt>נישואיו</dt><dd>חתן רבי אלטר מאיר דוד הלוי רוטנברג מוולבראם; בזיווג שני חתן רבי יהושע יצחק קליגר, אב״ד גריידינג</dd></div><div><dt>רבנותו</dt><dd>כיהן כרב בביאלה הסמוכה לביליץ משנת תרמ״ט (1889); לא נהג רשמית כאדמו״ר; הקים ישיבה בעיר ובעצמו השמיע בה שיעורי תורה</dd></div><div><dt>גדלותו</dt><dd>סיים י״ח פעמים את הש״ס; נחשב כאחד מגדולי בעלי ההוראה</dd></div><div><dt>ספריו</dt><dd>מגד ארץ — קיצור ותמצית החידושים שבספר &#x27;פרי מגדים&#x27; (מונקאטש תרס״ז); פרי נאה — קיצור ותמצית הדינים שבפרי מגדים (בילגוריי תרצ״ט); מוצל מהאש — שרידי כתביו בענינים שונים (ניו יורק תשט״ו)</dd></div><div><dt>בנו</dt><dd>רבי מנחם בן ציון הלברשטאם מביאלה</dd></div><div><dt>פטירתו</dt><dd>נספה בטארנא בכ״ו בסיון תש״ב (11 ביוני 1942)</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> מגד ארץ (מונקאטש תרס״ז); פרי נאה (בילגוריי תרצ״ט); מוצל מהאש (ניו יורק תשט״ו)</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/biala-bielitz.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">ביאלה־ביליץ</span></a><a class="rel" href="../dynasty/sanz.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">שושלת סאנז</span></a><a class="rel" href="../rebbe/david-chshanow.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי דוד הלברשטאם מקשאנוב</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן רבי יוסף זאב הלברשטאם מקשאנוב, נכד רבי דוד מקשאנוב, דור רביעי לרבי חיים מצאנז. נולד בקשאנוב. חתן רבי אלטר מאיר דוד הלוי רוטנברג מוולבראם; בזיווג שני חתן רבי יהושע יצחק קליגר, אב״ד גריידינג. כיהן כרב בביאלה הסמוכה לביליץ משנת תרמ״ט. סיים י״ח פעמים את הש״ס, ונחשב כאחד מגדולי בעלי ההוראה. הקים ישיבה בעיר ובעצמו השמיע בה שיעורי תורה. לא נהג רשמית כאדמו״ר.</p>
-<h3>מתורתו</h3>
+<h3 id="sec-2">מתורתו</h3>
 <p>על החוקים בלי טעם, כגון לבישת שעטנז לכהן גדול והזאת אפר פרה אדומה ושילוח השעיר, דרש: עיקר גזירת השי״ת בציווי החוקים בלי טעם היא כדי לזכור שורש האמונה הקדושה, שהיא למעלה מהדעת ובבחינת 'פתי יאמין לכל דבר' — כי באמת השי״ת כל יכול, ואם כן היה ביכולתו לקבוע בדעת ישראל טעם על פרה אדומה ושעטנז ושעיר המשתלח ודומיהם; ולמה הסתיר מאתנו והגביה זאת למעלה מההשגה? אלא לפי שזה עיקר כח האמונה.</p>
 <blockquote>לזכור שורש האמונה הקדושה שהיא למעלה מהדעת ובבחינת פתי יאמין לכל דבר.<span class="src">קונטרס למועד מועדים בתוך &#x27;מוצל מהאש&#x27;, ניו יורק תשט״ו, ע׳ קט״ז (אלפסי, כרך ג׳, ערך 1695)</span></blockquote>
 <p>על 'ויעש אברהם משתה גדול ביום הגמל' (בראשית כא, ח) דרש: סופי תיבות של 'ויעש אברהם משתה גדול' הוא 'שלמה' — רמז הוא שלאחר שראה אברהם שהשי״ת פקדו בבנים עם יצחק ומתחילים ממנו דורות של מעמידי עולם, הוא צפה שיצא שלמה מצאצאיו, שהוא המתקן הגמור, שבימיו היתה הלבנה בשלמותה, ועל כן עשה 'משתה גדול'. ועל תקנותיו של שלמה, עירובין ונטילת ידים, דרש: בשעה שתיקן שלמה עירובין ונטילת ידים יצאה בת קול 'בני אם חכם לבך ישמח לבי גם אני' (משלי כג, טו). מדוע שמח הקב״ה דווקא בתקנת עירובין ונטילת ידים, והלא תקנות הרבה תיקן שלמה המלך? אלא שתי מצוות שונות באופין זו מזו: מצות עירובין אין בה שום הגיון, ורבים אשר לא הבינוה — כיצד על ידי חלת לחם מותר להוציא ולהביא; מאידך, נטילת ידים היא מצוה שכל אחד מבין אותה והיא מהודרת ומובנת גם על ידי חכמי אומות העולם. על כן שלמה המלך בחכמתו תיקן דווקא שתי מצוות אלה יחד, והראה שאין הבדל בין מצוה המובנת על ידי אומות העולם ובין מצוה המתקבלת על ידם בלעג — ועל כן מסיים הפסוק 'ואשיבה חורפי דבר', כי על ידי כך אפשר להראות למחרפים שמצוות התורה אינם שכליות דווקא. ועל 'והוא יושב פתח האהל' (בראשית יח, א) דרש: בכל מקום ומקום שיש בית הכנסת או בית המדרש של ישראל, יש שם במקום קטן זה ממש כח של קדושת ארץ ישראל ממש, ועל כן ניחא מה שכתבו הקדמונים דגושן היתה מארץ ישראל. ועל 'ויקח העבד עשרה גמלים' (בראשית כד, י) רמז בזה כי אברהם ויצחק תקנו תפילות שחרית ומנחה, שהם נגד התמידים, ובכל השנה יש תש״ל תמידים — ועל כן לקח עשרה גמלים, כי עשר פעמים 'גמל' עולה במכוון תש״ל, כמספר התמידין בכל שנה, כן מספר התפילות שהם תקנו.</p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-3" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/menachem-ben-zion-waidslav.html">רבי מנחם בן ציון הלברשטאם־רוטנברג מוואידסלב</a><a class="chip" href="../rebbe/menachem-ben-tzion-halberstam-rotenberg-mavaydaslab.html">רבי מנהם בן ציון הלברשטאם - רוטנברג מואידסלב</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>הצלב בראש הערך, &#x27;בן רבי דוד מקשאנוב (1678)&#x27;, הוא שיבוש של (1673) — רבי דוד מקשאנוב הוא ערך 1673; (1678) הוא רבי משה משיניווא. כותרת העמוד ב־OCR נדפסה נכון: &#x27;- 1695 -&#x27; (p0311). בנו רבי מנחם בן ציון הוא הבן היחיד הנזכר בערך; ילדים נוספים הנזכרים במקורות אחרים לא הובאו כאן.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1695, עמ׳ 1695 (קובץ OCR p0311–p0312) — תולדותיו ותורתו.</li><li id="note-2">תאריכים: ויקיפדיה היידית, &#x27;אהרן האלבערשטאם (ביאלא)&#x27; — תרכ״ה – כ״ו סיון תש״ב; רב בביאלא משנת תרמ״ט. מאורי גליציה (וונדר) — 1865–1942. Virtual Shtetl — נולד 1865 בקשאנוב, נפטר 11 ביוני 1942 בטארנא.</li><li id="note-3">תורתו: &#x27;מוצל מהאש&#x27;, ניו יורק תשט״ו, ע׳ קט״ז, קי״ח, קכ״ט, מ׳, נ״ב; &#x27;מגד ארץ&#x27;, מונקאטש תרס״ז.</li></ol></div>
+<div class="unknown"><h3 id="sec-4" data-i18n="unknown">מה שלא ידוע</h3><p>הצלב בראש הערך, &#x27;בן רבי דוד מקשאנוב (1678)&#x27;, הוא שיבוש של (1673) — רבי דוד מקשאנוב הוא ערך 1673; (1678) הוא רבי משה משיניווא. כותרת העמוד ב־OCR נדפסה נכון: &#x27;- 1695 -&#x27; (p0311). בנו רבי מנחם בן ציון הוא הבן היחיד הנזכר בערך; ילדים נוספים הנזכרים במקורות אחרים לא הובאו כאן.</p></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1695, עמ׳ 1695 (קובץ OCR p0311–p0312) — תולדותיו ותורתו.</li><li id="note-2">תאריכים: ויקיפדיה היידית, &#x27;אהרן האלבערשטאם (ביאלא)&#x27; — תרכ״ה – כ״ו סיון תש״ב; רב בביאלא משנת תרמ״ט. מאורי גליציה (וונדר) — 1865–1942. Virtual Shtetl — נולד 1865 בקשאנוב, נפטר 11 ביוני 1942 בטארנא.</li><li id="note-3">תורתו: &#x27;מוצל מהאש&#x27;, ניו יורק תשט״ו, ע׳ קט״ז, קי״ח, קכ״ט, מ׳, נ״ב; &#x27;מגד ארץ&#x27;, מונקאטש תרס״ז.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

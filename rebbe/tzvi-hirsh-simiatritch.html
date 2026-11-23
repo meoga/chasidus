@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי צבי הירש מסימאטריטש</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו</a></li><li><a href="#sec-3">מסיפורים שבספרו</a></li><li><a href="#sec-4">מה שלא ידוע</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי צבי הירש מסימאטריטש</h2>
 <p class="subtitle">תלמידם של רבי אברהם מקאליסק, רבי שמואל שמלקי מניקלשבורג, רבי משה חיים אפרים מסאדילקוב ורבי חיים מקראסנה; בעל ׳כתם פז׳; כיהן כאדמו״ר בנאדבורנה</p>
@@ -28,24 +34,26 @@
 <dl class="facts"><div><dt>רבותיו</dt><dd>רבי אברהם מקאליסק, רבי שמואל שמלקי מניקלשבורג, רבי משה חיים אפרים מסאדילקוב ורבי חיים מקראסנה</dd></div><div><dt>כאדמו״ר</dt><dd>כיהן כאדמו״ר בעיר מגוריו נאדבורנה; משם עבר לסימאטריטש ומשם לטבריה</dd></div><div><dt>בטבריה</dt><dd>קיבל את מרותו של רבי אברהם מקאליסק, למרות שגם שם ׳גדול שמו ומהולל מאד ממעשיו ונפלאותיו׳</dd></div><div><dt>על תפילתו</dt><dd>העידו עליו: ׳המניחו בזוית זו מצאו בזוית אחרת, וכל השומע תפילתו בלבו יבין ושב מחטאתו׳</dd></div><div><dt>בצעירותו</dt><dd>כבן עשרים שנה היה בבית רבו רבי שמואל שמלקי, בק״ק שינאווי (כך בדפוס)</dd></div><div><dt>ספרו</dt><dd>׳כתם פז׳ — פירוש על פ״ז תיבות של תפילת ׳ברוך שאמר׳, מיוסד על פירוש ששמע בשם הבעש״ט</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> כתם פז — פירוש על פ״ז תיבות של ׳ברוך שאמר׳</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/tiberias.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">טבריה</span></a><a class="rel" href="../dynasty/vitebsk.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">ויטבסק — עליית תקל״ז</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>תלמידם של רבי אברהם מקאליסק, רבי שמואל שמלקי מניקלשבורג, רבי משה חיים אפרים מסאדילקוב ורבי חיים מקראסנה. כבן עשרים שנה היה בבית רבו רבי שמואל שמלקי. הספיק לכהן כאדמו״ר בעיר מגוריו נאדבורנה, ומשם עבר לסימאטריטש ומשם לטבריה, שבה קיבל את מרותו של רבי אברהם מקאליסק — למרות שגם שם היה גדול שמו ומהולל מאד ממעשיו ונפלאותיו. בשנת תקס״ו (1806) עוד היה בין החיים.</p>
 <p>על תפילתו העידו: ׳המניחו בזוית זו מצאו בזוית אחרת, וכל השומע תפילתו בלבו יבין ושב מחטאתו׳.</p>
-<h3>מתורתו</h3>
+<h3 id="sec-2">מתורתו</h3>
 <p>ספרו ׳כתם פז׳ הוא פירוש על פ״ז תיבות של תפילת ׳ברוך שאמר׳. בשער הספר הוא כותב כי שמע פירוש בשם אור ישראל, הבעש״ט, ומיוסד על אדני פ״ז תיבות אלו חיבר את ספרו. בהקדמתו הוא מספר כי מימי חורפו גדל בין החכמים, וראה איך אומרים ׳ברוך שאמר והיה העולם׳ בנועם ובניגון, וכי למעלה מתחיל המלאך וכתות מלאכים עונים אחריו — ולכן אזעיר את עצמו לגלות את פירוש הפ״ז מילים, לעורר רחמים וחסדים לעם הקדוש.</p>
 <p>עוד שמע מפי רבו רבי אברהם מקאליסק פירוש על ׳אשר אנכי מצוך היום׳ (דברים ו׳, ו׳): דרשו חז״ל ׳בכל יום ויום יהיו בעיניך כחדשים׳ — רצונו לומר, בכל יום ויום יהיו בעיניך כאילו אתה עומד במעמד הר סיני ופסקה זוהמתך, ומקבל שני כתבים שהם חירות מלך המלכים וחירות משעבוד מלכויות.</p>
 <p>וכך נהג לפני תקיעת שופר: לא אמר שום מוסר והתעוררות, רק היה אומר בלשון אשכנז ׳איהר און איך און גאט׳ (אתם, אני ואלקים), וכך היה אומר כמה פעמים, ואחר כך אמר להתוקע שיתקע.</p>
 <blockquote>קודם התקיעות שופר לא שום מוסר והתעוררות, רק היה איש אלקים קדוש אומר בלשון אשכנז ׳איהר און איך און גאט׳ (אתם, אני ואלקים), וכך היה אומר כמה פעמים, ואחר כך אמר להתוקע שיתקע.<span class="src">מספרו ׳כתם פז׳ (אלפסי, כרך ג׳, ערך 1786 בפרק העולים)</span></blockquote>
-<h3>מסיפורים שבספרו</h3>
+<h3 id="sec-3">מסיפורים שבספרו</h3>
 <p>בהקדמתו לספרו הוא מספר מעשה שאירע לו בעיר הקודש צפת, בעת הבהלות: תפס אותו ישמעאל בזקנו והכה אותו על לחיו, ודרס ורמס אותו ברגליו, והעביר חרב על צווארו ודקר אותו בדקר. וזהו, לדבריו, שאנו אומרים ׳ברוך מרחם על הבריות׳ — שיחול מידת הרחמים על כל ישראל, ולא יהיה לשום בר ישראל רעש ופחד ובהלה.</p>
 <p>וכך הורו לו מן השמים בחלום: מיכאל, כהנא־רבא־קדישא, השר ואפוטרופסא רבה דישראל, לקח את הס״מ ומוללו בין שני אצבעותיו, אגודל ואצבע, ואמר לו בפירוש בלשון אשכנז: ׳זעה איך צו רייב דעם ס״מ ווי איין שפרייז׳ (תראה איך אני משפשף את הס״מ כמו רמש קל).</p>
 <blockquote>וזהו אמרינו: ׳ברוך מרחם על הבריות׳, שיחול מידת הרחמים על כל ישראל ולא יהיה לשום בר ישראל רעש ופחד ובהלה.<span class="src">מספרו ׳כתם פז׳, על המעשה שאירע לו בצפת (אלפסי, כרך ג׳, ערך 1786 בפרק העולים)</span></blockquote>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שנת פטירתו אינה נזכרת בערך; בשנת תקס״ו (1806) עוד היה בין החיים. מקומה של סימאטריטש, עירו אחרי נאדבורנה, לא זוהה בוודאות ולכן לא נרשמה כעיר באתר. אין לבלבל בינו לבין רבי צבי הירש סג״ל מהארקע (ערך 1785 בפרק העולים).</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1786 בפרק העולים, עמ׳ 381–382 — תולדותיו, תורתו וסיפורים מספרו.</li><li id="note-2">ספרו ׳כתם פז׳ — הקדמתו ושער הספר מצוטטים בערך.</li></ol></div>
+<div class="unknown"><h3 id="sec-4" data-i18n="unknown">מה שלא ידוע</h3><p>שנת פטירתו אינה נזכרת בערך; בשנת תקס״ו (1806) עוד היה בין החיים. מקומה של סימאטריטש, עירו אחרי נאדבורנה, לא זוהה בוודאות ולכן לא נרשמה כעיר באתר. אין לבלבל בינו לבין רבי צבי הירש סג״ל מהארקע (ערך 1785 בפרק העולים).</p></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1786 בפרק העולים, עמ׳ 381–382 — תולדותיו, תורתו וסיפורים מספרו.</li><li id="note-2">ספרו ׳כתם פז׳ — הקדמתו ושער הספר מצוטטים בערך.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

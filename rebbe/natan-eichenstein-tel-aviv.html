@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי נתן אייכנשטיין מזידיטשוב־תל אביב</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו — חינוך הבנים</a></li><li><a href="#sec-3">מה שלא ידוע</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי נתן אייכנשטיין מזידיטשוב־תל אביב</h2>
 <p class="subtitle">דור שביעי לשושלת זידיטשוב · רב בגרוסוורדיין · אדמו״ר בתל אביב</p>
@@ -27,19 +33,21 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי יהושע אייכנשטיין מזידיטשוב (גרוסוורדיין)</dd></div><div><dt>למד</dt><dd>בישיבות סעקלהיד וטאשנאד</dd></div><div><dt>כיהן</dt><dd>מרבניה הרשמיים של גרוסוורדיין</dd></div><div><dt>המלחמה</dt><dd>נמלט מהגרמנים ודרך רומניה הגיע לארץ</dd></div><div><dt>בתל אביב</dt><dd>הקים את בית המדרש לחסידי זידיטשוב; סירב להתפרנס מהחסידים ועסק במסחר</dd></div><div><dt>חתניו</dt><dd>רבי אברהם אביש בן רבי יעקב יוסף וויס מספינקא · רבי אברהם יעקב בן רבי חיים טברסקי · רבי נחום בן רבי ברוך שמעון שניאורסון מטשעבין · רבי יהושע רובין בן רבי שמחה ישכר בער מטומשוב</dd></div><div><dt>נפטר</dt><dd>ל׳ אדר א׳ תשל״ו (1976)</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/tel-aviv.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">תל אביב</span></a><a class="rel" href="../dynasty/ziditchov.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">זידיטשוב־קומרנא</span></a><a class="rel" href="../rebbe/yehoshua-eichenstein-grosswardein.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי יהושע אייכנשטיין מזידיטשוב־גרוסוורדיין</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>תלמיד ישיבות סעקלהיד וטאשנאד. היה רב, ולאחר מכן מרבניה הרשמיים של גרוסוורדיין.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>במלחמת העולם השניה נמלט מהגרמנים ודרך רומניה הגיע לארץ. התיישב בתל אביב והקים את בית המדרש לחסידי זידיטשוב. סירב להתפרנס מהחסידים ועסק במסחר. אציל במידותיו ועשה רושם רב על כל רואיו.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>מתורתו — חינוך הבנים</h3>
+<h3 id="sec-2">מתורתו — חינוך הבנים</h3>
 <p>על בקשת יעקב לגלות לבניו את הקץ, ונסתלקה ממנו שכינה, ועל תשובת השבטים ״שמע ישראל... כשם שאין בלבך אלא אחד כך אין בלבנו אלא אחד״ (פסחים נו, א), ביאר: מדוע הקדימו השבטים ״כשם שאין בלבך אלא אחד״, והרי דאגתו של אביהם היתה שמא יש ח״ו פסול במטתו? אלא שהורים הרוצים להצליח בחינוך בניהם צריכים לשמש בעצמם דוגמא ומופת בהתנהגות לבניהם — וזה החינוך המועיל ביותר. אם רואים אנו בנים שהם מחונכים ומתנהגים כראוי, יכולים אנו להסיק שההורים בהתנהגותם בביתם היו להם לדוגמא.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <blockquote>אם רוצים הורים להצליח בחינוך בניהם, צריכים הם לשמש בעצמם דוגמא ומופת בהתנהגות לבניהם. וזה החינוך המועיל ביותר.<span class="src">מתוך הקובץ ׳אזר מנחם׳, תמוז תשל״ט, כמובא באלפסי, כרך ב׳, ערך רבי נתן אייכנשטיין, עמ׳ 818 (קובץ OCR מס׳ 321)</span></blockquote>
 <p>וכך ביאר גם את ״ויאמר מי אלה לך״ (בראשית לג, ה): עשו שאל האם קיים יעקב את המצוות לשמו יתברך בלבד, ויעקב ענה ״הילדים אשר חנן אלקים את עבדך״ — תסתכל על הילדים, תראה התנהגות הבנים, מהם תיווכח שאני עבדתי את השי״ת בשלימות.<sup class='fn'><a href="#note-2">2</a></sup></p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שם העיר הראשונה שבה כיהן כרב לא נשתמר בקריאה ברורה בכרך (׳טעטעריש׳).</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך ׳רבי נתן אייכנשטין מזידיטשוב – תל אביב׳, עמ׳ 818 (קובץ OCR מס׳ 321): תולדותיו, חתניו.</li><li id="note-2">שם, עמ׳ 818–819 (קובץ OCR מס׳ 321–322): תורתו — חינוך הבנים, מתוך הקובץ ׳אזר מנחם׳, תמוז תשל״ט.</li></ol></div>
+<div class="unknown"><h3 id="sec-3" data-i18n="unknown">מה שלא ידוע</h3><p>שם העיר הראשונה שבה כיהן כרב לא נשתמר בקריאה ברורה בכרך (׳טעטעריש׳).</p></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך ׳רבי נתן אייכנשטין מזידיטשוב – תל אביב׳, עמ׳ 818 (קובץ OCR מס׳ 321): תולדותיו, חתניו.</li><li id="note-2">שם, עמ׳ 818–819 (קובץ OCR מס׳ 321–322): תורתו — חינוך הבנים, מתוך הקובץ ׳אזר מנחם׳, תמוז תשל״ט.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

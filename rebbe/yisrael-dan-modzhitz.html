@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי ישראל דן טאוב ממודז׳יץ</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו</a></li><li><a href="#sec-3">תלמידיו</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי ישראל דן טאוב ממודז׳יץ</h2>
 <p class="subtitle">בן רבי שמואל אליהו ממודז׳יץ; מקים ישיבת ׳אמרי שאול׳ בבני ברק</p>
@@ -27,19 +33,21 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי שמואל אליהו טאוב ממודז׳יץ (ערך 1611)</dd></div><div><dt>ישיבה</dt><dd>הקים את ישיבת ׳אמרי שאול׳ בבני ברק על שם סבו</dd></div><div><dt>תורה</dt><dd>גדול בתורה; תורותיו מלאות בקיאות וחריפות, ומתפרסמות בקונטרסים שיוצאים לאור על ידי חסידיו</dd></div><div><dt>נגינה</dt><dd>מלחין בחסד כדרך בית מודז׳יץ; כתב הקדמה מאלפת לספר התווים של מנגינות אביו</dd></div><div><dt>ציבור</dt><dd>חבר מועצת גדולי התורה של אגודת ישראל</dd></div><div><dt>בניו</dt><dd>רבי חיים שאול, ממלא מקומו; רבי פנחס משה, אדמו״ר מקוזמיר</dd></div><div><dt>חתניו</dt><dd>רבי ישראל סגל לנדא; רבי שמואל דוד וינברג</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/modzhitz.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">מודז׳יץ</span></a><a class="rel" href="../dynasty/modzhitz.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">שושלת מודז׳יץ</span></a><a class="rel" href="../rebbe/shmuel-eliyahu-modzhitz.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי שמואל אליהו טאוב ממודז׳יץ</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן רבי שמואל אליהו טאוב ממודז׳יץ, ונכדו של רבי שאול ידידיה אלעזר, בעל ׳אמרי שאול׳. הקים את ישיבת ׳אמרי שאול׳ בבני ברק על שם סבו. היה גדול בתורה, ותורותיו מלאות בקיאות וחריפות; דברי תורתו מתפרסמים בקונטרסים שיוצאים לאור על ידי חסידיו. כדרך בית מודז׳יץ הוא מלחין בחסד, וכתב הקדמה מאלפת לספר התווים של מנגינות אביו. היה חבר מועצת גדולי התורה של אגודת ישראל. פטירתו עוררה אבל כבד בכל בית ישראל.</p>
-<h3>מתורתו</h3>
+<h3 id="sec-2">מתורתו</h3>
 <p>בהקדמתו לספר התווים של מנגינות אביו הביא את אימרת זקנו, בעל ׳אמרי שאול׳:</p>
 <blockquote>ידועה האימרה של כ״ק זקני מרן אדמו״ר זצ״ל בעל ׳אמרי שאול׳, שאותה ברכה שאנו אומרים על התורה, אנו אומרים גם על הזמרה — הבוחר בתורה... הבוחר בשירי זמרה.<span class="src">הקדמתו לספר התווים של מנגינות אביו (כמובא אצל אלפסי, כרך ג׳, ערך 1612; כותרת הערך נקראה ב־OCR ׳1618׳)</span></blockquote>
 <p>ושם ביאר, שמלת ׳טעמים׳ אין פירושה טעם הענין, אלא פיסוק הטעמים, כגון זרקא וסגול וכו׳ — שיש לנו אלף פיסוק טעמים, ופיסוק הטעמים לפי התנועות הוא ממש שיר. ומכאן, שאין עולם הבא בלי שמחה ושירים, כדברי רש״י על ׳זמר בכל יום׳ (סנהדרין צט).</p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-3" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/chaim-shaul-modzhitz.html">רבי חיים שאול טאוב ממודז׳יץ</a><a class="chip" href="../rebbe/pinchas-moshe-kuzmir.html">רבי פנחס משה טאוב מקוזמיר</a></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1612, עמ׳ 1612 (קובץ OCR p0236; כותרת הערך נקראה ב־OCR ׳1618׳) — פרק ׳רבי ישראל דן טאוב ממודז׳יץ׳: תולדותיו ותורתו.</li></ol></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1612, עמ׳ 1612 (קובץ OCR p0236; כותרת הערך נקראה ב־OCR ׳1618׳) — פרק ׳רבי ישראל דן טאוב ממודז׳יץ׳: תולדותיו ותורתו.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

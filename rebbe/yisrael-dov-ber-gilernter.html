@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי ישראל דב בער גילערנטער מיאשניצא</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מה שלא ידוע</a></li><li><a href="#sec-3">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי ישראל דב בער גילערנטער מיאשניצא</h2>
 <p class="subtitle">תלמידו המובהק של רבי נפתלי צבי מרופשיץ · רב ביבלונוב וביאשניצא · בעל &#x27;רביד הזהב&#x27;</p>
@@ -28,14 +34,16 @@
 <dl class="facts"><div><dt>אביו</dt><dd>רבי אברהם יוסף — אב״ד עיר ישן ויבלונוב</dd></div><div><dt>רבו</dt><dd>רבי נפתלי צבי מרופשיץ — תלמידו המובהק; רבי נפתלי העיד עליו שיש לו נשמה קדושה ויקרה</dd></div><div><dt>חותנו</dt><dd>רבי יעקב מרימנוב — חתן רבו</dd></div><div><dt>רבנות</dt><dd>בשנת תרי״ז (1857) נבחר לרב בסטריזוב, אך ויתר על המינוי; רב ביבלונוב וביאשניצא</dd></div><div><dt>ספריו</dt><dd>&#x27;רביד הזהב&#x27; ו&#x27;דביר המוצנע&#x27; (חלק ב׳ של &#x27;רביד הזהב&#x27;)</dd></div><div><dt>בניו</dt><dd>רבי משה, רבי אברהם יוסף יעקב, רבי נפתלי צבי מהורודנקה, רבי ישעיה יחיאל מיכל (אב״ד &#x27;נאוויטאניץ&#x27;)</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> רביד הזהב</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/yablonov.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">יבלונוב</span></a><a class="rel" href="../dynasty/lublin.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">לובלין — תלמידי החוזה</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן רבי אברהם יוסף. היה תלמידו המובהק של רבי נפתלי צבי מרופשיץ, שהעיד עליו שיש לו נשמה קדושה ויקרה, וחתן רבו רבי יעקב מרימנוב. בשנת תרי״ז (1857) נבחר לרב בסטריזוב, אך ויתר על המינוי. כיהן כרב ביבלונוב וביאשניצא. מחבר 'רביד הזהב' ו'דביר המוצנע' (חלק ב׳ של 'רביד הזהב'). נפטר סמוך לשנת תרכ״ח.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>אין תאריך פטירה מדויק — &#x27;סמוך לשנת תרכ״ח&#x27; בלבד, ולפיכך לא נוסף אירוע ציר זמן. שנת לידתו, כ־1807, היא מרשימת מכירות (Bidspirit) בלבד — משוערת, לא מאלפסי. &#x27;נאוויטאניץ&#x27;, מקום רבנותו של בנו, לא זוהה. יבלונוב ויאשניצא לא הוכרעו — ראה UNLOCATED_TOWNS.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3054 (עמ׳ 108–109): &#x27;רבי ישראל דב בער גילערנטער מיאשניצא / בן רבי אברהם יוסף / תלמידו המובהק של רבי נפתלי צבי מרופשיץ (824) / נפטר סמוך לשנת תרכ״ח&#x27;.</li><li id="note-2">רשימת מכירות (Bidspirit): &#x27;Rabbi Yisroel Dov Ber Gilernter [c. 1807–1867]&#x27;, בן אברהם יוסף (אב״ד עיר ישן ויבלונוב), חתן יעקב מרימנוב, תלמידו המובהק של נפתלי מרופשיץ; &#x27;רביד הזהב&#x27;, למברג 1869, מהדורה ראשונה, עם הסכמות.</li></ol></div>
+<div class="unknown"><h3 id="sec-2" data-i18n="unknown">מה שלא ידוע</h3><p>אין תאריך פטירה מדויק — &#x27;סמוך לשנת תרכ״ח&#x27; בלבד, ולפיכך לא נוסף אירוע ציר זמן. שנת לידתו, כ־1807, היא מרשימת מכירות (Bidspirit) בלבד — משוערת, לא מאלפסי. &#x27;נאוויטאניץ&#x27;, מקום רבנותו של בנו, לא זוהה. יבלונוב ויאשניצא לא הוכרעו — ראה UNLOCATED_TOWNS.</p></div>
+<div class="notes"><h3 id="sec-3" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3054 (עמ׳ 108–109): &#x27;רבי ישראל דב בער גילערנטער מיאשניצא / בן רבי אברהם יוסף / תלמידו המובהק של רבי נפתלי צבי מרופשיץ (824) / נפטר סמוך לשנת תרכ״ח&#x27;.</li><li id="note-2">רשימת מכירות (Bidspirit): &#x27;Rabbi Yisroel Dov Ber Gilernter [c. 1807–1867]&#x27;, בן אברהם יוסף (אב״ד עיר ישן ויבלונוב), חתן יעקב מרימנוב, תלמידו המובהק של נפתלי מרופשיץ; &#x27;רביד הזהב&#x27;, למברג 1869, מהדורה ראשונה, עם הסכמות.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

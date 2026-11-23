@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי יצחק קאליש מאמשינוב־ניו יורק</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">עליו</a></li><li><a href="#sec-3">מתורתו</a></li><li><a href="#sec-4">תלמידיו</a></li><li><a href="#sec-5">מה שלא ידוע</a></li><li><a href="#sec-6">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי יצחק קאליש מאמשינוב־ניו יורק</h2>
 <p class="subtitle">בן רבי יוסף מאמשינוב; אדמו״ר מאמשינוב בארצות הברית</p>
@@ -27,22 +33,24 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי יוסף קאליש מאמשינוב (ערך 1630)</dd></div><div><dt>נישואיו</dt><dd>חתן רבי יוסף לנדא, בן רבי מנחם מנדל מסטריקוב; בזיווג שני חתן החסיד הגוראי ר׳ דוב בעריש פערקאל</dd></div><div><dt>השואה</dt><dd>ברח לוילנא ומשם דרך שנחאי לארצות הברית</dd></div><div><dt>אדמו״רות</dt><dd>אדמו״ר מאמשינוב, תחילה בוויליאמסבורג ואחר כך בבורו־פארק</dd></div><div><dt>פטירתו</dt><dd>נסתלק בי״ט באדר תשנ״ג (1993); ארונו הועלה לארץ ונטמן בטבריה</dd></div><div><dt>בנו</dt><dd>בנו רבי יוסף הוכתר כממלא מקומו; חתנו הרב ישראל ארנסטר</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/amshinov.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">אמשינוב</span></a><a class="rel" href="../dynasty/vurka.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">שושלת וורקא</span></a><a class="rel" href="../rebbe/yosef-amshinov.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי יוסף קאליש מאמשינוב</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן רבי יוסף מאמשינוב. לאחר נישואיו התגורר באוטווצק, וכבר שם נתפרסם כאיש החסד. אחרי פטירת אביו קיבל את מרותו של אחיו רבי יעקב דוד. בפרוץ מלחמת העולם השניה השכיל לברוח לוילנא, ומשם דרך שנחאי לארצות הברית, ובה נתמנה לאדמו״ר מאמשינוב, תחילה בוויליאמסבורג ולאחר מכן בבורו־פארק. דמות מאירה, ממשיך קלאסי של מסורת וורקא. ביקר בארץ ארבע פעמים וחשב להשתקע בה. ארונו הועלה לארץ ונטמן בטבריה.</p>
-<h3>עליו</h3>
+<h3 id="sec-2">עליו</h3>
 <p>הרב דוד הלחמי כתב ב׳המודיע׳ (י״ז באדר תשנ״ד) שהיה ילד שעשועיו של אביו הגדול, האדמו״ר רבי יוסף, שגילה לו חיבה יתירה ואף ניבא לו עתיד מזהיר בהיותו עוד צעיר לימים. יראתו היתה קודמת לחכמתו, וגינוני מלכות של תורה וחסידות העידו על פנימיותו המושלמת. כל יומו היה קודש לתורה ולתפילה, מבלי להתבטל אף לרגע מעבודת הקודש.</p>
-<h3>מתורתו</h3>
+<h3 id="sec-3">מתורתו</h3>
 <p>על (בראשית מה, א) ׳הוציאו כל איש מעלי ולא עמד איש אתו בהתוודע יוסף אל אחיו׳ דרש:</p>
 <blockquote>יוסף הצדיק היה ירא מנגיעותיו האנושיות, על כן התפלל ואמר ׳הוציאו כל איש מעלי׳ — והתורה מעידה ׳ולא עמד איש אתו׳, שלא נשארה בו כל נגיעה אישית.<span class="src">קונטרס (בשכפול) שהוציאו חסידי אמשינוב (כמובא אצל אלפסי, כרך ג׳, ערך 1642)</span></blockquote>
 <p>ועל (בראשית מו, כח–כט) ׳ואת יהודה שלח לפניו אל יוסף להורות... ויבך על צואריו׳ דרש: כשירד יעקב אבינו למצרים, למקום של שטופי זמה, ירא וחרד בנפשו שלא יכשל שם ח״ו, ועל כן שלח לפניו את יהודה ׳להורות׳ — לתקן לו בית תלמוד, שהרי לימוד התורה בא לתקן שלא יבוא חלילה לידי לשון הרע, וברית הלשון היא תיקון כנגד ברית המעור. ו׳ויבך׳ הוא שקרא קריאת שמע, ו׳אמותה הפעם׳ הוא זכירת יום המיתה. (שם).</p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-4" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/yosef-amshinov-ny.html">רבי יוסף קאליש מאמשינוב־ניו יורק</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>כותרת הערך נקראה ב־OCR כ׳104%׳; מספר הערך 1642 קובע הרצף 1641–1643, והצלב ׳בן רבי יוסף קאליש מאמשינוב (1630)׳ קובע את זיהויו.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1642, עמ׳ 1642–1643 (קובץ OCR p0260–p0261) — תולדותיו, עליו ותורתו.</li></ol></div>
+<div class="unknown"><h3 id="sec-5" data-i18n="unknown">מה שלא ידוע</h3><p>כותרת הערך נקראה ב־OCR כ׳104%׳; מספר הערך 1642 קובע הרצף 1641–1643, והצלב ׳בן רבי יוסף קאליש מאמשינוב (1630)׳ קובע את זיהויו.</p></div>
+<div class="notes"><h3 id="sec-6" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1642, עמ׳ 1642–1643 (קובץ OCR p0260–p0261) — תולדותיו, עליו ותורתו.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

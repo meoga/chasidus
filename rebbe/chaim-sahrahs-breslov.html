@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי חיים שרה׳ס מברסלב</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">עליו</a></li><li><a href="#sec-3">מה שלא ידוע</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי חיים שרה׳ס מברסלב</h2>
 <p class="subtitle">ערך באלפסי, כרך ד׳, עמ׳ 447</p>
@@ -27,18 +33,20 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>עיר</dt><dd>ברסלב</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/bratslav.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">ברסלב (בראצלב)</span></a><a class="rel" href="../dynasty/breslov.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">ברסלב</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>מגדולי תלמידיו של רבי נחמן מברסלב > תולדותיו: כשנכנס רבי נחמן אל חדרו, הלך אחריו ר' חיים ופרץ בבכי. יודעני - אמר בקול בוכים - שאלי כוונו הדברים. אני מבקש רבי נחמן העריצו מאד והתבטא: חסיד אחד יש לי מהרבי שיעקבר רחמים עלי שאשאר בתיים. אמר לו הרבי: בברסלב והוא ר' חיים!. אמת. אליך מכוונים הדברים. אבל מאחר שנוסע אני אל רבי חיים היה מקורב מאד אל רבי נחמן וכשישב רבי | קברו של סבי הבעש"ט לבקש רחמים על בני שלמה-אפרים, נחמן שבעה על בנו היחיד שלמה אפרים וביקש להתבודד, | תוכל לנסוע עמי. נסע ר' חיים עם הרבי למז'בוז ורבי נחמן היה רק ר' חיים במחיצתו. היה כל הדרך שקוע בהרהורים, פניו היו כלהבת-אש וכלו בדביקות גדולה. רבי נחמן נכנס אל הציון ור' חיים עמד חתנו היה רבי צבי אריה, בנו של רבי אהרן הרב מברסלב. מרחוק בפחד נורא. כשיצא רבי נחמן, אמר: עבורך פעלתי.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>עליו</h3>
+<h3 id="sec-2">עליו</h3>
 <p>עבורי לא פעלתי. אחר אמר: מאחר שהנך פה, לך גם אתה / . אל ציונו של הבעש"ט ותתפלל שם. נכנס ר' חיים ובכה בכי פעם אחת ישב רבי נחמן עם אנשיו לפנות ערב והלהיב רב ליד הציון וכן היה. ר' חיים המשיך לחיות ושלמה אפרים את לבם לעבודת ה. בתוכם ישב רבי חיים שרה'ס שהיה מת בילדותו והרבה היו החסידים משבחים ילד זה - בשמו סוחר גדול ועם זאת עובד ה' גדול ונפלא, כמו שאר "אנשיו" = של רבי נחמן. של רבי נחמן. כל מי שרק היה מקורב אל רבי נחמן נעשה (שם אותיות תקצ"ז - תקצ"ז) לבסוף צדיק גמור. ר' חיים היה מקורב מאד ודרכו ה'תה להתענות בכל שנה יום-יום, בשבועיים של פרשיות "כי תצא" כשחזרו רבי נחמן ודבי חיים שרה'ס ממז'בוז' לברסלב, ו"כי תבוא" וזאת לפי צו רבו. כך נהג שנים רבות במסירת סירב רבי נחמן להכנס לברסלב ושלח את ר' חיים שיקנת נפש. רבי נחמן היה מפליג מאד בשבחיו של ר' חיים והיה יין ודגים לשבת וישבתו שבתם בכפר סמוך לברסלב ואז<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>אומר: חסיד אחד יש לי בברסלב והוא ר' חיים. פעם אחת אירע באותו כפר חסיפור מאברהם פייעס - גביר נודע ובעל התבטא רבי נחמן: הייתי צריך לפעול "איזה דבר" | עבירה שבנו, ח""ם פייעס, נשא את נכדתו של הבעש"ט: והשתמשתי ב'עבודה" של ר' חיים והוסיף: לא בכדי היה | באמצע הלילה התעורר רבי נחמן בבהלה גדולה ובצעקות. הבעש"ט מה שהיה, כי היו לו תלמידים כאלה... התעורר גם ר' חיים בפחד ואז אמר לו רבי נחמן: בא עמי ("פעולת הצדיק" ע' רכ"ו אות תקצי) | החוצה. בצאתם רץ רבי נחמן אנה ואנה ואמר: הבעש'ט היה אצלי ואין רצונו בשידוך שכזה. על כן נגזרה מיתה על רבי חיים שרה'ס היה מתותנו של רבי אהרן, הרב | החתן אבל פעלתי שלא יומת, אבל לא יולדו להם בניט ואז מברסלב. רבי צבי ארי' בנו של רבי אהרן, שמילא את מקום יתגרשו זה מזה וכן היה. אברהם פייעס נעשה לבסוף "בעל אביו כרב בברסלב, היה חתנו של ר' חיים. תשובה" גדול. שם) שם ע' רכ"ח אות תקציט) בשיחה האמורה התבטא רבי נחמן: "האדם הוא שוטה כל כל ימי ה"שבעה" של רבי נחמן על בנו הוא ישב בכפר</p>
 <p>כך עד שאפילו כשהמלאך המות הולך אחר כתפיו, עדיין הוא | הסמוך לברסלב ור' חיים משמשה שם. בדד ישב רבי נחמן, ממשיך בהבליו ובשטותיו". איש לא הבץ אל מי מוסבים | כי כן הורה שלא יגלו לאיש את מקום המצאו. אמר אז רבי הדברים. ר' חיים היה היחיד שנבהל מאד מדבריו של רבו | (חמן לרבי חיים: האר"י לא גילה לרבי חיים אלא סוד אחד הוא היה נפחד ביותר. כשנגמרה השיחה הוא נשאר לשבת | ואף על פי כן נענש שמת אצלו בן אחד ואני הרי מגלה לכם על מקומו בפחד וביראה. שאל אותו רבי נחמן: מדוע נשארת | סודות רבים. לשבת על מקומך ולא יכל להשיבו, כי היה נפחד ביותר. שם ע' רכ"ט אות ת"ר)</p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>לא נמסרו תאריכים; שם הערך שוחזר מקריאה משובשת ב־OCR; המזהה מכיל תעתיק אוטומטי (לא מאומת) של: שרהס; הערך ארוך וה־OCR מערבב טורים — הסדר המקורי עלול להיות משובש; בגוף הערך מופיעה כותרת נוספת (&#x27;רבי ...&#x27;) — ייתכן שמדובר בערך נוסף שדורש פיצול; לא נוצר עבורו ערך נפרד בקובץ זה</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3862 (עמ׳ 447).</li><li id="note-2">שם הערך כפי שנקרא ב־OCR: &#x27;רבי חיים שרה&#x27;ס מברסלב&#x27; — תוקן לפי כללי ה־OCR והקשר הערך.</li><li id="note-3">פרק הכרך: בית ברסלב.</li></ol></div>
+<div class="unknown"><h3 id="sec-3" data-i18n="unknown">מה שלא ידוע</h3><p>לא נמסרו תאריכים; שם הערך שוחזר מקריאה משובשת ב־OCR; המזהה מכיל תעתיק אוטומטי (לא מאומת) של: שרהס; הערך ארוך וה־OCR מערבב טורים — הסדר המקורי עלול להיות משובש; בגוף הערך מופיעה כותרת נוספת (&#x27;רבי ...&#x27;) — ייתכן שמדובר בערך נוסף שדורש פיצול; לא נוצר עבורו ערך נפרד בקובץ זה</p></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3862 (עמ׳ 447).</li><li id="note-2">שם הערך כפי שנקרא ב־OCR: &#x27;רבי חיים שרה&#x27;ס מברסלב&#x27; — תוקן לפי כללי ה־OCR והקשר הערך.</li><li id="note-3">פרק הכרך: בית ברסלב.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

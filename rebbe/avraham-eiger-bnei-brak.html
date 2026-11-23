@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי אברהם איגר מבני ברק</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">תורתו</a></li><li><a href="#sec-3">תלמידיו</a></li><li><a href="#sec-4">מה שלא ידוע</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי אברהם איגר מבני ברק</h2>
 <p class="subtitle">בנו של רבי שלמה אלעזר איגר · האדמו״ר מלובלין בבני ברק</p>
@@ -27,18 +33,20 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי שלמה אלעזר איגר, בן רבי אלטר עזריאל מאיר מלובלין</dd></div><div><dt>הצלתו</dt><dd>ניצול מהשואה יחד עם בן דודו רבי מנחם מנדל איגר (מניו יורק), בן רבי יהודה לייב, בהצטרפם לרבי שמעון שלום מאמשינוב בנדודיו לוילנא ושאנחי</dd></div><div><dt>חותנו</dt><dd>רבי דוד אנלוביץ מסוסנובצה (האיות כב־OCR)</dd></div><div><dt>מעמדו</dt><dd>מזקני אדמו״רי דורנו; בית מדרשו בבני ברק; מחותנם של רוב אדמו״רי פולין בדורנו</dd></div><div><dt>הדפסה</dt><dd>הדפיס מחדש, יחד עם בן דודו הנ״ל, את ספר &#x27;תורת אמת&#x27; מראש השושלת רבי לייב׳לה איגר, והקדים לו דברי הקדמה</dd></div><div><dt>בניו</dt><dd>רבי שלמה ורבי עזריאל מאיר (רשימת הבנים נקטעת ב־OCR)</dd></div><div><dt>הכתרתו</dt><dd>נתמנה לאדמו״ר בשנת תש״ה (1945) — על פי ויקיפדיה העברית</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/bnei-brak.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">בני ברק</span></a><a class="rel" href="../dynasty/lublin-eiger.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">שושלת לובלין — איגר</span></a><a class="rel" href="../rebbe/shlomo-elazar-eiger.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי שלמה אלעזר איגר מלובלין</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>ניצול מהשואה יחד עם בן דודו רבי מנחם מנדל איגר (מניו יורק), בן רבי יהודה לייב, בהצטרפם לרבי שמעון שלום מאמשינוב בנדודיו לוילנא ושאנחי. חתן רבי דוד אנלוביץ מסוסנובצה. מזקני אדמו״רי דורנו, ובית מדרשו בבני ברק; מחותנם של רוב אדמו״רי פולין בדורנו. הדפיס מחדש, יחד עם בן דודו הנ״ל, את ספר 'תורת אמת' מראש השושלת רבי לייב׳לה איגר, והקדים לו דברי הקדמה.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>תורתו</h3>
+<h3 id="sec-2">תורתו</h3>
 <p>ידוע שספר הקודש הזה מדבר בעיקר על שתי קדושות: קדושת יסוד וקדושת שבת קודש. וה׳ האיר עיני בסדרה זו לרמז על שתי קדושות הנ״ל: 'ויקהל משה את כל עדת בני ישראל' — ומה ענין 'עדת'? ומה הפירוש 'אשר צוה ה׳ לעשות אותם', הלא היה אומר להם רק דיבורים? ויש עוד להבין: מה ענין שתיכף לפני ציווי מלאכת המשכן נאמרה מצוות קדושת שבת, מה שאין כן בפרשת תרומה — אין נזכרת שביתת שבת קודש, רק בפרשת כי תשא, אחר כל הציווי של מלאכת המשכן, נזכרת שמירת שבת קודש? אך יש לומר, דהנה כתיב 'ועשו לי מקדש ושכנתי בתוכם'... (המשך הדרשה נקטע ב־OCR).<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-3" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/shlomo-david-eliyahu-eiger.html">רבי שלמה דוד אליהו איגר מלובלין</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שם חותנו &#x27;אנלוביץ&#x27; — האיות כב־OCR, וייתכן שהצורה הנכונה אחרת. רשימת בניו נקטעת ב־OCR לאחר &#x27;רבי שלמה ורבי עזריאל מאיר&#x27;.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3074 (עמ׳ 125): &#x27;רבי אברהם איגר מלובלין — בני ברק / בן רבי שלמה אלעזר (3072), בן רבי אלטר עזריאל מאיר מלובלין (3070) / דור חמישי לרבי יהודה לייב איגר מלובלין / תרע״ו — כ״ח בתשרי תשס״ג&#x27;. &#x27;גי שרק&#x27; ב־OCR הוא &#x27;בני ברק&#x27;.</li><li id="note-2">כ״ח תשרי תשס״ג = 4 באוקטובר 2002 (convertdate). תרע״ו = 1916.</li><li id="note-3">ויקיפדיה העברית, ערך &#x27;אברהם איגר (בני ברק)&#x27;, מאשרת את התאריכים, ומוסיפה: נתמנה לאדמו״ר בשנת תש״ה (1945); בנו רבי שלמה דוד אליהו מילא את מקומו, נפטר בו׳ ניסן תשפ״ג (2023) בגיל 73, ובנו רבי עקיבא ממלא את מקומו — וזו ההוכחה לזיהוי בנו &#x27;אליהו שלמה&#x27; של אלפסי (ערך 3075) עם &#x27;שלמה דוד אליהו&#x27; של ויקיפדיה; ראה הערות בערך הבא.</li></ol></div>
+<div class="unknown"><h3 id="sec-4" data-i18n="unknown">מה שלא ידוע</h3><p>שם חותנו &#x27;אנלוביץ&#x27; — האיות כב־OCR, וייתכן שהצורה הנכונה אחרת. רשימת בניו נקטעת ב־OCR לאחר &#x27;רבי שלמה ורבי עזריאל מאיר&#x27;.</p></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3074 (עמ׳ 125): &#x27;רבי אברהם איגר מלובלין — בני ברק / בן רבי שלמה אלעזר (3072), בן רבי אלטר עזריאל מאיר מלובלין (3070) / דור חמישי לרבי יהודה לייב איגר מלובלין / תרע״ו — כ״ח בתשרי תשס״ג&#x27;. &#x27;גי שרק&#x27; ב־OCR הוא &#x27;בני ברק&#x27;.</li><li id="note-2">כ״ח תשרי תשס״ג = 4 באוקטובר 2002 (convertdate). תרע״ו = 1916.</li><li id="note-3">ויקיפדיה העברית, ערך &#x27;אברהם איגר (בני ברק)&#x27;, מאשרת את התאריכים, ומוסיפה: נתמנה לאדמו״ר בשנת תש״ה (1945); בנו רבי שלמה דוד אליהו מילא את מקומו, נפטר בו׳ ניסן תשפ״ג (2023) בגיל 73, ובנו רבי עקיבא ממלא את מקומו — וזו ההוכחה לזיהוי בנו &#x27;אליהו שלמה&#x27; של אלפסי (ערך 3075) עם &#x27;שלמה דוד אליהו&#x27; של ויקיפדיה; ראה הערות בערך הבא.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

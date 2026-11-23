@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי יצחק רובין מבראד</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי יצחק רובין מבראד</h2>
 <p class="subtitle">בנו של אלימלך מסוקולוב</p>
@@ -27,14 +33,16 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>אלימלך מסוקולוב</dd></div><div><dt>דור</dt><dd>דור רביעי</dd></div><div><dt>תאריכים</dt><dd>— כ׳ אלול תרל״ד</dd></div><div><dt>חתן</dt><dd>רבי שלום מבעלזא. על הרבנית איידל אמר אביה חולק דאתורכון טב מכל מאני כספא ודהב תא</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/brody.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">בראד</span></a><a class="rel" href="../dynasty/ropshitz.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">רופשיץ</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>רבי יצחק רובין מבראד בן רבי אלימלך מסוקולוב (855) בן רבי אשר ישעיה מרופשיץ (898) דור רביעי לשושלת מרופשיץ בראד, כ' אלול תרל"ד + תולדותיו: חוסו עלי ואתפני לותי למחדי בחדו תא חתן רבי שלום מבעלזא. על הרבנית איידל אמר אביה חולק דאתורכון טב מכל מאני כספא ודהב תא ש"אין הוא חסרה אלא שטריימל" שכן היתה גדולה בתורה טומרי וחסירא קדם ד' דאיתלבון בגיותנו תא ובצדקות. מבניו: רבי שמואל שמלקה מסערעט, רבי נפתלי צבי טלל שכינתא יטלל ברחמיו ולא יתכסי מצלו תא מראדיחוב, רבי אלימלך מיברוב. ישדר משמי מרומא כל הני תל תא > הזמנה לחתונה; יקירי בנין וחיין ומזוני דלא תליא בזכו תא ב"ה שנת הא ברכ תי כען רחומי נפשאי טנכו בסרה יביא מנח תא ארמית ידי בצלו קדם אלחי תבוכד תא כמא כן יתרבו לכון אלפין פעמיא ורבב תא ארום אתאין יומא…<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>וקו המו ווהההההההההההמהההטהההההההההההוהוההקההההההההההההההההההההההחחההההה קריב יומא דא ואתי יומא דתו תא כשמזכיר שם ה' כמשנ"א (תהלים לה, 5) "כל עצמותי תאמרנה" וגו', גם בתפילת י"ח יעשה הרגש קטן] אך על קלא דאביבא ונבלא בעגלא ישמע בביתא דמשתח | תא -- 0 וטו אך בשל'"ה ר"נ ע"א [דכתב שם המתנענע בתפילתו גורם ביטול נציבא לקיימא יקים להון בכל חולכי מדינ תא כוונתו והעמידה בלי התנועעות כלל עוזר על הכוונה, ומה , שאמר "כל עצמותי" וגו' היינו בשירות ותשבחות וברכות ק"ש סברי על ד' תדירא מעידן טליו תא / ות"ת אבל לא בתפילה, ואם יש מי שאומר כן אף לתפילה סגי לכון רברבי ישראל חנא חסדא וברכ תא | נ" דאין לחוש לדבריו, כי הנסיון מוכיח שהעמידה בלי נענוע גורם כוונת הלב, וראה בעיניך הישאל אדם שאלות מן המלך עדב בחכמתא גבר…<sup class='fn'><a href="#note-1">1</a></sup></p>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, עמ׳ 370; מספר הערך (892) משוער לפי סדר הכותרות ואינו ודאי.</li><li id="note-2">בערך: בן רבי אלימלך מסוקולוב (855).</li><li id="note-3">הערך ארוך ודו־טורי ב־OCR; הקטעים כאן מובאים כלשונם מהמקור, וייתכן שהסדר משובש.</li></ol></div>
+<div class="notes"><h3 id="sec-2" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, עמ׳ 370; מספר הערך (892) משוער לפי סדר הכותרות ואינו ודאי.</li><li id="note-2">בערך: בן רבי אלימלך מסוקולוב (855).</li><li id="note-3">הערך ארוך ודו־טורי ב־OCR; הקטעים כאן מובאים כלשונם מהמקור, וייתכן שהסדר משובש.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

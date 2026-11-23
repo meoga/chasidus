@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי משה שמואל חזן משטוקשטין</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מה שלא ידוע</a></li><li><a href="#sec-3">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי משה שמואל חזן משטוקשטין</h2>
 <p class="subtitle">מגדולי תלמידיו של רבי דוד מלעלוב; בעל מדרגה ובעל רוח הקודש; נפטר ערב פסח תרי״ה</p>
@@ -27,18 +33,20 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי אליעזר (לפי נוסח מצבתו)</dd></div><div><dt>רבו</dt><dd>רבי דוד מלעלוב</dd></div><div><dt>מנהגו</dt><dd>נסע אל רבו בכל ערב ראש השנה</dd></div><div><dt>פטירתו</dt><dd>ערב פסח תרי״ה (2 באפריל 1855)</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/szczekociny.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">שטשעקאטשין</span></a><a class="rel" href="../dynasty/lelov.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">לעלוב</span></a><a class="rel" href="../rebbe/david-lelov.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי דוד מלעלוב</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>מגדולי תלמידיו של רבי דוד מלעלוב. הוא היה בעל מדרגה גדול בזמנו, ונספרו עליו נפלאות רבות, והיה בעל רוח הקודש. פעם אחת פגע ברק בבית הכנסת ופרצה שריפה. רבי משה שמואל ישב במקומו הקבוע בבית הכנסת, שבו למד כל היום. מיהרו החסידים למקומו להודיע לו שפרצה שריפה כדי שיוכל להימלט, אולם רבי משה שמואל לא התפעל כלל. הוא הניף את סידורו לעבר האש והאש פסקה. שנים רבות היו מראים בבית הכנסת את המקום שפגע בו הברק. (׳זכרון דברים׳, תל אביב תשי״ד, עמ׳ נ״ד)</p>
 <p>רבי משה שמואל נהג לנסוע אל רבו, רבי דוד מלעלוב, בכל ערב ראש השנה. בשנה אחת נשברה העגלה בדרך, ועד שתיקנוה אחרו את אמירת הסליחות של ׳זכור ברית׳. מששמע על כך בעל ׳חוסן ישועות׳, שגר אז בשטוקשטין והיה ׳מתנגד׳, שאל את רבי משה שמואל: כלום לא היה כדאי להישאר בעיר ולומר סליחות, ולא לנסוע אל הרבי ועל ידי כך לא לומר סליחות? רבי משה שמואל ענה על אתר שאכן כדאית הנסיעה גם אם לא יאמרו סליחות.</p>
 <p>כשביקר רבי יצחק מוורקא, שהיה אף הוא תלמיד מובהק לרבי דוד מלעלוב, בשטוקשטין, הוא התפלל בבית מדרשו של רבי משה שמואל, ואחר כך סעד על שולחנו. תוך כדי שיחה העלו שניהם זכרונות מרבי דוד מלעלוב, עד שפרצו שניהם בבכי. בסעודת ברית מילה אצל רבי ליפא משטוקשטין עשו דברים גדולים. במקום אחד לא הצטרף רבי משה שמואל אל רבי דוד, מחשש שמא יתפרסם. סיפר לו רבי דוד סיפור, וסיים: ׳לא יעזור לך, משה שמואל, אתה תפורסם ויבואו אליך חסידים׳. לפני מותו אמר רבי משה שמואל: ׳מורי ורבי רבי דוד מלעלוב רצה לעשות ממני ״כלי״ ואני לא רציתי׳. (ברקמן, ׳מגדל דודי׳, עמ׳ 31)</p>
 <p>ר׳ ישראל לייבוש היה מכין סחורה בימות החורף, ונוסע בימות הקיץ למכור את הסחורה. מדי שנה, בטרם החל בנסיעותיו, היה מבקש את ברכת הפרידה מחותנו, רבי משה שמואל. שנה אחת אמר לו: ׳בני, אל תיסע. לא תרוויח השנה דבר׳. לא נענה לו ר׳ ישראל לייבוש, ואכן כך קרה: לא רק שלא הרוויח דבר, אלא שפקדו אותו תקלות שונות. ברם, משעמד לחזור עשה עצמו כאילו הרוויח הרבה ושבע רצון הוא מנסיעתו. בבואו אל חותנו היתה השאלה המיידית: ׳איך היתה העונה?׳ השיב ר׳ ישראל לייבוש: ׳עונה מצויינת!׳. אמר לו רבי משה שמואל: ׳בני, האותי תרצה לרמות? ספר לי את האמת!׳. (׳זכרון דברים׳, עמ׳ נ״ז)</p>
 <blockquote>מורנו הרב ר׳ משה שמואל בן מוה״ר אליעזר ז״ל, איש חי רב פעלים, משה לא מש מתוך האהל, אהלה של תורה, ומשה היה רועה צאן קדשים להדריכם בדרך ישרה, ומשח עלה אל אלקים בערב פסח בקדושה ובטהרה, בוצינא קדישא, חסידא ופרישא.<span class="src">(נוסח מצבתו, ׳זכרון דברים׳, עמ׳ נ״ה)</span></blockquote>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>בערך זה בכרך ג׳ לא הובאה תורה מפיו — אלא סיפורים ועדויות עליו. שם מחבר ׳זכרון דברים׳ משובש בחלקו ב־OCR, ולכן נרשם הספר בלא שם מחבר. שנת לידתו אינה נזכרת בערך.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 2025 בפרק תלמידי החוזה מלובלין, עמ׳ 479–480 — עליו וסיפוריו.</li><li id="note-2">׳זכרון דברים׳, תל אביב תשי״ד, עמ׳ נ״ד–נ״ז (הברק; הסליחות; ברכת הפרידה; נוסח המצבה).</li><li id="note-3">ברקמן, ׳מגדל דודי׳, עמ׳ 31 (ביקור רבי יצחק מוורקא; ׳כלי׳).</li><li id="note-4">ערב פסח תרי״ה (י״ד בניסן) = 2 באפריל 1855.</li></ol></div>
+<div class="unknown"><h3 id="sec-2" data-i18n="unknown">מה שלא ידוע</h3><p>בערך זה בכרך ג׳ לא הובאה תורה מפיו — אלא סיפורים ועדויות עליו. שם מחבר ׳זכרון דברים׳ משובש בחלקו ב־OCR, ולכן נרשם הספר בלא שם מחבר. שנת לידתו אינה נזכרת בערך.</p></div>
+<div class="notes"><h3 id="sec-3" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 2025 בפרק תלמידי החוזה מלובלין, עמ׳ 479–480 — עליו וסיפוריו.</li><li id="note-2">׳זכרון דברים׳, תל אביב תשי״ד, עמ׳ נ״ד–נ״ז (הברק; הסליחות; ברכת הפרידה; נוסח המצבה).</li><li id="note-3">ברקמן, ׳מגדל דודי׳, עמ׳ 31 (ביקור רבי יצחק מוורקא; ׳כלי׳).</li><li id="note-4">ערב פסח תרי״ה (י״ד בניסן) = 2 באפריל 1855.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

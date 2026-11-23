@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי אברהם מרדכי קלינגברג</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">עליו — מפי בנו</a></li><li><a href="#sec-3">מתורתו</a></li><li><a href="#sec-4">תלמידיו</a></li><li><a href="#sec-5">מה שלא ידוע</a></li><li><a href="#sec-6">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי אברהם מרדכי קלינגברג</h2>
 <p class="subtitle">דור רביעי לשושלת קומרנא · אדמו״ר בקרקוב</p>
@@ -27,24 +33,26 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי מנשה יעקב קלינגברג</dd></div><div><dt>סבו ורבו</dt><dd>רבי יצחק אייזיק ספרין מקומרנא, שגידלו בביתו</dd></div><div><dt>חתן</dt><dd>רבי יצחק אייזיק מקומרנא</dd></div><div><dt>ישב</dt><dd>בזאלושיץ, ואחר כך בקרקוב, שם הקים בית מדרש משלו</dd></div><div><dt>בניו</dt><dd>רבי זיידא משה חיים מקשישוביץ · רבי שם מקרקוב (אחר כך מזאלושיץ)</dd></div><div><dt>נפטר</dt><dd>י״ט בחשון תרע״ה (1915)</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/krakow.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">קרקוב</span></a><a class="rel" href="../dynasty/komarno.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">קומרנא</span></a><a class="rel" href="../rebbe/yitzchak-isaac-komarno.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי יצחק אייזיק ספרין מקומרנא</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>התחנך אצל סבו רבי יצחק אייזיק מקומרנא, שהזכירו בספרו ׳אוצר החיים׳. סבו גידלו בביתו, וישן אתו במטה אחת, ולמד אתו שיעור קבוע בש״ס ובפוסקים.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>ישב בזאלושיץ, ובעקבות הלשנה נאלץ לעבור לקרקוב, ובה הקים לו בית מדרש משלו.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>מסופר: פעם אחת יצאו הוא וסבו מקומרנא לטייל מחוץ לעיר. בהגיעם לנהר עצרו וירדו מן המרכבה, ואז פנה הצדיק מקומרנא לנכדו ואמר: ״בוא ואלמדך לקרוא ׳פתקאות׳, כי במקום הזה שאנו עומדים הסמיך הנביא אחיה השילוני את מרן הבעש״ט זי״ע״.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>חסידים מספרים, שבעת ביקורו אצל בעל ׳דברי חיים׳, הורה לו שלא כמנהגו לקרוא בעצמו את ה׳קוויטל׳ שמסר לו. בסיימו אמר ה׳דברי חיים׳ זצ״ל: ״קראת יפה מאד, ומעתה לכו וקראו את כל הפתקאות״. בזה הסמיכו גם ה׳דברי חיים׳ להיות מנהיג חסידים.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>עליו — מפי בנו</h3>
+<h3 id="sec-2">עליו — מפי בנו</h3>
 <blockquote>אבי הקדוש היה כל ימיו אוהב שלום ורודף שלום, התרחק מהמחלוקת ומצל צילה, לא התערב בפוליטיקה, קיבל כל אדם בסבר פנים יפות, אוהב את הבריות ומקורב לתורה ולחסידות. משראה לפניו תלמיד חכם נחפז לקראתו בלב רחום, בזרועות פתוחות ובעינים שופעות אהבה רבה.<span class="src">בנו רבי שם קלינגברג, בהקדמה לספרו ׳אהלי שם׳, כמובא באלפסי, כרך ב׳, ערך רבי שם קלינגברג, עמ׳ 797 (קובץ OCR מס׳ 300)</span></blockquote>
-<h3>מתורתו</h3>
+<h3 id="sec-3">מתורתו</h3>
 <p>שמע מאביו, בשם זקנו, שאין תפלת צדיק בן צדיק דומה לתפלת צדיק בן רשע: צדיק בן צדיק אינו מפחד מהחיצונים ותפלתו גלויה וישרה, ואילו צדיק בן רשע מוכרח לכסות תפלתו שלא ישלטו בה החיצונים. לכך היה יצחק אבינו יכול להתפלל בגלוי על בן צדיק, ואילו רבקה היתה צריכה להסתיר תפלתה, שהיתה בת רשע.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <blockquote>אינו דומה תפלת צדיק על בן צדיק לתפלת צדיק על בן רשע.<span class="src">בשם אדוני זקנו, כמובא באלפסי, כרך ב׳, ערך רבי אברהם מרדכי קלינגברג, עמ׳ 787–788 (קובץ OCR מס׳ 290–291)</span></blockquote>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-4" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/shem-klingberg-zalushitz.html">רבי שם קלינגברג מזאלושיץ</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שנת לידתו אינה נזכרת בכרך.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך ׳רבי אברהם מרדכי קלינגברג מואלוטסיץ׳, עמ׳ 787 (קובץ OCR מס׳ 290): תולדותיו, הסיפור עם סבו מקומרנא והסיפור אצל ה׳דברי חיים׳.</li><li id="note-2">שם, עמ׳ 787–788 (קובץ OCR מס׳ 290–291): תורתו — תפלת צדיק בן צדיק ותפלת צדיק בן רשע, בשם אביו ובשם זקנו.</li></ol></div>
+<div class="unknown"><h3 id="sec-5" data-i18n="unknown">מה שלא ידוע</h3><p>שנת לידתו אינה נזכרת בכרך.</p></div>
+<div class="notes"><h3 id="sec-6" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך ׳רבי אברהם מרדכי קלינגברג מואלוטסיץ׳, עמ׳ 787 (קובץ OCR מס׳ 290): תולדותיו, הסיפור עם סבו מקומרנא והסיפור אצל ה׳דברי חיים׳.</li><li id="note-2">שם, עמ׳ 787–788 (קובץ OCR מס׳ 290–291): תורתו — תפלת צדיק בן צדיק ותפלת צדיק בן רשע, בשם אביו ובשם זקנו.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

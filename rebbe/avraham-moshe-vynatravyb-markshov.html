@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי אברהם משה וינטרויב ממרקשוב</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">תורתן</a></li><li><a href="#sec-3">עליו</a></li><li><a href="#sec-4">תלמידיו</a></li><li><a href="#sec-5">מה שלא ידוע</a></li><li><a href="#sec-6">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי אברהם משה וינטרויב ממרקשוב</h2>
 <p class="subtitle">ערך באלפסי, כרך ד׳, עמ׳ 231</p>
@@ -27,22 +33,24 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>עיר</dt><dd>מרקשוב</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/markshov.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">מרקשוב</span></a><a class="rel" href="../dynasty/markshov.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">שושלת מרקשוב</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>תלמידם של רבי יהודה ליב איגר ורבי צדוק מלובלין אדמו"ר במרקשוב ובורשה<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>תורתן</h3>
+<h3 id="sec-2">תורתן</h3>
 <p>בא ללובלין ושבת בפרבר העיר לובלין שהיה נקרא "על /, החול". ביום השבת הלכתי ל"שולחנו" והיו שם אנשים שלא דברים היוצאים מן הלב נכנסים ללב" (על פי ברכות ו, היו מחסידיו. פתח רבי אברהם משה ואמר: צייר אחד צייר א ובנוסח זה אין בש"ס) - ללבו של המשמיע... על הלוח צורה של אריה. בין האנשים אשר התאספו כדי ("הבאר", כרך ראשון-שני, שנה חמישית, ע' נ"2. = לראות את תמונתו של האריה, פרץ אחד בקריאה: הלא אין בתשובות המערכת) זה ארי חי ממש. אז הסבירו לו האנשים: בוודאי, אין זה ארי חי, אלא תמונתו של הארי. כוונתו היתה לרמוז שאין<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>עליו</h3>
+<h3 id="sec-3">עליו</h3>
 <p>הוא בבחינת "ארי חי" ואינו דומה לרבו, אלא הוא בבחינת תמונה בלבד... אלה שהכירו את רבי אברהם משה עוד בטרם הוכתר . 9 לרבי, נבאו פה אחד כי עתיד הוא להיות אדמו"ר לחסידים פעם ו ה באזנו והיר הרופאים צריכים ₪ את ומנהיג בדורו. די היה להסתכל רגע אחד בפניו, כדי לראות /- ו והט. הוא 9-ו בספר הזהר כאילר לא בו שאדם זה כולו שקוע במחשבות קדושות וברעיונות שאינח | ר ולא באזנר צרבר בברזל לוהט. קשורים לעולם הזה כלל. זכורני כי בלמדי בבית מדרשו של אבי מורי החסיד המופלג הבקי בש"ס ובפוסקים ובכל ה"חוזה" בעיר לובלין, ביום קיץ אחד של תקופת תמוז, בא ספרי קבלה, רבי שרגא פייבל רבינוביץ נסע אליו ולאחר רבי אברהם משה - בטרם היותו לרבי - אל בית המדרש. | שובו הפליג מאד מאד את דברי תורתו ואת ידיעתו הגדולה הוא החל מסתובב אנה ואנה בבית המדרש הגדול, כך סבב | בקבלה. הלוך ושוב לאורכו של בית המדרש. אני סיימתי את לימודי (כל הקטעים עד הנה הם מפרק קצר בספרו של<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>והלכתי לאכול צהרים. כששבתי לבית המדרש לאחר ארוחת רבי אברהם יצתק רבינוביץ, "מלאכי עליון", ירושלים הצהרים, עדיין מצאתי את רבי אברהם משה, פוסע הלוך תשכ"ו) ושוב ושקוע במחשבותיו הקדושות, סיימתי את הלימוד של אחר הצהרים ורבי אברהם משה ממשיך. נדהמתי מכחו של הרב הקדוש המפורסם רבן של ישראל רבינו אברהם משה איש זה ועוד יותר נדהמתי כששמעתי שרבי אברהם מש | זצללה"ה האדמו"ר ממרקשוב שהיה ממלא מקומו של שר טרם התפלל שחרית וכמובן לא טעם מאומה. רק שו נטו התורה רבינו צדוק הכהן מלובלין זצללה"ה נכד של רב האי צללי ערב, הוא הפסיק 0% מהליכותיו ומיהר אל 13 = גאון וקדוש שר התורה אספקלריא המאירה אביר הרועים רבו - רבי צדוק הכהן מלובלין, כדי להתפלל שורית 9 המקובל האלקי מרנא ורבנא. רבי עוזיאל מייזלש... מגזע ד ל ו (ענ ט 0 , דעתי כי לא איש פשוט הוא והחשבתי כאדם גדול. הרמ"א והב"ח ומהר"ם מלובלין. לאחר שנפטר רבו, רבי צדוק הכהן מלובלין, הכתירו אותו (בסיום "פתח דבר" לספר "רץ כצבי" של רבי צבי</p>
 <p>חסידים לאדמו"ר. הוא התיישב בעיירה מרקשאוו. פעם אחת הירש פרידלינג, ורשה תפר"ח)</p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-4" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/yehoshua-uziel-weintraub-mamraktavb.html">רבי יהושע עוזיאל וינטרויבם ממרקטוב</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>לא נמסרו תאריכים; מיקום העיר מרקשוב לא אומת; שם הערך שוחזר מקריאה משובשת ב־OCR; המזהה מכיל תעתיק אוטומטי (לא מאומת) של: וינטרויב; הערך ארוך וה־OCR מערבב טורים — הסדר המקורי עלול להיות משובש; בגוף הערך מופיעה כותרת נוספת (&#x27;רבי ...&#x27;) — ייתכן שמדובר בערך נוסף שדורש פיצול; לא נוצר עבורו ערך נפרד בקובץ זה</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3220 (עמ׳ 231).</li><li id="note-2">שם הערך כפי שנקרא ב־OCR: &#x27;רבי אברהם משה וינטרויב ממרקשוב&#x27; — תוקן לפי כללי ה־OCR והקשר הערך.</li><li id="note-3">פרק הכרך: דורות אחרונים 6 שושלת מרקשוב.</li></ol></div>
+<div class="unknown"><h3 id="sec-5" data-i18n="unknown">מה שלא ידוע</h3><p>לא נמסרו תאריכים; מיקום העיר מרקשוב לא אומת; שם הערך שוחזר מקריאה משובשת ב־OCR; המזהה מכיל תעתיק אוטומטי (לא מאומת) של: וינטרויב; הערך ארוך וה־OCR מערבב טורים — הסדר המקורי עלול להיות משובש; בגוף הערך מופיעה כותרת נוספת (&#x27;רבי ...&#x27;) — ייתכן שמדובר בערך נוסף שדורש פיצול; לא נוצר עבורו ערך נפרד בקובץ זה</p></div>
+<div class="notes"><h3 id="sec-6" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3220 (עמ׳ 231).</li><li id="note-2">שם הערך כפי שנקרא ב־OCR: &#x27;רבי אברהם משה וינטרויב ממרקשוב&#x27; — תוקן לפי כללי ה־OCR והקשר הערך.</li><li id="note-3">פרק הכרך: דורות אחרונים 6 שושלת מרקשוב.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

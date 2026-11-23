@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי חיים אלעזר שפירא ממונקאטש</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו</a></li><li><a href="#sec-3">תלמידיו</a></li><li><a href="#sec-4">מה שלא ידוע</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי חיים אלעזר שפירא ממונקאטש</h2>
 <p class="subtitle">בן רבי צבי הירש ממונקאטש · בעל מנחת אלעזר · דור חמישי לדינוב</p>
@@ -28,22 +34,24 @@
 <dl class="facts"><div><dt>נולד</dt><dd>טבת תרל״ב (1872)</dd></div><div><dt>נפטר</dt><dd>ב׳ סיון תרצ״ז (1937)</dd></div><div><dt>אביו</dt><dd>רבי צבי הירש שפירא ממונקאטש</dd></div><div><dt>חתן</dt><dd>בזיווג ראשון: רבי שרגא יאיר רבינוביץ מביאלוברז׳יג; בזיווג שני: רבי יעקב משה ספרין מקומרנא</dd></div><div><dt>רבו המובהק</dt><dd>רבי יחזקאל שרגא הלברשטאם משינאווא</dd></div><div><dt>כיהן</dt><dd>ראב״ד במונקאטש משנת תרס״ד; רב ואדמו״ר משנת תרע״ד</dd></div><div><dt>ייסד</dt><dd>ישיבת דרכי תשובה, בשנת תרפ״ב</dd></div><div><dt>ביקר בארץ</dt><dd>בשנת תר״ץ; רשמי המסע נתפרסמו בספר ׳מסעות ירושלים׳</dd></div><div><dt>בתו היחידה</dt><dd>נישאה לרבי ברוך ירחמיאל רבינוביץ, שמילא את מקומו במונקאטש</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> ״מנחת אלעזר״ (ה׳ חלקים); ״אות חיים ושלום״ על הלכות תפילין והלכות מילה; ״נמוקי אורח חיים״; ״דברי תורה״ (ט׳ חלקים); ״חיים ושלום״ על התורה; ״שער יששכר״ על הגדה; ״מסעות ירושלים״</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/munkacs.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">מונקאטש</span></a><a class="rel" href="../dynasty/dinov.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">דינוב</span></a><a class="rel" href="../rebbe/tzvi-hirsch-munkacs.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי צבי הירש שפירא ממונקאטש</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בנו של רבי צבי הירש שפירא ממונקאטש. התחנך אצל אביו, וזכה לקבל גם מסבו רבי שלמה, ומנעוריו נתפרסם כעילוי בלתי רגיל. בזיווג ראשון היה חתן רבי שרגא יאיר רבינוביץ מביאלוברז׳יג, ובזיווג שני חתן רבי יעקב משה ספרין מקומרנא. הכיר עשרות מצדיקי דורו בפולין ובגליציה, אולם החשיב את רבי יחזקאל שרגא הלברשטאם משינאווא לרבו המובהק.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>בשנת תרס״ד נתמנה לראב״ד במונקאטש, ומשנת תרע״ד כיהן כרב העיר וכאדמו״ר לאלפי חסידים. במלחמת העולם הראשונה עמד בראש העזרה לפליטים שברחו למונקאטש, ועמד בראש כולל מונקאטש וסייע רבות לבני הכולל בארץ ישראל. בשנת תרפ״ב ייסד את ישיבת דרכי תשובה, שהעמידה תלמידים רבים. בשנת תר״ץ ביקר בארץ, ורשמי המסע נתפרסמו בספר ׳מסעות ירושלים׳.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>היה מגדולי התורה החשובים ביותר שבדור, ויצירתו הספרותית מדהימה בהיקפה: ׳מנחת אלעזר׳ — חמישה חלקים; ׳אות חיים ושלום׳; ׳נמוקי אורח חיים׳; ׳דברי תורה׳ — תשעה חלקים; ׳חיים ושלום׳ על התורה; ׳שער יששכר׳ על הגדה; ועוד. בתו היחידה נישאה לרבי ברוך ירחמיאל רבינוביץ, שמילא את מקומו במונקאטש.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>מתורתו</h3>
+<h3 id="sec-2">מתורתו</h3>
 <p>על ׳שויתי ה׳ לנגדי תמיד כי מימיני בל אמוט׳ (תהלים טז, ח) לימד, כי עיקר הניסיון הוא לקיים ׳ואהבת את ה׳ אלקיך בכל לבבך ובכל נפשך׳ (דברים ו, ה) — אפילו בעת התגלות הגבורות. אוהב ה׳ בעת התגלות החסדים — אין בכך חידוש, שכן כל אדם יודע להכיר תודה ולהודות על טובותיו; אבל בעת התגלות הגבורות, חלילה, אז נבחנת האהבה. וזה שאמר דוד: ׳שויתי׳ — עיקר עבודתי להשוות בלבי במידת השתוות, גם בעת ׳הו־ה׳, מידת הרחמים, ׳לנגדי תמיד׳, וגם בעת מידת הדין — ׳כי מימיני בל אמוט׳ ממילא מאהבת ה׳.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <blockquote>״שויתי״ — עיקר עבודתי להשוות בלבי במידת השתוות.<span class="src">ספר ׳תפילות חיים ושלום׳ על תהלים, נלקט על ידי חיים צבי שווארץ, בני ברק תשל״ד, כמובא אצל אלפסי כרך ג׳, עמ׳ 1430</span></blockquote>
 <p>ועל ׳יבכו הכהנים משרתי ה׳ ויאמרו חוסה ה׳ על עמך׳ (יואל ב, יז) לימד, כי ׳הכהנים משרתי ה׳׳ הם הצדיקים, ועיקר תפילתם צריך להיות על הגאולה — ׳אל תתן נחלתך לחרפה למשול בם גויים׳ — ולא כמו המון העם שעיקר תפילתם מכוון לצרכיהם.<sup class='fn'><a href="#note-2">2</a></sup></p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-3" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/baruch-yehoshua-rabinowitz.html">רבי ברוך יהושע ירחמיאל רבינוביץ ממונקאטש</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>בערך נדפסה שנת פטירתו ׳תרע״ז׳ (1917), וזהו טעות דפוס — תרצ״ז (1937): הוא ייסד את ישיבת דרכי תשובה בשנת תרפ״ב וביקר בארץ בשנת תר״ץ, שנים לאחר תרע״ז.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, עמ׳ 1430–1431 (קובצי OCR p0101–p0102) — ערכו של רבי חיים אלעזר שפירא ממונקאטש.</li><li id="note-2">דברי תורתו על תהלים: ספר ׳תפילות חיים ושלום׳, נלקט על ידי חיים צבי שווארץ, בני ברק תשל״ד, כמובא שם.</li></ol></div>
+<div class="unknown"><h3 id="sec-4" data-i18n="unknown">מה שלא ידוע</h3><p>בערך נדפסה שנת פטירתו ׳תרע״ז׳ (1917), וזהו טעות דפוס — תרצ״ז (1937): הוא ייסד את ישיבת דרכי תשובה בשנת תרפ״ב וביקר בארץ בשנת תר״ץ, שנים לאחר תרע״ז.</p></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, עמ׳ 1430–1431 (קובצי OCR p0101–p0102) — ערכו של רבי חיים אלעזר שפירא ממונקאטש.</li><li id="note-2">דברי תורתו על תהלים: ספר ׳תפילות חיים ושלום׳, נלקט על ידי חיים צבי שווארץ, בני ברק תשל״ד, כמובא שם.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

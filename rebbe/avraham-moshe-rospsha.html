@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי אברהם משה וולטפרייד מרוספשה</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">עליו: בעל ניגון</a></li><li><a href="#sec-3">מתורתו: על עצמו</a></li><li><a href="#sec-4">תלמידיו</a></li><li><a href="#sec-5">מה שלא ידוע</a></li><li><a href="#sec-6">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי אברהם משה וולטפרייד מרוספשה</h2>
 <p class="subtitle">בן רבי עמנואל מפשדבורז · דור שלישי לשושלת פשדבורז</p>
@@ -27,25 +33,27 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>נולד</dt><dd>ת״ר (1840)</dd></div><div><dt>נפטר</dt><dd>כ״ב אלול תרע״ה (1915)</dd></div><div><dt>אביו</dt><dd>רבי עמנואל מפשדבורז</dd></div><div><dt>רבו בחסידות</dt><dd>אביו ורבי חיים מצאנז</dd></div><div><dt>כיהן</dt><dd>רב בפשדבורז (תרכ״ה), בסילעוו, וברוספשה משנת תרל״ו</dd></div><div><dt>בניו</dt><dd>רבי עמנואל מלודז׳, רבי ישעיה מקאליש, רבי ישראל מראדומסק, רבי שלמה זלמן מטומשוב, רבי חיים אלעזר מפשדבורז</dd></div><div><dt>חתנו</dt><dd>רבי בנימין בונים עפשטיין מניישטאט</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/pshedborz.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">פשדבורז</span></a><a class="rel" href="../dynasty/pshedborz.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">פשדבורז</span></a><a class="rel" href="../rebbe/emanuel-pshedborz.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי עמנואל וולטפרייד מפשדבורז</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>קיבל בחסידות מאביו ומרבי חיים מצאנז. לזמן ישב בקמינסק ובלובלין, ומשם עבר אל אביו בפשדבורז. בשנת תרכ״ה, לאחר פטירת אביו, קיבל את הרבנות בפשדבורז — ורבי חיים מצאנז כתב מכתב המלצה לקהילה, ובו הבטיח שיהיה ״לאילן רב״ אם יפארוהו ויחזקוהו.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>בשנת תרכ״ט פרצה מחלוקת נוספת בעיר, והוא עזב את העיר וקיבל את הרבנות בסילעוו הסמוכה לפיוטרקוב. בשנת תרל״ב העלילו עליו עלילת דם: הוא הואשם ברצח ילד נוצרי, ובחיפושים שנערכו בביתו נהרסו רהיטיו וכליו — ולמרבה המזל נמצא הילד שהרב הואשם ברציחתו. בשנת תרל״ג חזר לפשדבורז, אולם מתנגדיו לא חדלו להציק לו. בשנת תרל״ו עבר לרוספשה, ועל שמה נתפרסם. גם שם לא מצא מנוח: הרבנית השקתה את ה״גוי של שבת״ במשקה חריף, ומסתבר שהיה זה משקה רעיל; הם הואשמו ברצח, ורק לאחר שידולים רבים ניצלו מאשמה זו.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>היה איש צורה, גבה קומה, ופניו היו מאירים ומפיקים זיו, חן ואצילות. היה איש טוב ומטיב לבריות ובעל צדקה במידה מרובה; איש חי, רב פעלים, בבחינת ״צדיק גוזר והקב״ה מקיים״. אלפי ישראל נהרו אליו ונהנו ממנו עצה ותושיה. היה מקרב אליו אנשים פשוטים, חסידים המוניים, והדריכם ללכת בדרך התורה והמצוה, ורבים השיב מעוון, ובזה התפאר אותו צדיק.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <p>ויקראו שמו אברהם, על שם זקנו רבי אברהם אביו של החוזה מלובלין, ומשה על שם דודו רבי משה סופר מפשעוורסק. רבי משה מלעלוב אהב אותו מאד, ובהיותו בן ארבע־חמש היה בא אל רבי משה מלעלוב ואומר לפניו את הברכות של שחרית, ורבי משה היה משיב על הברכות באמן.<sup class='fn'><a href="#note-3">3</a></sup></p>
-<h3>עליו: בעל ניגון</h3>
+<h3 id="sec-2">עליו: בעל ניגון</h3>
 <p>הצדיק מרוספשה היה רב פעלים בשדה הנגינה. הוא היה בעל קול נעים וצלול, שבו היה שובה את לב שומעיו בעוברו לפני התיבה. הוא ידע פרק בחכמת הניגון וביצירתו, ומזמן לזמן היה שופע ניגונים ליריים ועליזים, מתונים ומהירים, שחיברם לתפילות ולפזמונים של החגים והימים הנוראים, ולפזמוני השולחן של שבת ומועד.<sup class='fn'><a href="#note-4">4</a></sup></p>
-<h3>מתורתו: על עצמו</h3>
+<h3 id="sec-3">מתורתו: על עצמו</h3>
 <p>כך אמר על עצמו:</p>
 <blockquote>אני הנני רבי של ״אלמדה פושעים דרכיך״ (תהלים נא, טו). אדמו״רים אחרים משגיחים על חסידיהם שיעשו לפנים משורת הדין, שיניחו למשל גם תפילין של רבנו תם. בעוד שעלי להשתדל שהנלווים אלי יעשו כשורת הדין ולא יפרצו פרצות בדת. לאדמו״רים אחרים יש יער, ומלאכה קלה היא לכרות עצים מתוכו. לי נשארו שורשים בתוך האדמה, אשר קשה לעוקרם.<span class="src">פ״ז גליקסמן, ״רבנו אליקים געץ״, עמ׳ נ״ט, כמובא אצל אלפסי</span></blockquote>
 <p>ומכתב ההמלצה של רבי חיים מצאנז עליו, מיום ב׳, ז׳ בניסן: ״בטוח אני שיהיה לאילן רב, אם יפארוהו ויחזקוהו... חזקוהו והושיבוהו על מקום אבותיו.״<sup class='fn'><a href="#note-5">5</a></sup></p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-4" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/shlomo-zalman-tomashov.html">רבי שלמה זלמן וולטפרייד מטומשוב</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שם העיר ״רוספשה״ שאליה עבר בשנת תרל״ו ועל שמה נתפרסם לא זוהה בוודאות; לפיכך רשומה עירו באתר כפשדבורז, שבה כיהן כרב.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, עמ׳ 1365–1366 (קובצי OCR p0052–p0053) — פרק ״רבי אברהם משה וולטפרייד מרוספשא״: תולדותיו, עליו ועל עצמו.</li><li id="note-2">״איש צורה... צדיק גוזר״: ספר ״פיעטרקאוו״, תל אביב תשכ״ה, עמ׳ 256, כמובא שם.</li><li id="note-3">שמותיו אברהם ומשה: פ״ז גליקסמן, ״רבנו אליקים געץ״, עמ׳ נ״ו–נ״ז, כמובא שם.</li><li id="note-4">בעל ניגון: ספר ״פיעטרקאוו״, שם, כמובא שם.</li><li id="note-5">מכתב רבי חיים מצאנז: שם, עמ׳ נ״ט, כמובא שם.</li></ol></div>
+<div class="unknown"><h3 id="sec-5" data-i18n="unknown">מה שלא ידוע</h3><p>שם העיר ״רוספשה״ שאליה עבר בשנת תרל״ו ועל שמה נתפרסם לא זוהה בוודאות; לפיכך רשומה עירו באתר כפשדבורז, שבה כיהן כרב.</p></div>
+<div class="notes"><h3 id="sec-6" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, עמ׳ 1365–1366 (קובצי OCR p0052–p0053) — פרק ״רבי אברהם משה וולטפרייד מרוספשא״: תולדותיו, עליו ועל עצמו.</li><li id="note-2">״איש צורה... צדיק גוזר״: ספר ״פיעטרקאוו״, תל אביב תשכ״ה, עמ׳ 256, כמובא שם.</li><li id="note-3">שמותיו אברהם ומשה: פ״ז גליקסמן, ״רבנו אליקים געץ״, עמ׳ נ״ו–נ״ז, כמובא שם.</li><li id="note-4">בעל ניגון: ספר ״פיעטרקאוו״, שם, כמובא שם.</li><li id="note-5">מכתב רבי חיים מצאנז: שם, עמ׳ נ״ט, כמובא שם.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

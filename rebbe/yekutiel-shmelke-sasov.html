@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי יקותיאל שמלקה מסאסוב</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו</a></li><li><a href="#sec-3">מה שלא ידוע</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי יקותיאל שמלקה מסאסוב</h2>
 <p class="subtitle">בן רבי משה ליב מסאסוב · אדמו״ר בסאסוב</p>
@@ -27,18 +33,20 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי משה ליב מסאסוב</dd></div><div><dt>רבו</dt><dd>רבי אברהם יהושע העשל מאפטא ורבי משה צבי מסווראן</dd></div><div><dt>רבנות בסאסוב</dt><dd>משנת תר״ט (1849)</dd></div><div><dt>פטירתו</dt><dd>ביאגלניצא, י״ח כסלו תרכ״ב, לפתע בהיותו אצל החסידים</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/sasov.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">סאסוב (סאסיב)</span></a><a class="rel" href="../dynasty/sasov.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">סאסוב</span></a><a class="rel" href="../rebbe/avraham-yehoshua-heschel-apta.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי אברהם יהושע העשיל מאפטא</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>חתן הגביר ר׳ ראובן יפה. נתיתם בילדותו וגדל בביתם של רבי אברהם חיים מזלאטשוב ורבי מנחם מנדל מקוסוב. כחתנו של גביר סירב לקבל עליו עול רבנות ועסק במסחר, ומשלא הצליח במסחר הסכים בשנת תר״ט להתמנות כרב בסאסוב, ובה המשיך את האדמו״רות של אביו, אף שלא היו לו חסידים כאביו. בחסידות קיבל מרבי אברהם יהושע העשל מאפטא, רבי משה צבי מסאווראן, ורבי ישראל מרוז׳ין. נפטר לפתע בהיותו אצל החסידים ביאגלניצא.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>בניו: רבי אלטר, אביו של רבי יקותיאל שמואל שמלקה ערבליך מצפת, ור׳ יעקב. בנותיו: חיה פרימה רבקה, אשת רבי שלמה שפירא ממונקאץ; בילה ינטה, אשת רבי בצלאל בנו של רבי נחמיה יחיאל רבינוביץ מביכוב; דינה, אשת רבי שרגא יאיר מביאלוברזיג.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>מתורתו</h3>
+<h3 id="sec-2">מתורתו</h3>
 <p>על הפסוק ׳כי תפגע שור אויבך או חמורו תועה השב תשיבנו לו׳ (שמות כג, ד) הוא מלמד שכשהרשע בא אל הצדיק, הצדיק מכניס בלב הבאים אליו הרהורי תשובה. הירא שמים נוטל את הניצוץ ומוסיף אומץ בכל יום לעבודת ה׳ עד שנעשה צדיק גמור; והסכל חוזר לסורו, ואז יש לצדיק טענה לתבוע את השכר המגיע לרשע בעד הרהורי התשובה שהכניס בלבו. וזהו ׳השב תשיבנו לו׳ — תסתפק בחלקך.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <blockquote>אתמול לעת ערב השגתי מכתבו והיום בבקר הלכתי אל קברי אבותי הקדושים להתפלל עבור כללות אחינו בני ישראל בפולין ובפרטות עבור אנשי שלומי הצמודים בקירות לבי. ואקוה לאל שבוודאי יתקבלו תפילותי לפני אדון כל. ואחר כך הלכתי לביתי בשמחה גדולה, ידידי יקירי אל ידאג כלל. יהיה לבו כלב אריה והאל הטוב יעזור לו ויגמור בעדו לטוב וראו שונאיו ויבושו.<span class="src">מתוך מכתבו לרבי מרדכי מוטיל מקאלשין — ׳עשר עטרות׳ ע׳ 67, כמובא באלפסי, כרך ב׳, ערך רבי יקותיאל שמלקה מסאסוב (קובץ OCR מס׳ 65)</span></blockquote>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שנת לידתו אינה מצוינת בערך אצל אלפסי.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך ׳רבי יקותיאל שמלקה מסאסוב׳, עמ׳ 569 (קובץ OCR מס׳ 65): תולדותיו, רבו, בניו ובנותיו, פטירתו ביאגלניצא.</li><li id="note-2">׳כי תפגע שור אויבך׳: ׳זר זהב׳ בסוף ׳ארון עדות׳, כמובא שם.</li><li id="note-3">המכתב לרבי מרדכי מוטיל מקאלשין: ׳עשר עטרות׳ ע׳ 67, כמובא שם.</li></ol></div>
+<div class="unknown"><h3 id="sec-3" data-i18n="unknown">מה שלא ידוע</h3><p>שנת לידתו אינה מצוינת בערך אצל אלפסי.</p></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך ׳רבי יקותיאל שמלקה מסאסוב׳, עמ׳ 569 (קובץ OCR מס׳ 65): תולדותיו, רבו, בניו ובנותיו, פטירתו ביאגלניצא.</li><li id="note-2">׳כי תפגע שור אויבך׳: ׳זר זהב׳ בסוף ׳ארון עדות׳, כמובא שם.</li><li id="note-3">המכתב לרבי מרדכי מוטיל מקאלשין: ׳עשר עטרות׳ ע׳ 67, כמובא שם.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

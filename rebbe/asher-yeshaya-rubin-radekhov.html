@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי אשר ישעיה רובין מראדיחוב</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מה שלא ידוע</a></li><li><a href="#sec-3">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי אשר ישעיה רובין מראדיחוב</h2>
 <p class="subtitle">בנו של נפתלי צבי מראדיחוב</p>
@@ -27,16 +33,18 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>נפתלי צבי מראדיחוב</dd></div><div><dt>דור</dt><dd>דור ששי</dd></div><div><dt>תאריכים</dt><dd>— ט״ו באדר תרע״ו</dd></div><div><dt>חתן</dt><dd>רבי חיים אליהו ליברמן מזולקאוו. שם עירו הקודמת - האדמור מזולקאוו.</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/radekhiv.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">ראדיחוב</span></a><a class="rel" href="../dynasty/ropshitz.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">רופשיץ</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>רבי אשר ישעיה רובין מראדיחוב בן רבי נפתלי צבי מראדיחוב בן רבי יצחק רובין מבראד (892) דור ששי לשושלת רופשיץ האדמו"ר מז'ולקוב בקשאגוב ט"ו באדר תרע"ו > תולדותיו: כיהן כאדמו"ר בז'ולקאוו וכשעבר לגור בקשאנוב נקרא על חתן רבי חיים אליהו ליברמן מז'ולקאוו. שם עירו הקודמת - האדמו"ר מז'ולקאוו.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>בניו - רבי יצחק גליקמן מסוסנוביץ, חתנו של האדמו"ר | כאשר תתתייב הטבע כאמור, כי קללה בהתרעמה על דבר רבי אלטר מוולבראם; רבי חיים אליהו רובין מטרוסקוביץ; | בלתי אפשרי. רבי חנוך הניך שמילא את מקום אביו בקשאנוב. והנה בעדת קרח מה טענו "כל העדה כולם קדושים חתניו: רבי מנשה מארילוס, רבי ישראל מארילוס, רבי | ובתוכם ד' ומדוע תתנשאו', כלומר מה ראיתם על ככה מנחם עהרליך מסעליש. שאהרן יהי' הכה"ג הלא גם אחר מחוגי העם מוכשרים המה לאותה איצטלא, כי בתוכם השם, אבל טענתם שוא ה" כי החדיר וסידר את הסידור "לב שמח" של רבי חנוך הניד = מי גרם להם השראת השכינה הלא לא אחר רק אהרן הכהן, מאולסק. כמו שנאמר בפרשת שמיני (ויקרא ט, כג) "ויצאו ויברכו את העם וירא כבוד ד' אל כל העם" ופ" רש"י ז"ל שם כדאי > תורתו: אהרן שע"י…<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>תוות התסידות / רבי מנחם מנדל רובין מלינסק - שושלת רופשיץ 1 שכל תהלוכותיה רק על פי תורה בידיה טוו, ולא חשה על | בשלימות, אלו טוו מעל העזים כדי שיוכלו גם בשבת קודש יום השבת שאי אפשר לעשות דבר, דהא התורה פטרה | שאי אפשר לעשות שום מלאכה, עכ"פ יוכלו להביאו להמשכן מלעשות בשבת קודש, אבל הנשים אשר נשא לבן בחכמה, | כנ"ל וישתכרו ג"כ שבימי החול לא יתעכבו בהבאתם. כלומר שנדיבת לבן בחכמה שהשתדלו בכל עוז שיהיה הנתינה ("הבאר" כרך ראשון-שני, שנה ששית, ע- י"ג-י"ד)<sup class='fn'><a href="#note-1">1</a></sup></p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>מיקומה של ראדיחוב לא אומת.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך 919 (עמ׳ 395).</li><li id="note-2">הערך ארוך ודו־טורי ב־OCR; הקטעים כאן מובאים כלשונם מהמקור, וייתכן שהסדר משובש.</li></ol></div>
+<div class="unknown"><h3 id="sec-2" data-i18n="unknown">מה שלא ידוע</h3><p>מיקומה של ראדיחוב לא אומת.</p></div>
+<div class="notes"><h3 id="sec-3" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך 919 (עמ׳ 395).</li><li id="note-2">הערך ארוך ודו־טורי ב־OCR; הקטעים כאן מובאים כלשונם מהמקור, וייתכן שהסדר משובש.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

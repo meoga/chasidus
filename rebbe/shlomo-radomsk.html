@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי שלמה הכהן רבינוביץ מראדומסק</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתלמידיו</a></li><li><a href="#sec-3">תלמידיו</a></li><li><a href="#sec-4">מה שלא ידוע</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי שלמה הכהן רבינוביץ מראדומסק</h2>
 <p class="subtitle">מייסד חסידות ראדומסק · בעל &#x27;תפארת שלמה&#x27;</p>
@@ -28,21 +34,23 @@
 <dl class="facts"><div><dt>אביו</dt><dd>רבי דב צבי הכהן, אב״ד וולאשצווי</dd></div><div><dt>רבותיו</dt><dd>רבי משה אהרן, רבה של קוטנה; רבי אברהם מפיוטרקוב; רבו בחסידות — רבי מאיר מאפטא</dd></div><div><dt>רבנות</dt><dd>נתקבל כרב בראדומסק בשנת תקצ״ד (1834)</dd></div><div><dt>בניו</dt><dd>רבי אריה לייב; רבי צבי מאיר; רבי אברהם ישכר</dd></div><div><dt>פטירה</dt><dd>ערב ראש חודש ניסן תרכ״ו — כ״ט אדר תרכ״ו (16 במרץ 1866)</dd></div><div><dt>מקום מנוחה</dt><dd>בית הקברות בראדומסק</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> תפארת שלמה</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/radomsk.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">רדומסק</span></a><a class="rel" href="../dynasty/radomsk.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">רדומסק</span></a><a class="rel" href="../rebbe/meir-halevi-apta.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי מאיר הלוי מאפטא</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן רבי דב צבי הכהן, אב״ד וולאשצווי. מילדותו הצטיין בכשרונותיו, וספרי הנסתר וספרי קבלה רבים היו שגורים על פיו. כשנתפס לחסידות הלך שמו לפניו כעילוי.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>רבותיו המובהקים היו רבי משה אהרן, רבה של קוטנה, ורבי אברהם מפיוטרקוב. רבו בחסידות היה רבי מאיר מאפטא, אולם הוא הסתופף גם בצלם של צדיקים אחרים, כגון רבי ישעיה מפשדבורז, רבי בער מראדושיץ, רבי יחזקאל מקוזמיר ואחרים.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>רבי שלמה לא התקרב להמונים הפשוטים, שבאו אליו לשם צרכים גשמיים. הוא נשא את עיניו ונפשו לאנשי מעלה, יחידי סגולה, המתעמקים בתורת החסידות. בשנת תקצ״ד נתקבל כרב בראדומסק, שהפכה אז מרכז חסידי חשוב. דברי התורה שלו, צורת דבורו ונגוניו משכו לבבות של אלפים.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>מתלמידיו</h3>
+<h3 id="sec-2">מתלמידיו</h3>
 <p>בין תלמידיו הרבים גם בעל התשובה הרופא רבי חיים דוד ברנהארד מפיוטרקוב. אף סופר החסידות, הפילוסוף רבי אהרון מארקוס, הסתופף בצלו משנת תרכ״ב עד שנת פטירתו תרכ״ו.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>בית הקברות בראדומסק הוא מן היחידים בפולין שנשמר בשלימותו.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-3" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/tzvi-meir-radomsk.html">רבי צבי מאיר הכהן רבינוביץ מראדומסק</a><a class="chip" href="../rebbe/avraham-yissachar-radomsk.html">רבי אברהם ישכר הכהן רבינוביץ מראדומסק</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>בערך זה בכרך ד׳ לא הובאה תורה מפיו.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 2934 (עמ׳ 6): כותרת הערך &#x27;רבי שלמה הכהן רבינוביץ מראדומטק&#x27; — &#x27;מראדומטק&#x27; נוסח משובש של מראדומסק. תולדותיו, רבותיו, רבנותו בראדומסק משנת תקצ״ד, בניו ותלמידיו.</li><li id="note-2">כ״ט אדר תרכ״ו = יום ו׳, 16 במרץ 1866 (convertdate) — ערב ראש חודש ניסן, כנוסח הערך.</li><li id="note-3">שנת הלידה: אלפסי אומר תקס״ג (1803); ויקיפדיה העברית (ערך &#x27;שלמה רבינוביץ&#x27;) אומרת תקס״א (1801). כאן הולכים אחר אלפסי — 1803 נתמכת גם בפרויקט בן־יהודה (&#x27;ר׳ שלמה מרדומסק&#x27;, אפרים צורף), בהערת שוליים בקובץ &#x27;פרי עץ הגן&#x27; (רמבי״ש) ובאתר zadikim.co.</li><li id="note-4">שנת הרבנות: תקצ״ד היא 1834 (ולא 1836 כפי שנכתב בהערת השוליים ברמבי״ש); אתר Bidspirit מציין אף הוא שמונה לרב בראדומסק באדר 1834.</li><li id="note-5">ויקיפדיה העברית כותבת עליו &#x27;תלמיד החוזה מלובלין&#x27;, אך לפי אלפסי ורמבי״ש הקשר לחוזה מלובלין ול&#x27;יהודי הקדוש&#x27; מפשיסחה היה של אביו, רבי דב צבי — ככל הנראה בלבול בין האב לבן; לא אומץ כאן. ויקיפדיה מוסיפה את רבי פישל מסטריקוב בין רבותיו המובהקים — גם זה אינו בערך אלפסי.</li><li id="note-6">אמו, מרת פרומט בת רבי שלמה מפינטשוב, מחבר &#x27;ויקהל שלמה&#x27;, נזכרת בוויקיפדיה היידית ובאתר zadikim.co, ולא בערך אלפסי.</li></ol></div>
+<div class="unknown"><h3 id="sec-4" data-i18n="unknown">מה שלא ידוע</h3><p>בערך זה בכרך ד׳ לא הובאה תורה מפיו.</p></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 2934 (עמ׳ 6): כותרת הערך &#x27;רבי שלמה הכהן רבינוביץ מראדומטק&#x27; — &#x27;מראדומטק&#x27; נוסח משובש של מראדומסק. תולדותיו, רבותיו, רבנותו בראדומסק משנת תקצ״ד, בניו ותלמידיו.</li><li id="note-2">כ״ט אדר תרכ״ו = יום ו׳, 16 במרץ 1866 (convertdate) — ערב ראש חודש ניסן, כנוסח הערך.</li><li id="note-3">שנת הלידה: אלפסי אומר תקס״ג (1803); ויקיפדיה העברית (ערך &#x27;שלמה רבינוביץ&#x27;) אומרת תקס״א (1801). כאן הולכים אחר אלפסי — 1803 נתמכת גם בפרויקט בן־יהודה (&#x27;ר׳ שלמה מרדומסק&#x27;, אפרים צורף), בהערת שוליים בקובץ &#x27;פרי עץ הגן&#x27; (רמבי״ש) ובאתר zadikim.co.</li><li id="note-4">שנת הרבנות: תקצ״ד היא 1834 (ולא 1836 כפי שנכתב בהערת השוליים ברמבי״ש); אתר Bidspirit מציין אף הוא שמונה לרב בראדומסק באדר 1834.</li><li id="note-5">ויקיפדיה העברית כותבת עליו &#x27;תלמיד החוזה מלובלין&#x27;, אך לפי אלפסי ורמבי״ש הקשר לחוזה מלובלין ול&#x27;יהודי הקדוש&#x27; מפשיסחה היה של אביו, רבי דב צבי — ככל הנראה בלבול בין האב לבן; לא אומץ כאן. ויקיפדיה מוסיפה את רבי פישל מסטריקוב בין רבותיו המובהקים — גם זה אינו בערך אלפסי.</li><li id="note-6">אמו, מרת פרומט בת רבי שלמה מפינטשוב, מחבר &#x27;ויקהל שלמה&#x27;, נזכרת בוויקיפדיה היידית ובאתר zadikim.co, ולא בערך אלפסי.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

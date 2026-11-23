@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי משה קלינגברג מזאלושיץ</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו</a></li><li><a href="#sec-3">מה שלא ידוע</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי משה קלינגברג מזאלושיץ</h2>
 <p class="subtitle">דור ששי לשושלת קומרנא · האדמו״ר מזאלושיץ בברונקס ובאנטוורפן</p>
@@ -28,18 +34,20 @@
 <dl class="facts"><div><dt>אביו</dt><dd>רבי שם קלינגברג מזאלושיץ (תרל״ב–תש״ג, נספה בשואה)</dd></div><div><dt>חתן</dt><dd>רבי פנחס שלום רוטנברג מקוסון</dd></div><div><dt>כיהן</dt><dd>אדמו״ר מזאלושיץ בברונקס ובאנטוורפן</dd></div><div><dt>השואה</dt><dd>עבר את אימי השואה בברגן־בלזן ובאושוויץ</dd></div><div><dt>ספרו</dt><dd>׳ברכת משה׳; פרסם מתורת אביו בספר ׳שם שלום׳</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> ברכת משה</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/zalushitz.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">זאלושיץ (דז׳יאלושיץ)</span></a><a class="rel" href="../dynasty/komarno.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">קומרנא</span></a><a class="rel" href="../rebbe/shem-klingberg-zalushitz.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי שם קלינגברג מזאלושיץ</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>אדמו״ר מזאלושיץ בברונקס ובאנטוורפן. חתן רבי פנחס שלום רוטנברג מקוסון. מחבר ׳ברכת משה׳. עבר את אימי השואה בברגן־בלזן ובאושוויץ. ארונו הועלה לארץ.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>אביו, רבי שם קלינגברג מזאלושיץ, בן רבי אברהם מרדכי, היה מגדולי המקובלים בדורו; נספה בשואה בכ״ח בניסן תש״ג. הוא פרסם את תורת אביו בספר ׳שם שלום׳.<sup class='fn'><a href="#note-2">2</a></sup></p>
-<h3>מתורתו</h3>
+<h3 id="sec-2">מתורתו</h3>
 <blockquote>״אז ישיר משה ובני ישראל את השירה הזאת לד׳ ויאמרו לאמר״ (שמות טו, א) — ברש״י הק׳: ״אז ישיר משה. אז, כשראה הנס, עלה בלבו שישיר שירה״. להבין מדוע אחרי קריעת ים סוף עלה בלבו של משה שישיר שירה, מדוע לא כשיצאו ממצרים. ושמעתי דבר נפלא מכ״ק אאמו״ר הגה״ק זצ״ל הי״ד, מדוע כל הטומאות בטילות במים, מה כח סגולת המים שמבטל כל הטומאות, ואמר בשם ה״פרשת דרכים״ הקדמה נפלאה: שבמקום ששורה שם מקודם רוח טומאה, אין יכול אח״כ לשרות שם קדושה, ובמקום ששורה שם מקודם רוח קדושה, אז לא שולט שמה יותר טומאה. ולפי זה יכולים להגיד פה הטעם שעלה בלבו של משה לאמר שירה אחרי קריעת ים סוף: כי תיכף כשהכלל ישראל יצאו ממצרים, עוד לא היו ראויים לזו המדרגה, אבל אחרי שעברו את הים, בהתגלות כל כך גדולה של גילוי אלקות, וישראל עברו את המים ונטהרו מהזוהמא של גלות מצרים, ומשה רבינו ע״ה הרגיש אז בלבו מדרגות הכלל ישראל שעלו כבר — לכן עלה בלבו לאמר שירה, כי נטהרו על ידי שעברו את הים סוף, מקום טהרה.<span class="src">׳ברכת משה׳, נספח ל׳אהלי שם׳, כמובא באלפסי, כרך ב׳, ערך רבי משה קלינגברג, עמ׳ 809–810 (קובץ OCR מס׳ 312–313)</span></blockquote>
 <p>״הגבל את ההר וקדשתו״ (שמות יט, כג) — קח את האותיות ה״ר ותמצא התיבה קדוש: אות לפני ה׳ — ד׳, ואחרי ה׳ — ו׳; לפני ף׳ — ע׳, אחרי ך׳ — ל׳, הם אותיות ׳קדוש׳. וזה ״הגבל את ההר וקדשתו״ — תמצא אותיות קדוש. והרי ידוע שהר רומז על היצה״ר, כדאיתא בגמרא (סוכה נב, א): לעתיד לבוא לצדיקים נדמה היצה״ר כהר. עבודתנו הוא להפוך היצה״ר ליצר טוב, כמו שאמר דוד המלך ע״ה (תהלים קט, כב): ״ולבי חלל בקרבי״. (שם)<sup class='fn'><a href="#note-1">1</a></sup></p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שנת לידתו אינה נזכרת בכרך. לאביו רבי שם: אלפסי נותן תרל״ב (1872), ויקיפדיה העברית — בערך תר״ל (1870).</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך ׳רבי משה קלינגברג׳, עמ׳ 809–810 (קובץ OCR מס׳ 312–313): תולדותיו, תורתו מ׳ברכת משה׳.</li><li id="note-2">אביו רבי שם קלינגברג מזאלושיץ, תרל״ב – כ״ח ניסן תש״ג: שם, עמ׳ 797 (קובץ OCR מס׳ 300); וכן ויקיפדיה העברית, ערך ׳שם קלינברג׳ (נולד בסקוליה לרבי אברהם מרדכי, נספה בפלאשוב 1943).</li><li id="note-3">חתן רבי פנחס שלום מקוסון, ברגן־בלזן ואושוויץ, חצר בניו יורק ובאנטוורפן, נפטר 1995 ונקבר בארץ, מחבר ׳ברכת משה׳: Bidspirit, מכירת מכתבו ממחנה העקורים (Encyclopedia L&#x27;Chassidut, ע׳ 314).</li></ol></div>
+<div class="unknown"><h3 id="sec-3" data-i18n="unknown">מה שלא ידוע</h3><p>שנת לידתו אינה נזכרת בכרך. לאביו רבי שם: אלפסי נותן תרל״ב (1872), ויקיפדיה העברית — בערך תר״ל (1870).</p></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך ׳רבי משה קלינגברג׳, עמ׳ 809–810 (קובץ OCR מס׳ 312–313): תולדותיו, תורתו מ׳ברכת משה׳.</li><li id="note-2">אביו רבי שם קלינגברג מזאלושיץ, תרל״ב – כ״ח ניסן תש״ג: שם, עמ׳ 797 (קובץ OCR מס׳ 300); וכן ויקיפדיה העברית, ערך ׳שם קלינברג׳ (נולד בסקוליה לרבי אברהם מרדכי, נספה בפלאשוב 1943).</li><li id="note-3">חתן רבי פנחס שלום מקוסון, ברגן־בלזן ואושוויץ, חצר בניו יורק ובאנטוורפן, נפטר 1995 ונקבר בארץ, מחבר ׳ברכת משה׳: Bidspirit, מכירת מכתבו ממחנה העקורים (Encyclopedia L&#x27;Chassidut, ע׳ 314).</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי נתן דוד רבינוביץ מפארצוב</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">תורתו</a></li><li><a href="#sec-3">תלמידיו</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי נתן דוד רבינוביץ מפארצוב</h2>
 <p class="subtitle">בן רבי יצחק יעקב מביאלה · מחבר ואלה הדברים שנאמרו לדוד</p>
@@ -28,20 +34,22 @@
 <dl class="facts"><div><dt>נולד</dt><dd>תר״ך (1860)</dd></div><div><dt>נפטר</dt><dd>ז׳ שבט תר״ץ (1930)</dd></div><div><dt>אביו</dt><dd>רבי יצחק יעקב מביאלה</dd></div><div><dt>חתן</dt><dd>רבי יחיאל יעקב מקוז׳ניץ; בזיווג שני — חתן רבי משה ליב שפירא מסטריז׳וב</dd></div><div><dt>כיהן</dt><dd>בפארצוב, ומשנת תרע״ב בשדליץ</dd></div><div><dt>ספרו</dt><dd>ואלה הדברים שנאמרו לדוד — צוואתו, נדפסה בוורשה, חש״ד</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> ואלה הדברים שנאמרו לדוד</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/parczew.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">פארצוב</span></a><a class="rel" href="../dynasty/biala.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">ביאלה</span></a><a class="rel" href="../rebbe/yitzchak-yaakov-biala.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי יצחק יעקב רבינוביץ מביאלה</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>חתן רבי יחיאל יעקב מקוז׳ניץ, ובזיווג שני חתן רבי משה ליב שפירא מסטריז׳וב. החל להנהיג עדה בחיי אביו, ובשנת תרע״ב עבר לשדליץ. ארונו הובא לארץ על ידי בנו רבי ברוך ירחמיאל רבינוביץ ממונקאטש, ונטמן בבית הקברות שבפתח תקוה.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>תורתו</h3>
+<h3 id="sec-2">תורתו</h3>
 <p>בצוואתו, ״ואלה הדברים שנאמרו לדוד״, ציווה לבניו אחריו רק על השרשים: לקיים התורה והמצוה והעבודה ביראה ואהבה. הוא פתח באברהם אבינו, שעליו נאמר ״אשר יצוה את בניו״ (בראשית יח, יט) — ״ושמרו דרך השם לעשות צדקה ומשפט״, אשר המה שורש לכל העבודה והתורה והמצוה; וכן יצחק ציווה את יעקב ״לא תקח אשה מבנות כנען״ (שם כח, א) — בסור מרע; ויעקב ציווה ״האספו ואגידה לכם אשר יקרא אתכם באחרית הימים״ (שם מט, א); ומשה רבינו סיים ״אשריך ישראל מי כמוך עם נושע בה׳״ (דברים לג, כט); ודוד המלך ציווה את שלמה ״ושמרת את משמרת ה׳״ (מלכים א ב, ג); ומלאכי סיים ״זכרו תורת משה עבדי״ (מלאכי ג, כב).<sup class='fn'><a href="#note-2">2</a></sup></p>
 <p>והוסיף בצוואתו: העיקר הוא אמונה בה׳ בלב תמים, בלתי חקירות ח״ו, ובתורת ה׳ ובמצותיו ביראה ובאהבה, בלימוד התורה בכתב ובעל פה, ובעשיות המצות ובדביקות לתלמידי חכמים וביראת ה׳ — ובזה באים לדביקות הבורא ברוך הוא, ולתיקון כל המדות במחשבה ודיבור ומעשה. וגם בחיצוניותיכם יהא ניכר בכם כי הנכם זרע ברוכי ה׳: לא תשנו ח״ו ממלבושיכם כלל וכלל, אפילו באחד מן המלבושים, מכפי שהורגלו אבותינו הקדושים זי״ע, אפילו בגד אחד שלכם לא ישונה.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <blockquote>״ואל תאמר לכשאפנה אשנה״ (אבות ב, ד). היינו: אל תאמר שעבודת ה׳ שלך היא רק בלימוד תורה — לכשאפנה, אז אשנה! כי ״שמא לא תפנה״ — ואז לא תלמד תורה ולא יהיה לך כלום בעבודת הבורא. אלא עבודת ה׳ צריכה להיות כל היום — גם בעסקיך ובעבודתך, בחינת ״בכל דרכיך דעהו״ (משלי ג, ו).<span class="src">כמובא בזכרון חן, ירושלים תשי״ז</span></blockquote>
 <p>ועל עצמו כתב בצוואתו, בשתי מכוסה: האחד — כי בער אנכי מאיש ולא בינת אדם לי, ולא נסיתי מעודי אפילו במשהו בעבודת הבורא יתברך שמו, ואיך יוכל איש נבזה כמוני להראות ולהשאיר אחריו הנהגה עבור בניו ובנותיו; והשנית — כי עבודתו יתברך רחבה מני ים וארכה מארץ מידתה, ולכל אחד מישראל יש לו עבודתו כפי שורש נשמתו.<sup class='fn'><a href="#note-2">2</a></sup></p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-3" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/moshe-yechiel-elimelech-rabinowitz-malbartavb.html">רבי משה יחיאל אלימלך רבינוביץ מלברטוב</a></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, עמ׳ 1334–1335 (קובצי OCR p0028–p0029) — פרק ״רבי נתן דוד רבינוביץ מפארצוב״.</li><li id="note-2">צוואתו, ואלה הדברים שנאמרו לדוד, נדפסה בוורשה, חש״ד (כמובא אצל אלפסי, שם).</li><li id="note-3">הרב נתן גד וינטרויב, זכרון חן, ירושלים תשי״ז (כמובא אצל אלפסי, שם).</li></ol></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, עמ׳ 1334–1335 (קובצי OCR p0028–p0029) — פרק ״רבי נתן דוד רבינוביץ מפארצוב״.</li><li id="note-2">צוואתו, ואלה הדברים שנאמרו לדוד, נדפסה בוורשה, חש״ד (כמובא אצל אלפסי, שם).</li><li id="note-3">הרב נתן גד וינטרויב, זכרון חן, ירושלים תשי״ז (כמובא אצל אלפסי, שם).</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

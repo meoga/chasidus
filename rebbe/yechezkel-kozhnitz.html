@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי יחזקאל מקוז׳ניץ</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">סיפור</a></li><li><a href="#sec-3">מה שלא ידוע</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי יחזקאל מקוז׳ניץ</h2>
 <p class="subtitle">תלמידו וחתנו של המגיד מקוז׳ניץ; איש מופת ובעל מדרגה; נפטר ח״י באייר תקפ״א</p>
@@ -27,19 +33,21 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>רבו וחותנו</dt><dd>רבי ישראל, המגיד מקוז׳ניץ</dd></div><div><dt>נכדו</dt><dd>רבי יעקב דוד, אב בית דין בווישיגראד ושאר קהילות</dd></div><div><dt>הספד עליו</dt><dd>רבי משה אליקים בריעה מקוז׳ניץ, ׳באר משה׳, תר״ח (1848)</dd></div><div><dt>פטירתו</dt><dd>ח״י באייר תקפ״א (20 במאי 1821)</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/kozhnitz.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">קוז׳ניץ (קוז׳ניצה)</span></a><a class="rel" href="../dynasty/kozhnitz.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">קוז׳ניץ</span></a><a class="rel" href="../rebbe/yisrael-kozhnitz.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי ישראל המגיד מקוז׳ניץ</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>תלמידו וחתנו של המגיד מקוז׳ניץ. נודע לאיש מופת ובעל מדרגה. נכדו הוא רבי יעקב דוד, אב בית דין בווישיגראד ושאר קהילות. נפטר בח״י באייר תקפ״א.</p>
 <p>רבי משה אליקים בריעה מקוז׳ניץ נשא עליו הספד, יחד עם הרב מרדכי מקרמניץ, בספרו ׳באר משה׳ על התורה (תר״ח); כותרת ההספד קוראת להם ׳שני המאורות הגדולים׳. הספר עצמו, לפי הערך, אין בו דבר על אישיותם של הנספדים.</p>
 <p>זקן אחד, איש אמונים וירא שמים מעיר קוז׳ניץ, סיפר עליו (׳שפתי קודש׳, עמ׳ 2) שהיה נודע לאיש מופת ובעל מדרגה, ופעם הניח ידו על שיניו של חולה, ומיד ברגע ההוא סר הכאב לגמרי.</p>
-<h3>סיפור</h3>
+<h3 id="sec-2">סיפור</h3>
 <p>רבי חיים אהרן מווישיגראד סיפר שהיה פעם אחת באלכסנדר, והיה בקודש פנימה אצל רבי חנוך העניך הכהן הגדול, בליל שבת קודש, לאחר השולחן, ושמע מפיו הקדוש שסיפר, במעמדם של רבי הירש מטומשוב ורבי הרצל מביאלה, בזו הלשון, אות באות: פעם אחת נסעתי עם רבי בונים מפשיסחא, ביחד עם רבי משה, לקוז׳ניץ, והיתה דרך קשה מאד. באנו לקוז׳ניץ בערב שבת קודש בבוקר. אני הלכתי אל הרב הצדיק רבי יחזקאל מקוז׳ניץ. הוא אהב אותי מאד, כי הכיר אותי משנות נעורי, כשחייתי בפשיסחא, וגם הוא התגורר בעיר זו כחתנו של רבי ישראל המגיד מקוז׳ניץ. הוא כיבדני בעוגה וביין שרף, טפח על ראשי ואמר: אני אומר לך דברי הפלגה על רבך. כשהייתי בפשיסחא היינו בידידות גדולה: הוא היה בא אלי ואני באתי אליו. פעם, בבואי אליו לבית המרקחת, הערתי לו על דבר שלא נראה בעיני. בלילה בא אלי בחלום סבי, בעל ׳פני יהושע׳, וסטר לי על פני. אחר כך אמר: אל תסתכל במעשיו של רבי בונים מפשיסחא, הוא מאיר את כל ההיכלות בשמים. (׳שיח שרפי קודש׳, חלק ד׳, עמ׳ 17–18)</p>
 <blockquote>אל תסתכל במעשיו של רבי בונים מפשיסחא, הוא מאיר את כל ההיכלות בשמים.<span class="src">דברי סבו, בעל ׳פני יהושע׳, בחלום, כפי שסיפר רבי חנוך העניך הכהן מאלכסנדר (׳שיח שרפי קודש׳, חלק ד׳, עמ׳ 17–18; אלפסי, כרך ג׳, ערך 1998 בפרק תלמידי החוזה מלובלין)</span></blockquote>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>בערך זה אין מצוטטת תורה מפיו, אלא עדויות וסיפורים עליו. שנת לידתו אינה נזכרת. פרטי ההספד של רבי משה אליקים בריעה נמסרו כאן רק כפי שהובאו בערך, שכן הספר עצמו, לפי הערך, אין בו דבר על אישיות הנספדים.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1998 בפרק תלמידי החוזה מלובלין, עמ׳ 455–456 — תולדותיו, עליו והסיפור.</li><li id="note-2">׳שם הגדולים החדש׳, בערכו, עמ׳ 59.</li><li id="note-3">רבי משה אליקים בריעה מקוז׳ניץ, ׳באר משה׳ על התורה, תר״ח (1848) — ההספד עליו ועל רבי מרדכי מקרמניץ.</li><li id="note-4">׳שיח שרפי קודש׳, חלק ד׳, עמ׳ 17–18 (הסיפור מפי רבי חנוך העניך הכהן מאלכסנדר); ׳שפתי קודש׳, עמ׳ 2 (עדות הזקן מקוז׳ניץ).</li><li id="note-5">ח״י באייר תקפ״א = 20 במאי 1821.</li></ol></div>
+<div class="unknown"><h3 id="sec-3" data-i18n="unknown">מה שלא ידוע</h3><p>בערך זה אין מצוטטת תורה מפיו, אלא עדויות וסיפורים עליו. שנת לידתו אינה נזכרת. פרטי ההספד של רבי משה אליקים בריעה נמסרו כאן רק כפי שהובאו בערך, שכן הספר עצמו, לפי הערך, אין בו דבר על אישיות הנספדים.</p></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1998 בפרק תלמידי החוזה מלובלין, עמ׳ 455–456 — תולדותיו, עליו והסיפור.</li><li id="note-2">׳שם הגדולים החדש׳, בערכו, עמ׳ 59.</li><li id="note-3">רבי משה אליקים בריעה מקוז׳ניץ, ׳באר משה׳ על התורה, תר״ח (1848) — ההספד עליו ועל רבי מרדכי מקרמניץ.</li><li id="note-4">׳שיח שרפי קודש׳, חלק ד׳, עמ׳ 17–18 (הסיפור מפי רבי חנוך העניך הכהן מאלכסנדר); ׳שפתי קודש׳, עמ׳ 2 (עדות הזקן מקוז׳ניץ).</li><li id="note-5">ח״י באייר תקפ״א = 20 במאי 1821.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי משה יחיאל אפשטיין מאוז׳רוב</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו: ארץ ישראל ותורה</a></li><li><a href="#sec-3">תלמידיו</a></li><li><a href="#sec-4">מה שלא ידוע</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי משה יחיאל אפשטיין מאוז׳רוב</h2>
 <p class="subtitle">דור חמישי לאוז׳רוב · בעל אש דת ובאר משה</p>
@@ -28,22 +34,24 @@
 <dl class="facts"><div><dt>אביו</dt><dd>רבי אברהם שלמה מאוז׳רוב, בעל שארית ברכה</dd></div><div><dt>נולד</dt><dd>ו׳ טבת תר״ן (1890), באוז׳רוב</dd></div><div><dt>חתן</dt><dd>רבי מנחם מנדל מווירזבניק</dd></div><div><dt>אדמו״ר</dt><dd>בפאביאניץ, דז׳יקוב, אוז׳רוב, אוטווצק</dd></div><div><dt>היגר לארצות הברית</dt><dd>בשנת תרפ״ו (1926)</dd></div><div><dt>עלה לארץ</dt><dd>בשנת תשי״ג (1953); התיישב בתל אביב</dd></div><div><dt>חבר</dt><dd>מועצת גדולי התורה של אגודת ישראל; רב צדקה וחסד ובעל מופת</dd></div><div><dt>בנו יחידו</dt><dd>רבי אברהם שלמה, נפטר בחייו בשנת תש״ט (1949)</dd></div><div><dt>נפטר</dt><dd>א׳ שבט תשל״א (1971), בתל אביב</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> אש דת (י״א כרכים); באר משה (י״ב כרכים)</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/tel-aviv.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">תל אביב</span></a><a class="rel" href="../dynasty/ozharov.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">אוז׳רוב</span></a><a class="rel" href="../rebbe/avraham-shlomo-ozharov.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי אברהם שלמה אפשטיין מאוז׳רוב</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>חתן רבי מנחם מנדל מווירזבניק. אדמו״ר בפאביאניץ, אוז׳רוב ואוטווצק. בשנת תרפ״ו (1926) היגר לארצות הברית, ועלה לארץ בשנת תשי״ג (1953). מחבר י״א כרכי אש דת וי״ב כרכי באר משה, המכילים למעלה מעשרת אלפים דפים, מלאי בקיאות.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>היה ממש יחיד הדור בבקיאותו המדהימה; הוא היה ממל ש״ס מהלך, ועם זאת איש ציבור מהדרגה הבכירה ביותר. חבר מועצת גדולי התורה של אגודת ישראל, רב צדקה וחסד ובעל מופת. בשנתו האחרונה הרבה לדבר בדבר הגאולה. כל חסידי חנטשין קבלו את מרותו. בנו יחידו, רבי אברהם שלמה, נפטר בחייו בשנת תש״ט (1949).<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>מתורתו: ארץ ישראל ותורה</h3>
+<h3 id="sec-2">מתורתו: ארץ ישראל ותורה</h3>
 <p>איתא בבראשית רבה (פרשה מו, ד״ה ונתתי לך), על הפסוק ״ונתתי לך ולזרעך אחריך את ארץ מגוריך״ (בראשית יז, ח): ״אם מקבלים בניך אלהותי, אני אהיה להם לאלוה ולפטרון, ואם לאו לא אהיה להם לאלוה ולפטרון״. יוצא מדברי המדרש, שהכניסה לארץ ישראל קשורה עם קבלת האלקות, וקבלת האלקות המאוחדת עם ארץ ישראל מתבטאת בקבלת עול תורה ומצוות; ועל כן מותנית כניסת ארץ ישראל עם קיום התורה, וביתר שאת שבת, שהוא עול מלכות שמים, וארץ ישראל המתאימה לישראל מבחינת הסגוליות שבה — מתקיימת רק על ידי הקשר עם התורה.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <p>״והעמידו תלמידים הרבה״ (אבות א, א). מהו לשון ״הרבה״, והיה לו לומר תלמידים רבים? אפשר לפרש שהכוונה היא ללשון ריבוי: שיעמידו תלמידים כאלה שגם הם יוכלו להפרות ולהרבות בתלמידים רבים, ולהשריש בהם יראת שמים, ועל ידי זה יזכו שגם התלמידים יעמידו תלמידים. ואמרו (קידושין ל, א): ״כל המלמד לבנו תורה, מעלה עליו הכתוב כאילו לימד לבנו ולבן בנו עד סוף כל הדורות״ — שכיון שמכניס בלב בנו־תלמידו יראת שמים טהורה, הרי גם הבן מלמד את בנו, וכך הולכים ומתרבים הדורות של תלמידי חכמים. אבל אם לא השריש בהם תורה ויראת שמים כאחת, אין הם משתדלים להרביץ תורה לאחרים, והריהם בבחינת סריסים, שעליהם נאמר שלא מקיים בהם מצות פריה ורביה; נמצא, מי שאינו מחנך את בנו שירביץ תורה לאחרים, הריהו בחינת סריס בלימוד התורה.<sup class='fn'><a href="#note-3">3</a></sup></p>
 <blockquote>כל מי ששונא את ישראל, כאילו שונא את מי שאמר והיה העולם. וכל מי שעוזר את ישראל, כאילו עוזר את מי שאמר והיה העולם.<span class="src">ילקוט שמעוני, בא, רמז ד׳ (כמובא בספרו, כמצוטט באלפסי, כרך ג׳, עמ׳ 1492)</span></blockquote>
 <p>ישראל וארץ ישראל קשורים זה לזה מצד סגולותיהם העצמיות, והפירוד בין ישראל לארץ ישראל הוא דבר בלתי טבעי.<sup class='fn'><a href="#note-4">4</a></sup></p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-3" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/tanchum-binyamin-becker.html">רבי תנחום בנימין בקר מאוז׳רוב</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>ו׳ בטבת תר״ן חל בשלהי 1889; מקורות ביוגרפיים גורסים 1890 כשנת לידתו, וכך ננקט כאן. אלפסי מונה י״א כרכי אש דת וי״ב כרכי באר משה; מקורות מאוחרים מונים את היקפם בכ־7,000 וכ־5,000 עמודים בהתאמה.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, עמ׳ 1490–1492 (קובצי OCR p0150–p0152) — פרק ״רבי משה יחיאל אפשטיין מאוז׳רוב־חנטשין״: בן רבי אברהם שלמה; ו׳ טבת תר״ן — א׳ שבט תשל״א; חתן רבי מנחם מנדל מווירזבניק; אדמו״ר בפאביאניץ, דז׳יקוב, אוז׳רוב, אוטווצק; היגר לארה״ב תרפ״ו; עלה לארץ תשי״ג; מחבר אש דת ובאר משה; בנו יחידו נפטר תש״ט; חסידי חנטשין קבלו מרותו.</li><li id="note-2">אש דת, חלק שמיני, עמ׳ קט״ז — ארץ ישראל וקיום התורה (כמובא באלפסי, שם).</li><li id="note-3">אש דת על אבות, עמ׳ ג׳ — ״והעמידו תלמידים הרבה״ (כמובא באלפסי, שם).</li><li id="note-4">החוזה מלובלין, עמ׳ רל״ז — ישראל וארץ ישראל (כמובא באלפסי, שם).</li></ol></div>
+<div class="unknown"><h3 id="sec-4" data-i18n="unknown">מה שלא ידוע</h3><p>ו׳ בטבת תר״ן חל בשלהי 1889; מקורות ביוגרפיים גורסים 1890 כשנת לידתו, וכך ננקט כאן. אלפסי מונה י״א כרכי אש דת וי״ב כרכי באר משה; מקורות מאוחרים מונים את היקפם בכ־7,000 וכ־5,000 עמודים בהתאמה.</p></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, עמ׳ 1490–1492 (קובצי OCR p0150–p0152) — פרק ״רבי משה יחיאל אפשטיין מאוז׳רוב־חנטשין״: בן רבי אברהם שלמה; ו׳ טבת תר״ן — א׳ שבט תשל״א; חתן רבי מנחם מנדל מווירזבניק; אדמו״ר בפאביאניץ, דז׳יקוב, אוז׳רוב, אוטווצק; היגר לארה״ב תרפ״ו; עלה לארץ תשי״ג; מחבר אש דת ובאר משה; בנו יחידו נפטר תש״ט; חסידי חנטשין קבלו מרותו.</li><li id="note-2">אש דת, חלק שמיני, עמ׳ קט״ז — ארץ ישראל וקיום התורה (כמובא באלפסי, שם).</li><li id="note-3">אש דת על אבות, עמ׳ ג׳ — ״והעמידו תלמידים הרבה״ (כמובא באלפסי, שם).</li><li id="note-4">החוזה מלובלין, עמ׳ רל״ז — ישראל וארץ ישראל (כמובא באלפסי, שם).</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

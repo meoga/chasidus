@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי שמואל גרונם בן רבי דוד כ״ץ</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">איגרתו</a></li><li><a href="#sec-2">מה שלא ידוע</a></li><li><a href="#sec-3">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי שמואל גרונם בן רבי דוד כ״ץ</h2>
 <p class="subtitle">שליח החסידים בארץ בשנת תקמ״ו; אגרתו לרבי יעקב מסמוליאן נשתמרה</p>
@@ -27,17 +33,19 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי דוד כ״ץ</dd></div><div><dt>שליחותו</dt><dd>שליח החסידים בארץ בשנת תקמ״ו (1786)</dd></div><div><dt>אגרתו</dt><dd>אגרת מיום ג׳ ערב ראש חודש תמוז תקמ״ט אל רבי יעקב מסמוליאן; פורסמה לראשונה על ידי א״י בראווער, ׳לקורות ישוב החסידים בארץ ישראל׳, התור תרפ״ד, גליון ט״ז</dd></div><div><dt>בארץ</dt><dd>בבואו לארץ ישב כשלושה חדשים בעיר הקודש (שמה אינו נזכר בקטע הנדפס), ולמד שחיטה אצל ר׳ יחיאל מיכל שוחט; היה סומך על שולחן בנו של האדמו״ר</dd></div><div><dt>קרבתו</dt><dd>דבריו נשמעים אצל אדמו״ר רבי אברהם מקאליסק יותר משאר אנשי שלומנו, והוא עומד לימין צדקם של אחיו שבחוץ לארץ בהמצאות גדולות ונפלאות</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/tiberias.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">טבריה</span></a><a class="rel" href="../dynasty/vitebsk.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">ויטבסק — עליית תקל״ז</span></a></nav>
-<h3>איגרתו</h3>
+<h3 id="sec-1">איגרתו</h3>
 <p>אגרתו מיום ג׳ ערב ראש חודש תמוז תקמ״ט נכתבה לרבי יעקב מסמוליאן. הוא מודיע כי נדבתם הטהורה הגיעה אליו על ידי ציר נאמן, הרב ר׳ יחיאל מיכל, קודם פורים, ומספר על ביאתו לארץ: ישב כשלושה חדשים בעיר הקודש, ולמד שחיטה קודם ביאתו אצל ר׳ יחיאל מיכל שוחט, והיה סומך על שולחן בנו של האדמו״ר.</p>
 <p>הוא כותב בגלוי לב על עצמו, על פניותיו ועל צביעותו, ומבקש שידונו אותו לכף זכות — כי לא מרוב צדקתו שלחו לו את נדבתם, אלא מרוב אהבתם התקועה בלבם. ומעיד הוא על עצמו כי מאד מאד דיבר והזכיר את אחיו שבחוץ לארץ בכל יום, ובפרט בפני האדמו״ר, אשר אהבתם אהבת עולם אהבתו, וכי דבריו נשמעים אצלו יותר משאר אנשי שלומנו — ולכן הוא מתפאר לפניהם בכך, כי לכתוב שקר אין רצונו.</p>
 <p>עוד הוא כותב כי זה שנתיים כתב להם באריכות, כי ממש כל חיותם תלוי בזה, אך כעת קיצר, כי השליח ממהר לדרכו, והוא עצמו רק שמונה ימים בביתו.</p>
 <blockquote>מאד מאד דברנו והזכרנו אותם בכל יום... ובפרט בפני אדמו״ר... אשר אהבתם אהבת עולם אהבתינו, ומאד מאד מכניס אני את עצמי בעניניהם שלהם לטובה.<span class="src">מאגרתו אל רבי יעקב מסמוליאן, ערב ראש חודש תמוז תקמ״ט (אלפסי, כרך ג׳, ערך 1790 בפרק העולים)</span></blockquote>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>בערך זה אין מצוטטת תורה מפיו; במקומה הובאה אגרתו. שנת פטירתו אינה נזכרת בערך. כותרת האגרת כפי שנדפסה — ׳יום ג׳ ער״ח תמוז תקמ״ט׳ — אינה מתיישבת עם הלוח: כ״ט בסיון תקמ״ט היה יום ראשון, ואילו א׳ בתמוז תקמ״ט היה יום שלישי; ייתכן ש׳ער״ח׳ נדפס בטעות תחת ר״ח, או שהיום שבשבוע משובש.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1790 בפרק העולים, עמ׳ 385 — אגרתו.</li><li id="note-2">האגרת פורסמה לראשונה על ידי א״י בראווער, ׳לקורות ישוב החסידים בארץ ישראל׳, התור תרפ״ד, גליון ט״ז.</li></ol></div>
+<div class="unknown"><h3 id="sec-2" data-i18n="unknown">מה שלא ידוע</h3><p>בערך זה אין מצוטטת תורה מפיו; במקומה הובאה אגרתו. שנת פטירתו אינה נזכרת בערך. כותרת האגרת כפי שנדפסה — ׳יום ג׳ ער״ח תמוז תקמ״ט׳ — אינה מתיישבת עם הלוח: כ״ט בסיון תקמ״ט היה יום ראשון, ואילו א׳ בתמוז תקמ״ט היה יום שלישי; ייתכן ש׳ער״ח׳ נדפס בטעות תחת ר״ח, או שהיום שבשבוע משובש.</p></div>
+<div class="notes"><h3 id="sec-3" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1790 בפרק העולים, עמ׳ 385 — אגרתו.</li><li id="note-2">האגרת פורסמה לראשונה על ידי א״י בראווער, ׳לקורות ישוב החסידים בארץ ישראל׳, התור תרפ״ד, גליון ט״ז.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

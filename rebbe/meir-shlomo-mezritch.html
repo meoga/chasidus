@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי מאיר שלמה יהודה רבינוביץ ממזריטש</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">תורתו</a></li><li><a href="#sec-3">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי מאיר שלמה יהודה רבינוביץ ממזריטש</h2>
 <p class="subtitle">בן רבי יצחק יעקב מביאלה · מגדולי האדמו״רים בפולין</p>
@@ -28,20 +34,22 @@
 <dl class="facts"><div><dt>נולד</dt><dd>תרכ״ח (1868)</dd></div><div><dt>נפטר</dt><dd>י״ז אדר תש״ב (6 במרץ 1942), בגטו ורשה</dd></div><div><dt>אביו</dt><dd>רבי יצחק יעקב מביאלה</dd></div><div><dt>חתן</dt><dd>רבי אייזיק ברבש, איש ברדיטשוב</dd></div><div><dt>ספרו</dt><dd>זכרון משלי — משרידי דברי תורתו</dd></div><div><dt>מפעלו</dt><dd>הוציא לאור את דברי בינה של אביו, חלק ה׳, פיטריקוב תרפ״ט</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> זכרון משלי</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/mezritch.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">מזריטש</span></a><a class="rel" href="../dynasty/biala.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">ביאלה</span></a><a class="rel" href="../rebbe/yitzchak-yaakov-biala.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי יצחק יעקב רבינוביץ מביאלה</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>חתן רבי אייזיק ברבש, איש ברדיטשוב. היה מגדולי האדמו״רים בפולין. משרידי דברי תורתו נדפס בספר זכרון משלי.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>ההדיר והוציא לאור את ספר אביו דברי בינה, חלק ה׳ על ספר דברים (פיטריקוב תרפ״ט), וכתב לו הקדמה ודברי תורה.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <p>בסוף ימיו נאלץ, כמו כל יהודי ורשה, להסתגר בגטו, ושם למד תורה עם נערים יהודים עד ליום פטירתו בי״ז אדר תש״ב. בהלווייתו — ההלוויה הרבנית האחרונה בגטו — השתתפו רבים מתושבי הגטו, ומצבה הוקמה על קברו על אף התנאים הקשים.<sup class='fn'><a href="#note-3">3</a></sup></p>
-<h3>תורתו</h3>
+<h3 id="sec-2">תורתו</h3>
 <p>בהקדמתו לדברי בינה לימד, כי הנשמות משתוקקות לחלק קדושת התורה שלהן, כי כל הנשמות — אפילו אותם שהיו עתידים להבראות — חלק התורה שלהם כבר נאמר בסיני, כאמור ״את אשר ישנו פה עמנו עומד היום ואת אשר איננו״ (דברים כט, יד). וכן בהגיע יום השבת, המעורר זמן מתן תורתנו, הנשמה היתירה משתוקקת לדברי תורה השייכים לחלקה, בכדי שלא לעלות בכיסופא אחר שבת למקום מחצבתה בלי התחדשות. ואם לומד בספר חידושי תורה של רבו בשבת, אזי הוא מקבל שורש תורתו ונשמתו הניתן לו מהר סיני.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <p>ועל ״אלמלא משמרים ישראל שתי שבתות כהלכתן מיד נגאלים״ (שבת קיח, ב) לימד: שבת באה בטענה — לכלם נתת בן זוג: יום ראשון יש לו שני, שלישי יש לו רביעי, ולי לא נתת. ובאה התשובה: כנסת ישראל יהי׳ בן זוגך. והענין הוא: כאשר כנסת ישראל ישמרו שתי שבתות כאחת, בלי הפסק קדושה בינתיים, רק ילכו מחיל אל חיל מקדושה ראשונה לשניה — אזי יש לשבת גם בן זוג על ידי כנסת ישראל, שמקשרים שני הימים, והוא כיום שכלו שבת ומנוחה לחיי עולמים, ומקרב הגאולה.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <blockquote>בריך שמיה דמרא עלמא אשר הביאני עד הלום וזכני להוציא לאור עולם ספר הקדוש דברי בינה, מאת מורינו ורבינו אבי הרה״ק זצ״ל זי״ע, אשר בדבריו הקדושים הוא מאיר כברקים מדי שבת בשבתו, להאיר עיני ישראל.<span class="src">הקדמתו לדברי בינה, חלק ה׳ (פיטריקוב תרפ״ט)</span></blockquote>
 <p>ועצתו היא להסכים ארש עינא וליבא, יהיו בדחילא ורחימא, ואז דברי תורה שמורים לחכימא, להתקיים בלבו עדי עד — כמו שמרומז בפסוק ״לא תתורו אחרי לבבכם ואחרי עיניכם, למען תזכרו״ (במדבר טו, מ–מא): שזכרון התורה והמצוות תלוים בקדושת עינא וליבא.<sup class='fn'><a href="#note-2">2</a></sup></p>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, עמ׳ 1337–1338 (קובצי OCR p0031–p0032) — פרק ״רבי מאיר שלמה יהודה רבינוביץ ממזריטש״.</li><li id="note-2">הקדמתו לדברי בינה, חלק ה׳ על ספר דברים, פיטריקוב תרפ״ט (כמובא אצל אלפסי, שם).</li><li id="note-3">תיקון תאריך הפטירה: בערך אצל אלפסי נכתב ״נפטר בתקופת השואה, ב׳ בתמוז תשי״ב״ — אך תשי״ב היא 1952, לאחר השואה; טעות דפוס. ויקיפדיה העברית (״מאיר שלמה יהודה רבינוביץ״) גורסת: נפטר י״ז באדר תש״ב, 6 במרץ 1942, בגטו ורשה, ונקבר בבית הקברות היהודי בוורשה; וכן ויקיפדיה הפולנית (Meir Szlomo Jehuda Rabinowicz), המצטטת את וודז׳ינסקי, Groby cadyków w Polsce, עמ׳ 227. אחרית ימיו בגטו: ויקיפדיה העברית, שם.</li></ol></div>
+<div class="notes"><h3 id="sec-3" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, עמ׳ 1337–1338 (קובצי OCR p0031–p0032) — פרק ״רבי מאיר שלמה יהודה רבינוביץ ממזריטש״.</li><li id="note-2">הקדמתו לדברי בינה, חלק ה׳ על ספר דברים, פיטריקוב תרפ״ט (כמובא אצל אלפסי, שם).</li><li id="note-3">תיקון תאריך הפטירה: בערך אצל אלפסי נכתב ״נפטר בתקופת השואה, ב׳ בתמוז תשי״ב״ — אך תשי״ב היא 1952, לאחר השואה; טעות דפוס. ויקיפדיה העברית (״מאיר שלמה יהודה רבינוביץ״) גורסת: נפטר י״ז באדר תש״ב, 6 במרץ 1942, בגטו ורשה, ונקבר בבית הקברות היהודי בוורשה; וכן ויקיפדיה הפולנית (Meir Szlomo Jehuda Rabinowicz), המצטטת את וודז׳ינסקי, Groby cadyków w Polsce, עמ׳ 227. אחרית ימיו בגטו: ויקיפדיה העברית, שם.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

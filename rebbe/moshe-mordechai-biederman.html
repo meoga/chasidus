@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי משה מרדכי בידרמן</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו</a></li><li><a href="#sec-3">תלמידיו</a></li><li><a href="#sec-4">מה שלא ידוע</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי משה מרדכי בידרמן</h2>
 <p class="subtitle">דור שישי לשושלת לעלוב · אדמו״ר בירושלים, בתל אביב ובבני ברק</p>
@@ -27,21 +33,23 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי שמעון נתן נטע מלעלוב</dd></div><div><dt>כיהן</dt><dd>אדמו״ר בירושלים משנת תרצ״א (1931); עבר לתל אביב ולבני ברק</dd></div><div><dt>גם</dt><dd>משנת תשכ״ב (1962) כיהן כרבם של חלק מחסידי קרלין שקבלו את מרותו</dd></div><div><dt>בניו ממלאי מקומו</dt><dd>רבי אברהם שלמה, רבי שמעון נתן נטע, רבי אלטר</dd></div><div><dt>חתנו</dt><dd>רבי חיים אלעזר הורונצ׳יק</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/jerusalem.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">ירושלים</span></a><a class="rel" href="../dynasty/lelov.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">לעלוב</span></a><a class="rel" href="../rebbe/shimon-natan-neta-biederman-1930.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי שמעון נתן נטע בידרמן מלעלוב</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>משנת תרצ״א אדמו״ר בירושלים. עבר לתל אביב ולבני ברק. צדיק מופלא בהליכותיו. רובו של יום עסק בתורה ובתפילה ובחיים של קדושה. כמה פעמים יצא אל חסידיו בחו״ל. משנת תשכ״ב כיהן גם כרבם של חלק חסידי קרלין שקבלו את מרותו.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>מבניו, ממלאים את מקומו: רבי אברהם, רבי שמעון, רבי אלטר. חתנו: רבי חיים אלעזר הורונצ׳יק.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>מתורתו</h3>
+<h3 id="sec-2">מתורתו</h3>
 <blockquote>״ראה אנכי נתן לפניכם היום ברכה וקללה. את הברכה אשר תשמעו... והקללה אם לא תשמעו״ (דברים יא, כו–כח) — לפי דברי רבי דוד מלעלוב שהסביר במשל לילד הלומד תורה שמראים לו מטבע ושוט. אם תלמד היטב תקבל מטבע ואם לאו — השוט. כל זאת מפני שאין בו בינה בילד להבין שעצם לימוד התורה הוא מתנה טובה ואין צורך במטבע.<span class="src">קונטרס ׳אור יהל׳, אלול תשט״ז, ע׳ 7–8, כמובא באלפסי, כרך ב׳, ערך רבי משה מרדכי בידרמן, עמ׳ 753 (קובץ OCR מס׳ 255)</span></blockquote>
 <p>״ולא תעלה במעלות על מזבחי״ (שמות כ, כג) — תורתנו הקדושה אומרת ש׳אם לא תעלה במעלות על מזבחי׳ היינו שתנהג במידת הענוה, ׳אשר לא תגלה ערותך׳ ותהיה בבחינת נוטר ׳הברית׳, אז ממילא יהיה ׳ואלה המשפטים אשר תשים לפניהם׳ (שמות כא, א) — כי הקב״ה גוזר וצדיק מבטל (מועד קטן טז, ב). (שם)<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>״אם חומה היא נבנה עליה טירת כסף״ (שיר השירים ח, ט) — אם חס וחלילה מבדילה חומת ברזל בינינו לבין הקב״ה, הרי נבנה עליה ׳טירת כסף׳ — טירה של געגועים וכיסופים להשי״ת. (שם)<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-3" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/avraham-shlomo-biederman.html">רבי אברהם שלמה בידרמן מלעלוב</a><a class="chip" href="../rebbe/shimon-natan-neta-biederman-bnei-brak.html">רבי שמעון נתן נטע בידרמן מלעלוב־בני ברק</a><a class="chip" href="../rebbe/alter-biederman-bnei-brak.html">רבי אלטר אלעזר מנחם בידרמן מלעלוב</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שנת פטירתו: ב־OCR נראה ׳תשנ״ז׳ (1997), אך שני מקורות נוספים נותנים 1903–1987; אומצה 1987. שנת לידתו אינה נזכרת בכרך.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך ׳רבי משה מרדכי בידרמן׳, עמ׳ 753–754 (קובץ OCR מס׳ 255–256): תולדותיו, תורתו.</li><li id="note-2">שנות חייו 1903–1987: ויקיפדיה, ערך ׳Lelov׳ (outline of the dynasty); וכן Alchetron, ׳Lelov (Hasidic dynasty)׳.</li></ol></div>
+<div class="unknown"><h3 id="sec-4" data-i18n="unknown">מה שלא ידוע</h3><p>שנת פטירתו: ב־OCR נראה ׳תשנ״ז׳ (1997), אך שני מקורות נוספים נותנים 1903–1987; אומצה 1987. שנת לידתו אינה נזכרת בכרך.</p></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך ׳רבי משה מרדכי בידרמן׳, עמ׳ 753–754 (קובץ OCR מס׳ 255–256): תולדותיו, תורתו.</li><li id="note-2">שנות חייו 1903–1987: ויקיפדיה, ערך ׳Lelov׳ (outline of the dynasty); וכן Alchetron, ׳Lelov (Hasidic dynasty)׳.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

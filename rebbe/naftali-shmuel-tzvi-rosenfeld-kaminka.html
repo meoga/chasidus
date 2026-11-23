@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי נפתלי שמואל צבי רוזנפלד מקאמינקא</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">תלמידיו</a></li><li><a href="#sec-3">מה שלא ידוע</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי נפתלי שמואל צבי רוזנפלד מקאמינקא</h2>
 <p class="subtitle">בנו של רבי שלום השני · רב בפעטיטש · ממלא מקום אביו · ניספה בשואה</p>
@@ -27,16 +33,18 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי שלום רוזנפלד מקאמינקא השני</dd></div><div><dt>חותנו</dt><dd>רבי אהרן רוקח מדוברומיל־פרעמישל, בנו של רבי זונדל רוקח, בנו של רבי שלום מבעלזא</dd></div><div><dt>רבנות</dt><dd>רב בפעטיטש, ולאחר מכן ממלא מקום אביו בקאמינקא</dd></div><div><dt>בנו</dt><dd>רבי שלום מקאמינקא (השלישי), חתן רבי אהרן מבעלזא</dd></div><div><dt>פטירה</dt><dd>ניספה בשואה עם אשתו וילדיו (על פי ויקיפדיה היידית)</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/kamionka.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">קאמינקא</span></a><a class="rel" href="../dynasty/kaminka-galicia.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">קאמינקא הגליציאנית</span></a><a class="rel" href="../rebbe/shalom-rosenfeld-kaminka-2.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי שלום רוזנפלד מקאמינקא השני</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן רבי שלום השני מקאמינקא, דור רביעי לרבי שלום מקאמינקא. חתן רבי אהרן מדוברומיל, לבית בעלזא. רב בפעטיטש, ולאחר מכן ממלא מקום אביו בקאמינקא. ניספה בשואה.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-2" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/shalom-rosenfeld-kaminka-3.html">רבי שלום רוזנפלד מקאמינקא (השלישי)</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>לא נמסרו תאריכי לידה ופטירה — רק שניספה בשואה. מקומה של פעטיטש לא זוהה — ראה UNLOCATED_TOWNS.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 2981 (עמ׳ 55): &#x27;רבי נפתלי שמואל צבי / בן רבי שלום השני מקאמינקא (2278) / ניספה בשואה, חתן רבי אהרן מדוברומיל לבית בלז, רב בפעטיטש ולאחר מכן ממלא מקום אביו בקאמינקא.&#x27; הערך כולו שלש שורות.</li><li id="note-2">ויקיפדיה היידית, ערך &#x27;שלום ראזענפעלד (ב)&#x27;: &#x27;הרב נפתלי שמואל צבי ראזענפעלד הי&quot;ד, רב אין פעטעטיטש, נאכהער ממלא מקום פון פאטער, רב אין קאמינקא. ער האט געהייראט א טאכטער פון הרב אהרן רוקח פון דאמבראמיל - פרעמיסלא, א זון פון הרב זונדל רוקח, א זון פון שר שלום פון בעלזא. זיי זענען אומגעקומען אויף קידוש השם צוזאמען מיט זייערע קינדער.&#x27;</li><li id="note-3">פעטיטש (פעטעטיטש) לא זוהתה — לא נמצא יישוב תואם בוודאות; ראה UNLOCATED_TOWNS.</li></ol></div>
+<div class="unknown"><h3 id="sec-3" data-i18n="unknown">מה שלא ידוע</h3><p>לא נמסרו תאריכי לידה ופטירה — רק שניספה בשואה. מקומה של פעטיטש לא זוהה — ראה UNLOCATED_TOWNS.</p></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 2981 (עמ׳ 55): &#x27;רבי נפתלי שמואל צבי / בן רבי שלום השני מקאמינקא (2278) / ניספה בשואה, חתן רבי אהרן מדוברומיל לבית בלז, רב בפעטיטש ולאחר מכן ממלא מקום אביו בקאמינקא.&#x27; הערך כולו שלש שורות.</li><li id="note-2">ויקיפדיה היידית, ערך &#x27;שלום ראזענפעלד (ב)&#x27;: &#x27;הרב נפתלי שמואל צבי ראזענפעלד הי&quot;ד, רב אין פעטעטיטש, נאכהער ממלא מקום פון פאטער, רב אין קאמינקא. ער האט געהייראט א טאכטער פון הרב אהרן רוקח פון דאמבראמיל - פרעמיסלא, א זון פון הרב זונדל רוקח, א זון פון שר שלום פון בעלזא. זיי זענען אומגעקומען אויף קידוש השם צוזאמען מיט זייערע קינדער.&#x27;</li><li id="note-3">פעטיטש (פעטעטיטש) לא זוהתה — לא נמצא יישוב תואם בוודאות; ראה UNLOCATED_TOWNS.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

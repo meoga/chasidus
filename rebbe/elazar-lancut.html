@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי אלעזר שפירא מלאנצוט</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו</a></li><li><a href="#sec-3">תלמידיו</a></li><li><a href="#sec-4">מה שלא ידוע</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי אלעזר שפירא מלאנצוט</h2>
 <p class="subtitle">בן רבי צבי אלימלך מדינוב · בעל יודעי בינה</p>
@@ -28,23 +34,25 @@
 <dl class="facts"><div><dt>נפטר</dt><dd>י״ב אלול תרכ״ה (1865), בווינה, לשם נסע לשאול בעצת רופאים; הובא לקבורה בלאנצוט שלשה ימים לאחר הפטירה</dd></div><div><dt>אביו</dt><dd>רבי צבי אלימלך שפירא מדינוב, בעל בני יששכר</dd></div><div><dt>חתן</dt><dd>רבי יהושע העשל מדוקלא</dd></div><div><dt>כיהן</dt><dd>רב בריבטיטש משנת תקפ״ט; רב בסטריז׳וב משנת תקצ״ת; רב בלאנצוט; ממלא מקום אביו משנת תר״א</dd></div><div><dt>קיבל חסידות</dt><dd>מאביו, מרבי צבי הירש מזידיטשוב, מרבי אשר ישעיה מרופשיץ, מרבי ישראל מרוז׳ין ומרבי צבי הירש מרימנוב</dd></div><div><dt>בניו</dt><dd>רבי שלמה ממונקאטש, רבי צבי אלימלך מבירטש, רבי שמחה מלאנצוט, רבי מנחם פנחס מלאנצוט</dd></div><div><dt>הרבנית</dt><dd>האריכה ימים רבים אחריו ונפטרה באסרו חג שבועות תרמ״ה</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> ״יודעי בינה״ על התורה (פרעמישלא תרע״א); כתב יד ״עזר לברכה וחשועה״ לא נדפס</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/lancut.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">לאנצוט</span></a><a class="rel" href="../dynasty/dinov.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">דינוב</span></a><a class="rel" href="../rebbe/tzvi-elimelech-dinov.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי צבי אלימלך שפירא מדינוב</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בנו של רבי צבי אלימלך שפירא מדינוב, בעל בני יששכר. בילדותו הספיק עוד להכיר את רבי מנחם מנדל מרימנוב. בחסידות קיבל מאביו, מרבי צבי הירש מזידיטשוב, מרבי אשר ישעיה מרופשיץ, מרבי ישראל מרוז׳ין ומרבי צבי הירש מרימנוב. זכה להוקרתם של צדיקי הדור: רבי צבי הירש מזידיטשוב העיד עליו שמעולם לא ראה צורה כה מושלמת ומהודרת.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>בשנת תקפ״ט נבחר לרב בריבטיטש, בה כיהן גם אביו ברבנות. בשנת תקצ״ת נבחר לרב בסטריז׳וב, וממנה נבחר לרבנות בלאנצוט ועל שמה נתפרסם. בשנת תר״א נתמנה לממלא מקום אביו והצליח לרכוש לו חסידים רבים, אף שאחיו רבי דוד נשאר על כס אביו בדינוב.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>נפטר בהיותו בווינה לשאול בעצת רופאים. לאחר מאמצים גדולים הרשו השלטונות להביא אותו לקבורה בלאנצוט, ושלשה ימים לאחר הפטירה נערכה ההלוויה. משנתו בספר ׳יודעי בינה׳ על התורה, שנערך לאחר פטירתו ונדפס בפרעמישלא תרע״א; כמה מאגרותיו נדפסו בספרי נכדו רבי חיים אלעזר ממונקאטש.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>מתורתו</h3>
+<h3 id="sec-2">מתורתו</h3>
 <p>על הפסוק ׳בראשית ברא אלקים׳ הוא כותב בהקדמת ספרו, כי העולמות נבראו לחיבת ישראל, עם סגולתו, להשתעשע בהתגלות תורתו הקדושה בכתב ובעל פה, נגלה ונסתר.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <p>על ׳ראו כי ה׳ נתן לכם השבת׳ הוא מבאר, כי מי ששומר שבת כהלכתו יש לו חוש הראות להתבונן בגדולת שבת קודש, וזהו ׳טוב עין הוא יבורך׳ — שאם שומר שבת חופפת עליו ברכת עין, הארת פנים.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <blockquote>הנה האותיות בראשית — ׳ברא שית׳, מרומז על תורה שבעל פה ויסוד לימודה מתורה שבכתב. ברא־שית, ששה סדרי משנה, ולפי דעתי בכל יום מרומז על סדר אחר.<span class="src">ספרו יודעי בינה, דף א׳, כמובא אצל אלפסי כרך ג׳, עמ׳ 1415</span></blockquote>
 <p>ועוד שם: התורה פותחת ב׳בראשית ברא אלקים׳ ומסיימת ׳לעיני כל ישראל׳ — היינו עיני העדה, צדיקי הדור, שיש בכחם להמתיק הדינים, להפוך מר למתוק, להמתיקן בשורשן.<sup class='fn'><a href="#note-2">2</a></sup></p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-3" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/shlomo-munkacs.html">רבי שלמה שפירא מסטריז׳וב־מונקאטש</a><a class="chip" href="../rebbe/tzvi-elimelech-birtch.html">רבי צבי אלימלך שפירא מבירטש</a><a class="chip" href="../rebbe/by-elimelech-sahpashyra-mabyrashash.html">רבי בי אלימלך שפשירא מבירשש</a><a class="chip" href="../rebbe/elazar-malanatzahvat.html">רבי אלעזר מלאנצהוט</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שנת לידתו אינה נזכרת בערך; בילדותו עוד הספיק להכיר את רבי מנחם מנדל מרימנוב (נפטר תקע״ה), ולכן נולד לפני שנת תקע״ה.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, עמ׳ 1414–1415 (קובצי OCR p0084–p0085) — ערכו של רבי אלעזר שפירא מלאנצוט.</li><li id="note-2">ריבטיטש נכתבה כאן כפי שנדפסה; בערך נאמר שאביו כיהן שם ברבנות לפניו.</li></ol></div>
+<div class="unknown"><h3 id="sec-4" data-i18n="unknown">מה שלא ידוע</h3><p>שנת לידתו אינה נזכרת בערך; בילדותו עוד הספיק להכיר את רבי מנחם מנדל מרימנוב (נפטר תקע״ה), ולכן נולד לפני שנת תקע״ה.</p></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, עמ׳ 1414–1415 (קובצי OCR p0084–p0085) — ערכו של רבי אלעזר שפירא מלאנצוט.</li><li id="note-2">ריבטיטש נכתבה כאן כפי שנדפסה; בערך נאמר שאביו כיהן שם ברבנות לפניו.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

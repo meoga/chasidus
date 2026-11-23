@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי חנוך העניך הכהן לוין מאלכסנדר</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מה שלא ידוע</a></li><li><a href="#sec-3">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי חנוך העניך הכהן לוין מאלכסנדר</h2>
 <p class="subtitle">תלמידם של רבי שמחה בונם מפשיסחא, רבי מנחם מנדל מקוצק והרי״מ מגור · האדמו״ר מגור בשנים תרכ״ו–תר״ל · בעל &#x27;חשבה לטובה&#x27;</p>
@@ -28,15 +34,17 @@
 <dl class="facts"><div><dt>אביו</dt><dd>רבי פנחס הכהן — מצאצאיו הישירים של הש״ך</dd></div><div><dt>רבותיו</dt><dd>רבי שמחה בונם מפשיסחא, רבי מנחם מנדל מקוצק, רבי יצחק מאיר מגור</dd></div><div><dt>לידתו</dt><dd>נולד בלוטומיירסק בשנת תקנ״ח (1798)</dd></div><div><dt>רבנות</dt><dd>רב באלכסנדר בשנים תקצ״ז–תרי״ג (1837–1853); בנאוו־דבור (Nowy Dwór) בשנים תרי״ג–תרי״ט (1853–1859); בפרושניץ (פרזשניש) בשנים תרי״ט–תרכ״ו (1859–1866)</dd></div><div><dt>גור</dt><dd>לאחר פטירת רבי יצחק מאיר מגור, בשנת תרכ״ו (1866), הנהיג את חסידי גור מאלכסנדר עד פטירתו; אחריו מילא את מקומו רבי יהודה אריה ליב, בעל &#x27;שפת אמת&#x27;</dd></div><div><dt>בנו</dt><dd>בנו היחיד, רבי יחיאל אפרים פישל הכהן לוין (תקפ״ב–תרנ״ד, 1822–1894), לא המשיך כאדמו״ר</dd></div><div><dt>ספרו</dt><dd>&#x27;חשבה לטובה&#x27; (פיוטרקוב תרפ״ט, 1929)</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> חשבה לטובה</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/aleksandrow-lodzki.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">אלכסנדר</span></a><a class="rel" href="../dynasty/ger.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">שושלת גור</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן רבי פנחס הכהן, מצאצאיו הישירים של הש״ך. נולד בלוטומיירסק בשנת תקנ״ח (1798). היה תלמידם של רבי שמחה בונם מפשיסחא, רבי מנחם מנדל מקוצק ורבי יצחק מאיר מגור. כיהן כרב באלכסנדר, אחר כך בנאוו־דבור, ואחר כך בפרושניץ.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>לאחר פטירת רבי יצחק מאיר מגור, בשנת תרכ״ו (1866), הנהיג את חסידי גור מאלכסנדר עד פטירתו בי״ח אדר ב׳ תר״ל (21 במרס 1870). אחריו מילא את מקומו רבי יהודה אריה ליב, בעל 'שפת אמת'. בנו היחיד, רבי יחיאל אפרים פישל הכהן לוין, לא המשיך כאדמו״ר. דברי תורתו נדפסו בספר 'חשבה לטובה' (פיוטרקוב תרפ״ט).<sup class='fn'><a href="#note-1">1</a></sup></p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>לא נמסר יום לידתו המדויק — רק שנת תקנ״ח (1798).</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3050 (עמ׳ 104–106): &#x27;רבי חנוך הניך הכהן לוין מאלכסנדר / תקנ״ח — י״ח באדר שני תר״ל&#x27;.</li><li id="note-2">ויקיפדיה העברית, &#x27;חנוך העניך הכהן לוין&#x27;, וויקיפדיה האנגלית, &#x27;Chanoch Henich Lewin&#x27;: נולד לוטומיירסק 1798; רב באלכסנדר 1837–1853, ניו דבור 1853–1859, פרזשניש 1859–1864/66; הנהיג את חסידי גור 1866–1870; בנו יחיאל אפרים פישל (1822–1894) לא המשיך; ספרו &#x27;חשבה לטובה&#x27; (פיוטרקוב 1929).</li><li id="note-3">שושלת &#x27;ger&#x27; ולא שושלת אלכסנדר חדשה: ויקיפדיה העברית קובעת במפורש — &#x27;לחסידות אלכסנדר אין קשר לרבי חנוך העניך מלבד העובדה שמקורה באותה העיר&#x27;. הוא היה האדמו״ר השני מגור, בין החידושי הרי״ם לבין בעל &#x27;שפת אמת&#x27;.</li><li id="note-4">י״ח אדר ב׳ תר״ל = 21 במרס 1870 (convertdate; תר״ל שנה מעוברת). תקנ״ח = 1798.</li><li id="note-5">אביו רבי פנחס הכהן אינו ערך במאגר — לפיכך teacher=None; gen=None, ככל רשומות גור שבמאגר.</li></ol></div>
+<div class="unknown"><h3 id="sec-2" data-i18n="unknown">מה שלא ידוע</h3><p>לא נמסר יום לידתו המדויק — רק שנת תקנ״ח (1798).</p></div>
+<div class="notes"><h3 id="sec-3" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3050 (עמ׳ 104–106): &#x27;רבי חנוך הניך הכהן לוין מאלכסנדר / תקנ״ח — י״ח באדר שני תר״ל&#x27;.</li><li id="note-2">ויקיפדיה העברית, &#x27;חנוך העניך הכהן לוין&#x27;, וויקיפדיה האנגלית, &#x27;Chanoch Henich Lewin&#x27;: נולד לוטומיירסק 1798; רב באלכסנדר 1837–1853, ניו דבור 1853–1859, פרזשניש 1859–1864/66; הנהיג את חסידי גור 1866–1870; בנו יחיאל אפרים פישל (1822–1894) לא המשיך; ספרו &#x27;חשבה לטובה&#x27; (פיוטרקוב 1929).</li><li id="note-3">שושלת &#x27;ger&#x27; ולא שושלת אלכסנדר חדשה: ויקיפדיה העברית קובעת במפורש — &#x27;לחסידות אלכסנדר אין קשר לרבי חנוך העניך מלבד העובדה שמקורה באותה העיר&#x27;. הוא היה האדמו״ר השני מגור, בין החידושי הרי״ם לבין בעל &#x27;שפת אמת&#x27;.</li><li id="note-4">י״ח אדר ב׳ תר״ל = 21 במרס 1870 (convertdate; תר״ל שנה מעוברת). תקנ״ח = 1798.</li><li id="note-5">אביו רבי פנחס הכהן אינו ערך במאגר — לפיכך teacher=None; gen=None, ככל רשומות גור שבמאגר.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

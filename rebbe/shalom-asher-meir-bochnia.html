@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי שלום אשר מאיר הלברשטאם מבוכניה</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו</a></li><li><a href="#sec-3">מה שלא ידוע</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי שלום אשר מאיר הלברשטאם מבוכניה</h2>
 <p class="subtitle">בן רבי יוסף זאב מקשאנוב; נכד רבי דוד מקשאנוב; נינו הבכור של רבי חיים מצאנז</p>
@@ -27,18 +33,20 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי יוסף זאב הלברשטאם מקשאנוב, בן רבי דוד מקשאנוב (ערך 1673) — לאביו אין ערך משלו בכרך</dd></div><div><dt>שמו</dt><dd>נינו הבכור של רבי חיים מצאנז, שהעיד עליו שעיניו מאירות כעיניו של רבי מאיר מפרמישלן, ועל כן הורה לקרוא לו בשם מאיר; נקרא גם בשם שלום אשר מאיר</dd></div><div><dt>רבנותו</dt><dd>הספיק לקבל תורה מסבו; הוכתר לרב בצאנז־ישן בחיי סבו, בשנת תרל״ז (1877); בשנת תרמ״ג (1883) עבר לבוכניה כרב ואדמו״ר</dd></div><div><dt>לימודו</dt><dd>קבע לו הסבא שיעור בקבלה</dd></div><div><dt>בניו</dt><dd>רבי משה, שנפטר בגיל צעיר והוא אביו של רבי יקותיאל יהודה מדולינא; רבי יהושע, שמילא את מקום אביו בבוכניה</dd></div><div><dt>בנותיו</dt><dd>נחמה, אשת רבי שאול ידידיה אלעזר טויב ממודז׳יץ (בזיווגו השני); אשת רבי ישראל רוקח; שרה, אשת רבי אברהם פינטר, אב״ד בוקובסק; אשת רבי אברהם פרנקל; אשת רבי חיים שמעון פרנס</dd></div><div><dt>פטירתו</dt><dd>נסתלק בערך בשנת תרצ״ה (1935)</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/bochnia.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">בוכניה</span></a><a class="rel" href="../dynasty/sanz.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">שושלת סאנז</span></a><a class="rel" href="../rebbe/david-chshanow.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי דוד הלברשטאם מקשאנוב</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן רבי יוסף זאב הלברשטאם מקשאנוב, נכד רבי דוד מקשאנוב, דור רביעי לרבי חיים מצאנז — נינו הבכור. הספיק לקבל תורה מסבו, רבי חיים מצאנז, שהעיד עליו שעיניו מאירות כעיניו של רבי מאיר מפרמישלן, ועל כן הורה לקרוא לו בשם מאיר. קבע לו הסבא שיעור בקבלה. הוכתר לרב בצאנז־ישן בחיי סבו, בשנת תרל״ז, ובשנת תרמ״ג עבר לבוכניה כרב ואדמו״ר.</p>
-<h3>מתורתו</h3>
+<h3 id="sec-2">מתורתו</h3>
 <p>על דברי אליעזר עבד אברהם, 'הקרה נא לפני היום' וגם 'הטי נא כדך' (בראשית כד, יב, יד), דרש: ידוע שיש נ״א ימים בשנה שהם פתוחים לרחמי שמים, והם חודש אלול ותשרי עד הושענא רבא, וזה כולל את יום א׳ דראש חודש אלול, ובסך הכל נ״א ימים; ולפיכך אנו אומרים 'הושע נא, הושע נא' באלה נ״א הימים. לפיכך התפלל אליעזר עבד אברהם ואמר שאף אם לא נגזר בהנ״א ימים שליצחק תהיה ראויה נערה ממידת החסד, שהרי הוא ממידת הגבורה, הרי שיוושע בזכות אברהם אבינו שהוא מידת החסד, ותישמע תפילתי כאילו היתה נאמרת בנ״א הימים — וזה 'הקרה נא', בכת הנ״א יום.</p>
 <blockquote>הושע נא, הושע נא באלה נ״א הימים.<span class="src">בשמו, הרב שמואל מאיר הולנדר, &#x27;מהרש״מ הכהן&#x27; על התורה, בראשית, ע׳ קי״ג (אלפסי, כרך ג׳, ערך 1694)</span></blockquote>
 <p>ובהסכמתו לספר 'תיקון עולם' (וורשה תרצ״ב), שנכתבה במרחץ קרעניצא בשנת תרפ״ב, הצטרף לקריאת הרבנים להתאסף יחד לחשוב מחשבות איך לתקן ולגדור פרצות כרם בית ישראל, אשר בעוונותינו נפרצה במלואה, וכתב שהוא נוקט בשיפולי גלימייהו להיות נטפל לעושי מצוה, ויהי רצון מאת השי״ת להיות בעזרנו על דבר כבוד שמו יתברך ויתעלה.</p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שנת לידתו תרי״ה (1855) לפי אלפסי; מכירת Bidspirit נותנת 1858 — כאן ננקט תרי״ה לפי אלפסי. שנת פטירתו &#x27;בערך תרצ״ה&#x27; לפי כותרת הערך בלבד, ו־1935 מאושר גם ממכירת Bidspirit; יום הפטירה אינו ידוע, ולפיכך אין לערך אירוע בציר הזמן. כותרת העמוד ב־OCR נדפסה נכון: &#x27;- 1694 -&#x27; (p0310).</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1694, עמ׳ 1694 (קובץ OCR p0310–p0311) — תולדותיו, תורתו והסכמתו.</li><li id="note-2">תאריכים: Bidspirit, מכירת &#x27;Levasreni Besuros Tovos&#x27; — מכתבו של רבי אשר מאיר מבוכניה (1858–1935); הוכתר לרב בצאנז־ישן בשנת 1876, ואב״ד בוכניה בשנת 1883; נינו הבכור של רבי חיים מצאנז.</li><li id="note-3">תורתו: הרב שמואל מאיר הולנדר, &#x27;מהרש״מ הכהן&#x27; על התורה, בראשית, ע׳ קי״ג; הסכמתו: &#x27;תיקון עולם&#x27; ח״ב, וורשה תרצ״ב.</li></ol></div>
+<div class="unknown"><h3 id="sec-3" data-i18n="unknown">מה שלא ידוע</h3><p>שנת לידתו תרי״ה (1855) לפי אלפסי; מכירת Bidspirit נותנת 1858 — כאן ננקט תרי״ה לפי אלפסי. שנת פטירתו &#x27;בערך תרצ״ה&#x27; לפי כותרת הערך בלבד, ו־1935 מאושר גם ממכירת Bidspirit; יום הפטירה אינו ידוע, ולפיכך אין לערך אירוע בציר הזמן. כותרת העמוד ב־OCR נדפסה נכון: &#x27;- 1694 -&#x27; (p0310).</p></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1694, עמ׳ 1694 (קובץ OCR p0310–p0311) — תולדותיו, תורתו והסכמתו.</li><li id="note-2">תאריכים: Bidspirit, מכירת &#x27;Levasreni Besuros Tovos&#x27; — מכתבו של רבי אשר מאיר מבוכניה (1858–1935); הוכתר לרב בצאנז־ישן בשנת 1876, ואב״ד בוכניה בשנת 1883; נינו הבכור של רבי חיים מצאנז.</li><li id="note-3">תורתו: הרב שמואל מאיר הולנדר, &#x27;מהרש״מ הכהן&#x27; על התורה, בראשית, ע׳ קי״ג; הסכמתו: &#x27;תיקון עולם&#x27; ח״ב, וורשה תרצ״ב.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

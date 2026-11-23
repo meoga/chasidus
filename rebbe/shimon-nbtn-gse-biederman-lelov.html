@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי שמעון נבתן גסע בידרמן מלעלוב</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי שמעון נבתן גסע בידרמן מלעלוב</h2>
 <p class="subtitle">בנו של דוד צבי טלמה מלעלוב</p>
@@ -27,14 +33,16 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>דוד צבי טלמה מלעלוב</dd></div><div><dt>דור</dt><dd>דור חמישי</dd></div><div><dt>תאריכים</dt><dd>תר״ל — תרפ״ו</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/lelov.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">לעלוב</span></a><a class="rel" href="../dynasty/lelov.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">לעלוב</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>רבי שמעון נבתן גסע בידרמן מלעלוב בן רבי דוד צבי שלמה מלעלוב (749) דור חמישי לשוטשלת לעלוב ל"ג בעומר תר"ל - עום גדליה תר"ץ + תולדותיו: להשתטח על קברי אבות. אחר הוסיף: רבי כמשה רבנו אין לנו היום, אבל מערת המכפלה של אז וכותל המערבי של אז עמד בראש השוב החסידי בירושלים ובשליחות החסידים עדי בינו ערת המכפלה ומע יצא כמה פעמים לחו"ל. כחמש עשרה שנה ישב בקראקא. ו ו ("לקוטי דברי דוד" ע" כ') בשנת תרפ"ו חזר לירושלים והתיישב בעיר העתיקה. "רבים מכאובים לרשע והבוטח בה' חסד יסובבנו" (תהלים לב י') הכוונה לענין שאדם האוכל אינו סובל שישנם אנשים עם חסידי קרלין וראה עצמו חסיד קרלין. מסביבו. וזהו "מכאובים לרשע" אבל הצדיק שהוא בבחינת / עליו: "הבוטח בה" - חסד יסובבנו, זהו חסד שמסובבים אותו בשעת אכילתו. "ידיד נפשי…<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>ובין כך חשוב אני כמת. אף אני בלא מקוה של טהרה - חשוב | עבודה, ובאם לאו ח"ו יכול להיות בחינת נפל אשר נקרא אני כמת ולמה אירא מפני הסכנה נפילת המוחין כל אחד ואחד לפי מדרגתו. הגדול לפי גודלו שם ע עד = וכו', אך להחליט הדבר בלאו לגמרי איני יכול יען כי ירא אנכי לעבור על מאמר התכם (משלי ג, כז): "אל תמנע טוב . . מבעליו".. על כן עצתי היעוצה אשר אדמו"ר מקרלין יסע - מכתב: למאלינוב ובעומדו בתפילה בשם ואת אשר יופיע לו מן את יקרת מכתבו הגיעני נכון בדבר השאלה העמוקה אשר השמים ברעיונו הקדוש הוא דרך האמת לאור באור החיים, מאת כ"ק האדמו"ר מקרלין הנני לקיים מאמר חז"ל: "למד הגם כשאני לעצמי מה אני, עס כל זאת מחמת ההכרח כתבתי לשונך לומר איני יודע" (ברכות ד, א) פירוש בדבר שיש לך את אשר נראה בעניי ואדמו"ר החכם…<sup class='fn'><a href="#note-1">1</a></sup></p>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך 751 (עמ׳ 254).</li><li id="note-2">בערך: בן רבי דוד צבי טלמה מלעלוב (749).</li><li id="note-3">הערך ארוך ודו־טורי ב־OCR; הקטעים כאן מובאים כלשונם מהמקור, וייתכן שהסדר משובש.</li></ol></div>
+<div class="notes"><h3 id="sec-2" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך 751 (עמ׳ 254).</li><li id="note-2">בערך: בן רבי דוד צבי טלמה מלעלוב (749).</li><li id="note-3">הערך ארוך ודו־טורי ב־OCR; הקטעים כאן מובאים כלשונם מהמקור, וייתכן שהסדר משובש.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

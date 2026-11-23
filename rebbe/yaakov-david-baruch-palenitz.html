@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי יעקב דוד ברוך קאליש מוורקא־פאלניץ</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">דבריו</a></li><li><a href="#sec-3">מה שלא ידוע</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי יעקב דוד ברוך קאליש מוורקא־פאלניץ</h2>
 <p class="subtitle">בן רבי אברהם משה מפאלניץ; אדמו״ר מוורקא־פאלניץ בבני ברק</p>
@@ -27,19 +33,21 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי אברהם משה קאליש מפאלניץ (ערך 1634)</dd></div><div><dt>אמו</dt><dd>אמו הצדקת רויזא מרים, בת הנגיד ר׳ שלמה רפאל גרודזיצקי</dd></div><div><dt>נישואיו</dt><dd>חתן הרב יעקב מנחם מנדל סוקולוב, בנו בכורו של האדמו״ר מסוקולוב רבי יצחק זעליג מורגנשטרן</dd></div><div><dt>הצלתו</dt><dd>ניצל בחסדי ה׳ על ידי הזמנה מקהילה בלונדון לשרת בה כרב, בהשתדלות גיסו הרב שלמה מורגנשטרן</dd></div><div><dt>מושביו</dt><dd>רב בלונדון; ואחרי המלחמה אדמו״ר בניו יורק (קווינס, ואחר כך בורו פארק); ומשנת תשל״ה (1975) בבני ברק, ברחוב רש״י</dd></div><div><dt>פטירתו</dt><dd>נסתלק בי״ב בטבת תשמ״ג (1983)</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/palenitz.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">פאלניץ</span></a><a class="rel" href="../dynasty/vurka.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">שושלת וורקא</span></a><a class="rel" href="../rebbe/avraham-moshe-palenitz.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי אברהם משה קאליש מפאלניץ־וורשה</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>נולד בפאלניץ לפני מלחמת העולם הראשונה, להוריו הקדושים האדמו״ר רבי אברהם משה ואמו הצדקת רויזא מרים, בת הנגיד ר׳ שלמה רפאל גרודזיצקי. גדל בבית מדרשו של אביו בפאלניץ־וורשה, ובאוטווצק ראה והתרשם מהדמויות של גדולי האחרונים לפני החורבן של פולין. היה בעל כשרון ותפיסה מהירה; כשהלך בשליחות אביו לסדר ענינים חשובים בממשל ובמשרדים, למד במהרה את השפה הפולנית. שקד על התורה ועבודה יומם ולילה, וקיבל סמיכה מהרב ר׳ שלמה דוד כהנא, רבה של וורשה. השתדך עם בתו של הרב מווענגרוב־סוקולוב, הרב יעקב מנחם מנדל, בנו בכורו של האדמו״ר מסוקולוב רבי יצחק זעליג מורגנשטרן. ערב חתונתו נפטר אביו והמשפחה נתיתמה. אחרי חתונתו גר בווענגרוב, ובהודות לגיסו הדגול הרב שלמה מורגנשטרן ניצל בחסדי ה׳, על ידי שקיבל הזמנה מקהילה בלונדון לשרת בה כרב. הגיע ללונדון זמן קצר לפני פריצת המלחמה.</p>
 <p>לאחר המלחמה החליט לעזוב את לונדון והגיע עם בני ביתו לניו יורק; ישב בקווינס באזור ראקוואי, ואחר כך בבורו פארק בקנסינגטון, והקים בית מדרש. בניו יורק הסתופפו סביבו חסידי וורקא משארית הפליטה, ובית מדרשו נעשה מקום לתפילה ותורה; קירב הרבה יהודים בעלי תשובה. לפני שעלה לארץ ישראל נסעה הרבנית ללונדון, ובתאונת דרכים קטלנית נהרגה בדמי ימיה הצדיקה מרת טאבא ליבא, והובאה לקבורה בהר הזיתים בחלקת ׳כולל וורשא׳. בשנת תשל״ה התיישב בבני ברק, ברחוב רש״י, והקים בית מדרש לחסידי וורקא.</p>
-<h3>דבריו</h3>
+<h3 id="sec-2">דבריו</h3>
 <p>היה עניו, וגאוה לא ידע מה היא. אמר:</p>
 <blockquote>הגאוה והגדולה, לחי עולמים.<span class="src">אלפסי, כרך ג׳, ערך 1644</span></blockquote>
 <p>חי בצניעות, בלי רעש, סגור בד׳ אמות של תורה, ויראת שמים וחסידות. וכל חייו היה מזכיר את החורבן הנורא של יהדות פולין.</p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>בערך זה בכרך ג׳ לא הובאה תורה מפיו; הקטע המובא כאן הוא אמרה קצרה שלו, לא דרשה. שנת לידתו המדויקת אינה ניתנת — רק ׳נולד לפני מלחמת העולם הראשונה׳ ו׳תרע״ג׳ בכותרת הערך.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1644, עמ׳ 1644 (קובץ OCR p0262) — תולדותיו. מקור התולדות: ׳שערים׳, פרשת בשלח, תשמ״ה, כמצוין בערך.</li></ol></div>
+<div class="unknown"><h3 id="sec-3" data-i18n="unknown">מה שלא ידוע</h3><p>בערך זה בכרך ג׳ לא הובאה תורה מפיו; הקטע המובא כאן הוא אמרה קצרה שלו, לא דרשה. שנת לידתו המדויקת אינה ניתנת — רק ׳נולד לפני מלחמת העולם הראשונה׳ ו׳תרע״ג׳ בכותרת הערך.</p></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1644, עמ׳ 1644 (קובץ OCR p0262) — תולדותיו. מקור התולדות: ׳שערים׳, פרשת בשלח, תשמ״ה, כמצוין בערך.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

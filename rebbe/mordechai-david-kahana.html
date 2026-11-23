@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי מרדכי דוד כהנא</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">תורתן</a></li><li><a href="#sec-3">מה שלא ידוע</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי מרדכי דוד כהנא</h2>
 <p class="subtitle">בן רבי יוסף מאיר (2467)</p>
@@ -27,19 +33,21 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי יוסף מאיר</dd></div><div><dt>עיר</dt><dd>ספינקא</dd></div><div><dt>תאריכים</dt><dd>אלול תרע״א — כ״ד תמוז תשע״א</dd></div><div><dt>דור</dt><dd>דור חמישי</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/spinka.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">ספינקא</span></a><a class="rel" href="../dynasty/spinka.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">שושלת ספינקא</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>דור חמישי לרבי יוסף מאיר מספינקא האדמו"ר מספינקא - ירוטלים<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>תורתן</h3>
+<h3 id="sec-2">תורתן</h3>
 <p>ויצא יעקב מבאר שבע ולך חרנה (בראשית כח, 6, ומביא בנחל קדומים (בשם גאון אחד), דהגמרא אומרת ופרש"י יצא ללכת לחרן, ובסוף הפרשה הקודמת אומר רש"י, | בקדושין (כט, ב) אמר רב יהודה אמר שמואל הלכה נושא אשה שבהליכתו לחרן נטמן בבית עבר י"ד שנה ללמוד ממנו תורה, | ואח"כ ילמוד תורה ר' יוחנן אמר ריחיים בצוארו ויעסוק שבהליכתו לחרן. ויש להבין הרי יצא מבאר שבע אדעתא | בתורה, והיינו שילמוד תורה ואח"כ ישא אשה ולא פליגי הא לן ללכת לחרן, וכך גם אמר לו אביו קום לך פדנה ארם ביתה | והא להו, ומפרש ר"ת (בתוס' שם ד"ה הא) בני בבל שהם עניים בתואל אבי אמך וקח לך משם אשה מבנות לבן אחי אמך | ולא יהא לו ממה לפרנס בני ביתו, ילמדו תורה תחילה, ובני א"י (כח, ב). וכיון שיצא ע"מ ללכת לחרן, למה חזר בו באמצע | שהם עשירים ישאו נשים תחילה כדי שילמדו תורה בטהרה הדרך והתיישב ללכת לבית עבר, באמצע הדרך לבית לבן | בלא הרהור, ולפי"ז בצאת יעקב מבאר שבע, שהיה בידו הון רב,<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>לישא אשה. פתאום חשקה נפשו בתורה. אז היה דינו כבני א"י שחייב לישא אשה ואח"כ ללמוד תורה, אולם אחר שבא אליפז באמצע הדרך ולקח ממנו הכל (כמ"ש | מאברהם, והוריו ידעו תמיד שמעשיו טובים, ושלחוהו לישא רש"י כט, יא), ונשאר בעירום ובחוסר כל, אז נשתנה דינו ונהיה = אשה שתהא בוודאי לפי מעשיו הטובים. אבל ידוע שדרך כבני בבל, שצריכים ללמוד תורה לפני שנושאים אשה. לכן | הצדיקים שמקטינים עצמם ותמיד חושבים שעדיין לא הגיעו שינה יעקב דרכו והלך לבית מדרשו של עבר ללמוד תורה. לעבודת השי"ת כדבעי, וכשיצא יעקב לדרכו לישא אשה, עשה לעצמו חשבון הנפש, הרי אני בן א" ו"ווגו לי אשה לפי וכל זה לפי' ר"ת, אבל רש"י מפרש הא לן והא להו דבני / מעשי, ומי כמוני יודע האמת שאין מעשי כדבעי וא"כ גם בבל שלומדים חוץ למקומם, ואין צרכי הבית מוטלים עליו הזיווג לא יהא טוב, אמת שהוריו שלחוהו עכשיו לישא אשה, נושא אשה תחילה, בני א"י שלומדים במקומם, אם ישא אבל זה לפי דעתם שחושבים שהוא טוב, אבל הרי הוא יודע</p>
 <p>אשה יהיו צרכי הבית מוטלים עליו ויבטלוהו, ילמוד תורה בעצמו שאין זה כך, לכן חזר בו והלך לבית עבר ללמוד תורה. ואח"כ ישא אשה, וא"כ היה צריך יעקב לישא אשה תחילה ועי"ז יתנהג אח"כ כדבעי, ואח"כ יוכל לישא אשה לפי מעשיו. וללכת ללמוד תורה אח"כ, ולמה הלך ללמוד תורה תחילה. ידועיס דברי הגמרא (בברכות ח, א וביבמות סג, א) במעובא > מכתב: כי נסיב אינש איתתא אמרי לי הכי מצא או מוצא, והקשה הרי"ף על העין יעקב [דלשון כי נסיב משמע מיד כשהיה נושא ב"ה, יום שלישי שנכפל בו כי טוב לסדר ועשו לי מקדש אשה מיד ביום הראשון כבר חיו שואלים אותו אם מצא או | ושכנתי בתוכם, משת"ה לפ"ק מוצא] ואיך אפשר שחתן בן לילה אחת סמוך לנשואיו, שיהא יודע אם מצא אשה טובה או לא, כי זה לא יבחן אלא במשך לרו"מ כת"ר הרה"ג הגדול מעוז ומגדול רב פעלים הזמן. ובאהבת איתן מקשה, למה דוקא במערבא שאלו כך ולא בהרבצת תורה מנהיג עדתו לתפארה כש"ת מוהר"ר מנחם</p>
 <p>בבבל. ואמר אאמו"ר ז"ל דהגמרא ואומרת בסוטה ב, א: אין | דוד האגר שליט"א אב"ד קהל אהל משה ויזניץ-שאץ בחיפה מזווגין לו לאדם אשה אלא לפי מעשיו שנאמר (בתהלים קכה, | בן כהדר"ג ידידינו הדגול ראש הישיבה שליט"א ג) כי לא ינוח שבט הרשע על גורל הצדיקים, ומקשה איני והא אמר רב יהודא אמר רב ארבעים יום קודם יצירת הוולד בת אחדשכתה ר קול יוצאת ואומרת בת פלוני לפלוני, ופרש"י והא מקודם ' ' יצירתם אין נודע רשעו וזכותו, ומשני הא בזוג ראשון והא בזוג הקובץ אהל - נכון קבלתי ברוב תודה. ועיינתי בו יותי בי י בי 1 ךל שני. ואפשר לומר עוד תירוץ כמו שמשני הגמרא שם בקדושין עד ב . - , בית מדרשו, זר הפעם השני, וכאן 0 , ל סורט'י דרוו המקום להודות לכם על ההרגשה הנעימה בעת שהיתי בבית הא לן והא להו, כן "ל גם לענין זה כאן, ולפי פירש"י דבני בבל מדרשכם, כי ב"ה הי' נעים מאד להתפלל שם ולהשמיע ד"ת נושאים תחילה, וא"כ אי אפשר לומר לגבם לפי מעשיו דהרי \ . . , יומףי ו ג( ,</p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>מיקום העיר ספינקא לא אומת; הערך ארוך וה־OCR מערבב טורים — הסדר המקורי עלול להיות משובש</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3160 (עמ׳ 205).</li><li id="note-2">פרק הכרך: שושלת רבי יוסף מאיר מספינקא.</li></ol></div>
+<div class="unknown"><h3 id="sec-3" data-i18n="unknown">מה שלא ידוע</h3><p>מיקום העיר ספינקא לא אומת; הערך ארוך וה־OCR מערבב טורים — הסדר המקורי עלול להיות משובש</p></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3160 (עמ׳ 205).</li><li id="note-2">פרק הכרך: שושלת רבי יוסף מאיר מספינקא.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

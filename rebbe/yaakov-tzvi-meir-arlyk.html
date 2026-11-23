@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי יעקב צבי מאיר ארליך</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מה שלא ידוע</a></li><li><a href="#sec-3">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי יעקב צבי מאיר ארליך</h2>
 <p class="subtitle">בנו של מיכאל ארליך</p>
@@ -27,16 +33,18 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>מיכאל ארליך</dd></div><div><dt>דור</dt><dd>דור עשירי</dd></div><div><dt>חתן</dt><dd>רבי חנוך דוב זילברפרב מקוידנוב</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/unknown.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">מקום לא ידוע</span></a><a class="rel" href="../dynasty/lechovitch.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">לעכוביטש</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>רבי יעקב צבי מאיר ארליך בן רבי מיכאל ארליך (655) חתן רבי חנוך דוב זילברפרב מקוידנוב דור עשירי לשוטשלת רבי מרדכי מלעכוביטטו (687) אדמו"ר מקוידנוב טוליט"א בבני ברק > תולדותיו: שמרע"ה אמר והן ענו אחריו. חינוכו בישיבות ארץ ישראל, הרחיב וההדיר את חסידות ובהמשך הגמ': ת"ר דרש רבי יוסי הגלילי בשעה שעלו קוידנוב. תורתו נדפסת מפעם לפעם בקונטרסים "עלי שיח" | ישראל מן הים נתנו עיניהם לומר שירה, וכיצד אמרו שירה, עולל מוטל על ברכי אמו ותינוק יונק משדי אמו, כיוז שראו > תורתו: את השכינה עולל הגביה צוארו ותינוק שמט דד מפיו ואמרו , , "זה א-לי ואנווהו" (שמות טו, ב), שנאמר (תהלים ח, ג): "מפי בגמ' (סוטה ל, ב): תנו רבנן בו ביום דרש ר"ע בשעה שעלו / עוללים ויונקים יסדת עוז". ישראל מן הים, נתנו עיניהם לומר שירה.…<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>דלכאו' כוונתו באיזה אופן אמרו ישראל את השירה וכפי וענין זה הוא מהעבודות הקשות שבעבודת ההולכים לפני שנחלקו התנאים לעיל, וא"כ מהו ההמשך 'עולל מוטל על | האלוקים, כ"א לפי מדריגתו, וכשיחשוב האדם ויתבונן בקרבו ברכי אמו' וכו', שהוא ענין חדש לומר דגם עוללים ויונקים | עד כמה רחוק הוא מקיום מצוה בנקודת אמת הפנימית שבלב אמרו שירה, אבל אינו מוסב על למעלה באיזה אופן אמרו | כראוי, עלול ליפול לבו בקרבו ולחשוב כי כל עבודתו הינה בנ"י את השירה. הבל וריק ח"ו כי אינה בתכלית האמת הנרצה לפני ית', אמנם<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>ובתוס' (ד"ה רבי מאיר בסה"ד) הביא דברי טבה שבירתו זו היא טהרתו, כי כאשר ידע באמת את אשר בלבבו מובא. גב מאמר - ל חְ . - %- 0% וישתוקק ויתאווה להיות דבוק בתוה"ק ומצוותיו כרצון שאמרו "מה אנוש , - - - קב" "בוא - השי"ת בשלימות, וכמה שיתחזק יותר, ירצה להתעלות זותר את השירה", כיון שראו את ישראל פתחו א הן ואמרו: "ה' בנקודת האמת, אזי עצם זה הרצון והמתשבה מצטרף אדונינו מה אדיר שמך בכל הארץ" (תהלים ת, '). למעשה.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>לא נמסרו תאריכים בערך.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, עמ׳ 156; מספר הערך (658) משוער לפי סדר הכותרות ואינו ודאי.</li><li id="note-2">בערך: בן רבי מיכאל ארליך (655).</li><li id="note-3">הערך ארוך ודו־טורי ב־OCR; הקטעים כאן מובאים כלשונם מהמקור, וייתכן שהסדר משובש.</li><li id="note-4">מקום מושבו לא נמסר בערך; הוגדר כ־unknown בעת ההרכבה (אצווה 72).</li></ol></div>
+<div class="unknown"><h3 id="sec-2" data-i18n="unknown">מה שלא ידוע</h3><p>לא נמסרו תאריכים בערך.</p></div>
+<div class="notes"><h3 id="sec-3" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, עמ׳ 156; מספר הערך (658) משוער לפי סדר הכותרות ואינו ודאי.</li><li id="note-2">בערך: בן רבי מיכאל ארליך (655).</li><li id="note-3">הערך ארוך ודו־טורי ב־OCR; הקטעים כאן מובאים כלשונם מהמקור, וייתכן שהסדר משובש.</li><li id="note-4">מקום מושבו לא נמסר בערך; הוגדר כ־unknown בעת ההרכבה (אצווה 72).</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי אהרן ישעיה פיש מהאדאס</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">תורתו</a></li><li><a href="#sec-3">מה שלא ידוע</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי אהרן ישעיה פיש מהאדאס</h2>
 <p class="subtitle">ערך באלפסי, כרך ד׳, עמ׳ 232</p>
@@ -27,19 +33,21 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>עיר</dt><dd>האדאס</dd></div><div><dt>תאריכים</dt><dd>תרי״ט — קאלוב ו׳ טבת תרפ״ה</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/hadas.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">האדאס</span></a><a class="rel" href="../dynasty/hadas.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">שושלת האדאס</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>תלמיד רבי אליעזר צבי מקומרנא<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>בניו: רבי חזקיה, ממלא מקומו. חתנו: רבי יחזקאל רוטר אדמו"ר בקלויזנבורג. בן רבי צבי אביגדור פיש מצאצאי רבי יעקב פיש שזכה לברכה לאריכות ימים מהבעש"ט. תלמידו של רבי אליעזר / .<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>תורתו</h3>
+<h3 id="sec-2">תורתו</h3>
 <p>צבי מקומרנא, כיהן כרב ואדמו"ר בהאדאס, השאיר אחריו כתבים רבים בנגלה ובנסתר, ומהם נדפסו רק הספרים בענין שאלת החכם בהגדה של פסח - שואלים הכל מה "קדושת אהרן" למועדים, "נר אהרן" נעל חנוכה. ההבדל בין שאלת התכם לשאלת הרשע. ונראה לי בעזרת ה' יתברך על דרך הפשט. שאלת בן חכם היא מפרשת ואתחנן "ויהי בימי אחשורוש, הוא אחשורוש" (אסתר א, א) פירש שנאמר בה "כי ישאלך בנך מחר" ואילו בשאלת הרשע בפרשת | רש"י: "הוא ברשעו מתחילתו ועד סופו", עיין באור החיים בא לא נאמר "מחר", רק נאמר קודם לכן: "ושמרתם את וזה לשונו: שכל מה שנמשך מאחשורוש אינו אלא צרה העבודה הזאת והיה כי יאמרו... מה העבודה הזאת לכם", היינו | מתחילה ועד סוף והטובה מאת ה' ברוך הוא, היא היפך בשעת העבודה גופא ובשעת הסדר ועל כל פנים אם הוא | רצונו וטבעו של אחשורוש. נראה לומר דהנה ידוע מהבעש"ט שואל באמצע, על כרחך אינו רוצה לעשות ומכאן שמדובר בבן | זי"ע כשהרע גורם טובה, אזי יש לרע עליה ורמז הפסוק על<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>רשע, אבל בפרשת ואתחנן אפשר לפרש שהשאלה היא "מחר" | אחשורוש שהוא רשע עד סופו ועל ידי זה אין לרע שום - לאחר העבודה ולאחר הסדר וקודם כל הוא עושה כאשר | אחיזה בקדושה ודי למבין. רק מה שיש ניצוץ קדושה עולה אביו עושה - בלי טעם ואח"כ חוא שואל מפני מה. והשאר נופל למטה. (בספרו "קדושת אהרן", מאמר ייח לפסה, דף ע"ה, אי) (שם קכ"ח, א') אמר ר"א: אמר משה לפני הקדוש ברוך הוא: במה תרום קרן 9 ' ישראל אמר לו הקב"ה ב''כי תשא את ראש בני ישראל" - בבא \ ספר ₪ אהרן... כולל דרושים ומאמרים לשבת הגדו בתרא י, ב- הנה במדרש דרש "תשא" לשון "כי תשה ברעך משאת ולפסח ולשבועות ובין המצרים... מאמרים נאים ורעיונות מאומה" - לשון חוב והנה אמרו הפירוש בפיוט "החודש אשר | נפלאים, שנונים וחריפים, מתוקים מדבש ונופת צופים, , 0 יטועי , וגו ישועות בו מקיפות" לשון הקפה שהקב"ה נותן לנן הישועות | מכבוד קדושת רבינו אהרן ישעיה קובץ וחיבור דרושים</p>
 <p>בהקפה, כמו שנאמר "בהוציאך את העם ממצרים תעבדון א | שונים, יקרים מזהב ואדרכמונים הנ הרב הגאון הקדוש 0 ו גי געט 0 ו " האלקים על ההר הזה" וזוהי הכוונה "כי תשא"- לשון חוב. אפולר | המפורסים עתיקא קדישא, נהורא נפישא, שר בית ל ראש". קרן ישראל בגימטריא נעשה ונשמע. ויפואר, לד דומיה תהילה ותואר. (מתוך הדרשה לשקלים, קיט, או שער הספר "קדושת אהרץ")</p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>מיקום העיר האדאס לא אומת; הערך ארוך וה־OCR מערבב טורים — הסדר המקורי עלול להיות משובש</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3222 (עמ׳ 232).</li><li id="note-2">פרק הכרך: דורות אחרונים &gt; שושלת מרקשוב - שושלת האדאס.</li></ol></div>
+<div class="unknown"><h3 id="sec-3" data-i18n="unknown">מה שלא ידוע</h3><p>מיקום העיר האדאס לא אומת; הערך ארוך וה־OCR מערבב טורים — הסדר המקורי עלול להיות משובש</p></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3222 (עמ׳ 232).</li><li id="note-2">פרק הכרך: דורות אחרונים &gt; שושלת מרקשוב - שושלת האדאס.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

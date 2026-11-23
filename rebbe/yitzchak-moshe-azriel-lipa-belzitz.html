@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי יצחק משה עזריאל ליפא מבלזיץ</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">סיפור</a></li><li><a href="#sec-3">מה שלא ידוע</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי יצחק משה עזריאל ליפא מבלזיץ</h2>
 <p class="subtitle">מגדולי תלמידיו של החוזה מלובלין; אב״ד בלזיץ; נפטר כ״ה בשבט תקצ״א</p>
@@ -27,18 +33,20 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי שמואל שמעלקה יהודה לייב, אב״ד דעמביץ</dd></div><div><dt>סבו</dt><dd>רבי משה, אב״ד לאנצהוט</dd></div><div><dt>ייחוסו</dt><dd>נכד הגאונים הקדושים מחברי ספרי ׳אמרי רברבי ואמרי זוטרי׳</dd></div><div><dt>רבו</dt><dd>החוזה מלובלין</dd></div><div><dt>פטירתו</dt><dd>כ״ה בשבט תקצ״א (8 בפברואר 1831)</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/belzitz.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">בלזיץ</span></a><a class="rel" href="../dynasty/lublin.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">לובלין — תלמידי החוזה</span></a><a class="rel" href="../rebbe/chozeh-lublin.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">החוזה מלובלין</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>מנעוריו היה קדוש לאלקיו, בן למשפחת גאונים — נכד מחברי ספרי ׳אמרי רברבי ואמרי זוטרי׳. התנהג בגדולות ובנפלאות, אוחז במדרגות גבוהות מאוד; ובשבת קודש היתה מתנוצצת בו הקדושה עד להפליא, כמאמרם שאין מאור פניו של אדם בשבת כבחול. דרכו בקודש היתה להוסיף מחול אל הקודש, והיה יושב בשולחנו הטהור ומאריך מאוד בסעודה שלישית.</p>
 <p>אביו, רבי שמואל שמעלקה יהודה לייב, אב״ד דעמביץ ובומסלא ושאר קהילות הקודש, היה בנו של רבי משה, אב״ד לאנצהוט. בהקדמת המדפיס לספר ׳מעיני ישועה׳ של רבי יעקב יצחק הלוי, אב״ד צילץ ופרשבורג (ווארשא תרנ״ב), נכתב שרבי שמואל שמעלקה היה אביו של ׳הגאון חסידא קדישא, צדיק יסוד עולם, הרב רבי יצחק משה עזריאל, אב״ד בעלזיץ ואגפיו, מתלמידי הרב האלהי... מרן יעקב יצחק הלוי מלובלין׳. ב׳שם הגדולים החדש׳ נכתב עליו שהשאיר אחריו ברכה, חידושים ואגדות הרבה, ונקרא אל השמים בשנת תקצ״א. בהקדמה לספר ׳קב חן׳ מסופר שאבי זקנו של המחבר נעשה תלמיד מובהק להרב עזריאל יצחק, אב״ד בעלזיץ, אשר גם הוא היה מגדולי תלמידיו של החוזה מלובלין.</p>
-<h3>סיפור</h3>
+<h3 id="sec-2">סיפור</h3>
 <p>פעם אחת, בסעודה שלישית, היה שם מתנגד אחד והרים קולו בצעקה: הביטו נא השמימה וראו כי כבר יש כוכבים הרבה, ומותר להדליק את הנר ולהבדיל בין קודש לחול. פעם אף זרק אבנים, ואותו מתנגד לא הוציא את שנתו. פעם אחת פרץ הקדוש בצחוק רם, ותוך כדי צחוק אמר: ׳עליונים למטה ותחתונים למעלה׳, ואיש לא הבין את פשר הדברים. לאחר שנסתיימה הסעודה השלישית נכנסו המקורבים לשאול מה אירע בסעודה השלישית, למה צחק הצדיק ומה זה ׳עליונים למטה׳. שח להם הצדיק: המתנגד שרדף אותנו נידון לגיהנום. בשבת קודש, כידוע, אין הגיהנום פועל ויש מנוחה לרשעים; במוצאי שבת מוחזרים הרשעים לגיהנום. אולם כל עוד הצדיקים מאריכים בשולחנם, אין הרשעים סובלים. אבל אותו מתנגד שלעג לצדיקים המאריכים בשולחנם הוכנס מיד לאש הגיהנום. החל המתנגד לטעון: הלא עדיין שבת בעולם התחתון! אבל מלאכי חבלה השיבו לו: אבל כבר יצאו שלושה כוכבים... אזי פרצתי בצחוק ואמרתי: ׳עליונים למטה ותחתונים למעלה׳, כמאמר הגמרא בבבא בתרא (י, ב). והיינו: עתה שהוא בעליונים הוא אומר ׳למטה׳ — הסתכלו נא בהרב מבלזיץ המאריך בשולחנו; אבל ׳תחתונים׳ — כשהיה בעולם התחתון הוא אמר למעלה: הסתכלו נא בשמים, כבר יצאו שלושה כוכבים. (אליעזר צבי ציגלמן, ׳בית צדיק׳, פיעטריקוב תר״ע, עמ׳ 25)</p>
 <p>פעם אחת ישבו במסיבה תלמידי הרבי הקדוש מלובלין, והתחיל הגאון הקדוש, האב״ד בעלזיץ, לצעוק על איחור זמן התפילה אשר החל על ידי היהודי הקדוש. וכשראה אברך אחד מאחר בתפילה, הביאו לפניהם ואמר: על חשבון אלה המאחרים בתפילה, וטעמם עמם, מתפלל גם אברך זה שאינו מגיע לקרסולם. (׳תפארת היהודי׳, אותיות פ, פא)</p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>בערך זה בכרך ג׳ לא הובאה תורה מפיו — אלא סיפורים עליו ועדויות. שנת לידתו אינה נזכרת בערך. שמו נכתב בערך גם ׳עזריאל יצחק׳ (בהקדמת ׳קב חן׳).</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 2010 בפרק תלמידי החוזה מלובלין, עמ׳ 466–467 — תולדותיו ועליו.</li><li id="note-2">אליעזר צבי ציגלמן, ׳בית צדיק׳, פיעטריקוב תר״ע, עמ׳ 25 (סיפור המתנגד והצחוק ׳עליונים למטה׳).</li><li id="note-3">׳שם הגדולים החדש׳, מערכת גדולים (חידושיו ואגדותיו; פטירתו תקצ״א); הקדמת המדפיס לספר ׳מעיני ישועה׳, ווארשא תרנ״ב (אביו); ׳תפארת היהודי׳, אותיות פ, פא.</li><li id="note-4">כ״ה בשבט תקצ״א = 8 בפברואר 1831.</li></ol></div>
+<div class="unknown"><h3 id="sec-3" data-i18n="unknown">מה שלא ידוע</h3><p>בערך זה בכרך ג׳ לא הובאה תורה מפיו — אלא סיפורים עליו ועדויות. שנת לידתו אינה נזכרת בערך. שמו נכתב בערך גם ׳עזריאל יצחק׳ (בהקדמת ׳קב חן׳).</p></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 2010 בפרק תלמידי החוזה מלובלין, עמ׳ 466–467 — תולדותיו ועליו.</li><li id="note-2">אליעזר צבי ציגלמן, ׳בית צדיק׳, פיעטריקוב תר״ע, עמ׳ 25 (סיפור המתנגד והצחוק ׳עליונים למטה׳).</li><li id="note-3">׳שם הגדולים החדש׳, מערכת גדולים (חידושיו ואגדותיו; פטירתו תקצ״א); הקדמת המדפיס לספר ׳מעיני ישועה׳, ווארשא תרנ״ב (אביו); ׳תפארת היהודי׳, אותיות פ, פא.</li><li id="note-4">כ״ה בשבט תקצ״א = 8 בפברואר 1831.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

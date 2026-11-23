@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי יחיאל צבי אונגר מדומברובה</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">סיפור: מ״ב המסעות</a></li><li><a href="#sec-3">מצבתו</a></li><li><a href="#sec-4">מה שלא ידוע</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי יחיאל צבי אונגר מדומברובה</h2>
 <p class="subtitle">דור שני לדומברובה · חתן רבי שמשון מזוואלין</p>
@@ -27,20 +33,22 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי מרדכי דוד אונגר, מייסד דומברובה</dd></div><div><dt>חתן</dt><dd>רבי שמשון מזוואלין, תלמיד היהודי הקדוש מפשיסחא</dd></div><div><dt>נסתלק</dt><dd>הושענא רבא תרמ״ד (1883)</dd></div><div><dt>בניו</dt><dd>רבי ישראל דוד, אב״ד ז׳מיגראד; רבי יעקב יצחק, שעלה לארץ; רבי אריה הלל</dd></div><div><dt>בתו</dt><dd>נישאה לרבי חיים מצאנז (זיווגו הרביעי); ממנה רבי ישעיה מטשכיוב ורבי שלום אליעזר מראצפערט</dd></div><div><dt>חתניו</dt><dd>רבי חיים גרונר, ראב״ד בארדיוב; רבי יעקב ממעליץ</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/dombrova.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">דומברובה (טארנובסקה)</span></a><a class="rel" href="../dynasty/dombrova.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">דומברובה</span></a><a class="rel" href="../rebbe/mordechai-david-unger-dombrova.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי מרדכי דוד אונגר מדומברובה</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן רבי מרדכי דוד מדומברובה, חתן רבי שמשון מזוואלין, תלמידו של היהודי הקדוש מפשיסחא. עסק תחילה במסחר, אולם לאחר שאיבד את ממונו כתוצאה משריפה ששרפה את מחסני התבואה שלו, עבר לטארנוב, ושם דבק ברבי חיים מצאנז. לאחר שנפטר אביו היה לאדמו״ר, אף שהמשיך לנסוע אל רבי חיים מצאנז.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>בתו נישאה לרבי חיים מצאנז, וממנה האדמו״רים רבי ישעיה מטשכיוב ורבי שלום אליעזר מראצפערט.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>סיפור: מ״ב המסעות</h3>
+<h3 id="sec-2">סיפור: מ״ב המסעות</h3>
 <p>כותב תולדותיו, הרב חיים דוד באקאן, בקובץ ׳כרם החסידות׳, מעיד שאין דברי תורה שלו, אבל הוא מצטט קטע מתוך הספר ׳מבשר טוב׳ הקשור בו. פעם עבר במקומו הרב הצדיק רבי צבי הירש אונגר, בן הגה״ק רבי מרדכי דוד מדומברובה, והלך אליו לתת לו שלום ולהתענג עמו. והיה אז באישון לילה, וראהו שוכב על גבי ספסל, ובגד חורף שלו מראשותיו. ושאלו מדוע לא יניח את עצמו על גבי כרים וכסתות, ואמר לו: אל תתמה על הדבר, כי למה נכתבו בתורה בפרשת מסעי המ״ב מסעות שעברו ישראל במדבר — הלא התורה נצחית היא, והדבר הווה בכל עת. שכל אדם מישראל אם יחשוב הקורות וההרפתקאות שעברו עליו כל ימי חלדו, יראה כי עובר במשך ימי חייו מ״ב מסעות: פעם יסע האדם במרכבה, ופעם בעגלה עמוסה; פעם שוכב במיטה מוצעת, ופעם שוכב על גבי ספסל — בכלל, כי המ״ב מסעות עובר בהם כל אדם חי בכל יום תמיד.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <blockquote>פעם יסע האדם במרכבה, ופעם בעגלה עמוסה. פעם שוכב במיטה מוצעת, ופעם שוכב ע״ג ספסל, בכלל כי המ״ב מסעות עובר בהם כל אדם חי בכל יום תמיד.<span class="src">׳מבשר טוב׳, כמובא בכרך ג׳, ערך 1495</span></blockquote>
-<h3>מצבתו</h3>
+<h3 id="sec-3">מצבתו</h3>
 <p>על מצבתו נחקק: ׳ה״ה הרב הצדיק בוצינא קדישא חסידא ופרישא כתר שם טוב בש״ק מו״ה יחיאל צבי זללה״ה בהרב הגאון הצדיק הקדוש המפורסם מו״ה מרדכי דוד זללה״ה מדמבראווע... רץ כצבי וגבור כארי, לעשות רצון אביו שבשמים, ידיד נפש כל חי, פה מצא מנוח, נפטר ביום הושענא רבה שנת תרמ״ד לפ״ק תנצב״ה׳.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>בערך נדפס כי לאחר פטירת אביו בשנת תר״ג היה לאדמו״ר — טעות דפוס, שהרי אביו נסתלק בז׳ שבט תר״ו; הנכון תר״ו. בערך מצוין במפורש שאין דברי תורה שלו; הקטע המובא כאן הוא סיפור מתוך ׳מבשר טוב׳, לא תורה מפיו.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, ערך 1495, עמ׳ 1495 (קובץ OCR p0157–p0158) — תולדותיו ומצבתו.</li><li id="note-2">הסיפור על מ״ב המסעות מתוך ׳מבשר טוב׳, כפי שציטטו הרב חיים דוד באקאן בקובץ ׳כרם החסידות׳, כמובא שם.</li></ol></div>
+<div class="unknown"><h3 id="sec-4" data-i18n="unknown">מה שלא ידוע</h3><p>בערך נדפס כי לאחר פטירת אביו בשנת תר״ג היה לאדמו״ר — טעות דפוס, שהרי אביו נסתלק בז׳ שבט תר״ו; הנכון תר״ו. בערך מצוין במפורש שאין דברי תורה שלו; הקטע המובא כאן הוא סיפור מתוך ׳מבשר טוב׳, לא תורה מפיו.</p></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, ערך 1495, עמ׳ 1495 (קובץ OCR p0157–p0158) — תולדותיו ומצבתו.</li><li id="note-2">הסיפור על מ״ב המסעות מתוך ׳מבשר טוב׳, כפי שציטטו הרב חיים דוד באקאן בקובץ ׳כרם החסידות׳, כמובא שם.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

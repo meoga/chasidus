@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי צבי אלימלך שפירא מבירטש</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">סיפור</a></li><li><a href="#sec-3">מתורתו</a></li><li><a href="#sec-4">תלמידיו</a></li><li><a href="#sec-5">מה שלא ידוע</a></li><li><a href="#sec-6">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי צבי אלימלך שפירא מבירטש</h2>
 <p class="subtitle">בן רבי אלעזר מלאנצוט · דור שלישי לדינוב</p>
@@ -27,25 +33,27 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>נולד</dt><dd>תר״א (1841)</dd></div><div><dt>נפטר</dt><dd>לפני שנת תרע״ב (1912); שנת פטירתו המדויקת אינה נזכרת בערך</dd></div><div><dt>אביו</dt><dd>רבי אלעזר שפירא מלאנצוט</dd></div><div><dt>חתן</dt><dd>בזיווג ראשון: רבי יהודה ממליץ; בזיווג שני: רבי יהושע אלעזר חודורוב מבארדיטשוב</dd></div><div><dt>כיהן</dt><dd>אדמו״ר בבירטש משנת תרכ״ה</dd></div><div><dt>בניו</dt><dd>רבי מרדכי מבירטש, רבי יוסף מדינוב</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/birtch.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">בירטש</span></a><a class="rel" href="../dynasty/dinov.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">דינוב</span></a><a class="rel" href="../rebbe/elazar-lancut.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי אלעזר שפירא מלאנצוט</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בנו של רבי אלעזר שפירא מלאנצוט, ונכדו של רבי צבי אלימלך מדינוב, בעל בני יששכר, שעל שמו נקרא. בזיווג ראשון היה חתן רבי יהודה ממליץ, ובזיווג שני חתן רבי יהושע אלעזר חודורוב מבארדיטשוב. משנת תרכ״ה היה אדמו״ר בבירטש.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>בניו: רבי מרדכי מבירטש, רבי יוסף מדינוב.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>סיפור</h3>
+<h3 id="sec-2">סיפור</h3>
 <p>בהיוולדו עוד היה סבו, רבי צבי אלימלך מדינוב, בחיים. אביו, רבי אלעזר מלאנצוט, שלח שליח מיוחד אל אביו לדינוב, כדי לשאול אותו מה שם יינתן לרך הנולד. אולם רבי צבי אלימלך מדינוב לא השיב תשובה לשליח, ורק הגיב: ׳עוד חזון למועד׳ — והיה הדבר לפלא בעיני הכל. בינתיים חלה רבי צבי אלימלך מדינוב ונסתלק בימים שבין הלידה לברית המילה, ונקרא הילד בשם סבו, ואז הבינו הכל מדוע השיב ׳עוד חזון למועד׳.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <blockquote>עוד חזון למועד.<span class="src">הקדמה לספר ׳חידושי בני יששכר׳, בשם ׳פתחי שערים׳, כמובא אצל אלפסי כרך ג׳, עמ׳ 1419</span></blockquote>
-<h3>מתורתו</h3>
+<h3 id="sec-3">מתורתו</h3>
 <p>על ׳וישב משה את דברי העם אל ה׳׳ (שמות יט, ח) לימד בשם הרב החסיד מהר״ש זצוק״ל, האב״ד דאברימל: ׳כל אשר דבר ה׳ נעשה׳ — ׳דבר׳ הוא לשון עז ודין, וישראל מרוב תשוקתם אל הבורא קיבלו עליהם אפילו דיניו וגבורותיו באהבה. ומשה ידע שלא תתמיד תמיד תשוקה גדולה כזו, כי כאשר תהיה אלקותו בהסתר לא תהיה להם מדרגה גדולה כזו, והשיב משה את דברי העם אל ה׳ — שהפך את מידת הדין של העם למידת הרחמים.<sup class='fn'><a href="#note-3">3</a></sup></p>
 <p>ועוד לימד, כי תיבת ׳העם׳ היא נוטריקון: המעביר על מידותיו — על פי דברי חז״ל (ראש השנה יז, א): ׳המעביר על מידותיו, מעבירין לו על כל פשעיו׳.<sup class='fn'><a href="#note-3">3</a></sup></p>
 <blockquote>״וישב משה את דברי העם אל ה׳״ — שהפך את מידת הדין של העם אל ה׳, למידת הרחמים.<span class="src">ספר נכדו ׳חידושי בני יששכר׳, מהדורת ניו יורק תשק״ד, עמ׳ ע׳, כמובא אצל אלפסי כרך ג׳, עמ׳ 1419</span></blockquote>
 <p>דברים אלו הם, כנראה, היחידים שנותרו מתורתו, והובאו בספרו של נכדו ׳חידושי בני יששכר׳.<sup class='fn'><a href="#note-3">3</a></sup></p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-4" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/mordechai-birtch.html">רבי מרדכי שפירא מבירטש</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שנת פטירתו המדויקת אינה נזכרת בערך, אלא שנפטר לפני שנת תרע״ב. אין לבלבל בינו לבין רבי צבי אלימלך שפירא מבלאז׳וב (תר״א–תרפ״ד), בן רבי דוד מדינוב — שני אישים שונים, שניהם נקראו על שם סבם בעל בני יששכר; זה כיהן בבירטש, וזה בבלאז׳וב.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, עמ׳ 1419 (קובץ OCR p0090) — ערכו של רבי צבי אלימלך שפירא מבירטש.</li><li id="note-2">סיפור השם: הקדמה לספר ׳חידושי בני יששכר׳, בשם ׳פתחי שערים׳, כמובא שם.</li><li id="note-3">דברי תורתו: מספר נכדו ׳חידושי בני יששכר׳, מהדורת ניו יורק תשק״ד, עמ׳ ע׳, כמובא שם — והם, כנראה, היחידים שנותרו מתורתו.</li></ol></div>
+<div class="unknown"><h3 id="sec-5" data-i18n="unknown">מה שלא ידוע</h3><p>שנת פטירתו המדויקת אינה נזכרת בערך, אלא שנפטר לפני שנת תרע״ב. אין לבלבל בינו לבין רבי צבי אלימלך שפירא מבלאז׳וב (תר״א–תרפ״ד), בן רבי דוד מדינוב — שני אישים שונים, שניהם נקראו על שם סבם בעל בני יששכר; זה כיהן בבירטש, וזה בבלאז׳וב.</p></div>
+<div class="notes"><h3 id="sec-6" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, עמ׳ 1419 (קובץ OCR p0090) — ערכו של רבי צבי אלימלך שפירא מבירטש.</li><li id="note-2">סיפור השם: הקדמה לספר ׳חידושי בני יששכר׳, בשם ׳פתחי שערים׳, כמובא שם.</li><li id="note-3">דברי תורתו: מספר נכדו ׳חידושי בני יששכר׳, מהדורת ניו יורק תשק״ד, עמ׳ ע׳, כמובא שם — והם, כנראה, היחידים שנותרו מתורתו.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

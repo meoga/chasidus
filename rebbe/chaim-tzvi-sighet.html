@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי חיים צבי טייטלבוים מסיגעט</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">עליו</a></li><li><a href="#sec-3">מתורתו</a></li><li><a href="#sec-4">תלמידיו</a></li><li><a href="#sec-5">מה שלא ידוע</a></li><li><a href="#sec-6">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי חיים צבי טייטלבוים מסיגעט</h2>
 <p class="subtitle">בן רבי חנניה יום טוב ליפא · אדמו״ר מסיגעט · בעל עצי חיים</p>
@@ -28,23 +34,25 @@
 <dl class="facts"><div><dt>נולד</dt><dd>י״ט טבת תרמ״ב (1882)</dd></div><div><dt>נפטר</dt><dd>קליינוורדיין, ו׳ שבט תרפ״ו (1926)</dd></div><div><dt>אביו</dt><dd>רבי חנניה יום טוב ליפא מסיגעט</dd></div><div><dt>חתן</dt><dd>רבי שלום אליעזר הלברשטאם מראצפערד, בן רבי חיים מצאנז</dd></div><div><dt>כיהן</dt><dd>אדמו״ר מסיגעט מתרס״ד, בן כ״ג</dd></div><div><dt>חתניו</dt><dd>רבי חיים יצחק אייזיק מסלאטפינה; רבי יקותיאל יהודה מקלויזנבורג</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> עצי חיים · עצי חיים (שו״ת)</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/sighet.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">סיגעט</span></a><a class="rel" href="../dynasty/ujhely.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">איהל</span></a><a class="rel" href="../rebbe/chananya-yom-tov-lipa-sighet.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי חנניה יום טוב ליפא טייטלבוים מסיגעט</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>חתן רבי שלום אליעזר הלברשטאם מראצפערד, בנו של רבי חיים מצאנז. בשנת תרס״ד (1904) נתמנה לאדמו״ר מסיגעט, והוא בן כ״ג. היה גדול בתורה ונחשב לאחד מגאוני הדור, ועל אף גילו הצעיר דבקו בו החסידים. בשהותו אצל החסידים בקליינוורדיין קיבל שטף דם במוחו, והוא פחות מבן חמשים; אלפים השתתפו בהלוויתו.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>ספריו: ׳עצי חיים׳ על התורה, ו׳עצי חיים׳ — שו״ת, וכן חידושים על מקוואות ומסכת חולין, ובספר נפרד על מסכת גיטין. חתניו היו רבי חיים יצחק אייזיק מסלאטפינה ורבי יקותיאל יהודה מקלויזנבורג.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>עליו</h3>
+<h3 id="sec-2">עליו</h3>
 <p>״הוא הגבר אשר הקים עולה של תורה והרביץ תורה ויראה והעמיד תלמידים רבים הגונים וישרים, הלך בדרכי אביו הקדוש, איש ח״י ורב פעלים לעבודת הקודש במסירות נפש, לגדור גדר ולעמוד בפרץ להרים דגל התורה וקרן היראה.״<sup class='fn'><a href="#note-2">2</a></sup></p>
-<h3>מתורתו</h3>
+<h3 id="sec-3">מתורתו</h3>
 <p>על ״אשירה לה׳ כי גאה גאה״ (שמות טו, א) לימד:</p>
 <blockquote>פירש רש״י: ׳אשירה לה׳׳ משמע לעתיד, מכאן לתחית המתים מן התורה. ויש לדקדק, מנין ידע רש״י שהכוונה לתחית המתים, אולי הכוונה לאחר זמן.<span class="src">״עצי חיים״ על מועדים, סיגעט תרצ״ד, דף קמ״ד ע״א, כמובא אצל אלפסי</span></blockquote>
 <p>על ׳ואלה המשפטים אשר תשים לפניהם׳ (שמות כא, א) לימד, על פי דברי ה׳ישמח משה׳: על ידי עבודת ישראל בתורה ובעבודה, ב׳התעוררות דלתתא׳, הם מעוררים גם את ה׳התעוררות דלעילא׳; וזהו רק בישראל, שהם ׳חלק אלוק ממעל׳, ובהתנועע הענף מתנענע השורש, ולכך מעוררים ישראל את דוגמתם שלמעלה.<sup class='fn'><a href="#note-3">3</a></sup></p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-4" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/yekutiel-yehuda-sighet-1944.html">רבי יקותיאל יהודה טייטלבוים מסיגעט</a><a class="chip" href="../rebbe/moshe-sighet-satmar.html">רבי משה טייטלבוים מסיגעט־סטמר</a><a class="chip" href="../rebbe/moshe-tytalbavym-sighet-satmar.html">רבי משה טיטלבוים מסיגעט-סטמאר</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שנת לידתו נדפסה בכרך ׳תר״ב׳ (1842), וזהו טעות דפוס — תרמ״ב (1882): אביו נולד בתקצ״ו (1836), והוא נתמנה לאדמו״ר בתרס״ד (1904) בהיותו בן כ״ג, ונסתלק והוא פחות מבן חמשים.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, עמ׳ 1390–1391 (קובצי OCR p0067–p0068) — פרק ״רבי חיים צבי טייטלבוים מסיגעט״: תולדותיו ותורתו.</li><li id="note-2">דברי ההקדמה ל׳עצי חיים׳ על התורה: כמובא שם.</li><li id="note-3">״ואלה המשפטים״: ״עצי חיים״ על התורה, סיגעט תרפ״ז, דף נ״ה ע״א, כמובא שם.</li></ol></div>
+<div class="unknown"><h3 id="sec-5" data-i18n="unknown">מה שלא ידוע</h3><p>שנת לידתו נדפסה בכרך ׳תר״ב׳ (1842), וזהו טעות דפוס — תרמ״ב (1882): אביו נולד בתקצ״ו (1836), והוא נתמנה לאדמו״ר בתרס״ד (1904) בהיותו בן כ״ג, ונסתלק והוא פחות מבן חמשים.</p></div>
+<div class="notes"><h3 id="sec-6" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, עמ׳ 1390–1391 (קובצי OCR p0067–p0068) — פרק ״רבי חיים צבי טייטלבוים מסיגעט״: תולדותיו ותורתו.</li><li id="note-2">דברי ההקדמה ל׳עצי חיים׳ על התורה: כמובא שם.</li><li id="note-3">״ואלה המשפטים״: ״עצי חיים״ על התורה, סיגעט תרפ״ז, דף נ״ה ע״א, כמובא שם.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

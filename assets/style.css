@@ -1,6 +1,6 @@
 /* Chasidus site — modernized presentation.
    Hebrew, full RTL. All colours come from the variables below so the
-   light/dark (prefers-color-scheme) themes stay in sync. No content
+   light theme and the toggled dark theme stay in sync. No content
    lives in this file: class names match build.py's output. */
 
 :root{
@@ -12,15 +12,16 @@
   --shadow:0 1px 2px rgba(27,35,43,.06),0 8px 24px rgba(27,35,43,.07);
   --shadow-lg:0 2px 6px rgba(27,35,43,.08),0 16px 40px rgba(27,35,43,.12);
 }
-@media(prefers-color-scheme:dark){
-  :root{
-    --bg:#10151a; --panel:#1a2129; --ink:#ede9dc; --muted:#a3adb8;
-    --line:#2e3944; --accent:#8fd0a8; --accent2:#7dd3c8;
-    --soft:#1c2a22; --quote:#1b2620; --paper:#171e24;
-    --shadow-sm:0 1px 2px rgba(0,0,0,.4);
-    --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
-    --shadow-lg:0 2px 6px rgba(0,0,0,.45),0 16px 40px rgba(0,0,0,.5);
-  }
+/* Dark theme, chosen with the header toggle (2026-11-23). Light is the
+   default; the choice is saved in localStorage and applied on
+   <html data-theme="dark">. */
+html[data-theme="dark"]{
+  --bg:#10151a; --panel:#1a2129; --ink:#ede9dc; --muted:#a3adb8;
+  --line:#2e3944; --accent:#8fd0a8; --accent2:#7dd3c8;
+  --soft:#1c2a22; --quote:#1b2620; --paper:#171e24;
+  --shadow-sm:0 1px 2px rgba(0,0,0,.4);
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
+  --shadow-lg:0 2px 6px rgba(0,0,0,.45),0 16px 40px rgba(0,0,0,.5);
 }
 *{box-sizing:border-box}
 html,body{overflow-x:clip}
@@ -55,11 +56,20 @@ a:hover{color:var(--accent2)}
 .topbar .searchbar input{padding:9px 14px}
 .topbar .searchbar button{padding:0 16px}
 /* Language toggle (English menus, 2026-11-23): עב/EN in the header. */
-.lang-toggle{border:1.5px solid var(--line);background:var(--panel);
+.lang-toggle,.theme-toggle{border:1.5px solid var(--line);background:var(--panel);
   color:var(--ink);border-radius:999px;padding:0 16px;min-height:2.75rem;
   font-family:Heebo,system-ui,sans-serif;font-weight:700;font-size:.95rem;
   cursor:pointer;flex:none}
-.lang-toggle:hover{border-color:var(--accent);color:var(--accent)}
+.lang-toggle:hover,.theme-toggle:hover{border-color:var(--accent);color:var(--accent)}
+.theme-toggle{font-size:1.15rem;padding:0 13px}
+/* Header actions (2026-11-23 restyle): the search form and the two toggle
+   pills sit in one flex group with a fixed gap, so the toggles can never
+   drift over the Search button. The input shrinks (min-width:0) instead
+   of pushing the button out of its box. */
+.top-actions{display:flex;align-items:center;gap:8px;flex-wrap:wrap;min-width:0}
+.top-actions .searchbar{flex:1 1 180px;min-width:0;max-width:260px;margin:0}
+.top-actions .searchbar input{min-width:0}
+.top-actions .searchbar button{flex:none}
 
 /* ---------- homepage ---------- */
 .home-head{padding:52px 0 4px;text-align:center}
@@ -74,7 +84,7 @@ a:hover{color:var(--accent2)}
 .searchbar button{background:var(--accent);color:#fff;border:none;
   padding:0 24px;border-radius:999px;font-weight:700;box-shadow:var(--shadow-sm)}
 .searchbar button:hover{filter:brightness(1.08)}
-@media(prefers-color-scheme:dark){.searchbar button{color:#10160f}}
+html[data-theme="dark"] .searchbar button{color:#10160f}
 .entries{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:18px 0 34px}
 .entries a{border:1px solid var(--line);background:var(--panel);
   border-radius:999px;padding:10px 20px;font-weight:600;text-decoration:none;
@@ -94,7 +104,7 @@ a:hover{color:var(--accent2)}
   padding:6px 14px;border-radius:999px;font-weight:600;font-size:.88rem;
   box-shadow:var(--shadow-sm)}
 .filters button.active{background:var(--accent);color:#fff;border-color:var(--accent)}
-@media(prefers-color-scheme:dark){.filters button.active{color:#10160f}}
+html[data-theme="dark"] .filters button.active{color:#10160f}
 
 /* ---------- lists ---------- */
 .rlist{display:flex;flex-direction:column;gap:8px}
@@ -185,6 +195,38 @@ figcaption{font-size:.85rem;color:var(--muted);margin-top:8px}
 article.art figure{float:left;width:260px;margin:6px 18px 16px 0}
 article.art figure.fig-small{width:180px}
 article.art figure figcaption{text-align:center}
+
+/* ---------- article layout + contents sidebar (2026-11-23) ---------- */
+/* Grokipedia layout idea: a sticky list of the page's sections beside the
+   article. On narrow screens the sidebar is hidden outright — it never
+   overlaps the article. */
+.art-layout{display:grid;grid-template-columns:230px minmax(0,1fr);gap:28px;align-items:start}
+.toc{position:sticky;top:76px;max-height:calc(100vh - 96px);overflow:auto;
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--r-md);
+  padding:14px 16px;box-shadow:var(--shadow-sm)}
+.toc-title{font-weight:800;font-size:.85rem;color:var(--muted);margin:0 0 8px}
+.toc ul{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px}
+.toc a{display:block;padding:6px 10px;border-radius:8px;color:var(--muted);
+  text-decoration:none;font-size:.93rem;line-height:1.4;border-inline-start:3px solid transparent}
+.toc a:hover{color:var(--ink);background:var(--soft)}
+.toc a.active{color:var(--accent);font-weight:700;border-inline-start-color:var(--accent);background:var(--soft)}
+@media(max-width:900px){
+  .art-layout{grid-template-columns:1fr}
+  .toc{display:none}
+}
+
+/* ---------- picture lightbox (2026-11-23) ---------- */
+figure img{cursor:zoom-in}
+.lightbox{position:fixed;inset:0;z-index:100;background:rgba(10,14,18,.9);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:14px;padding:24px;cursor:zoom-out}
+.lightbox img{max-width:min(94vw,1000px);max-height:82vh;width:auto;height:auto;
+  border-radius:var(--r-md);box-shadow:0 8px 40px rgba(0,0,0,.5);cursor:zoom-out}
+.lb-cap{color:#e8e4d8;font-size:.95rem;text-align:center;max-width:640px;line-height:1.6}
+.lb-close{position:absolute;top:14px;inset-inline-end:16px;width:44px;height:44px;
+  border-radius:50%;border:1px solid rgba(255,255,255,.4);background:transparent;
+  color:#fff;font-size:1.5rem;line-height:1;display:flex;align-items:center;justify-content:center}
+.lb-close:hover{background:rgba(255,255,255,.15)}
 .dyn{border:1px solid var(--line);background:var(--panel);border-radius:var(--r-lg);
   padding:22px 24px;margin-bottom:16px;box-shadow:var(--shadow-sm);
   transition:box-shadow .15s ease,transform .15s ease}
@@ -198,7 +240,7 @@ article.art figure figcaption{text-align:center}
 .tnode span{display:block;font-size:.82rem;color:var(--muted);font-weight:600}
 .tnode.root{background:var(--accent);color:#fff;border-color:var(--accent)}
 .tnode.root span{color:#d9ecdd}
-@media(prefers-color-scheme:dark){.tnode.root span{color:#cfe8d4}}
+html[data-theme="dark"] .tnode.root span{color:#cfe8d4}
 .tconn{color:var(--accent2);font-size:1.1rem;line-height:1.2;padding-inline-start:22px}
 .tnote{color:var(--muted);font-size:.88rem;font-style:italic}
 
@@ -281,6 +323,7 @@ footer{margin-top:48px;border-top:1px solid var(--line);padding-top:16px;
   .nav{order:3;flex-basis:100%;flex-wrap:nowrap;overflow-x:auto;
     padding-bottom:2px;-webkit-overflow-scrolling:touch}
   .nav a{flex:0 0 auto}
+  .top-actions{flex:1 1 100%;order:2}
   .topbar .searchbar{flex:1;max-width:none}
   .searchbar{margin:22px auto 8px}
   .home-head{padding:36px 0 4px}

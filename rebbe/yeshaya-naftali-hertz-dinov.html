@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי ישעיה נפתלי הירץ שפירא מדינוב</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו</a></li><li><a href="#sec-3">תלמידיו</a></li><li><a href="#sec-4">מה שלא ידוע</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי ישעיה נפתלי הירץ שפירא מדינוב</h2>
 <p class="subtitle">בן רבי דוד מדינוב · בעל הנותן אמרי שפר</p>
@@ -28,22 +34,24 @@
 <dl class="facts"><div><dt>נפטר</dt><dd>ד׳ סיון תרמ״ח (1888)</dd></div><div><dt>אביו</dt><dd>רבי דוד שפירא מדינוב</dd></div><div><dt>קיבל חסידות</dt><dd>מדודו רבי אלעזר מלאנצוט</dd></div><div><dt>כיהן</dt><dd>אדמו״ר בדינוב משנת תרל״ד; ירש את רוב חסידי אביו</dd></div><div><dt>חתניו</dt><dd>רבי יוסף שפירא מדינוב ורבי נחמיה מסטריז׳וב</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> ״הנותן אמרי שפר״ על מועדים ולקוטים שונים (פרעמישלא תר״ן; ניו יורק תש״ך)</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/dinov.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">דינוב</span></a><a class="rel" href="../dynasty/dinov.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">דינוב</span></a><a class="rel" href="../rebbe/david-dinov.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי דוד שפירא מדינוב</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בנו של רבי דוד שפירא מדינוב. קיבל בחסידות מדודו רבי אלעזר מלאנצוט. מתרל״ד אדמו״ר בדינוב, וירש את רוב חסידי אביו.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>תורתו בספר ׳הנותן אמרי שפר׳ על מועדים ולקוטים שונים, שנדפס בפרעמישלא תר״ן ובמהדורת ניו יורק תש״ך.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>מתורתו</h3>
+<h3 id="sec-2">מתורתו</h3>
 <p>לנעוץ סוף התורה בתחילתה — ׳לעיני כל ישראל׳ עם ׳בראשית ברא׳: בשבירת הלוחות גרם לשכחה, ואף על פי כן הסכימה דעת הקב״ה לדעתו, כדי שעל ידי זה יעסקו ישראל בתורה ביתר שאת, שע״י השכחה הם חייבים לחזור על לימודם בכל פעם, ובוודאי בכל פעם הם מוצאים טעמים חדשים המתחדשים מפעם לפעם.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <p>ועל האפיקומן: למה נקרא בשם ׳צפון׳? מפני שבאכילה צריך לברר את הניצוצות הקדושים אשר הם צפונים במאכל, ואפיקומן שהוא זכר לפסח נקרא ׳צפון׳ על שם ניצוצות הקדושה הצפונים בו.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <blockquote>בכל יום מתחדשים טעמים וסודות עליונים בתורה, וזהו אומרו ׳לעיני כל ישראל׳ המרמז לשברי לוחות שע״י כך באה השכחה, וזאת עבור ׳בראשית׳ — שיעסקו ישראל בתורה ויהיה תמיד בחינת ראשית עבורם.<span class="src">ספרו הנותן אמרי שפר, פרעמישלא תרמ״ת, כמובא אצל אלפסי כרך ג׳, עמ׳ 1415</span></blockquote>
 <p>ועוד שמע מפי אביו לבאר מה שאמרו מרים ואהרן ׳הרק אך במשה דבר ה׳׳: טענתם היתה על שפלותו הרבה של משה, ועל כך השיב הקב״ה ׳לא כן עבדי משה׳ — שזכה לבחינת ׳פה אל פה אדבר בו׳ על ידי הענוה.<sup class='fn'><a href="#note-2">2</a></sup></p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-3" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/aharon-shmuel-satepyn.html">רבי אהרן שמואל הכהן אב״ד סטעפין</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שנת לידתו אינה נזכרת בערך.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, עמ׳ 1415 (קובץ OCR p0086) — ערכו של רבי ישעיה נפתלי הירץ שפירא מדינוב.</li><li id="note-2">הדברים על מרים ואהרן הובאו מתוך כתב יד הרה״ת רבי נפתלי צבי פיש, כמובא שם.</li></ol></div>
+<div class="unknown"><h3 id="sec-4" data-i18n="unknown">מה שלא ידוע</h3><p>שנת לידתו אינה נזכרת בערך.</p></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, עמ׳ 1415 (קובץ OCR p0086) — ערכו של רבי ישעיה נפתלי הירץ שפירא מדינוב.</li><li id="note-2">הדברים על מרים ואהרן הובאו מתוך כתב יד הרה״ת רבי נפתלי צבי פיש, כמובא שם.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

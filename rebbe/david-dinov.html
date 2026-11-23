@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי דוד שפירא מדינוב</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו</a></li><li><a href="#sec-3">תלמידיו</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי דוד שפירא מדינוב</h2>
 <p class="subtitle">בן רבי צבי אלימלך מדינוב · ממלא מקום אביו בדינוב · בעל צמח דוד</p>
@@ -28,21 +34,23 @@
 <dl class="facts"><div><dt>נולד</dt><dd>תקס״ד (1804)</dd></div><div><dt>נפטר</dt><dd>י״ט אדר תרל״ד (1874)</dd></div><div><dt>אביו</dt><dd>רבי צבי אלימלך מדינוב</dd></div><div><dt>כיהן</dt><dd>ממלא מקום אביו ברבנות דינוב מתר״א</dd></div><div><dt>חתנו</dt><dd>רבי יהודה ב״ר אלעזר רוקח, ב״ר שלום מבעלזא</dd></div><div><dt>בניו</dt><dd>רבי ישעיה נפתלי הירץ מדינוב; רבי צבי אלימלך מבלוזוב; רבי מאיר יהודה מבוקובסק</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> צמח דוד</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/dinov.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">דינוב</span></a><a class="rel" href="../dynasty/dinov.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">דינוב</span></a><a class="rel" href="../rebbe/tzvi-elimelech-dinov.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי צבי אלימלך שפירא מדינוב</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>כבר בנעוריו נשא אשה, וכבר בימים ההם נהג בקדושה ובטהרה. צדיקי הדור הרבו לשבחו: רבי שלום מבעלזא אמר עליו שהוא גם רבי וגם יהודי ישר; לרבנית הסביר רבי שלום: אדמו״רים יש הרבה, אבל יהודי ישר, ירא שמים — אין הרבה. רבי חיים מצאנז התבטא: ׳מראית פניו אפשר לשאוב יראת שמים׳; ואילו אביו העיד: נשמתו נלקחה מעולם האצילות.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>בשנת תר״א (1841) נתמנה לממלא מקום אביו ברבנות דינוב. רוב החסידים נטה אחרי אחיו רבי אלעזר, הרב מלאנצוט, אולם לאחר מכן חזרו אל רבי דוד. רבי דוד שינה כמה ממנהגי אביו. בין החסידים שדבקו בו היה רבי אליעזר צבי מקומרנה. היה מפורסם גם במופתים; זקני החסידים העידו ש׳היה כולו אש דת, ואימה ופחד נפל על כל אלה שעמדו סביבו, ויראו לגשת אל הקודש׳.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>הרבה תורתו בספר ׳צמח דוד׳ על התורה וליקוטים.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>מתורתו</h3>
+<h3 id="sec-2">מתורתו</h3>
 <p>על ״ויצעק משה אל ה׳ על דבר הצפרדעים״ (שמות ח, ח) לימד:</p>
 <blockquote>יש לדייק מדוע במכות ערוב, ברד, ארבה נאמר בלשון ׳ויעתר׳, ואילו כאן נאמר ׳ויצעק׳. הצפרדעים גם מסרו נפשם בזה שנכנסו לתוך התנורים במצרים. מן הצפרדעים למדו חנניה, מישאל ועזריה למסור את נפשם על קידוש השם (פסחים כג, ב). על כן היה קשה בעיני משה לבטל את המכה הזו — סמל של מסירות נפש. על כן צריך היה משה לצעוק, כי ׳צעקה׳ היא בחינה גדולה יותר מ׳עתירה׳, והיא בלב נשבר, כי היה בוש משה להתפלל בצורה גלויה שייעלמו הצפרדעים, כיון שהיה קידוש שם שמים על ידם.<span class="src">״צמח דוד״, פרעמישלא תרל״ט, דף י״ג ע״ב, כמובא אצל אלפסי</span></blockquote>
 <p>על ׳ויקרא אל משה וידבר ה׳ אליו מאהל מועד׳ (ויקרא א, א) לימד: יש להבין מה הוא לשון קריאה, דיבור ואמירה. יש לומר שהשי״ת לימד את משה איך להתנהג עם ישראל: כמו שאל משה היתה קריאה, שהוא לשון חיבה, ודיבור שהוא לשון קשה — כך יש להתנהג לדורות: ראשי בני ישראל צריכים לנהוג עתים בלשון חיבה ועתים בלשון תקיפה, בבחינת ׳שמאל דוחה וימין מקרבת׳.<sup class='fn'><a href="#note-2">2</a></sup></p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-3" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/yeshaya-naftali-hertz-dinov.html">רבי ישעיה נפתלי הירץ שפירא מדינוב</a><a class="chip" href="../rebbe/meir-yehuda-bukovsk.html">רבי מאיר יהודה שפירא מבוקאווסק</a><a class="chip" href="../rebbe/tzvi-elimelech-blazowa.html">רבי צבי אלימלך שפירא מבלאז׳וב</a></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, עמ׳ 1413 (קובצי OCR p0083–p0084) — פרק ״רבי דוד שפירא מדינוב״: תולדותיו ותורתו.</li><li id="note-2">״ויקרא אל משה״: ״צמח דוד״, ויקרא, כמובא שם (קובץ OCR p0084).</li></ol></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, עמ׳ 1413 (קובצי OCR p0083–p0084) — פרק ״רבי דוד שפירא מדינוב״: תולדותיו ותורתו.</li><li id="note-2">״ויקרא אל משה״: ״צמח דוד״, ויקרא, כמובא שם (קובץ OCR p0084).</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי מנחם מנדל הלברשטאם מפריסטיק</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">הסכמותיו</a></li><li><a href="#sec-3">תלמידיו</a></li><li><a href="#sec-4">מה שלא ידוע</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי מנחם מנדל הלברשטאם מפריסטיק</h2>
 <p class="subtitle">בן רבי אריה לייבוש מדוקלא; רב בפריסטיק ובדוקלא</p>
@@ -27,20 +33,22 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי אריה לייבוש הלברשטאם מדוקלא, בן רבי דוד מקשאנוב (ערך 1673) — לאביו אין ערך משלו בכרך</dd></div><div><dt>אמו</dt><dd>מרים, בת רבי אביגדור הלברשטאם מדוקלא</dd></div><div><dt>נישואיו</dt><dd>חתן דודו רבי יחזקאל שרגא הלברשטאם משיניווא; אשתו פייגא ביילא, שנישא לה בשנת תרל״ט</dd></div><div><dt>רבנותו</dt><dd>בשנת תרנ״ה (1895) נתקבל כרב בפריסטיק; משנת תרס״ח (1908) ממלא מקום אביו כרב בדוקלא, אולם המשיך לגור בפריסטיק; סירב לכהן באדמו״רות</dd></div><div><dt>אופיו</dt><dd>אוהב ישראל למופת</dd></div><div><dt>נסיעותיו</dt><dd>נסע אל רבי יהושע מבעלזא ואל בנו רבי ישכר דב</dd></div><div><dt>בניו</dt><dd>רבי חנה מקאלשיץ (ערך 1709); רבי דוד מטשעבין; רבי חיים ברוך מפריסטיק; רבי יחזקאל שרגא מדוקלא; רבי אביגדור</dd></div><div><dt>חתנו</dt><dd>רבי אפרים דוד ממישלניץ</dd></div><div><dt>פטירתו</dt><dd>נסתלק בכ״א באדר תרפ״ו (1926) ונטמן בפריסטיק</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/frysztak.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">פריסטיק</span></a><a class="rel" href="../dynasty/sanz.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">שושלת סאנז</span></a><a class="rel" href="../rebbe/david-chshanow.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי דוד הלברשטאם מקשאנוב</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן רבי אריה לייבוש הלברשטאם מדוקלא, נכד רבי דוד מקשאנוב, דור רביעי לרבי חיים מצאנז. חתן דודו רבי יחזקאל שרגא הלברשטאם משיניווא. בשנת תרנ״ה נתקבל כרב בפריסטיק, ומשנת תרס״ח ממלא מקום אביו כרב בדוקלא, אולם המשיך לגור בפריסטיק. סירב לכהן באדמו״רות. אוהב ישראל למופת. נסע אל רבי יהושע מבעלזא ואל בנו רבי ישכר דב.</p>
-<h3>הסכמותיו</h3>
+<h3 id="sec-2">הסכמותיו</h3>
 <p>בהסכמתו לספר 'תיקון עולם' (וורשה תרפ״ב), שנכתבה ביום ה׳, פרשת בהעלותך, תרפ״ב, כתב על הרבני המופלג מוה׳ אלטר חיים לעווינזאן מעיר רישא, המכתת רגליו לעורר לב גדולי ישראל אשר בידם למחות ולעמוד בפרץ אשר נפרץ בעוונותינו בזמנינו — שקונים חלב טמא וגבינה אצל הנכרים, והחמאה נעשית בעיני הקלים כהיתר, ונשים הולכות ערומות כבדור המבול — והדבר מוטל על גדולי ישראל, כמו שדרשו חז״ל על הפסוק 'ואשימם בראשיכם', שהגדולים שדבריהם נשמעים יעשו כנסיה לשם שמים. וכתב: 'חבר אני לכל אשר ייראוך, וגם ידי תיכון עמו לעורר לב הצדיקים אשר יטכסו עצה להסיר מכשול, והיה שלום על ישראל'.</p>
 <blockquote>דברי כ״ק חותני זצ״ל אינם צריכין הסכמה.<span class="src">הסכמתו ל&#x27;דברי יחזקאל&#x27; על התורה ומועדים, מהדורת קראקא תרפ״ב (אלפסי, כרך ג׳, ערך 1696)</span></blockquote>
 <p>ובהסכמתו להדפסה מחדש של ספר חותנו 'דברי יחזקאל' (קראקא תרפ״ב) כתב: דברי כ״ק חותני זצ״ל אינם צריכין הסכמה, אבל נודע לו שרצונם דווקא לתת הסכמתו על ההדפסה מחדש ולאשר כי הוא רואה תועלת גדולה לנפשות ישראל בקוראם דברי קדושה היוצאים מפה קדוש — 'המרגלא בפומיה שאין לומר תורה כי אם שנשלח לו מן השמים' — ובוודאי היה נאה דורש ונאה מקיים, ובטח דבריו הקדושים ילהיבו הלבבות לאבינו שבשמים; ומהנכון לזרז עצמם ולקובעו בדפוס מחדש, ואסור לבר ישראל להשיג את גבולם ולהדפיסו עד משך עשרה שנים מעת צאתו מבית הדפוס.</p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-3" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/chana-kalshitz.html">רבי חנה הלברשטאם מקולשיץ</a><a class="chip" href="../rebbe/david-matsahebyn.html">רבי דוד מטשעבין</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>בערך זה בכרך ג׳ לא הובאה תורה מפיו — הערך מביא הסכמות בלבד; לפיכך אין כאן פרק &#x27;מתורתו&#x27;. תיקון תאריך פטירה: כותרת הערך נדפסה &#x27;כ״א אדר ב׳ תרפ״ו&#x27;, אבל בשנת תרפ״ו לא היה אדר ב׳ כלל — הנכון כ״א באדר תרפ״ו, כבוויקיפדיה היידית. שנת לידתו תר״ל (1870) לפי אלפסי ומאורי גליציה (המובא בהערת ויקיפדיה היידית); גוף הערך היידי נותן תרכ״ד (1864). כותרת העמוד ב־OCR נדפסה נכון: &#x27;- 1696 -&#x27; (p0312). בנו רבי חנה מקאלשיץ — ערכו שלו בא בהמשך הפרק.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1696, עמ׳ 1696 (קובץ OCR p0312–p0313) — תולדותיו והסכמותיו.</li><li id="note-2">תאריכים: ויקיפדיה היידית, &#x27;מנחם מענדל האלבערשטאם&#x27; — כ״א אדר תרפ״ו; נישא בשנת תרל״ט לפייגא ביילא בת רבי יחזקאל שרגא משיניווא; אמו מרים בת רבי אביגדור מדוקלא; בניו חנה מקאלשיץ (ו׳ תמוז תרמ״ד – י״ח תשרי תש״ג), אביגדור, חיים ברוך, יחזקאל ודוד; חתנו אפרים דוד ממישלניץ.</li><li id="note-3">הסכמותיו: &#x27;תיקון עולם&#x27;, וורשה תרפ״ב; &#x27;דברי יחזקאל&#x27;, קראקא תרפ״ב.</li></ol></div>
+<div class="unknown"><h3 id="sec-4" data-i18n="unknown">מה שלא ידוע</h3><p>בערך זה בכרך ג׳ לא הובאה תורה מפיו — הערך מביא הסכמות בלבד; לפיכך אין כאן פרק &#x27;מתורתו&#x27;. תיקון תאריך פטירה: כותרת הערך נדפסה &#x27;כ״א אדר ב׳ תרפ״ו&#x27;, אבל בשנת תרפ״ו לא היה אדר ב׳ כלל — הנכון כ״א באדר תרפ״ו, כבוויקיפדיה היידית. שנת לידתו תר״ל (1870) לפי אלפסי ומאורי גליציה (המובא בהערת ויקיפדיה היידית); גוף הערך היידי נותן תרכ״ד (1864). כותרת העמוד ב־OCR נדפסה נכון: &#x27;- 1696 -&#x27; (p0312). בנו רבי חנה מקאלשיץ — ערכו שלו בא בהמשך הפרק.</p></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1696, עמ׳ 1696 (קובץ OCR p0312–p0313) — תולדותיו והסכמותיו.</li><li id="note-2">תאריכים: ויקיפדיה היידית, &#x27;מנחם מענדל האלבערשטאם&#x27; — כ״א אדר תרפ״ו; נישא בשנת תרל״ט לפייגא ביילא בת רבי יחזקאל שרגא משיניווא; אמו מרים בת רבי אביגדור מדוקלא; בניו חנה מקאלשיץ (ו׳ תמוז תרמ״ד – י״ח תשרי תש״ג), אביגדור, חיים ברוך, יחזקאל ודוד; חתנו אפרים דוד ממישלניץ.</li><li id="note-3">הסכמותיו: &#x27;תיקון עולם&#x27;, וורשה תרפ״ב; &#x27;דברי יחזקאל&#x27;, קראקא תרפ״ב.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

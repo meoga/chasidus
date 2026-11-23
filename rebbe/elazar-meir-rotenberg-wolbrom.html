@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי אלעזר מאיר רוטנברג מוולברום</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו</a></li><li><a href="#sec-3">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי אלעזר מאיר רוטנברג מוולברום</h2>
 <p class="subtitle">דור רביעי לרבי מאיר הלוי מאפטא · אדמו״ר מוולברום</p>
@@ -27,17 +33,19 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי יצחק מנחם רוטנברג (נולד תקפ״ב, נפטר כ׳ אדר תרל״ד)</dd></div><div><dt>חתן</dt><dd>רבי משה רוקח מקארוב, בן רבי שלום מבעלזא</dd></div><div><dt>רבותיו</dt><dd>אביו ורבי חיים הלברשטאם מצאנז, שהכתירו לאדמו״ר בשנת תרל״ד</dd></div><div><dt>הצטיין</dt><dd>בעבודת ה׳ שלו; הרבה בסיגופים ובתעניות ובעיקר בטבילות במקוה גם כשהיו המים קפואים מקור; התפרסם בעצותיו הנבונות, וסוחרים רבים התייעצו עמו</dd></div><div><dt>בניו</dt><dd>רבי יוסף נתן שמילא את מקומו; רבי אברהם שלום פנחס מזבירצ׳ה; רבי יצחק מנחם מבנדין</dd></div><div><dt>חתניו</dt><dd>רבי יצחק רובין־גליקמן מסוסנוביץ; רבי אהרן הלברשטאם מביאלה־ביליץ</dd></div><div><dt>תורתו</dt><dd>לקוטים מתורתו בספר ׳מוצל מהאש׳ של נכדו רבי מנחם בן ציון הלברשטם (ניו יורק תשט״ו)</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/wolbrom.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">וואלבראם</span></a><a class="rel" href="../dynasty/apta-meir-halevi.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">אפטא (מאיר הלוי)</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>חתן רבי משה רוקח מקארוב, בן רבי שלום מבעלזא. קיבל בחסידות מאביו ומרבי חיים הלברשטאם מצאנז, שאף הכתירו לאדמו״ר בשנת תרל״ד. הצטיין בעבודת ה׳ שלו. הרבה בסיגופים ובתעניות ובעיקר בטבילות במקוה גם כשהיו המים קפואים מקור. התפרסם בעצותיו הנבונות וסוחרים רבים התייעצו עמו בעניניהם; סופרו עליו גם ספורי מופת.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>בניו: רבי יוסף נתן שמילא את מקומו; רבי אברהם שלום פנחס רוטנברג מזבירצ׳ה; רבי יצחק מנחם מבנדין. חתניו: רבי יצחק רובין־גליקמן מסוסנוביץ, רבי אהרן הלברשטאם מביאלה־ביליץ. לקוטים מתורתו בספר ׳מוצל מהאש׳ של נכדו רבי מנחם בן ציון הלברשטם — ניו יורק תשט״ו.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>מתורתו</h3>
+<h3 id="sec-2">מתורתו</h3>
 <blockquote>טעם למה אנו קוראים לשבת הראשונה שלאחר סוכות ״שבת בראשית״, על שם הפרשה הראשונה שאנו מתחילים לקרוא בה. ולמה לא נקראו שאר השבתות על שם הפרשה שאנו קוראים באותה שבת? אלא בזוהר הקדוש מובא שהקב״ה ברא את העולם בתורה, ״אסתכל באורייתא וברא עלמא״, ומצינו בספרים הקדושים שלפעמים הקריאה מעוררת הזמן. היינו שאם קוראים אנו בפרשת פסח, אף על פי שלא הימים ימי פסח, הרינו מעוררים את הכח של פסח לפעול גם שלא בימי הפסח. ועל כן, בשעה שאנו קוראים בפרשת בראשית, הרינו מעוררים את אותו הכח שהיה בשעה שברא הקב״ה את העולם, דהיינו נעשה חידוש העולם כמו בשבעה ימי בראשית, ומחמת שהעולם מתחדש משבת זו ואילך, על כן היא נקראת שבת בראשית.<span class="src">׳מוצל מאש׳, ע׳ קצ״ב, כמובא באלפסי, כרך ב׳, ערך רבי אלעזר מאיר רוטנברג מוולברום, עמ׳ 936–937 (קובץ OCR מס׳ 408–409)</span></blockquote>
 <p>״ויקרא יעקב אל בניו״ (בראשית מט, א) — זכר בספרים הקדושים שעיקר עבודת ה׳ בעקבתא דמשיחא הוא רק להתדבק בצדיקי אמת ובאסיפת חברים מקשיבים, ובזה יוכל להכרית כל המקטרגים ולהכניע כל הדינים. וזהו פירוש ״ויקרא יעקב אל בניו ויאמר: האספו״ — שיראו להתאסף יחד ראשי עם, וממילא יהיו ״יחד שבטי ישראל״, ובזה ״ואגידה לכם״, מלשון ״גודו אילנא״ שהוא לשון כריתה וקציצה: שבזה שתעבדו את הבורא באסיפת חברים תוכלו להכרית כל הדינים, ״אשר יקרא אתכם באחרית הימים״, דהיינו בעקבתא דמשיחא, שתבטלו בזה כל חבלי משיח ויתעוררו רחמים וחסדים על בני ישראל. (״מוצל מאש״, פרק מקרא קודש, ע׳ קפ״ט)<sup class='fn'><a href="#note-1">1</a></sup></p>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך ׳רבי אלעזר מאיר רוטנברג מוולברום׳, עמ׳ 936–937 (קובץ OCR מס׳ 408–409): תולדותיו, תורתו מ׳מוצל מאש׳.</li><li id="note-2">אביו רבי יצחק מנחם, בן רבי פנחס, נולד תקפ״ב ונפטר כ׳ אדר תרל״ד: שם, עמ׳ 933 (קובץ OCR מס׳ 408).</li></ol></div>
+<div class="notes"><h3 id="sec-3" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך ׳רבי אלעזר מאיר רוטנברג מוולברום׳, עמ׳ 936–937 (קובץ OCR מס׳ 408–409): תולדותיו, תורתו מ׳מוצל מאש׳.</li><li id="note-2">אביו רבי יצחק מנחם, בן רבי פנחס, נולד תקפ״ב ונפטר כ׳ אדר תרל״ד: שם, עמ׳ 933 (קובץ OCR מס׳ 408).</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

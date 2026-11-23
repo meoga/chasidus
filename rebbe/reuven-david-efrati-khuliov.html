@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי ראובן דוד אפרתי מחוליוב</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">הקדמתו לספר &#x27;נחלת יהושע&#x27;</a></li><li><a href="#sec-3">תלמידיו</a></li><li><a href="#sec-4">מה שלא ידוע</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי ראובן דוד אפרתי מחוליוב</h2>
 <p class="subtitle">בנו של מייסד חוליוב · ממלא מקומו כרב ואדמו״ר</p>
@@ -27,18 +33,20 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי יהושע השל אפרתי מחוליוב, מייסד חסידות חוליוב</dd></div><div><dt>חותנו</dt><dd>רבי יקותיאל הכהן, אב״ד ברסטיטצקה</dd></div><div><dt>אדמו״רות</dt><dd>מילא את מקום אביו כרב ואדמו״ר בחוליוב</dd></div><div><dt>בנו</dt><dd>רבי מרדכי — מילא את מקומו</dd></div><div><dt>חתנו</dt><dd>רבי אורי ברנדווין</dd></div><div><dt>הוצאת הספר</dt><dd>הוציא לאור את ספר אביו, &#x27;נחלת יהושע&#x27; (לבוב תרי״ד), וכתב לו הקדמה, ערב ראש חודש טבת תרי״ד; הוא שהסכים לקרוא שם הספר &#x27;נחלת יהושע&#x27;, על שם &#x27;כי זאת נחלנו מאתו עדי עד&#x27;</dd></div><div><dt>פטירה</dt><dd>נפטר בו׳ תמוז תרס״ג (1 ביולי 1903)</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/khuliov.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">חוליוב</span></a><a class="rel" href="../dynasty/khuliov.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">שושלת חוליוב</span></a><a class="rel" href="../rebbe/yehoshua-heshel-efrati-khuliov.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי יהושע השל אפרתי מחוליוב</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בנו של רבי יהושע השל אפרתי מחוליוב, דור שני לרבי יהושע השל. לא נדע עליו דבר, מלבד היותו ממלא מקום אביו כרב ואדמו״ר. חתן רבי יקותיאל הכהן, אב״ד ברסטיטצקה. בנו, רבי מרדכי, מילא את מקומו; חתנו, רבי אורי ברנדווין. הוא שהוציא לאור את ספר אביו, 'נחלת יהושע', וכתב לו הקדמה, ערב ראש חודש טבת תרי״ד. נפטר בו׳ תמוז תרס״ג (1 ביולי 1903).<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>הקדמתו לספר &#x27;נחלת יהושע&#x27;</h3>
+<h3 id="sec-2">הקדמתו לספר &#x27;נחלת יהושע&#x27;</h3>
 <p>בהקדמתו לספר אביו כתב: 'העם ההולכים בתורת ה׳ ראו אור גדול, אור יקרות, אמרות טהורות, שבעתיים מזוקקות, אשר דרש דרש אאמו״ר הרב הצדיק המפורסם, אור ישראל וקדושו זצוק״ל, מדי שבת בשבתו במקהלות עם, כי התאספו אליו עדרים עדרי צאן תורה יבקשו מפיהו. כן דרכו בקודש מעולם להדריך ולהלהיב... זה ערך שנתיים הרעב בקרב הארץ, והמונו ציחה צמא, ורבים אומרים לי: מי יראנו טוב, מי ישקינו מבורו, באר מים חיים, מימיו הנאמנים, והיו למאורות. אי לזאת הרהבתי עוז בנפשי לקרבה אל המלאכה. לא שלותי ולא שקטתי ולא נחתי, עד הוצאתי מחשבתי בעזרת ה׳ מכח אל הפועל, והרימותי מעם את שני ידידי הנאמנים, הלא הם הרבני המופלא מו״ה ברוך בהמנוח מו״ה ישעיה ארי׳ ז״ל, ואת שותפו הרבני המופלא מו״ה חיים בהמנוח מו״ה צבי ברוך בענדיט ז״ל; להם מסרתי הכתובים אשר עמדי, והמה עמלו ביגיעה רבה במלאכת הדפוס להוציא לאור תעלומות באופן נאות, מסודרות דבר דבור על אופניו, למען ספות הרוה אל הצמאים לדברי אלקים חיים. זכרה להם אלקי לטובה, ותהיה משכורתם שלימה; זכותם וזכות הרבים, אשר זכו, וזכות הרב המחבר נ״ע תעמוד להם ולזרעם אחריהם, עד ביאת ינון, ויעלו לציון מושיעים, ונירש נחלתו, נחלת יהושע, אמן כן יהי רצון.' דברי הכותב והחותם, ערב ראש חודש טבת תרי״ד לפ״ק. נאום הק׳ ראובן, אב״ד חאליוב, בן הרב הצדיק זלה״ה.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-3" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/mordechai-efrati-khuliov.html">רבי מרדכי אפרתי מחוליוב</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>לא נדע עליו דבר, מלבד האמור לעיל — כדברי אלפסי עצמו. שנת לידתו אינה נמסרת.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3028 (עמ׳ 86): &#x27;רבי ראובן דוד אפרתי מחוליוב / בן רבי יהושע השל אפרתי מחוליוב (3027) / ו׳ תמוז תרס״ג / לא נדע עליו דבר, מלבד היותו ממלא מקום אביו כרב ואדמו״ר. חתן רבי יקותיאל הכהן אב״ד ברסטיטצקה. בנו — רבי מרדכי, חתנו: רבי אורי ברנדווין.&#x27; (2398) ב־OCR הוא קריאה משובשת של 3027.</li><li id="note-2">ו׳ תמוז תרס״ג = 1 ביולי 1903 (convertdate).</li></ol></div>
+<div class="unknown"><h3 id="sec-4" data-i18n="unknown">מה שלא ידוע</h3><p>לא נדע עליו דבר, מלבד האמור לעיל — כדברי אלפסי עצמו. שנת לידתו אינה נמסרת.</p></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3028 (עמ׳ 86): &#x27;רבי ראובן דוד אפרתי מחוליוב / בן רבי יהושע השל אפרתי מחוליוב (3027) / ו׳ תמוז תרס״ג / לא נדע עליו דבר, מלבד היותו ממלא מקום אביו כרב ואדמו״ר. חתן רבי יקותיאל הכהן אב״ד ברסטיטצקה. בנו — רבי מרדכי, חתנו: רבי אורי ברנדווין.&#x27; (2398) ב־OCR הוא קריאה משובשת של 3027.</li><li id="note-2">ו׳ תמוז תרס״ג = 1 ביולי 1903 (convertdate).</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

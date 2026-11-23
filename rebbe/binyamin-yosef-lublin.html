@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי בנימין יוסף מלובלין</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">סיפורים עליו</a></li><li><a href="#sec-3">מתורתו</a></li><li><a href="#sec-4">מה שלא ידוע</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי בנימין יוסף מלובלין</h2>
 <p class="subtitle">סופרו של החוזה מלובלין ומגדולי תלמידיו של היהודי הקדוש, רבי שמחה בונים מפשיסחא ורבי יצחק מוורקא; סירב לקבל עליו אדמו״רות; ג׳ בחשון תרי״ט</p>
@@ -27,22 +33,24 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>תפקידו</dt><dd>סופרו של החוזה מלובלין</dd></div><div><dt>רבותיו</dt><dd>החוזה מלובלין; היהודי הקדוש מפשיסחא; רבי שמחה בונים מפשיסחא; רבי יצחק מוורקא</dd></div><div><dt>אדמו״רותו</dt><dd>סירב לקבל עליו אדמו״רות</dd></div><div><dt>פטירתו</dt><dd>ג׳ בחשון תרי״ט (11 באוקטובר 1858)</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/lublin.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">לובלין</span></a><a class="rel" href="../dynasty/lublin.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">לובלין — תלמידי החוזה</span></a><a class="rel" href="../rebbe/chozeh-lublin.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">החוזה מלובלין</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>סופרו של החוזה מלובלין ובעל מדרגות גבוהות. נטה אחר היהודי הקדוש, למורת רוחו של רבו. היה מלווהו של החוזה בנסיעתו אל רבי ברוך ממז׳יבוז׳, והחוזה גילה לו מראש כל מה שיתרחש בדרך; רבי בנימין הוא שסיפר את כל שהתרחש בין רבי ברוך ממז׳יבוז׳ לבין החוזה.</p>
 <p>אמר החוזה לרבי בנימין: לולי שאני מעכב אחריך, אלפי אנשים היו מקבלים את מרותך. וכך היה: כשהחל רבי שמחה בונים מפשיסחא בהנהגתו, ורבי בנימין קיבל את מרותו המוחלטת, היה הדבר למורת רוחם של החסידים בלובלין, ואלה התרחקו ממנו. סירב לקבל עליו אדמו״רות.</p>
 <p>כשנפטר רבי יצחק מוורקא, היו המועמדים לקבל את הנשיאות אחריו: רבי בנימין מלובלין, רבי יעקב אריה מראדזימין, רבי פייבל מגריצא ורבי יעקב דוד מאמשינוב. רבי בנימין העלה את מועמדותו של רבי מנחם מנדל מוורקא, שאכן קיבל את רוב חסידי אביו. (׳אהל יצחק׳, חלק ג׳, עמ׳ 15)</p>
-<h3>סיפורים עליו</h3>
+<h3 id="sec-2">סיפורים עליו</h3>
 <p>פעם אחת אמר החוזה בתום עריכת שולחנו בליל שבת: מחר בבקר יתפללו בבית המדרש בשעה שבע בבקר. לאחר מכן חזר לחדרו. לפתע חזר אל החסידים ואמר: גם בנימין. ידע הרבי שאין ר׳ בנימין מתפלל בזמן תפילה, אלא כדרך פשיסחא, שלא בזמן תפילה, ביחידות ובהתלהבות עצומה. בשבת בבקר מיהרו החסידים והביאו את ר׳ בנימין לבית המדרש; נתעטף ר׳ בנימין בטליתו. בסעודת שבת שאל הרבי: האם התפללו כל החסידים במנין? השיבוהו: הן. גם בנימין? השיבוהו: הן. בנו, רבי יוסף מטורטשין, הוסיף: חוששני שלא. קראו לר׳ בנימין אל הרבי. שאלו: התפללת במנין? השיב: לא! אמר הרבי: אני דן אותך לכף זכות. רבי בנימין היה מאושר. אלמלא דן אותי לכף זכות — כי אז לא נשאר ממני שריד ופליט. שאלוהו: למה באמת לא התפללת? בפרט שהרבי אמר כמה פעמים שאם יתפלל אתו ביחוד, יגביהו למדרגה גבוהה. השיב ר׳ בנימין: לא אוכל לומר רק שהיה זה עבורי כמו פיקוח נפש! (המצוטט בערך כ׳שם, עמ׳ 87, אות רפ״ז׳)</p>
 <p>רבי בנימין שילם את הוצאות נסיעתו לפשיסחא, ואיש לא ידע מכך. אולם רבי בנימין פרסם את הדברים וגרם לסערה אצל מתנגדי היהודי הקדוש, שמיהרו אל החוזה בטענה שהוא מעודד את היהודי הקדוש, ואמרו שעל זה נענש רבי בנימין ולא היו לו בנים. (׳נפלאות היהודי׳, עמ׳ 15)</p>
-<h3>מתורתו</h3>
+<h3 id="sec-3">מתורתו</h3>
 <p>על ׳אלה תולדות׳: שעיקר תולדותיהם של צדיקים מעשיהם הטובים. הרצון בזה לומר, כי ׳תולדות׳ מכונה על שם התגמר והתכלית: הגמר והתכלית של הצדיק להגיע במעשיו הטובים להיות הבחיר שבבריותיו, להיות איש צדיק. (רבי יוסף מנדלקרן, ׳דברי יוסף׳, ירושלים תשכ״א)</p>
 <p>על ׳ויאסור יוסף מרכבתו ויעל לקראת ישראל אביו... ויפול על צואריו׳ (בראשית מו, כט): רש״י מדגיש — אבל יעקב לא נפל על צווארי יוסף ולא נשקו, משום שהיה קורא את שמע. הדבר תמוה: מדוע לא קרא יעקב קודם לכן את שמע? אלא יעקב הוא בחינת ׳תפארת׳ ויוסף הוא בחינת ברית, וכאשר נתראו היה יחוד עם שמו, והיה הכרת קבלת מלכותו יתברך, וזה עצמו כקריאת שמע. (שם)</p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שנת לידתו אינה נזכרת בערך. מקור הסיפור על נסיעת החוזה למז׳יבוז׳ כפי שנדפס בערך אינו קריא ב־OCR; הסיפור על תפילתו שלא בזמנה מצוטט בערך ממקור שצוין רק כ׳שם, עמ׳ 87, אות רפ״ז׳, וזהות הספר אינה מפורשת שם. בנו, רבי יוסף מטורטשין, נזכר בערך אגב הסיפור על התפילה.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1977 בפרק תלמידי החוזה מלובלין, עמ׳ 436–437 — תולדותיו, סיפורים עליו ותורתו.</li><li id="note-2">רבי יוסף מנדלקרן, ׳דברי יוסף׳, ירושלים תשכ״א (שני דברי התורה שב׳מתורתו׳).</li><li id="note-3">׳נפלאות היהודי׳, עמ׳ 15 (הסערה אצל מתנגדי היהודי הקדוש).</li><li id="note-4">׳אהל יצחק׳, חלק ג׳, עמ׳ 15 (המועמדים לנשיאות אחרי רבי יצחק מוורקא).</li><li id="note-5">ג׳ בחשון תרי״ט = 11 באוקטובר 1858.</li></ol></div>
+<div class="unknown"><h3 id="sec-4" data-i18n="unknown">מה שלא ידוע</h3><p>שנת לידתו אינה נזכרת בערך. מקור הסיפור על נסיעת החוזה למז׳יבוז׳ כפי שנדפס בערך אינו קריא ב־OCR; הסיפור על תפילתו שלא בזמנה מצוטט בערך ממקור שצוין רק כ׳שם, עמ׳ 87, אות רפ״ז׳, וזהות הספר אינה מפורשת שם. בנו, רבי יוסף מטורטשין, נזכר בערך אגב הסיפור על התפילה.</p></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1977 בפרק תלמידי החוזה מלובלין, עמ׳ 436–437 — תולדותיו, סיפורים עליו ותורתו.</li><li id="note-2">רבי יוסף מנדלקרן, ׳דברי יוסף׳, ירושלים תשכ״א (שני דברי התורה שב׳מתורתו׳).</li><li id="note-3">׳נפלאות היהודי׳, עמ׳ 15 (הסערה אצל מתנגדי היהודי הקדוש).</li><li id="note-4">׳אהל יצחק׳, חלק ג׳, עמ׳ 15 (המועמדים לנשיאות אחרי רבי יצחק מוורקא).</li><li id="note-5">ג׳ בחשון תרי״ט = 11 באוקטובר 1858.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי מנחם מנדל לזר מסטריז׳וב</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">ספרו ׳שובע שמחות׳</a></li><li><a href="#sec-3">מה שלא ידוע</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי מנחם מנדל לזר מסטריז׳וב</h2>
 <p class="subtitle">אב בית דין בסטריז׳וב; תלמידם של החוזה מלובלין ורבי מנחם מנדל מרימנוב; בעל ׳שובע שמחות׳; נפטר ט״ז אב תקצ״א</p>
@@ -28,19 +34,21 @@
 <dl class="facts"><div><dt>לידתו</dt><dd>בשנת תקמ״ח (1788)</dd></div><div><dt>רבותיו</dt><dd>החוזה מלובלין (בצעירותו); רבי מנחם מנדל מרימנוב</dd></div><div><dt>תפקידו</dt><dd>בעל התפילה אצל רבי מנחם מנדל מרימנוב; הצטיין בקול אדיר</dd></div><div><dt>רבנותו</dt><dd>אב בית דין בסטריז׳וב</dd></div><div><dt>ספרו</dt><dd>׳שובע שמחות׳ על התורה (ז׳ולקווא תק״י) ועל קידושין (פרמיסלה תרל״ט); הסכמת הדברי חיים מצאנז, שנתן לספר את שמו</dd></div><div><dt>סידורו</dt><dd>סידור התפילה שלו (סידור קופל, סלאוויטא תקע״ד) נשתמר עם פתיחת אליהו בכתב ידו</dd></div><div><dt>פטירתו</dt><dd>ט״ז אב תקצ״א (26 ביולי 1831)</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> ׳שובע שמחות׳ (ז׳ולקווא תק״י; על קידושין, פרמיסלה תרל״ט)</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/strizhov.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">סטריז׳וב</span></a><a class="rel" href="../dynasty/lublin.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">לובלין — תלמידי החוזה</span></a><a class="rel" href="../rebbe/chozeh-lublin.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">החוזה מלובלין</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>נולד בשנת תקמ״ח (1788). היה תלמידו של החוזה מלובלין בצעירותו, ואחר כך תלמידו של רבי מנחם מנדל מרימנוב; אצל רבי מנחם מנדל היה בעל התפילה, והצטיין בקול אדיר.</p>
 <p>כיהן כאב בית דין בסטריז׳וב. חיבר את הספר ׳שובע שמחות׳.</p>
 <p>נפטר בט״ז אב תקצ״א (26 ביולי 1831).</p>
-<h3>ספרו ׳שובע שמחות׳</h3>
+<h3 id="sec-2">ספרו ׳שובע שמחות׳</h3>
 <p>׳שובע שמחות׳ על התורה נדפס בז׳ולקווא בשנת תק״י, ו׳שובע שמחות׳ על קידושין נדפס בפרמיסלה בשנת תרל״ט. רבי חיים הלברשטאם מצאנז, בעל ׳דברי חיים׳, כתב לספר הסכמה ונתן לו את שמו.</p>
 <p>סידור התפילה שלו — סידור קופל, סלאוויטא תקע״ד — נשתמר עם פתיחת אליהו בכתב ידו.</p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>בערך זה בכרך ג׳ לא הובאה תורה מפיו. שם משפחתו נדפס ב־OCR ׳לייוער׳ — קריאה משובשת של ׳לזר׳, כפי שנותן קטלוג בידספיריט. שם עירו נדפס ׳טטריזוב׳ — קריאה של סטריז׳וב (Strzyżów). רבי מנחם מנדל מרימנוב, רבו השני, אין לו ערך באתר, ולכן לא נרשם כמזהה רב.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 2166 בפרק תלמידי החוזה מלובלין, עמ׳ 521 — נולד בשנת תקמ״ח, נפטר ט״ז אב תקצ״א; תלמידם של החוזה מלובלין בצעירותו ושל רבי מנחם מנדל מרימנוב; מחבר ׳שובע שמחות׳; הצטיין בקול אדיר והיה ׳בעל התפילה׳ אצל רבי מנחם מנדל מרימנוב.</li><li id="note-2">בידספיריט, מכירה 4948, פריט 116517 — סידור התפילה של רבי מנחם מנדל לזר, אב״ד סטריז׳וב, בעל ׳שובע שמחות׳ (1788–1831), תלמיד החוזה מלובלין, חזן רבי מנחם מנדל מרימנוב; ׳שובע שמחות׳ על התורה (ז׳ולקווא תק״י) ועל קידושין (פרמיסלה תרל״ט); הסכמת הדברי חיים מצאנז, שנתן לספר את שמו; סידור קופל, סלאוויטא תקע״ד, עם פתיחת אליהו בכתב ידו.</li><li id="note-3">ט״ז אב תקצ״א = 26 ביולי 1831 (יום ג׳).</li></ol></div>
+<div class="unknown"><h3 id="sec-3" data-i18n="unknown">מה שלא ידוע</h3><p>בערך זה בכרך ג׳ לא הובאה תורה מפיו. שם משפחתו נדפס ב־OCR ׳לייוער׳ — קריאה משובשת של ׳לזר׳, כפי שנותן קטלוג בידספיריט. שם עירו נדפס ׳טטריזוב׳ — קריאה של סטריז׳וב (Strzyżów). רבי מנחם מנדל מרימנוב, רבו השני, אין לו ערך באתר, ולכן לא נרשם כמזהה רב.</p></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 2166 בפרק תלמידי החוזה מלובלין, עמ׳ 521 — נולד בשנת תקמ״ח, נפטר ט״ז אב תקצ״א; תלמידם של החוזה מלובלין בצעירותו ושל רבי מנחם מנדל מרימנוב; מחבר ׳שובע שמחות׳; הצטיין בקול אדיר והיה ׳בעל התפילה׳ אצל רבי מנחם מנדל מרימנוב.</li><li id="note-2">בידספיריט, מכירה 4948, פריט 116517 — סידור התפילה של רבי מנחם מנדל לזר, אב״ד סטריז׳וב, בעל ׳שובע שמחות׳ (1788–1831), תלמיד החוזה מלובלין, חזן רבי מנחם מנדל מרימנוב; ׳שובע שמחות׳ על התורה (ז׳ולקווא תק״י) ועל קידושין (פרמיסלה תרל״ט); הסכמת הדברי חיים מצאנז, שנתן לספר את שמו; סידור קופל, סלאוויטא תקע״ד, עם פתיחת אליהו בכתב ידו.</li><li id="note-3">ט״ז אב תקצ״א = 26 ביולי 1831 (יום ג׳).</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

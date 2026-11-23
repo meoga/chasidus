@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי משה אהרן טאוב מנובידבור</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">תלמידיו</a></li><li><a href="#sec-3">מה שלא ידוע</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי משה אהרן טאוב מנובידבור</h2>
 <p class="subtitle">בן רבי שמואל אליהו מזוואלין; אדמו״ר בזוואלין ומנובידבור</p>
@@ -27,18 +33,20 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי שמואל אליהו טאוב מזוואלין (ערך 1597)</dd></div><div><dt>אדמו״רות</dt><dd>ממלא מקום אביו בזוואלין משנת תרמ״ח; לאחר שריפה גדולה עבר לנובידבור הסמוכה לוורשה</dd></div><div><dt>זקנו</dt><dd>התחנך על ברכי זקנו, רבי יחזקאל טאוב מקוזמיר</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/novidvor.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">נובידבור</span></a><a class="rel" href="../dynasty/zvolin.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">שושלת זוואלין</span></a><a class="rel" href="../rebbe/shmuel-eliyahu-zvolin.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי שמואל אליהו טאוב מזוואלין</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן רבי שמואל אליהו טאוב מזוואלין, ונכדו של רבי יחזקאל טאוב מקוזמיר, מייסד השושלת. התחנך על ברכי זקנו. עם פטירת אביו בכ״ו באייר תרמ״ח מילא את מקומו בזוואלין, ואחיו רבי ישראל עבר לשבת במודז׳יץ.</p>
 <p>לאחר שריפה גדולה עבר מזוואלין לנובידבור הסמוכה לוורשה. על השריפה מסופר בספר ׳נגינה וחסידות בבית קוזמיר ובנותיה׳: הדליקה פרצה בלילה שלפני ערב שבועות ושרפה את כל בתי העיירה, ובתוכם חצר הרבי, בית המדרש וספרי התורה. מכל רכושו עלה בידי הרבי להציל מהאש את ספרי התורה בלבד, ובערב שבועות הגיע לוורשה, ערום ודל, עם ׳ארבע כנפות׳ על גופו, יחד עם שני בניו, כלותיו ונכדיו.</p>
 <p>בכוונה עצומה אמר את הברכה ׳שלא עשני גוי׳, ובחיוך על שפתיו אמר: ברוך השם שאינני גוי, כי אלמלא הייתי גוי היה נשרף גם האל שלי; ולנו היהודים יש אל גדול בשמים. ואף בצרתו לא שכח את הניגון: פנה לשני בניו, האדמו״רים לעתיד, וביקש מהם להכין ניגונים חדשים לשבועות, ובייחוד ל׳אקדמות׳ — ׳אין השעה כשרה לחשוב על שטויות, יש להכין ניגונים חדשים לשבועות׳.</p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-2" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/yaakov-naftali-novidvor.html">רבי יעקב נפתלי טאוב מנאווידוואהר</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>בכרך זה אין מצוטטת תורה מפיו. שנות לידתו ופטירתו לא נזכרו בערך; ידוע רק שמילא מקום אביו בזוואלין משנת תרמ״ח.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1602, עמ׳ 1602–1603 (קובץ OCR p0226–p0227) — פרק ׳רבי משה אהרן טאוב מנובידבור׳: תולדותיו.</li><li id="note-2">סיפור השריפה מובא שם מתוך הספר ׳נגינה וחסידות בבית קוזמיר ובנותיה׳, עמ׳ 52.</li><li id="note-3">נובידבור = Nowy Dwór Mazowiecki; קואורדינטות 52.43, 20.717 לפי ויקיפדיה האנגלית.</li></ol></div>
+<div class="unknown"><h3 id="sec-3" data-i18n="unknown">מה שלא ידוע</h3><p>בכרך זה אין מצוטטת תורה מפיו. שנות לידתו ופטירתו לא נזכרו בערך; ידוע רק שמילא מקום אביו בזוואלין משנת תרמ״ח.</p></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1602, עמ׳ 1602–1603 (קובץ OCR p0226–p0227) — פרק ׳רבי משה אהרן טאוב מנובידבור׳: תולדותיו.</li><li id="note-2">סיפור השריפה מובא שם מתוך הספר ׳נגינה וחסידות בבית קוזמיר ובנותיה׳, עמ׳ 52.</li><li id="note-3">נובידבור = Nowy Dwór Mazowiecki; קואורדינטות 52.43, 20.717 לפי ויקיפדיה האנגלית.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

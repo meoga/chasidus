@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי שמואל הלוי אשלג</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מה שלא ידוע</a></li><li><a href="#sec-3">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי שמואל הלוי אשלג</h2>
 <p class="subtitle">בן רבי ברוך שלום (2538)</p>
@@ -27,17 +33,19 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי ברוך שלום</dd></div><div><dt>עיר</dt><dd>טשנת</dd></div><div><dt>תאריכים</dt><dd>תרפ״ט — כ״ט תשרי תשני״ז</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/tashant.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">טשנת</span></a><a class="rel" href="../dynasty/ashlag.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">שושלת אשלג</span></a><a class="rel" href="../rebbe/baruch-shalom.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי ברוך שלום</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>קיבל עוד מסבו רבי יהודה ליב אשלג. משנת תשנ"ב | חברותא טובה, הלה הפציר ברבינו ללמוד איתו עד שהסכים, ממלא מקום אביו, וממשיך נאמן של דרכו בהפצת תורת | והוא נהנה ביותר מהשיעקב, וכהכרת הטוב הוא מימן חלק הקבלה. בקיאותו בשטתח זה היתה מדהימה. כתב את | מהוצאת חתונת רבינו. ההקדמה לספרו של אביו "ברכת שלום". בקיאותו וחריפותו הפליאו ביותר היה ת"ח ובקי עצום > מהנכתב על רבי טומוואל: בנגלה ובנסתר. ידע לצטט בדייקנות פסוקים מכל התנ"ך תוך ציון המקור וכן גמרות ומאמרי חז"ל. אמר פעם לקרוב אחבת התורה משפחה שאם בקיאים בגמ' מצליחים גם בגשמיות. הידע אמר כמה פעמים שחב את חייו לאחותו הרבנית י. אגסי הגוף והנפש. ע"ה, שאלולא היא לא היה חי, משום שהוא היה יושב ולומד שעות רבות בביהמ"ד ולא היה אוכל, והיא היתה דואגת כל הידיעות הללו רכש תוך כדי עיסוקו בפרנסתו ולא להביא לו מידי פעם קצת אוכל להחיות את נפשו. ע"ח שיעקביו ולימוד התורה. הידע המקיף שלו בא לידי ביטוי בשיעקביו בספר "פרי חכם" לבעה"ס, כשהיה צורך בידע<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>כח ההתמדה והרצון ללמוד בשקידה היה בל יתואר, היה במדעים כדי להבין דברים מסוימים. אוהב מאד את לילות החורף הארוכים בהם היה לומד בירושלים מול התנור והיה יכול לשבת וללמוד כ-13-14 מידותיו הטובות שעות ללא הפסקה. ראוי לציין שהדגיש כמה פעמים את המילים לימוד ללא הפסקה שמביא תועלת רבה. כאשר קבע היה נח לבריות נעים הליכות היה להפליא מי שהיה לו חברותא עם אדם התנה תנאי ראשון ללמוד לפחות 4 שעות | קשר כלשהו עמו הרגיש מהר מאד קשר נפשי אליו. הקרין ללא הפסק כלל. כשהיה נוסע לחו"ל למטרות ריפוי היק | אהבה לזולת, פעם בהיותו בביה"ח ניגש אליו יהודי הרכין מחשב את המזער שצריך לבגדיו כדי שיהיה די מקום ראשו וביקש ברכה. כששאלוהו מה ראה לבקש ברכה, השיב במזוודות לספרים. וכשניסו בני משפחתו לשכנעו בתו"ל | שהתרשם מפניו המאירות, כך היה כשרופא מן המפורסמים שיצא לנפוש סרב באמרו שחבל על הזמן והיה לו ביכ | בעולם סרב לקבל תשלום עבור הטיפול ואמר שהוא מבקש</p>
 <p>קרוב שם קבע שיעקביו. סיפר אדם ששהה איתו בחו"ל שהיה | רק ברכה. וכשהפצירו בו לקבל שכרו אמר שדי לו זה שרבינו הולך כל לילה ללמוד ופעם היה ביהמ"ד סגור, רבינו עשה | בא אליו. מאמץ וטיפס בגובה של איזה קומה וחצי ואח"כ על איזה הענע לכת גג וכך נכנס לביהמ"ד. את כל גאוניותו וסגולותיו - הצניע והסתיר בבחינת כשנודע שנבחר להנהיג העדה הגיב אחד משכנ'ו באמר' = "הצנע לכת". היה קשה מאד לעמוד על טיבו. מלבד בשעות שהבחירה היא בחירה טובה ביותר והסיף הסבר שהוא עצבמו השיעקב - תיה נמנע מלהשיב לשאלות בלימוד. אינו מבין רבות בלימוד אך זאת יודע שכאשר יצא לעבודתו בבוקר וראה את רבינו יושב ולומד במרפסת הבית, וכששב היה מעשה בתלמיד ששאלו בלימוד כמה פעמים ולא בצהרים מעבודתו - היה עדיין יושב באותה צורה ולומד. | השיב לו. לבסוף הגיע התלמיד לבית רבינו והפציר בו שישיב גם כשעסק בפרנסתו היה לומד בהפסקות העבודה ולעיתים | על שאלתו. כאשר ראה רבינו את גודל תשוקתו לדעת -</p>
 <p>היה צורך להזכיר לו שתמה ההפסקה. הסביר לו רבינו את הענין בבהירות מפליאה. אחד מתלמידי בעה"ס היה הרב אהון שמש ז"ל, הלה כבר משחר ילדותו סיגל לעצמו מידה זו של צניעות וענוה הגיע לישיבה ופנה אל ראש הישיבה בבקשה לסדר לו | עד שתשבוהו לתלמיד חלש ביותר, עד שפעם, כשהיה בגיל עשר נפלטה מפיו תשובה לשאלה שנשאלה בבית המדרש הנהגתו לתדהמת הנוכחים, ואז אמר שבמקרה למד ענין זה אתמול. אמר כמה פעמים, שעובדת קבלת עול ההנהגה היתה אף פעם לא יכלו לפעול אצלו להשיג דבר שיכול להביא למעלה מטבעו, והסיבה שהסכים לקבל את ההנהגה הוא לו כבוד. פעם התעודרה שאלה בבית המדרש של סבו "בעל | שרצה לשמר את דרכו המקורית של "בעל הסולם". הסולם" זי"ע, היכן כתוב בש"ס מאמר מסויים. הנוכחים לא הצליחו למצוא את מקור המאמר. אזי פנה האדמו"ר בעל פעם אחרת אמר לאחד מחסידיו: עוד סיבה למה לקחתי "ברכת שלום" לבנו רבינו זצ"ל, והפציר בו שיציין את מקור את ההנהגה משום שראיתי שזה רצונו של "בעל הסולם"</p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>מיקום העיר טשנת לא אומת; הערך ארוך וה־OCR מערבב טורים — הסדר המקורי עלול להיות משובש</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3232 (עמ׳ 242).</li><li id="note-2">פרק הכרך: דורות אחרונים &gt; שושלת אשלג.</li></ol></div>
+<div class="unknown"><h3 id="sec-2" data-i18n="unknown">מה שלא ידוע</h3><p>מיקום העיר טשנת לא אומת; הערך ארוך וה־OCR מערבב טורים — הסדר המקורי עלול להיות משובש</p></div>
+<div class="notes"><h3 id="sec-3" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3232 (עמ׳ 242).</li><li id="note-2">פרק הכרך: דורות אחרונים &gt; שושלת אשלג.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

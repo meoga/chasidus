@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי מאיר הלוי מאפטא</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו</a></li><li><a href="#sec-3">תלמידיו</a></li><li><a href="#sec-4">מה שלא ידוע</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי מאיר הלוי מאפטא</h2>
 <p class="subtitle">בעל ׳אור לשמים׳ · מגדולי תלמידיו של החוזה מלובלין</p>
@@ -28,23 +34,25 @@
 <dl class="facts"><div><dt>רבותיו</dt><dd>רבי יצחק אברהם מפינטשוב, בעל ׳כתר כהונה׳, והחוזה מלובלין</dd></div><div><dt>כיהן</dt><dd>רב בסטאבניץ (סטובניצא) ואחר כך באפטא; היה גם גדול בתורת הנסתר</dd></div><div><dt>לאחר החוזה</dt><dd>כשנפטר החוזה מלובלין הלכו רבים מתלמידיו לאפטא, אחר רבי מאיר, בשל כשרונותיו המיוחדים לשמש מנהיג בישראל; חסידים מסרו שזה היה גם רצונו של החוזה, כי רבי מאיר ימלא את מקומו</dd></div><div><dt>שיטתו</dt><dd>היה נאמן לשיטת החסידות כפי שקיבל מרבותיו, והתנגד לדרך החדשה של רבי שמחה בונם מפשיסחא, שרצה לבססה על יסודות העיון השכלי</dd></div><div><dt>ספרו</dt><dd>׳אור לשמים׳ על התורה, הכתוב בדרך הפרד״ס, מכיל גם קצת חידושים ושו״ת בדרך הפלפול</dd></div><div><dt>בניו</dt><dd>רבי פנחס ורבי ישראל היו צדיקים מפורסמים</dd></div><div><dt>תלמידו המובהק</dt><dd>רבי חיים, אב״ד קאמנסק־וואלברום, בעל ׳זכרון חיים׳</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> אור לשמים</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/apta.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">אפטא</span></a><a class="rel" href="../dynasty/apta-meir-halevi.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">אפטא (מאיר הלוי)</span></a><a class="rel" href="../rebbe/chozeh-lublin.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">החוזה מלובלין</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>תלמידם של רבי יצחק אברהם מפינטשוב, בעל ׳כתר כהונה׳, ושל החוזה מלובלין. רב בסטאבניץ ואחר כך באפטא. היה גם גדול בתורת הנסתר.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>כשנפטר החוזה מלובלין הלכו רבים מתלמידיו לאפטא, אחר רבי מאיר, בשל כשרונותיו המיוחדים לשמש מנהיג בישראל. חסידים מסרו שזה היה גם רצונו של החוזה, כי רבי מאיר ימלא את מקומו.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>היה נאמן לשיטת החסידות כפי שקיבל מרבותיו והתנגד לדרך החדשה של רבי שמחה בונם מפשיסחא, שרצה לבססה על יסודות העיון השכלי.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>ספרו ׳אור לשמים׳ על התורה, הכתוב בדרך הפרד״ס, מכיל גם קצת חידושים ושו״ת בדרך הפלפול. גם בניו, רבי פנחס ורבי ישראל, היו צדיקים מפורסמים. תלמידו המובהק המקורב אליו ביותר היה רבי חיים, אב״ד קאמנסק־וואלברום, בעל ׳זכרון חיים׳.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>מתורתו</h3>
+<h3 id="sec-2">מתורתו</h3>
 <p>הצדיק צריך להשגיח אפילו על פני הישימון, שהם אצלם אחר היאוש — צריך לתקן אותם ולהאירם. כל הנשמות הגדולות והקדושות, הקב״ה נועץ אותן במקום עומק הקליפות, כדי להכניעם ולברר ניצוצי הקדושה שנשארו בתוכם בעת שבירת הכלים, כמו אברהם שהיה בן תרח, שהיה ראש לעובדי עבודה זרה, וגם רבי עקיבא היה ממשפחת גרים. והצדיק מכניע את החלק הרע ומקרבו ומברר מידותיו, וגורם ייחוד עליון בגן עדן.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>הצדיק כשהוא בבחרותו מרכין עצמו ומטה שכמו לסבול עם האנשים הבאים אליו, להגביהם ולהאירם, כמו שמצינו באברהם אבינו שהיה מגייר אנשים ושרה מגיירת נשים; אבל צדיק כשהוא בזקנותו קשה עליו מאד טרדת בני אדם להרכין עצמו אליהם, רק מחמת שהשכינה עליו תדיר, ממילא נפעלים כל עניני בני אדם הבאים לצדיק.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <blockquote>״כלל גדול בעבודת ה׳ שלא לבקש חכמות ולברוח משכליות, רק לתור ולבקש בכל עת רצון הבורא ב״ה בשלמות, ולהיות מצוות כחובה וגזירות המלך.״<span class="src">׳אור לשמים׳, פרשת אחרי, כמובא באלפסי, כרך ב׳, שושלת רבי מאיר הלוי מאפטא, עמ׳ 998 (קובץ OCR מס׳ 405)</span></blockquote>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-3" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/pinchas-rotenberg-apta.html">רבי פנחס רוטנברג מאפטא</a><a class="chip" href="../rebbe/yisrael-rotenberg-stashov.html">רבי ישראל רוטנברג מסטאשוב</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שנת לידתו אינה ברורה בערך באלפסי (הדפסת ה־OCR משובשת); מקור משני נוקב תקכ״ז (1767). אלפסי מציין בסוגריים שנת פטירה חלופית, תקע״א (1831).</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, שושלת רבי מאיר הלוי מאפטא, ערך ׳רבי מאיר הלוי מאפטא׳, עמ׳ 998 (קובץ OCR מס׳ 405): תולדותיו ותורתו מספרו ׳אור לשמים׳.</li><li id="note-2">שנת הלידה 1767 — Daily Zohar, ערך Rabbi Meir Rottenberg.</li></ol></div>
+<div class="unknown"><h3 id="sec-4" data-i18n="unknown">מה שלא ידוע</h3><p>שנת לידתו אינה ברורה בערך באלפסי (הדפסת ה־OCR משובשת); מקור משני נוקב תקכ״ז (1767). אלפסי מציין בסוגריים שנת פטירה חלופית, תקע״א (1831).</p></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, שושלת רבי מאיר הלוי מאפטא, ערך ׳רבי מאיר הלוי מאפטא׳, עמ׳ 998 (קובץ OCR מס׳ 405): תולדותיו ותורתו מספרו ׳אור לשמים׳.</li><li id="note-2">שנת הלידה 1767 — Daily Zohar, ערך Rabbi Meir Rottenberg.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

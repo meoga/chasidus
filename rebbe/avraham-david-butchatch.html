@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי אברהם דוד וואהרמן מבוטשאטש</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו: ודבר ה׳ מירושלים</a></li><li><a href="#sec-3">תלמידיו</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי אברהם דוד וואהרמן מבוטשאטש</h2>
 <p class="subtitle">מייסד שושלת בוטשאטש · בעל ׳אשל אברהם׳</p>
@@ -28,21 +34,23 @@
 <dl class="facts"><div><dt>אביו</dt><dd>רבי אשר אנשיל</dd></div><div><dt>נולד</dt><dd>ו׳ אדר תקל״א (1771), בנאדבורנה</dd></div><div><dt>זיווג ראשון</dt><dd>חתן רבי צבי הירש קרא מבוטשאטש</dd></div><div><dt>זיווג שני</dt><dd>חתן רבי מרדכי מארדיש, אב״ד אונגוואר</dd></div><div><dt>כיהן</dt><dd>רב ביאזלוביץ משנת תקנ״א, בהיותו בן עשרים; רב בבוטשאטש משנת תקע״ד</dd></div><div><dt>הוקרה</dt><dd>מנעוריו הצטיין בכשרונותיו וזכה להוקרת רבי משולם איגרא מפרשבורג, רבי דוד שלמה אייבשיץ מסורוקא ורבי משולם פייביש הלר מזבארז׳</dd></div><div><dt>נסתלק</dt><dd>כ״ט תשרי תר״א (1840)</dd></div><div><dt>בניו</dt><dd>רבי ישראל אריה לייב; רבי משה יוסף, שעלה לארץ; רבי יעקב</dd></div><div><dt>חתנו</dt><dd>רבי יוסף יהושע מבוטשאטש</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> ׳אשל אברהם׳; ׳דעת קדושים׳; ׳חוזה דוד׳; ׳מחזה אברהם׳; ׳משמרת הקודש׳; ׳דברי אבות׳; ׳דברי דוד׳; ׳תפילה לדוד׳; ׳אל אברהם׳; ׳עזר מקודש׳</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/butchatch.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">בוטשאטש</span></a><a class="rel" href="../dynasty/butchatch.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">בוטשאטש</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן רבי אשר אנשיל. מנעוריו הצטיין בכשרונותיו, וזכה להוקרת רבי משולם איגרא מפרשבורג, רבי דוד שלמה אייבשיץ מסורוקא ורבי משולם פייביש הלר מזבארז׳. לאחר נישואיו ישב בבוטשאטש, ושם התרועע עם רבי חיים מטשרנוביץ והמקובל רבי נטע מפודהייץ.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>בשנת תקנ״א, בהיותו בן עשרים, נבחר כרב ביאזלוביץ. פעל גדולות למען העיר, תוך שהוא לומד בהתמדה נפלאה; אמרו עליו שלא זז ממקומו במשך י״ד שעות. ביאזלוביץ התקרב לחסידות. כשחלה בנו, רבי ישראל לייב, נסע אל רבי לוי יצחק מברדיטשוב, ששהה בהרומילוב, כדי לקבל את ברכתו; רבי לוי יצחק ברכו בלבביות, ולבקשתו ליווהו לסקאלט, והושפע ממנו מאד. ששה שבועות שהה במחיצתו, ובשובו היה לאדם אחר.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>בשנת תקע״ד נתקבל במקום חותנו לרבנות בוטשאטש. אף שהיה נערץ מאד על בני העיר, היו לו גם מתנגדים — מהם שהתנגדו לחסידות ולהנהגתו החסידית, ומהם שנטו להשכלה, ולא חששו גם מהלשנה ו׳מסירה׳ לשלטונות. נהג להאריך מאד בתפילה, עד למחצית היום, ודברי התורה נאמרו בנביעה רבה ונמשכו שעות מרובות.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>מתורתו: ודבר ה׳ מירושלים</h3>
+<h3 id="sec-2">מתורתו: ודבר ה׳ מירושלים</h3>
 <p>על הפסוק ׳ודבר ה׳ מירושלים׳ (ישעיה ב, ג) ביאר: זו הלכה למעשה. ׳מירושלים׳ — היינו מיראה־שלם, הצדיקים השלמים ביראה, שלומדים רק מה שצריכים לידע הדינים על בורים, מה יעשה ישראל, ולא להתעסק בפלפולים שאינם נוגעים למעשה. ו׳דבר ה׳׳ — היינו סודות התורה הקדושה, כי הם מכונים בחינת תורת ה׳, כי רק הם זוכים שנגלה אליהם דבר ה׳, סוד ה׳ ליראיו, ואין מגלין רזי תורה אלא למי שראוי לכך.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <blockquote>ודבר ה׳ מירושלים — היינו מיראה־שלם, הצדיקים השלמים ביראה, שלומדים רק מה שצריכים לידע הדינים על בורים מה יעשה ישראל, ולא להתעסק בפלפולים שאינם נוגעים למעשה.<span class="src">״חוזה דוד״ על נ״ך, מיכה, כמובא באלפסי כרך ג׳, עמ׳ 1525</span></blockquote>
 <p>עוד כתב: ׳שופר מבטל שטן׳ — שופר, נוטריקון: ש׳טן ו׳פגע ר׳ע.<sup class='fn'><a href="#note-3">3</a></sup> ועל הפסוק ׳אבי עד שר שלום׳ (ישעיה ט, ה) ביאר: בזמן שישראל בשלום ובשלוה — הקב״ה להם הוא אב; אם לאו, הריהו להם שר. וזהו ׳אם כבנים — אם כעבדים׳: מהי הבחינה שהקב״ה יהיה לנו ׳אב׳ ולא ׳שר׳ — שלום, שיהיו ישראל באחוה ובאחדות ביניהם.<sup class='fn'><a href="#note-6">6</a></sup></p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-3" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/yisrael-aryeh-leib-butchatch.html">רבי ישראל אריה לייב מבוטשאטש</a></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, עמ׳ 1525: תולדותיו.</li><li id="note-2">״ודבר ה׳ מירושלים״: ״חוזה דוד״ על נ״ך, מיכה, כמובא שם, עמ׳ 1525.</li><li id="note-3">התורה הקדושה מביאה לידי זריזות; אהרן אוהב את הבריות: ״מחזה אברהם״, פרשת בהעלותך, כמובא שם, עמ׳ 1525.</li><li id="note-4">״שופר מבטל שטן״: כמובא שם, עמ׳ 1525.</li><li id="note-5">הסנדק בברית המילה; הברכה על טלית קטן: ״אשל אברהם״, מהדורא תנינא, סימן ח׳, כמובא שם, עמ׳ 1525–1526.</li><li id="note-6">״ויקחו לי תרומה״ — רפואה שלימה; ״אבי עד שר שלום״: ״דבש השדה״, ע׳ 14 וע׳ 38, כמובא שם, עמ׳ 1526.</li></ol></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, עמ׳ 1525: תולדותיו.</li><li id="note-2">״ודבר ה׳ מירושלים״: ״חוזה דוד״ על נ״ך, מיכה, כמובא שם, עמ׳ 1525.</li><li id="note-3">התורה הקדושה מביאה לידי זריזות; אהרן אוהב את הבריות: ״מחזה אברהם״, פרשת בהעלותך, כמובא שם, עמ׳ 1525.</li><li id="note-4">״שופר מבטל שטן״: כמובא שם, עמ׳ 1525.</li><li id="note-5">הסנדק בברית המילה; הברכה על טלית קטן: ״אשל אברהם״, מהדורא תנינא, סימן ח׳, כמובא שם, עמ׳ 1525–1526.</li><li id="note-6">״ויקחו לי תרומה״ — רפואה שלימה; ״אבי עד שר שלום״: ״דבש השדה״, ע׳ 14 וע׳ 38, כמובא שם, עמ׳ 1526.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

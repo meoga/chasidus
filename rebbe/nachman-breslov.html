@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי נחמן מברסלב</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו</a></li><li><a href="#sec-3">מה שלא ידוע</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי נחמן מברסלב</h2>
 <p class="subtitle">מייסד חסידות ברסלב · דור רביעי לבעש״ט</p>
@@ -28,20 +34,22 @@
 <dl class="facts"><div><dt>אביו</dt><dd>רבי שמחה</dd></div><div><dt>אמו</dt><dd>פייגה בת רבי יחיאל אשכנזי</dd></div><div><dt>עלייתו לארץ</dt><dd>תקנ״ח (1798)</dd></div><div><dt>בניו</dt><dd>שלמה־אפרים ויעקב — מתו בילדותם</dd></div><div><dt>תלמידו הנאמן</dt><dd>רבי נתן מברסלב, שאסף את דברי תורתו</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> ליקוטי מוהר״ן · סיפורי מעשיות · ליקוטי תפילות (בידי תלמידו רבי נתן)</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/bratslav.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">ברסלב (בראצלב)</span></a><a class="rel" href="../dynasty/breslov.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">ברסלב</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>רבי נחמן בן רבי שמחה ופייגה, דור רביעי לבעש״ט. מילדותו הרבה להתבודד ועסק בלימוד תורה בהתמדה, ובקיאותו במכמני היהדות מתוארת כיחידה במינה. בגיל צעיר החל להנהיג חסידים.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>בשנת תקנ״ח (1798) עלה לארץ, תוך התייסרות רבה במסירת נפש; תיאור מסעו מתואר בפרטות על ידי מלווהו רבי שמעון מהוסיאטין. בשובו מהארץ התיישב בברסלב והחל באמירת דברי תורה בנביעה עצומה. חסידיו ראו בו את ״הצדיק האמיתי״ שאין תמורתו, ועל כן לא מינו אחריו מנהיג אחר. התנגד בחריפות להשכלה ולשכלתנות וראה באמונה פשוטה ותמימה את העיקר. בסוף ימיו עבר לאומאן ושם נטמן; קברו היה למקום עליה לרגל עד היום הזה, שכן הבטיח ש״אשו תוקד עד בוא המשיח״.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>האדמו״ר היחיד שסיפר סיפורים, שבדורות האחרונים ראו בהם את מיטב היצירה הספרותית היהודית. שיטתו בחסידות, ובעיקר הווידוי של החסידים, עוררה התנגדות נגדו, שבראשה עמד רבי לייב הסבא משפולה.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>מתורתו</h3>
+<h3 id="sec-2">מתורתו</h3>
 <p>דברי תורתו נאספו במסירות שאין כמוה על ידי תלמידו הנאמן רבי נתן מברסלב.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <blockquote>צריך לדעת שמלוא כל הארץ כבודו, אפילו בכל דברים גשמיים, כי בלא אלקותו אין להם שום חיות וקיום כלל... לבד שהחיות ואלקות הזה שם בצמצום גדול ובמעוט רק כדי חיונו להתיותו ולא יותר, כי הקב״ה צמצם את אלקותו בצמצומים.<span class="src">ליקוטי מוהר״ן סימן כ״ז — כמובא באלפסי, כרך א׳, עמ׳ 39–40</span></blockquote>
 <p>ועוד מדבריו: ״יש שנדמה להם שרוצים ונכספים מאד לבוא לארץ ישראל ואם היו יכולים ליסע לשם בהרחבה אבל לא בצער ובדוחק... ובאמת אין זה רצון שלם, כי מי שרוצה לבוא באמת לארץ ישראל, צריך לילך גם רגלי״ (ליקוטי עצות, ערך חיים סימן ט׳ — כמובא שם, עמ׳ 40).<sup class='fn'><a href="#note-2">2</a></sup></p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>מקום לידתו אינו נמסר בערך אצל אלפסי.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך א׳, עמ׳ 39: בן רבי שמחה ופייגה; א׳ ניסן תקל״ב – י״ח תשרי תקע״א; עלייתו תקנ״ח; התיישבותו בברסלב; מעברו לאומאן וקברו; ההתנגדות בראשות הסבא משפולה.</li><li id="note-2">הציטוט ׳מלוא כל הארץ כבודו׳: ליקוטי מוהר״ן סימן כ״ז, כמובא שם, עמ׳ 39–40.</li><li id="note-3">הציטוט על הרצון לבוא לארץ ישראל: ליקוטי עצות, כמובא שם, עמ׳ 40.</li><li id="note-4">ההסכמות המובאות שם: החוזה מלובלין ורבי אפרים זלמן מרגליות לליקוטי מוהר״ן.</li></ol></div>
+<div class="unknown"><h3 id="sec-3" data-i18n="unknown">מה שלא ידוע</h3><p>מקום לידתו אינו נמסר בערך אצל אלפסי.</p></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך א׳, עמ׳ 39: בן רבי שמחה ופייגה; א׳ ניסן תקל״ב – י״ח תשרי תקע״א; עלייתו תקנ״ח; התיישבותו בברסלב; מעברו לאומאן וקברו; ההתנגדות בראשות הסבא משפולה.</li><li id="note-2">הציטוט ׳מלוא כל הארץ כבודו׳: ליקוטי מוהר״ן סימן כ״ז, כמובא שם, עמ׳ 39–40.</li><li id="note-3">הציטוט על הרצון לבוא לארץ ישראל: ליקוטי עצות, כמובא שם, עמ׳ 40.</li><li id="note-4">ההסכמות המובאות שם: החוזה מלובלין ורבי אפרים זלמן מרגליות לליקוטי מוהר״ן.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

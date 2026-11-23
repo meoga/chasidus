@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי מנשה אייכנשטיין מזידיטשוב־רישא</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו</a></li><li><a href="#sec-3">מה שלא ידוע</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי מנשה אייכנשטיין מזידיטשוב־רישא</h2>
 <p class="subtitle">דור חמישי לשושלת זידיטשוב · רב ברישא · אדמו״ר במונקאטש</p>
@@ -28,19 +34,21 @@
 <dl class="facts"><div><dt>אביו</dt><dd>רבי יששכר בעריש אייכנשטיין מוורצקי</dd></div><div><dt>חתן</dt><dd>רבי יהושע מדז׳יקוב</dd></div><div><dt>כיהן</dt><dd>רב ברישא משנת תרס״ד (1904); משנת תרפ״ד (1924) אדמו״ר במונקאטש</dd></div><div><dt>ספריו</dt><dd>׳אלפי מנשה׳ · ׳מטה מנשה׳ · ׳תורת האשם׳</dd></div><div><dt>בניו</dt><dd>רבי חיים יוסף אב״ד אוקליווא־וולוביץ (אחר כך במונקאטש) · רבי מתתיהו מדז׳יקוב</dd></div><div><dt>נפטר</dt><dd>ט״ז תמוז תרצ״ה (1935), במונקאטש</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> אלפי מנשה · מטה מנשה · תורת האשם</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/risha.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">רישא (ז׳שוב)</span></a><a class="rel" href="../dynasty/ziditchov.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">זידיטשוב־קומרנא</span></a><a class="rel" href="../rebbe/yissachar-berish-eichenstein-vorotsky.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי יששכר בעריש אייכנשטיין מזידיטשוב־וורצקי</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>חתן רבי יהושע מדז׳יקוב. לאחר נשואיו, בשנת תר״ם, עבר לדז׳יקוב. בישבו בדז׳יקוב הדפיס את ספרו ׳אלפי מנשה׳ על שולחן ערוך חושן משפט (פרעמישלא תרנ״ה). לאחר מכן חזר אל אביו. בשנת תרס״ד נתמנה כראב״ד רישא. שנה לאחר מכן הדפיס את ספרו ׳תורת האשם׳.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>לאחר המלחמה העולמית הראשונה עבר למונקאטש, ומשנת תרפ״ד ממלא מקום אביו כאדמו״ר במונקאטש. בשנת תרפ״ז הדפיס את ספרו של אביו עם הקדמתו, וכן הוציא לאור את ספרו ׳מטה מנשה׳ על שבת, ראש חודש ומועדים (מונקאטש תרפ״ז). בשנותיו האחרונות הופיע ספרו ׳אלפי מנשה׳ ובו גימטריות, מסורות והלכות על בראשית ושמות.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>מתורתו</h3>
+<h3 id="sec-2">מתורתו</h3>
 <p>״וישא יעקב רגליו וילך ארצה בני קדם״ (בראשית כט, א) — ברש״י: ״משנתבשר בשורה טובה שהובטח בשמירה נשא לבו את רגליו״. ומה היתה הבשורה הטובה? שהובטח בשמירה, כלומר שנמסר לו השם היוצא מסופי התיבות של הפסוק ״כי מלאכיו יצוה לך״ (תהלים צא, יא), והם סגולה ״לשמרך בכל דרכיך״.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <p>״בך יברך ישראל, לאמור: ישימך אלקים כאפרים וכמנשה״ (בראשית מח, כ): אפרים ישב אצל יעקב ולמד תורה, מנשה ישב אצל יוסף והיה מפרנס והעסקן של תומכי התורה. יעקב בירך את דורות ישראל ש״ישימך אלקים כאפרים וכמנשה״, היינו שיתן לכל אחד ואחד מישראל גם תורה וגם פרנסה.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <blockquote>סופי תיבות של ׳ויאבק איש׳ הם ראשי תיבות של ׳קריאת שמע׳, וסופי תיבות של ׳עמו עד עלות השחר׳, בגימטריא, עם הכולל, של ׳תורה׳, וזהו שנצחו בתורה ובקריאת שמע.<span class="src">׳אלפי מנשה׳, פרשת וישלח, כמובא באלפסי, כרך ב׳, ערך רבי מנשה אייכנשטיין, עמ׳ 798–799 (קובץ OCR מס׳ 301–302)</span></blockquote>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שם בנו השלישי לא נשתמר בקריאה ברורה בכרך.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך ׳רבי מנשה אייכנשטין מזידיטשוב – רישא׳, עמ׳ 798 (קובץ OCR מס׳ 301): תולדותיו, ספריו, בניו.</li><li id="note-2">שם, עמ׳ 798–799 (קובץ OCR מס׳ 301–302): תורתו מ׳אלפי מנשה׳ ומ׳מטה מנשה׳.</li></ol></div>
+<div class="unknown"><h3 id="sec-3" data-i18n="unknown">מה שלא ידוע</h3><p>שם בנו השלישי לא נשתמר בקריאה ברורה בכרך.</p></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך ׳רבי מנשה אייכנשטין מזידיטשוב – רישא׳, עמ׳ 798 (קובץ OCR מס׳ 301): תולדותיו, ספריו, בניו.</li><li id="note-2">שם, עמ׳ 798–799 (קובץ OCR מס׳ 301–302): תורתו מ׳אלפי מנשה׳ ומ׳מטה מנשה׳.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

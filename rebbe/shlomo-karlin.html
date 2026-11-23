@@ -9,38 +9,54 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי שלמה מקרלין</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו</a></li><li><a href="#sec-3">התלהבותו בתפילה</a></li><li><a href="#sec-4">ירושתו</a></li><li><a href="#sec-5">בריחתו ורציחתו</a></li><li><a href="#sec-6">מותו וזכרו</a></li><li><a href="#sec-7">תלמידיו</a></li><li><a href="#sec-8">מה שלא ידוע</a></li><li><a href="#sec-9">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי שלמה מקרלין</h2>
 <p class="subtitle">מפיצה הראשי של החסידות בליטא · בעל שמע שלמה</p>
 <p class="dates"><b>תצ״ה — ב׳ תמוז תקנ״ב</b> · 1735 — 1792</p>
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
-<dl class="facts"><div><dt>אביו</dt><dd>רבי נחום מטשרנובל</dd></div><div><dt>רבותיו</dt><dd>המגיד ממזריטש; רבי אהרן מקרלין</dd></div><div><dt>נרצח</dt><dd>ב׳ תמוז תקנ״ב (1792), בלודמיר, ביד חייל רוסי</dd></div><div><dt>תלמידיו</dt><dd>רבי מרדכי מלעכוביטש; רבי אורי מסטרליסק; רבי משה משרשוב</dd></div></dl>
+<dl class="facts"><div><dt>אביו</dt><dd>רבי נחום מטשרנובל</dd></div><div><dt>רבותיו</dt><dd>המגיד ממזריטש; רבי אהרן מקרלין</dd></div><div><dt>נרצח</dt><dd>ב׳ תמוז תקנ״ב (1792), בלודמיר, ביד חייל רוסי</dd></div><div><dt>תלמידיו</dt><dd>רבי אשר מסטולין (בן רבו, שירש אותו); רבי מרדכי מלעכוביטש; רבי אורי מסטרליסק; רבי משה משרשוב. צאצאיו ייסדו חסידות קטנה בלודמיר.</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> שמע שלמה</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/karlin.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">קרלין (ליד פינסק)</span></a><a class="rel" href="../dynasty/karlin.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">קרלין־סטולין</span></a><a class="rel" href="../rebbe/aharon-karlin.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי אהרן הגדול מקרלין</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>מפיצה הראשי של החסידות בליטא, לאחר מות רבו, רבי אהרן מקרלין. גידל בביתו את רבי אשר מסטולין, בנו של רבי אהרן מקרלין. גם רבי שלום מפרוהוביטש, אביו של רבי ישראל מרוז׳ין, התחנך בביתו. דרכו היתה דרך הלהט וההתלהבות. צדיקי דורו העריצוהו, והוא כונה בפיהם ׳משיח בן יוסף׳. תורותיו ואמרותיו בספר ׳שמע שלמה׳. לאחר חרם המתנגדים נגד החסידות בשנת תקמ״א, עבר ללודמיר, ובעיר זו נמשכה השושלת.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>מתורתו</h3>
+<h3 id="sec-2">מתורתו</h3>
 <blockquote>מה יכול לשמש חייץ ולהסתיר את הבורא? הלא כל העולמות הם כגרגיר חרדל לעומתו, ואיך יכול גרגיר חרדל לשמש חייץ בפני בורא עולם? על כן משה רבינו ראה רק את בורא העולם וראה את עצמו למולו, ועל כן היה עניו מכל אדם, כי היה אין ואפס בעיני עצמו, וזהו שאמר ׳ונחנו מה׳ — כי ׳חכמה׳ אותיות כ״ח מה, כי זה עיקר החכמה להבין כי מהו רוחני, ובלעדי ה׳ יתברך הוא אפס ואין.<span class="src">דברי שלום, פרשת בראשית — כמובא באלפסי, כרך ב׳, ערך רבי שלמה מקרלין (קובץ OCR מס׳ 51)</span></blockquote>
 <p>׳בטח בה׳ ועשה טוב׳ (תהלים לז, ג): תעשה הכל לטובה ותאמר על הכל ׳גם זו לטובה׳. ׳שכון ארץ׳ — היא השפלות; ׳ורעה אמונה׳ — המרעה שלך יהיה אמונה, שכל מה שתבוא עליך תאמין בהקב״ה תמיד שהוא הטוב והמטיב לכל. בזה תעשה הכל לטובה. (שמע שלמה, פרשת לך לך, ע׳ י״ג)<sup class='fn'><a href="#note-2">2</a></sup></p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-3">התלהבותו בתפילה</h3>
+<p>כבר בנעוריו היה מפורסם בהתלהבות, בהתרגשות ובאש של תפילתו.<sup class='fn'><a href="#note-4">4</a></sup></p>
+<h3 id="sec-4">ירושתו</h3>
+<p>רבי אהרן נפטר צעיר, כבן 36, ובנו רבי אשר היה צעיר מכדי לרשתו — ולכן ירש אותו תלמידו הקרוב רבי שלמה, ולא הבן. באותם ימים היתה הירושה על פי זכות — התלמיד המצטיין יורש את רבו — ורק אחר כך התפתחה ירושה משפחתית. לכן מונה קרלין את רבי שלמה כאדמו״ר השני ואת רבי אשר כשלישי — מה שאין כן בחסידויות אחרות, למשל גור אינה מונה את רבי חנוך מאלכסנדר (1866–1870) כאדמו״ר ממוספר.<sup class='fn'><a href="#note-4">4</a></sup></p>
+<h3 id="sec-5">בריחתו ורציחתו</h3>
+<p>בשנות ה־90 של המאה ה־18 נאלץ לברוח מקרלין, ככל הנראה מחמת לחץ המתנגדים. הוא שקל ללכת צפונה, לאזורו של בעל התניא, ובסוף הלך דרומה ללודמיר שבוולין (היום באוקראינה). בשנת 1792, בעיצומם של קרבות פולין־רוסיה סביב חלוקות פולין, נורה בידי קוזק רוסי. אם נרצח בכוונה כיהודי או נקלע לחילופי אש בקרב — שאלה שנויה במחלוקת עד היום; עצם הירי בידי קוזק רוסי אינו שנוי במחלוקת. בקולא נאמר שנהרג על קידוש השם.<sup class='fn'><a href="#note-4">4</a><a href="#note-5">5</a></sup></p>
+<h3 id="sec-6">מותו וזכרו</h3>
+<p>הוא האדמו״ר הבולט היחיד שנרצח (ולא מת מיתה טבעית) עד פרעות אוקראינה שלאחר מלחמת העולם הראשונה — ומותו זעזע את עולם החסידות כולו. אחרי מותו ייחסו לו מעמד של משיח בן יוסף, ואמרו שהקוזק שהרגו נקרא ארמילוס — הוא שהורג את משיח בן יוסף לפי המסורת. הוא עצמו מעולם לא טען לכך, ולא היו לו יומרות משיחיות בחייו.<sup class='fn'><a href="#note-4">4</a></sup></p>
+<h3 id="sec-7" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/moshe-sherishov.html">רבי משה משערישוב</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שנת לידתו תצ״ה לפי אלפסי; פרטי הרצח — מלבד שנרצח ביד חייל רוסי בלודמיר — לא פורטו בערך.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך ׳רבי שלמה מקרלין׳ (קובץ OCR מס׳ 51): תולדותיו, תלמידיו, רציחתו.</li><li id="note-2">הציטוט על החייץ וה׳ונחנו מה׳: ׳דברי שלום׳, פרשת בראשית, כמובא שם.</li><li id="note-3">׳בטח בה׳ ועשה טוב׳: ׳שמע שלמה׳, פרשת לך לך, ע׳ י״ג, כמובא שם; הנהגותיו בראש הספר ׳שמע שלמה׳.</li></ol></div>
+<div class="unknown"><h3 id="sec-8" data-i18n="unknown">מה שלא ידוע</h3><p>שנת לידתו תצ״ה לפי אלפסי; פרטי הרצח — מלבד שנרצח ביד חייל רוסי בלודמיר — לא פורטו בערך. תיאור הפרק בפודקאסט נותן שנת לידה 1738 — לא הוכרע. בקולא מובא מפי בעל &#x27;בית אהרן&#x27; שיום ההילולא הוא כ״ב תמוז, לא ב׳ תמוז — לא הוכרע.</p></div>
+<div class="notes"><h3 id="sec-9" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך ׳רבי שלמה מקרלין׳ (קובץ OCR מס׳ 51): תולדותיו, תלמידיו, רציחתו.</li><li id="note-2">הציטוט על החייץ וה׳ונחנו מה׳: ׳דברי שלום׳, פרשת בראשית, כמובא שם.</li><li id="note-3">׳בטח בה׳ ועשה טוב׳: ׳שמע שלמה׳, פרשת לך לך, ע׳ י״ג, כמובא שם; הנהגותיו בראש הספר ׳שמע שלמה׳.</li><li id="note-4">פודקאסט &#x27;צלילי ההיסטוריה היהודית&#x27; (Jewish History Soundbites), יהודה גברר, הפרק &#x27;צועקים ושרים בקרלין&#x27; (Screaming &amp; Singing in Karlin), 21 בנובמבר 2026 — <a href="https://jsoundbites.podbean.com/e/screaming-singing-in-karlin/">https://jsoundbites.podbean.com/e/screaming-singing-in-karlin/</a></li><li id="note-5">יעקב ישראל קולא, בית קרלין־סטולין, תל אביב (הסכמה כ״א מנחם אב תשמ״א / 1981) — עמ׳ 105: &#x27;רבי שלמה הי״ד נהרג על קידוש השם&#x27;; מדור שני עוסק בו.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

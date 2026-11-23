@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי בן ציון רבינובין מאוסטרובה</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">תורתו</a></li><li><a href="#sec-3">מה שלא ידוע</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי בן ציון רבינובין מאוסטרובה</h2>
 <p class="subtitle">בן רבי בנימין דוד רבינוביץ, נו&quot;מ בוורשה</p>
@@ -27,19 +33,21 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי בנימין דוד רבינוביץ, נו&quot;מ בוורשה</dd></div><div><dt>עיר</dt><dd>אוסטרובה</dd></div><div><dt>תאריכים</dt><dd>— י״ט סיון תרפ״ו</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/ostrova.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">אוסטרובה</span></a><a class="rel" href="../dynasty/peshischa.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">פשיסחא</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>השריד האחרון לבית קוצק<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>משום "שמא יאמרו מכעיסי" אלא שהכוונה למעשים הטובים שלו שלא עשאם בשלמות. מבחירי הלמדנים בווארשה. בנעוריו נחשב כעילוי ונשלח (שם לישיבתו של הרי"מ מגור בווארשה. בהשפעת הרי"מ היה לחסיד קוצקאי בלב ונפש. כל מאמצע של אב ובני על שער ספר החינוך שלו כתב: הספר נקרא חינוך ע"ש המשפחה שהיו כולם "מתנגדים" להחזירו מקוצק עלו בתהו. - / לאחר נשואיו עבר לאוסטרובה ועל שמה נתפרסם בשם רבי "חנוך לנער" וגו' "לא יסור ממנה" (משלי כב, ו) כי המצוות בן ציון אוסטרובר. בעצמם מחנכים את האדם לדבוק בה' יתברך כמאמר הגמרא והמדרש "ובאו ציציותיו וטפחו לו על פניו" וכמאמר הזהר בהאריכו ימים היה לחסידם של כל ממשיכי השושלת | תרי"; עשין דאורייתא והשי"ת רצה לזכותינו לפיכך הרבה הקוקצאית - הרי"מ מגור; רבי חנוך הניך מאלכסנדר; בעל | לנו מצוות כדי שנוכל להיות לו לצוותא כי כן לשון מצוה ה"שפת אמת" ובנו בעל "אמרי אמת" - נחשב לשריד אחרון | ואשרי אדם אשר יהגה בזה הספר הקדוש תמיד כדי שיעמוד<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>של חסידי קוצק והיה מוקף תמיד בהערצתם העמוקה של | לנגד עיניו כי זאת הוא "עשה" וזאת "לא תעשה" כי אע"פ החסידים. בכל מקוס שהגיע היו החסידים מתאספים מסביבו | אם זוכר שהי"ת ציוה זאת לעשות או שלא לעשות, בוודאי ומבקשים לשמוע את ספוריו. לא יוכל לסור מדברי השי"ת. על אחת כמה וכמה כי המצוה זאת לעשות והמזהיר שלא לעשות הוא יוצרו ובוראו והוא אף שהיה גדול בתורה סירב לקבל עליו עול רבנות. מפרנסו ומכלכלו והוא יכול להמיתו וליקח פרנסתו ממנו דברי תורתו נאספו ע"י רבי יוסף מנדלקרן שפרסמם ‏ וויחלה אותו וירפאהו וכל אשר לו מנשמתו וגופו וממנו ובניו בספריו: "וילקט יוסף", "ויצבור יוסף". וכל אשר לו בידיו - בוודאי יקיים כל מה שצוה אותו.</p>
-<h3>תורתו</h3>
+<h3 id="sec-2">תורתו</h3>
 <p>/ יטלח ידו ול , ל וחי הוא היה אומר: עיקר כל העיקרים בקוצק היה שלא ועתה . שלח יזו ולקה גם מעץ החיים ואכל ות לרמות ולא לחקות. כסבורים אתם שלא לרמות אחר ולא לעולם" (פ' בראשית; בראשית ג, כב), ומה בכך1 שיחיה לחקות אחר לא ולא אלא שלא ירמה אדם את עצמו ולא לעולם! אלא שלאחר חטאו של אדם הראשון לא היתה יחקה את עצמו. יכולה להיות לו כפרה אלא במותו, שעל ידי שהגוף מתכלה (*הרבי מקוצק וששים גבורים" ח"א ע שלך) בקבר, תתבטל ממנו זוהמת החטא וכל זמן שלא נרקב הגוף, אין מנוחה לנשמה ועל כן היה החשש שיקח מעץ החיים היה רגיל על פיו לומר את מאמר חז"ל על הכתוב "מציל ולא תהיה לו כפרה לעולם. עני מחזק ממנו ועני ואביון מגוזלו" (תהלים לה, י) שהכוונה (יוסף מנדלקורן, "וילקט יוסף", ייושלים תיט"! | היא על יצר הרע המפיל גם אדם בן שבעים וגם אדם בן 0" | שמונים ואין גזלן גדול ממנו. "פסח הוא לה'" (פרשת בא; שמות יב, יא), רש"י פירש: "הקרבן קרוי פסח על שם הדלוג... ואתם עשו כל עבודתיו היה לומד כמה שיעקבים ביום עם בחורי חמד מופלגי<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>לשם שמים" - והדברים דרושים ביאור. הכוונה בדבר' רש" תורה ועם אברכים והיה לומד בגמרא ותוספות כסדר הש"ס, שאמנם גם ע"י קרבן הפסח ישמור אותכם ה' מהנגף עס כל עם הראשונים וכן היה לו שיעקב ללמוד את השולחן ערוך לשם שמים בלבד. הגמרא ותוספות להלכה ההיא, הרי"ף, הראש ואח"כ הטור שם ע ס" | ואחרי זה למד את השולחן ערון וכן היה בכל הלכה וסיפר כי כשהיה אברך בגיל צעיר שלח חות דעת לרבי עקיבא איגר ב'"המבדיל" אנו אומרים "טהר טנוף מעשי פן יאמרו | והסכים עמו רבי עקיבא איגר שפסק כדין. מכעיסי" אם מעשיו של אדם מטונפים יטהרו אותם רק שם ע' ס"ט) בשנה האחרונה לתחייו עשה סיכום מנסיעותיו אל רבי | והיו נסיעותיו 71 פעמים בראש השנה ו-69 פעמים בשבועות. מנחם מנדל מקוצק, רבי יצחק מאיר מגור, רבי חנוך הניך ("וילקט יוסף" ע: ס"ה) מאלכסנדר, אל שפת אמת ובנו - רבי אברהם מרדכי מגור</p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שם הערך שוחזר מקריאה משובשת ב־OCR; המזהה מכיל תעתיק אוטומטי (לא מאומת) של: רבינובין; הערך ארוך וה־OCR מערבב טורים — הסדר המקורי עלול להיות משובש</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3882 (עמ׳ 468).</li><li id="note-2">שם הערך כפי שנקרא ב־OCR: &#x27;רבי בן ציון רבינובין מאוסטרובה&#x27; — תוקן לפי כללי ה־OCR והקשר הערך.</li><li id="note-3">פרק הכרך: בית פשיסחא.</li></ol></div>
+<div class="unknown"><h3 id="sec-3" data-i18n="unknown">מה שלא ידוע</h3><p>שם הערך שוחזר מקריאה משובשת ב־OCR; המזהה מכיל תעתיק אוטומטי (לא מאומת) של: רבינובין; הערך ארוך וה־OCR מערבב טורים — הסדר המקורי עלול להיות משובש</p></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3882 (עמ׳ 468).</li><li id="note-2">שם הערך כפי שנקרא ב־OCR: &#x27;רבי בן ציון רבינובין מאוסטרובה&#x27; — תוקן לפי כללי ה־OCR והקשר הערך.</li><li id="note-3">פרק הכרך: בית פשיסחא.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

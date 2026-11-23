@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי שאול ידידיה אלעזר טאוב ממודז׳יץ</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו</a></li><li><a href="#sec-3">תלמידיו</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי שאול ידידיה אלעזר טאוב ממודז׳יץ</h2>
 <p class="subtitle">בן רבי ישראל ממודז׳יץ; מחבר ניגונים לאלפים</p>
@@ -28,20 +34,22 @@
 <dl class="facts"><div><dt>אביו</dt><dd>רבי ישראל טאוב ממודז׳יץ (ערך 1601)</dd></div><div><dt>רבנות</dt><dd>רב בראקוב משנת תרע״ב; קרעטשוב משנת תרפ״ב; אוטווצק משנת תרפ״ט</dd></div><div><dt>נדודים</dt><dd>ביקר שלוש פעמים בארץ ישראל; עם כניסת הנאצים לפולין ברח לוילנא, ומשם לארצות הברית דרך יפן; עלה לארץ ישראל</dd></div><div><dt>נגינה</dt><dd>מחבר ניגונים לאלפים; ניגוניו ותורותיו בקונטרסי ׳תפארת ישראל׳</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> אמרי שאול; ׳שא ברכה׳ (חמישה כרכים); קונטרסי ׳תפארת ישראל׳</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/modzhitz.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">מודז׳יץ</span></a><a class="rel" href="../dynasty/modzhitz.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">שושלת מודז׳יץ</span></a><a class="rel" href="../rebbe/yisrael-modzhitz.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי ישראל טאוב ממודז׳יץ</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן רבי ישראל טאוב ממודז׳יץ, ונכדו של רבי שמואל אליהו מזוואלין. משנת תרע״ב כיהן כרב בראקוב, וממנה עבר בשנת תרפ״ב לקרעטשוב; לפי דרישת חסידיו עבר בשנת תרפ״ט לאוטווצק.</p>
 <p>ביקר שלוש פעמים בארץ ישראל. עם כניסת הנאצים לפולין ברח לוילנא, ומשם לארצות הברית דרך יפן. מארצות הברית עלה לארץ ישראל, ושם נסתלק בט״ז בכסלו תש״ח. היה מחבר ניגונים לאלפים, וספריו ׳שא ברכה׳ בחמישה כרכים על התורה והמועדים ו׳אמרי שאול׳ יצאו לאור לאחר מותו.</p>
-<h3>מתורתו</h3>
+<h3 id="sec-2">מתורתו</h3>
 <p>כך דרש על יעקב אבינו ועל יישוב ארץ ישראל:</p>
 <blockquote>מצאנו ראינו אצל יעקב אבינו שלא סמך על הבטחת ה׳ ׳ושמרתיך בכל אשר תלך׳, כי אמר שמא יגרום החטא... מכאן אתה למד על דורות הללו, בעוונותינו הרבים, שלא לשבת בחיבוק ידים ולסמוך על הנס בענין רכישת ארץ ישראל וישובה... ורכישת ארץ ישראל צריכה להיעשות על ידי שניהם — על ידי אמונה וגם על ידי מעשה.<span class="src">ספרו ׳אמרי שאול׳, תל אביב תשכ״ד, עמ׳ קע״ב (כמובא אצל אלפסי, כרך ג׳, ערך 1609)</span></blockquote>
 <p>ועל ׳טובה הארץ מאד מאד׳ (במדבר יד, ז) דרש: ׳היינו, שהארץ טובה בעד אלה שמשפילים את עצמם ומוכנים לעבוד בכל עבודה שבשדה, וגם בעד אלה שהם בעלי כיסים׳ (׳אמרי שאול׳, עמ׳ קע״ט, אות כ״ב).</p>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-3" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/shmuel-eliyahu-modzhitz.html">רבי שמואל אליהו טאוב ממודז׳יץ</a></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1609, עמ׳ 1609 (קובץ OCR p0232–p0233) — פרק ׳רבי שאול ידידיה אלעזר טאוב ממודז׳יץ׳: תולדותיו ותורתו.</li><li id="note-2">התורות מובאות שם מתוך ספרו ׳אמרי שאול׳, תל אביב תשכ״ד.</li></ol></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1609, עמ׳ 1609 (קובץ OCR p0232–p0233) — פרק ׳רבי שאול ידידיה אלעזר טאוב ממודז׳יץ׳: תולדותיו ותורתו.</li><li id="note-2">התורות מובאות שם מתוך ספרו ׳אמרי שאול׳, תל אביב תשכ״ד.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

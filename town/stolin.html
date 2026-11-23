@@ -9,29 +9,34 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../towns.html" data-i18n="nav_towns">ערים</a> / סטולין</p>
 <article class="art">
 <h2>סטולין</h2>
 <p>בלארוס</p>
-<p>העיר השניה של חסידות קרלין; חצרו של רבי אשר מסטולין, בנו של רבי אהרן הגדול.</p>
+<p>העיר השניה של חסידות קרלין; חצרו של רבי אשר מסטולין, בנו של רבי אהרן הגדול. אחר כך חצרו וישיבתו של רבי משה פרלוב מסטולין. (מקור: הפודקאסט &#x27;צועקים ושרים בקרלין&#x27;, 21 בנובמבר 2026; וקולא, מדור שמיני.)</p>
 <p><b data-i18n="coords">קואורדינטות:</b> 51.89, 26.84</p>
 <div id="map" class="mini" data-lat="51.89" data-lon="26.84" data-name="סטולין"></div>
 <p class="map-credit"><a href="https://www.openstreetmap.org/?mlat=51.89&mlon=26.84#map=12/51.89/26.84" data-i18n="osm_open">פתיחה ב־OpenStreetMap</a> · <a href="https://www.google.com/maps/search/?api=1&query=סטולין" data-i18n="gmaps_open">פתיחה בגוגל מפות</a> · <span data-i18n="map_credit_short">מפה: © תורמי OpenStreetMap</span></p>
 <h3 data-i18n="town_rebbes">אדמו״רים בעיר</h3>
-<div class="rlist"><a class="rrow" href="../rebbe/asher-stolin.html"><span><span class="nm">רבי אשר מסטולין</span><br><span class="mt">האדמו״ר השני לבית קרלין · הסטולינאי הזקן</span></span><span class="go">1767–1826</span></a><a class="rrow" href="../rebbe/asher-stolin-2.html"><span><span class="nm">רבי אשר השני מסטולין</span><br><span class="mt">בנו של רבי אהרן השני מקרלין · דור רביעי לרבי אהרן הגדול מקרלין · מסטולין</span></span><span class="go">1827 — 8 August 1873</span></a><a class="rrow" href="../rebbe/yisrael-parlavb-hynavka-stolin.html"><span><span class="nm">רבי ישראל פרלוב ה״ינוקא״ מסטולין</span><br><span class="mt">בנו של רבי אשר &quot;השני&quot; מסטולין · דור חמישי לרבי אהרן הגדול מקרלין · מסטולין</span></span><span class="go">1870 — 1922</span></a><a class="rrow" href="../rebbe/naftali-tzvi-stolin-tiberias.html"><span><span class="nm">רבי נפתלי צבי מסטולין-טבריה</span><br><span class="mt">בן רבי יעקב מאניפולי (2606)</span></span><span class="go">— 28 September 1864</span></a></div>
+<div class="rlist"><a class="rrow" href="../rebbe/asher-stolin.html"><span><span class="nm">רבי אשר מסטולין</span><br><span class="mt">האדמו״ר השני לבית קרלין · הסטולינאי הזקן</span></span><span class="go">1767–1826</span></a><a class="rrow" href="../rebbe/asher-stolin-2.html"><span><span class="nm">רבי אשר השני מסטולין</span><br><span class="mt">בנו של רבי אהרן השני מקרלין · דור רביעי לרבי אהרן הגדול מקרלין · מסטולין</span></span><span class="go">1827 — 8 August 1873</span></a><a class="rrow" href="../rebbe/yisrael-parlavb-hynavka-stolin.html"><span><span class="nm">רבי ישראל פרלוב ה״ינוקא״ מסטולין</span><br><span class="mt">בנו של רבי אשר &quot;השני&quot; מסטולין · דור חמישי לרבי אהרן הגדול מקרלין · מסטולין</span></span><span class="go">1870 — 1922</span></a><a class="rrow" href="../rebbe/moshe-perlov-stolin.html"><span><span class="nm">רבי משה פרלוב מסטולין</span><br><span class="mt">בנו של רבי ישראל פרלוב מסטולין · דור ששי לרבי אהרן הגדול מקרלין · מסטולין</span></span><span class="go">1889 — 11 September 1942</span></a><a class="rrow" href="../rebbe/naftali-tzvi-stolin-tiberias.html"><span><span class="nm">רבי נפתלי צבי מסטולין-טבריה</span><br><span class="mt">בן רבי יעקב מאניפולי (2606)</span></span><span class="go">— 28 September 1864</span></a></div>
 </article>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script src="../assets/site.js" data-assets="../assets/"></script>
 </body>
 </html>

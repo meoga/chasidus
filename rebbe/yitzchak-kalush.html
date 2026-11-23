@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי יצחק מקאלוש</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">סיפור: החלה והגזלן</a></li><li><a href="#sec-3">סיפור: השידוך אצל רבי לוי יצחק</a></li><li><a href="#sec-4">מתורתו: ראשית — תפילה</a></li><li><a href="#sec-5">תלמידיו</a></li><li><a href="#sec-6">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי יצחק מקאלוש</h2>
 <p class="subtitle">בן רבי אהרן אריה ליב מפרמישלאן · מילא מקום דודו בקאלוש</p>
@@ -27,23 +33,25 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי אהרן אריה ליב מפרמישלאן</dd></div><div><dt>נולד</dt><dd>תק״ל (1770)</dd></div><div><dt>נפטר</dt><dd>ו׳ שבט ת״ר (1840)</dd></div><div><dt>הנהגה</dt><dd>החל לכהן כאדמו״ר בחיי אביו, על מקום דודו רבי דוד מקאלוש</dd></div><div><dt>בניו</dt><dd>רבי בערטשע · רבי ישראל · רבי שלמה שעלה לארץ · רבי דוד מרומאן · רבי משה מקאלוש · רבי אהרן ליב</dd></div><div><dt>חתניו</dt><dd>רבי צבי מקאלוש · רבי אהרן ליב רדליך</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/kalush.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">קאלוש</span></a><a class="rel" href="../dynasty/premishlan.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">פרמישלאן</span></a><a class="rel" href="../rebbe/aharon-aryeh-leib-premishlan.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי אהרן אריה ליב מפרמישלאן</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>החל לכהן כאדמו״ר בחיי אביו, על מקום דודו, אח אביו רבי דוד שישב בקאלוש. מאז נהגו כל צאצאיו להכתיר את בניהם לאדמו״רים בחייהם.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>רבי מאיריל מפרמישלאן, אחיו הצעיר, העיד עליו שהוא ״נוטר הברית״. וכשבא רבי ישראל מרוז׳ין לגליציה והכיר את צדיקי ארץ זו, אמר למקורביו: ראיתי כאן רבים מצדיקי החסידות, אבל מה ש״יהודי טוב״ נקרא, ראיתי רק אחד והוא רבי יצחק מקאלוש.<sup class='fn'><a href="#note-2">2</a></sup></p>
-<h3>סיפור: החלה והגזלן</h3>
+<h3 id="sec-2">סיפור: החלה והגזלן</h3>
 <p>ביתו היה פתוח לרווחה לכל עובר ושב — מישראל ומאומות העולם. פעם בא לביתו הלך מאומות העולם וביקש פרוסת לחם להשביע נפשו. בבית היו רק חלות שלימות שהוכנו לכבוד שבת. לא רצתה הרבנית לפרוס מהחלה השלימה שבידה, אולם רבי יצחק הורה לפרוס מהחלה והוסיף: חתכי מהחלה ולא יוקז דמי. לימים נסע רבי יצחק עם הרבנית להונגריה, דרך הרי הקרפטים, והדרכים היו משובשים בשודדי דרכים. בדרכם התנפלו עליהם גזלנים, שדדו את רכושם והביאום אל ראש החבורה כדי שיחרוץ דינם — אם להורגם. מיד כשהובאו לפניו הכירם: היה זה אותו הלך שביקש את פרוסת הלחם. ראש הגזלנים הורה לשחררם ואף להחזיר להם את כל רכושם. ״היהודי הזה החיה את נפשי ועל כן לא ניפגע בו.״ עכשיו הבינה הרבנית את דברי הרבי משכבר הימים: חתכי מהלחם ולא יוקז דמי.<sup class='fn'><a href="#note-3">3</a></sup></p>
-<h3>סיפור: השידוך אצל רבי לוי יצחק</h3>
+<h3 id="sec-3">סיפור: השידוך אצל רבי לוי יצחק</h3>
 <p>פעם אחת היה רבי לוי יצחק מבארדיטשוב בלבוב. נסע אליו רבי אהרן ליב מפרמישלאן ונתן לו ״פתקא״ ובו פירט את עניניו בעבודת ה׳ ובעניניו הפרטיים. בתוך דבריו הזכיר את ענין השידוך של בנו הבכור — רבי יצחק. השיב לו רבי לוי יצחק שיחכה עוד מספר ימים בלבוב ויימצא השידוך. למחרת היום בא ללבוב רבי איתמר הכהן, צדיק נסתר, שהיה בכפר טשיזיקוב, וביקש מרבי לוי יצחק שידוך לבתו. קרא מיד רבי לוי יצחק לרבי אהרן ליב ויצא השידוך לפועל.<sup class='fn'><a href="#note-4">4</a></sup></p>
-<h3>מתורתו: ראשית — תפילה</h3>
+<h3 id="sec-4">מתורתו: ראשית — תפילה</h3>
 <p>יהודי כפרי התלונן לפניו שאין פרנסתו מצויה, כי הוא קם בשעה מוקדמת ורץ לעיסוקיו ורק בשעה מאוחרת הוא מתפנה לתפילה חטופה. הוכיחו רבי יצחק בדרכי נועם ואמר:</p>
 <blockquote>״ראשית חכמה יראת ה׳״ (תהלים קיא, י) וכתוב ״ראשית עריסותיכם חלה תרימו תרומה״ (במדבר טו, כ), כשקמים מהשינה יש קודם כל להתפלל לה׳ ואז תהיה פרנסתך מצויה.<span class="src">כמובא באלפסי, כרך א׳, עמ׳ 122</span></blockquote>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-5" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/yisrael-kalush.html">רבי ישראל מקאלוש</a></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך א׳, עמ׳ 122: בן רבי אהרן אריה ליב; תק״ל — ו׳ שבט ת״ר; כהונה בחיי אביו על מקום דודו רבי דוד; בניו וחתניו.</li><li id="note-2">עדות רבי מאיריל ורבי ישראל מרוז׳ין: שם, עמ׳ 122 (אור המאיר, עמ׳ 9).</li><li id="note-3">סיפור החלה והגזלן: שם, עמ׳ 122 (אור המאיר, עמ׳ 15).</li><li id="note-4">סיפור השידוך אצל רבי לוי יצחק: שם, עמ׳ 122.</li><li id="note-5">״ראשית חכמה״: שם, עמ׳ 122.</li><li id="note-6">קואורדינטות קאלוש (49.04417, 24.35972): ויקיפדיה, Kalush, Ukraine.</li></ol></div>
+<div class="notes"><h3 id="sec-6" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך א׳, עמ׳ 122: בן רבי אהרן אריה ליב; תק״ל — ו׳ שבט ת״ר; כהונה בחיי אביו על מקום דודו רבי דוד; בניו וחתניו.</li><li id="note-2">עדות רבי מאיריל ורבי ישראל מרוז׳ין: שם, עמ׳ 122 (אור המאיר, עמ׳ 9).</li><li id="note-3">סיפור החלה והגזלן: שם, עמ׳ 122 (אור המאיר, עמ׳ 15).</li><li id="note-4">סיפור השידוך אצל רבי לוי יצחק: שם, עמ׳ 122.</li><li id="note-5">״ראשית חכמה״: שם, עמ׳ 122.</li><li id="note-6">קואורדינטות קאלוש (49.04417, 24.35972): ויקיפדיה, Kalush, Ukraine.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

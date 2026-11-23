@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי יוסף קאליש מאמשינוב</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מתורתו</a></li><li><a href="#sec-3">צוואתו</a></li><li><a href="#sec-4">תלמידיו</a></li><li><a href="#sec-5">מה שלא ידוע</a></li><li><a href="#sec-6">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי יוסף קאליש מאמשינוב</h2>
 <p class="subtitle">בן רבי מנחם מאמשינוב; האדמו״ר השלישי מאמשינוב</p>
@@ -27,24 +33,26 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי מנחם קאליש מאמשינוב (ערך 1624)</dd></div><div><dt>חותנו</dt><dd>חתן רבי חיים אלעזר ואקס מפיטריקוב</dd></div><div><dt>רבנות</dt><dd>רב באוסטרובה; משנת תרע״ח (1918) מילא את מקום אביו באמשינוב, וכיהן כאדמו״ר 18 שנה</dd></div><div><dt>פטירתו</dt><dd>נסתלק באוטווצק בג׳ בשבט תרצ״ו (1936); נטמן בבית הקברות בוורשה</dd></div><div><dt>שמו</dt><dd>עת לידתו היה סבו רבי יעקב דוד מאמשינוב בעיר מעראנו אשר באיטליה. כשנתבשר על הולדת נכדו כתב לאביו רבי מנחם: ׳ראה פניך לא פללתי והנה הראה אותי אלקים גם את זרעך׳ (בראשית מח, יא), ועל כן קרא רבי מנחם לבנו — יוסף</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/amshinov.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">אמשינוב</span></a><a class="rel" href="../dynasty/vurka.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">שושלת וורקא</span></a><a class="rel" href="../rebbe/menachem-amshinov.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי מנחם קאליש מאמשינוב</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן רבי מנחם מאמשינוב. היה חתן רבי חיים אלעזר ואקס מפיטריקוב. כיהן כרב באוסטרובה, ומשנת תרע״ח מילא את מקום אביו באמשינוב. היה מפורסם כגדול בתורה, וכבית אבותיו היה מלא אהבה לכל אדם מישראל. לא אדמו״ר בלבד היה, כי אם אב נאמן ומסור: לא חסך כל מאמץ וטירחה לעזור לכל יהודי בכל מקום שהוא. כשהתאונן לפניו מישהו על איזה מקרה שהוא, לא זז משם עד שמצא לו עצה ותושיה.</p>
 <p>בסעודת אירוסיו עם בתו של רבי חיים אלעזר ואקס הציע לו הסבא רבי ישראל יהושע מקוטנא שיאמר דברי תורה. השיב לו החתן הצעיר: ידוע שכל עיקר הפלפול בנוי על בניה וסתירה — זה מקשה וזה מתרץ, זה בונה וזה סותר. אמור מעתה: אם לדידי לא קשה כלום, ממילא אין צורך בתירוץ ובפלפול.</p>
-<h3>מתורתו</h3>
+<h3 id="sec-2">מתורתו</h3>
 <p>על (בראשית כה, כא) ׳ויעתר לו ד׳ ותהר רבקה אשתו׳ דרש:</p>
 <blockquote>׳לו׳ ולא ׳לה׳ — שאין דומה תפילת צדיק בן רשע לתפילת צדיק בן צדיק.<span class="src">׳פנינים יקרים׳, ח״א, תל אביב תשט״ז, עמ׳ ס״ג (כמובא אצל אלפסי, כרך ג׳, ערך 1630)</span></blockquote>
 <p>יצחק חשב שבזכותו אינו ראוי להוליד, ולכן ביקש שייוושע בזכות אשתו הצדקת, וזהו ׳לנוכח אשתו׳. כדי להדגיש שהתפילה לא נתקבלה בזכות אשתו מדגיש רש״י את הדברים ׳לו׳ — ולא ׳לה׳, להודיעך שתפילתו נתקבלה אך ורק בזכותו.</p>
-<h3>צוואתו</h3>
+<h3 id="sec-3">צוואתו</h3>
 <p>בצוואתו, מיום כ״א באדר תרצ״ד, פה וורשא, כתב:</p>
 <blockquote>וכל הידידים שלי כולם ובפרט הקרואים בחבורתנו יחד וגם לכל המיודעים הנני מבקש לזכור אותי גם כן לטובה תמיד, ובפרט בשעת לימוד תורתנו הקדושה ובשעת התפילות, שאחיה אנכי גם כן נזכר עמהם לפני ה׳ יתברך ברחמים וברצון.<span class="src">צוואתו, כ״א באדר תרצ״ד, וורשא (נדפסה בספר ׳ארזי הלבנון׳; כמובא אצל אלפסי, כרך ג׳, ערך 1630)</span></blockquote>
-<h3 data-i18n="students">תלמידיו</h3>
+<h3 id="sec-4" data-i18n="students">תלמידיו</h3>
 <div class="linkchips"><a class="chip" href="../rebbe/yaakov-david-amshinov-2.html">רבי יעקב דוד קאליש מאמשינוב (השני)</a><a class="chip" href="../rebbe/yitzchak-amshinov-ny.html">רבי יצחק קאליש מאמשינוב־ניו יורק</a></div>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>בכותרת הערך אצל אלפסי נדפסו שתי שנים שגויות: לידה תרל״ה ופטירה תרע״ו. התיקון — תרל״ח (1878) ותרצ״ו (1936) — לפי ויקיפדיה העברית (ג׳ בשבט תרצ״ו, ינואר 1936), והוא מתחייב מן הערך עצמו: צוואתו מתוארכת לכ״א באדר תרצ״ד, ומילא את מקום אביו משנת תרע״ח.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1630, עמ׳ 1630–1631 (קובץ OCR p0250–p0251; כותרת הערך ברורה ׳1630׳; הצלב ׳(1694)׳ הוא טעות קריאה של (1624)) — פרק ׳רבי יוסף קאליש מאמשינוב׳: תולדותיו, עליו, תורתו וצוואתו.</li><li id="note-2">ויקיפדיה העברית, ׳יוסף קאליש׳: נולד תרל״ח (1878), נפטר ג׳ בשבט תרצ״ו, ינואר 1936, באוטווצק; רבה של אוסטרוב מזובייצקה.</li><li id="note-3">הסיפור על סעודת האירוסין: דוד ויסברוד, ׳ארזי הלבנון׳, תל אביב תשט״ו, עמ׳ 202, כמצוין בערך; הסיפור על לידתו: הרב דוד הלחמי, ׳חכמי ישראל׳, תל אביב תשי״ח, עמ׳ שצ״ה.</li></ol></div>
+<div class="unknown"><h3 id="sec-5" data-i18n="unknown">מה שלא ידוע</h3><p>בכותרת הערך אצל אלפסי נדפסו שתי שנים שגויות: לידה תרל״ה ופטירה תרע״ו. התיקון — תרל״ח (1878) ותרצ״ו (1936) — לפי ויקיפדיה העברית (ג׳ בשבט תרצ״ו, ינואר 1936), והוא מתחייב מן הערך עצמו: צוואתו מתוארכת לכ״א באדר תרצ״ד, ומילא את מקום אביו משנת תרע״ח.</p></div>
+<div class="notes"><h3 id="sec-6" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 1630, עמ׳ 1630–1631 (קובץ OCR p0250–p0251; כותרת הערך ברורה ׳1630׳; הצלב ׳(1694)׳ הוא טעות קריאה של (1624)) — פרק ׳רבי יוסף קאליש מאמשינוב׳: תולדותיו, עליו, תורתו וצוואתו.</li><li id="note-2">ויקיפדיה העברית, ׳יוסף קאליש׳: נולד תרל״ח (1878), נפטר ג׳ בשבט תרצ״ו, ינואר 1936, באוטווצק; רבה של אוסטרוב מזובייצקה.</li><li id="note-3">הסיפור על סעודת האירוסין: דוד ויסברוד, ׳ארזי הלבנון׳, תל אביב תשט״ו, עמ׳ 202, כמצוין בערך; הסיפור על לידתו: הרב דוד הלחמי, ׳חכמי ישראל׳, תל אביב תשי״ח, עמ׳ שצ״ה.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

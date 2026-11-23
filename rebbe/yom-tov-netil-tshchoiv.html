@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי יום טוב נעטיל מטשכויב</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">עליו</a></li><li><a href="#sec-3">מתורתו</a></li><li><a href="#sec-4">מה שלא ידוע</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי יום טוב נעטיל מטשכויב</h2>
 <p class="subtitle">מגדולי תלמידיו של החוזה מלובלין; רב בטשכויב וראב״ד לובלין; נפטר י״ג בטבת תקע״ז</p>
@@ -28,20 +34,22 @@
 <dl class="facts"><div><dt>רבו</dt><dd>החוזה מלובלין — היה שולח אליו את השאלות בהלכה שנתעוררו בבית מדרשו ובביתו</dd></div><div><dt>רבנותו</dt><dd>רב בטשכויב; ראב״ד לובלין</dd></div><div><dt>ספרו</dt><dd>׳טהור רעיונים׳ על הש״ס (ורשה תר״ס)</dd></div><div><dt>פטירתו</dt><dd>י״ג בטבת תקע״ז (1 בינואר 1817)</dd></div></dl>
 <p><b data-i18n="books">ספריו:</b> ׳טהור רעיונים׳ על הש״ס</p>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/tshchoiv.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">טשכויב</span></a><a class="rel" href="../dynasty/lublin.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">לובלין — תלמידי החוזה</span></a><a class="rel" href="../rebbe/chozeh-lublin.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">החוזה מלובלין</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>מגדולי תלמידיו של החוזה מלובלין. היה גדול בתורה, והיה נכבד גם בעיני ׳ראש הברזל׳ של לובלין. החוזה היה שולח אליו את השאלות בהלכה שנתעוררו בבית מדרשו ובביתו. כיהן כרב בטשכויב וכראב״ד לובלין. חיבר את הספר ׳טהור רעיונים׳ על הש״ס.</p>
-<h3>עליו</h3>
+<h3 id="sec-2">עליו</h3>
 <p>כך סיפר נכד המחבר בהקדמתו לספר ׳טהור רעיונים׳, ממה שסיפר לו בלובלין איש אמונה, זקן ושבע ימים, ששמע גם כן מפי מגידי אמת: פעם אחת הלשינו על אדמו״ר הקדוש מלובלין מלשינות שקר, ובעבור זה הרחיק נדוד לנסוע לליבוונע, והיה שם בראש השנה; גם אבי זקני היה עמו, והיו מתפללים בבית המדרש. אדמו״ר הרבי מלובלין עקר רגליו, ואבי זקני עוד שהה בתפילתו, וציווה לשליח ציבור לחכות על אבי זקני עד שיגמור את השמונה עשרה. לאחר שאבי זקני עקר את רגליו, אמר לאדמו״ר כי המלשין המבקש את נפש אדמו״ר חלף ועבר מן העולם — ואמר לו אדמו״ר: אמת, אמת!</p>
-<h3>מתורתו</h3>
+<h3 id="sec-3">מתורתו</h3>
 <p>׳אם רואה אדם שיסורין באים עליו, יפשפש במעשיו. פשפש ולא מצא, יתלה בביטול תורה׳ (ברכות ה, א). אפשר לומר שאין בעל הרחמים פוגע בנפשות תחילה, ואם רואה שיסורין באים עליו יתלה בביטול תורה — כי הטעם הוא שאינו מעניש תחילה את הנפש, כי דין בעל חוב יש לו, ודינו מדאורייתא בזבורית (גיטין נ, א). אבל בביטול תורה נעשה עלבון לתורה, ודינו כדין מזיק, ודינו לשלם מעידית (שם מח, ב).</p>
 <p>׳תנא דבי רבי ישמעאל: מעביר ראשון ראשון, וכן היא המידה. אמר רבא: ועון עצמו אינו נמחק, דאי איכא רובא עוונות מחשיב בהדייהו׳ (ראש השנה יז, א). וקשה: מה רצה רבא? וכי לא נח לו שיוותר הקב״ה אף על העוון הראשון? אלא רבא עצמו סבר שהטיה לרעה אינה אלא אם יש שתי עוונות, אבל כשהוא עושה תשובה מאהבה, ממילא הזדונות נעשו לו כזכויות (יומא פו, ב) — ואם כן, בזה שהקב״ה מעביר לו עוון ראשון, הוא יפסיד כשיעשה תשובה את הזכות שתהיה לו מן העבירה הראשונה. על כן בא רבא ואמר שהעוון עצמו אינו נמחק, אם איכא רובא בהדיה — והיינו כשיעשה תשובה מאהבה, ואז מכל עוון נעשה לו זכות, ואז מצטרף העוון הראשון להכריע לכף זכות.</p>
 <p>׳חייב אדם לבסומי בפוריא עד דלא ידע בין ארור המן לברוך מרדכי׳ (מגילה ז, ב). יש לדקדק למה הקדים המן למרדכי? אך ידוע הוא שהמן הוא הסטרא אחרא, ומרדכי הוא מצד הסיטרא דקדושה. המן עם הכולל הוא במניין צ״ו, ואין צו אלא עבודה זרה (סנהדרין נו, ב). אנו בבחינת בינונים, ועומדים אנו בין המצרים — בין הקדושה לבין הסטרא אחרא. ועל כן אמרו חז״ל: בהגיענו לעת כזאת, אנחנו חייבים להתבסם, ולהיות לנו מתוק מדבש, ולקרב עצמנו בגודל אהבתנו לה׳ יתברך, עד שלא נעמוד בין ארור המן לברוך מרדכי — היינו בין המצרים — אלא נקרב עצמנו לגמרי לצד הקדושה, כמו שהיה בשעת הנס.</p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שם העיר ׳ליבוונע׳ בסיפור על החוזה נדפס כך ואינו מזוהה כאן. כינויו של רב לובלין, ׳ראש הברזל׳, נדפס כך בערך ולא בורר מיהו. שנת לידתו אינה נזכרת בערך. כותרת הערך נדפסה ב־OCR ׳־ 2099 ־׳, והיא טעות קריאה של 2029 — סדר הסריקה מוכיח: 2029 בעמ׳ 483, בין 2028 (עמ׳ 482) ל־2030 (עמ׳ 484).</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 2029 בפרק תלמידי החוזה מלובלין, עמ׳ 483–484 — תולדותיו, עליו ותורתו (מספרו ׳טהור רעיונים׳).</li><li id="note-2">שם הספר ׳טהור רעיונים׳ מאושר בקטלוג מכירה (Bidspirit, תפארת 21/7/2021, פריט 17): &#x27;טהור רעיונים על התורה, מאת הרה״ק יום טוב נעטיל, ורשה תר״ס, 1900&#x27;.</li><li id="note-3">י״ג בטבת תקע״ז = 1 בינואר 1817 (יום ד׳).</li></ol></div>
+<div class="unknown"><h3 id="sec-4" data-i18n="unknown">מה שלא ידוע</h3><p>שם העיר ׳ליבוונע׳ בסיפור על החוזה נדפס כך ואינו מזוהה כאן. כינויו של רב לובלין, ׳ראש הברזל׳, נדפס כך בערך ולא בורר מיהו. שנת לידתו אינה נזכרת בערך. כותרת הערך נדפסה ב־OCR ׳־ 2099 ־׳, והיא טעות קריאה של 2029 — סדר הסריקה מוכיח: 2029 בעמ׳ 483, בין 2028 (עמ׳ 482) ל־2030 (עמ׳ 484).</p></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות, כרך ג׳, ערך 2029 בפרק תלמידי החוזה מלובלין, עמ׳ 483–484 — תולדותיו, עליו ותורתו (מספרו ׳טהור רעיונים׳).</li><li id="note-2">שם הספר ׳טהור רעיונים׳ מאושר בקטלוג מכירה (Bidspirit, תפארת 21/7/2021, פריט 17): &#x27;טהור רעיונים על התורה, מאת הרה״ק יום טוב נעטיל, ורשה תר״ס, 1900&#x27;.</li><li id="note-3">י״ג בטבת תקע״ז = 1 בינואר 1817 (יום ד׳).</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

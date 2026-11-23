@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי שלמה זלמן וולטפרייד מטומשוב</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">עליו: בליל כ״ב באלול תרצ״ט</a></li><li><a href="#sec-3">מתורתו</a></li><li><a href="#sec-4">מה שלא ידוע</a></li><li><a href="#sec-5">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי שלמה זלמן וולטפרייד מטומשוב</h2>
 <p class="subtitle">בן רבי אברהם משה מרוספשה · דור רביעי לשושלת פשדבורז</p>
@@ -27,24 +33,26 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>נולד</dt><dd>תר״ל (1870)</dd></div><div><dt>אביו</dt><dd>רבי אברהם משה מרוספשה</dd></div><div><dt>חתן</dt><dd>רבי פנחס רבינוביץ מקינצק־פשיסחא</dd></div><div><dt>כיהן</dt><dd>אדמו״ר בטומשוב־מזובייצק; משנת תרצ״ה — בלודז׳</dd></div><div><dt>ניספה</dt><dd>בשואה; לפי ידיעה אחת בוורשה, ולפי ידיעה אחרת נהרג עם אשתו הרבנית עוד בשנת תש״ב</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/tomashov-mazowiecki.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">טומשוב־מזובייצק</span></a><a class="rel" href="../dynasty/pshedborz.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">פשדבורז</span></a><a class="rel" href="../rebbe/avraham-moshe-rospsha.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי אברהם משה וולטפרייד מרוספשה</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>חתן רבי פנחס רבינוביץ מקינצק־פשיסחא. אדמו״ר בטומשוב־מזובייצק, ומשנת תרצ״ה עבר ללודז׳. היה עובד ה׳ נורא ועצום; התמדתו בתורה היתה מפליאה, ועד לאחר חצות לא פסק פיו מגירסא ומתפילה. משך שעות תמימות היה מסתגר ומתבודד לחלוטין, ואף לבניו אסור היה להיכנס אל החדר שלו. עם זאת היה נוח לבריות ובעל סבלנות יוצאת מהכלל. צרות כלל ישראל נגעו עד לבו, והיה ממרר בבכי ממש ומזעזע לב כל שומעיו.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>תלמיד חכם גדול היה, ודברי התורה שהיה משמיע על שולחנו היו תמיד מלאי תוכן ועשירי רעיונות. כל דבר תורה היה שזור באלפי נימין של אהבת ישראל. עבודתו ביום הכפורים היתה נוגעת עד הלב: בערב יום הכפורים היה הרבי שופך דמעות כמים על צרות ישראל, וכל הקהל היה בוכה אתו בבכי תמרורים.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>בתקופת השואה עבר לוורשה, וסופו המר לא ידוע. לפי ידיעה אחת ניספה בוורשה, ולפי ידיעה אחרת הוא נהרג עם אשתו הרבנית עוד בשנת תש״ב.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>עליו: בליל כ״ב באלול תרצ״ט</h3>
+<h3 id="sec-2">עליו: בליל כ״ב באלול תרצ״ט</h3>
 <p>על ימיו של רבי שלמה זלמן בגיטו סיפר הרב קניגסברג: בליל כ״ב באלול תרצ״ט נכנסתי אל הרבי כדי לשאול מה לעשות. הרבי אמר לי: אני אינני הולך. זכותו של אבי — שבלילה זה חל יום השנה שלו — תגן עלי. תוך כדי דיבור התייפח בדמעות שליש. נשארתי אצלו כל אותו הלילה ולא אשכח אותו לילה כל ימי חיי. אפשר היה לחוש כיצד רבי שלמה זלמן בוקע שחקים ממש בתפילתו. הוא נכנס לחדרו להתייחד עם קונו, ומהחדר הגיעו אלי צעקות מרות: אבא, אבא! יהודים נתונים בצרה! ועל כל צעקה שהיה משמיע היה דמי קופא בעורקי. זוכרני שהרבי לא החסיר אפילו יום אחד מללכת למקוה. הוא היה עדיין מעוטר זקן ומעוטר פרווה שקיבל מירושת אביו האדמו״ר. הגרמנים לא עצרוהו.<sup class='fn'><a href="#note-2">2</a></sup></p>
 <p>כשהפצרתי בו שלא יילך, מחמת הסכנה, ענה:</p>
 <blockquote>כל עוד אנכי לבוש פרוותו של אבא — לא יאונה לי כל רע!<span class="src">״אלה אזכרה״, חלק ה׳, עמ׳ 232, כמובא אצל אלפסי</span></blockquote>
 <p>בשעה שנשתדך רבי אברהם משה מראספשה עם רבי פנחס מקינצק, שבתו נישאה לרבי שלמה זלמן, היה רבי אברהם משה בשמחה יתירה: ״הושבתי את בני בקן של יראת שמים.״<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>מתורתו</h3>
+<h3 id="sec-3">מתורתו</h3>
 <p>על ״ויקרא פרעה שם יוסף צפנת פענח ויתן לו את אסנת בת פוטי פרע״ (בראשית מא, מה) לימד: קשה הסמיכות של יוסף לנתינת אסנת לו לאשה. והנה מצינו בספרי קבלה שהפוגם ח״ו בברית קודש אינו יכול לומר עתידות על להבא, והתרגום על ״צפנת פענח״ הוא ״דמטמרן גליין ליה״ — שניבא על העתידות. מזה ראיה שלא פגם ח״ו, וממילא לא היה נטען באשה ח״ו.<sup class='fn'><a href="#note-3">3</a></sup></p>
 <p>על הגמרא (ברכות נד, ב) ״ארבעה צריכין להודות: חולה, יורדי הים, והולכי מדבריות, וחבוש״ לימד על פי הזהר הקדוש: בני ישראל הם הצדיקים, העומדים במדרגה גדולה — אפילו אם הם ביבשה, כלומר בשלוה ובהשקט, אף על פי כן דומה להם כאילו הם בתוך הים, ומתפללים תמיד על עצמם. וזה הכוונה בגמרא: על הצדיקים שהם תמיד מתפללים ומודים להשי״ת על נסים ונפלאות שעושה עמם, אפילו אם אינם ח״ו בהצרות הנ״ל — דומה להם כאילו היו להם הצרות, ועל כן ״צריכין להודות״.<sup class='fn'><a href="#note-4">4</a></sup></p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>שנת פטירתו אינה ודאית: לפי ידיעה אחת ניספה בוורשה, ולפי ידיעה אחרת נהרג עם אשתו הרבנית עוד בשנת תש״ב (1942); שנת 1942 נרשמה כאן כהשערה לפי הידיעה השנייה.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, עמ׳ 1366–1367 (קובצי OCR p0053–p0054) — פרק ״רבי שלמה זלמן וולטפרייד מטומשוב״: תולדותיו, עליו ותורתו.</li><li id="note-2">סיפור הגיטו ו״פרוותו של אבא״: ״אלה אזכרה״ חלק ה׳ עמ׳ 232, כמובא שם; עליו: שם עמ׳ 291, כמובא שם.</li><li id="note-3">״צפנת פענח״: מתוך ״הבאר״, כרך ראשון, חלק שלישי, עמ׳ כ׳, כמובא שם.</li><li id="note-4">״ארבעה צריכין להודות״: שם, כרך רביעי, עמ׳ שכ״ח, כמובא שם.</li></ol></div>
+<div class="unknown"><h3 id="sec-4" data-i18n="unknown">מה שלא ידוע</h3><p>שנת פטירתו אינה ודאית: לפי ידיעה אחת ניספה בוורשה, ולפי ידיעה אחרת נהרג עם אשתו הרבנית עוד בשנת תש״ב (1942); שנת 1942 נרשמה כאן כהשערה לפי הידיעה השנייה.</p></div>
+<div class="notes"><h3 id="sec-5" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ג׳, עמ׳ 1366–1367 (קובצי OCR p0053–p0054) — פרק ״רבי שלמה זלמן וולטפרייד מטומשוב״: תולדותיו, עליו ותורתו.</li><li id="note-2">סיפור הגיטו ו״פרוותו של אבא״: ״אלה אזכרה״ חלק ה׳ עמ׳ 232, כמובא שם; עליו: שם עמ׳ 291, כמובא שם.</li><li id="note-3">״צפנת פענח״: מתוך ״הבאר״, כרך ראשון, חלק שלישי, עמ׳ כ׳, כמובא שם.</li><li id="note-4">״ארבעה צריכין להודות״: שם, כרך רביעי, עמ׳ שכ״ח, כמובא שם.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

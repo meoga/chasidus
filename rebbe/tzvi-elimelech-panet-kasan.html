@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי צבי אלימלך פאנעט מקאסאן</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">תורתו</a></li><li><a href="#sec-3">מה שלא ידוע</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי צבי אלימלך פאנעט מקאסאן</h2>
 <p class="subtitle">בן רבי חיים אלתר</p>
@@ -27,18 +33,20 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי חיים אלתר</dd></div><div><dt>עיר</dt><dd>קאסאן</dd></div><div><dt>תאריכים</dt><dd>— ה׳ בשבט תרע״ט</dd></div><div><dt>דור</dt><dd>דור חמישי</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/kasan.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">קאסאן</span></a><a class="rel" href="../dynasty/tash.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">שושלת טאש - קאסאני</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן רבי יוסף רוטנברג מקאסאני (2427) דור חמישי לרבי משולם פייט מטאטי (2495) אדמו"ר שליט"א מקוסון - בני ברק<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>יתגדל חשם וישתלם הכסא, ואמרינו לפני אדון כל יירצה, באלה הדברים מאמרים ודרושים, תוכם רצוף שלל רעיונים, הקים את בית מדרשו בבני ברק בהצלחה בלתי רגילה. כאשר זכיתי בעניי בזכות אבותי הקדושים, לשכון בחצרות איש תבונות ועצה. למד בישיבת "שפת אמת" והיה בה | בית ד' עם חברים מקשיבים, בשרתי צדק בקהל רב מדי מן המצויינים. מחבר "הצבי והצדק" על התורה. שבת קודש ובמועדים, זמנין בדברי אגדה ממללים ולעתים על דרך דרוש מפלפלים, אלו ואלו ביחוד מיחדים, הצבי<sup class='fn'><a href="#note-1">1</a></sup></p>
-<h3>תורתו</h3>
+<h3 id="sec-2">תורתו</h3>
 <p>והצדק לחי עולמים. "לעיני כל ישראל" - סיום ספר דברים. לנעוץ סוף התורה בתחילתה: "בראשית ברא אלקים": רש"י על הפסוק הראשון צבי וכבוד ותפארה, למען אתי ורעי אדברה נא, ינחני בבראשית כתב: "אמר רבי יצחק לא היה צריך להתחיל את במעגלי צדק ובמדה נכונה, דרכי הספר קצתם אספרה, התורה... אלא משום "כח מעשיו הגיד לעמו". כל הארץ של | אתנצל מה הנחני עד הנה, להתוודע ולהגלות בשער בת הקב"ה, הוא בראה... וברצונו נטלה מהם". יש לתמוה: כל | ובים הכוונה. כד הועא טליא כבר תשעה שנין או עשרה, התחלת התורה בבראשית היה להוציא מאומות העולם שלא | קרוא נקראתי אל אאמו"ר זצ"ל החדרה, ונתן בידי קונטרס יבואו בטענות אלינו "לסטים אתם". האם אומות העולם יאמינו | חלק מכורך לתפארה, ויען ויאמר אלי בקול חיבה, אחת למה שכתוב שכל הארץ של הקב"ה והוא נותנה למי שהוא | שאלתי ממך בני וזאת ההוראה, עשה לך מעתה הרגל וחובה, רוצה על כן מסיימת התורה: "לכל המורא הגדול אשר עשה לכתוב בתוכו תדיר חידושי תורה, ונעניתי לו כיאות מתוך<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>משה לעיני בני ישראל" - לאחר שאומות העולם ראו ויראו כבוד ומורא. מני אז נתן עלי ביותר דעתו הטהורה, לעורר שהקב"ה משנה הטבע ומפתח הבריאה בידו, ממילא יאמינו לבי לאהבת הכתיבה, והטעים בצוף אמרתו כי נעמה, שתיא שהוא יוצר הכל. ע"י ה"מורא הגדול" יהיה "בראשית ברא | יתד ופינה להשגת התורה והבנה, וסגולתה להמשיך כח אלקים" וממילא הוא יכול לתת את הארץ למי שהוא רוצה. החידוש והסברא. ואני נער לא אדע ואין אתי מאומה, אולם "הצבי והצדק" - הקטע האחדון על התורה) חזקה עלי פקודתו הברורה, לחדש ולכתוב בכל עת מצוא דבר חידוש בתורה, באשר כן היא בידינו צוואה ומסורה, בראשית - נוטריקון שב"ת יא"ד, כי שבת קודש הוא או- | מזקננו הגה"ק ו זכרונו לברכה, ובהקדמת ספרו הק ליהודים, בכל עת ובכל מצב, ואף בחשכת הגלות וע"י שב | אפסי ארץ היא לא נדפסה. קודש יוצאים מאפילה לאורה. (מתוך הקדמתו לספרו "הצבי והצדק", בנ ברק אישים שנכתבו עליהם ערכים ב"אנציקלופדיה לחסידות" וב"החסידות מדור לדור" ולא מצאנו דברי תורה משלהם או מאמרים עליהם</p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>מיקום העיר קאסאן לא אומת; שם הערך שוחזר מקריאה משובשת ב־OCR; הערך ארוך וה־OCR מערבב טורים — הסדר המקורי עלול להיות משובש</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3125 (עמ׳ 177).</li><li id="note-2">שם הערך כפי שנקרא ב־OCR: &#x27;רבי עצבי אלימלך פאנעט מקאסאני&#x27; — תוקן לפי כללי ה־OCR והקשר הערך.</li><li id="note-3">פרק הכרך: שושלת רבי משולם מטאש - קאסאני.</li></ol></div>
+<div class="unknown"><h3 id="sec-3" data-i18n="unknown">מה שלא ידוע</h3><p>מיקום העיר קאסאן לא אומת; שם הערך שוחזר מקריאה משובשת ב־OCR; הערך ארוך וה־OCR מערבב טורים — הסדר המקורי עלול להיות משובש</p></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 3125 (עמ׳ 177).</li><li id="note-2">שם הערך כפי שנקרא ב־OCR: &#x27;רבי עצבי אלימלך פאנעט מקאסאני&#x27; — תוקן לפי כללי ה־OCR והקשר הערך.</li><li id="note-3">פרק הכרך: שושלת רבי משולם מטאש - קאסאני.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

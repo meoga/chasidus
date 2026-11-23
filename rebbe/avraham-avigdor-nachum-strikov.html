@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי אברהם אביגדור נחום לנדא מסטריקוב</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">תורתו</a></li><li><a href="#sec-3">מה שלא ידוע</a></li><li><a href="#sec-4">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי אברהם אביגדור נחום לנדא מסטריקוב</h2>
 <p class="subtitle">בנו של רבי יעקב יצחק דן · האדמו״ר מסטריקוב בבני ברק</p>
@@ -27,17 +33,19 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>רבי יעקב יצחק דן מסטריקוב</dd></div><div><dt>חותנו</dt><dd>רבי מאיר וידיסלבסקי</dd></div><div><dt>רבנות</dt><dd>בעודנו אברך צעיר נבחר לרב בקינוב על מקום אביו</dd></div><div><dt>בשואה</dt><dd>ניצל בנסים בשואה והקים על תלה את חסידות סטריקוב</dd></div><div><dt>אופיו</dt><dd>מגדולי האדמו״רים בדורנו; גאון בתורה בקנה מידה עולמי; נערץ על כל החוגים והזרמים; הנהגתו בענוה ובצניעות למופת; דמות־מופת</dd></div><div><dt>בני ברק</dt><dd>גר בתל אביב עשרות שנים; בשנת תשמ״ו עבר לבני ברק; בשנת תש״ן ייסד שם את ישיבת &#x27;קול יעקב סטריקוב&#x27;</dd></div><div><dt>פטירה</dt><dd>ט״ז אלול תשס״א (4 בספטמבר 2001); נפטר בלא בנים</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/bnei-brak.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">בני ברק</span></a><a class="rel" href="../dynasty/tshenov-strykov.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">שושלת טשכנוב־סטריקוב</span></a><a class="rel" href="../rebbe/yaakov-yitzchak-dan-strikov.html"><span class="rel-label" data-i18n="rel_teacher">רבו</span><span class="rel-name">רבי יעקב יצחק דן מסטריקוב</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>בן רבי יעקב יצחק דן מסטריקוב, דור חמישי לרבי אברהם מטשכנוב, וחתן רבי מאיר וידיסלבסקי. בעודנו אברך צעיר נבחר לרב בקינוב על מקום אביו. ניצל בנסים בשואה והקים על תלה את חסידות סטריקוב.<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>מגדולי האדמו״רים בדורנו; גאון בתורה בקנה מידה עולמי. נערץ על כל החוגים והזרמים; הנהגתו בענוה ובצניעות למופת — דמות־מופת. גר בתל אביב עשרות שנים, ובשנת תשמ״ו עבר לבני ברק; בשנת תש״ן ייסד שם את ישיבת 'קול יעקב סטריקוב'. נפטר בט״ז אלול תשס״א (4 בספטמבר 2001), בלא בנים.<sup class='fn'><a href="#note-1">1</a><a href="#note-2">2</a></sup></p>
-<h3>תורתו</h3>
+<h3 id="sec-2">תורתו</h3>
 <p>מדרושיו לראש השנה (תשמ״א): מצות תקיעת שופר היא על ידי התעמקות בפנימיות התורה — כי בכל איש ישראל יש בפנימיותו חלק אלקי וניצוץ קדוש שלא שולט עליו היצר הרע. וכן ביאר, בשם בעל 'ישמח ישראל' בשם הרבי מבארדיטשוב, את הפסוק 'ועוד מעט ואין רשע' — שיש נקודה פנימית שאין שם רע; על ידי מצות תקיעת שופר מתעוררת ומתגלה הנקודה הפנימית והחלק האלקי שאצל כל איש ישראל, וממילא מתערבב השטן.<sup class='fn'><a href="#note-1">1</a></sup></p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>לא נמסר יום לידתו המדויק — רק שנת תר״פ (1920).</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 2970 (עמ׳ 45): &#x27;רבי אברהם אביגדור נחום לנדא מסטריקוב / בן רבי יעקב יצחק דן מסטריקוב (2269) / דור חמישי לרבי אברהם מטשכנוב / תר״פ — ט״ז באלול תשס״א — תל אביב, בני ברק&#x27;. (2269) הוא מספר ערכו של האב, 2969.</li><li id="note-2">ט״ז אלול תשס״א = 4 בספטמבר 2001 (convertdate). תר״פ = 1920.</li><li id="note-3">וויקיפדיה העברית, ערך &#x27;חסידות סטריקוב&#x27;: גר בתל אביב עשרות שנים, עבר לבני ברק בשנת תשמ״ו, ייסד את ישיבת &#x27;קול יעקב סטריקוב&#x27; בבני ברק בשנת תש״ן, ונפטר בט״ז אלול תשס״א בלא בנים.</li><li id="note-4">שם חותנו, &#x27;רבי מאיר וידיסלבסקי&#x27;, הוא כפי שנקרא ב־OCR; אם יתברר איות אחר, יש לתקן.</li><li id="note-5">דרשת השופר היא משיחתו לראש השנה תשמ״א ומקונטרס דא״ח של האדמו״ר לשבועות תשמ״ב, כפי שצוטטו באלפסי.</li></ol></div>
+<div class="unknown"><h3 id="sec-3" data-i18n="unknown">מה שלא ידוע</h3><p>לא נמסר יום לידתו המדויק — רק שנת תר״פ (1920).</p></div>
+<div class="notes"><h3 id="sec-4" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ד׳, ערך 2970 (עמ׳ 45): &#x27;רבי אברהם אביגדור נחום לנדא מסטריקוב / בן רבי יעקב יצחק דן מסטריקוב (2269) / דור חמישי לרבי אברהם מטשכנוב / תר״פ — ט״ז באלול תשס״א — תל אביב, בני ברק&#x27;. (2269) הוא מספר ערכו של האב, 2969.</li><li id="note-2">ט״ז אלול תשס״א = 4 בספטמבר 2001 (convertdate). תר״פ = 1920.</li><li id="note-3">וויקיפדיה העברית, ערך &#x27;חסידות סטריקוב&#x27;: גר בתל אביב עשרות שנים, עבר לבני ברק בשנת תשמ״ו, ייסד את ישיבת &#x27;קול יעקב סטריקוב&#x27; בבני ברק בשנת תש״ן, ונפטר בט״ז אלול תשס״א בלא בנים.</li><li id="note-4">שם חותנו, &#x27;רבי מאיר וידיסלבסקי&#x27;, הוא כפי שנקרא ב־OCR; אם יתברר איות אחר, יש לתקן.</li><li id="note-5">דרשת השופר היא משיחתו לראש השנה תשמ״א ומקונטרס דא״ח של האדמו״ר לשבועות תשמ״ב, כפי שצוטטו באלפסי.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>

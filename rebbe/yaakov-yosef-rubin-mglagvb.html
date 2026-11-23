@@ -9,17 +9,23 @@
 <link href="https://fonts.googleapis.com/css2?family=David+Libre:wght@500;700&family=Heebo:wght@400;500;600;700;800&family=Rubik:wght@500;700;900&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="../assets/style.css">
+<script>try{document.documentElement.setAttribute('data-theme',localStorage.getItem('chasidus-theme')==='dark'?'dark':'light')}catch(e){document.documentElement.setAttribute('data-theme','light')}</script>
 </head>
 <body>
 <div class="wrap">
 <header class="topbar">
 <a class="brand" href="../index.html" data-i18n="brand">חסידות</a>
 <nav class="nav"><a href="../index.html" data-i18n="nav_home">ראשי</a><a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a><a href="../dynasties.html" data-i18n="nav_dynasties">שושלות</a><a href="../towns.html" data-i18n="nav_towns">ערים</a><a href="../timeline.html" data-i18n="nav_timeline">ציר זמן</a><a href="../sources.html" data-i18n="nav_sources">מקורות</a></nav>
-<form class="searchbar" style="margin:0;max-width:260px" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
+<div class="top-actions">
+<form class="searchbar" action="../search.html" method="get"><input type="search" name="q" placeholder="חיפוש…" aria-label="חיפוש" data-i18n-ph="search_ph" data-i18n-aria="search_aria"><button type="submit" data-i18n="search_btn">חיפוש</button></form>
 <button id="langToggle" class="lang-toggle" type="button">EN</button>
+<button id="themeToggle" class="theme-toggle" type="button" aria-label="החלפת ערכת נושא">☾</button>
+</div>
 </header>
 <p class="crumbs"><a href="../index.html" data-i18n="nav_home">ראשי</a> / <a href="../rebbes.html" data-i18n="nav_rebbes">אדמו״רים</a> / רבי יעקב יוסף רובין מגלאגוב</p>
 <p><a class="backbtn" href="../rebbes.html" data-i18n="back_rebbes">← חזרה לכל האדמו״רים</a></p>
+<div class="art-layout">
+<nav class="toc" aria-label="תוכן העניינים"><p class="toc-title">תוכן</p><ul><li><a href="#sec-1">תולדותיו</a></li><li><a href="#sec-2">מה שלא ידוע</a></li><li><a href="#sec-3">הערות ומקורות</a></li></ul></nav>
 <article class="art">
 <h2>רבי יעקב יוסף רובין מגלאגוב</h2>
 <p class="subtitle">בנו של מנחם מנדל מגלאגוב</p>
@@ -27,15 +33,17 @@
 <p class="proof-note" data-i18n="proof_note">ערך זה טרם עבר הגהה — ייתכנו בו טעויות. אנו כותבים מחדש כל ערך, אחד אחרי השני, על פי מקורות.</p>
 <dl class="facts"><div><dt>אביו</dt><dd>מנחם מנדל מגלאגוב</dd></div><div><dt>דור</dt><dd>דור רביעי</dd></div><div><dt>תאריכים</dt><dd>כ״ד באב תרל״ד —</dd></div><div><dt>חתן</dt><dd>רבי לייבוש נייהויז מטומשוב ובזווש חתן רבי אלעזר</dd></div></dl>
 <nav class="relations" aria-label="קישורים" data-i18n-aria="rel_aria"><a class="rel" href="../town/glagob.html"><span class="rel-label" data-i18n="rel_town">עיר</span><span class="rel-name">גלאגוב</span></a><a class="rel" href="../dynasty/ropshitz.html"><span class="rel-label" data-i18n="rel_dynasty">שושלת</span><span class="rel-name">רופשיץ</span></a></nav>
-<h3>תולדותיו</h3>
+<h3 id="sec-1">תולדותיו</h3>
 <p>רבי יעקב יוסף רובין מגלאגוב בן רבי מנחם מנדל מגלאגוב (853) דור רביעי לשושטלת רופשיץ כ"ד באב תרל"ד + תולדותיו: ולחובת (צ"ל ולחיבת) הקודש הדפסנוהו והיינו (יביאהו) לידי התעוררות גדול לעבודת השי"ת באמת. חתן רבי לייבוש נייהויז מטומשוב ובזוו"ש חתן רבי אלעזר מקוז'ניץ. נפטר בחיי אביו, אבל למרות שלא כיהן כאדמו"ר ולאסוף הסכמות רבות אך למותר כי המפורסמים אץ היה נערץ מאד על צבור החסידים. צריכים לעדות וראיה, רק בהאי פחדא יתיבנא לבל יבוא איש אחד להשיג גבולי ולהדפיס שנית תוך עשר שנים ויגרום לי בניו: רבי אלטר משה חיים מריינזוב, רבי אלעזר מסאסוב. היזק, לזאת לקחתי שלשה הסכמות וחוט המשולש לא ינתק / . ושארית ישראל לא יעשו עולה. וזכרה לי אלקים לטובה, כל > הקדמה: היגיעות וטרחות שהיה לי בהעתקת הספר ולהגיה פעמיים…<sup class='fn'><a href="#note-1">1</a></sup></p>
 <p>הוור תתה והדן אותי לכף זכות יזכה בנועם ה' לחזות ותחת כנפיו | ע'ושי ק'וני ב'וראי (רמז לשמו 'יעקב'), אשר יעצני לדבר מצוה לחסות. רבה זו ועד כה עזרני על ידי תפילות, מעיינות חכמות, אבי ועתה אחינו בני ישראל, ובפרט תלמידיו ויודעיו ומכיריו - אדוני - זקני מו"ה מאיר הלוי זצלל"ה כן יוס"ף (רמז לשמו עורו נא התעוררו נא אהבתכם הישנה, אהבת צדיקים ורבכם. השני) נא חסדו עמדי תמיד, ויהי ה' אלקינו עמנו, כאשר היה / יַ --- ו ' | עם אבותעו. וזכות אבי - אדוני - זקני מגן עלי להיות סור ותנו כבוד לתורה, תורת אמת, שיצא מפיו ברוב קדושה מרע וטהרה וכבוא ספרו הק' אליכם, בכסף מלא קתו לכם ואל \ תחושו למיעוט כספכם למען להניח ברכה בתוך בתיכם וזכות 4 | בתוך דברי המאסף והמסדר המביא לבית הדפוס, הקטן הרב המחבר יגן עליכם והסיר כל…<sup class='fn'><a href="#note-1">1</a></sup></p>
-<div class="unknown"><h3 data-i18n="unknown">מה שלא ידוע</h3><p>מיקומה של גלאגוב לא אומת.</p></div>
-<div class="notes"><h3 data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך 889 (עמ׳ 367).</li><li id="note-2">בערך: בן רבי מנחם מנדל מגלאגוב (853).</li><li id="note-3">הערך ארוך ודו־טורי ב־OCR; הקטעים כאן מובאים כלשונם מהמקור, וייתכן שהסדר משובש.</li></ol></div>
+<div class="unknown"><h3 id="sec-2" data-i18n="unknown">מה שלא ידוע</h3><p>מיקומה של גלאגוב לא אומת.</p></div>
+<div class="notes"><h3 id="sec-3" data-i18n="notes">הערות ומקורות</h3><ol><li id="note-1">אלפסי, תורת החסידות כרך ב׳, ערך 889 (עמ׳ 367).</li><li id="note-2">בערך: בן רבי מנחם מנדל מגלאגוב (853).</li><li id="note-3">הערך ארוך ודו־טורי ב־OCR; הקטעים כאן מובאים כלשונם מהמקור, וייתכן שהסדר משובש.</li></ol></div>
 </article>
+</div>
 <footer><span data-i18n="footer_pre">חסידות · כרך א׳: הבעש״ט, המגיד ממזריטש, תלמידיהם ושושלתם — על פי אלפסי, תורת החסידות, ובבדיקה מול </span><a href="../sources.html"><span data-i18n="footer_sources">המקורות</span></a>.</footer>
 </div>
 <script src="../assets/lang.js"></script>
+<script src="../assets/ui.js"></script>
 
 </body>
 </html>
