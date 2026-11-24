@@ -896,7 +896,7 @@
  ],
  "Cheshvan-14": [
   {
-   "id": "avraham-elimelech-parlavb-karlin",
+   "id": "avraham-elimelech-karlin",
    "name": "רבי אברהם אלימלך פרלוב מקרלין",
    "dateH": "י״ד חשון תש״ג"
   },
@@ -1529,8 +1529,8 @@
  ],
  "Kislev-21": [
   {
-   "id": "yochanan-parlavb-lutsk-jerusalem",
-   "name": "רבי יוחנן פרלוב מלוצק -ירושלים",
+   "id": "yochanan-lutsk",
+   "name": "רבי יוחנן פרלוב מלוצק",
    "dateH": "כ״א כסלו תשט״ז"
   },
   {
