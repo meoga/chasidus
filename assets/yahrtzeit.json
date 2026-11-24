@@ -5520,11 +5520,6 @@
    "id": "tzvi-meir-panet",
    "name": "רבי צבי מאיר פאנעט",
    "dateH": "ב׳ תמוז תשס״ג"
-  },
-  {
-   "id": "shlomo-karlin",
-   "name": "רבי שלמה מקרלין",
-   "dateH": "ב׳ תמוז תקנ״ב"
   }
  ],
  "Tammuz-3": [
@@ -5928,6 +5923,11 @@
    "id": "tzvi-hirsch-rudnik-rudnik",
    "name": "רבי צבי הירש מרודניק",
    "dateH": "כ״ב תמוז תשמ״א"
+  },
+  {
+   "id": "shlomo-karlin",
+   "name": "רבי שלמה מקרלין",
+   "dateH": "כ״ב תמוז תקנ״ב"
   }
  ],
  "Tammuz-23": [
