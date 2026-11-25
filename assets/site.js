@@ -12,7 +12,16 @@ function initMap(){
       towns.filter(function(t){ return t.lat !== null && t.lon !== null; }).forEach(function(t){
         var m = L.marker([t.lat, t.lon]).addTo(map);
         m.bindPopup('<b><a href="' + t.url + '">' + t.name + '</a></b><br>' + (t.country || ''));
+        m.bindTooltip(t.name, {permanent: true, direction: 'top', offset: [0, -10],
+          className: 'town-label t' + (t.tier || 0)});
       });
+      function setLabels(){
+        var z = map.getZoom(), c = map.getContainer().classList;
+        c.remove('labels-0', 'labels-1', 'labels-2');
+        c.add(z >= 8 ? 'labels-0' : (z >= 6 ? 'labels-1' : 'labels-2'));
+      }
+      map.on('zoomend', setLabels);
+      setLabels();
     });
     var eraLayer = null;
     function showEra(eras, key){
@@ -53,7 +62,9 @@ function initMap(){
     map = L.map(el).setView([lat, lon], 12);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
       {maxZoom: 18, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
-    L.marker([lat, lon]).addTo(map).bindPopup(el.getAttribute('data-name') || '');
+    L.marker([lat, lon]).addTo(map).bindPopup(el.getAttribute('data-name') || '')
+      .bindTooltip(el.getAttribute('data-name') || '', {permanent: true, direction: 'top',
+        offset: [0, -10], className: 'town-label'});
   }
 }
 function initHome(){
