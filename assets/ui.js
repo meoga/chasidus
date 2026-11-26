@@ -1,6 +1,6 @@
 (function(){
 'use strict';
-/* Chasidus site UI: theme toggle, picture lightbox, contents sidebar.
+/* Chasidus site UI: theme toggle, picture lightbox, contents sidebar, '/' search shortcut.
    Generated at build time from build.py (UI_JS). No content lives here. */
 
 /* --- theme: light is the default; the saved choice wins --- */
@@ -20,6 +20,18 @@ if(toggle){
     applyTheme(next);
   });
 }
+
+/* --- keyboard shortcut: press '/' to focus search --- */
+document.addEventListener('keydown', function(e){
+  if(e.key !== '/' || e.ctrlKey || e.metaKey || e.altKey){ return; }
+  var tag = (document.activeElement && document.activeElement.tagName || '').toLowerCase();
+  if(tag === 'input' || tag === 'textarea' || tag === 'select'){ return; }
+  var input = document.querySelector('.home-head .searchbar input, .topbar .searchbar input, #q');
+  if(input){
+    e.preventDefault();
+    input.focus();
+  }
+});
 
 /* --- lightbox: click any figure picture to see it larger --- */
 var box = null;
