@@ -1,7 +1,24 @@
 (function(){
 'use strict';
-/* Chasidus site UI: SVG theme toggle, picture lightbox, contents sidebar,
-   '/' search shortcut, and instant filter bar for long directory lists. */
+/* Chasidus site UI: SVG theme toggle, favicon injection, picture lightbox,
+   contents sidebar, '/' search shortcut, and instant filter bar for long lists. */
+
+/* --- favicon: inject assets/favicon.svg on every page --- */
+(function injectFavicon(){
+  if(document.querySelector('link[rel="icon"]')){ return; }
+  var css = document.querySelector('link[href*="assets/style.css"]');
+  var prefix = 'assets/';
+  if(css){
+    var href = css.getAttribute('href') || '';
+    var idx = href.indexOf('assets/');
+    if(idx !== -1){ prefix = href.slice(0, idx + 7); }
+  }
+  var link = document.createElement('link');
+  link.rel = 'icon';
+  link.type = 'image/svg+xml';
+  link.href = prefix + 'favicon.svg';
+  document.head.appendChild(link);
+})();
 
 var MOON_SVG = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
 var SUN_SVG = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>';
@@ -140,7 +157,6 @@ function initDirEnhancements(){
   if(tlFirst && tlFirst.parentNode){
     attachDirFilter(tlFirst.parentNode, '.tl-row');
   }
-  /* Compact long dynasty descriptions on dynasties.html */
   if(location.pathname.indexOf('dynasties') !== -1){
     document.querySelectorAll('.dyn > p').forEach(function(p){
       if((p.textContent || '').length > 220){

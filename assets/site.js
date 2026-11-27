@@ -83,6 +83,12 @@ function initHome(){
       var heb = pair[0], idx = pair[1];
       var h = heb[iso];
       if(!h){ yz.innerHTML = '<p>' + T('js_yz_nohebrew') + '</p>'; return; }
+      var yzCard = yz.closest ? yz.closest('.hcard') : yz.parentNode;
+      var fine = yzCard ? yzCard.querySelector('.fine') : null;
+      if(fine){
+        var isAdar = (h.m === 'Adar' || h.m === 'Adar I' || h.m === 'Adar II');
+        fine.style.display = isAdar ? 'block' : 'none';
+      }
       var head = '<p class="hebrew-date">' + T('js_yz_today') + ', ' + h.dh + (LG() === 'he' ? ' ב' : ' ') + h.mh + ' ' + h.yh + '</p>';
       var keys = [h.m + '-' + h.d];
       if(h.m === 'Adar II') keys.push('Adar-' + h.d);

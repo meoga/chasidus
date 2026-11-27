@@ -188,7 +188,21 @@ html[data-theme="dark"] .filters button.active{color:#10160f}
 }
 @media(min-width:960px){
   .home-cards{grid-template-columns:repeat(3,minmax(0,1fr))}
-  .home-cards .hcard:has(.recent-row){grid-column:span 2}
+  .home-cards .hcard:has(.recent-row){
+    grid-column:span 2;
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:0 24px;
+    align-items:start;
+  }
+  .home-cards .hcard:has(.recent-row) > h2{
+    grid-column:1 / -1;
+  }
+  .home-cards .hcard:has(.recent-row) .recent-row{
+    border-top:0;
+    border-bottom:1px solid var(--line);
+    padding:12px 0;
+  }
 }
 .hcard{
   background:var(--panel);border:1px solid var(--line);border-radius:var(--r-lg);
@@ -209,6 +223,7 @@ html[data-theme="dark"] .filters button.active{color:#10160f}
 .hcard h3 a:hover{color:var(--accent2)}
 .hcard p{margin:0 0 10px;font-size:.96rem}
 .hcard .fine{font-size:.82rem;color:var(--muted);line-height:1.55}
+.hcard:has(#yahrtzeit) .fine{display:none}
 .hcard figure{margin:0 auto 12px;max-width:100%}
 .hcard figure img{border-radius:var(--r-md);border:1px solid var(--line)}
 .hebrew-date{font-weight:700;font-size:1rem;color:var(--accent2);margin-bottom:10px}
