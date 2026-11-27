@@ -11,6 +11,8 @@ window.chsT = t;
 window.chsLang = lang;
 function apply(){
   var l = lang();
+  document.documentElement.lang = l;
+  document.documentElement.dir = (l === 'en') ? 'ltr' : 'rtl';
   var btn = document.getElementById('langToggle');
   if(btn) btn.textContent = (l === 'he') ? 'EN' : 'עב';
   if(l !== 'en') return;

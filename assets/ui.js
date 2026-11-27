@@ -1,14 +1,17 @@
 (function(){
 'use strict';
-/* Chasidus site UI: theme toggle, picture lightbox, contents sidebar, '/' search shortcut.
-   Generated at build time from build.py (UI_JS). No content lives here. */
+/* Chasidus site UI: SVG theme toggle, picture lightbox, contents sidebar,
+   '/' search shortcut, and instant filter bar for long directory lists. */
+
+var MOON_SVG = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+var SUN_SVG = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>';
 
 /* --- theme: light is the default; the saved choice wins --- */
 var root = document.documentElement;
 var toggle = document.getElementById('themeToggle');
 function applyTheme(t){
   root.setAttribute('data-theme', t === 'dark' ? 'dark' : 'light');
-  if(toggle){ toggle.textContent = (t === 'dark') ? '\u2600' : '\u263E'; }
+  if(toggle){ toggle.innerHTML = (t === 'dark') ? SUN_SVG : MOON_SVG; }
 }
 var saved = null;
 try{ saved = localStorage.getItem('chasidus-theme'); }catch(e){}
@@ -93,5 +96,62 @@ if(toc && 'IntersectionObserver' in window){
     });
   }, {rootMargin: '-15% 0px -70% 0px'});
   heads.forEach(function(h){ obs.observe(h); });
+}
+
+/* --- directory quick filter for long lists (rebbes, towns, timeline) --- */
+function norm(s){
+  return (s || '').toLowerCase()
+    .replace(/[\u05f3\u2018\u2019`]/g, "'")
+    .replace(/[\u05f4\u201c\u201d]/g, '"');
+}
+function attachDirFilter(container, itemSelector){
+  var items = Array.prototype.slice.call(container.querySelectorAll(itemSelector));
+  if(items.length < 30){ return; }
+  var isEn = (typeof window.chsLang === 'function' && window.chsLang() === 'en');
+  var bar = document.createElement('div');
+  bar.className = 'dir-filter';
+  var inp = document.createElement('input');
+  inp.type = 'search';
+  inp.placeholder = isEn ? 'Filter this list...' : 'סינון מהיר ברשימה (שם, עיר, שנה)...';
+  var cnt = document.createElement('span');
+  cnt.className = 'dir-count';
+  cnt.textContent = items.length + ' / ' + items.length;
+  bar.appendChild(inp);
+  bar.appendChild(cnt);
+  container.parentNode.insertBefore(bar, container);
+  inp.addEventListener('input', function(){
+    var q = norm(inp.value).trim();
+    var shown = 0;
+    items.forEach(function(el){
+      var match = !q || norm(el.textContent).indexOf(q) !== -1;
+      el.style.display = match ? '' : 'none';
+      if(match){ shown++; }
+    });
+    cnt.textContent = shown + ' / ' + items.length;
+  });
+}
+
+function initDirEnhancements(){
+  var rlist = document.querySelector('.rlist');
+  if(rlist && !document.getElementById('results')){
+    attachDirFilter(rlist, '.rrow');
+  }
+  var tlFirst = document.querySelector('.tl-row');
+  if(tlFirst && tlFirst.parentNode){
+    attachDirFilter(tlFirst.parentNode, '.tl-row');
+  }
+  /* Compact long dynasty descriptions on dynasties.html */
+  if(location.pathname.indexOf('dynasties') !== -1){
+    document.querySelectorAll('.dyn > p').forEach(function(p){
+      if((p.textContent || '').length > 220){
+        p.classList.add('dyn-excerpt');
+      }
+    });
+  }
+}
+if(document.readyState === 'loading'){
+  document.addEventListener('DOMContentLoaded', initDirEnhancements);
+} else {
+  initDirEnhancements();
 }
 })();
